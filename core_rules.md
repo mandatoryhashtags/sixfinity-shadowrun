@@ -259,9 +259,20 @@ Base movement for any character is 10 Yards.
 
 #### Initiative
 
-This is used for Initiative it is also used for Passive checks. Initiative is pre-determined to speed up combat
+This is used for Initiative it is also used for Passive checks. Initiative is pre-determined to speed up combat.
 
-Initiative = Reaction + Intuition + 1D6
+This can be modified with Courage, Augmentations, raising Attributes etc. The most attacks you can have in a single round is four. 
+
+Please note in Sixfinity you alway get 1 Major Action, and 1 Minor Action. The Extra Attacks are part of the Attack Major Action.
+
+| Init Score | Number of Attacks |
+| ---------- | ----------------- |
+| 1-10       | 1                 |
+| 11-20      | 2                 |
+| 21-30      | 3                 |
+| 31-40      | 4                 |
+
+Initiative = Reaction + Intuition + 4
 
 #### Courage Points
 
