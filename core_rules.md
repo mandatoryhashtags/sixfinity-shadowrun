@@ -19,6 +19,7 @@ V.06
 
 #### V0.6
 - Began converting Shadowrun to Sixfinity
+- Thanks to Elsie (my wife) we instituted the Effect Dice.
 
 #### V0.5
 - Changed Attribute names to another TTRPG list that I like which is more verbose
@@ -27,11 +28,10 @@ V.06
 - Rewrote Combat Section, Streamlined Action Economy
 - Added rules for various kinds of tests
 - Added Contacts/Allies
-- Removed XP system for character creation and went BACK to the priority system because XP was way too hard for young players
+- Removed XP system for character creation and went BACK to the priority system because BP was way too hard for young players
 - Added/Removed some Edges/Flaws and reworked costs from BP to XP
 - Eliminated Reactions thanks to the changes in Attributes
-- Added Effect Dice Mechanic
-- Thanks to Elsie (my wife) we eliminated {Threshold}'s from the game entirely and based it purely on Effect. 
+
 
 #### V0.4
 - Added character generation rules
@@ -44,7 +44,7 @@ V.06
 - Added new skills
 - Reworked skills
 - Changed Autofire to a Reaction to avoid
-- Changed Burst Fire to use Net Hits or Effect
+- Changed Burst Fire to use Net Effect
 - Extensive rework of Magic System - pretty much a complete gut job
 - Removed professions
 - Removed backgrounds
@@ -211,13 +211,13 @@ Final Touches and Derived Stats.
 
 Defense = REACTION + INTUITION
 
-Roll 3D6 and add Defense for a Defense roll. Roll for Effect.
+Roll 3D6 and add Defense for a Defense roll. Characters have Active Defense, NPC's have Passive Defense (10 + [Reaction + Intuition / 2] Rounded Up)
 
 #### Physical Health
 
 Physical Health = ([Body / 2] + 8) x3
 
-This is your Physical Health. If it reach zero you are bleeding to death. You will start at 0 and lose 1 point per round you are not stabalized. You can go into the negative equal to your Body. 
+This is your Physical Health. If it reach zero you are bleeding to death. You will start at 0 and lose 1 point per round you are not stabalized. You can go into the negative equal to your Lifeblood. 
 
 For Example Jared is hit by a Shotgun for 13. Jared only had 10 Physical left. So Jared drops to 0 and is Incapacitated. The next round Jared drops to -1, Jared has a Body of 5 so he can bleed until he is at -5 once he ticks to -6 he is dead. 
 
@@ -225,7 +225,7 @@ For Example Jared is hit by a Shotgun for 13. Jared only had 10 Physical left. S
 
 Stun Health = ([Willpower / 2] + 8) x3
 
-This is where Stun Damage is recorded. If it reaches 0 you start taking Physical Damage. 
+This is where Stun Damage is recorded. If it reaches 0 you start taking Physical Damage and you are at Disadvantage to most Tests until you take a Breather (see Healing). 
 
 #### Lifeblood
 
@@ -241,31 +241,26 @@ This is how much damage you can naturally ignore. It does not apply to Penetrati
 
 Example: Sarah is fighting a Security Guard. 
 
-The Security Guard fires and gets an Effect of 4. 
-
-Sarah defends rolling her Defenese and gets 1 Effect. The Security Guard has 3 Net Effect that will carry over as Damage. He is firing a Ruger Super Warhawk, with an Accuracy of 5, 9P Damage, and -2 AP.
-
-Sarah is wearing an Armored Jacket with has an 10 Armor Rating. 
-
-Damage Value = (9P + 3 Net Effect) - (10 Adjusted Armor Rating - (-2) AP). This leaves 4 Points 
-
-Sarah has a Toughness of 3. Normally she would take 1 point of Physical Damage. but the -2 AP applies to Toughness as it does not stop Penetrating Damage. So Sarah takes 3 Phiscal Damage. The Armor protected her, but the power of the Ruger punched a little damage through.
-
-Damage Taken = Damage Value - (3 Toughness -  (-2) AP)
+- Sarah is hit by a Ruger Super Warhawk (9P, AP –2). The attacker rolled 3 Effect, for a DV of 12.
+- Sarah’s Armor Jacket (10) is reduced by AP –2 → 8 effective Armor.
+- DV 12 – 8 Armor = 4 damage left.
+- Of this, 2 damage is penetrating and bypasses Toughness.
+- Sarah’s Toughness 3 absorbs the remaining 2 non-penetrating damage.
+- Final Result: 2 damage goes through.
 
 #### Movement
 
-Base movement for any character is 10 Yards.
+Base movement for any character is 10 + Agility in Yards.
 
 #### Initiative
 
 This is used for Initiative it is also used for Passive checks. Initiative is pre-determined to speed up combat.
 
-This can be modified with Courage, Augmentations, raising Attributes etc. The most attacks you can have in a single round is four. 
+This can be modified with Courage, Augmentations, raising Attributes etc. The most actions you can have in a single round is four. 
 
-Please note in Sixfinity you alway get 1 Major Action, and 1 Minor Action. The Extra Attacks are part of the Attack Major Action.
+Please note in Sixfinity you alway get 1 Major Action, and 1 Minor Action. See Initiative Section. 
 
-| Init Score | Number of Attacks |
+| Init Score | Number of Actions |
 | ---------- | ----------------- |
 | 1-10       | 1                 |
 | 11-20      | 2                 |
@@ -279,7 +274,7 @@ Initiative = Reaction + Intuition + 4
 List your Courage Rating after character creation.
 
 #### Limits
-Limits are your Effect limits. No matter how well you roll (the Rule of Six can get insane). There are limits to the body, those limits will limit how much Effect you can apply to situations. Often times you will be more limited by your equipment than your body. Accuracy on a weapon for example, is a limit to how much Effect you can apply as extra damage.
+Limits are your Effect limits. No matter how well you roll. There are limits to the body, those limits will limit how much Effect you can apply to situations. Often times you will be more limited by your equipment than your body. Accuracy on a weapon for example, is a limit to how much Effect you can apply as extra damage.
 
 ##### Mental
 
@@ -389,72 +384,69 @@ Nearly everything is a TEST or CHECK.
 
 Result = 3D6 + Ability Modifier + Skill Rank
 
-So what do we compare them to? Well your total is calculated as Effect (this is why the Effect Dice). Instead of Target Numbers you have a Threshold for things. Threshold is how much Effect you need to succeed at something. Its numeriaclly the same but for Gamemasters which already have a ton to do its a LOT less math. 
+You compare this result to a Target Number (below)
+
+### TN's
+
+| Difficulty | TN  | SR5e |
+| ---------- | --- | ---- |
+| Easy       | 6   | 1    |
+| Average    | 12  | 2    |
+| Hard       | 18  | 4    |
+| Very Hard  | 24  | 6    |
+| Extreme    | 30  | 8    |
 
 #### Rolling 18
+One of two things happen when you roll 6 on all three dice. 
 
-If you roll 6 on all three dice ... nothing special happens. Sorry. **EXCEPT** your Effect dice was a 6. The Rule of Six will come into play with that (below)
+1. If you succeeded at your test, you get to roll the Effect Dice again, once, and add the total to your Effect Dice for Effect.
+
+2. If you did not you get to add the new Roll to your Total for the Test. **This triggers the Rule of Six.**
+
+> Errata: In case 2 assuming you get a high enough Total to succeed at the roll your Effect is considered 6, you did after all start with a 6.
 
 #### Glitching
 
 Also called a Botch. 
 
-Remember how the Effect Dice is so amazing it has a Rule of Six? Well the good dice giveth, and the good dice taketh away. If you should have the misfortune of rolling a 1 on the Effect dice nothing terribly bad happens, this is called a Glitch. It just means that you lose an Effect as long as you are still over the Threshold you still succeed. Sometimes things just go wrong.
+When you roll a natural 1 on the effect dice; this is called a glitch or a botch. As long as you still beat the Target Number provided you are able to get a success. However, something will happen that did not go according to plan this is ruled by the Gamemaster but some suggestions are things like gun jammed requiring a Minor A ction to clear it. We treat this as a "Yes but..." siutation.
 
-And then ... sometimes things go **very** wrong. Should you have the .48% misfortune of rolling a 1 on all three dice. Well in that case roll the Effect Dice again, if it comes up a 1, roll again, if it comes up a 1 roll again. You see where this is likely going. For each 1 on the Effect Dice you lose 1 Effect. This is called a **critical glitch** sometimes bad things happen to good people.  
+What if you roll a natural 3? In that case you have a Critical Glitch. Critical Glitches can be quite bad it depends on the GM a common rule during combat is that the gun is so fouled up it takes a Major Action or it may be completely out of commission until you can make a Mechanics check to repair it. This is treated as a "No and..." situation. A roll of 3 always fails.
 
 
 ### The Rule of Six
 
-This is likely the **most** important rule in Sixfinity. This game is based around rolling 3D6. It has been indicated that one of your D6 should be a different color, called the Effect Dice, in the above rules for "The Rule of Six". The Rule of Six says anytime you roll a 6 (on the Effect Dice), you get to roll it again and add it to the total, if you roll 6 again you can add it and roll again. You can keep rolling as long as you roll 6 and add them to the total. This will tie into Effect, below. 
+The Rule of Six says anytime something says it Triggered the Rule of Six, you get to roll the Effect Dice again and add it to the total, if you roll 6 again you can add it and roll again. You can keep rolling as long as you roll 6 and add them to the total. This helps with your Total versus a TN but not your Effect.
 
-For example if Sarah rolls 3D6 +7 to attack a security guard and rolls, a 2, 2, and 6 on her Effect Dice, for a total of 10. Sarah re-rolls the Effect Dice and gets 6 again making her total 16, she rolls the 6 again and gets 6 again giving her a 22, she rolls 6 again and gets a 4 adding it to her roll she finishes with a 26. We would call that an Effect of 5.
+For example if Sarah rolls 3D6 +7 to attack a security guard and rolls, a 2, 2, and 6 on her Effect Dice, for a total of 10. Sarah re-rolls the Effect Dice and gets 6 again making her total 16, she rolls the 6 again and gets 6 again giving her a 22, she rolls 6 again and gets a 4 adding it to her roll she finishes with a 26.
+
 
 ### Effect
+This is where the game really takes off. As long as you succeeded at a Test you are considered to have an Effect of 1. In some cases (like combat) you need to know how well you did. In cases like this the Effect Dice result will tell you what your Effect is. There are Limits to how much Effect you can apply regardless of how much you ended up getting on the dice, or even from rolling a Nat 18. 
 
-This is where the game really takes off. The higher the player rolls the more Effective they are, the more Effect the get. 
+- You cannot exceed your Weapons Accuracy in Effect
+- You cannot exceed your Limits on your character
 
-This Effect Scale Chart below is a great reference for looking up what is required to get a certain number of Effect. But you just divide their roll by 6 (or if you want it to be harder or easier you can change it) the default is 6. It will be exceedingly rare to get above an Effect of 6 but it can happen. 
+#### Net Effect
 
-> Why is the default 6? Well I could day ... 3D6 average is 10.5 we usually round that up to 11. 11/2 is 5.5, round that up its 6. This has to do with the Skill Ratings. Or I could say the system is called Sixfinity ... so you know its in the name.
+This was added for Shadowrun.
 
-Now 99% of the time the Threshold is going to be 1 or 2, most often it will be 2. 
+On occasion loike breaking a Barrier, you need to compare the Effect Rating of the Barrier against your Effect and see if you got through it. 
 
-**Effect Scale Chart**
-
-| Effect -> | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  | 11  | 12  |
-| --------- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Roll      | 6   | 12  | 18  | 24  | 30  | 36  | 42  | 48  | 54  | 60  | 66  | 72  |
-
-> If I am feeling lazy I will just divide their roll by 5 in my head. Then subtract 1 off the Effect its pretty close typically. Why do I use 6 and not 5? Because I did a *ton* of math when I was working on this system and it was closest to the probability I was going for. Use 5 if you want, its your game I use 6. 
->
-
-**Threshold Chart**
-| Difficulty  | Threshold |
-| ----------- | --------- |
-| Easy        | 1         |
-| Standard    | 2         |
-| Challenging | 3         |
-| Hard        | 4         |
-| Very Hard   | 5-6       |
-| Extreme     | 7+        |
-
-
+In this case you take your `Effect - Target's Effect Rating` the result is **Net Effect** if its positive you won, if its not you failed. Often times when you succeed something happens like carry over damage. 
 
 ### Advantage and Disadvantage
 
-Advantage means you get an automatic Effect of 1.
+Advantage means you get an extra 1D6 added to roll and take the three highest.
 
-Disadvanatage means you are penalized by 1 Effect.
+Disadvanatage means you roll 4D6 and take the three lowest.
 
 
 ### Success Tests
-A Success test means you are counting on the Effect of the test versus {Threshold} or as an Opposed Test (below). The Effect will tell you how well the test did.
-
-Example Sarah rolls with Modifiers a 13. Her Effect is 2, the Threshold is also 2 so she succeeded. 
+A Success test means you are rolling your dice, adding your modifiers and comparing against a {TN}
 
 ### Opposed Tests
-An Opposed Test is where what you are rolling does not have a direct {Threshold} instead the opponents makes a specified Opposed Roll and whoever has the most Effect wins. Often time the "Net Effect" the amount of Effect 
+Is where you roll a specified test and your opponent rolls a specified test. You compare the results which ever is higher wins. On a tie the defender wins.
 
 ### Extended Tests
 
@@ -464,7 +456,7 @@ An Extended test has 3 Components:
 2. Number of Successful Attempts
 3. Time Interval Per Test
 
-Often written like this: Perform a Mechanics (15,5,1 day) Extended Test. This means the character must succeed at a Mechanics Test VS {Threshold} 15, they must do this 5 times, each attempt takes 1 day fail or succeed. 
+Often written like this: Perform a Mechanics (15,5,1 day) Extended Test. This means the character must succeed at a Mechanics Test VS {TN} 15, they must do this 5 times, each attempt takes 1 day fail or succeed. 
 
 ### Attribute Only Tests
 
@@ -508,8 +500,8 @@ A character can only spend Courage points on her own actions; she cannot spend i
 
 Spending Courage can do the following, players choice:
 
-- Push the Limit: Re-roll your Effect Die and add the new result to your Effect total. The Rule of Six applies.
-- Blitz: Roll the maximum of five Initiative Dice for a single Combat Turn. A character cannot both Blitz and Seize the Initiative in the same combat turn.
+- Push the Limit: Re-roll your Effect Die and add the new result to your Effect total. The Rule of Six applies. This triggers the same effect as if you had rolled a Nat 18. 
+- Blitz: Roll 5D6 and add it to your Initiative for the purposes of Turns in a Round. A character cannot both Blitz and Seize the Initiative in the same combat turn.
 - Seize the Initiative: Jump to the top of the initiative order. A character cannot both Blitz and Seize the Initiative in the same combat turn.
 - Dead Man’s Trigger: When reduced to 0 Physical Health or about to die, you immediately regain half your Physical Health. This can only be used once per Breather or Long Rest (5 minutes / 6 hours).
 - Close Call: Either negate the effects of one glitch or turn a critical glitch into a glitch.
@@ -520,7 +512,7 @@ Spending Courage can do the following, players choice:
 
 In certain drastic situations, even spending Courage may not be enough. A character can choose to burn a point of Courage permanently reducing his Courage attribute by 1 for one of the following effects:
 
-- Crits and Things: Burn Courage to automatically succeed on any test with exactly 4 net Effect. This ignores Limits, but you must be capable of attempting the action (e.g., you cannot repair a car without a Mechanics skill).
+- Crits and Things: Burn 1 Courage to get +10 to your roll and 6 Effect.
 - Not Dead Yet: When facing death you somehow survive. You still take all the negative effects of what happened such as lost limbs, you are just not dead. You are not dying either, you are stable.
 
 
@@ -572,7 +564,7 @@ A character with this quality reads, writes, and speaks a second language fluent
 
 Cost: 8 XP
 
-This character blends into a crowd; he’s seldom noticed and easily forgotten. He is unremarkable in every aspect of physical appearance. Anyone attempting to describe the character cannot come up with anything more precise than “average height, average build, average hair, etc.” Increase the {Threshold} tier for anyone to recall specific details about the character by 1. This means a Memory Test with a difficulty of Average ({Threshold} 10) becomes a Hard test ({Threshold} 15).
+This character blends into a crowd; he’s seldom noticed and easily forgotten. He is unremarkable in every aspect of physical appearance. Anyone attempting to describe the character cannot come up with anything more precise than “average height, average build, average hair, etc.” Increase the {TN} tier for anyone to recall specific details about the character by 1. This means a Memory Test with a difficulty of Average ({TN} 10) becomes a Hard test ({TN} 15).
 
 Individuals attempting to shadow or physically locate a character with the Blandness quality in a populated setting receive a –2 modifier on all tests related to their search. The same penalty applies if they’re asking around about the person based on the individual’s physical appearance. If the character acquires any visible tattoos, scars, or other distinguishing features, the bonuses from the Blandness quality go away until the distinctive features are removed from the character’s appearance.
 
@@ -898,7 +890,7 @@ Characters with the Uneducated quality are considered “unaware” in Knowledge
 
 Bonus: 7 XP
 
-A character with Unsteady Hands has mild shakes that affect the dexterity and finesse in his hands. The character suffers a –2 modifier for all Agility-based tests when symptoms manifest themselves. The condition could be physiological (an untreated genetic disorder or damaged nerves, for example), caused by psychological trauma, or even be symptomatic of age. Certain augmentations or medications can mask these symptoms under normal circumstances. Under more stressful situations in the course of the run, there is a chance the Unsteady Hands condition can reappear. The character makes an Agility + Body ({Threshold} 20) Test following a stressful encounter (combat, for example). A successful test means the character does not experience the symptoms of this condition (this time). A failed test causes the difficulties associated with unsteady hands to re-emerge, and they remain with the character for the remainder of the run.
+A character with Unsteady Hands has mild shakes that affect the dexterity and finesse in his hands. The character suffers a –2 modifier for all Agility-based tests when symptoms manifest themselves. The condition could be physiological (an untreated genetic disorder or damaged nerves, for example), caused by psychological trauma, or even be symptomatic of age. Certain augmentations or medications can mask these symptoms under normal circumstances. Under more stressful situations in the course of the run, there is a chance the Unsteady Hands condition can reappear. The character makes an Agility + Body ({TN} 20) Test following a stressful encounter (combat, for example). A successful test means the character does not experience the symptoms of this condition (this time). A failed test causes the difficulties associated with unsteady hands to re-emerge, and they remain with the character for the remainder of the run.
 
 #### Tracked (Layered)
 
@@ -1008,15 +1000,18 @@ Some skills are too technically demanding for you to default. In these cases, yo
 | *Alchemy*         | Magic            | Magic    | Enchanting    |
 | Animal Handling   | Charisma         | Mental   | Outdoors      |
 | Archery           | Agility          | Combat   | Outdoors      |
-| Arts and Crafts   | Intuition        | Mental   | -             |
+| Artisan           | Intuition        | Mental   | -             |
 | *Assensing*       | Intuition        | Magic    | Sorcery       |
+| *Astral Combat*   | Magic            | Magic    | -             |
 | Automatics        | Agility          | Combat   | Firearms      |
 | Blades            | Strength         | Combat   | Close Combat  |
 | Clubs             | Strength         | Combat   | Close Combat  |
 | Computers         | Logic            | Mental   | Electronics   |
 | *Counterspelling* | Magic            | Magic    | Sorcery       |
 | Deception         | Charisma         | Mental   | Acting        |
+| Cybercombat       | Logic            | Mental   | Cracking      |
 | Demolitions       | Logic            | Mental   | Engineering   |
+| Etiquette         | Charisma         | Mental   | Influence     |
 | First Aid         | Logic            | Mental   | Biotechnology |
 | Gunnery           | Agility          | Combat   | -             |
 | Gymnastics        | Agility          | Physical | Athletics     |
@@ -1037,6 +1032,7 @@ Some skills are too technically demanding for you to default. In these cases, yo
 | Sneaking          | Agility          | Physical | Stealth       |
 | *Spellcasting*    | Magic            | Magic    | Sorcery       |
 | Survival          | Willpower        | Mental   | Outdoors      |
+| *Summoning*       | Magic            | Magic    | Conjuring     |
 | Swimming          | Strength         | Physical | Athletics     |
 | Thrown Weapons    | Strength         | Combat   | -             |
 | Unarmed Combat    | Agility          | Combat   | Close Combat  |
@@ -1060,29 +1056,30 @@ Some skills are too technically demanding for you to default. In these cases, yo
 
 The list of Knowledge Skills is not Exhaustive. You are free to create new ones.
 
-#### Skill Descriptions
 
-##### Gymnastics (Agility)
+#### Active Skill Descriptions
 
-The Gymnastics skill covers physical activities that rely on quick movement, balance, hand-eye coordination, and grace. Heroes proficient in Gymnastics are typically avid sports or health enthusiasts, or even professional athletes.
+##### Alchemy (Magic)
 
-**Skill Uses:** Balance objects, balance on a ledge, catch objects, juggle, land properly after falling, perform gymnastics, skate gracefully, swing from a rope, tumble, walk a tightrope, walk on slippery surfaces, etc.
+Alchemy is used to create substances that store spells. Alchemy is most commonly used to brew potions, distill magical reagents, and even create orichalcum.
+
+Default: No
+
+Skill Group: Enchanting
+
+Specializations: By trigger (Command, Contact, Time), by spell type (Combat Spells, Detection Spells, etc.)
 
 ---
 
 ##### Animal Handling (Willpower)
 
-The Animal Handling skill covers the training, care, and control of animals, whether domesticated or wild. Heroes proficient in Animal Handling may be ranchers, trainers, hunters, or explorers who have developed strong bonds with creatures.
+This skill governs the training, care, riding (if they’re big enough), and control of non-sentient animals. Competent trainers have the ability to handle multiple animals. It is even possible to approach an untrained animal and get it to trust you, or at least not eat you.
 
-**Skill Uses:** Calm a frightened animal, command a trained mount or companion, detect signs of illness or injury in animals, direct pack animals, feed or care for livestock, interpret animal behavior, prevent an attack, ride or control an unfamiliar creature, teach tricks or commands, track animals through signs of movement, work with alien wildlife, etc.
+Default: Yes
 
----
+Skill Group: None
 
-##### Appraise (Logic)
-
-The Appraise skill measures your ability to judge the worth and authenticity of objects, materials, or valuables. Characters proficient in Appraise are often merchants, collectors, archaeologists, or treasure hunters.
-
-**Skill Uses:** Determine an item’s market value, detect counterfeits, estimate weight or purity of metals or gems, identify antiques, judge the authenticity of documents, evaluate trade goods, recognize cultural significance of artifacts.
+Specializations: By animal (Cat, Bird, Hell Hound, Horse, Dolphin, etc.), Herding, Riding, Training
 
 ---
 
@@ -1090,23 +1087,37 @@ The Appraise skill measures your ability to judge the worth and authenticity of 
 
 Archery governs the use of muscle-powered projectile weapons.
 
-**Skill Uses:** Bows, crossbows, slingshots.
+
 
 ---
 
-##### Arts and Crafts (Willpower)
+##### Artisan (Willpower)
 
-The Arts and Crafts skill covers activities involved in creating finely crafted and beautiful objects, as well as knowledge of the arts. Heroes proficient in Arts and Crafts include both professional artisans and dedicated hobbyists.
+This skill includes several different forms of artistic impression as well as the handcrafting of fine objects that would otherwise be produced on an assembly line. The world’s top artists and crafters are considered artisans.
 
-**Skill Uses:** Analyze art, cook, create art, create forgeries, decorate objects, disguise objects, illustrate, make furniture, perform carpentry, sculpt, sew, repair everyday objects, write stories, etc.
+Default: No
+
+Skill Group: None
+
+Specializations: By discipline (Cooking, Sculpting, Drawing, Carpentry, etc.)
 
 ---
+
+##### Assensing (Intuition)
+
+Assensing is a magic user’s ability to read and interpret fluctuations in the astral world. This skill allows practitioners to learn information by reading astral auras. Only characters capable of astral perception may take this skill. For more information, see Astral Perception.
+
+Default: No
+
+Skill Group: None
+
+Specializations: Aura Reading, Astral Signatures, by aura type (Metahumans, Spirits, Foci, Wards, etc.)
 
 ##### Athletics (Strength)
 
 The Athletics skill includes a wide range of physical activities centered around physical strength. Heroes proficient in Athletics are often professional or amateur athletes or have a profession that requires rigorous activity.
 
-**Skill Uses:** Carry or lift someone, climb, hold a door open or closed, jump, kick open a door, lift heavy objects, open a stuck window, push a vehicle, run, swim, throw or kick something (outside of combat), wrestle, etc.
+throw or kick something (outside of combat), wrestle, etc.
 
 ---
 
@@ -1114,7 +1125,7 @@ The Athletics skill includes a wide range of physical activities centered around
 
 The Automatics skill governs the use of personal firearms larger than a pistol, capable of autofire, but typically with a shorter barrel than a longarm.
 
-**Skill Uses:** Assault rifles, carbines, machine pistols, submachine guns.
+
 
 ---
 
@@ -1122,7 +1133,7 @@ The Automatics skill governs the use of personal firearms larger than a pistol, 
 
 The Blades skill governs the use of hand-held melee weapons that have a sharpened edge or point. This skill allows a character to use various knives, swords, and axes effectively.
 
-**Skill Uses:** Axes, knives, swords.
+
 
 ---
 
@@ -1130,31 +1141,49 @@ The Blades skill governs the use of hand-held melee weapons that have a sharpene
 
 Clubs governs the use of hand-held melee weapons that have no edge or blade. This skill allows a character to use any blunt, weighted item as a weapon, from a baseball bat to a tire iron to a chair leg.
 
-**Skill Uses:** Batons, hammers, saps, staves (two-handed clubs).
+
 
 ---
 
 ##### Computers (Logic)
 
-The Computers skill involves the use of standard computing machines, automated processes, and data-transferring systems that can be at the heart of many technologically advanced cultures.
+Computer is the base skill for interacting with the Matrix. It represents the ability to use computers and other Matrix- connected devices. The Computer skill focuses on understanding multiple operating systems. It does *cover* the ability to exploit code (Hacking) or strip down mainframes (Hardware).
 
-**Skill Uses:** Analyze data, build a computer, bypass login security, change data, defeat electronic security, encrypt or decrypt information, hack a system, operate a computer, plant a computer virus, plant data, play a computer game, program a computer, program a robot, read computer code, repair electronics, use computer knowledge, use a datapad.
+Default: Yes
+
+Skill Group: Electronics
+
+Specializations: By action (Edit File, Matrix Perception, Matrix Search, etc.)
 
 ---
 
 ##### Counterspelling (Magic)
 
-The Counterspelling skill governs the ability to disrupt, negate, or shield against hostile magical effects. Heroes proficient in Counterspelling learn to recognize spell structures and unravel them before they can take full effect.
+Counterspelling is a defensive skill used to defend against magical attacks and dispel sustained magical spells. See Counterspelling.
 
-**Skill Uses:** Dispel hostile magic, shield allies from incoming spells, counter ritual effects, disrupt magical traps or wards, recognize ongoing spellwork to interfere, nullify magical projectiles, weaken enchantments, resist curses, suppress magical zones temporarily.
+Default: No
+
+Skill Group: Sorcery
+
+Specializations: By spell type (Combat Spells, Detection Spells, etc.)
 
 ---
+
+##### Cybercombat (Logic)
+
+Cybercombat is the skill used by hackers to engage in combat on the Matrix. See Using Cybercombat
+
+Default: Yes
+
+Skill Group: Cracking
+
+Specializations: By target type (Devices, Grids, IC, Personas, Sprites, etc.)
 
 ##### Deception (Charisma)
 
 The Deception skill involves the creation of false beliefs, but this skill is useful for more than simply lying. While most people occasionally resort to momentary dishonesty, heroes proficient in Deception are practiced experts in the field, whether natural storytellers, professional salespeople, or con artists.
 
-**Skill Uses:** Act convincingly, bluff, mislead people, counterfeit documents, fast-talk, forge signatures, lie or dissemble, make promises that can’t or won’t be kept, misdirect or divert others’ attention, scam someone, etc.
+kept, misdirect or divert others’ attention, scam someone, etc.
 
 ---
 
@@ -1162,15 +1191,35 @@ The Deception skill involves the creation of false beliefs, but this skill is us
 
 The Demolitions skill covers the safe handling, placement, and detonation of explosives. Heroes with this skill might be combat engineers, miners, or saboteurs.
 
-**Skill Uses:** Disarm explosives, identify explosives by sight or chemical makeup, place charges for maximum effect, set timers or remote triggers, demolish structures, clear obstacles, create improvised explosive devices, handle volatile compounds.
+structures, clear obstacles, create improvised explosive devices, handle volatile compounds.
 
 ---
 
-##### Gaming (Logic)
+##### Etiquette (Charisma)
 
-The Gaming skill reflects knowledge of games of chance, strategy, and skill, as well as the ability to exploit them. Heroes proficient in Gaming may be gamblers, tacticians, or puzzle-solvers.
+Etiquette represents the level of understanding and awareness of proper social rituals. The skill works as a sort of social version of Sneak, allowing you to move unimpeded through various social situations. Etiquette also serves as a social safety net in case a player botches a social situation in a way a skilled character would not. See Using Etiquette.
 
-**Skill Uses:** Play cards or dice games, exploit odds in games of chance, cheat subtly, recognize when someone is cheating, master board or strategy games, calculate probabilities quickly, bluff during play, analyze puzzles or riddles.
+Default: Yes
+
+Skill Group: Influence
+
+Specializations: By culture or subculture (Corporate, High Society, Media, Mercenary, Street, Yakuza, etc.)
+
+##### First Aid (Logic)
+
+First Aid is the ability to provide emergency medical assistance similar to that of a paramedic. This skill may be used to stabilize wounds and prevent characters from dying. First Aid cannot be used to perform surgery or repair damaged implants. For more information, see Healing
+
+Default: Yes
+
+Skill Group: Biotech
+
+Specializations: By treatment (Gunshot Wounds, Resuscitation, Broken Bones, Burns, etc.)
+
+##### Gymnastics (Agility)
+
+The Gymnastics skill covers physical activities that rely on quick movement, balance, hand-eye coordination, and grace. Heroes proficient in Gymnastics are typically avid sports or health enthusiasts, or even professional athletes.
+
+tumble, walk a tightrope, walk on slippery surfaces, etc.
 
 ---
 
@@ -1178,15 +1227,7 @@ The Gaming skill reflects knowledge of games of chance, strategy, and skill, as 
 
 The Gunnery skill governs the use of **vehicle-mounted, ship-based, and heavy personal weapons**. Heroes proficient in Gunnery include soldiers, starship crew, tank operators, and heavy weapons specialists.
 
-**Skill Uses:** Operate vehicle-mounted guns, fire ship turrets, use heavy machine guns, fire rocket or missile launchers, operate artillery, target and track moving vehicles, maintain heavy weapons, adjust for range and velocity.
-
----
-
-##### History (Logic)
-
-The History skill represents knowledge of recorded events, cultures, and timelines, as well as the ability to connect them to current circumstances. Heroes proficient in History might be scholars, archivists, or simply very well-read.
-
-**Skill Uses:** Recall historical events, identify famous figures, analyze causes and consequences of wars or treaties, place artifacts in historical context, understand timelines of civilizations, recognize repeating cultural patterns, use historical precedent in problem-solving.
+vehicles, maintain heavy weapons, adjust for range and velocity.
 
 ---
 
@@ -1194,7 +1235,7 @@ The History skill represents knowledge of recorded events, cultures, and timelin
 
 The Insight skill involves an intuitive understanding of other people—their motivations, how they think, and how they behave—and has a wide range of personal and professional applications. Heroes proficient in Insight include those with a natural knack for reading people, as well as professionals whose jobs involve ascertaining what other people are truly thinking.
 
-**Skill Uses:** Understand literature and religious texts, conduct interviews or interrogations, detect lies, determine hidden motives, give advice, negotiate, predict others’ actions, see through a disguise, show empathy, etc.
+predict others’ actions, see through a disguise, show empathy, etc.
 
 ---
 
@@ -1202,7 +1243,7 @@ The Insight skill involves an intuitive understanding of other people—their mo
 
 The Intimidation skill is used to manipulate people through awe or fear. Doing so can be as subtle as adopting a posture that gives a hero a sense of authority, or as direct as threatening someone with bodily harm. Heroes who are proficient in Intimidation include those with a naturally menacing demeanor, as well as those whose profession requires them to sway others’ decisions in order to be successful.
 
-**Skill Uses:** Clear a room, demand surrender, incite violence, issue commands, extort money or favors, inspire respect or fear, interrogate or interview, make peace, make threats, negotiate deals, etc.
+peace, make threats, negotiate deals, etc.
 
 ---
 
@@ -1210,15 +1251,7 @@ The Intimidation skill is used to manipulate people through awe or fear. Doing s
 
 The Investigation skill covers activities useful for learning hidden details about people, places, and events. Heroes proficient in Investigation are experts at solving mysteries of all kinds, whether amateur sleuths or professional investigators, spies, or journalists.
 
-**Skill Uses:** Analyze a crime scene, analyze financial statements, conduct surveillance, do research, find government records, find hidden objects or people, follow clues, use tracking devices, search a room, etc.
-
----
-
-##### Law (Logic)
-
-The Law skill represents knowledge of legal systems, statutes, and precedents. Heroes proficient in Law might be lawyers, judges, law enforcement officers, or criminals who know the system inside and out.
-
-**Skill Uses:** Interpret statutes, argue cases, recall legal precedents, draft contracts, recognize jurisdictional authority, identify loopholes, give legal advice, analyze evidence in legal context, exploit weaknesses in the law.
+follow clues, use tracking devices, search a room, etc.
 
 ---
 
@@ -1226,15 +1259,7 @@ The Law skill represents knowledge of legal systems, statutes, and precedents. H
 
 This skill governs the use of all personal firearms with extended barrels, especially those designed to be used braced against the shoulder.
 
-**Skill Uses:** Shotguns, sniper rifles, sporting rifles.
 
----
-
-##### Lore (Logic)
-
-The Lore skill represents knowledge of myths, legends, traditions, and esoteric information—whether scholarly, religious, or folkloric. Heroes proficient in Lore may be priests, historians, sages, or occultists.
-
-**Skill Uses:** Analyze ancient texts, decipher religious symbols, determine the origins of a story, identify legendary artifacts, recall myths about creatures, recognize historical events or figures, research supernatural traditions, understand cultural rituals, uncover hidden meanings in old tales, etc.
 
 ---
 
@@ -1242,23 +1267,19 @@ The Lore skill represents knowledge of myths, legends, traditions, and esoteric 
 
 Mechanics covers a wide range of disciplines involving the design and construction of useful machines and mechanisms. Heroes proficient in Mechanics are happiest with a good set of tools and a problem to solve, whether amateur grease monkeys or professional architects, technicians, and engineers.
 
-**Skill Uses:** Build vehicles, create machines, demolish structures, draft blueprints, engineer products, fix electrical systems, fix plumbing, maintain machinery, make traps, make weapons, operate machinery, repair broken machines, sabotage machinery, tune up a vehicle, use 3D printing, use physics knowledge, weld, work with metal.
+make traps, make weapons, operate machinery, repair broken machines, sabotage machinery, tune up a vehicle, use 3D printing, use physics knowledge, weld, work with metal.
 
 ---
 
 ##### Medicine (Logic)
 
-The Medicine skill covers the knowledge needed to give medical care to living creatures. This knowledge can be based on different medical traditions or approaches. Many heroes proficient in Medicine work in the medical field, but others have learned what they know in the course of undertaking high-risk endeavors.
+Medicine is used to perform advanced medical procedures such as surgeries. It includes long-term medical support for disease and illness, and the skill can be used to diagnose a character’s medical condition. This skill is used to implant or remove cybernetics and bioware but cannot be used to repair or maintain implanted devices. For more information, see Healing
 
-**Skill Uses:** Administer medical care, analyze blood samples, care for patients, create medications or poisons, design prosthetics, diagnose ailments, provide prognoses, perform an autopsy, perform surgery, prescribe medication, give first aid, etc.
+Default: No
 
----
+Skill Group: Biotech
 
-##### Natural Sciences (Logic)
-
-The Natural Sciences skill covers the various physical, biological, and laboratory sciences, such as chemistry, physics, and biology. Heroes proficient in Natural Sciences might focus on knowledge and research for their own ends, or have a background in the academic world.
-
-**Skill Uses:** Analyze materials, create chemical compounds, do complex mathematics, identify plants, animals, and minerals, make accurate measurements, perform controlled experiments, read scientific data, recall scientific facts, understand natural systems, etc.
+Specializations: Cosmetic Surgery, Extended Care, Implant Surgery, Magical Health, Organ Culture, Trauma Surgery
 
 ---
 
@@ -1266,7 +1287,7 @@ The Natural Sciences skill covers the various physical, biological, and laborato
 
 The Perception skill involves all of a character’s senses, although sight and hearing are its most common applications. Heroes proficient in Perception have trained themselves to notice minute details in their surroundings, and to maintain a high level of focus and awareness, whether instinctively or as part of their formal training.
 
-**Skill Uses:** Analyze food or drink, avoid ambushes, estimate temperature, notice fine details, find secret doors, hear faint sounds, locate hidden objects or creatures, navigate dark places, notice minor details in the environment, smell dangerous materials, read lips, identify distant creatures or objects, etc.
+creatures, navigate dark places, notice minor details in the environment, smell dangerous materials, read lips, identify distant creatures or objects, etc.
 
 ---
 
@@ -1274,7 +1295,7 @@ The Perception skill involves all of a character’s senses, although sight and 
 
 The Performance skill entails entertaining others, whether a full crowd of spectators or an audience of one. Heroes proficient in Performance might make their living as actors, musicians, or writers, or they might simply have a knack for influencing people by stirring up specific emotions and ideas.
 
-**Skill Uses:** Act, apply makeup, busk for cash, conduct an orchestra, create empathy, dance, draw attention to oneself, evoke specific emotions, impersonate someone, lead other performers, play musical instruments, seduce others, tell stories, write and sing music, etc.
+someone, lead other performers, play musical instruments, seduce others, tell stories, write and sing music, etc.
 
 ---
 
@@ -1282,7 +1303,7 @@ The Performance skill entails entertaining others, whether a full crowd of spect
 
 The Persuasion skill covers the various methods of convincing others, influencing or shaping their impressions, or outright manipulating them. Heroes proficient in Persuasion might have a natural knack for making others see things their way, or they might be professionally dedicated to the arts of negotiation and manipulation.
 
-**Skill Uses:** Ask for favors, bargain, beg for charity, convince others, influence others’ perceptions, make deals, make friends, engage in politics, negotiate, offer bribes, seduce others, sell products, win arguments, whine effectively, etc.
+offer bribes, seduce others, sell products, win arguments, whine effectively, etc.
 
 ---
 
@@ -1290,7 +1311,7 @@ The Persuasion skill covers the various methods of convincing others, influencin
 
 The Piloting skill allows characters to specialize in operating and controlling a wide range of ships, vehicles, and other crafts, both on and off-world. Heroes proficient in Piloting might be professional pilots or captains of ships, or they might simply be wealthy amateurs with high levels of skill.
 
-**Skill Uses:** Identify ships and vehicles, know astronomical facts, make evasive maneuvers, navigate, pilot an auxiliary craft, pilot a starship, understand ship systems, etc.
+systems, etc.
 
 ---
 
@@ -1298,7 +1319,7 @@ The Piloting skill allows characters to specialize in operating and controlling 
 
 The Pistols skill governs the use of all types of hand-held firearms, including holdouts, light and heavy pistols, and tasers.
 
-**Skill Uses:** Holdouts, revolvers, semi-automatics, tasers.
+
 
 ---
 
@@ -1306,7 +1327,7 @@ The Pistols skill governs the use of all types of hand-held firearms, including 
 
 The Security skill covers both creating security systems and defeating them. Heroes proficient in Security might have gained their expertise as security experts, through general interest, or as professional criminals.
 
-**Skill Uses:** Pick a lock, bypass a fence, defeat alarm systems, evade security cameras, detect and disarm traps, escape bonds, infiltrate a building or site, install and operate security systems, open a safe, secure a building, pry open a door, etc.
+install and operate security systems, open a safe, secure a building, pry open a door, etc.
 
 ---
 
@@ -1314,23 +1335,19 @@ The Security skill covers both creating security systems and defeating them. Her
 
 The Sleight of Hand skill has been used to entertain audiences and to commit petty crimes since the dawn of human interaction. Heroes with this talent are adept at nearly anything that requires quick and deft hands.
 
-**Skill Uses:** Perform magic tricks, pick pockets, juggle, palm objects, switch items undetected, cheat at games, create diversions with hand movement.
 
----
-
-##### Social Sciences (Logic)
-
-The Social Sciences skill covers the various observation-driven sciences dealing with the study of peoples and cultures. Heroes proficient in Social Sciences might be well-traveled lovers of alien cultures, or professionals in academia or public service.
-
-**Skill Uses:** Cite historical events, know and follow social customs, engage in academic debate, conduct social research, create archaeological digs, work as psychologists, scientifically study languages and their structures, recall facts about alien civilizations, understand religious practices, etc.
 
 ---
 
 ##### Spellcasting (Magic)
 
-The Spellcasting skill governs the control of magical energy in the form of spells. See *Chapter 9: Magic*.
+The Spellcasting skill permits the character to channel mana into effects known as spells. See Spellcasting.
 
-**Skill Uses:** By spell type (Combat Spells, Detection Spells, etc.).
+Default: No
+
+Skill Group: Sorcery
+
+Specializations: By spell type (Combat Spells, Detection Spells, etc.)
 
 ---
 
@@ -1338,31 +1355,24 @@ The Spellcasting skill governs the control of magical energy in the form of spel
 
 Sneaking is the ideal skill for anyone who wants to avoid trouble—or to create trouble for those not expecting it. Heroes proficient in Sneaking might be hunters (professional or casual), explorers, soldiers, thieves, or spies.
 
-**Skill Uses:** Blend into a crowd, cover your tracks, create an ambush, create and use camouflage, create distractions, escape from bonds, hide objects, hide yourself or others, move quietly, perform magic tricks, pick someone’s pocket, shadow someone, etc.
+yourself or others, move quietly, perform magic tricks, pick someone’s pocket, shadow someone, etc.
 
 ---
 
-##### Streetwise (Willpower)
+##### Summoning (Magic)
+This skill is used to summon spirits. See Summoning.
 
-The Streetwise skill is focused on urban environments, and it allows characters to understand the nature of a city, find what they need, and get where they need to go. Heroes proficient in Streetwise might have lived their entire life in a city, or they might be experienced in activities and professions commonly found in an urban environment.
+Default: No
 
-**Skill Uses:** Avoid the authorities, buy and sell illegal goods and services, call in favors, collect rumors, contact and hire criminals, fence stolen property, find food and drink, find goods and services, find local residents, find shelter, gamble, know current events, know local history, navigate a city, etc.
+Skill Group: Conjuring
 
----
+Specializations: By spirit type (Spirits of Earth, Spirits of Man, etc.)
 
 ##### Survival (Willpower)
 
 The Survival skill focuses on working, exploring, and providing for oneself in the outdoors and the wilderness. Heroes proficient in Survival feel at home in natural settings, whether from having lived their entire life in the wilds or from engaging in work connected with nature.
 
-**Skill Uses:** Avoid predators, build a fire and shelter, hunt, trap and fish for game, locate and use natural resources, cook over an open flame, find potable water, identify edible and medicinal plants, make simple tools, navigate the outdoors, predict the weather and tides, treat simple injuries, etc.
-
----
-
-##### Tactics (Logic)
-
-The Tactics skill represents the ability to analyze, plan, and execute strategies in conflict situations. Heroes proficient in Tactics might be military officers, veteran mercenaries, or competitive strategists.
-
-**Skill Uses:** Devise battle plans, predict enemy maneuvers, analyze terrain, coordinate allies, lead troops effectively, exploit weaknesses, create diversions, manage logistics in combat, evaluate chain of command structures.
+water, identify edible and medicinal plants, make simple tools, navigate the outdoors, predict the weather and tides, treat simple injuries, etc.
 
 ---
 
@@ -1370,7 +1380,7 @@ The Tactics skill represents the ability to analyze, plan, and execute strategie
 
 The Thrown Weapons skill governs the use of any item thrown by the user.
 
-**Skill Uses:** Lobbed (grenade-style), overhand (baseball-style), shuriken, throwing knives.
+
 
 ---
 
@@ -1378,7 +1388,7 @@ The Thrown Weapons skill governs the use of any item thrown by the user.
 
 The Unarmed Combat skill covers fighting with the body itself—punches, kicks, grapples, and throws—whether in disciplined martial arts or raw brawling. Heroes proficient in Unarmed Combat may be trained fighters, soldiers, athletes, or survivors accustomed to close-quarters struggle.
 
-**Skill Uses:** Break a grapple, deliver a powerful strike, disarm an enemy bare-handed, escape a hold, fight with martial arts precision, grapple and pin an opponent, knock an enemy unconscious, strike vulnerable points, throw or trip a foe, withstand a flurry of unarmed blows, etc.
+opponent, knock an enemy unconscious, strike vulnerable points, throw or trip a foe, withstand a flurry of unarmed blows, etc.
 
 ---
 
@@ -1386,7 +1396,7 @@ The Unarmed Combat skill covers fighting with the body itself—punches, kicks, 
 
 The Vehicles skill allows characters to specialize in operating and controlling a wide range of planetside vehicles and conveyances and lets them handle dangerous situations involving those vehicles with aplomb. Heroes proficient with Vehicles might be professional transporters or sailing ship helmsmen, or they might simply have a knack for operating all manner of exotic transportation.
 
-**Skill Uses:** Avoid accidents, diagnose problems with vehicles, drive a truck, fly a VTOL, maintain vehicles, navigate, operate heavy machinery, perform vehicle stunts, pilot a boat, race vehicles, tune up a vehicle, use vehicle knowledge.
+stunts, pilot a boat, race vehicles, tune up a vehicle, use vehicle knowledge.
 
 ---
 
@@ -1556,62 +1566,73 @@ Wireless: If all the throwing knives or shuriken you throw in a single Combat Tu
 
 ### Firearms
 
-| **Tasers**                 | **Accuracy** | **Damage**    | **AP** | **Mode**     | **RC** | **Ammo**         | **Avail** | **Cost** |
-| -------------------------- | ------------ | ------------- | ------ | ------------ | ------ | ---------------- | --------- | -------- |
-| Defiance EX Shocker        | 4            | 9S(e)         | -5     | SS           | —      | 4 (m)            | —         | 250¥     |
-| Yamaha Pulsar              | 5            | 7S(e)         | -5     | SA           | —      | 4 (m)            | —         | 180¥     |
-| **Hold-Outs**              | **Accuracy** | **Damage**    | **AP** | **Mode**     | **RC** | **Ammo**         | **Avail** | **Cost** |
-| Fichetti Tiffani Needler   | 5            | 8P(f)         | +5     | SA           | —      | 4 (c)            | 5R        | 1,000¥   |
-| Streetline Special         | 4            | 6P            | —      | SA           | —      | 6 (c)            | 4R        | 120¥     |
-| Walther Palm Pistol        | 4            | 7P            | —      | SS/BF        | —      | 2 (b)            | 4R        | 180¥     |
-| **Light Pistols**          | **Accuracy** | **Damage**    | **AP** | **Mode**     | **RC** | **Ammo**         | **Avail** | **Cost** |
-| Ares Light Fire 75         | 6 (8)        | 6P            | —      | SA           | —      | 16 (c)           | 6F        | 1,250¥   |
-| Ares Light Fire 70         | 7            | 6P            | —      | SA           | —      | 16 (c)           | 3R        | 200¥     |
-| Beretta 201T               | 6            | 6P            | —      | SA / BF      | (1)    | 21 (c)           | 7R        | 210¥     |
-| Colt America L36           | 7            | 7P            | —      | SA           | —      | 11 (c)           | 4R        | 320¥     |
-| Fichetti Security 600      | 6 (7)        | 7P            | —      | SA           | (1)    | 30 (c)           | 6R        | 350¥     |
-| Taurus Omni-6              | 5 (6)        | 6P / 7P       | 0 / -1 | SA / SS      | —      | 6 (cy)           | 3R        | 300¥     |
-| **Heavy Pistols**          | **Accuracy** | **Damage**    | **AP** | **Mode**     | **RC** | **Ammo**         | **Avail** | **Cost** |
-| Ares Predator V            | 5 (7)        | 8P            | –1     | SA           | —      | 15 (c)           | 5R        | 725¥     |
-| Ares Viper Slivergun       | 4            | 9P (f)        | +4     | SA / BF      | —      | 30 (c)           | 8F        | 380¥     |
-| Browning Ultra-Power       | 5 (6)        | 8P            | –1     | SA           | —      | 10 (c)           | 4R        | 640¥     |
-| Colt Government 2066       | 6            | 7P            | –1     | SA           | —      | 14 (c)           | 7R        | 425¥     |
-| Remington Roomsweeper      | 4            | 7P            | –1     | SA           | —      | 8 (m)            | 6R        | 250¥     |
-| w/ flechettes              | —            | 9P (f)        | +4     | —            | —      | —                | —         | —        |
-| Ruger Super Warhawk        | 5            | 9P            | –2     | SS           | —      | 6 (cy)           | 4R        | 400¥     |
-| **Machine Pistols**        | **Accuracy** | **Damage**    | **AP** | **Mode**     | **RC** | **Ammo**         | **Avail** | **Cost** |
-| Ares Crusader II           | 5 (7)        | 7P            | —      | SA / BF      | 2      | 40 (c)           | 9R        | 830¥     |
-| Ceska Black Scorpion       | 5            | 6P            | —      | SA / BF      | (1)    | 35 (c)           | 6R        | 270¥     |
-| Steyr TMP                  | 4            | 7P            | —      | SA / BF / FA | —      | 30 (c)           | 8R        | 350¥     |
-| **Submachine Guns**        | **Accuracy** | **Damage**    | **AP** | **Mode**     | **RC** | **Ammo**         | **Avail** | **Cost** |
-| Colt Cobra TZ-120          | 4 (5)        | 7P            | -      | SA/BF/FA     | 2 (3)  | 32 (c)           | 5R        | 660¥     |
-| FN P93 Praetor             | 6            | 8P            | —      | SA / BF / FA | 1 (2)  | 50 (c)           | 11F       | 900¥     |
-| HK-227                     | 5 (7)        | 7P            | —      | SA / BF / FA | (1)    | 28 (c)           | 8R        | 730¥     |
-| Ingram Smartgun X          | 4 (6)        | 8P            | —      | BF / FA      | 2      | 32 (c)           | 6R        | 800¥     |
-| SCK Model 100              | 5 (7)        | 8P            | —      | SA / BF      | (1)    | 30 (c)           | 6R        | 875¥     |
-| Uzi IV                     | 4 (5)        | 7P            | —      | BF           | (1)    | 24 (c)           | 4R        | 450¥     |
-| **Assault Rifle**          | **Accuracy** | **Damage**    | **AP** | **Mode**     | **RC** | **Ammo**         | **Avail** | **Cost** |
-| AK-97                      | 5            | 10P           | –2     | SA / BF / FA | —      | 38 (c)           | 4R        | 950¥     |
-| Ares Alpha                 | 5 (7)        | 11P           | –2     | SA / BF / FA | 2      | 42 (c)           | 11F       | 2,650¥   |
-| Grenade Launcher           | 4 (6)        | —             | —      | SS           | —      | 6 (c)            | —         | —        |
-| Colt M23                   | 4            | 9P            | –2     | SA / BF / FA | —      | 40 (c)           | 4R        | 550¥     |
-| FN HAR                     | 5 (6)        | 10P           | –2     | SA / BF / FA | 2      | 35 (c)           | 8R        | 1,500¥   |
-| Yamaha Raiden              | 6 (8)        | 11P           | –2     | BF / FA      | 1      | 60 (c)           | 14F       | 2,600¥   |
-| **Sniper Rifles**          | **Accuracy** | **Damage**    | **AP** | **Mode**     | **RC** | **Ammo**         | **Avail** | **Cost** |
-| Ares Desert Strike         | 7            | 13P           | –4     | SA           | (1)    | 14 (c)           | 10F       | 17,500¥  |
-| Cavalier Arms Crockett EBR | 6            | 12P           | –3     | SA / BF      | (1)    | 20 (c)           | 12F       | 10,300¥  |
-| Ranger Arms SM-5           | 8            | 14P           | –5     | SA           | (1)    | 15 (c)           | 16F       | 28,000¥  |
-| Remington 950              | 7            | 12P           | –4     | SS           | —      | 5 (m)            | 4R        | 2,100¥   |
-| Ruger 100                  | 6            | 11P           | –3     | SA           | (1)    | 8 (m)            | 4R        | 1,300¥   |
-| **Shotguns**               | **Accuracy** | **Damage**    | **AP** | **Mode**     | **RC** | **Ammo**         | **Avail** | **Cost** |
-| Defiance T-250             | 4            | 10P           | –1     | SS / SA      | —      | 5 (m)            | 4R        | 450¥     |
-| Enfield AS-7               | 4 (5)        | 13P           | –1     | SA / BF      | —      | 10 (c) or 24 (d) | 12F       | 1,100¥   |
-| PJSS Model 55              | 6            | 11P           | –1     | SS           | (1)    | 2 (b)            | 9R        | 1,000¥   |
-| **Special Weapons**        | **Accuracy** | **Damage**    | **AP** | **Mode**     | **RC** | **Ammo**         | **Avail** | **Cost** |
-| Ares S-III Super Squirt    | 3            | Chemical      | —      | SA           | —      | 20 (c)           | 7R        | 950¥     |
-| Fichetti Pain Inducer      | 3            | Special       | —      | SS           | —      | Special          | 11R       | 5,000¥   |
-| Parashield Dart Pistol     | 5            | as Drug/Toxin | —      | SA           | —      | 5 (c)            | 4R        | 600¥     |
-| Parashield Dart Rifle      | 6            | as Drug/Toxin | —      | SA           | —      | 6 (m)            | 6R        | 1,200¥   |
+| **Tasers**                 | **Accuracy** | **Damage**    | **AP** | **Mode**     | **RC** | **Ammo**          | **Avail** | **Cost** |
+| -------------------------- | ------------ | ------------- | ------ | ------------ | ------ | ----------------- | --------- | -------- |
+| Defiance EX Shocker        | 4            | 9S(e)         | -5     | SS           | —      | 4 (m)             | —         | 250¥     |
+| Yamaha Pulsar              | 5            | 7S(e)         | -5     | SA           | —      | 4 (m)             | —         | 180¥     |
+| **Hold-Outs**              | **Accuracy** | **Damage**    | **AP** | **Mode**     | **RC** | **Ammo**          | **Avail** | **Cost** |
+| Fichetti Tiffani Needler   | 5            | 8P(f)         | +5     | SA           | —      | 4 (c)             | 5R        | 1,000¥   |
+| Streetline Special         | 4            | 6P            | —      | SA           | —      | 6 (c)             | 4R        | 120¥     |
+| Walther Palm Pistol        | 4            | 7P            | —      | SS/BF        | —      | 2 (b)             | 4R        | 180¥     |
+| **Light Pistols**          | **Accuracy** | **Damage**    | **AP** | **Mode**     | **RC** | **Ammo**          | **Avail** | **Cost** |
+| Ares Light Fire 75         | 6 (8)        | 6P            | —      | SA           | —      | 16 (c)            | 6F        | 1,250¥   |
+| Ares Light Fire 70         | 7            | 6P            | —      | SA           | —      | 16 (c)            | 3R        | 200¥     |
+| Beretta 201T               | 6            | 6P            | —      | SA / BF      | (1)    | 21 (c)            | 7R        | 210¥     |
+| Colt America L36           | 7            | 7P            | —      | SA           | —      | 11 (c)            | 4R        | 320¥     |
+| Fichetti Security 600      | 6 (7)        | 7P            | —      | SA           | (1)    | 30 (c)            | 6R        | 350¥     |
+| Taurus Omni-6              | 5 (6)        | 6P / 7P       | 0 / -1 | SA / SS      | —      | 6 (cy)            | 3R        | 300¥     |
+| **Heavy Pistols**          | **Accuracy** | **Damage**    | **AP** | **Mode**     | **RC** | **Ammo**          | **Avail** | **Cost** |
+| Ares Predator V            | 5 (7)        | 8P            | –1     | SA           | —      | 15 (c)            | 5R        | 725¥     |
+| Ares Viper Slivergun       | 4            | 9P (f)        | +4     | SA / BF      | —      | 30 (c)            | 8F        | 380¥     |
+| Browning Ultra-Power       | 5 (6)        | 8P            | –1     | SA           | —      | 10 (c)            | 4R        | 640¥     |
+| Colt Government 2066       | 6            | 7P            | –1     | SA           | —      | 14 (c)            | 7R        | 425¥     |
+| Remington Roomsweeper      | 4            | 7P            | –1     | SA           | —      | 8 (m)             | 6R        | 250¥     |
+| w/ flechettes              | —            | 9P (f)        | +4     | —            | —      | —                 | —         | —        |
+| Ruger Super Warhawk        | 5            | 9P            | –2     | SS           | —      | 6 (cy)            | 4R        | 400¥     |
+| **Machine Pistols**        | **Accuracy** | **Damage**    | **AP** | **Mode**     | **RC** | **Ammo**          | **Avail** | **Cost** |
+| Ares Crusader II           | 5 (7)        | 7P            | —      | SA / BF      | 2      | 40 (c)            | 9R        | 830¥     |
+| Ceska Black Scorpion       | 5            | 6P            | —      | SA / BF      | (1)    | 35 (c)            | 6R        | 270¥     |
+| Steyr TMP                  | 4            | 7P            | —      | SA / BF / FA | —      | 30 (c)            | 8R        | 350¥     |
+| **Submachine Guns**        | **Accuracy** | **Damage**    | **AP** | **Mode**     | **RC** | **Ammo**          | **Avail** | **Cost** |
+| Colt Cobra TZ-120          | 4 (5)        | 7P            | -      | SA/BF/FA     | 2 (3)  | 32 (c)            | 5R        | 660¥     |
+| FN P93 Praetor             | 6            | 8P            | —      | SA / BF / FA | 1 (2)  | 50 (c)            | 11F       | 900¥     |
+| HK-227                     | 5 (7)        | 7P            | —      | SA / BF / FA | (1)    | 28 (c)            | 8R        | 730¥     |
+| Ingram Smartgun X          | 4 (6)        | 8P            | —      | BF / FA      | 2      | 32 (c)            | 6R        | 800¥     |
+| SCK Model 100              | 5 (7)        | 8P            | —      | SA / BF      | (1)    | 30 (c)            | 6R        | 875¥     |
+| Uzi IV                     | 4 (5)        | 7P            | —      | BF           | (1)    | 24 (c)            | 4R        | 450¥     |
+| **Assault Rifle**          | **Accuracy** | **Damage**    | **AP** | **Mode**     | **RC** | **Ammo**          | **Avail** | **Cost** |
+| AK-97                      | 5            | 10P           | –2     | SA / BF / FA | —      | 38 (c)            | 4R        | 950¥     |
+| Ares Alpha                 | 5 (7)        | 11P           | –2     | SA / BF / FA | 2      | 42 (c)            | 11F       | 2,650¥   |
+| Grenade Launcher           | 4 (6)        | —             | —      | SS           | —      | 6 (c)             | —         | —        |
+| Colt M23                   | 4            | 9P            | –2     | SA / BF / FA | —      | 40 (c)            | 4R        | 550¥     |
+| FN HAR                     | 5 (6)        | 10P           | –2     | SA / BF / FA | 2      | 35 (c)            | 8R        | 1,500¥   |
+| Yamaha Raiden              | 6 (8)        | 11P           | –2     | BF / FA      | 1      | 60 (c)            | 14F       | 2,600¥   |
+| **Sniper Rifles**          | **Accuracy** | **Damage**    | **AP** | **Mode**     | **RC** | **Ammo**          | **Avail** | **Cost** |
+| Ares Desert Strike         | 7            | 13P           | –4     | SA           | (1)    | 14 (c)            | 10F       | 17,500¥  |
+| Cavalier Arms Crockett EBR | 6            | 12P           | –3     | SA / BF      | (1)    | 20 (c)            | 12F       | 10,300¥  |
+| Ranger Arms SM-5           | 8            | 14P           | –5     | SA           | (1)    | 15 (c)            | 16F       | 28,000¥  |
+| Remington 950              | 7            | 12P           | –4     | SS           | —      | 5 (m)             | 4R        | 2,100¥   |
+| Ruger 100                  | 6            | 11P           | –3     | SA           | (1)    | 8 (m)             | 4R        | 1,300¥   |
+| **Shotguns**               | **Accuracy** | **Damage**    | **AP** | **Mode**     | **RC** | **Ammo**          | **Avail** | **Cost** |
+| Defiance T-250             | 4            | 10P           | –1     | SS / SA      | —      | 5 (m)             | 4R        | 450¥     |
+| Enfield AS-7               | 4 (5)        | 13P           | –1     | SA / BF      | —      | 10 (c)/24 (d)     | 12F       | 1,100¥   |
+| PJSS Model 55              | 6            | 11P           | –1     | SS           | (1)    | 2 (b)             | 9R        | 1,000¥   |
+| **Special Weapons**        | **Accuracy** | **Damage**    | **AP** | **Mode**     | **RC** | **Ammo**          | **Avail** | **Cost** |
+| Ares S-III Super Squirt    | 3            | Chemical      | —      | SA           | —      | 20 (c)            | 7R        | 950¥     |
+| Fichetti Pain Inducer      | 3            | Special       | —      | SS           | —      | Special           | 11R       | 5,000¥   |
+| Parashield Dart Pistol     | 5            | as Drug/Toxin | —      | SA           | —      | 5 (c)             | 4R        | 600¥     |
+| Parashield Dart Rifle      | 6            | as Drug/Toxin | —      | SA           | —      | 6 (m)             | 6R        | 1,200¥   |
+| **Machine Guns**           | **Accuracy** | **Damage**    | **AP** | **Mode**     | **RC** | **Ammo**          | **Avail** | **Cost** |
+| Ingram Valiant             | 5 (6)        | 9P            | –2     | BF / FA      | 2 (3)  | 50 (c)/100 (belt) | 12F       | 5,800¥   |
+| Stoner-Ares M202           | 5            | 10P           | –3     | FA           | —      | 50 (c)/100 (belt) | 12F       | 7,000¥   |
+| RPK HMG                    | 5            | 12P           | –4     | FA           | (6)    | 50 (c)/100 (belt) | 16F       | 16,300¥  |
+| **Cannons/Launchers**      | **Accuracy** | **Damage**    | **AP** | **Mode**     | **RC** | **Ammo**          | **Avail** | **Cost** |
+| Ares Antioch-2             | 4 (6)        | Grenade       | —      | SS           | —      | 8 (m)             | 8F        | 3,200¥   |
+| ArmTech MGL-12             | 4            | Grenade       | —      | SA           | —      | 12 (c)            | 10F       | 5,000¥   |
+| Aztechnology Striker       | 5            | Missile       | —      | SS           | —      | 1 (ml)            | 10F       | 1,200¥   |
+| Krime Cannon               | 4            | 16P           | –6     | SA           | (1)    | 6 (m)             | 20F       | 21,000¥  |
+| Onotari Interceptor        | 4 (6)        | Missile       | —      | SS           | —      | 2 (ml)            | 18F       | 14,000¥  |
+| Panther XXL                | 5 (7)        | 17P           | –6     | SS           | —      | 15 (c)            | 20F       | 43,000¥  |
 
 #### Firearm Descriptions
 
@@ -1720,8 +1741,267 @@ FN HAR: This assault rifle is supremely popular with private security forces and
 Yamaha Raiden: This electronic-firing assault rifle is state-of-the-art. The Raiden is very accurate and is quickly being adopted by japanacorp security forces and the Japanese Imperial Marines. It features an integral sound suppressor and smartgun system, and the electronic firing mechanism and design provides 1 point of Recoil Compensation.
 
 
+**SNIPER RIFLES**
+
+Use the Longarms skill when firing sniper rifles. Firearm enthusiasts will be the first to tell you that sport and hunting rifles are technically not sniper rifles, but they are similar enough in terms of game statistics to be included here rather than in their own section. Sniper rifles can take top, barrel-, and underbarrel-mounted accessories
+
+Ares Desert Strike: This combat-hardened sniper rifle is intended for long-range shooting in harsh environments. That means it was built without materials or technologies prone to failure. It comes equipped with a rigid stock with shock pad and a detachable imaging scope.
+
+Cavalier Arms Crockett EBR: Straddling the line between assault rifle and sniper rifle, the Crockett EBR features a burst fire mode. While it lacks the magazine capacity of a true assault rifle, and lacks the precision of a true marksman’s weapon, it makes up for this in versatility, being able to switch fluidly between a sniping role and a combat role as easy as flipping a switch. It comes equipped with a rigid stock with shock pad and a detachable imaging scope.
+
+Ranger Arms SM–5: A legendary assassin’s weapon, this sniper rifle features a silencer, an imaging scope, and a rigid stock with shock pad. The SM–5 disassembles completely in order to fit into a standard briefcase; setting it up or breaking it down takes an `Extended Firearms + Logic [Mental] (6, Major Action)` Test. While deadly, the SM–5 is fragile. At the end of every Combat Turn in which the weapon is used in a running firefight, reduce its Accuracy by 1 (to a minimum of 3). If the weapon is used in combat as a melee weapon or to defend from a melee attack, reduce its Accuracy by 2 (again to a minimum of 3). Recalibrating the weapon (a one-hour job) returns its Accuracy to normal.
+
+Remington 950: This high-powered bolt-action hunting rifle features classic wooden furniture and a top-mounted imaging scope that have kept it popular with hunters for several decades. It cannot mount underbarrel accessories.
+
+Ruger 101: This futuristic-looking gas-operated sporting rifle is the favorite weapon for many professional hunters and hobbyists. It features a built-in imaging scope and a rigid stock with shock pad.
+
+**SHOTGUNS**
+
+Use the Longarms skill when firing shotguns. The stats for these shotguns are for normal slug rounds. When firing shot, use the special rules for shotguns, choke settings, and flechette ammo (Shotguns). Shotguns can take top, barrel, and underbarrel accessories.
+
+Defiance T–250: A common sight on the mean streets when things escalate beyond pistols and knives, this semi-automatic shotgun is available in either a normal- length or short-barreled version. It is gas operated, but also features a secondary pump action for situations where preventing jams is more important than quickly firing a second shot. The short-barreled version has the Concealability of +4, the range of a heavy pistol, and a damage code of 9P.
+
+Enfield AS-7: This military assault shotgun provides its user with massive firepower. As a close-quarters weapon and general combat gun, it is universally feared. It can either be loaded with ten-round ammo clips or a special twenty-four-round drum. The Enfield AS-7 comes equipped with a built-in, top-mounted laser sight
+
+PJSS Model 55: This is a weapon of classic style for a classic sport. Produced only in small numbers, it’s renowned among European hunters and trap shooters as a precise and prestigious weapon. The weapon’s rigid stock comes equipped with an integrated shock pad. Both barrels can be shot at once as a short burst (see Not Enough Bullets).
+
+**SPECIAL WEAPONS**
+
+Use the Exotic Ranged Weapon skill when firing these weapons. This skill is not on the list of skills it can be added **if someone wants to use one of these wacky weapons**.
+
+Ares S-III Super Squirt: This popular non-lethal weapon fires DMSO gel packs. The dimethyl sulfoxide forces the skin to absorb the chemicals the operator wishes to deliver. The attack itself causes no damage, but when the target is hit successfully, the DMSO delivers the substance directly into the target’s bloodstream as a Contact vector toxin (Toxins, Drugs, and BTLs). The Super Squirt uses Light Pistol ranges and can accept top- and underbarrel-mounted accessories
+
+Fichetti Pain Inducer: For a non-lethal weapon, the Fichetti Pain Inducer is not very humane. It makes someone feel like they are in a microwave, roasting from the inside out. Treat this as a toxin attack with a Power of 8 and a speed of Immediate. The target resists with Body + Willpower. If the modified Power exceeds the target’s Mental limit, the target must spend his next Action Phase doing whatever it takes to run away from the pain. The attacker can continue to hold her beam on a target with a Complex Action unless the gamemaster deems the target has dodged away or found cover. If the target cannot get out of the beam, he is incapacitated with pain, suffering a dice pool modifier equal to the modified Power on all tests for as long as the beam is trained on him. The Pain Inducer uses SMG ranges and can take top and underbarrel accessories. It has ten charges; when attached to a power point, it reloads one charge every ten seconds. Wireless: The Pain Inducer recharges by induction at a rate of 1 charge per hour
+
+Parashield Dart Pistol: The industry standard dart pistol, this fires injection darts with narcoject or another payload. The Parashield dart pistol uses Heavy Pistol ranges and can take top-mounted accessories. Wireless: The dart reports whether or not it has struck home and successfully injected. It may also report any gross physical anomalies in the target’s tissue, although its medical sensors are not very sophisticated (Device Rating of 1 for the dart).
+
+Parashield Dart Rifle: Originally designed to non-lethally take down large game animals at long ranges, the Parashield dart rifle uses compressed air cartridges to fire injection darts. This weapon includes a top-mounted imaging scope. It uses sporting rifle ranges and can mount top and underbarrel accessories. Wireless: The dart reports whether or not it has struck home and successfully injected. It may also report any gross physical anomalies in the target’s tissue, although its medical sensors are not very sophisticated (Device Rating of 1 for the dart).
+
+**MACHINE GUNS**
+
+Machine guns come in three varieties—light, medium, and heavy—that determine their ranges. All, even the “light” ones, are in fact very heavy and large. A light machine gun is physically bigger and heavier than an assault rifle. MMGs and HMGs could be carried by someone with Strength of 8+ and 10+ (respectively), but they work better as vehicle-mounted weapons.
+
+Use the Gunnery skill when firing these weapons. They suffer from double modifiers for uncompensated recoil (Recoil). Machine guns can take top, barrel, and underbarrel accessories.
+
+Ingram Valiant: This legendary light machine gun is popular with mercenary units the world over. It comes with a rigid stock with shock pad, a laser sight, and a barrel-mounted gas-vent 2 system.
+
+Stoner-Ares M202: This MMG packs a tremendous punch into a relatively lightweight framework made of extra-durable compounds. Due to its relatively small size, it’s a very popular secondary weapon for heavy military vehicles. Trolls with no concept of subtlety sometimes deck them out with accessories for use as personal weapons.
+
+RPK HMG: This heavy Russian machine gun is used by the militaries of several eastern European and Near East countries, primarily as a vehicle-mounted support weapon. Equipped with a detachable tripod, the RPK is usually fired from a prone, sitting, or kneeling position when not mounted on a vehicle.
+
+**CANNONS & LAUNCHERS**
+
+Use the Gunnery skill when firing assault cannons and grenade and missile launchers. All suffer from double modifiers for uncompensated recoil. Both assault cannons and launchers can take top and underbarrel accessories. Naturally, assault cannons use assault cannon ammo, grenade launchers fire minigrenades, and missile launchers launch missiles or rockets.
+
+Ares Antioch–2: The Antioch–2 features a classic grenade launcher design combined with an integral smartlink system. It is one of the more affordable grenade launchers on the market. Wireless: You can use the wireless link trigger for your grenades, even if you don’t have DNI (Direct Neural Interface sidebar).
+
+ArmTech MGL–12: This bullpup-configuration grenade launcher is popular, since it can fire in semi-auto mode and carries substantially more minigrenades than its competitors. Wireless: You can use the wireless link trigger for your grenades, even if you don’t have DNI (Direct Neural Interface).
+
+Aztechnology Striker: The Striker is an extremely light disposable launcher—perfect when you want to deliver a punch and make a quick, unencumbered getaway. Wireless: You can use the wireless link trigger for your missiles, even if you don’t have DNI (Direct Neural Interface).
+
+Krime Cannon: Krime may be a small-time manufacturer, but their assault cannon, simply called the Cannon, is a cheap heavy weapon big on attitude and firepower. It comes standard with modification for trolls, and so is the first weapon in the Sixth World to be intended for larger customers.
+
+Onotari Interceptor: This Saeder-Krupp-developed military missile launcher is designed to fire rockets or guided missiles, of any type. It has two separate barrels and firing chambers, and can load up to two missiles at once, which need not be of the same type. Due to backblast issues, it is not capable of “giving ‘em both barrels.” It features an internal smartgun system.Wireless: You can use the wireless link trigger for your missiles, even if you don’t have DNI (Direct Neural Interface).
+
+Panther XXL: This huge fragging gun is an assault cannon that uses ammunition similar to the primary weapon in many small tanks. It comes with a built-in smartgun system.
 
 
+### Firearm Accessesories
+
+Most firearm accessories must be attached to a particular mount—top, barrel, underbarrel. Each mount can only hold one accessory at a time.
+
+| ACCESSORY                    | MOUNT        | AVAILABILITY  | COST               |
+| ---------------------------- | ------------ | ------------- | ------------------ |
+| Airburst link                | —            | 6R            | 600¥               |
+| Bipod                        | Under        | 2             | 200¥               |
+| Concealable holster          | —            | 2             | 150¥               |
+| Gas-vent system (Rating 1-3) | Barrel       | (Rating x 3)R | Rating x 200¥      |
+| Gyro mount                   | Under        | 7             | 1,400¥             |
+| Hidden arm slide             | —            | 4R            | 350¥               |
+| Imaging scope                | Top          | 2             | 300¥               |
+| Laser sight                  | Top or Under | 2             | 125¥               |
+| Periscope                    | Top          | 3             | 70¥                |
+| Quick-draw holster           | —            | 4             | 175¥               |
+| Shock pad                    | —            | 2             | 50¥                |
+| Silencer/suppressor          | Barrel       | 9F            | 500¥               |
+| Smart firing platform        | Under        | 12F           | 2,500¥             |
+| Smartgun system, internal    | —            | (+2)R         | (Weapon Cost) x 2¥ |
+| Smartgun system, external    | Top or Under | 4R            | 200¥               |
+| Spare clip                   | —            | 4             | 5¥                 |
+| Speed loader                 | —            | 2             | 25¥                |
+| Tripod                       | Under        | 4             | 500¥               |
+
+Airburst link: This grenade/rocket launcher smartgun accessory uses a “smart” rangefinder to air-burst the explosive projectile at a point deemed to be both a safe distance from the launcher and within the closest possible proximity to the target. An airburst link reduces the scatter distance for a launched grenade by two meters per net hit instead of by one meter per hit (Determine Scatter, p. 182) when you use the wireless link trigger. Wireless: An airburst link requires wireless functionality to function at all. Both the grenades and the launcher must have wireless mode turned on.
+
+Bipod: This two-legged brace extends downward
+from the weapon, allowing it to be fired low to the
+ground with the user in a prone or sitting position. A
+bipod can be attached to the underbarrel mount of a
+weapon and provides 2 points of Recoil Compensation
+when properly deployed. Attaching a bipod takes one
+minute. Folding up or deploying a bipod is a Simple Action.
+Removing it is a Complex Action.
+Wireless: Folding up or deploying the bipod is a Free
+Action
+
+Concealable holster: This small holster can be worn
+on the ankle, clipped to the forearm, in the small of the
+back, or anywhere else it’s unlikely to be seen. The concealable
+holster adds –1 to the item’s Concealability (p.
+419). Only pistols and tasers fit in a Concealable Holster.
+Wireless: Wireless sensors and a smart-fabric coated
+weave allow the holster to alter color and texture in real
+time adding an additional –1 to the item’s Concealability.
+
+Gas-vent system: Gas-vent recoil compensation systems
+are barrel-mounted accessories that vent a weapon’s barrel gases at a specific vector to counter muzzle
+climb. Once installed, a gas-vent cannot be removed.
+Gas-vent systems provide a number of points of Recoil
+Compensation equal to their rating.
+
+Gyro mount: This heavy upper-body harness features
+an attached, articulated, motorized gyro-stabilized arm
+that mounts an assault rifle or a heavy weapon. The system
+neutralizes up to 6 points of recoil and movement modifiers.
+Attaching or removing a weapon from the mount
+takes a Simple Action. Putting on a gyro-mount harness
+takes about five minutes, while the quick-release allows
+you to get out of it with a Complex Action.
+Wireless: Activating the harness’s quick-release with a
+wireless signal to exit the harness is a Free Action.
+
+Hidden arm slide: Attached to the forearm and
+worn under clothing, this slide can accommodate a pistol-
+sized weapon. It can fit a hold-out, light pistol, or taser.
+With a hand gesture, the slide releases the weapon/
+object right into your hand. If you quick draw the weapon
+in this slide, the threshold for the quick draw is 2. It
+also gives the weapon a –1 Concealability modifier.
+Wireless: You can ready the weapon in the slide as a
+Free Action.
+
+Imaging scope: These classic scopes are attached to
+the top mount; attaching or removing them takes only a
+Simple Action. Imaging scopes include a micro camera
+and vision magnification, and they have a Capacity of 3
+to hold vision enhancements (p. 444).
+Wireless: The scope’s “line of sight” can be shared, allowing
+you to share what your scope sees with your team
+(and yourself if you’re using it to look around a corner).
+
+Laser sight: This device uses a laser beam to project
+a visible dot (in your choice of colors) on the target. This
+increases the weapon’s Accuracy by 1, which is not cumulative
+with smartlink modifiers. The laser sight can be
+attached to either the underbarrel mount or top mount.
+Activating or deactivating a laser sight is a Simple Action.
+Wireless: The wireless laser sight provides a +1 dice
+pool bonus on attack tests, not cumulative with smartlink
+modifiers. Activating and deactivating the laser
+sight is a Free Action.
+
+Periscope: This adjustable “off-axis” viewer attaches
+to a top mount and allows an operator to target a weapon
+around corners, reducing the usual –3 dice pool penalty
+to –2. A periscope can be upgraded with any of the
+vision enhancements noted on p. 444.
+Wireless: The dice pool penalty for shooting around
+corners is reduced to –1.
+
+Quick-draw holster: This easy access holster can
+hold any weapon of Machine Pistol or smaller size. It
+reduces the threshold for quick-drawing the holstered
+weapon by 1 (see Quick Draw, p. 165).
+
+Shock pad: A shock-absorbing pad is situated on the
+rigid stock of a rifle, shotgun, or heavy weapon, and provides
+1 point of recoil compensation
+
+Silencer/suppressor: This barrel-mounted accessory
+reduces the sound and flash of a weapon’s discharge.
+It cannot be used with revolvers or shotguns. It applies
+a –4 dice pool modifier on all Perception Tests to notice
+the weapon’s use or locate the weapon’s firer. Attaching
+or removing a silencer takes a Complex Action.
+Wireless: The silencer/suppressor features a Rating 2
+microphone with Rating 2 Select Sound Filter and simple
+software that alerts you via AR if your silencer detects
+the sound of someone nearby reacting to the sound of
+the silenced weapon.
+
+Smart firing platform: This is a non-mobile robotic
+tripod equipped with a remote control pivot that allows
+for a 180-degree firing arc and a 60-degree inclination.
+You can mount one smartgun-equipped weapon to the
+platform, and it will be fired by the device’s onboard Pilot
+(Device Rating 3). The platform is equipped with a
+Targeting Autosoft (Rating 3) and can be upgraded with
+additional autosofts, usually a Clearsight program. You
+need to set the parameters of who exactly the platform
+should and shouldn’t shoot at, which are followed by the
+platform’s pilot (Pilot Programs, p. 269). The platform
+provides 5 points of Recoil Compensation. It has an Initiative
+attribute of Pilot x 2 and 4D6 Initiative Dice when
+acting autonomously (see Drone Initiative, p. 270).
+Wireless: You can fire the mounted weapon remotely
+(Control Device, p. 238), like a drone with no rigger
+interface. You can use an implanted smartlink with the
+smartgun if you’re in VR.
+
+Smartgun system: This connects a firearm or a
+projectile weapon directly to the user’s smartlink. Incorporating
+a small camera and laser range finder, the
+smartlink keeps track of ammunition, heat buildup, and
+material stress. If you have a smartlink, you can mentally
+switch between gun modes, eject a clip, and fire
+the gun without pulling the trigger. The camera lets
+you shoot around corners without exposing yourself
+to return fire (at a –3 dice pool penalty). The system
+makes use of advanced calculation software, allowing
+for precisely calculated trajectories and high precision
+over any distance.
+If you’re using a smartlink, the smartgun system increases
+the gun’s Accuracy by 2. The smartgun features
+are accessed either by universal access port cable to an
+imaging device (like glasses, goggles, or a datajack for
+someone with cybereyes) or by a wireless connection
+working in concert with direct neural interface.
+Retrofitting a firearm with an internal smartgun system
+doubles the weapon’s price and adds 2 to its Availability.
+An external smartgun system can be attached to
+the top mount or underbarrel mount with an Armorer +
+Logic (4, 1 hour) Extended Test. The small camera has a
+capacity of 1 and can be equipped with vision enhancements
+(p. 444).
+Wireless: A wireless smartlink provides a dice pool
+bonus to all attacks with the weapon: +1 if you’re using
+gear with a smartlink or +2 if you’re using an augmentation
+for which you paid Essence. Ejecting a clip and
+changing fire modes are Free Actions
+
+Spare clip: A spare clip comes unloaded but can hold
+the maximum rounds for the weapon. Each clip is specific
+to the weapon you buy it for, but they all cost the
+same. And yes, it’s technically a detachable box magazine,
+but the Cityspeak word for it is so popular these
+days that even the catalogs call them clips
+
+Speed loader: The speed loader is a simple device
+that holds a ring of bullets for fast insertion into a revolver’s
+cylinder. Each speed loader is specific to the weapon
+it was designed for. It lets you fully reload a revolver
+as a Complex Action instead of having to load rounds
+one at a time (Reloading Weapons table, p. 163).
+
+Tripod: The tripod provides a stable base to fire a
+weapon low to the ground with the user kneeling or
+sitting. A tripod can be attached to the underbarrel
+mount and provides 6 points of Recoil Compensation
+when properly deployed. Attaching a tripod takes one
+minute. Folding up or deploying the bipod is a Free
+Action.
+Wireless: Folding up, deploying, or removing the tripod
+is a Free Action.
 
 
 ### Vehicles
@@ -1756,23 +2036,23 @@ for vehicles, providing the following details:
 
 - Hull: Some vehicles are exceptionally tough. This lists the points that must be spent on the Pierce Hull vehicle stunt before using other Anti-Vehicle Stunts to inflict damage.
 
-- Purchase {Threshold}.: The Resources {Threshold} to acquire equipment. It may vary depending on the location the game is set in, or the quality of vehicle.
+- Purchase {TN}.: The Resources {TN} to acquire equipment. It may vary depending on the location the game is set in, or the quality of vehicle.
 
 
-| Vehicle               | Handling Difficulty | Capacity | Velocity    | Ram | Hull | Purchase {Threshold} |
-| --------------------- | ------------------- | -------- | ----------- | --- | ---- | -------------------- |
-| Bicycle               | 0                   | 1        | Standard/*  | 0   | 0    | 8                    |
-| Classic Motorbike     | –1                  | 2        | Fast/0      | 1d6 | 0    | 11                   |
-| Sports Bike           | +2                  | 1        | Fast/+1     | 1d6 | 0    | 13                   |
-| Compact Car           | 0                   | 5        | Fast/0      | 2d6 | 0    | 10                   |
-| Sedan                 | 0                   | 8        | Fast/0      | 2d6 | 0    | 13                   |
-| Sports Car            | +1                  | 2        | Very Fast/0 | 2d6 | 0    | 15                   |
-| Light Truck           | –2                  | 4        | Fast/–1     | 3d6 | 0    | 14                   |
-| Light Armored Vehicle | 0                   | 4        | Fast/0      | 3d6 | 2    | 15                   |
-| Light Drone           | +4                  | 0        | Fast/0      | 0   | 0    | 10                   |
-| Light Helicopter      | +1                  | 4        | Very Fast/0 | 3d6 | 0    | 16                   |
-| Light Attack Aircraft | +2                  | 2        | Extreme/0   | 4d6 | 1    | N/A**                |
-| Light Bulldozer       | 0                   | 1        | Standard/*  | 5d6 | 2    | 16                   |
+| Vehicle               | Handling Difficulty | Capacity | Velocity    | Ram | Hull | Purchase {TN} |
+| --------------------- | ------------------- | -------- | ----------- | --- | ---- | ------------- |
+| Bicycle               | 0                   | 1        | Standard/*  | 0   | 0    | 8             |
+| Classic Motorbike     | –1                  | 2        | Fast/0      | 1d6 | 0    | 11            |
+| Sports Bike           | +2                  | 1        | Fast/+1     | 1d6 | 0    | 13            |
+| Compact Car           | 0                   | 5        | Fast/0      | 2d6 | 0    | 10            |
+| Sedan                 | 0                   | 8        | Fast/0      | 2d6 | 0    | 13            |
+| Sports Car            | +1                  | 2        | Very Fast/0 | 2d6 | 0    | 15            |
+| Light Truck           | –2                  | 4        | Fast/–1     | 3d6 | 0    | 14            |
+| Light Armored Vehicle | 0                   | 4        | Fast/0      | 3d6 | 2    | 15            |
+| Light Drone           | +4                  | 0        | Fast/0      | 0   | 0    | 10            |
+| Light Helicopter      | +1                  | 4        | Very Fast/0 | 3d6 | 0    | 16            |
+| Light Attack Aircraft | +2                  | 2        | Extreme/0   | 4d6 | 1    | N/A**         |
+| Light Bulldozer       | 0                   | 1        | Standard/*  | 5d6 | 2    | 16            |
 
 - * Vehicle has a Speed rating like a character’s.
 - ** Cannot be purchased under ordinary circumstances.
@@ -1780,9 +2060,9 @@ for vehicles, providing the following details:
 
 Bicycle: A pedal-powered bike. A bicycle moves at its operator’s speed +5. Any attack that hits a bicycle wrecks it, regardless of damage, and also inflicts damage on the cyclist.
 
-Classic Motorbike: A large touring motorcycle. If the cyclist is injured, they must succeed at a {Threshold} 13 Agility (Driving) test to avoid crashing.
+Classic Motorbike: A large touring motorcycle. If the cyclist is injured, they must succeed at a {TN} 13 Agility (Driving) test to avoid crashing.
 
-Sports Bike: An agile motorcycle designed for speed over stability. If the cyclist is injured, they must succeed at a {Threshold} 13 Agility (Driving) test to avoid crashing.
+Sports Bike: An agile motorcycle designed for speed over stability. If the cyclist is injured, they must succeed at a {TN} 13 Agility (Driving) test to avoid crashing.
 
 Compact Car: A utilitarian vehicle that can seat five people, but uncomfortably. Some models are designed as low-end sports cars. In such cases, add +1 to the car’s Handling and Velocity modifiers, and +1 to the Resources difficulty to purchase it, but drop its capacity by 1 or 2, depending on the model.
 
@@ -1806,60 +2086,60 @@ Light Bulldozer: This tracked vehicle is used to haul material, demolish things,
 
 A character’s Resources determines their basic lifestyle, but sometimes a protagonist wants to explore the life of excess. Characters don’t pay for their personal housing, food, or upkeep, as these elements roll into the Resources ability, and run the risk of banality when introduced to play. The lifestyle expansions in this table are the types of activities and purchases a character will need to test with their Resources ability.
 
-| Gear                     | Purchase {Threshold} |
-| ------------------------ | -------------------- |
-| Alternate ID (Excellent) | 16                   |
-| Alternate ID (Poor)      | 9                    |
-| Casino Credit            | 14                   |
-| Discreet Affair          | 12                   |
-| Drugs (High Quality)     | 11                   |
+| Gear                     | Purchase {TN} |
+| ------------------------ | ------------- |
+| Alternate ID (Excellent) | 16            |
+| Alternate ID (Poor)      | 9             |
+| Casino Credit            | 14            |
+| Discreet Affair          | 12            |
+| Drugs (High Quality)     | 11            |
 
-| Gear                   | Purchase {Threshold} |
-| ---------------------- | -------------------- |
-| Drugs (Street Quality) | 9                    |
-| Five-Star Hotel        | 14                   |
-| Jewelry (Designer)     | 15                   |
-| Jewelry (High Street)  | 11                   |
-| Jewelry (Unique)       | 17                   |
+| Gear                   | Purchase {TN} |
+| ---------------------- | ------------- |
+| Drugs (Street Quality) | 9             |
+| Five-Star Hotel        | 14            |
+| Jewelry (Designer)     | 15            |
+| Jewelry (High Street)  | 11            |
+| Jewelry (Unique)       | 17            |
 
-| Gear                | Purchase {Threshold} |
-| ------------------- | -------------------- |
-| Luxury Cruise       | 15                   |
-| Michelin Star Meal  | 12                   |
-| Party (Extravagant) | 14                   |
-| Party (Intimate)    | 11                   |
-| Party (Rave)        | 12                   |
+| Gear                | Purchase {TN} |
+| ------------------- | ------------- |
+| Luxury Cruise       | 15            |
+| Michelin Star Meal  | 12            |
+| Party (Extravagant) | 14            |
+| Party (Intimate)    | 11            |
+| Party (Rave)        | 12            |
 
 ### Adventuring Gear
 
-| Gear                 | Purchase {Threshold} |
-| -------------------- | -------------------- |
-| Bomb Disposal Kit    | 15                   |
-| Camera               | 8                    |
-| Cell Phone           | 8                    |
-| Chaff Grenades       | 15                   |
-| Diving Gear          | 13                   |
-| First Aid Kit        | 10                   |
-| Flare Gun            | 9                    |
-| Flash Grenades       | 16                   |
-| Flashlight           | 6                    |
-| Gasmask              | 11                   |
-| Gun Scope            | 12                   |
-| Laptop/Tablet        | 11                   |
-| Laser Sight          | 11                   |
-| Magnifying Scope     | 13                   |
-| Mechanic’s Toolkit   | 10                   |
-| Mine Detector        | 14                   |
-| Motion Tracker       | 15                   |
-| Mountaineering Gear  | 14                   |
-| Night Vision Goggles | 14                   |
-| Oxygen Tank          | 13                   |
-| Radar Jammer         | 15                   |
-| Signal Jammer        | 13                   |
-| Smoke Grenades       | 14                   |
-| Suppressor           | 13                   |
-| Survival Gear        | 11                   |
-| Thermal Goggles      | 12                   |
+| Gear                 | Purchase {TN} |
+| -------------------- | ------------- |
+| Bomb Disposal Kit    | 15            |
+| Camera               | 8             |
+| Cell Phone           | 8             |
+| Chaff Grenades       | 15            |
+| Diving Gear          | 13            |
+| First Aid Kit        | 10            |
+| Flare Gun            | 9             |
+| Flash Grenades       | 16            |
+| Flashlight           | 6             |
+| Gasmask              | 11            |
+| Gun Scope            | 12            |
+| Laptop/Tablet        | 11            |
+| Laser Sight          | 11            |
+| Magnifying Scope     | 13            |
+| Mechanic’s Toolkit   | 10            |
+| Mine Detector        | 14            |
+| Motion Tracker       | 15            |
+| Mountaineering Gear  | 14            |
+| Night Vision Goggles | 14            |
+| Oxygen Tank          | 13            |
+| Radar Jammer         | 15            |
+| Signal Jammer        | 13            |
+| Smoke Grenades       | 14            |
+| Suppressor           | 13            |
+| Survival Gear        | 11            |
+| Thermal Goggles      | 12            |
 
 
 
@@ -1931,10 +2211,35 @@ If an item has a timer set by a player character, that character can decide for 
 
 ### Action Economy
 
-Every Initaitive Pass A Character gets:
-One Major Action
-One Minor Action
-One Voluntary Reaction
+The Action economy of Sixfinity is mare structured than the economy in Shadowrun. 
+
+Every **turn** a character gets:
+- 1 Major Action
+- 1 Minor Action
+- 1 Bonus Action
+- 1 Reaction
+
+If the character has a high initiative they get more actions. 
+
+#### Combat Rounds
+
+A Combat Round is a set of characters taking their Turns. 
+
+#### Combat Turns
+
+Your initiative lets you know how many turns you get. Think of it like chances to roll the dice in a typical board game. You take your turn. Well if your character has a high enough initiative they can get **more** turns becuase they are fast and do it in the same amount of time others do less. 
+
+> At the table we pass around a turn token to each player to denote whos turn it is. I write in washable marker the round number on it because some effects last a certain number of rounds. For example bleeding to death is once per **round** not once per turn. 
+
+For example Sarah has an Initiative of 14. She is going to get 2 turns in the combat round. She is fighting a Security guard who has a 10 Initiative, he will get 1 turn.
+
+As Sarah has a 14 she goes first. She gets 1 Major Action, 1 Minor Action, 1 Bonus Action, and a Reaction. 
+
+She decides to move her ten yards of movement and take cover. This is all part of moving, and its her Minor Action used. She did not have a weapon ready, so she uses her Bonus Action to Draw her weapon. She uses her Major Action to attack the Security Guard.
+
+She rolls `3D6 + 7` firing her Pistol and getting a 17. 2 Effect. The Security guard rolls his defense `3D6 + 2` he gets a 9 which is enough for 1 Effect. Sarah still had 1 Effect left over combined with the 9P of her pistol she does 10P damage. She Security guard is wearing an Armored Vest with 5 Armor, her Pistol has -2 AP so 7P gets through the vest. His Toughness is 1 and her -2 AP means it will not apply. So the Security Guard takes 7 Physical Health damage. 
+
+The security guard takes his turn, he doesn't have any cover near him to dive into so instead he uses his Bonus Action to draw his pistol and he fires at Sarah. `3D6 +3` He gets a 13 enough for 2 Effect. Sarah is behind Level 2 cover which adds 2 to her Defense roll she rolls `3D6 + 10 + 2` and gets 21 getting 3 Effect. Which is enough to completely defeat the attack. Sarah stays ducked behind cover while the guard fires at her.   
 
 
 #### Major Actions
@@ -1993,9 +2298,10 @@ Cover provides a bonus to your Defense against all ranged attacks.
 
 | Rating | Defense Bonus              | Ranged Attack Penalty     |
 | ------ | -------------------------- | ------------------------- |
-| 1      | 2                          | –1                        |
-| 2      | 3                          | –2                        |
+| 1      | 1                          | –1                        |
+| 2      | 2                          | –2                        |
 | 3      | 4                          | –3                        |
+| 4      | 6                          | -4                        |
 | Total  | Can’t be attacked at range | Can’t make ranged attacks |
 
 ### Attacks
@@ -2047,20 +2353,20 @@ If a creature or character has an effect which gives them vulnerability to a typ
 - First Aid: Another character can aid you with a First Aid action, as described under Major Actions in this chapter. You can’t benefit from another First Aid action until you take more damage (there is only so much benefit you can gain from basic care).
 - You can take a breather after a combat encounter. This is a 5-minute rest that lets you catch your breath, tend to minor cuts and abrasions, drink some water, and so on. After a breather, you get back 5 + Body in Physical Health. You can take only one breather after an encounter. If you were at 0 Physical Health when the combat encounter ended, you cannot take a breather at all.
 - You can get some sleep. If you can get at least 6 hours of restful sleep, you can recover Physical Health Rating x 10 + Body in Physical Health.
-- You receive extended medical attention. Another character can tend to your injuries with a {Threshold} 13 Logic (Medicine) test that lasts 1 hour or is concurrent with sleep as above. The character in charge of your care must use proper medical tools and supplies (found easily in any clinic, hospital, or doctor’s office). Success means you recover an additional amount of Physical Health equal to 5 + treating character’s Logic + treating chaacters Medicine Rating.
+- You receive extended medical attention. Another character can tend to your injuries with a {TN} 13 Logic (Medicine) test that lasts 1 hour or is concurrent with sleep as above. The character in charge of your care must use proper medical tools and supplies (found easily in any clinic, hospital, or doctor’s office). Success means you recover an additional amount of Physical Health equal to 5 + treating character’s Logic + treating chaacters Medicine Rating.
 
 Breather = 5 min rest, regain 5 + BOD Physical Health. One per scene. Not if you hit 0.
 
 ##### First Aid Table
 
-| Medicine Check {Threshold} | Result                                                                                         | First Aid Kit Required |
-| -------------------------- | ---------------------------------------------------------------------------------------------- | ---------------------- |
-| 10                         | Stabilize an ally, they stop bleeding.                                                         | No                     |
-| 10                         | Stabilize an ally, If the check succeeds by 5 or more, the ally regains 1 hit point.           | Yes                    |
-| 10                         | End the Blinded or Deafened condition imposed by a weapon on one combatant.                    | No                     |
-| 10                         | Smother the flames on one combatant that is Burning.                                           | No                     |
-| Poison DC                  | Give a combatant advantage on their next Stamina reaction against poison.                      | Yes                    |
-| Poison DC                  | Allow a combatant to make a saving throw to end an ongoing effect imposed by a poison or drug. | Yes                    |
+| Medicine Check {TN} | Result                                                                                         | First Aid Kit Required |
+| ------------------- | ---------------------------------------------------------------------------------------------- | ---------------------- |
+| 10                  | Stabilize an ally, they stop bleeding.                                                         | No                     |
+| 10                  | Stabilize an ally, If the check succeeds by 5 or more, the ally regains 1 hit point.           | Yes                    |
+| 10                  | End the Blinded or Deafened condition imposed by a weapon on one combatant.                    | No                     |
+| 10                  | Smother the flames on one combatant that is Burning.                                           | No                     |
+| Poison DC           | Give a combatant advantage on their next Stamina reaction against poison.                      | Yes                    |
+| Poison DC           | Allow a combatant to make a saving throw to end an ongoing effect imposed by a poison or drug. | Yes                    |
 
 ### Conditions
 These were borrowed from the 5e SRD which is open Source and are quite convenient. 
@@ -2207,24 +2513,24 @@ A magical lodge is required to improve Magic-linked skills, learn new spells, an
 
 A lodge has a Resource cost of 2 per Force point, and the lodge’s rating can be improved later.
 
-For example if you want to purchase a Force 1 Lodge you need to make a {Threshold} 12 Resource test. A Force 3 Lodge would be a {Threshold} 16. 
+For example if you want to purchase a Force 1 Lodge you need to make a {TN} 12 Resource test. A Force 3 Lodge would be a {TN} 16. 
 
 The money is spent to buy the supplies used to build the lodge. Once the supplies are gathered, the magician must complete an activation ritual that will “awaken” the lodge and construct its astral presence. The actual process requires 1 day per point of Force desired. An activated lodge acts as an astral barrier. Any magicians involved in the activation of the lodge are unaffected by this barrier, and can allow other astral forms to pass through it at will. A lodge contains the astral signatures of the magicians who activated it (see Astral Signatures), and is magically linked to them. This link can be tracked using astral projection (see Astral Tracking).
 
-To increase the rating of an existing lodge, additional materials must be acquired. An activation ritual must also be performed, taking a number of days equal to the difference between the current Force and the desired Force. The cost of searching and gathering can be simplified to a cost of Resource 2 per Force point as above. Improving a Force 4 lodge to Force 6, for example, would cost Resource {Threshold} 22 (6 * 2 + 10) and take two days of ritual.
+To increase the rating of an existing lodge, additional materials must be acquired. An activation ritual must also be performed, taking a number of days equal to the difference between the current Force and the desired Force. The cost of searching and gathering can be simplified to a cost of Resource 2 per Force point as above. Improving a Force 4 lodge to Force 6, for example, would cost Resource {TN} 22 (6 * 2 + 10) and take two days of ritual.
 
 ### Spellcasting
 
-When a magician casts a spell, the player first chooses the Force of the spell and then rolls her `3D6 + Spellcasting + Magic VS {Threshold}`. Other sources of power (foci, spirit spellcasting aid) and Visibility modifiers may affect the final outcome. The success of a spell is measured by the {Threshold} on the test.
+When a magician casts a spell, the player first chooses the Force of the spell and then rolls her `3D6 + Spellcasting + Magic VS {TN}`. Other sources of power (foci, spirit spellcasting aid) and Visibility modifiers may affect the final outcome. The success of a spell is measured by the {TN} on the test.
 
-Many times the {Threshold} is the targets Defense for targeted spells. 
+Many times the {TN} is the targets Defense for targeted spells. 
 
 Steps for Spellcasting:
 
 - Step 1: Choose a Spell. She can cast any spell she knows. Remember you can only have one Concentration Spell active at a time.
 - Step 2: Choose the Force. The maximum Force a spell can be cast at equals the spellcaster’s Magic rating x 2. 
 - Step 3: Choose the targets. Area spells you choose a location for the center, targeted spells you choose a target withing Line of Sight.
-- Step 4: Make the Spellcasting Test. `3D6 + Spellcasting + Magic` VS {Threshold}. (Unless opposed the {Threshold} is 10 + Force)
+- Step 4: Make the Spellcasting Test. `3D6 + Spellcasting + Magic` VS {TN}. (Unless opposed the {TN} is 10 + Force)
 - Step 5: Determine the effect. Some spells only require a success and the Effect determines how effective the spell is. Opposed test against living targets often trigger Willpower or other Reactions. Spells cast on astral objects like mana barriers or active foci are resisted with Force. **The Effect CANNOT exceed the Spells Force**
 - Step 6: Fatigue Test. `3D6 + Willpower VS. 9 + Spells Force` if you succeed you cast it with minimal issues, if you fail you suffer effects (see Spell Fatigue below)
 - Step 7: Concentration. Many spells can be sustained for as long as the magician is willing to concentrate on the spell, as noted in the spell’s Duration. If you take damage while maintaining concentration you must succeed on a `3D6 + Willpower Vs 10 or Half Damage taken rounded down up to 25 whichever is higher`
@@ -2237,9 +2543,9 @@ Counterspelling is used to interrupt other spells, either as they are being cast
 
 For example Paige is fighting another Mage in a bar. The other Mage is preparing to cast Fireball. Paige rolls `3D6 + Counterspelling + Magic` she has a Counterspelling of 4 and a Magic of 5, the rolls a 12 and ends up with a 21. The enemy Mage has a Magic of 4 and a Spellcasting of 4, rolls a 12 on 3D6. Since Paige beat the enemy Mage's roll the spell is Countered and no Fireball is cast. 
 
-When dispelling it is very similar, a Counterspelling + Magic Opposed Test is made against the target spell’s Force + caster’s Magic, if the roll is greater than the {Threshold} of the spell it is dispelled.
+When dispelling it is very similar, a Counterspelling + Magic Opposed Test is made against the target spell’s Force + caster’s Magic, if the roll is greater than the {TN} of the spell it is dispelled.
 
-For Example if Paige is trying to dispel a sealed door. She rolls `3D6 + Counterspelling + Magic vs {Threshold} from the Gamemaster`. The GM knows that the caster had a Force of 6 for the spell and their magic was 6 so `{Threshold} = 10 + 6 + 6` the {Threshold} is 22.
+For Example if Paige is trying to dispel a sealed door. She rolls `3D6 + Counterspelling + Magic vs {TN} from the Gamemaster`. The GM knows that the caster had a Force of 6 for the spell and their magic was 6 so `{TN} = 10 + 6 + 6` the {TN} is 22.
 
 
 ### Force
@@ -2252,7 +2558,7 @@ A spell’s Force limits the Effect that can be achieved on the Spellcasting Tes
 
 ### Spell Fatigue 
 
-When using a power, the player rolls a fatigue test for the character. This is a test with a target number of `{Threshold} = 9 + Spells Force / 2 rounded down`. Often times spells have a Fatigue Value or FV listed this represents the `Spell Force / 2 Rounded down` math already done.
+When using a power, the player rolls a fatigue test for the character. This is a test with a target number of `{TN} = 9 + Spells Force / 2 rounded down`. Often times spells have a Fatigue Value or FV listed this represents the `Spell Force / 2 Rounded down` math already done.
 
 Fatigue tests are Willpower Reactions. `3D6 + Willpower VS. 9 + Fatigue Value`
 
@@ -2282,7 +2588,7 @@ For example, a player who has a mage with Magic 5 can assume that she always cas
 
 If a caster wants the Spells Force to exceed their Magic Rating (maximum force is Magic x 2) they will suffer more dangerous outcomes than simple fatigue. If they fail the Fatituge test they will take the Fatigue Value as Damage instead of suffering Exhaustion levels as above. 
 
-For example is Paige has a Magic of 5 and decides to cast Acid Stream at Force 7 the Fatigue Value (based on the spells formula) would be 6. Since The Force 7 exceeds Paige's Magic if she fails her Fatigue check (`3D6 + Willpower VS. {Threshold} 15`) Paige will take 6 points of Physical damage instead of suffering exhaustion. 
+For example is Paige has a Magic of 5 and decides to cast Acid Stream at Force 7 the Fatigue Value (based on the spells formula) would be 6. Since The Force 7 exceeds Paige's Magic if she fails her Fatigue check (`3D6 + Willpower VS. {TN} 15`) Paige will take 6 points of Physical damage instead of suffering exhaustion. 
 
 While dangerous it represents a magician putting their life into a spell. In some settings, some spells **require** it to be physical.
 
@@ -2360,7 +2666,7 @@ Many Awakened characters can perceive the astral plane from the physical world. 
 
 It takes a Minor Action to shift one’s perception from the astral to the physical, and another to shift it back again (it is not possible to see both at the same time, though almost everything in physical space is reflected on the astral, albeit without detail). A character using astral perception is considered dual-natured, active on both the physical and astral planes simultaneously.
 
-While astral perception allows an Awakened character to sense the astral plane, actually interpreting what is sensed takes practice. Interpreting auras to gain information about the person or thing to whom they belong is called Assensing. A magician who wishes to learn more about an aura must make an Assensing test `Magic + Perception Rating` test against the {Threshold} as outlined on the Assensing Table (below). Without attempting to read an aura, a magician can still get an impression of what type of aura it is (spell, spirit, living creature, etc.).
+While astral perception allows an Awakened character to sense the astral plane, actually interpreting what is sensed takes practice. Interpreting auras to gain information about the person or thing to whom they belong is called Assensing. A magician who wishes to learn more about an aura must make an Assensing test `Magic + Perception Rating` test against the {TN} as outlined on the Assensing Table (below). Without attempting to read an aura, a magician can still get an impression of what type of aura it is (spell, spirit, living creature, etc.).
 
 Like physical perception, a character using astral perception should not need to make a test to see things that are immediately obvious (and since astral forms are bright and vibrant, this means that most astral forms are easily noticed). An actual test should only be called for when an astral being is specifically trying to hide, or when a character is trying to astrally observe in detail; in both these situations, an Assensing Test is made.
 
@@ -2373,19 +2679,19 @@ Whenever you have to perform a physical, non-magical task (shooting a gun, drivi
 Astral perception is a psychic sense that is not linked to the character’s physical sight. A blind magician can still magically perceive the astral plane and the creatures and auras within. Likewise, deaf magicians can “hear” in astral space. 
 
 **Assensing Table**
-| {Threshold} | Information Gained                                                                                                                                |
-| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 5           | None                                                                                                                                              |
-| 10          | The general state of the subject’s health, The subject’s general emotional state or impression, Whether the subject is mundane or Awakened        |
-| 15          | The presence and location of cyberware implants, The class of a magical subject, If you have seen the subject’s aura before, you may recognize it |
-| 20          | Whether the subject’s Force and Magic are higher, lower, or equal to your own,A general diagnosis for any maladies,Any astral signatures present  |
-| 25          | The exact Magic, and Force of the subject. The general cause of any astral signature                                                              |
-| 30          | An accurate diagnosis of any disease or toxins which afflict the subject. Who their first born child is, what they had for breakfast              |
+| {TN} | Information Gained                                                                                                                                |
+| ---- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 5    | None                                                                                                                                              |
+| 10   | The general state of the subject’s health, The subject’s general emotional state or impression, Whether the subject is mundane or Awakened        |
+| 15   | The presence and location of cyberware implants, The class of a magical subject, If you have seen the subject’s aura before, you may recognize it |
+| 20   | Whether the subject’s Force and Magic are higher, lower, or equal to your own,A general diagnosis for any maladies,Any astral signatures present  |
+| 25   | The exact Magic, and Force of the subject. The general cause of any astral signature                                                              |
+| 30   | An accurate diagnosis of any disease or toxins which afflict the subject. Who their first born child is, what they had for breakfast              |
 
 
 #### Astral Signatures
 
-Magical skills and abilities produce an astral signature on anything affected by them, which is detectable using assensing. An astral signature is the magical “fingerprint” of the Awakened creature who created it. A signature lasts for a number of hours equal to a magical effects Force after the effect ends. Foci and other magical items (like magical lodges) always contain the astral signature of their owner (or owners). A character can attempt to read an astral signature with an Assensing Test. A {Threshold} 20+ is required to detect the signature. Once seen, a signature can be recognized if the character sees it again (perhaps requiring a memory test). With a {Threshold} 25, she also gets an impression of what magical effect created the signature (the magical skill used and the general class of spell or spirit).
+Magical skills and abilities produce an astral signature on anything affected by them, which is detectable using assensing. An astral signature is the magical “fingerprint” of the Awakened creature who created it. A signature lasts for a number of hours equal to a magical effects Force after the effect ends. Foci and other magical items (like magical lodges) always contain the astral signature of their owner (or owners). A character can attempt to read an astral signature with an Assensing Test. A {TN} 20+ is required to detect the signature. Once seen, a signature can be recognized if the character sees it again (perhaps requiring a memory test). With a {TN} 25, she also gets an impression of what magical effect created the signature (the magical skill used and the general class of spell or spirit).
 
 Magical forensic investigators use astral signatures to gather information about criminal magicians, so characters should be careful about leaving astral signatures where they are likely to be seen by anyone who knows them.
 
@@ -2440,7 +2746,7 @@ How to read a spell.
 - Category: This describes the manner in which a spell affect its target, as well as what spirits will be associated with that type of spell. The categories are: Combat, Detection, Physical Health, Illusion, and Manipulation.
 - Type: Spell Type is either mana (M) or physical (P). Mana spells affect their targets through the mana that permeates the astral and physical planes affecting the target in a magical and spiritual manner that is only effectively resisted by the Willpower of a living or magical being. Physical spells directly target the body; resistance relies on the target’s Stamina. Only mana spells can affect astral forms. Either type of spell may be used in the physical world, but mana spells cannot affect non-living targets.
 - Range: All spells have a range at which they can be cast. For most spells, the range is line of sight (LOS). If the caster can see the target, regardless of distance, it can be affected. Some spells, particularly health spells, require the caster to touch the intended target in order for the spell to work. Other spells affect all valid targets within an area, defined as a circle with a radius equal to the spell’s Force in yards.
-- Test & {Threshold}: The type of test required if opposed, or the {Threshold} required (usually 10 + Force)
+- Test & {TN}: The type of test required if opposed, or the {TN} required (usually 10 + Force)
 - Duration: Duration is either Instant, Concentration, or Permanent. Instant spells end the moment they are cast, and their full effects are felt immediately. Concentration spells last for as long as the magician concentrates on them. Permanent spells must be Concentrationated for a short time, after which their effects become “natural” and no longer require magic or concentration to maintain. The time required to make a spell’s effects permanent is equal to twice the Fatgiue Value in Combat Turns.
 - Fatigue Value: This describes the Fatigue Value required for the Fatigue Test. Fatigue is based on the spell’s Force; the more powerful the spell, the more exhausting it is to cast. Fatigue is variable, based on the spell’s Force ÷ 2, rounded down, and modified by Fatigue modifiers appropriate to each spell. Failed Fatigue Tests cause Stun Damage and possibly Exhaustion (see Spell Fatigue above), unless the spell is overcast (cast at a Force higher than the magician’s Magic see above), in which case it causes Fatigue Value in Physical damage. Note that no Fatigue Value can ever be less than 1.
 
@@ -2467,7 +2773,7 @@ Direct Combat spells involve channeling mana directly into a target as destructi
 
 Indirect Combat spells (also commonly called AOE spells) generate a spell construct at the point of origin (the caster) which travels down the mystic link to the chosen target, whereupon it discharges and the effect defined in the spell description manifests. The spell traverses the distance between the caster and the target near instantly, but travels over the physical or astral plane to do so only to take effect when it “hits”. Hence, Indirect Spells are handled as ranged attacks and require a physically solid target or astrally active target to hit. As they travel down the link to the chosen target such effects may be impeded by physical obstacles or mana barriers. They may impact transparent obstacles (such as glass) and do not “bounce” off reflective surfaces used for line of sight. Instead the spell takes effect at the point of contact with an obstructing barrier. In the case of mana barriers, use the standard rules for casting through barriers, but if the spell’s Force is insufficient to beat the mana barrier it “fizzles” at the point of contact with the barrier.
 
-If the spell reaches the chosen target and it fails to dodge with Quickness (+ Counterspelling, if available) ({Threshold} 10 + Spells Force), the target then resists damage with Toughness + armor. Each point reduces the Damage Value. The target takes the damage left over, if any after the Toughness and Armor Protection is deducted. Note that nonliving objects resist damage from an Indirect Combat spell with their Armor rating x 2 (see Barriers). Note that unlike other spells, Indirect Combat spells may affect other targets that the caster cannot see if they are caught within the spell’s area of effect.
+If the spell reaches the chosen target and it fails to dodge with Quickness (+ Counterspelling, if available) ({TN} 10 + Spells Force), the target then resists damage with Toughness + armor. Each point reduces the Damage Value. The target takes the damage left over, if any after the Toughness and Armor Protection is deducted. Note that nonliving objects resist damage from an Indirect Combat spell with their Armor rating x 2 (see Barriers). Note that unlike other spells, Indirect Combat spells may affect other targets that the caster cannot see if they are caught within the spell’s area of effect.
 
 **Elemental Effects**: Many Indirect Combat spells utilize damaging elemental energies such as Fire damage, Electrical damage, etc (see Damage Types).
 
@@ -2504,7 +2810,7 @@ These Spells create a powerful corrosive that sprays the target, causing terribl
 ##### Toxic Wave (Indirect, Elemental, Area)
 - Type: P 
 - Range: LOS (A) 
-- Test: Quickness {Threshold} 10 + F
+- Test: Quickness {TN} 10 + F
 - Damage: P 
 - Duration: I 
 - FV: (F ÷ 2) + 5
@@ -2531,7 +2837,7 @@ These spells smack the target(s) with invisible psychokinetic force, similar to 
 ##### Blast (Indirect, Area)
 - Type: P 
 - Range: LOS (A) 
-- Test: Quickness {Threshold} 10 + F
+- Test: Quickness {TN} 10 + F
 - Damage: S 
 - Duration: I 
 - FV: (F ÷ 2) + 2
@@ -2659,9 +2965,9 @@ These spells channel magical energy directly into the target, causing Stun damag
 
 Detection also known as Divination spells give the subject a new sense, beyond the normal five senses, for as long as they are maintained. They are cast upon either the magician or a subject within Touch range. Using the sense may require the subject to take a Minor Action to Perception in Detail. Detection spells are either directional (like normal sight), area effect (work in all directions at once, like hearing), or psychic (providing some other special “sense” such as telepathy or precognition). Additionally the sense is either active or passive (see below).
 
-**Active**: The sense actively analyzes or seeks out certain information when the subject concentrates on it. Active Detection spells are treated as an Opposed Test, pitting the caster’s `Spellcasting + Magic vs. The target’s Willpower (+ Counterspelling, if available)`; magical objects resist with Force. Against objects, handle the spell as a Success Test with a {Threshold} based on the Object Resistance. The Detection Spell Results table provides guidelines for how thoroughly the sense works, based on Effect scored. Note that Counterspelling may be used to defend against active Detection spells, even if the magician is not aware of them (see Counterspelling).
+**Active**: The sense actively analyzes or seeks out certain information when the subject concentrates on it. Active Detection spells are treated as an Opposed Test, pitting the caster’s `Spellcasting + Magic vs. The target’s Willpower (+ Counterspelling, if available)`; magical objects resist with Force. Against objects, handle the spell as a Success Test with a {TN} based on the Object Resistance. The Detection Spell Results table provides guidelines for how thoroughly the sense works, based on Effect scored. Note that Counterspelling may be used to defend against active Detection spells, even if the magician is not aware of them (see Counterspelling).
 
-**Passive**: A passive sense is simply “on” and passes along any appropriate sensory input without any sort of interpretation (similar to hearing). The Spellcasting Test serves as a magical Willpower test, against an appropriate {Threshold} determined by the gamemaster. Other effects are noted in the spell descriptions. The Detection Spell Results table provides guidelines for how thoroughly the sense works, based on Effect.
+**Passive**: A passive sense is simply “on” and passes along any appropriate sensory input without any sort of interpretation (similar to hearing). The Spellcasting Test serves as a magical Willpower test, against an appropriate {TN} determined by the gamemaster. Other effects are noted in the spell descriptions. The Detection Spell Results table provides guidelines for how thoroughly the sense works, based on Effect.
 
 Note that Counterspelling cannot be used to “defend” against the sense provided by passive Detection spells.
 
@@ -2672,12 +2978,12 @@ Note also that a separate test is not needed for each potential target in range 
 **Glitches**: A glitch on a Detection Spellcasting Test may result in false or misleading information. Likewise, a critical glitch may inflict extra (+2 FV) or Physical Drain, may temporarily strip the character of a sense, or may inexplicably apply the sense to others (particularly opponents) in range.
 
 **Detection Results Table**
-| {Threshold} | Results                                                                                                                                     |
-| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| 10          | Only general knowledge, no details. Detect Life Example: A group of humanoids.                                                              |
-| 15          | Major details only, no minor details. Detect Life Example: Three male orcs and a female troll, coming your way.                             |
-| 20          | Major and minor details, with some minor details obscured or missing. Detect Life Example: They are all running/armed. The troll is leading |
-| 25          | Completely detailed information. Detect Life Example: The troll is your contact, Moira she’s wounded and being chased by three orcs         |
+| {TN} | Results                                                                                                                                     |
+| ---- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| 10   | Only general knowledge, no details. Detect Life Example: A group of humanoids.                                                              |
+| 15   | Major details only, no minor details. Detect Life Example: Three male orcs and a female troll, coming your way.                             |
+| 20   | Major and minor details, with some minor details obscured or missing. Detect Life Example: They are all running/armed. The troll is leading |
+| 25   | Completely detailed information. Detect Life Example: The troll is your contact, Moira she’s wounded and being chased by three orcs         |
 
 
 #### Analyze Device (Active, Directional)
@@ -2810,11 +3116,11 @@ Mindlink allows the caster and one voluntary subject to communicate mentally, ex
 This spell allows the subject to telepathically probe the mind of a specific target within range of the sense (chosen when the spell is cast). The target is aware of the probing, though they may not know the source of the spell. If the caster gains one or more Effect, consult the Mind Probe Results table (below) for the information gained. The subject may probe for one piece of information per Major Action. Additional uses of Mind Probe against the same target within a number of hours equal to the target’s Willpower are at a –2 modifier per previous Spellcasting attempt.
 
 **Mind Probe Results table**
-| {Threshold} | Result                                                                                                     |
-| ----------- | ---------------------------------------------------------------------------------------------------------- |
-| 15          | The subject can read the target’s surface thoughts only.                                                   |
-| 20          | The subject can fi nd out anything the target consciously knows and view the target’s memories.            |
-| 25          | The subject can probe the target’s subconscious, for psychological quirks, deep fears, or hidden memories. |
+| {TN} | Result                                                                                                     |
+| ---- | ---------------------------------------------------------------------------------------------------------- |
+| 15   | The subject can read the target’s surface thoughts only.                                                   |
+| 20   | The subject can fi nd out anything the target consciously knows and view the target’s memories.            |
+| 25   | The subject can probe the target’s subconscious, for psychological quirks, deep fears, or hidden memories. |
 
 ### Physical Health Spells
 
@@ -3062,7 +3368,7 @@ Invisibility affects the minds of viewers. Improved Invisibility mimics the subj
 - FV: (F ÷ 2) + 1
 
 
-The Mask spell requires the caster to touch the subject. The subject assumes a different physical appearance (of the same basic size and shape) chosen by the caster. This alters the subject’s voice, scent, and other physical characteristics as well. Anyone who might see through the disguise must first successfully resist the spell. Simply make one Spellcasting Test and use the result scored as the {Threshold} for anyone that resists at a later point.
+The Mask spell requires the caster to touch the subject. The subject assumes a different physical appearance (of the same basic size and shape) chosen by the caster. This alters the subject’s voice, scent, and other physical characteristics as well. Anyone who might see through the disguise must first successfully resist the spell. Simply make one Spellcasting Test and use the result scored as the {TN} for anyone that resists at a later point.
 
 Mask affects the minds of viewers. Physical Mask creates an illusion that affects technological sensors as well.
 
@@ -3233,7 +3539,7 @@ on the spell’s effective Strength.
 This spell creates a slippery sheet of ice over the area of effect.
 Characters crossing the ice must make an Agility + Reaction Test with
 a threshold equal to the hits scored to avoid falling prone. Vehicles
-must make a Crash Test (p. 178). the sheet melts at a rate of 1 square
+must make a Crash Test. the sheet melts at a rate of 1 square
 yard per minute in normal temperatures.
 
 #### Ignite (Physical)
@@ -3246,12 +3552,12 @@ yard per minute in normal temperatures.
 the Ignite spell accelerates molecular motion in the target, causing it
 to catch fire once the spell becomes permanent. the spellcaster must
 achieve enough Effect to beat a threshold equal to the target’s Object
-Resistance (p. 183). Once the target ignites, it burns normally until it
+Resistance. Once the target ignites, it burns normally until it
 is consumed or extinguished.
 Against living targets, treat Ignite as an Opposed Test pitting
 Spellcasting + Magic vs. Stamina (+ Counterspelling). If successful,
 Ignite wraps a living target in heat and flames once it has been made
-permanent, causing (Force) boxes of Fire damage (p. 164) on the first
+permanent, causing (Force) boxes of Fire damage on the first
 Combat Turn, and increasing by one box of damage each additional
 turn. Resolve the damage at the end of each Combat Turn by making
 a Damage Resistance Test using the victim’s Stamina + half Impact armor.
@@ -3339,8 +3645,7 @@ spells. If cast on the astral plane, it also impedes astral forms and restricts 
 Mana Barrier receives a bonus to its spell resistance  equal to
 the barrier’s Force. If the target had no resistance , but instead
 has an Object Resistance threshold, increase the threshold by 1 for
-every increment of 3 Force in the Mana Barrier (round up). See p. 194
-for more information on mana barriers.
+every increment of 3 Force in the Mana Barrier (round up). 
 
 #### Petrify (Physical)
 
@@ -3370,7 +3675,7 @@ of Armor and Structure rating per hit (see Barriers). the caster
 can form the barrier as a dome with a radius and height equal to the 
 spell’s normal radius. the caster can also form a wall with a height and
 length equal to the spell’s Force. the caster can adjust size of the barrier
-the same as the radius of an area spell (p. 183).
+the same as the radius of an area spell .
 Physical Barrier creates a physical wall. Anything the size of a molecule (or less) can pass through the barrier, including air or other gases.
 Anything bigger treats the barrier as a normal physical wall. Attacks
 directed through a barrier have a –1  visibility penalty. the
@@ -3422,8 +3727,7 @@ against targets within the area (maximum –6).
 
 Shapechange transforms a voluntary subject into a normal (non-paranormal) critter, though the subject retains human consciousness. the
 subject can only assume the form of a critter whose base Stamina rating
-is 2 points greater or less than her own. Consult the Critters section,
-p. 292, for the subject’s Physical attributes while in critter form. Add 1
+is 2 points greater or less than her own. Consult the Critters section, for the subject’s Physical attributes while in critter form. Add 1
 to the critter’s Base attribute Ratings for every hit the caster generates.
 Her Mental attributes remain unchanged.
 this spell does not transform clothing and equipment. Magicians
