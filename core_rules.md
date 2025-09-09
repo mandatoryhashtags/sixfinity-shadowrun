@@ -388,15 +388,25 @@ You compare this result to a Target Number (below)
 
 ### TN's
 
-| Difficulty | TN  | SR5e |
-| ---------- | --- | ---- |
-| Easy       | 6   | 1    |
-| Average    | 12  | 2    |
-| Hard       | 18  | 4    |
-| Very Hard  | 24  | 6    |
-| Extreme    | 30  | 8    |
+| Difficulty           | TN  | SR5e  Threshold |
+| -------------------- | --- | --------------- |
+| Easy                 | 6   | 1               |
+| Average              | 12  | 2               |
+| Hard                 | 18  | 3-4             |
+| Very Hard            | 24  | 5-6             |
+| Extreme              | 30  | 7-8             |
+| Virtually Impossible | 36  | 9-10            |
 
-#### Rolling 18
+#### Threshold
+This was added just for SR5e, in some cases things call for a Threshold Reduction. This just means stepping the TN down.
+
+So if something was a Threshold 3, it was a TN 18 and you reduce the Threshold by 1, it is a TN 12.
+
+This means if something says it is a Threshold 3 then the TN is 18. 
+
+> This is the behidn the curtain look at how I did this conversion. Normal Sixfinity these TN's are 5/10/15/20/25/30 I adjusted them to be by 6's because of the math I found when I started looking into the 1/3 success rate on dice. They consider 4 dice a guranteed success so I took the average for a D6 as 3 (rounded down) multipled it by 4 to get the "Average" then went half for Easy and scaled from there.
+
+### Rolling 18
 One of two things happen when you roll 6 on all three dice. 
 
 1. If you succeeded at your test, you get to roll the Effect Dice again, once, and add the total to your Effect Dice for Effect.
@@ -429,7 +439,7 @@ This is where the game really takes off. As long as you succeeded at a Test you 
 
 #### Net Effect
 
-This was added for Shadowrun.
+This was added for Shadowrun. If you see something that says "Net Hits" it means Net Effect. If you see something that says "hit" or {hits} it is referring to the Effect Dice.
 
 On occasion loike breaking a Barrier, you need to compare the Effect Rating of the Barrier against your Effect and see if you got through it. 
 
@@ -480,6 +490,14 @@ While there are numerous mnemonic devices designed for remembering information, 
 
 Glitches can have a devastating effect on memory. A glitch means the character misremembers some portion of the information, such as order of numbers in a passcode. A critical glitch means the character has completely fooled himself into believing and thus remembering something that never actually happened.
 
+**RESIST KNOCKDOWN (STR)**
+
+When you take more damage in a single attack than your Physical Limit x 3 you must avoid being knocked prone. Do this with a `3D6 + STR VS Damage Taken or 10 whichever is higher` success means you stay on your feet, failure you are knocked prone. If you take 30 damage in a single attack you are automatically knocked down regardless of the roll. 
+
+**TOXIN RESISTANCE TEST (BOD + WIL)**
+
+`Body + Willpower + the rating of any protective gear/systems`; each Effect reduces the toxin’s Power by 1 point. If the Power is reduced to zero, the toxic substance takes no effect; otherwise, apply the effect depending on the remaining Power level.
+
 ### Courage Points
 
 Courage is a character’s luck, the favor of the gods, that unexplainable factor that allows her to beat the odds. A character’s Courage attribute represents the number of Courage points a character has to spend during gameplay. Courage points can be used for a wide range of benfits, each noted below. Courage points that are spent are temporarily unavailable (see Regaining Courage, below)—luck will only take you so far. Note that a character’s Courage attribute never actually changes, even when Courage points are spent, unless the character permanently burns Courage (see Burning Courage)
@@ -514,6 +532,91 @@ In certain drastic situations, even spending Courage may not be enough. A charac
 
 - Crits and Things: Burn 1 Courage to get +10 to your roll and 6 Effect.
 - Not Dead Yet: When facing death you somehow survive. You still take all the negative effects of what happened such as lost limbs, you are just not dead. You are not dying either, you are stable.
+
+
+### Individual Rule Sections
+
+These sections are referenced in other locations in the book for how something works. This is the central repository for this information instead of scattering it all over the book in Combat, Equipment, etc. 
+
+#### Direct Neural Interface or DNI
+
+A direct neural interface, or DNI, connects your brain to electronic devices. Direct neural interface (along with a sim module) is required for VR use, but DNI is also useful for AR in that you don’t need any additional gear like earbuds or an image link to see or hear augmented reality objects. How do you sign up? You get DNI by wearing trodes, or having an implanted datajack, commlink, or cyberdeck. And if you’re using a sim module along with your DNI, you can get a sort of “super AR mode” where you can also feel, smell, and taste your AR experience.
+
+#### Grenades
+
+When throwing a grenade, choose a location as a target. Use a Throw Weapon Minor Action and make a Throwing Weapons + Agility [Physical] (TN 18) Test modified for range and all the usual conditions. Success means the grenade lands right where you wanted. If you don’t meet the threshold, the grenade scatters. The gamemaster determines scatter by consulting the Scatter Table (Determine Scatter). Hitting the TN on the test means no scatter, but it is still possible to hit the target if the scatter roll is low and the thrower got some Effect (see Determine Scatter). This all goes back to the old saying: “Close only counts in horseshoes and hand grenades.”
+
+Grenades are small, self-contained explosive or gasdelivery packages. They may come with a built-in timer to detonate after a pre-set amount of time (usually three seconds), a motion-sensor set to detonate on impact, or a wireless link set to detonate upon remote command. The type of detonation device determines the special rules and timing of grenade explosions.
+
+Built-in Timer: This detonation method uses the attacker’s Initiative Score as the determining factor for detonation. The grenade is thrown during the character’s Action Phase and detonates in the next Combat Turn on the Initiative Score in which it was thrown minus 10, regardless of any additional changes to the thrower’s Initiative Score.
+
+Motion Sensor: Grenades using a motion sensor are extremely dangerous. Once armed (about a second after the sensor is activated) the grenade explodes after any sudden stop or change in direction, meaning hitting the wall, floor, or target. This method uses the standard Ranged Attack rules but adds an extra step if it misses the target (no net Effect on the attack roll). After a failed attack roll, the thrower must roll for scatter and the grenade scatters the full amount before exploding immediately. A glitch on the attack roll means the grenade does not detonate on initial impact but instead doubles the scatter distance and explodes. A Critical Glitch means the thrower waited too long, and the throw sets off the grenade. The grenade detonates immediately, affecting the attacker and those around him. (Warned you it was dangerous.)
+
+Wireless Link: This is the safest way to throw a grenade in some aspects, but it also comes with some risk and effort. The thrower (or anyone else who has a mark on the grenade) can detonate it by a wireless link. This requires the attacker to have a direct neural interface to the linked device and use the Change Wireless Device Mode Free Action. This method also reduces scatter. Without a DNI the attacker must use the Change Linked Device Mode Minor Action in their next or any of their subsequent Action Phases to detonate the grenade and scatter is not reduced.
+
+##### Determine Scatter
+
+If the attacker misses their intended landing spot, the gamemaster must determine the projectile’s scatter. The gamemaster determines the direction of the scatter by rolling 2D6 and consulting the Scatter Diagram. The 7 arrow indicates the direction of the launch, so a result of 7 means the projectile continued on past the target, while a result of 12 or 2 means the projectile scatters back in the direction of the attacker. Having determined the direction of the scatter, the gamemaster calculates the distance. The Scatter Table indicates a number of dice rolled based on the projectile, which is reduced by the number of Effect the attacker rolled. This is used to determine the final scatter distance. If the scatter distance is reduced to 0 or less, the projectile hits the target exactly. (Note that additional Effect do not add to Damage Values).
+
+| Roll | Direction from Target |
+| ---- | --------------------- |
+| 2,12 | 6 oclock, south       |
+| 3    | 8 oclock, SW          |
+| 4    | 9 oclock, W           |
+| 5    | 10 oclock,            |
+| 6    | 11 oclock, NW         |
+| 7    | 12 oclock, N          |
+| 8    | 1 oclock, NE          |
+| 9    | 2 oclock              |
+| 10   | 3 oclock, E           |
+| 11   | 5 oclock, SE          |
+
+
+**Scatter Table**
+
+| Type                | Scatter              |
+| ------------------- | -------------------- |
+| Standard Grenade    | (1D6 – Effect) yards |
+| Aerodynamic Grenade | (2D6 – Effect) yards |
+| Grenade Launcher    | (3D6 – Effect) yards |
+| Missile Launcher    | (4D6 – Effect) yards |
+| Rocket Launcher     | (5D6 – Effect) yards |
+
+#### Grenade Launchers, Rockets, & Missiles
+
+Occasionally, characters get their hands on military- grade hardware, like grenade launchers, missiles, and rocket launchers. Resolving a launched grenade, rocket, or missile attack is a two-step process. The first step determines where the projectile ends up in relation to the target (see Determine Scatter). The second step resolves the effect of the projectile’s explosion.
+
+When you fire a grenade, rocket, or missile you use a Attack Major Action and roll a Gunnery + Agility [Accuracy] (TN 18) Test modified for range and all the usual conditions. Success means the launched weapon hits right where you wanted. If you don’t meet the TN, the projectile scatters. The gamemaster determines scatter by consulting the Scatter Table.
+
+#### Blast Effects
+
+Grenades, rockets, and missiles are area-effect weapons, meaning that their blast affects a given area and any targets within it. The farther away the target is from the explosive’s final location—the blast point—the less damage it takes, because distance reduces the effect of an explosive’s blast. Different grenade, rocket, and missile types lose blast effect at different rates. Consult the Grenades/ Rockets/Missiles Table to find the projectile’s Damage Code and Damage Value reduction rate.
+
+#### TOXINS, DRUGS, AND BTLS
+
+The Sixth World is a vicious place; it seems like something is always trying to do you harm. It’s not always a physical weapon, either. Sometimes it’s a fragging molecule or simsense program. Toxins come in a stunning array of forms in Shadowrun, some of them weaponized, some of them recreational. This section will deal with them. It opens with those toxins used primarily as weapons against the characters. Following those come the more recreational pharmaceuticals and their technological cousins. Then we finish up with rules and guidelines for substance abuse and addiction.
+
+##### TOXINS
+
+Knockout drugs. Truth serum. Nerve gas. All of these are examples of toxins, a catch-all term for a substance that’s mostly meant for use as a weapon, as opposed to recreation. Each substance has several attribute ratings.
+
+**Vector**
+
+This shows how the toxin is delivered to the target.
+
+Contact toxins can be solid, liquid, or gaseous. They attack the victim through the skin. These toxins, if in liquid form, can be coated on a weapon. In this case, they can be applied with a successful Melee Attack, whether the attack causes damage or not. A chemical seal offers complete protection from this vector, unless it’s breached. Chemical protection gives a modifier equal to its rating to the target’s Toxin Resistance Test.
+
+Ingestion toxins must be eaten by the victim. They can be solids or liquids. Since they must be eaten, they generally take longer to have an effect. Toxin extractor bioware provides a modifier equal to the rating of the augmentation to resist ingested and other toxins.
+
+Inhalation toxins are applied as an aerosol spray or gas, and they must be breathed in by the target. Gas masks, chemical seals, and active internal air tanks provide immunity to inhalation toxins. Chemical protection gives bonus modifier to the Toxin Resistance Test equal to its rating.
+
+Injection toxins must get into the target’s bloodstream, whether through a dart, hypodermic needle, or a cut. These can also be used to coat an edged melee weapon. They are applied to the target with a successful melee attack that causes damage.
+
+**Speed**
+
+This determines how quickly the victim suffers the toxin’s Effect. These effects are always applied at the end of a Combat Turn.
+
+
 
 
 ## Chapter 5: Edges & Flaws
@@ -1034,7 +1137,7 @@ Some skills are too technically demanding for you to default. In these cases, yo
 | Survival          | Willpower        | Mental   | Outdoors      |
 | *Summoning*       | Magic            | Magic    | Conjuring     |
 | Swimming          | Strength         | Physical | Athletics     |
-| Thrown Weapons    | Strength         | Combat   | -             |
+| Throwing Weapons  | Strength         | Combat   | -             |
 | Unarmed Combat    | Agility          | Combat   | Close Combat  |
 | Vehicles          | Reaction         | Physical | -             |
 
@@ -1376,9 +1479,9 @@ water, identify edible and medicinal plants, make simple tools, navigate the out
 
 ---
 
-##### Thrown Weapons (Strength)
+##### Throwing Weapons (Strength)
 
-The Thrown Weapons skill governs the use of any item thrown by the user.
+The Throwing Weapons skill governs the use of any item thrown by the user.
 
 
 
@@ -1415,7 +1518,7 @@ stunts, pilot a boat, race vehicles, tune up a vehicle, use vehicle knowledge.
 
 Gear’s Availability Rating determines how easy (or hard, or practically impossible) it is to acquire a needed or desired piece of equipment. Availability is an abstract amalgamation of factors like rarity, legality, distribution issues, supply, demand, and so on. The letter that follows an item’s numerical Availability Rating shows whether the item is Restricted (R) or Forbidden (F). For this reason, the gamemaster should feel free to modify an item’s Availability Rating—either the numerical value, or its legality code—in situations that would warrant it, like if the strider is in a war zone or in a country with a restricted economy.
 
-Standard gear is generally available in most places. In locations where it is not you can roll `3D6 + Streetwise VS Availability` to see if you can find the items. You must roll for Restricted items, and Forbidden Items you will generally need a Contact to get your hands on those. 
+Standard gear is generally available in most places. In locations where it is not you can roll `3D6 + Streetwise VS (Availability + 10)` to see if you can find the items. You must roll for Restricted items, and Forbidden Items you will generally need a Contact to get your hands on those. 
 
 #### Standard Gear
 
@@ -1547,12 +1650,7 @@ Bows: This could be a traditional longbow of fiberglass or wood, or possibly a m
 
 Bows have ratings that indicate the minimum Strength you need to use that weapon. When attacking with a bow, a character whose Strength is less than the Strength minimum suffers a –3 modifier per point below the minimum; this penalty reflects the difficulty they have in pulling the bow and nocking an arrow. The weapon’s Rating is also used to determine its range and damage (maximum Rating is 10). Use the lowest value of your Strength, the bow’s rating, or the arrow Rating for range and damage when attacking a target, because your average Rating 10 titanium-sheathed beryllium-alloy bow tends to turn wood or fiberglass arrows into powder when they hit a target.
 
-Crossbows: Modern crossbows are equipped with
-automatic reloading devices, so unless you’re using
-a museum piece, reloading doesn’t require a Ready
-Weapon action. Crossbows have internal magazines (m)
-holding up to 4 bolts. Crossbows are available in Light,
-Medium, and Heavy sizes.
+Crossbows: Modern crossbows are equipped with automatic reloading devices, so unless you’re using a museum piece, reloading doesn’t require a Ready Weapon action. Crossbows have internal magazines (m) holding up to 4 bolts. Crossbows are available in Light, Medium, and Heavy sizes.
 
 Injection arrow/bolt: An injection bolt causes the same damage as a regular arrow or bolt, but also includes a payload of one dose of a drug or toxin. Effects depend on the drug payload, but to successfully deliver it, the attack must deal at least one box of damage after the Damage Resistance Test. This is an injection vector toxin attack.
 
@@ -1646,7 +1744,7 @@ Firearms come with wireless capability and a digital ammunition counter. Ammunit
 
 Tasers are legal to carry and a great choice for non-lethally incapacitating someone. Tasers, like other electrical weapons, have a flat Armor Penetration value of –5 and deal electricity damage. Use the Pistols skill to fire a taser. Tasers can take only top-mounted accessories.
 
-Defiance EX Shocker: This heavy-duty taser fires up to 4 darts that trail wires up to 20 meters long. The wired connection to the battery allows for a more powerful shock. Most modern tasers use wireless darts, so the Defiance EX Shocker is an exception. It also features contacts that allow it to be used as a stun weapon in melee (Accuracy 3, DV 8S(e), Reach 0). Wireless: A successful hit informs you of the status of the target’s basic health (and Condition Monitors).
+Defiance EX Shocker: This heavy-duty taser fires up to 4 darts that trail wires up to 20 yards long. The wired connection to the battery allows for a more powerful shock. Most modern tasers use wireless darts, so the Defiance EX Shocker is an exception. It also features contacts that allow it to be used as a stun weapon in melee (Accuracy 3, DV 8S(e), Reach 0). Wireless: A successful hit informs you of the status of the target’s basic health (and Condition Monitors).
 
 Yamaha Pulsar: The darts of this taser contain wireless capacitors, meaning that the Pulsar eliminates the need for cumbersome wires. As a trade-off, it is slightly less powerful than the EX Shocker, although it can fire faster. It lacks the EX Shocker’s melee contacts. Wireless: A successful hit informs you of the status of the target’s basic health (and Condition Monitors).
 
@@ -1715,16 +1813,9 @@ HK–227: The SMG of choice for many corporate and military security forces, the
 
 Ingram Smartgun X: Grade-A bang bang. Famous as the weapon of choice for many legendary street samurai since the 2050s, the Ingram Smartgun comes tricked out with a gas-vent 2 system, a smartgun system, and an integral sound suppressor
 
-SCK Model 100: Shin Chou Kyogo is synonymous
-with Japanese corporate security. Nearly every Japanacorp’s
-security forces are issued the SCK 100, including
-Renraku’s infamous Red Samurai. The SCK 100 features
-an internal smartgun system and a folding stock.
+SCK Model 100: Shin Chou Kyogo is synonymous with Japanese corporate security. Nearly every Japanacorp’s security forces are issued the SCK 100, including Renraku’s infamous Red Samurai. The SCK 100 features an internal smartgun system and a folding stock.
 
-Uzi IV: This aging submachine gun is a worthy descendant
-of the famous Israeli weapon. The SMG features
-an integral folding stock and built-in top-mounted
-laser sight.
+Uzi IV: This aging submachine gun is a worthy descendant of the famous Israeli weapon. The SMG features an integral folding stock and built-in top-mounted laser sight.
 
 **ASSAULT RIFLES**
 
@@ -1771,7 +1862,7 @@ Use the Exotic Ranged Weapon skill when firing these weapons. This skill is not 
 
 Ares S-III Super Squirt: This popular non-lethal weapon fires DMSO gel packs. The dimethyl sulfoxide forces the skin to absorb the chemicals the operator wishes to deliver. The attack itself causes no damage, but when the target is hit successfully, the DMSO delivers the substance directly into the target’s bloodstream as a Contact vector toxin (Toxins, Drugs, and BTLs). The Super Squirt uses Light Pistol ranges and can accept top- and underbarrel-mounted accessories
 
-Fichetti Pain Inducer: For a non-lethal weapon, the Fichetti Pain Inducer is not very humane. It makes someone feel like they are in a microwave, roasting from the inside out. Treat this as a toxin attack with a Power of 8 and a speed of Immediate. The target resists with Body + Willpower. If the modified Power exceeds the target’s Mental limit, the target must spend his next Action Phase doing whatever it takes to run away from the pain. The attacker can continue to hold her beam on a target with a Complex Action unless the gamemaster deems the target has dodged away or found cover. If the target cannot get out of the beam, he is incapacitated with pain, suffering a dice pool modifier equal to the modified Power on all tests for as long as the beam is trained on him. The Pain Inducer uses SMG ranges and can take top and underbarrel accessories. It has ten charges; when attached to a power point, it reloads one charge every ten seconds. Wireless: The Pain Inducer recharges by induction at a rate of 1 charge per hour
+Fichetti Pain Inducer: For a non-lethal weapon, the Fichetti Pain Inducer is not very humane. It makes someone feel like they are in a microwave, roasting from the inside out. Treat this as a toxin attack with a Power of 8 and a speed of Immediate. The target resists with Body + Willpower. If the modified Power exceeds the target’s Mental limit, the target must spend his next Action Phase doing whatever it takes to run away from the pain. The attacker can continue to hold her beam on a target with a Major Action unless the gamemaster deems the target has dodged away or found cover. If the target cannot get out of the beam, he is incapacitated with pain, suffering a modifier equal to the modified Power on all tests for as long as the beam is trained on him. The Pain Inducer uses SMG ranges and can take top and underbarrel accessories. It has ten charges; when attached to a power point, it reloads one charge every ten seconds. Wireless: The Pain Inducer recharges by induction at a rate of 1 charge per hour
 
 Parashield Dart Pistol: The industry standard dart pistol, this fires injection darts with narcoject or another payload. The Parashield dart pistol uses Heavy Pistol ranges and can take top-mounted accessories. Wireless: The dart reports whether or not it has struck home and successfully injected. It may also report any gross physical anomalies in the target’s tissue, although its medical sensors are not very sophisticated (Device Rating of 1 for the dart).
 
@@ -1793,7 +1884,7 @@ RPK HMG: This heavy Russian machine gun is used by the militaries of several eas
 
 Use the Gunnery skill when firing assault cannons and grenade and missile launchers. All suffer from double modifiers for uncompensated recoil. Both assault cannons and launchers can take top and underbarrel accessories. Naturally, assault cannons use assault cannon ammo, grenade launchers fire minigrenades, and missile launchers launch missiles or rockets.
 
-Ares Antioch–2: The Antioch–2 features a classic grenade launcher design combined with an integral smartlink system. It is one of the more affordable grenade launchers on the market. Wireless: You can use the wireless link trigger for your grenades, even if you don’t have DNI (Direct Neural Interface sidebar).
+Ares Antioch–2: The Antioch–2 features a classic grenade launcher design combined with an integral smartlink system. It is one of the more affordable grenade launchers on the market. Wireless: You can use the wireless link trigger for your grenades, even if you don’t have DNI (Direct Neural Interface).
 
 ArmTech MGL–12: This bullpup-configuration grenade launcher is popular, since it can fire in semi-auto mode and carries substantially more minigrenades than its competitors. Wireless: You can use the wireless link trigger for your grenades, even if you don’t have DNI (Direct Neural Interface).
 
@@ -1831,331 +1922,130 @@ Most firearm accessories must be attached to a particular mount—top, barrel, u
 | Speed loader                 | —            | 2             | 25¥                |
 | Tripod                       | Under        | 4             | 500¥               |
 
-Airburst link: This grenade/rocket launcher smartgun accessory uses a “smart” rangefinder to air-burst the explosive projectile at a point deemed to be both a safe distance from the launcher and within the closest possible proximity to the target. An airburst link reduces the scatter distance for a launched grenade by two meters per net hit instead of by one meter per hit (Determine Scatter, p. 182) when you use the wireless link trigger. Wireless: An airburst link requires wireless functionality to function at all. Both the grenades and the launcher must have wireless mode turned on.
-
-Bipod: This two-legged brace extends downward
-from the weapon, allowing it to be fired low to the
-ground with the user in a prone or sitting position. A
-bipod can be attached to the underbarrel mount of a
-weapon and provides 2 points of Recoil Compensation
-when properly deployed. Attaching a bipod takes one
-minute. Folding up or deploying a bipod is a Simple Action.
-Removing it is a Complex Action.
-Wireless: Folding up or deploying the bipod is a Free
-Action
-
-Concealable holster: This small holster can be worn
-on the ankle, clipped to the forearm, in the small of the
-back, or anywhere else it’s unlikely to be seen. The concealable
-holster adds –1 to the item’s Concealability (p.
-419). Only pistols and tasers fit in a Concealable Holster.
-Wireless: Wireless sensors and a smart-fabric coated
-weave allow the holster to alter color and texture in real
-time adding an additional –1 to the item’s Concealability.
-
-Gas-vent system: Gas-vent recoil compensation systems
-are barrel-mounted accessories that vent a weapon’s barrel gases at a specific vector to counter muzzle
-climb. Once installed, a gas-vent cannot be removed.
-Gas-vent systems provide a number of points of Recoil
-Compensation equal to their rating.
-
-Gyro mount: This heavy upper-body harness features
-an attached, articulated, motorized gyro-stabilized arm
-that mounts an assault rifle or a heavy weapon. The system
-neutralizes up to 6 points of recoil and movement modifiers.
-Attaching or removing a weapon from the mount
-takes a Simple Action. Putting on a gyro-mount harness
-takes about five minutes, while the quick-release allows
-you to get out of it with a Complex Action.
-Wireless: Activating the harness’s quick-release with a
-wireless signal to exit the harness is a Free Action.
-
-Hidden arm slide: Attached to the forearm and
-worn under clothing, this slide can accommodate a pistol-
-sized weapon. It can fit a hold-out, light pistol, or taser.
-With a hand gesture, the slide releases the weapon/
-object right into your hand. If you quick draw the weapon
-in this slide, the threshold for the quick draw is 2. It
-also gives the weapon a –1 Concealability modifier.
-Wireless: You can ready the weapon in the slide as a
-Free Action.
-
-Imaging scope: These classic scopes are attached to
-the top mount; attaching or removing them takes only a
-Simple Action. Imaging scopes include a micro camera
-and vision magnification, and they have a Capacity of 3
-to hold vision enhancements (p. 444).
-Wireless: The scope’s “line of sight” can be shared, allowing
-you to share what your scope sees with your team
-(and yourself if you’re using it to look around a corner).
-
-Laser sight: This device uses a laser beam to project
-a visible dot (in your choice of colors) on the target. This
-increases the weapon’s Accuracy by 1, which is not cumulative
-with smartlink modifiers. The laser sight can be
-attached to either the underbarrel mount or top mount.
-Activating or deactivating a laser sight is a Simple Action.
-Wireless: The wireless laser sight provides a +1 dice
-pool bonus on attack tests, not cumulative with smartlink
-modifiers. Activating and deactivating the laser
-sight is a Free Action.
-
-Periscope: This adjustable “off-axis” viewer attaches
-to a top mount and allows an operator to target a weapon
-around corners, reducing the usual –3 dice pool penalty
-to –2. A periscope can be upgraded with any of the
-vision enhancements noted on p. 444.
-Wireless: The dice pool penalty for shooting around
-corners is reduced to –1.
-
-Quick-draw holster: This easy access holster can
-hold any weapon of Machine Pistol or smaller size. It
-reduces the threshold for quick-drawing the holstered
-weapon by 1 (see Quick Draw, p. 165).
-
-Shock pad: A shock-absorbing pad is situated on the
-rigid stock of a rifle, shotgun, or heavy weapon, and provides
-1 point of recoil compensation
-
-Silencer/suppressor: This barrel-mounted accessory
-reduces the sound and flash of a weapon’s discharge.
-It cannot be used with revolvers or shotguns. It applies
-a –4 dice pool modifier on all Perception Tests to notice
-the weapon’s use or locate the weapon’s firer. Attaching
-or removing a silencer takes a Complex Action.
-Wireless: The silencer/suppressor features a Rating 2
-microphone with Rating 2 Select Sound Filter and simple
-software that alerts you via AR if your silencer detects
-the sound of someone nearby reacting to the sound of
-the silenced weapon.
-
-Smart firing platform: This is a non-mobile robotic
-tripod equipped with a remote control pivot that allows
-for a 180-degree firing arc and a 60-degree inclination.
-You can mount one smartgun-equipped weapon to the
-platform, and it will be fired by the device’s onboard Pilot
-(Device Rating 3). The platform is equipped with a
-Targeting Autosoft (Rating 3) and can be upgraded with
-additional autosofts, usually a Clearsight program. You
-need to set the parameters of who exactly the platform
-should and shouldn’t shoot at, which are followed by the
-platform’s pilot (Pilot Programs, p. 269). The platform
-provides 5 points of Recoil Compensation. It has an Initiative
-attribute of Pilot x 2 and 4D6 Initiative Dice when
-acting autonomously (see Drone Initiative, p. 270).
-Wireless: You can fire the mounted weapon remotely
-(Control Device, p. 238), like a drone with no rigger
-interface. You can use an implanted smartlink with the
-smartgun if you’re in VR.
-
-Smartgun system: This connects a firearm or a
-projectile weapon directly to the user’s smartlink. Incorporating
-a small camera and laser range finder, the
-smartlink keeps track of ammunition, heat buildup, and
-material stress. If you have a smartlink, you can mentally
-switch between gun modes, eject a clip, and fire
-the gun without pulling the trigger. The camera lets
-you shoot around corners without exposing yourself
-to return fire (at a –3 dice pool penalty). The system
-makes use of advanced calculation software, allowing
-for precisely calculated trajectories and high precision
-over any distance.
-If you’re using a smartlink, the smartgun system increases
-the gun’s Accuracy by 2. The smartgun features
-are accessed either by universal access port cable to an
-imaging device (like glasses, goggles, or a datajack for
-someone with cybereyes) or by a wireless connection
-working in concert with direct neural interface.
-Retrofitting a firearm with an internal smartgun system
-doubles the weapon’s price and adds 2 to its Availability.
-An external smartgun system can be attached to
-the top mount or underbarrel mount with an Armorer +
-Logic (4, 1 hour) Extended Test. The small camera has a
-capacity of 1 and can be equipped with vision enhancements
-(p. 444).
-Wireless: A wireless smartlink provides a dice pool
-bonus to all attacks with the weapon: +1 if you’re using
-gear with a smartlink or +2 if you’re using an augmentation
-for which you paid Essence. Ejecting a clip and
-changing fire modes are Free Actions
-
-Spare clip: A spare clip comes unloaded but can hold
-the maximum rounds for the weapon. Each clip is specific
-to the weapon you buy it for, but they all cost the
-same. And yes, it’s technically a detachable box magazine,
-but the Cityspeak word for it is so popular these
-days that even the catalogs call them clips
-
-Speed loader: The speed loader is a simple device
-that holds a ring of bullets for fast insertion into a revolver’s
-cylinder. Each speed loader is specific to the weapon
-it was designed for. It lets you fully reload a revolver
-as a Complex Action instead of having to load rounds
-one at a time (Reloading Weapons table, p. 163).
-
-Tripod: The tripod provides a stable base to fire a
-weapon low to the ground with the user kneeling or
-sitting. A tripod can be attached to the underbarrel
-mount and provides 6 points of Recoil Compensation
-when properly deployed. Attaching a tripod takes one
-minute. Folding up or deploying the bipod is a Free
-Action.
-Wireless: Folding up, deploying, or removing the tripod
-is a Free Action.
-
-
-### Vehicles
-
-Vehicles in the modern era form a mundane part of daily life, until it comes time to outrun a pursuer, deliver a priceless artifact at high-speed, or travel through a warzone under bombardment. Vehicle statistics do not enter play during stress-free scenes. When tested, however, players will need to consider their vehicle attributes.
-
-**Vehicle Speed**
-
-Vehicles have various Velocity classes, used to handle their very fast movement when compared to people moving on foot. Velocity also dictates how much damage a vehicle inflicts on a collision or sideswipe ram attack. The velocity classes are as follows.
-
-- Standard: The vehicle moves in the same speed range as humans and animals.
-- Fast: Automobiles and boats typically move at this speed, allowing them to safely cruise at 50 to 100 mph, and move faster at the risk of safe handling.
-- Very Fast: Specialized cars, helicopters, and other exceptionally fast vehicles capable of stable operation at speeds in the range of 200 mph belong to this class.
-- Extreme: Civilian and light military fixed-wing aircraft belong to this category. These routinely operate at speeds of 400 mph or greater.
-
-**Vehicles, Cover & Armor**
-
-Vehicles provide a cover rating of 0 for motorcycles and similar vehicles, 1 for convertibles with the top down, and 2 for hardtop vehicles, even with the windows rolled up (they shatter under fire). Some armored vehicles provide a dedicated Armor Rating, which stacks with Toughness and worn armor. This changes to a cover rating if doors or windows are opened.
-
-**Vehicle Details**
-
-The accompanying table contains game system information
-for vehicles, providing the following details:
-
-- Handling: The vehicle’s Handling rating is the modifier applied to tests to maintain control of the vehicle. In vehicular combat, a vehicle’s Defense is 10 + Handling + the attribute associated with its focus.
-
-- Capacity: The vehicle’s passenger capacity. This capacity is adjustable, depending on the brand of vehicle acquired.
-
-- Velocity: As noted earlier, vehicles belong to various Velocity classes. The Standard class applies to humans, horses, and other creatures with normal Speed ratings. Higher Velocity classes belong to faster vehicles. Velocity comes into play during chases and other situations where high speed matters. The Velocity modifier after the slash distinguishes the relative speeds of vehicles within the same class, such as a faster versus a slower automobile.
-
-- Ram: This is the vehicle’s base damage for ram attacks. Ram damage increases when a vehicle is moving especially fast compared to its target.
-
-- Hull: Some vehicles are exceptionally tough. This lists the points that must be spent on the Pierce Hull vehicle stunt before using other Anti-Vehicle Stunts to inflict damage.
-
-- Purchase {TN}.: The Resources {TN} to acquire equipment. It may vary depending on the location the game is set in, or the quality of vehicle.
-
-
-| Vehicle               | Handling Difficulty | Capacity | Velocity    | Ram | Hull | Purchase {TN} |
-| --------------------- | ------------------- | -------- | ----------- | --- | ---- | ------------- |
-| Bicycle               | 0                   | 1        | Standard/*  | 0   | 0    | 8             |
-| Classic Motorbike     | –1                  | 2        | Fast/0      | 1d6 | 0    | 11            |
-| Sports Bike           | +2                  | 1        | Fast/+1     | 1d6 | 0    | 13            |
-| Compact Car           | 0                   | 5        | Fast/0      | 2d6 | 0    | 10            |
-| Sedan                 | 0                   | 8        | Fast/0      | 2d6 | 0    | 13            |
-| Sports Car            | +1                  | 2        | Very Fast/0 | 2d6 | 0    | 15            |
-| Light Truck           | –2                  | 4        | Fast/–1     | 3d6 | 0    | 14            |
-| Light Armored Vehicle | 0                   | 4        | Fast/0      | 3d6 | 2    | 15            |
-| Light Drone           | +4                  | 0        | Fast/0      | 0   | 0    | 10            |
-| Light Helicopter      | +1                  | 4        | Very Fast/0 | 3d6 | 0    | 16            |
-| Light Attack Aircraft | +2                  | 2        | Extreme/0   | 4d6 | 1    | N/A**         |
-| Light Bulldozer       | 0                   | 1        | Standard/*  | 5d6 | 2    | 16            |
-
-- * Vehicle has a Speed rating like a character’s.
-- ** Cannot be purchased under ordinary circumstances.
-
-
-Bicycle: A pedal-powered bike. A bicycle moves at its operator’s speed +5. Any attack that hits a bicycle wrecks it, regardless of damage, and also inflicts damage on the cyclist.
-
-Classic Motorbike: A large touring motorcycle. If the cyclist is injured, they must succeed at a {TN} 13 Agility (Driving) test to avoid crashing.
-
-Sports Bike: An agile motorcycle designed for speed over stability. If the cyclist is injured, they must succeed at a {TN} 13 Agility (Driving) test to avoid crashing.
-
-Compact Car: A utilitarian vehicle that can seat five people, but uncomfortably. Some models are designed as low-end sports cars. In such cases, add +1 to the car’s Handling and Velocity modifiers, and +1 to the Resources difficulty to purchase it, but drop its capacity by 1 or 2, depending on the model.
-
-Sedan: A large vehicle with plenty of space in the rear cabin, favored by executives and well-to-do families. Its statistics can also be used to represent civilian SUVs and small vans.
-
-Sports Car: A high-end vehicle built for performance. An even higher end class of “supercars” adds +1 to Velocity and the Resources difficulty to purchase. Both types turn heads when they’re seen on the road.
-
-Light Truck: A “box truck” or large van. Its listed capacity is only for the cabin; far more people could easily ride in the back. It can haul two or three tons, though if loaded close to its maximum capacity, its Handling penalty increases
-
-Light Armored Vehicle: A military armored truck designed for toughness and agility. LAV’s are also used by SWAT teams and elite security forces. The enclosed cabin provides an Armor Rating of 6 versus ballistic damage and explosions. This stacks with Toughness and worn armor.
-
-Light Drone: This is a multi-rotor drone of the type that would be used by filmmakers, photographers, and high-end hobbyists. It is capable of recording video and sound, and may be equipped with night vision and additional sensors or given a light, remotely operated weapon (no larger than a handgun) by a less ethical owner. Any collision with or attack on a light drone automatically destroys it, though it might be possible to salvage components such as its camera memory.
-
-Light Helicopter: A small civilian helicopter of the type used to transport executives, or which would be flown for recreation. Direct collisions, along with attacks on the rotor, make a controlled emergency descent impossible. In these situations, a fall from a significant height will almost certainly be lethal—at least in Gritty games.
-
-Light Attack Aircraft: This aircraft isn’t suited to dogfighting, but designed for training, patrols, and ground attack functions. Its fire-linked, twin .50 cal. machine guns each function as fully-automatic versions of the anti-material rifle, but no more than one of them can be brought to bear on a human-sized target. The aircraft may also carry air-to-air missiles and bombs, which the GM should treat as hazards. The pilot can use its weapons with the Activate action.
-
-Light Bulldozer: This tracked vehicle is used to haul material, demolish things, and flatten terrain. It’s slow, moving at a Speed of 15, but crushes or smashes virtually anything in its path.
-
-### Lifestyle
-
-A character’s Resources determines their basic lifestyle, but sometimes a protagonist wants to explore the life of excess. Characters don’t pay for their personal housing, food, or upkeep, as these elements roll into the Resources ability, and run the risk of banality when introduced to play. The lifestyle expansions in this table are the types of activities and purchases a character will need to test with their Resources ability.
-
-| Gear                     | Purchase {TN} |
-| ------------------------ | ------------- |
-| Alternate ID (Excellent) | 16            |
-| Alternate ID (Poor)      | 9             |
-| Casino Credit            | 14            |
-| Discreet Affair          | 12            |
-| Drugs (High Quality)     | 11            |
-
-| Gear                   | Purchase {TN} |
-| ---------------------- | ------------- |
-| Drugs (Street Quality) | 9             |
-| Five-Star Hotel        | 14            |
-| Jewelry (Designer)     | 15            |
-| Jewelry (High Street)  | 11            |
-| Jewelry (Unique)       | 17            |
-
-| Gear                | Purchase {TN} |
-| ------------------- | ------------- |
-| Luxury Cruise       | 15            |
-| Michelin Star Meal  | 12            |
-| Party (Extravagant) | 14            |
-| Party (Intimate)    | 11            |
-| Party (Rave)        | 12            |
-
-### Adventuring Gear
-
-| Gear                 | Purchase {TN} |
-| -------------------- | ------------- |
-| Bomb Disposal Kit    | 15            |
-| Camera               | 8             |
-| Cell Phone           | 8             |
-| Chaff Grenades       | 15            |
-| Diving Gear          | 13            |
-| First Aid Kit        | 10            |
-| Flare Gun            | 9             |
-| Flash Grenades       | 16            |
-| Flashlight           | 6             |
-| Gasmask              | 11            |
-| Gun Scope            | 12            |
-| Laptop/Tablet        | 11            |
-| Laser Sight          | 11            |
-| Magnifying Scope     | 13            |
-| Mechanic’s Toolkit   | 10            |
-| Mine Detector        | 14            |
-| Motion Tracker       | 15            |
-| Mountaineering Gear  | 14            |
-| Night Vision Goggles | 14            |
-| Oxygen Tank          | 13            |
-| Radar Jammer         | 15            |
-| Signal Jammer        | 13            |
-| Smoke Grenades       | 14            |
-| Suppressor           | 13            |
-| Survival Gear        | 11            |
-| Thermal Goggles      | 12            |
-
-
-
-Chaff Grenades: When thrown within a 15-yard proximity of electronics, a chaff grenade disrupts the operations of any non-insulated device for 2d6 rounds, using a combination of conductive foil and an electromagnetic pulse.
-
-Flash Grenades: These bombs create a blinding flash affecting anyone within a 15-yard radius, if the person(s) looked in the direction of the explosion. The blindness goes away after 2d6 rounds.
-
-Magnifying Scope: A magnifying scope acts as a modern pair of binoculars, with zoom functions and built-in camera. Scopes are assumed to be included with sniper rifles and anti-materiel rifles. Adding a scope to another firearm increases its maximum range from 1.5x to 2x its listed base range.
-
-Night Vision Goggles: Battery-powered goggles allowing users greater vision in darkness, illuminating anything within the goggles’ range in shades of gray or green hues.
-
-Smoke Grenades: These bombs create a cloud of obscuring gas that expands up to 10 yards from detonation point. The cloud dissipates after 1d6 rounds.
-
-Suppressor: Otherwise known as a silencer, suppressors dull the noise of gunfire. A suppressor makes a firearm almost impossible to hear outside any room it’s fired in, or beyond a 5-yard radius, whichever is smaller
-
-Thermal Goggles: Battery-powered goggles allowing users to see heat and movement in darkness.
+Airburst link: This grenade/rocket launcher smartgun accessory uses a “smart” rangefinder to air-burst the explosive projectile at a point deemed to be both a safe distance from the launcher and within the closest possible proximity to the target. An airburst link reduces the scatter distance for a launched grenade by two yards per net hit instead of by one yard per hit (Determine Scatter) when you use the wireless link trigger. Wireless: An airburst link requires wireless functionality to function at all. Both the grenades and the launcher must have wireless mode turned on.
+
+Bipod: This two-legged brace extends downward from the weapon, allowing it to be fired low to the ground with the user in a prone or sitting position. A bipod can be attached to the underbarrel mount of a weapon and provides 2 points of Recoil Compensation when properly deployed. Attaching a bipod takes one minute. Folding up or deploying a bipod is a Minor Action. Removing it is a Major Action. Wireless: Folding up or deploying the bipod is a Free Action
+
+Concealable holster: This small holster can be worn on the ankle, clipped to the forearm, in the small of the back, or anywhere else it’s unlikely to be seen. The concealable holster adds –1 to the item’s Concealability. Only pistols and tasers fit in a Concealable Holster. Wireless: Wireless sensors and a smart-fabric coated weave allow the holster to alter color and texture in real time adding an additional –1 to the item’s Concealability.
+
+Gas-vent system: Gas-vent recoil compensation systems are barrel-mounted accessories that vent a weapon’s barrel gases at a specific vector to counter muzzle climb. Once installed, a gas-vent cannot be removed. Gas-vent systems provide a number of points of Recoil Compensation equal to their rating.
+
+Gyro mount: This heavy upper-body harness features an attached, articulated, motorized gyro-stabilized arm that mounts an assault rifle or a heavy weapon. The system neutralizes up to 6 points of recoil and movement modifiers. Attaching or removing a weapon from the mount takes a Minor Action. Putting on a gyro-mount harness takes about five minutes, while the quick-release allows you to get out of it with a Major Action. Wireless: Activating the harness’s quick-release with a wireless signal to exit the harness is a Free Action.
+
+Hidden arm slide: Attached to the forearm and worn under clothing, this slide can accommodate a pistol- sized weapon. It can fit a hold-out, light pistol, or taser. With a hand gesture, the slide releases the weapon/ object right into your hand. If you quick draw the weapon in this slide, the threshold for the quick draw is TN 18. It also gives the weapon a –1 Concealability modifier. Wireless: You can ready the weapon in the slide as a Free Action.
+
+Imaging scope: These classic scopes are attached to the top mount; attaching or removing them takes only a Minor Action. Imaging scopes include a micro camera and vision magnification, and they have a Capacity of 3 to hold vision enhancements. Wireless: The scope’s “line of sight” can be shared, allowing you to share what your scope sees with your team (and yourself if you’re using it to look around a corner).
+
+Laser sight: This device uses a laser beam to project a visible dot (in your choice of colors) on the target. This increases the weapon’s Accuracy by 1, which is not cumulative with smartlink modifiers. The laser sight can be attached to either the underbarrel mount or top mount. Activating or deactivating a laser sight is a Minor Action. Wireless: The wireless laser sight provides a +1 modifier on attack tests, not cumulative with smartlink modifiers. Activating and deactivating the laser sight is a Free Action.
+
+Periscope: This adjustable “off-axis” viewer attaches to a top mount and allows an operator to target a weapon around corners, reducing the usual –3 modifier to –2. A periscope can be upgraded with any of the vision enhancements noted on Wireless: The modifier for shooting around corners is reduced to –1.
+
+Quick-draw holster: This easy access holster can hold any weapon of Machine Pistol or smaller size. It reduces the threshold for quick-drawing the holstered weapon by 1.
+
+Shock pad: A shock-absorbing pad is situated on the rigid stock of a rifle, shotgun, or heavy weapon, and provides 1 point of recoil compensation
+
+Silencer/suppressor: This barrel-mounted accessory reduces the sound and flash of a weapon’s discharge. It cannot be used with revolvers or shotguns. It applies a –4 modifier on all Perception Tests to notice the weapon’s use or locate the weapon’s firer. Attaching or removing a silencer takes a Major Action. Wireless: The silencer/suppressor features a Rating 2 microphone with Rating 2 Select Sound Filter and simple software that alerts you via AR if your silencer detects the sound of someone nearby reacting to the sound of the silenced weapon.
+
+Smart firing platform: This is a non-mobile robotic tripod equipped with a remote control pivot that allows for a 180-degree firing arc and a 60-degree inclination. You can mount one smartgun-equipped weapon to the platform, and it will be fired by the device’s onboard Pilot (Device Rating 3). The platform is equipped with a Targeting Autosoft (Rating 3) and can be upgraded with additional autosofts, usually a Clearsight program. You need to set the parameters of who exactly the platform should and shouldn’t shoot at, which are followed by the platform’s pilot. The platform provides 5 points of Recoil Compensation. It has an Initiative attribute of Pilot x 2 and 4D6 Initiative Dice when acting autonomously. Wireless: You can fire the mounted weapon remotely, like a drone with no rigger interface. You can use an implanted smartlink with the smartgun if you’re in VR.
+
+Smartgun system: This connects a firearm or a projectile weapon directly to the user’s smartlink. Incorporating a small camera and laser range finder, the smartlink keeps track of ammunition, heat buildup, and material stress. If you have a smartlink, you can mentally switch between gun modes, eject a clip, and fire the gun without pulling the trigger. The camera lets you shoot around corners without exposing yourself to return fire (at a –3 modifier). The system makes use of advanced calculation software, allowing for precisely calculated trajectories and high precision over any distance.
+
+If you’re using a smartlink, the smartgun system increases the gun’s Accuracy by 2. The smartgun features are accessed either by universal access port cable to an imaging device (like glasses, goggles, or a datajack for someone with cybereyes) or by a wireless connection working in concert with direct neural interface. Retrofitting a firearm with an internal smartgun system doubles the weapon’s price and adds 2 to its Availability. An external smartgun system can be attached to the top mount or underbarrel mount with an `Mechanics + Logic (12,4, 1 hour)` Extended Test. The small camera has a capacity of 1 and can be equipped with vision enhancements. Wireless: A wireless smartlink provides a modifier to all attacks with the weapon: +1 if you’re using gear with a smartlink or +2 if you’re using an augmentation for which you paid Essence. Ejecting a clip and changing fire modes are Free Actions
+
+Spare clip: A spare clip comes unloaded but can hold the maximum rounds for the weapon. Each clip is specific to the weapon you buy it for, but they all cost the same. And yes, it’s technically a detachable box magazine, but the Cityspeak word for it is so popular these days that even the catalogs call them clips
+
+Speed loader: The speed loader is a simple device that holds a ring of bullets for fast insertion into a revolver’s cylinder. Each speed loader is specific to the weapon it was designed for. It lets you fully reload a revolver as a Minor Action instead of having to load rounds one at a time as a Major Action.
+
+Tripod: The tripod provides a stable base to fire a weapon low to the ground with the user kneeling or sitting. A tripod can be attached to the underbarrel mount and provides 6 points of Recoil Compensation when properly deployed. Attaching a tripod takes one minute. Folding up or deploying the bipod is a Free Action. Wireless: Folding up, deploying, or removing the tripod is a Free Action.
+
+### Ammunition
+
+Ammunition is defined by type (regular, gel, APDS, etc.), class of ammo is exchangeable with the other ammo of its type. Meaning all Clips (c) can fit any Clip firearm, all internal magazines (m) fit all internal magazines, every muzzel loader ammo fits any other etc.
+
+| **AMMO, PER 10 SHOTS** | **DAMAGE MODIFIER** | **AP MODIFIER** | **AVAILABILITY** | **COST** |
+| ---------------------- | ------------------- | --------------- | ---------------- | -------- |
+| APDS                   | —                   | –4              | 12F              | 120¥     |
+| Assault cannon         | —                   | —               | 12F              | 400¥     |
+| Explosive rounds       | +1                  | –1              | 9F               | 80¥      |
+| Flechette rounds       | +2                  | +5              | 6R               | 65¥      |
+| Gel rounds             | +0S                 | +1              | 2R               | 25¥      |
+| Hollow points          | +1                  | +2              | 4F               | 70¥      |
+| Injection darts        | —                   | —               | 4R               | 75¥      |
+| Regular ammo           | —                   | —               | 2R               | 20¥      |
+| Stick-n-Shock          | –2S (e)             | –5              | 6R               | 80¥      |
+| Tracer                 | —                   | —               | 6R               | 60¥      |
+| Taser dart             | —                   | —               | 3                | 50¥      |
+
+| **GRENADES**   | **DAMAGE**  | **AP**    | **BLAST**  | **AVAILABILITY**          | **COST**              |
+| -------------- | ----------- | --------- | ---------- | ------------------------- | --------------------- |
+| Flash-bang     | 10S         | –4        | 10y Radius | 6R                        | 100¥                  |
+| Flash-pak      | Special     | —         | Special    | 4                         | 125¥                  |
+| Fragmentation  | 18P (f)     | +5        | –1/y       | 11F                       | 100¥                  |
+| High explosive | 16P         | –2        | –2/y       | 11F                       | 100¥                  |
+| Gas            | as Chemical | —         | 10y Radius | 2 + Chemical Availability | 40¥ + Chemical cost   |
+| Smoke          | —           | —         | 10y Radius | 4R                        | 40¥                   |
+| Thermal, smoke | —           | —         | 10y Radius | 6R                        | 60¥                   |
+| **ROCKETS**    | **DAMAGE**  | **AP**    | **BLAST**  | **AVAILABILITY**          | **COST**              |
+| Anti-vehicle   | 24P         | –4 / –10  | –4/y       | 18F                       | 2,800¥                |
+| Fragmentation  | 23P (f)     | +5        | –1/y       | 12F                       | 2,000¥                |
+| High-explosive | 21P         | –2        | –2/y       | 18F                       | 2,100¥                |
+| **MISSILES**   | **DAMAGE**  | **AP**    | **BLAST**  | **AVAILABILITY**          | **COST**              |
+| As Rocket      | As Rocket   | As Rocket | As Rocket  | +4                        | +Sensor rating x 500¥ |
+
+
+APDS rounds: These are military-grade armor piercing rounds—their full name is armor piercing discarding sabot. They are designed to travel at high velocities and punch through personal body armor. Assault cannon rounds: These are for assault cannons only, and they’re the only thing assault cannons can load.
+
+Explosive rounds: These slugs carry a shaped-charge explosive, designed to explode and fragment on impact. Explosive rounds misfire whenever you roll a critical glitch. When this happens, you must resist one “attack” with a Damage Value equal to the normal damage done by the weapon (and don’t forget the modifier for the explosive rounds). The attack misses its intended target, and the weapon firing the bullets is destroyed.
+
+Flechette rounds: The payload of a flechette round is made up of tiny, tightly packed metal slivers. The round breaks up and shatters on impact, becoming a tumbling hail of shrapnel. Flechette rounds are devastating against unprotected targets, but not as effective against hardened armor.
+
+Gel rounds: These less-lethal rounds use a hard, jelly-like substance that is a safer alternative to rubber bullets. They are often employed for riot control. Their usually semi-rigid slugs flatten on impact, disbursing their kinetic energy over a larger-than-normal area. Gel rounds inflict Stun damage (AP +1). Gel rounds give the target Disadvantage against being knocked prone (see Resist Knockdown)
+
+Hollow point rounds: Hollow point or dum dum rounds have their tips indented, so they are designed to “mushroom” or expand on impact, becoming a hail of deadly fragments not unlike flechettes, although hollow points are a much older technology. Like flechettes, hollow points work better on unarmored targets and tend to flatten against armor.
+
+Injection darts: For use with dart guns of various types, like the Parashield pistol and rifle. Each injection dart carries a single dose of a drug or toxin (sold separately). The effect of the dart depends on the drug payload, but to successfully deliver that payload, the attack with the dart must get at least one net hit against an unarmored target or three net hits against a target with armor. This is an injection vector toxin attack.
+
+Regular ammo: Also called ball or full metal jacket rounds, these solid slugs are useful for numerous applications (mainly killing things).
+
+Stick-n-Shock: Stick-n-Shock rounds deal electrical Stun damage of equal to the damage of the base weapon –2. They have a flat AP of –5 that replaces the weapon’s AP instead of stacking with it.
+
+Tracer rounds: Tracer ammo burns along the line of flight, making it easier for the shooter to home in on the target. This type of ammunition can only be used in Full Auto weapons and, being loaded as every third round in a clip, is an exception to the restriction of one type of ammunition per clip. They improve the Accuracy of your gun by 1 when you fire more than one round in an Action Phase (cumulative with a laser sight but not a smartgun).
+
+Taser dart: These darts are designed to be loaded into taser weapons
+
+**GRENADES**
+
+Grenades are small, self-contained explosive packages. Minigrenades are grenades specifically designed for use with grenade launchers, set to arm when they have traveled 5 yards from their point of origin and explode on impact (unless using an airburst link). This safety feature can be disabled with an `Demolitions + Logic [Mental] (12,4, 5 Minutes) Extended Test`. Minigrenades have the same cost and effects as standard grenades. Use the Throwing Weapons skill when throwing grenades, or Gunnery when launching a grenade from a grenade launcher. Follow the rules for Grenades. Grenades and similar explosives can also be rigged with a tripwire to set up as a basic booby-trap. This requires an `Extended Demolitions + Logic [Mental] (12, 8, 1 Major Action) Test`. In addition to any other wireless bonus, all grenades have the following wireless feature (use it with caution): Wireless: You can use the wireless link trigger for your grenades, even if you don’t have DNI (Direct Neural Interface).
+
+Flash-bang grenades: Upon detonation, these “concussion” or “stun” grenades explode to create a bright, loud, shocking blast distributed equally over a radius of 10 yards.
+
+Flash-pak: Not a grenade per se, this is an electronic unit the size of a pack of cigarettes containing four quartz-halogen micro-flashes designed to fire in random strobing sequence to blind opponents. Anyone looking in the direction of a flash-pak receives a –4 modifier on attack tests due to the strobing (flare compensation goggles, glasses, etc. reduce this modifier to –2, while flare compensation in cybereyes or as a retinal modification reduces this modifier to –1). The flash-pak has 10 charges; when activated it uses one charge per Combat Turn. When plugged in, it recharges one charge every 10 seconds. Wireless: The strobe sequence can avoid directing strong flashes at the subscribed character; they suffer only half glare penalties from the flash-pak, rounded down. It can recharge by induction, regaining one charge per hour.
+
+Fragmentation grenade: These classic killing devices are designed to spread a cloud of deadly shrapnel over a large area, seriously injuring soft targets.
+
+High-explosive grenade: These grenades are designed to deliver a large blast and concentrated hurt.
+
+Gas Grenade: Instead of exploding, the gas grenade releases a cloud of gas over an area with a radius of 10 yards. This is usually riot control/CS gas, but many other chemical or toxin payloads can be chosen (Toxins, Drugs, and BTLs). The cloud lasts for approximately 4 Combat Turns (less in windy areas, longer in confined areas with poor ventilation, at the gamemaster’s discretion).
+
+Smoke: Similar to the gas grenade, a smoke grenade releases a cloud of smoke over an area with a diameter of 10 yards. The cloud obscures vision, applying visibility modifiers for smoke to relevant tests. The cloud lasts for approximately 4 Combat Turns (less in windy areas, longer in confined areas with poor ventilation, at the gamemaster’s discretion).
+
+Thermal smoke: Identical to a smoke grenade, except that the smoke contains hot particles designed to obscure thermographic vision. Apply the visibility modifiers for thermal smoke. The cloud lasts for approximately 4 Combat Turns (less in windy areas, longer in confined areas with poor ventilation, at the GM’s discretion).
+
+**ROCKETS AND MISSILES**
+
+Rockets are projectiles consisting of a light metal or plastic body with stabilizing fins, a propulsion system (usually solid-chemical) and a warhead. Missiles are rockets that carry internal guidance systems, making them more expensive than standard “dumb” rockets.
+
+Rules for firing rockets and missiles are in the Rules chapter Rockets and missiles are set to arm when they have traveled 10 yards from their point of origin and explode on impact. This safety feature can be disabled with an Demolitions + Logic [Mental] (12,4, 5 Minutes) Extended Test. In addition to any other wireless bonus, all rockets and missiles have the following wireless feature: Wireless: You can use the wireless link trigger for your rocket or missile, even if you don’t have DNI (Direct Neural Interface).
+
+Anti-vehicle: AV rockets/missiles contain a shapedcharge warhead designed to burn or punch its way through a vehicle or barrier. Though the impact causes a blast, it is limited compared to that of a High-Explosive projectile. AV attacks have an AP of –10 against vehicles and barriers, –4 against other targets.
+
+Fragmentation: Used principally against people, the warhead discharges high-speed metal or plastic-metal fragments designed to tear into unprotected flesh. These rockets/missiles are very effective against unprotected individuals, but fairly ineffective against barriers, structures, and vehicles.
+
+High explosive: HE rockets/missiles are designed to do heavy damage to a large area. Their blast pattern is similar to that of a grenade, but much larger. They are not particularly effective against hardened targets, such as vehicles or protected military structures. HE weapons use the standard grenade rules for determining the blast and its effects
+
+
+
+
 
 
 
@@ -2163,7 +2053,7 @@ Thermal Goggles: Battery-powered goggles allowing users to see heat and movement
 
 ### Initiative
 
-Initiative determines the order in which characters act, as well as how often they act during a single Combat Turn. Initiative is based on three factors: Initiative Attribute, Initiative Score, and Initiative Dice.
+Initiative determines the order in which characters act, as well as how often they act (rounds) during a single Combat Turn. Initiative is based on two factors: Initiative Attribute, and Initiative Score.
 
 #### Initiative Attribute
 
@@ -2177,35 +2067,23 @@ Physical is the most common and is pre-written on characters. This is `Reaction 
 
 #### Initiative Score
 
-To determine a character’s Initiative Score, make an Initiative Test rolling the character’s Initiative Dice and adding the total to your Initiative attribute—this total is your Initiative Score. Courage may be used on this test to roll the maximum of 5D6 for a single Combat Turn. The gamemaster records the score for each character, from highest to lowest. The character with the highest score goes first and the others follow in descending order during each Initiative Pass.
+This is pre-determined on the character sheet to speed combat along—this total is your Initiative Score. Courage may be used on this test to roll the maximum of 5D6 for a single Combat Turn and add it to the Score. The gamemaster records the score for each character, from highest to lowest. The character with the highest score goes first and the others follow in descending order during each Initiative Pass (round).
 
 If there is a tied Initiative Score use CRIC (Courage, Reaction, Intuition, Coin toss) to break the tie, comparing Attributes in that order, with the character with the higher Attribute going first. If you’re still tied after comparing all three tie-breaker Attributes, flip a coin. Alternately, at the gamemaster’s discretion, both characters can act simultaneously.
 
-#### Initiative Passes
+#### Initiative Passes AKA Rounds
 
-How many times a character can act during a Combat Turn is determined by the Initiative Test. Every character starts out with a base Initiative die of 1D6. Some characters may spend Courage or have magic or implants that increase their Initiative dice total, allowing them to roll more dice and potentially perform more actions than their non-enhanced associates.
+How many times a character can act during a Combat Turn is determined by their Initiative Score. Some characters may spend Courage or have magic or implants that increase their Initiative total by adding extra dice (up to the maximum of 5D6), allowing them to roll more dice and potentially perform more actions than their non-enhanced associates.
 
-The Combat Turn is divided into Initiative Passes. Everyone gets to act during the first Initiative Pass (in order according to their Initiative Score). At the end of each Initiative Pass the **gamemaster subtracts 10 from all characters Initiative Score**. Characters with an Initiative Score higher than 0 get to go again during a second Initiative Pass. This process is repeated until all characters have an Initiative Score of 0 or less, the Combat Turn ends, or the combat ends.
+The Combat Turn is divided into Initiative Passes called "Rounds". Everyone gets to act during the first Round (in order according to their Initiative Score). At the end of each Round the **gamemaster subtracts 10 from all characters Initiative Score**. Conventiently characters have a pre-determined Initiative Score so its easy to know how many Rounds you will get per turn. Characters with an Initiative Score higher than 0 get to go again during a second Initiative Pass. This process is repeated until all characters have an Initiative Score of 0 or less, the Combat Turn ends, or the combat ends.
 
 A character with an Initiative Score of 0 or less can only take one Free Action during an Initiative Pass. However, a character with 0 or less Initiative is allowed one Free Action. She can also respond to attacks by dodging or defending herself.
 
-#### Changing Initiative
-
-In some cases, a character’s Initiative Score or Base Initiative Dice may change in the middle of a Combat Turn. A player might gain Initiative by activating an augmentation, for example, or could receive a boost from a drug or spell or other enhancer. Conversely, a character who is wounded or whose vital equipment (weapon, augmentation, etc.) takes damage might lose Initiative.
-
-If a character’s Initiative attribute changes, immediately apply the difference as a positive or negative modifier to the character’s Initiative Score. This new Initiative Score applies to all remaining actions in that Combat Turn. So a character with Initiative 8 and an Initiative Score of 11 who activates an implant that changes his Initiative to 10 (+2) immediately raises his Initiative Score to 13 (11 + 2).
-
-If the number of Base Initiative Dice available to a character increases, that character immediately rolls the extra Initiative Dice and adds the sum to their current Initiative Score for that Combat Turn. So a magician with 1d6 Initiative dice who takes his first action to astrally project (2d6 Base Initiative Dice) gains the die (and the change in Initiative) for their Astral Initiative during that Combat Turn. (In this case, the magician would also replace their Reaction + Intuition for Physical Initiative with Intuition x 2 for Astral Initiative.)
-
-If the number of Initiative Dice available to a character decreases, then that character immediately rolls the number of lost dice and subtracts the total from their Initiative Score (along with any decrease to their Initiative Attribute). Initiative also changes when a character or NPC is injured. Wound modifiers are applied directly to the character’s Initiative attribute. These changes do not allow the character to act again; they simply change their Initiative score.
-
-If a character enters combat after it has already begun, they should roll for their Initiative Score as normal and then subtract 10 for each Initiative Pass that has already occurred. This means they may get an Action Phase during the current Combat Turn or they may not, but at least they have a chance.
-
-#### Timed Itemd & Initiative
+#### Timed Items & Initiative
 
 Some items, such as grenades, explosive devices, timed traps, and so on, go off after a certain preset interval. In most situations, these items do what they do based on the character’s current Initiative Score during the next Combat Turn. If there are no more Combat Turns, the item activates as the gamemaster sees fit.
 
-If an item has a timer set by a player character, that character can decide for how long to set the timer, but he must declare this when the item is activated. It’s usually best to have such items go off during the character’s Action Phase on a predetermined Initiative Pass or at the beginning or end of a three-second Combat Turn. Timed items always go last in the case of tied Initiative Scores. In the case of radio-detonated items, the character spends their Action Phase performing a Use Item action.
+If an item has a timer set by a player character, that character can decide for how long to set the timer, but he must declare this when the item is activated. It’s usually best to have such items go off during the character’s Action Phase on a predetermined Round or at the beginning or end of a three-second Combat Turn. Timed items always go last in the case of tied Initiative Scores. In the case of radio-detonated items, the character spends their Action Phase performing a Use Item action.
 
 
 
@@ -2213,36 +2091,36 @@ If an item has a timer set by a player character, that character can decide for 
 
 The Action economy of Sixfinity is mare structured than the economy in Shadowrun. 
 
-Every **turn** a character gets:
+Every **round** a character gets:
 - 1 Major Action
 - 1 Minor Action
-- 1 Bonus Action
+- 1 Bonus Action (if the character has something that allows it)
 - 1 Reaction
 
-If the character has a high initiative they get more actions. 
-
-#### Combat Rounds
-
-A Combat Round is a set of characters taking their Turns. 
+If the character has a high initiative they get more Rounds per Turn and thus more actions. 
 
 #### Combat Turns
 
-Your initiative lets you know how many turns you get. Think of it like chances to roll the dice in a typical board game. You take your turn. Well if your character has a high enough initiative they can get **more** turns becuase they are fast and do it in the same amount of time others do less. 
+A Combat Turn is a set of characters taking their Turns, making rounds around the initiative. 
 
-> At the table we pass around a turn token to each player to denote whos turn it is. I write in washable marker the round number on it because some effects last a certain number of rounds. For example bleeding to death is once per **round** not once per turn. 
+#### Combat Rounds
 
-For example Sarah has an Initiative of 14. She is going to get 2 turns in the combat round. She is fighting a Security guard who has a 10 Initiative, he will get 1 turn.
+Your initiative lets you know how many rounds you get per turn. Think of it like chances to roll the dice in a typical board game. You take your turn. Well if your character has a high enough initiative they can get to do **more** on their turns becuase they are fast and do it in the same amount of time others do less. 
 
-As Sarah has a 14 she goes first. She gets 1 Major Action, 1 Minor Action, 1 Bonus Action, and a Reaction. 
+> At the table we pass around a token to each player to denote who is acting this round. I write in washable marker the Combat Turn number on it because some effects last a certain number of turns. For example bleeding to death is once per **turn** not once per round. 
 
-She decides to move her ten yards of movement and take cover. This is all part of moving, and its her Minor Action used. She did not have a weapon ready, so she uses her Bonus Action to Draw her weapon. She uses her Major Action to attack the Security Guard.
+For example Sarah has an Initiative of 14. She is going to get 2 rounds in the combat turn. She is fighting a Security guard who has a 10 Initiative, he will get 1 round in the turn.
 
-She rolls `3D6 + 7` firing her Pistol and getting a 17. 2 Effect. The Security guard rolls his defense `3D6 + 2` he gets a 9 which is enough for 1 Effect. Sarah still had 1 Effect left over combined with the 9P of her pistol she does 10P damage. She Security guard is wearing an Armored Vest with 5 Armor, her Pistol has -2 AP so 7P gets through the vest. His Toughness is 1 and her -2 AP means it will not apply. So the Security Guard takes 7 Physical Health damage. 
+As Sarah has a 14 she goes first. She gets 1 Major Action, 1 Minor Action and a Reaction. 
 
-The security guard takes his turn, he doesn't have any cover near him to dive into so instead he uses his Bonus Action to draw his pistol and he fires at Sarah. `3D6 +3` He gets a 13 enough for 2 Effect. Sarah is behind Level 2 cover which adds 2 to her Defense roll she rolls `3D6 + 10 + 2` and gets 21 getting 3 Effect. Which is enough to completely defeat the attack. Sarah stays ducked behind cover while the guard fires at her.   
+She decides to move her ten yards of movement and take cover. This is all part of moving, and its her Minor Action used. She uses her Major Action to attack the Security Guard.
+
+ ### NOTE HERE HANDLE MULTIPLE ATTACKS -0/-5/-10/-15/-20/... up to Physical Limit.
+ So a character with a Physical Limit of 4 could make 4 attacks. The first at -0, and each subsequent attack at an increasing -5 modifier. (-0/-5/-10/-15).
 
 
 #### Major Actions
+{{Rewrite these}}
 - Charge: You move up to half your Speed (rounded down) in yards and finish with a melee attack against an adjacent enemy. If you moved at least 4 yards in a straight line before reaching your target, you gain advantage on your attack roll.
 - Dodge: Using the Dodge action lets a character focus on avoiding being hit in combat. When a character uses the Dodge action, anyone attacking them has disadvantage on their attack rolls, and the character has advantage on Agility saving throws. These effects last until the start of the character’s next turn.
 - The Disengage action can be useful when a combatant wants to escape a melee opponent or run past other enemies. If a combatant uses the Disengage action, their movement for the rest of their turn does not provoke opportunity attacks.
