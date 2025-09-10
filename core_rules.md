@@ -11,15 +11,48 @@ Sixfinity has multiple settings created for it, you can create any world you can
 
 > I was handed a challenge with the Sixfinity System. *Convert Shadowrun to Sixfinity* This text represents that attempt. 
 
+Final Order of Chapters
+
+    Introduction
+    What is Sixfinity
+    Shadowrun Setting
+
+Ch1. Step by Step Characters
+
+Ch2. Metahumanity
+
+Ch3. Edges/Flaws
+
+Ch4. Equipment
+
+Ch5. Skills
+
+Ch6. Sixfinity Rules
+
+Ch7. Combat
+
+Ch8. Magic
+
+Ch9. Gamemastering
+
+Ch10. Seattle 2075
+
+
 ## Version
 
-V.06
+V.07
 
 ### Changelog
+
+#### V0.7
+- Reworked skills to line up with Shadowrun
+- Lowered skill cap to fit new TN
 
 #### V0.6
 - Began converting Shadowrun to Sixfinity
 - Thanks to Elsie (my wife) we instituted the Effect Dice.
+- Porting Shadowrun Equipment
+- Ported Partial COmbat over
 
 #### V0.5
 - Changed Attribute names to another TTRPG list that I like which is more verbose
@@ -92,17 +125,19 @@ There are eight attributes and two special attributes.
 
 **Body**
 
-Body represents stamina, resilience, and overall health. It measures how much punishment a body can take, resist toxins or disease, and endure physical strain.
+The Body attribute determines a character’s resistance to outside forces. It represents the character’s cardiovascular fitness and endur- ance, immune system, how well she heals, her tolerance for drugs and alcohol, and, to some extent, her muscle and bone structure and weight. Low Body could mean a character is skinny and frail-boned or has bad eating and health habits. High Body means a character is better fed, tough as nails, has strong bones with some spring to them, and an immune system that won’t quit. Body does not necessarily correlate with physical size—a fat, out of shape character likely has a low Body, but a small character who is wiry and athletic may have a high Body.
 
 **Agility**
 
-Agility reflects agility, coordination, and precision of movement. It governs tasks requiring balance, hand-eye coordination, and finesse, as well as many ranged attacks.
+Agility represents fine motor control—manual dexterity, flexibility, balance, and coordination. A character with a low Agility may be someone with an inner-ear problem, one leg that is shorter than the other, or a simple klutz. Higher Agility ratings may belong to charac- ters that are “natural” athletes.
 
 **Reaction**
 
+A character’s Reaction is, quite simply, her physical reflexes—how quickly she can react to a changing situation, and how well she can dodge the physical slings and arrows that shadowrunning brings. A character with a high Reaction is more likely to be on top of a situation and will be in a better position to react to danger, while low-Reaction characters will lag behind.
+
 **Strength**
 
-Strength measures raw physical power, force, and muscular endurance. It determines how much a character can lift, carry, or smash through and is central to melee combat.
+Strength denotes what a character’s muscles can do, including things such as raw lifiing power and running speed. Strength is some- what dependent on a character’s size and metatype. If your character is a 5’3” tall, 115-pound human girl, she’s unlikely to possess an un- augmented Strength attribute of 6. On the other hand, dwarfs have a muscle density that rivals that of reptiles. Characters with low Strength may be small, skinny, or slight, or simply too busy to work out. A high- Strength character may be tough and wiry, know how to use her body to her best advantage, work out every day, or simply be fraggin’ BIG.
 
 ---
 
@@ -110,33 +145,40 @@ Strength measures raw physical power, force, and muscular endurance. It determin
 
 **Charisma**
 
-Charisma measures presence, charm, and force of personality. It governs social influence, persuasion, leadership, and the ability to inspire or deceive.
+Charisma is a nebulous attribute. More than just looks, Charisma rep- resents a character’s personal aura, self-image, ego, willingness to find out what people want and give it to them, and ability to recognize what she can and can’t get out of people. A whiny demeanor, a me-first attitude, or an inability to read body language or subtle hints are just a few traits that can give a character low Charisma. A character with high Charisma might simply enjoy entertaining others, may excel at making friends and/or manipulating people, or may be all flash and fun with whomever it is today. A high-Charisma character might deliver jokes at the right moment, have a sexy way of carrying herself, or com- mand respect because her timing is always impeccable.
 
 **Intuition**
 
-
+Intuition covers “mental alertness”—the ability to take in and process information, to read a crowd, to assess a situation for danger or opportunity. A character with little Intuition may be unobservant, may rarely think things fully through, or could simply be “slow.” A character with a high Intuition is adept at making the best of a bad situation, knowing when to leave before an encounter escalates, noticing small clues, and working from instinct.
 
 **Logic**
 
-Logic represents memory, Intelligence, and reasoning ability. It governs problem-solving, technical skills, analysis, and mastery of knowledge.
+Logic represents a character’s memorizing ability and raw brain- power. It denotes how fast a character learns, how much she can re- member, and how well she can execute pre-planned sequences. A Logic-lacking character might get overwhelmed when confronted with a lot of details and may have a poor memory—especially for facts and figures. Characters with a high Logic rating will likely be excellent book-learners, able to deal with computer and magic theory with ease, and capable of building (and tearing down!) machinery and electronics. 
 
 
 **Willpower**
 
-Willpower reflects perception, intuition, and awareness of the world. It governs insight into others, survival instincts, and attentiveness to surroundings.
+Willpower keeps a character going when she wants to give up, or enables her to control her habits and emotions. Willpower determines whether or not a character is going to take charge of her life. A charac- ter with low Willpower might defer to other people when big decisions are being made, for example. A high-Willpower character is more as- sured and possesses a never-say-die streak. Such characters go down to the monowire because that’s exactly the fragging point. Willpower also represents a character’s cool under fire, her ability to resist intimida- tion and manipulation, and her resolve to stick to her guns when the
+pressure is on.
 
 ---
 
 **Special Attributes**
 
+Please note Resonance is not used in Sixfinity if it is referenced ignore it.
+
 **Magic**
 
-Magic reflects a character’s connection to arcane, divine, or supernatural forces. It governs spellcasting capacity, magical resistance, and interactions with the metaphysical.
-
+Magic is a measure of the ability to use magic and of the body’s attunement to the mana that flows through our plane. Those with strong Magic ratings are able to hand e powerful magic and mana ma- nipulation. Those with weak Magic ratings are more sensitive and more easily drained by the use of magic. Those with no Magic rating have no magical capabilities and are tuned out from the magical realms. Serious damage to the body and invasive additions such as cyberware and bio- ware reduce the Magic attribute. Magic and Resonance are mutually exclusive attributes. A character who possesses a quality that grants a Magic of 1 or higher cannot have a Resonance attribute.
 
 **Courage**
 
-Courage measures inner resolve, heroism, and the ability to defy fear or hopeless odds. It is both an attribute and a resource, spent or burned to fuel extraordinary feats.
+A character’s Courage represents that special something that can turn the tide and save the day—a successful gut check, a moment of brilliant inspiration or creativity, or a once-in-a-lifetime physical feat. Courage is a combination of luck, timing, and the favor of the gods. Characters with low Courage are unlikely to get unexpected breaks in life, much less win the lottery. A high-Courage character, however, is graced with good fortune and has an uncanny ability to succeed despite the odds. Courage can be spent at certain points in the game to help tip the odds in your character’s favor. Unlike other attributes, Courage provides Courage points that may be spent in certain ways—once used, these points are not regained until certain in- game events occur, at the discretion of the gamemaster 
+
+
+**Essence**
+
+Essence is a measure of life force, of a body’s wholeness. It represents the body’s cohesiveness and holistic strength. Things that are invasive to the body, such as cyberware and bioware, reduce Essence. If a character abuses her body repeatedly with chemicals, toxins, or even just negli- gence over a long period of time, she may lose Essence as well. Long-time drug addicts and chipheads who have done permanent damage to their systems have lost Essence. Lost Essence can never be regained (short of the Essence Drain critter power). When Essence declines, Magic and Resonance decline by the same amount. All characters start the game with an Essence of 6.
 
 
 ---
@@ -153,16 +195,18 @@ Once the player has selected the metatype they wish to play, they should review 
 Regardless of Priority all starting characters get 25 Experience to spend on their character to flesh them out, make then unique.
 
 **Priority System Table**
+---
 
-| Priority | Species                                  | Attribute Points | Magic                                 | Skills | Resources |
+| Priority | Heritage                                 | Attribute Points | Magic                                 | Skills | Resources |
 | -------- | ---------------------------------------- | ---------------- | ------------------------------------- | ------ | --------- |
-| A        | Human(6),Elf(5),Dwarf(4),Orc(4),Troll(3) | 24               | Magic:6, 2 Skills Rating 5, 10 Spells | 46     | 450k      |
-| B        | Human(5),Elf(4),Dwarf(3),Orc(3),Troll(0) | 20               | Magic:4, 2 Skills Rating 4, 7 Spells  | 36     | 275k      |
-| C        | Human(3),Elf(2),Dwarf(1),Orc(0)          | 16               | Magic:3, 5 Spells                     | 28     | 140k      |
-| D        | Human(2),Elf(0)                          | 14               | Magic:2                               | 22     | 50k       |
+| A        | Human(6),Elf(5),Dwarf(4),Orc(4),Troll(3) | 24               | Magic:6, 2 Skills Rating 5, 10 Spells | 38     | 450k      |
+| B        | Human(5),Elf(4),Dwarf(3),Orc(3),Troll(0) | 20               | Magic:4, 2 Skills Rating 4, 7 Spells  | 30     | 275k      |
+| C        | Human(3),Elf(2),Dwarf(1),Orc(0)          | 16               | Magic:3, 5 Spells                     | 24     | 140k      |
+| D        | Human(2),Elf(0)                          | 14               | Magic:2                               | 20     | 50k       |
 | E        | Human(1)                                 | 12               | -                                     | 18     | 6k        |
 
 **Species Attribute Table**
+---
 
 | Species | Body | Agi | Rea | Str  | Wil | Log | Int | Cha | Cou | Special Features                             |
 | ------- | ---- | --- | --- | ---- | --- | --- | --- | --- | --- | -------------------------------------------- |
@@ -209,9 +253,7 @@ Final Touches and Derived Stats.
 
 #### Defense
 
-Defense = REACTION + INTUITION
-
-Roll 3D6 and add Defense for a Defense roll. Characters have Active Defense, NPC's have Passive Defense (10 + [Reaction + Intuition / 2] Rounded Up)
+Defense = 10 + (REACTION + INTUITION)
 
 #### Physical Health
 
@@ -256,16 +298,7 @@ Base movement for any character is 10 + Agility in Yards.
 
 This is used for Initiative it is also used for Passive checks. Initiative is pre-determined to speed up combat.
 
-This can be modified with Courage, Augmentations, raising Attributes etc. The most actions you can have in a single round is four. 
-
-Please note in Sixfinity you alway get 1 Major Action, and 1 Minor Action. See Initiative Section. 
-
-| Init Score | Number of Actions |
-| ---------- | ----------------- |
-| 1-10       | 1                 |
-| 11-20      | 2                 |
-| 21-30      | 3                 |
-| 31-40      | 4                 |
+This can be modified with Courage, Augmentations, raising Attributes etc.
 
 Initiative = Reaction + Intuition + 4
 
@@ -388,16 +421,17 @@ You compare this result to a Target Number (below)
 
 ### TN's
 
-| Difficulty           | TN  | SR5e  Threshold |
-| -------------------- | --- | --------------- |
-| Easy                 | 6   | 1               |
-| Average              | 12  | 2               |
-| Hard                 | 18  | 3-4             |
-| Very Hard            | 24  | 5-6             |
-| Extreme              | 30  | 7-8             |
-| Virtually Impossible | 36  | 9-10            |
+| Difficulty           | TN  | Threshold Stepping |
+| -------------------- | --- | ------------------ |
+| Easy                 | 6   | 1                  |
+| Average              | 12  | 2                  |
+| Hard                 | 18  | 3-4                |
+| Very Hard            | 24  | 5-6                |
+| Extreme              | 30  | 7-8                |
+| Virtually Impossible | 36  | 9-10               |
 
 #### Threshold
+Threshold is just another way of saying, "TN" its the minimum Threshold you need to reach to achieve your goal. This term is not part of Sixfinity Core;
 This was added just for SR5e, in some cases things call for a Threshold Reduction. This just means stepping the TN down.
 
 So if something was a Threshold 3, it was a TN 18 and you reduce the Threshold by 1, it is a TN 12.
@@ -421,7 +455,7 @@ Also called a Botch.
 
 When you roll a natural 1 on the effect dice; this is called a glitch or a botch. As long as you still beat the Target Number provided you are able to get a success. However, something will happen that did not go according to plan this is ruled by the Gamemaster but some suggestions are things like gun jammed requiring a Minor A ction to clear it. We treat this as a "Yes but..." siutation.
 
-What if you roll a natural 3? In that case you have a Critical Glitch. Critical Glitches can be quite bad it depends on the GM a common rule during combat is that the gun is so fouled up it takes a Major Action or it may be completely out of commission until you can make a Mechanics check to repair it. This is treated as a "No and..." situation. A roll of 3 always fails.
+What if you roll a natural 3? In that case you have a Critical Glitch. Critical Glitches can be quite bad it depends on the GM a common rule during combat is that the gun is so fouled up it takes a Complex Action or it may be completely out of commission until you can make a Mechanics check to repair it. This is treated as a "No and..." situation. A roll of 3 always fails.
 
 
 ### The Rule of Six
@@ -455,8 +489,11 @@ Disadvanatage means you roll 4D6 and take the three lowest.
 ### Success Tests
 A Success test means you are rolling your dice, adding your modifiers and comparing against a {TN}
 
+
+
 ### Opposed Tests
 Is where you roll a specified test and your opponent rolls a specified test. You compare the results which ever is higher wins. On a tie the defender wins.
+
 
 ### Extended Tests
 
@@ -473,28 +510,34 @@ Often written like this: Perform a Mechanics (15,5,1 day) Extended Test. This me
 The gamemaster decides when an attribute-only test is called for and what attributes to apply. Attribute-only tests pair two attributes together to form a modifier, although there may be some situations where only one attribute applies. Here are a few attribute-only pairings built to suit situations where no skill suffices.
 
 **COMPOSURE (CHA + WIL)**
+---
 
 Some situations are tough to deal with, even for hardened runners. When a character is faced with an emotionally overwhelming situation there are only two choices. Stay and fight or turn into a quivering lump of goo. To find out which one happens, make a `Willpower + Charisma` Test. Take note that repeating similar situations over and again eventually eliminates the need to perform this test. Staring down a group of well-armed foes will be scary at first, but after a character does it a few times the fear gives way to instinct.
 
 **JUDGE INTENTIONS (CHA + INT)**
+---
 
 Reading another person is also a matter of instinct. A character can use their instincts to guess at the intentions of another person or to gauge how much they can trust someone. Make an Opposed `Intuition + Charisma` Test against the target’s `Willpower + Charisma`. This is not an exact science. A successful test doesn’t mean the target will never betray you (intentions have been known to change), and deceptive characters can gain another’s confidence easily. This primarily serves as a benchmark or gut instinct about how much you can trust the person you are dealing with.
 
 **LIFTING/CARRYING (BOD + STR)**
+---
 
 The baseline for lifting weight is 30 pounds per point of Strength. Anything more than that requires a `Strength + Body Test`. Each Effect increases the max weight lifted by 30 pounds. Lifting weight above your head, as with a clean & jerk, is more difficult. The baseline for lifting weight above the head is 10 pounds per point Strength. Each Effect on the Lifting Test increases the maximum weight you can lift by 10 pounds. Carrying weight is significantly different than lifting weight. Characters can carry Strength x 20 pounds in gear without effort. Additional weight requires a Lifting Test. Each Effect increases the maximum by 20 pounds. For more details on carrying gear, see Carrying Gear.
 
 **MEMORY (LOG + WIL)**
+---
 
 While there are numerous mnemonic devices designed for remembering information, memory is not a skill. If a character needs to recall information make a `Logic + Willpower` Test.
 
 Glitches can have a devastating effect on memory. A glitch means the character misremembers some portion of the information, such as order of numbers in a passcode. A critical glitch means the character has completely fooled himself into believing and thus remembering something that never actually happened.
 
 **RESIST KNOCKDOWN (STR)**
+---
 
 When you take more damage in a single attack than your Physical Limit x 3 you must avoid being knocked prone. Do this with a `3D6 + STR VS Damage Taken or 10 whichever is higher` success means you stay on your feet, failure you are knocked prone. If you take 30 damage in a single attack you are automatically knocked down regardless of the roll. 
 
 **TOXIN RESISTANCE TEST (BOD + WIL)**
+---
 
 `Body + Willpower + the rating of any protective gear/systems`; each Effect reduces the toxin’s Power by 1 point. If the Power is reduced to zero, the toxic substance takes no effect; otherwise, apply the effect depending on the remaining Power level.
 
@@ -519,7 +562,7 @@ A character can only spend Courage points on her own actions; she cannot spend i
 Spending Courage can do the following, players choice:
 
 - Push the Limit: Re-roll your Effect Die and add the new result to your Effect total. The Rule of Six applies. This triggers the same effect as if you had rolled a Nat 18. 
-- Blitz: Roll 5D6 and add it to your Initiative for the purposes of Turns in a Round. A character cannot both Blitz and Seize the Initiative in the same combat turn.
+- Action Surge: By spending a Courage point you can push yourself beyond your normal limits for a moment. On your combat turn, you can take one additional action
 - Seize the Initiative: Jump to the top of the initiative order. A character cannot both Blitz and Seize the Initiative in the same combat turn.
 - Dead Man’s Trigger: When reduced to 0 Physical Health or about to die, you immediately regain half your Physical Health. This can only be used once per Breather or Long Rest (5 minutes / 6 hours).
 - Close Call: Either negate the effects of one glitch or turn a critical glitch into a glitch.
@@ -544,7 +587,7 @@ A direct neural interface, or DNI, connects your brain to electronic devices. Di
 
 #### Grenades
 
-When throwing a grenade, choose a location as a target. Use a Throw Weapon Minor Action and make a Throwing Weapons + Agility [Physical] (TN 18) Test modified for range and all the usual conditions. Success means the grenade lands right where you wanted. If you don’t meet the threshold, the grenade scatters. The gamemaster determines scatter by consulting the Scatter Table (Determine Scatter). Hitting the TN on the test means no scatter, but it is still possible to hit the target if the scatter roll is low and the thrower got some Effect (see Determine Scatter). This all goes back to the old saying: “Close only counts in horseshoes and hand grenades.”
+When throwing a grenade, choose a location as a target. Use a Throw Weapon Simple Action and make a Throwing Weapons + Agility [Physical] (TN 18) Test modified for range and all the usual conditions. Success means the grenade lands right where you wanted. If you don’t meet the TN, the grenade scatters. The gamemaster determines scatter by consulting the Scatter Table (Determine Scatter). Hitting the TN on the test means no scatter, but it is still possible to hit the target if the scatter roll is low and the thrower got some Effect (see Determine Scatter). This all goes back to the old saying: “Close only counts in horseshoes and hand grenades.”
 
 Grenades are small, self-contained explosive or gasdelivery packages. They may come with a built-in timer to detonate after a pre-set amount of time (usually three seconds), a motion-sensor set to detonate on impact, or a wireless link set to detonate upon remote command. The type of detonation device determines the special rules and timing of grenade explosions.
 
@@ -552,7 +595,7 @@ Built-in Timer: This detonation method uses the attacker’s Initiative Score as
 
 Motion Sensor: Grenades using a motion sensor are extremely dangerous. Once armed (about a second after the sensor is activated) the grenade explodes after any sudden stop or change in direction, meaning hitting the wall, floor, or target. This method uses the standard Ranged Attack rules but adds an extra step if it misses the target (no net Effect on the attack roll). After a failed attack roll, the thrower must roll for scatter and the grenade scatters the full amount before exploding immediately. A glitch on the attack roll means the grenade does not detonate on initial impact but instead doubles the scatter distance and explodes. A Critical Glitch means the thrower waited too long, and the throw sets off the grenade. The grenade detonates immediately, affecting the attacker and those around him. (Warned you it was dangerous.)
 
-Wireless Link: This is the safest way to throw a grenade in some aspects, but it also comes with some risk and effort. The thrower (or anyone else who has a mark on the grenade) can detonate it by a wireless link. This requires the attacker to have a direct neural interface to the linked device and use the Change Wireless Device Mode Free Action. This method also reduces scatter. Without a DNI the attacker must use the Change Linked Device Mode Minor Action in their next or any of their subsequent Action Phases to detonate the grenade and scatter is not reduced.
+Wireless Link: This is the safest way to throw a grenade in some aspects, but it also comes with some risk and effort. The thrower (or anyone else who has a mark on the grenade) can detonate it by a wireless link. This requires the attacker to have a direct neural interface to the linked device and use the Change Wireless Device Mode Free Action. This method also reduces scatter. Without a DNI the attacker must use the Change Linked Device Mode Simple Action in their next or any of their subsequent Action Phases to detonate the grenade and scatter is not reduced.
 
 ##### Determine Scatter
 
@@ -573,6 +616,7 @@ If the attacker misses their intended landing spot, the gamemaster must determin
 
 
 **Scatter Table**
+---
 
 | Type                | Scatter              |
 | ------------------- | -------------------- |
@@ -586,7 +630,7 @@ If the attacker misses their intended landing spot, the gamemaster must determin
 
 Occasionally, characters get their hands on military- grade hardware, like grenade launchers, missiles, and rocket launchers. Resolving a launched grenade, rocket, or missile attack is a two-step process. The first step determines where the projectile ends up in relation to the target (see Determine Scatter). The second step resolves the effect of the projectile’s explosion.
 
-When you fire a grenade, rocket, or missile you use a Attack Major Action and roll a Gunnery + Agility [Accuracy] (TN 18) Test modified for range and all the usual conditions. Success means the launched weapon hits right where you wanted. If you don’t meet the TN, the projectile scatters. The gamemaster determines scatter by consulting the Scatter Table.
+When you fire a grenade, rocket, or missile you use a Attack Complex Action and roll a Heavy Weapons + Agility [Accuracy] (TN 18) Test modified for range and all the usual conditions. Success means the launched weapon hits right where you wanted. If you don’t meet the TN, the projectile scatters. The gamemaster determines scatter by consulting the Scatter Table.
 
 #### Blast Effects
 
@@ -601,6 +645,7 @@ The Sixth World is a vicious place; it seems like something is always trying to 
 Knockout drugs. Truth serum. Nerve gas. All of these are examples of toxins, a catch-all term for a substance that’s mostly meant for use as a weapon, as opposed to recreation. Each substance has several attribute ratings.
 
 **Vector**
+---
 
 This shows how the toxin is delivered to the target.
 
@@ -613,6 +658,7 @@ Inhalation toxins are applied as an aerosol spray or gas, and they must be breat
 Injection toxins must get into the target’s bloodstream, whether through a dart, hypodermic needle, or a cut. These can also be used to coat an edged melee weapon. They are applied to the target with a successful melee attack that causes damage.
 
 **Speed**
+---
 
 This determines how quickly the victim suffers the toxin’s Effect. These effects are always applied at the end of a Combat Turn.
 
@@ -649,7 +695,7 @@ Effect: You gain a Advantage on all Tests made to influence, calm, train, guide,
 
 Cost: 14 XP
 
-This quality is how you become even better than the best in the world. The standard limit for skills is 12. Every so often, there is a character who can exceed limitations and be truly exceptional in a particular skill. With this particular quality, the character can have one skill rated at 7 at character creation, and may eventually build that skill up to rating 13. Characters may only take the Aptitude quality once.
+This quality is how you become even better than the best in the world. The standard limit for skills is 6. Every so often, there is a character who can exceed limitations and be truly exceptional in a particular skill. With this particular quality, the character can have one skill rated at 7 at character creation, and may eventually build that skill up to rating 7. Characters may only take the Aptitude quality once.
 
 #### Astral Chameleon
 
@@ -1023,6 +1069,8 @@ This character is at Disadvantage on certain tests. For 5 XP they are at disadva
 
 ## Chapter 6: Skills
 
+> Note Sixfinity does not use Skill Groups
+
 Base skills are the fundamental skills in Sixfinity. Whereas attributes represent an individual’s inherent capacities, skills are abilities an individual learns over time. Each skill represents the training and methods a character has picked up that enable her to use her natural attributes in a certain way. To reflect this connection, each skill is linked to an attribute. A list of skills and their linked attributes appears in the Skills and Linked Attributes Table, below.
 
 Skills are grouped into two broad categories: Active, and Knowledge. Characters begin the game with a set of skills chosen by the player.
@@ -1030,34 +1078,71 @@ Skills are grouped into two broad categories: Active, and Knowledge. Characters 
 During game play, characters can improve or specialize in skills, or learn new ones as they experience new things. 
 
 **Active Skills**
+---
 
 Active skills are the skills characters use to take action, affect something, or somehow make an impact. These skills are the ones that usually matter the most to characters. Firing a gun, negotiating, driving a car , and so on. For a complete description of base Active skills and specializations see below.
 
 **Knowledge Skills**
+---
 
 Knowledge Skills represent what a character knows about certain subjects. Beginning Knowledge skills are based on a character’s Willpower and Logic attributes. Knowledge skills are useful for fleshing out a character by defining her background or areas of interest, and are used in the game most often to represent legwork, show character development, or allow characters to come up with information they might not otherwise have a chance to gain. they can range from fields of knowledge important in the game universe—such as Corporate Finance, Political History, Research, or Magic—to more esoteric, bizarre, or mundane interests such as trash Metal Bands, or Elven Wines.
 
-Knowledge skills fall into four categories: Academic, Interests, and Professional.
+Knowledge skills fall into four categories: Stree, Academic, Interests, and Professional.
+
+Each category presents an opportunity to shape the experiences of a character far beyond what happens on a run. Knowledge skills do not affect tests the way Active skills do. In certain cases Knowledge skills may provide the background needed to complete an action, but they typically do not provide dice for Active skill tests. You get a number of free Knowledge skill points at character creation. Skill advancement and additional Knowledge skills follow the skill advancement rules (Character Advancement).
+
+Knowledge skills complement your character. They create meaning and history behind the Active skills and abilities you choose. Shadowrun gives you some room to play with Knowledge skills. You’re free to take practically any Knowledge skill your can think up for your character. Knowledge skills are meant to represent a limited set of knowledge the character could have gained in some in-game fashion. For example, a kid growing up in an Evo corporate enclave could have a skill in Corporate Culture. On the other hand, had she tried to take Culture as a Knowledge skill, it would have been way too broad to be a Knowledge skill and her gamemaster would have told her she needs to narrow it down a bit. Check out the Knowledge Skill Examples to get a good idea about how to hit the Knowledge skill sweet spot
+
+**STREET KNOWLEDGE**
+---
+
+Street Knowledge is linked to Intuition. This type of Knowledge skill is about knowing the movers and shakers in an urban area, along with how things get done on the street. You know about the people who live in different neighborhoods, who to ask to get what, and where things are. The information that these skills cover tends to change rapidly, but your instincts help you keep up.
+
+**ACADEMIC KNOWLEDGE**
+---
+
+Academic knowledge is linked to Logic. This type of knowledge includes university subjects such as history, science, design, technology, magical theory, and the people and organizations with fingers in those pies. The humanities (cultures, art, philosophy, and so on) are also included in this category.
+
+**PROFESSIONAL KNOWLEDGE**
+---
+
+Professional Knowledge skills deal with subjects related to normal trades, professions, and occupations, things like journalism, engineering, business, and so on. You might find them helpful when doing legwork for a run, especially those in the corporate world. All Professional Knowledge skills are linked to Logic.
+
+**INTERESTS**
+---
+
+Strange as it might sound, you might have some hobbies outside of slinging mana and bullets. Interests are the kind of Knowledge skill that describes what you know because of what you do for fun. There are no guidelines (and no limit) to the sort of interest skills you can have. Interest Knowledge skills are linked to Intuition.
 
 **Languages**
-Language is neither an Active nor a Knowledge skill, but a little of both. Language skills should be used only when language may cause a problem in communication, such as when a correct translation or message in a secondary language may be particularly important. It is not necessary to roll dice for Language skills to communicate on an everyday basis. Characters need not make tests to understand each other every time they speak. If a character must interact with someone in another language for an extended period of time, simply make one test to see how well they understand each other during this period, or just benchmark their level of communication based on the skill rating.
+---
 
-Languages have ratings:
-| Rating | Meaning                                                                                              |
-| ------ | ---------------------------------------------------------------------------------------------------- |
-| -      | Cannot speak or understand                                                                           |
-| 1      | Cannot read/write this language, speaking is broken words and slow                                   |
-| 2      | Can speak slowly, can read/write basic words and texts at a elementary level                         |
-| 3      | Conversational, accented. Can read/write this language without issue, speaking has an obvious accent |
-| 4      | Fluent, Accented. Can speak/read/write this language only occasionally making a mistake              |
-| 5      | Near native. No accent, can read/write/speak                                                         |
-| N      | Native. Can read/write/speak this language without ever rolling                                      |
+There are few situations where language skills should require a dice roll. Characters with a language skill don’t need to make tests to understand one another in every day situations. The character’s skill level serves as a benchmark for how well they can communicate in a foreign language over time. However, in critical situations where precise translation is important, a gamemaster may elect to require a Language skill test. For more information, see Using Language Skills.
+
+**LINGOS**
+---
+
+Lingos are informal languages formed out of a mother tongue and heavy with slang, jargon, and culturally significant metaphorical language. Lingos arise out of professional and often cultural need. For example, the Cityspeak word ”wiz” came from jargon specific to the magically active. Lingos are specializations of base languages.
+
+| Name       | Meaning                                                       |
+| ---------- | ------------------------------------------------------------- |
+| Cityspeak  | A Japanese/English pidgin spoken in Seattle                   |
+| Creole     | A French/English hybrid spoken in the CAS                     |
+| Street     | Localized jive based on a city’s street population            |
+| ‘l33tspeak | Decker code talk                                              |
+| Milspec    | Military jargon shared between soldiers/mercs                 |
+| Corp       | Technical banter shared by corporate office staff and lawyers |
+| Orbital    | Jargon shared by off-world colonies                           |
+
+**USING LANGUAGE SKILLS**
+---
+
+A gamemaster may elect to call for a Language Test anytime information needs to be translated hurriedly or in a tense situation. The Language Skill Table suggests thresholds for the test as well as possible modifiers. Failing a Language Test means the parties are unable to understand each other. If a glitch is rolled, some meaningful portion of the information is presumed to be understood but is actually misunderstood. The gamemaster may want to make the Language Test secretly, in order to maintain the illusion that the characters understand what is going on.
 
 **Skill Ratings**
 
 Skill ratings are the numerical values assigned to skills or skill groups, either at character creation or when the skill is learned during game play. They represent how good a character is at a task when using that particular skill. Skill ratings are written as the name of the skill, followed by the rating. For example, Sneaking 3 means the character has the Sneaking Skill at a rating of 3. The skill rating is added to the linked attribute to determine the modifier added to 3D6 when that skill is used. For example, if the character with Sneaking 3 also had an Agility 4, she would add 7 to her rolls on a Sneaking Test.
 
-The skill Rating is a numerical value ranging from 1, representing the most rudimentary skill, to 12 (or 13 with the Aptitude quality) representing the height of sentient achievement. 
+The skill Rating is a numerical value ranging from 1, representing the most rudimentary skill, to 7 (or 13 with the Aptitude quality) representing the height of sentient achievement. 
 
 The unmodified skill rating assigned at character creation or purchased during game play is considered to be the character’s base skill rating. Some abilities and implants (as noted) may increase this rating, creating a modified skill rating. A modified skill cannot exceed the base skill rating x 1.5. Specializations, spells, and other implants may provide a bonus to a skill, but do not change the base skill rating. These extra modifiers are listed in parentheses after the base skill, as in Sneaking 4 (+2)
 
@@ -1067,26 +1152,19 @@ The unmodified skill rating assigned at character creation or purchased during g
 | 0      | Untrained    |
 | 1      | Beginner     |
 | 2      | Novice       |
-| 3      | Competent    |
-| 4      | Proficient   |
-| 5      | Skilled      |
-| 6      | Professional |
-| 7      | Veteran      |
-| 8      | Expert       |
-| 9      | Exceptional  |
-| 10     | Elite        |
-| 11     | Legendary    |
-| 12     | Apex         |
-| 13     | Master       |
-
+| 3      | Professional |
+| 4      | Veteran      |
+| 5      | Expert       |
+| 6      | Elite        |
+| 7      | Legendary    |
 
 ### Specializations
 
 If you devote extra time to a subset of a skill, it’s called a specialization. If your character has the Gymnastics skill but spends a lot of time practicing parkour, you get a character that is good at Gymnastics but especially good at climbing past obstacles.
 
-A specialization adds a Advantage to any test made for that skill when the specialization comes into play. You write the specialization in parentheses right after the skill, and then add a “(+2)” after the rating to remind you of the bonus. Characters can have multiple specializations within the same skill, but one applies at a time. 
+A specialization adds +2 modifier to any test made for that skill when the specialization comes into play. You write the specialization in parentheses right after the skill, and then add a “(+2)” after the rating to remind you of the bonus. Characters can have multiple specializations within the same skill, but one applies at a time. For example, a character with the Blades skill who specializes in Axes and Parrying would only receive a +2 modifier to tests when parrying with an axe.
 
-New characters may only take one specialization per skill at character creation, but you can buy more later. If you want a specialization in a skill, you have to have it first (meaning a Rating of at least 1).
+New characters may only take one specialization per skill at character creation (Creating a Character), but you can buy more later. If you want a specialization in a skill, you have to have it first (meaning a Rating of at least 1). 
 
 ### Defaulting
 
@@ -1096,413 +1174,582 @@ Some skills are too technically demanding for you to default. In these cases, yo
 
 ### Skill List
 
-#### Active Skill List
+#### Agility Active Skill List
+
+| Agility                         |
+| ------------------------------- |
+| Archery                         |
+| Automatics                      |
+| Blades                          |
+| Clubs                           |
+| Escape Artist                   |
+| Exotic Melee Weapon (Specific)  |
+| Exotic Ranged Weapon (Specific) |
+| Gunnery                         |
+| Gymnastics                      |
+| Heavy Weapons                   |
+| Locksmith                       |
+| Longarms                        |
+| Palming                         |
+| Pistols                         |
+| Sneaking                        |
+| Throwing Weapon                 |
+| Unarmed Combat                  |
+
+#### Body Active Skill List
+
+| Body      |
+| --------- |
+| Diving    |
+| Free-Fall |
+
+#### Reaction Active Skill List
+
+| Reaction                          |
+| --------------------------------- |
+| *Pilot Aerospace*                 |
+| *Pilot Aircraft*                  |
+| *Pilot Walker*                    |
+| *Pilot Ground Craft*              |
+| *Pilot Watercraft*                |
+| *Pilot Exotic Vehicle (Specific)* |
+
+#### Strength Active Skill List
+
+| Strength |
+| -------- |
+| Running  |
+| Swimming |
+
+#### Charisma Active Skill List
+
+| Charisma        |
+| --------------- |
+| Animal Handling |
+| Con             |
+| Etiquette       |
+| Impersonation   |
+| Instruction     |
+| Intimidation    |
+| Leadership      |
+| Negotiation     |
+| Performance     |
+
+#### Intuition Active Skill List
+
+| Intuition           |
+| ------------------- |
+| Artisan             |
+| *Assensing*         |
+| Disguise            |
+| Interests Knowledge |
+| Language            |
+| Navigation          |
+| Perception          |
+| Street Knowledge    |
+| Tracking            |
+
+#### Logic Active Skill List
+
+| Logic                   |
+| ----------------------- |
+| Academic Knowledge      |
+| *Aeronautics Mechanics* |
+| *Arcane*                |
+| Armorer                 |
+| *Automotive Mechanic*   |
+| *Biotechnology*         |
+| *Chemistry*             |
+| Computer                |
+| Cybercombat             |
+| *Cybertechnology*       |
+| Demolitions             |
+| *Electronic Warfare*    |
+| First Aid               |
+| Forgery                 |
+| Hacking                 |
+| *Hardware*              |
+| *Industrial Mechanics*  |
+| *Medicine*              |
+| *Nautical Mechanics*    |
+| Professional Knowledge  |
+| *Software*              |
+
+#### Willpower Active Skill List
 
-| Skill             | Linked Attribute | Category | Group         |
-| ----------------- | ---------------- | -------- | ------------- |
-| *Alchemy*         | Magic            | Magic    | Enchanting    |
-| Animal Handling   | Charisma         | Mental   | Outdoors      |
-| Archery           | Agility          | Combat   | Outdoors      |
-| Artisan           | Intuition        | Mental   | -             |
-| *Assensing*       | Intuition        | Magic    | Sorcery       |
-| *Astral Combat*   | Magic            | Magic    | -             |
-| Automatics        | Agility          | Combat   | Firearms      |
-| Blades            | Strength         | Combat   | Close Combat  |
-| Clubs             | Strength         | Combat   | Close Combat  |
-| Computers         | Logic            | Mental   | Electronics   |
-| *Counterspelling* | Magic            | Magic    | Sorcery       |
-| Deception         | Charisma         | Mental   | Acting        |
-| Cybercombat       | Logic            | Mental   | Cracking      |
-| Demolitions       | Logic            | Mental   | Engineering   |
-| Etiquette         | Charisma         | Mental   | Influence     |
-| First Aid         | Logic            | Mental   | Biotechnology |
-| Gunnery           | Agility          | Combat   | -             |
-| Gymnastics        | Agility          | Physical | Athletics     |
-| Insight           | Intuition        | Mental   | Observation   |
-| Intimidation      | Charisma         | Mental   | Influence     |
-| Investigation     | Logic            | Mental   | Observation   |
-| Longarms          | Agility          | Combat   | Firearms      |
-| *Mechanics*       | Logic            | Mental   | Engineering   |
-| *Medicine*        | Logic            | Mental   | Biotechnology |
-| Perception        | Intuition        | Mental   | Observation   |
-| Performance       | Charisma         | Mental   | Acting        |
-| Persuasion        | Charisma         | Mental   | Influence     |
-| *Piloting*        | Reaction         | Physical | -             |
-| Pistols           | Agility          | Combat   | Firearms      |
-| Running           | Strength         | Physical | Athletics     |
-| Security          | Logic            | Mental   | Stealth       |
-| Sleight of Hand   | Agility          | Physical | Stealth       |
-| Sneaking          | Agility          | Physical | Stealth       |
-| *Spellcasting*    | Magic            | Magic    | Sorcery       |
-| Survival          | Willpower        | Mental   | Outdoors      |
-| *Summoning*       | Magic            | Magic    | Conjuring     |
-| Swimming          | Strength         | Physical | Athletics     |
-| Throwing Weapons  | Strength         | Combat   | -             |
-| Unarmed Combat    | Agility          | Combat   | Close Combat  |
-| Vehicles          | Reaction         | Physical | -             |
+| Willpower       |
+| --------------- |
+| *Astral Combat* |
+| Survival        |
 
+#### Magic Active Skill List
 
-#### Knowledge Skill List
+| Magic                 |
+| --------------------- |
+| Alchemy               |
+| *Artificing*          |
+| *Banishing*           |
+| *Binding*             |
+| *Counterspelling*     |
+| *Disenchanting*       |
+| *Ritual Spellcasting* |
+| *Spellcasting*        |
+| *Summoning*           |
 
-| Skill              | Linked Attribute | Category | Group        |
-| ------------------ | ---------------- | -------- | ------------ |
-| Appraise           | Logic            | Mental   | Professional |
-| Gaming             | Intuition        | Mental   | Interest     |
-| History            | Logic            | Mental   | Academic     |
-| Law                | Logic            | Mental   | Academic     |
-| *Life Sciences*    | Logic            | Mental   | Academic     |
-| *Lore*             | Logic            | Mental   | Interest     |
-| *Natural Sciences* | Logic            | Mental   | Academic     |
-| *Social Sciences*  | Logic            | Mental   | Academic     |
-| Streetwise         | Intuition        | Mental   | Professional |
-| Tactics            | Logic            | Mental   | Professional |
 
-The list of Knowledge Skills is not Exhaustive. You are free to create new ones.
+#### Knowledge Skill Examples 
 
+Knowledge skills are about what the character knows,
+even if you, the player, don’t. Check out the KnowledgeSkill Table for a few guidelines on what a skill reveals.
+Keep in mind that general facts, such as the name of
+the head of a megacorp and such, is info that can be
+quickly found on the Matrix. Knowledge skills are not
+about that basic level of detail, but rather information
+that not everyone knows or can find so easily.
 
-#### Active Skill Descriptions
+| Character Seeks     | TN  |
+| ------------------- | --- |
+| General Knowledge   | 6   |
+| Detailed Knowledge  | 12  |
+| Intricate Knowledge | 18  |
+| Obscure Knowledge   | 24  |
 
-##### Alchemy (Magic)
+| Skill Example        | Type         | Specilizations                                                                                       |
+| -------------------- | ------------ | ---------------------------------------------------------------------------------------------------- |
+| Seattle Street Gangs | Street       | Halloweeners, Ancients, Brain Eaters, 405 Hellhounds                                                 |
+| UCAS Politics        | Street       | Congressional, Presidential, by state, by lobby group, by political party                            |
+| Ares Macrotechnology | Street       | Damien Knight, AresSpace, Ares Arms, Seattle Operations                                              |
+| Hong Kong Triads     | Street       | Yellow Lotus, Red Dragons, Black Chrysanthemums                                                      |
+| Security Companies   | Street       | Lone Star, Knight Errant, Hard Corps, Seattle Sec Corps                                              |
+| Sprawl Life          | Street       | Soup Kitchens, Scavenging, Street Docs, Squats                                                       |
+| History              | Academic     | By region (American, European, Asian, etc.), by era (Ancient, Medieval, Modern)                      |
+| Literature           | Academic     | Japanese, Early Twentieth Century, Genre (Sci-Fi, Poetry, Fiction, Romance)                          |
+| Economics            | Academic     | Micro-economics, Macro-economics                                                                     |
+| Biology              | Academic     | Anatomy, Microbiology, Parazoology, Physiology                                                       |
+| Chemistry            | Academic     | Industrial Chemicals, Inorganic Chemistry, Organic Chemistry, Pharmaceuticals                        |
+| Architecture         | Professional | Commercial, Residential, by style (Baroque, Brutalist, Art Nouveau)                                  |
+| Business             | Professional | Finance, Distribution, Manufacturing, Megacorp, Digital Accountancy, Small Business                  |
+| Engineering          | Professional | Chemical, Civil, Electrical, Mechanical, Nuclear                                                     |
+| Military             | Professional | Army, Navy, Air Force, Marines, Coast Guard, Special Forces                                          |
+| Police Procedures    | Professional | By company, Government, Military Security Design, Magical, Matrix, Military, Physical, Private, Home |
+| Club Music           | Interest     | Astral Rock, Electron Wave, Goblin Rock, Powernoize, Rockabilly, Sinthcore, WizPunk                  |
+| Matrix Games         | Interest     | Dawn of Atlantis III, Dragon Storm, Grand Larceny, Killing Floor, Shadowrun Online                   |
+| Sports               | Interest     | Basketball, Combat Biking, Court Ball, Football, MMA, Soccer, Stickball,                             |
+| Street Drugs         | Interest     | BTLs, Cram, Deepweed, Novacoke, Spike, Tempo                                                         |
+| Fashion              | Interest     | Harajuku Scene, London Scene, New York Scene, Paris Scene                                            |
 
-Alchemy is used to create substances that store spells. Alchemy is most commonly used to brew potions, distill magical reagents, and even create orichalcum.
 
-Default: No
 
-Skill Group: Enchanting
 
-Specializations: By trigger (Command, Contact, Time), by spell type (Combat Spells, Detection Spells, etc.)
+#### Combat Active Skills
 
----
+When the punching and the kicking and the shooting starts, these are the skills you use. All Combat skills are linked to Agility unless otherwise noted. For more on how skills are used in combat, refer to the Combat chapter.
 
-##### Animal Handling (Willpower)
+##### ARCHERY
 
-This skill governs the training, care, riding (if they’re big enough), and control of non-sentient animals. Competent trainers have the ability to handle multiple animals. It is even possible to approach an untrained animal and get it to trust you, or at least not eat you.
+Archery is used to fire string-loaded projectile weapons. An archer is familiar with many different styles of bow and the multitude of arrows that can be used to maximum effect.
 
-Default: Yes
+- Default: Yes
+- Skill Group: No
+- Specializations: Bow, Crossbow, Non-Standard Ammunition, Slingshot
 
-Skill Group: None
+##### AUTOMATICS
 
-Specializations: By animal (Cat, Bird, Hell Hound, Horse, Dolphin, etc.), Herding, Riding, Training
+The Automatics skill covers a specific subset of firearms larger than handheld pistols but smaller than rifles. This category includes submachine guns and other fully automatic carbines.
 
----
+- Default: Yes
+- Skill Group: Firearms
+- Specializations: Assault Rifles, Cyber-Implant, Machine Pistols, Submachine Guns
 
-##### Archery (Agility)
+##### BLADES
 
-Archery governs the use of muscle-powered projectile weapons.
+Slice and dice! The Blades skill includes the use of all handheld slashing and stabbing weapons. You can use a range of edged weapons including daggers, swords, and axes.
 
+- Default: Yes
+- Skill Group: Close Combat
+- Specializations: Axes, Knives, Swords, Parrying
 
+##### CLUBS
 
----
+Clubs governs the use of all hand-held bludgeoning instruments.
+With this skill you can turn any blunt item,
+be it a baseball bat, crutch, or mace, into a weapon.
 
-##### Artisan (Willpower)
+- Default: Yes
+- Skill Group: Close Combat
+- Specializations: Batons, Hammers, Saps, Staves, Parrying
 
-This skill includes several different forms of artistic impression as well as the handcrafting of fine objects that would otherwise be produced on an assembly line. The world’s top artists and crafters are considered artisans.
+##### EXOTIC RANGED WEAPON (SPECIFIC)
 
-Default: No
 
-Skill Group: None
+Sometimes a regular gun or blade won’t do the job and you need something fancier. Or weirder. This skill must be taken once for each unusual ranged weapon you want to use. Some examples include blowguns, gyrojet pistols, flamethrowers, and lasers.
 
-Specializations: By discipline (Cooking, Sculpting, Drawing, Carpentry, etc.)
+- Default: No
+- Skill Group: None
+- Specializations: None
 
----
+##### HEAVY WEAPONS
 
-##### Assensing (Intuition)
+The term heavy weapon is designated for all projectile weaponry larger than an assault rifle, such as grenade launchers, machine guns, and assault cannons. This skill is exclusive to handheld and non-vehicle-mounted weaponry—if you’ve got a gun mounted on or in a vehicle, use Gunnery.
 
-Assensing is a magic user’s ability to read and interpret fluctuations in the astral world. This skill allows practitioners to learn information by reading astral auras. Only characters capable of astral perception may take this skill. For more information, see Astral Perception.
+- Default: Yes
+- Skill Group: None
+- Specializations: Assault Cannons, Grenade Launchers, Guided Missiles, Machine Guns, Rocket Launchers
 
-Default: No
 
-Skill Group: None
+##### LONGARMS
 
-Specializations: Aura Reading, Astral Signatures, by aura type (Metahumans, Spirits, Foci, Wards, etc.)
+The Longarms skill is for firing extended-barrel weapons such as sporting rifles and sniper rifles. This grouping also includes weapons like shotguns that are designed to be braced against the shoulder.
 
-##### Athletics (Strength)
+- Default: Yes
+- Skill Group: Firearms
+- Specializations: Extended-Range Shots, Long-Range Shots, Shotguns, Sniper Rifles
 
-The Athletics skill includes a wide range of physical activities centered around physical strength. Heroes proficient in Athletics are often professional or amateur athletes or have a profession that requires rigorous activity.
+##### PISTOLS
 
-throw or kick something (outside of combat), wrestle, etc.
+This skill category includes all types of handheld pistols,
+including tasers, single-shots, semi-automatics,
+and revolvers.
 
----
+- Default: Yes
+- Skill Group: Firearms
+- Specializations: Holdouts, Revolvers, Semi-Automatics, Tasers
 
-##### Automatics (Agility)
+##### THROWING WEAPONS
 
-The Automatics skill governs the use of personal firearms larger than a pistol, capable of autofire, but typically with a shorter barrel than a longarm.
+Throwing Weapons is a broad-based attack skill that can be used for any handheld item that is thrown by the user as a weapon.
 
+- Default: Yes
+- Skill Group: None
+- Specializations: Aerodynamic, Blades, Non-Aerodynamic
 
+##### UNARMED COMBAT
 
----
+Unarmed Combat covers the various self-defense and attack moves that employ the body as a primary weapon. This includes a wide array of martial arts along with the use of cybernetic implant weaponry and the fighting styles that sprung up around those implants.
 
-##### Blades (Strength)
+- Default: Yes
+- Skill Group: Close Combat
+- Specializations: Blocking, Cyber Implants, Subduing Combat, or by specific Martial Art
 
-The Blades skill governs the use of hand-held melee weapons that have a sharpened edge or point. This skill allows a character to use various knives, swords, and axes effectively.
+#### Physical Active Skills
 
+These skills are all about actions you take with your body (besides things covered in Combat skills). You’ll find the specific rules for using each skill (or a reference for where you can find the rules) in the skill description.
 
+##### DISGUISE (INTUITION)
 
----
+Disguise covers non-magical forms of masking your identity, including makeup and enhancement. See Using Disguise and Impersonation
 
-##### Clubs (Strength)
+- Default: Yes
+- Skill Group: Stealth
+- Specializations: Camouflage, Cosmetic, Theatrical, Trideo & Video
 
-Clubs governs the use of hand-held melee weapons that have no edge or blade. This skill allows a character to use any blunt, weighted item as a weapon, from a baseball bat to a tire iron to a chair leg.
+##### DIVING (BODY)
 
+Diving brings together a wide array of actions performed underwater. This skill can be applied when diving, swimming underwater, using complex diving equipment, and holding your breath.
 
+- Default: Yes
+- Skill Group: None
+- Specializations: By breathing apparatus (Liquid Breathing Apparatus, Mixed Gas, Oxygen Extraction, SCUBA), by condition (Arctic, Cave, Commercial, Military etc.), Controlled Hyperventilation
 
----
+##### ESCAPE ARTIST (AGILITY)
 
-##### Computers (Logic)
+Escape Artist measures the character’s ability to escape from bindings by using body contortion and manual dexterity. See Using Escape Artist
 
-Computer is the base skill for interacting with the Matrix. It represents the ability to use computers and other Matrix- connected devices. The Computer skill focuses on understanding multiple operating systems. It does *cover* the ability to exploit code (Hacking) or strip down mainframes (Hardware).
+- Default: Yes
+- Skill Group: None
+- Specializations: By restraint (Cuffs, Ropes, Zip Ties, etc.), Contortionism
 
-Default: Yes
+**USING ESCAPE ARTIST**
 
-Skill Group: Electronics
 
-Specializations: By action (Edit File, Matrix Perception, Matrix Search, etc.)
+In Shadowrun, you might just find yourself caught instead of killed. Escape Artist provides a chance to escape from most forms of confinement, including ropes, handcuffs, and other bindings. To get out of restraints, make an `Escape Artist + Agility [Physical]` Test against a TN based on what you’re trying to get out of. If you succeed, you’re free after working on it for one minute (20 Combat Turns), divided by the number of net effect you get on the test. The dice is modified by a variety of factors, such as whether or not you’re being watched (and trying to be subtle) or if you’re carrying a set of lockpicks. These situational modifiers are on the Escape Artist Table. The gamemaster may decide that some restraints are too difficult to escape from without outside help.
 
----
+**Escape Artist Table**
 
-##### Counterspelling (Magic)
+| **RESTRAINTS**                           | **THRESHOLD**            |
+| ---------------------------------------- | ------------------------ |
+| Rope, plastic cuffs                      | 2                        |
+| Metal handcuffs                          | 3                        |
+| Straitjacket                             | 4                        |
+| Containment manacles                     | 5                        |
+| Reinforced material                      | +1                       |
+| **SITUATION**                            | **MODIFIER**             |
+| Character being watched                  | –2                       |
+| Character physically restrained          | –(Restrainer’s Strength) |
+| Character has picks or cutting implement | +2                       |
 
-Counterspelling is a defensive skill used to defend against magical attacks and dispel sustained magical spells. See Counterspelling.
 
-Default: No
 
-Skill Group: Sorcery
+##### FREE-FALL (BODY)
 
-Specializations: By spell type (Combat Spells, Detection Spells, etc.)
+This skill covers any jump from height, including leaps from a third-floor window to jumps from a plane at high altitude. If it involves any kind of attempt to slow or control your fall, this covers it, so it includes skydiving with a parachute, flying a wingsuit, or descending on a line, bungee cord, or zipline.
 
----
+- Default: Yes
+- Skill Group: None
+- Specializations: BASE Jumping, Break-Fall, Bungee, HALO, Low Altitude, Parachute, Static Line, Wingsuit, Zipline
 
-##### Cybercombat (Logic)
+##### GYMNASTICS (AGILITY)
 
-Cybercombat is the skill used by hackers to engage in combat on the Matrix. See Using Cybercombat
+Gymnastics measures your balance, general athleticism, and all-around ability to use your body. For more information on ways Gymnastics may be applied ingame, see Jumping.
 
-Default: Yes
+- Default: Yes
+- Skill Group: Athletics
+- Specializations: Balance, Climbing, Dance, Leaping, Parkour, Rolling
 
-Skill Group: Cracking
+**USING GYMNASTICS**
 
-Specializations: By target type (Devices, Grids, IC, Personas, Sprites, etc.)
 
-##### Deception (Charisma)
+**CLIMBING**
 
-The Deception skill involves the creation of false beliefs, but this skill is useful for more than simply lying. While most people occasionally resort to momentary dishonesty, heroes proficient in Deception are practiced experts in the field, whether natural storytellers, professional salespeople, or con artists.
+The Gymnastics skill is applied to both assisted and unassisted climbing tasks. Assisted climbing is accomplished with specialized gear such as ropes and harnesses. Assisted climbing is easier and safer, but requires more preparation. Unassisted climbing may be done on the fly, because you climb without any gear. Climbing is a Complex Action, and the number of hits you get on your `Gymnastics + Strength [Physical]` Test determines how far you can move vertically or laterally during your climb, as noted on the Climbing Table. The more difficult the climb, the more modifiers you get, which is also noted on the Climbing Table.
 
-kept, misdirect or divert others’ attention, scam someone, etc.
+**Climbing Table**
 
----
+| **SITUATION**                                            | **Movement Distance R/up**   |
+| -------------------------------------------------------- | ---------------------------- |
+| Assisted climbing down (rappelling)                      | 20 yards + 1 yard per effect |
+| Assisted climbing upward                                 | 1 yard per effect            |
+| Assisted climbing horizontally                           | 1 yard per 2 effect          |
+| Assisted climbing upside down (on a ceiling or overhang) | 1 yard per 3 effect          |
+| Unassisted climbing upward                               | 1 yard per 2 effect          |
+| Unassisted climbing down                                 | 1 yard per effect            |
+| **SITUATION**                                            | **MODIFIER**                 |
+| Assisted climbing                                        | +2                           |
+| **SURFACE IS**                                           | **MODIFIER**                 |
+| Easily climbable (chain-link fence)                      | +1                           |
+| Broken (tree, loose stone wall)                          | +0                           |
+| Flat (brick wall, side of old building)                  | –3                           |
+| Sheer (metal wall, seamless stone)                       | –5                           |
+| Slippery or wet                                          | –2                           |
+| Greased or gel-treated                                   | –4                           |
 
-##### Demolitions (Logic)
 
-The Demolitions skill covers the safe handling, placement, and detonation of explosives. Heroes with this skill might be combat engineers, miners, or saboteurs.
+**RAPPELLING**
 
-structures, clear obstacles, create improvised explosive devices, handle volatile compounds.
+Rappelling is a gear-aided descent at near free-fall speed. This technique requires a `Free-Fall + Body [Physical] (12)` Success Test. So long as you have the proper gear and training, you can brake at any point in the descent, slow your speed, and land safely. Rappelling expends a Simple Action, during which you fall at a rate of 20 yards per Combat Turn. Rappelling characters can increase the number of yards descended during that same Combat Turn by 1 for each net effect beyond the threshold on the Free-Fall Test. If you take another Simple Action in the same phase, such as firing a weapon, you get a –2 modifier to both that action and the Free-Fall Test. Stopping requires another Free-Fall Test with the same threshold. On an unsuccessful test, you don’t slow down and may take damage if you hit the ground at speed (Falling Damage).
 
----
+**CLIMBING FAILURES AND GLITCHES**
 
-##### Etiquette (Charisma)
+A test while climbing or rappelling automatically halts your progress, and you have to make a `Reaction + Strength` Test to hold on. If you fail this second test, you start to fall (about 20 yards per Combat Turn). During your next turn, you may attempt to stop by making a `Reaction + Strength Test` with a –2 modifier. Your gamemaster may allow other climbers to make a `Reaction + Strength` Test to grab you. Characters who are using climbing gear are allowed an additional test if they fall. Have the character who prepared the safety lines make a `Free-Fall + Logic [Mental]` Test against a threshold equal to half the falling character’s Body (round down). The falling character may apply Courage to this test. If successful, the safety gear catches, leaving the character dangling. If it fails, the character falls (see Falling Damage).
+
+**JUMPING**
+
+Jumping is done from a running or standing position. Running leaps get more distance than standing jumps do, if you have enough room to get up to full speed. Make a `Gymnastics + Agility Test`, applying any appropriate modifiers. For every Effect you get on this test, you jump 1 yard on a standing jump or 2 yards for a running leap. No matter how many effect you get, you can’t jump farther than your Agility x 1.5 yards (net effect beyond this mean you did it with style). For a vertical jump, it’s the same test, but you get half a yard of altitude per hit and the maximum you can jump is 1.5 times your height.
+
+
+##### PALMING (AGILITY)
+
+Palming is sleight-of-hand skill that gives a character the ability to snag, hide, and pass off small objects.
+
+- Default: No
+- Skill Group: Stealth
+- Specializations: Legerdemain, Pickpocket, Pilfering
+
+##### PERCEPTION (INTUITION)
+
+Perception refers to the ability to spot anomalies in everyday situations, making it one of the key skills a shadowrunner needs. See Using Perception.
+
+- Default: Yes
+- Skill Group: None
+- Specializations: Hearing, Scent, Searching, Taste, Touch, Visual
+
+**USING PERCEPTION**
+
+Perception Tests are for any situation involving basic senses (sight, hearing, smell, touch, or taste) where you’re looking for something that isn’t obvious. Your gamemaster might call for you to make one, or you can call for a Perception Test by taking an Use Skill Complex Action to get a handle on what’s going down around you. Making the TN on a `Perception + Intuition [Mental]` Test indicates that you’ve noticed something subtle or important (or both)—net effect determine how much detail you get. If someone is deliberately trying to hide from you, they’ll oppose your test with their own skill (Using Stealth Skills). Perception Tests involving vision (which is most of them) use the same Visibility and Light modifiers as attacks do in combat (Environmental Modifiers). Other modifiers are listed on the Perception Test Modifiers table. If a bunch of people are making a Perception Test and looking for the same thing, use a Teamwork Test.
+
+**Perception Test Modifiers table**
+
+| **SITUATION**                                       | **MODIFIER**          |
+| --------------------------------------------------- | --------------------- |
+| Perceiver is distracted                             | –2                    |
+| Perceiver is specifically looking/ listening for it | +3                    |
+| Object/sound not in immediate vicinity              | –2                    |
+| Object/sound far away                               | –3                    |
+| Object/sound stands out in some way                 | +2                    |
+| Interfering sight/odor/sound                        | –2                    |
+| Perceiver has active enhancements                   | + (Rating)            |
+| Visibility and Light                                | Environmental Factors |
+
+**Perception TN's**
+
+| **ITEM/EVENT IS:**     | **TN THRESHOLD** | **EXAMPLES**                                            |
+| ---------------------- | ---------------- | ------------------------------------------------------- |
+| Obvious/Large/Loud     | 6                | Neon sign, running crowd, yelling, gunfire              |
+| Normal                 | 12               | Street sign, pedestrian, conversation, silenced gunfire |
+| Obscured/Small/Muffled | 18               | Item dropped under table, contact lens, whispering      |
+| Hidden/Micro/Silent    | 24               | Secret door, needle in haystack, subvocal speech        |
+
+
+
+##### RUNNING (STRENGTH)
+
+Running, as you may guess, is about how much ground you can cover quickly. For more information see Using Running.
+
+- Default: Yes
+- Skill Group: Athletics
+- Specializations: Distance, Sprinting, by terrain (Desert, Urban, Wilderness, etc.)
+
+**USING RUNNING**
+
+The Running skill allows you to increase the distance you can cover in a Combat Turn by taking a Dash Action on your turn. You make a `Running + Strength [Physical] Test`. Each effect adds 1 or 2 yards to your distance for that Combat Turn, based on your metatype (see Movement). The gamemaster may apply modifiers for various types of terrain (rocky, slippery, and so on) and other conditions. You can run non-stop for a maximum number of minutes equal to your `(Body + Running) x 10`. Fatigue damage begins to take effect after this point (see Fatigue Damage).
+
+##### SNEAKING (AGILITY)
+
+Need to get where you’re not supposed to be? This skill allows you to remain inconspicuous in various situations. See Using Stealth Skills.
+
+- Default: Yes
+- Skill Group: Stealth
+- Specializations: Location type (Jungle, Urban, Desert, etc.)
+
+##### SURVIVAL (WILLPOWER)
+
+In the desert with nothing more than a tin cup, a poncho, and an iron rod? You’ll need this skill to help you get out alive. Survival is the ability to stay alive in extreme environmental conditions for extended periods of time. The skill governs a character’s ability to perform vital outdoor tasks such as start a fire, build a shelter, scrounge for food, etc. in hostile environments. See Using Survival.
+
+- Default: Yes
+- Skill Group: Outdoors
+- Specializations: Desert, Forest, Jungle, Mountain, Polar, Urban, or other terrain
+
+**USING SURVIVAL**
+
+Surviving the elements is more dangerous in the Sixth World. Environmental decay has reached unparalleled heights. In Great Britain, for example, a perfect storm of toxic disasters and severe flooding devastated the countryside. Those forced to live on city streets fare no better. The homeless are as likely to be attacked by a swarm of devil rats as they are to be beaten by a ganger looking for a bit of fun.
+
+The Survival skill is used for braving all forms of extreme outdoor conditions—this includes urban survival, where the threats are as likely to come from other people as they are from the elements. It covers the ability to find food, water, and temporary shelter in any environment. If you’re exposed to these conditions for 24 hours or more, you’ll need to start making daily `Survival + Willpower [Mental] Tests`. Modifiers and thresholds for Survival Tests are provided on the Survival Test Table. If you fail the test, you don’t find the food or shelter you need and take Stun damage with a Damage Value equal to twice the threshold step. The Stun damage cannot be healed until you get a good night’s sleep without having to make a Survival Test. If your Stun Condition Monitor overflows and you fall unconscious, you cannot make your Survival Tests, so you just keep taking the damage (now Physical from overflow) until you’re either rescued or dead.
+
+**Survival Test Table**
+
+| **WILDERNESS TERRAIN**              | **THRESHOLD** | **STUN DAMAGE ON FAIL** |
+| ----------------------------------- | ------------- | ----------------------- |
+| Mild (forest, plains, urban)        | 6             | 2                       |
+| Moderate (foothills, jungle, swamp) | 12            | 4                       |
+| Tough (desert, high mountains)      | 18            | 6                       |
+| Extreme (Arctic, Antarctic)         | 30+           | 10+                     |
+| **SITUATION**                       | **MODIFIER**  | -                       |
+| Camping/survival gear on hand       | +2            | -                       |
+| No food or water                    | –2            | -                       |
+| Heat/climate control available      | +1            | -                       |
+| Inappropriate clothing/armor        | –1 to –4      | -                       |
+| Extended travel or exertion         | –1 to –4      | -                       |
+| Toxic terrain                       | –2 to –4      | -                       |
+| Character injured                   | -4            | -                       |
+| **WEATHER**                         | **MODIFIER**  | -                       |
+| Poor                                | –1            | -                       |
+| Terrible                            | –2            | -                       |
+| Extreme                             | –4            | -                       |
+
+
+
+##### SWIMMING (STRENGTH)
+
+This skill determines the character’s ability to swim in various bodies of water. The skill level affects the distance and speed at which a character can swim. See Using Swimming
+
+- Default: Yes
+- Skill Group: Athletics
+- Specializations: Dash, Long Distance
+
+**USING SWIMMING**
+
+Swimming is a Complex Action. A swimming character can move a number of yards in a Combat Turn equal to the average of their Agility and Strength. You can take a Simple Action to dash with a `Swimming + Strength [Physical] Test`, adding 1 yard per effect, or 2 yards per effect if you’re an elf or a troll. Swimming on the surface of water or under it does not affect this rate of speed. As with the Running skill, swimmers suffer from fatigue after an extended time (Fatigue Damage).
+
+**HOLDING YOUR BREATH**
+
+Sixty seconds (twenty Combat Turns) is the base time a character can hold his breath before any tests are needed. A character needing to hold his breath longer can make a `Swimming + Willpower Test` (with the Controlled Hyperventilation specialization coming into play if you have it). Each net hit extends the clock by 15 seconds (5 Combat Turns).
+
+Once the time expires the character must breathe or take 3 of Stun damage at the end of each Combat Turn until they breathe (this damage cannot be resisted). Once all the stun is gone, the character loses consciousness. At this point the character takes 3 physical damage at the end of each Combat Turn until rescued or dead.
+
+**TREADING WATER**
+
+If you’re just trying to keep afloat, you can tread water. You can tread water for a number of minutes equal to your Strength rating. At the end of this time, make a Simple `Swimming + Strength [Physical] (12) Test`. Success means you can keep treading water (or float, if you’re skilled at Swimming) for the same amount of time before another test; failure means you slip and take 3 Stun damage that you can’t resist. If you have a flotation device, double the time between tests. You can keep treading water as long as you can stay conscious.
+
+##### TRACKING (INTUITION)
+
+This skill confers the ability to detect the passage of metahumans and other game through terrain and use those clues to follow that individual. This skill also allows you to identify unmarked trails and common game paths is various environments. See Using Tracking.
+
+- Default: Yes
+- Skill Group: Outdoors
+- Specializations: Desert, Forest, Jungle, Mountain, Polar, Urban, another terrain type
+
+**USING TRACKING**
+
+Tracking a person or critter requires a `Tracking + Intuition [Mental] Test` with a threshold based on the terrain (decided by the gamemaster using the TN table). If the target is actively obscuring their trail, tracking is handled as an Opposed Test. The tracker rolls `Tracking + Intuition [Mental]` against the target’s `Sneak + Agility [Physical]`. Any effect on a Tracking Test can be used to gain additional information about the trail, such as the number of people using the trail, type of critters recently using it, and how old the tracks are. In urban tracking, additional effect can be used to identify local crowd movement patterns, relevant cameras, and AR clues that reveal where the target was heading and how long ago it passed by. The gamemaster may choose to apply modifiers for conditions such as weather, age of the tracks, the amount of people who’ve trampled the trail, and so on. Individuals using a tracking dog or other tracking critter may use Animal Handling as a Teamwork Test for their animal’s Tracking Test.
+
+#### Social Active Skills
+
+Dice rarely need to get involved when characters need to solve problems between one another. Dealing with NPCs isn’t always so easy. Social skills give characters the ability to problem-solve without expending bullets or mana. These skills tend to be linked to the Charisma attribute
+
+Social skills are intended to be used to complement good role-playing, not replace it. The Social Test should come either at the end of a well-role-played scene to wrap it up, or in place of a social situation that would be less interesting to actually play through to get through it quickly. The gamemaster can provide modifiers on this test based on how well you make your point, or how much bulldrek you’re able to pile up without flinching.
+
+##### CON (CHARISMA)
+
+Con governs the ability to manipulate or fool an NPC during a social encounter. This skill covers a range of confidence games as well as the principles behind those cons.
+
+- Default: Yes
+- Skill Group: Acting
+- Specializations: Fast Talking, Seduction
+
+##### ETIQUETTE (CHARISMA)
 
 Etiquette represents the level of understanding and awareness of proper social rituals. The skill works as a sort of social version of Sneak, allowing you to move unimpeded through various social situations. Etiquette also serves as a social safety net in case a player botches a social situation in a way a skilled character would not. See Using Etiquette.
 
-Default: Yes
+- Default: Yes
+- Skill Group: Influence
+- Specializations: By culture or subculture (Corporate, High Society, Media, Mercenary, Street, Yakuza, etc.)
 
-Skill Group: Influence
 
-Specializations: By culture or subculture (Corporate, High Society, Media, Mercenary, Street, Yakuza, etc.)
 
-##### First Aid (Logic)
+##### IMPERSONATION (CHARISMA)
 
-First Aid is the ability to provide emergency medical assistance similar to that of a paramedic. This skill may be used to stabilize wounds and prevent characters from dying. First Aid cannot be used to perform surgery or repair damaged implants. For more information, see Healing
+Impersonation is the ability to assume the identity of another person, including voice and physical mannerisms. The skill is limited by the physical abilities of the character. A dwarf might be able to impersonate a troll over a commlink, but the illusion shatters when he is face to face with his target.
 
-Default: Yes
+- Default: Yes
+- Skill Group: Acting
+- Specializations: By metahuman type (Dwarf, Elf, Human, Ork, Troll)
 
-Skill Group: Biotech
+##### INSTRUCTION (CHARISMA)
 
-Specializations: By treatment (Gunshot Wounds, Resuscitation, Broken Bones, Burns, etc.)
+Instruction governs the ability to teach people. The skill level helps determine how comfortable the instructor is delivering new material as well as how complex of a skill may be taught. See Using Instruction.
 
-##### Gymnastics (Agility)
+- Default: Yes
+- Skill Group: None
+- Specializations: By Active or Knowledge skill category (Combat, Language, Magical, Academic Knowledge, Street Knowledge, etc.)
 
-The Gymnastics skill covers physical activities that rely on quick movement, balance, hand-eye coordination, and grace. Heroes proficient in Gymnastics are typically avid sports or health enthusiasts, or even professional athletes.
+##### INTIMIDATION (CHARISMA)
 
-tumble, walk a tightrope, walk on slippery surfaces, etc.
+Intimidation is about creating the impression that you are more menacing than another person in order to get them to do what you want. The skill may be applied multiple ways, from negotiation to interrogation. Intimidation is an Opposed `Intimidation + Charisma [Social]` Test against the target’s `Charisma + Willpower`, modified by the appropriate entries on the Social Modifiers Table.
 
+- Default: Yes
+- Skill Group: None
+- Specializations: Interrogation, Mental, Physical, Torture
+
+##### LEADERSHIP (CHARISMA)
+
+Leadership is the ability to direct and motivate others. It’s like Con, except rather than using deception you’re using a position of authority. This skill is especially helpful in situations where the will of a teammate is shaken or someone is being asked to do something uncomfortable. The Leadership skill is not meant to replace or make up for poor teamwork. When using Leadership make an opposed test `Charisma + Leadership`. See Using Social Influence Skills, for test modifiers.
+
+- Default: Yes
+- Skill Group: Influence
+- Specializations: Command, Direct, Inspire, Rally
+
+##### NEGOTIATION (CHARISMA)
+
+Negotiation governs a character’s ability to apply their charisma, tactics, and knowledge of situational psychology in order to create a better position when making deals.
+
+- Default: Yes
+- Skill Group: Influence
+- Specializations: Bargaining, Contracts, Diplomacy
+
+##### PERFORMANCE (CHARISMA)
+
+This skill governs the ability to execute a performing art. Performance is to the arts what Artisan is to craft. The performer uses her skill to entertain or even captivate an audience. See Using Performance.
+
+- Default: Yes
+- Skill Group: Acting
+- Specializations: By performance art (Presentation, Acting, Comedy, specific Musical Instrument, etc.)
+
+**USING PERFORMANCE**
+
+Performance is a Simple Test with a Social limit—the gamemaster can use your hits to gauge the artistry of your performance. If you’re trying distract a target, or sweep them up in your performance, the generic modifiers on the Social Modifiers Table apply, and your target(s) use their `Charisma + Willpower` to oppose your test.
+
+**Social Modifiers Table**
 ---
-
-##### Gunnery (Agility)
-
-The Gunnery skill governs the use of **vehicle-mounted, ship-based, and heavy personal weapons**. Heroes proficient in Gunnery include soldiers, starship crew, tank operators, and heavy weapons specialists.
-
-vehicles, maintain heavy weapons, adjust for range and velocity.
-
----
-
-##### Insight (Willpower)
-
-The Insight skill involves an intuitive understanding of other people—their motivations, how they think, and how they behave—and has a wide range of personal and professional applications. Heroes proficient in Insight include those with a natural knack for reading people, as well as professionals whose jobs involve ascertaining what other people are truly thinking.
-
-predict others’ actions, see through a disguise, show empathy, etc.
-
----
-
-##### Intimidation (Charisma)
-
-The Intimidation skill is used to manipulate people through awe or fear. Doing so can be as subtle as adopting a posture that gives a hero a sense of authority, or as direct as threatening someone with bodily harm. Heroes who are proficient in Intimidation include those with a naturally menacing demeanor, as well as those whose profession requires them to sway others’ decisions in order to be successful.
-
-peace, make threats, negotiate deals, etc.
-
----
-
-##### Investigation (Logic)
-
-The Investigation skill covers activities useful for learning hidden details about people, places, and events. Heroes proficient in Investigation are experts at solving mysteries of all kinds, whether amateur sleuths or professional investigators, spies, or journalists.
-
-follow clues, use tracking devices, search a room, etc.
-
----
-
-##### Longarms (Agility)
-
-This skill governs the use of all personal firearms with extended barrels, especially those designed to be used braced against the shoulder.
-
-
-
----
-
-##### Mechanics (Logic)
-
-Mechanics covers a wide range of disciplines involving the design and construction of useful machines and mechanisms. Heroes proficient in Mechanics are happiest with a good set of tools and a problem to solve, whether amateur grease monkeys or professional architects, technicians, and engineers.
-
-make traps, make weapons, operate machinery, repair broken machines, sabotage machinery, tune up a vehicle, use 3D printing, use physics knowledge, weld, work with metal.
-
----
-
-##### Medicine (Logic)
-
-Medicine is used to perform advanced medical procedures such as surgeries. It includes long-term medical support for disease and illness, and the skill can be used to diagnose a character’s medical condition. This skill is used to implant or remove cybernetics and bioware but cannot be used to repair or maintain implanted devices. For more information, see Healing
-
-Default: No
-
-Skill Group: Biotech
-
-Specializations: Cosmetic Surgery, Extended Care, Implant Surgery, Magical Health, Organ Culture, Trauma Surgery
-
----
-
-##### Perception (Willpower)
-
-The Perception skill involves all of a character’s senses, although sight and hearing are its most common applications. Heroes proficient in Perception have trained themselves to notice minute details in their surroundings, and to maintain a high level of focus and awareness, whether instinctively or as part of their formal training.
-
-creatures, navigate dark places, notice minor details in the environment, smell dangerous materials, read lips, identify distant creatures or objects, etc.
-
----
-
-##### Performance (Charisma)
-
-The Performance skill entails entertaining others, whether a full crowd of spectators or an audience of one. Heroes proficient in Performance might make their living as actors, musicians, or writers, or they might simply have a knack for influencing people by stirring up specific emotions and ideas.
-
-someone, lead other performers, play musical instruments, seduce others, tell stories, write and sing music, etc.
-
----
-
-##### Persuasion (Charisma)
-
-The Persuasion skill covers the various methods of convincing others, influencing or shaping their impressions, or outright manipulating them. Heroes proficient in Persuasion might have a natural knack for making others see things their way, or they might be professionally dedicated to the arts of negotiation and manipulation.
-
-offer bribes, seduce others, sell products, win arguments, whine effectively, etc.
-
----
-
-##### Piloting (Agility)
-
-The Piloting skill allows characters to specialize in operating and controlling a wide range of ships, vehicles, and other crafts, both on and off-world. Heroes proficient in Piloting might be professional pilots or captains of ships, or they might simply be wealthy amateurs with high levels of skill.
-
-systems, etc.
-
----
-
-##### Pistols (Agility)
-
-The Pistols skill governs the use of all types of hand-held firearms, including holdouts, light and heavy pistols, and tasers.
-
-
-
----
-
-##### Security (Logic)
-
-The Security skill covers both creating security systems and defeating them. Heroes proficient in Security might have gained their expertise as security experts, through general interest, or as professional criminals.
-
-install and operate security systems, open a safe, secure a building, pry open a door, etc.
-
----
-
-##### Sleight of Hand (Agility)
-
-The Sleight of Hand skill has been used to entertain audiences and to commit petty crimes since the dawn of human interaction. Heroes with this talent are adept at nearly anything that requires quick and deft hands.
-
-
-
----
-
-##### Spellcasting (Magic)
-
-The Spellcasting skill permits the character to channel mana into effects known as spells. See Spellcasting.
-
-Default: No
-
-Skill Group: Sorcery
-
-Specializations: By spell type (Combat Spells, Detection Spells, etc.)
-
----
-
-##### Sneaking (Agility)
-
-Sneaking is the ideal skill for anyone who wants to avoid trouble—or to create trouble for those not expecting it. Heroes proficient in Sneaking might be hunters (professional or casual), explorers, soldiers, thieves, or spies.
-
-yourself or others, move quietly, perform magic tricks, pick someone’s pocket, shadow someone, etc.
-
----
-
-##### Summoning (Magic)
-This skill is used to summon spirits. See Summoning.
-
-Default: No
-
-Skill Group: Conjuring
-
-Specializations: By spirit type (Spirits of Earth, Spirits of Man, etc.)
-
-##### Survival (Willpower)
-
-The Survival skill focuses on working, exploring, and providing for oneself in the outdoors and the wilderness. Heroes proficient in Survival feel at home in natural settings, whether from having lived their entire life in the wilds or from engaging in work connected with nature.
-
-water, identify edible and medicinal plants, make simple tools, navigate the outdoors, predict the weather and tides, treat simple injuries, etc.
-
----
-
-##### Throwing Weapons (Strength)
-
-The Throwing Weapons skill governs the use of any item thrown by the user.
-
-
-
----
-
-##### Unarmed Combat (Strength)
-
-The Unarmed Combat skill covers fighting with the body itself—punches, kicks, grapples, and throws—whether in disciplined martial arts or raw brawling. Heroes proficient in Unarmed Combat may be trained fighters, soldiers, athletes, or survivors accustomed to close-quarters struggle.
-
-opponent, knock an enemy unconscious, strike vulnerable points, throw or trip a foe, withstand a flurry of unarmed blows, etc.
-
----
-
-##### Vehicles (Agility)
-
-The Vehicles skill allows characters to specialize in operating and controlling a wide range of planetside vehicles and conveyances and lets them handle dangerous situations involving those vehicles with aplomb. Heroes proficient with Vehicles might be professional transporters or sailing ship helmsmen, or they might simply have a knack for operating all manner of exotic transportation.
-
-stunts, pilot a boat, race vehicles, tune up a vehicle, use vehicle knowledge.
-
----
-
 
 
 
@@ -1593,6 +1840,7 @@ Every item described in this chapter includes a set of statistics. Every item ha
 #### Melee Weapon Descriptions
 
 **BLADES**
+---
 
 Use the Blades skill to wield these weapons. Combat axe: A two-handed tungsten-alloy monster, available single- or double-bladed. A hardened thrusting point can be concealed, spring-loaded, in the handle. While it may seem barbaric or primitive, the physical augmentations of 2075 can make an old-school weapon like a combat axe even deadlier than a firearm in the right hands. So go ahead, go medieval.
 
@@ -1600,7 +1848,7 @@ Combat knife: A long, KA-BAR-style fighting knife with a blacked-out blade and a
 
 Forearm snap-blades: These are essentially like spurs, only they’re external—painless to install or remove. A forearm sheath conceals three blades that can be extended or retracted via wireless link or muscle movement commands.
 
-Wireless: Readying the forearm snap blades is a Free Action instead of a Minor Action.
+Wireless: Readying the forearm snap blades is a Free Action instead of a Simple Action.
 
 Katana: The legendary two-handed sword of the samurai. The katana has become synonymous not just with street samurai, but with shadowrunners in general, at least in the trids; they’ve got everyone packing a katana, from the decker to the mage. But being a silly cliché doesn’t make this blade any less dangerous, or less helpful in a fight.
 
@@ -1613,12 +1861,13 @@ Survival knife: A fine quality blade—smooth on one edge, serrated on the other
 Sword: It’s sharp, it’s heavy, and it will fragging cut you wide open. Available in a wide variety of styles (wakizashi, seax, scimitar, jian, machete, and so on and so forth), this one-handed blade is not as formidable as a katana but is substantially easier to hide.
 
 **CLUBS**
+---
 
 Use the Clubs skill to inflict blunt force trauma with these weapons.
 
 Club: The weapon they named the skill after. These stats represent a range of objects, including an axe handle, baseball bat, wrench, crowbar, a tire iron, and a two-by-four with a rusty nail in it. There is a price listed, but it’s not overly difficult to find one for free if you know where to look.
 
-Extendable baton: This telescoping club can be collapsed, and it can be extended with a sharp flick of the wrist or a wireless signal. When retracted, it’s more easily concealed (Concealability Modifier 0 when retracted, +2 when extended). Wireless: Readying the extendable baton is a Free Action instead of a Minor Action.
+Extendable baton: This telescoping club can be collapsed, and it can be extended with a sharp flick of the wrist or a wireless signal. When retracted, it’s more easily concealed (Concealability Modifier 0 when retracted, +2 when extended). Wireless: Readying the extendable baton is a Free Action instead of a Simple Action.
 
 Sap: Also called a blackjack, this is a small, springy club, or a flat piece of iron in a flexible leather covering. It’s specially designed for concealment (Concealability Modifier –2).
 
@@ -1626,7 +1875,7 @@ Staff: This large, heavy stick is popular with magicians going for that traditio
 
 Stun baton: A standard riot-control weapon, viewed as a tool and symbol of corporate-government oppressors but pragmatically useful to runners. It has ten charges and regains one charge per ten seconds when plugged in. Wireless: The stun baton recharges by induction, regaining one charge per full hour of wireless-enabled time.
 
-Telescoping staff: This is a metal and composite staff that can telescope down to a reasonable size, one that can be concealed about as easily as a stun baton or a sword. It can be extended and locked in place by whirling it at the correct speed and angle and twisting the grip, or via a wireless signal. Wireless: Readying the telescoping staff is a Free Action instead of a Minor Action.
+Telescoping staff: This is a metal and composite staff that can telescope down to a reasonable size, one that can be concealed about as easily as a stun baton or a sword. It can be extended and locked in place by whirling it at the correct speed and angle and twisting the grip, or via a wireless signal. Wireless: Readying the telescoping staff is a Free Action instead of a Simple Action.
 
 ### Projectile Weapons
 
@@ -1645,8 +1894,9 @@ Telescoping staff: This is a metal and composite staff that can telescope down t
 | Throwing knife/shuriken | Physical     | (STR + 1)P    | –1           | 4R           | 25¥           |
 
 **BOWS**
+---
 
-Bows: This could be a traditional longbow of fiberglass or wood, or possibly a modern compound-and-pulley bow. Both are archaic and rare weapons on the streets of 2075, and both have the advantage of being hacker- proof. Reloading a bow takes a Minor Action (Ready Weapon).
+Bows: This could be a traditional longbow of fiberglass or wood, or possibly a modern compound-and-pulley bow. Both are archaic and rare weapons on the streets of 2075, and both have the advantage of being hacker- proof. Reloading a bow takes a Simple Action (Ready Weapon).
 
 Bows have ratings that indicate the minimum Strength you need to use that weapon. When attacking with a bow, a character whose Strength is less than the Strength minimum suffers a –3 modifier per point below the minimum; this penalty reflects the difficulty they have in pulling the bow and nocking an arrow. The weapon’s Rating is also used to determine its range and damage (maximum Rating is 10). Use the lowest value of your Strength, the bow’s rating, or the arrow Rating for range and damage when attacking a target, because your average Rating 10 titanium-sheathed beryllium-alloy bow tends to turn wood or fiberglass arrows into powder when they hit a target.
 
@@ -1738,9 +1988,10 @@ Cold steel that spits hot lead. Slug-throwing firearms are by far the most commo
 
 Firearms come with wireless capability and a digital ammunition counter. Ammunition is sold separately. All firearms have the following wireless bonuses in addition to any wireless bonuses on each model: 
 
-**Wireless**: The weapon displays an ARO that tells you ammo levels and ammo type loaded. If you have a DNI, you get two additional benefits. First, ejecting a clip (for weapons that have them) is a Free Action rather than a Minor Action. Second, changing fire modes (on models that have more than one) is a Free Action rather than a Minor Action.
+**Wireless**: The weapon displays an ARO that tells you ammo levels and ammo type loaded. If you have a DNI, you get two additional benefits. First, ejecting a clip (for weapons that have them) is a Free Action rather than a Simple Action. Second, changing fire modes (on models that have more than one) is a Free Action rather than a Simple Action.
 
 **TASERS**
+---
 
 Tasers are legal to carry and a great choice for non-lethally incapacitating someone. Tasers, like other electrical weapons, have a flat Armor Penetration value of –5 and deal electricity damage. Use the Pistols skill to fire a taser. Tasers can take only top-mounted accessories.
 
@@ -1749,16 +2000,18 @@ Defiance EX Shocker: This heavy-duty taser fires up to 4 darts that trail wires 
 Yamaha Pulsar: The darts of this taser contain wireless capacitors, meaning that the Pulsar eliminates the need for cumbersome wires. As a trade-off, it is slightly less powerful than the EX Shocker, although it can fire faster. It lacks the EX Shocker’s melee contacts. Wireless: A successful hit informs you of the status of the target’s basic health (and Condition Monitors).
 
 **HOLD-OUTS**
+---
 
 Hold-out pistols are very concealable and are perfect for sneaking into a meet or wearing as a back-up piece. They don’t have much else going for them, being both weak and inaccurate. Use the Pistols skill when firing a hold-out pistol. Hold-outs can’t take accessories. 
 
-Fichetti Tiffani Needler: Designed to appeal to social climbers and debutantes, the Tiffani Needler is available in a wide variety of colors and styles. It also has a special color-changing coating that can be manipulated via wireless signal. This is useful to make sure your gun matches with your shoes or your handbag. The Needler can only fire flechette rounds (already factored into its damage code). Wireless: You can change the color of the Tiffani Needler with a Minor Action. 
+Fichetti Tiffani Needler: Designed to appeal to social climbers and debutantes, the Tiffani Needler is available in a wide variety of colors and styles. It also has a special color-changing coating that can be manipulated via wireless signal. This is useful to make sure your gun matches with your shoes or your handbag. The Needler can only fire flechette rounds (already factored into its damage code). Wireless: You can change the color of the Tiffani Needler with a Simple Action. 
 
 Streetline Special: Popular among society’s dregs, the Streetline Special is a small, lightweight weapon made of composite materials. Magnetic Anomaly Detectors suffer a –2 modifier to detect it.
 
 Walther Palm Pistol: This is a classic double-barreled derringer in an over-under barrel combination. It packs a punch for its size, but on the downside it has one of the most diminutive “magazine” capacities on the market— just one bullet per barrel. Both barrels can be fired at once as a short burst.
 
 **LIGHT PISTOLS**
+---
 
 Light pistols are highly accurate and fairly concealable, occupying a comfortable middle ground between Hold-outs and Heavy Pistols. They’re extremely common on the streets. Use the Pistols skill when firing a light pistol. Light pistols can take top- and barrel- mounted accessories.
 
@@ -1766,7 +2019,7 @@ Ares Light Fire 75: Designed based on one of the most common pistols on the mark
 
 Ares Light Fire 70: The Ares Light Fire 70 is one of the most common pistols on the market. A special barrel-mounted silencer developed exclusively for the Light Fire 70 is available that gives you an additional –1 modifier to the usual –4 (for a total of –5); this silencer costs 750¥.
 
-Beretta 201T: This light sidearm is used by many security professionals. It is capable of burst fire. Since the 201T is classified as a light pistol without further limitations, it is quite popular with security agencies in countries where heavy pistols and machine pistols are hard to come by legally. Semi-automatic bursts using the Beretta 201T require a Minor Action. The weapon includes a detachable shoulder stock.
+Beretta 201T: This light sidearm is used by many security professionals. It is capable of burst fire. Since the 201T is classified as a light pistol without further limitations, it is quite popular with security agencies in countries where heavy pistols and machine pistols are hard to come by legally. Semi-automatic bursts using the Beretta 201T require a Simple Action. The weapon includes a detachable shoulder stock.
 
 Colt America L36: A venerable pistol with a great reputation. This basic firearm is cheap, easily concealed, and nearly ubiquitous. A perfect throwaway weapon.
 
@@ -1775,6 +2028,7 @@ Fichetti Security 600: A light sidearm for security forces, this weapon’s high
 Taurus Omni-6: This reliable, rugged revolver is specially designed to handle a wide variety of ammunition. Popular with hobbyists and hand-loaders, the Omni-6 comes with some interchangeable cylinders so it can take either cased or caseless, light pistol or heavy pistol ammo. When firing light pistol rounds, the Omni-6 is semi-automatic (SA) and has a base DV of 6P, and when it fires heavy pistol ammo it has only single shot mode (SS), and a base DV of 7P and –1 AP. The Omni-6 includes an integral laser sight.
 
 **HEAVY PISTOLS**
+---
 
 Heavy pistols are powerful sidearms that are a good compromise between concealability and firepower. When you shoot a heavy pistol, you use the Pistols skill. Heavy pistols can take top- and barrel- mounted accessories
 
@@ -1791,6 +2045,7 @@ Remington Roomsweeper: This is really more of a short-barreled shotgun than a pi
 Ruger Super Warhawk: This revolver is as loud as a jet liner and twice as shiny. It’s also one of the scariest handguns in the world. The cased ammo variant is popular for the sheer thrill of swinging open the cylinder gate one handed and dumping spent brass 
 
 **MACHINE PISTOLS**
+---
 
 Machine pistols offer a high rate of fire in a compact package. Use the Automatics skill to fire a machine pistol (characters may use the Pistols skill in Semi-Auto mode). Machine pistols can take top- and barrel-mounted accessories.
 
@@ -1801,6 +2056,7 @@ Ceska Black Scorpion: This classic machine pistol provides concealable burst-fir
 Steyr TMP: This lightweight polymer-frame pistol is capable of full autofire, but its light weight makes it hard to control when firing on full auto. It comes equipped with a built-in top-mounted laser sight.
 
 **SUBMACHINE GUNS**
+---
 
 Use the Automatics skill when firing a submachine gun.
 SMGs can take top- and barrel-mounted accessories.
@@ -1818,6 +2074,7 @@ SCK Model 100: Shin Chou Kyogo is synonymous with Japanese corporate security. N
 Uzi IV: This aging submachine gun is a worthy descendant of the famous Israeli weapon. The SMG features an integral folding stock and built-in top-mounted laser sight.
 
 **ASSAULT RIFLES**
+---
 
 Use the Automatics skill when firing an assault rifle. Assault rifles can take top-, barrel-, and underbarrel- mounted accessories.
 
@@ -1833,6 +2090,7 @@ Yamaha Raiden: This electronic-firing assault rifle is state-of-the-art. The Rai
 
 
 **SNIPER RIFLES**
+---
 
 Use the Longarms skill when firing sniper rifles. Firearm enthusiasts will be the first to tell you that sport and hunting rifles are technically not sniper rifles, but they are similar enough in terms of game statistics to be included here rather than in their own section. Sniper rifles can take top, barrel-, and underbarrel-mounted accessories
 
@@ -1840,13 +2098,14 @@ Ares Desert Strike: This combat-hardened sniper rifle is intended for long-range
 
 Cavalier Arms Crockett EBR: Straddling the line between assault rifle and sniper rifle, the Crockett EBR features a burst fire mode. While it lacks the magazine capacity of a true assault rifle, and lacks the precision of a true marksman’s weapon, it makes up for this in versatility, being able to switch fluidly between a sniping role and a combat role as easy as flipping a switch. It comes equipped with a rigid stock with shock pad and a detachable imaging scope.
 
-Ranger Arms SM–5: A legendary assassin’s weapon, this sniper rifle features a silencer, an imaging scope, and a rigid stock with shock pad. The SM–5 disassembles completely in order to fit into a standard briefcase; setting it up or breaking it down takes an `Extended Firearms + Logic [Mental] (6, Major Action)` Test. While deadly, the SM–5 is fragile. At the end of every Combat Turn in which the weapon is used in a running firefight, reduce its Accuracy by 1 (to a minimum of 3). If the weapon is used in combat as a melee weapon or to defend from a melee attack, reduce its Accuracy by 2 (again to a minimum of 3). Recalibrating the weapon (a one-hour job) returns its Accuracy to normal.
+Ranger Arms SM–5: A legendary assassin’s weapon, this sniper rifle features a silencer, an imaging scope, and a rigid stock with shock pad. The SM–5 disassembles completely in order to fit into a standard briefcase; setting it up or breaking it down takes an `Extended Firearms + Logic [Mental] (6, Complex Action)` Test. While deadly, the SM–5 is fragile. At the end of every Combat Turn in which the weapon is used in a running firefight, reduce its Accuracy by 1 (to a minimum of 3). If the weapon is used in combat as a melee weapon or to defend from a melee attack, reduce its Accuracy by 2 (again to a minimum of 3). Recalibrating the weapon (a one-hour job) returns its Accuracy to normal.
 
 Remington 950: This high-powered bolt-action hunting rifle features classic wooden furniture and a top-mounted imaging scope that have kept it popular with hunters for several decades. It cannot mount underbarrel accessories.
 
 Ruger 101: This futuristic-looking gas-operated sporting rifle is the favorite weapon for many professional hunters and hobbyists. It features a built-in imaging scope and a rigid stock with shock pad.
 
 **SHOTGUNS**
+---
 
 Use the Longarms skill when firing shotguns. The stats for these shotguns are for normal slug rounds. When firing shot, use the special rules for shotguns, choke settings, and flechette ammo (Shotguns). Shotguns can take top, barrel, and underbarrel accessories.
 
@@ -1857,22 +2116,24 @@ Enfield AS-7: This military assault shotgun provides its user with massive firep
 PJSS Model 55: This is a weapon of classic style for a classic sport. Produced only in small numbers, it’s renowned among European hunters and trap shooters as a precise and prestigious weapon. The weapon’s rigid stock comes equipped with an integrated shock pad. Both barrels can be shot at once as a short burst (see Not Enough Bullets).
 
 **SPECIAL WEAPONS**
+---
 
 Use the Exotic Ranged Weapon skill when firing these weapons. This skill is not on the list of skills it can be added **if someone wants to use one of these wacky weapons**.
 
 Ares S-III Super Squirt: This popular non-lethal weapon fires DMSO gel packs. The dimethyl sulfoxide forces the skin to absorb the chemicals the operator wishes to deliver. The attack itself causes no damage, but when the target is hit successfully, the DMSO delivers the substance directly into the target’s bloodstream as a Contact vector toxin (Toxins, Drugs, and BTLs). The Super Squirt uses Light Pistol ranges and can accept top- and underbarrel-mounted accessories
 
-Fichetti Pain Inducer: For a non-lethal weapon, the Fichetti Pain Inducer is not very humane. It makes someone feel like they are in a microwave, roasting from the inside out. Treat this as a toxin attack with a Power of 8 and a speed of Immediate. The target resists with Body + Willpower. If the modified Power exceeds the target’s Mental limit, the target must spend his next Action Phase doing whatever it takes to run away from the pain. The attacker can continue to hold her beam on a target with a Major Action unless the gamemaster deems the target has dodged away or found cover. If the target cannot get out of the beam, he is incapacitated with pain, suffering a modifier equal to the modified Power on all tests for as long as the beam is trained on him. The Pain Inducer uses SMG ranges and can take top and underbarrel accessories. It has ten charges; when attached to a power point, it reloads one charge every ten seconds. Wireless: The Pain Inducer recharges by induction at a rate of 1 charge per hour
+Fichetti Pain Inducer: For a non-lethal weapon, the Fichetti Pain Inducer is not very humane. It makes someone feel like they are in a microwave, roasting from the inside out. Treat this as a toxin attack with a Power of 8 and a speed of Immediate. The target resists with Body + Willpower. If the modified Power exceeds the target’s Mental limit, the target must spend his next Action Phase doing whatever it takes to run away from the pain. The attacker can continue to hold her beam on a target with a Complex Action unless the gamemaster deems the target has dodged away or found cover. If the target cannot get out of the beam, he is incapacitated with pain, suffering a modifier equal to the modified Power on all tests for as long as the beam is trained on him. The Pain Inducer uses SMG ranges and can take top and underbarrel accessories. It has ten charges; when attached to a power point, it reloads one charge every ten seconds. Wireless: The Pain Inducer recharges by induction at a rate of 1 charge per hour
 
 Parashield Dart Pistol: The industry standard dart pistol, this fires injection darts with narcoject or another payload. The Parashield dart pistol uses Heavy Pistol ranges and can take top-mounted accessories. Wireless: The dart reports whether or not it has struck home and successfully injected. It may also report any gross physical anomalies in the target’s tissue, although its medical sensors are not very sophisticated (Device Rating of 1 for the dart).
 
 Parashield Dart Rifle: Originally designed to non-lethally take down large game animals at long ranges, the Parashield dart rifle uses compressed air cartridges to fire injection darts. This weapon includes a top-mounted imaging scope. It uses sporting rifle ranges and can mount top and underbarrel accessories. Wireless: The dart reports whether or not it has struck home and successfully injected. It may also report any gross physical anomalies in the target’s tissue, although its medical sensors are not very sophisticated (Device Rating of 1 for the dart).
 
 **MACHINE GUNS**
+---
 
 Machine guns come in three varieties—light, medium, and heavy—that determine their ranges. All, even the “light” ones, are in fact very heavy and large. A light machine gun is physically bigger and heavier than an assault rifle. MMGs and HMGs could be carried by someone with Strength of 8+ and 10+ (respectively), but they work better as vehicle-mounted weapons.
 
-Use the Gunnery skill when firing these weapons. They suffer from double modifiers for uncompensated recoil (Recoil). Machine guns can take top, barrel, and underbarrel accessories.
+Use the Heavy Weapons skill when firing these weapons. They suffer from double modifiers for uncompensated recoil (Recoil). Machine guns can take top, barrel, and underbarrel accessories.
 
 Ingram Valiant: This legendary light machine gun is popular with mercenary units the world over. It comes with a rigid stock with shock pad, a laser sight, and a barrel-mounted gas-vent 2 system.
 
@@ -1881,8 +2142,9 @@ Stoner-Ares M202: This MMG packs a tremendous punch into a relatively lightweigh
 RPK HMG: This heavy Russian machine gun is used by the militaries of several eastern European and Near East countries, primarily as a vehicle-mounted support weapon. Equipped with a detachable tripod, the RPK is usually fired from a prone, sitting, or kneeling position when not mounted on a vehicle.
 
 **CANNONS & LAUNCHERS**
+---
 
-Use the Gunnery skill when firing assault cannons and grenade and missile launchers. All suffer from double modifiers for uncompensated recoil. Both assault cannons and launchers can take top and underbarrel accessories. Naturally, assault cannons use assault cannon ammo, grenade launchers fire minigrenades, and missile launchers launch missiles or rockets.
+Use the Heavy Weapons skill when firing assault cannons and grenade and missile launchers. All suffer from double modifiers for uncompensated recoil. Both assault cannons and launchers can take top and underbarrel accessories. Naturally, assault cannons use assault cannon ammo, grenade launchers fire minigrenades, and missile launchers launch missiles or rockets.
 
 Ares Antioch–2: The Antioch–2 features a classic grenade launcher design combined with an integral smartlink system. It is one of the more affordable grenade launchers on the market. Wireless: You can use the wireless link trigger for your grenades, even if you don’t have DNI (Direct Neural Interface).
 
@@ -1924,37 +2186,37 @@ Most firearm accessories must be attached to a particular mount—top, barrel, u
 
 Airburst link: This grenade/rocket launcher smartgun accessory uses a “smart” rangefinder to air-burst the explosive projectile at a point deemed to be both a safe distance from the launcher and within the closest possible proximity to the target. An airburst link reduces the scatter distance for a launched grenade by two yards per net hit instead of by one yard per hit (Determine Scatter) when you use the wireless link trigger. Wireless: An airburst link requires wireless functionality to function at all. Both the grenades and the launcher must have wireless mode turned on.
 
-Bipod: This two-legged brace extends downward from the weapon, allowing it to be fired low to the ground with the user in a prone or sitting position. A bipod can be attached to the underbarrel mount of a weapon and provides 2 points of Recoil Compensation when properly deployed. Attaching a bipod takes one minute. Folding up or deploying a bipod is a Minor Action. Removing it is a Major Action. Wireless: Folding up or deploying the bipod is a Free Action
+Bipod: This two-legged brace extends downward from the weapon, allowing it to be fired low to the ground with the user in a prone or sitting position. A bipod can be attached to the underbarrel mount of a weapon and provides 2 points of Recoil Compensation when properly deployed. Attaching a bipod takes one minute. Folding up or deploying a bipod is a Simple Action. Removing it is a Complex Action. Wireless: Folding up or deploying the bipod is a Free Action
 
 Concealable holster: This small holster can be worn on the ankle, clipped to the forearm, in the small of the back, or anywhere else it’s unlikely to be seen. The concealable holster adds –1 to the item’s Concealability. Only pistols and tasers fit in a Concealable Holster. Wireless: Wireless sensors and a smart-fabric coated weave allow the holster to alter color and texture in real time adding an additional –1 to the item’s Concealability.
 
 Gas-vent system: Gas-vent recoil compensation systems are barrel-mounted accessories that vent a weapon’s barrel gases at a specific vector to counter muzzle climb. Once installed, a gas-vent cannot be removed. Gas-vent systems provide a number of points of Recoil Compensation equal to their rating.
 
-Gyro mount: This heavy upper-body harness features an attached, articulated, motorized gyro-stabilized arm that mounts an assault rifle or a heavy weapon. The system neutralizes up to 6 points of recoil and movement modifiers. Attaching or removing a weapon from the mount takes a Minor Action. Putting on a gyro-mount harness takes about five minutes, while the quick-release allows you to get out of it with a Major Action. Wireless: Activating the harness’s quick-release with a wireless signal to exit the harness is a Free Action.
+Gyro mount: This heavy upper-body harness features an attached, articulated, motorized gyro-stabilized arm that mounts an assault rifle or a heavy weapon. The system neutralizes up to 6 points of recoil and movement modifiers. Attaching or removing a weapon from the mount takes a Simple Action. Putting on a gyro-mount harness takes about five minutes, while the quick-release allows you to get out of it with a Complex Action. Wireless: Activating the harness’s quick-release with a wireless signal to exit the harness is a Free Action.
 
-Hidden arm slide: Attached to the forearm and worn under clothing, this slide can accommodate a pistol- sized weapon. It can fit a hold-out, light pistol, or taser. With a hand gesture, the slide releases the weapon/ object right into your hand. If you quick draw the weapon in this slide, the threshold for the quick draw is TN 18. It also gives the weapon a –1 Concealability modifier. Wireless: You can ready the weapon in the slide as a Free Action.
+Hidden arm slide: Attached to the forearm and worn under clothing, this slide can accommodate a pistol- sized weapon. It can fit a hold-out, light pistol, or taser. With a hand gesture, the slide releases the weapon/ object right into your hand. If you quick draw the weapon in this slide, the TN for the quick draw is TN 18. It also gives the weapon a –1 Concealability modifier. Wireless: You can ready the weapon in the slide as a Free Action.
 
-Imaging scope: These classic scopes are attached to the top mount; attaching or removing them takes only a Minor Action. Imaging scopes include a micro camera and vision magnification, and they have a Capacity of 3 to hold vision enhancements. Wireless: The scope’s “line of sight” can be shared, allowing you to share what your scope sees with your team (and yourself if you’re using it to look around a corner).
+Imaging scope: These classic scopes are attached to the top mount; attaching or removing them takes only a Simple Action. Imaging scopes include a micro camera and vision magnification, and they have a Capacity of 3 to hold vision enhancements. Wireless: The scope’s “line of sight” can be shared, allowing you to share what your scope sees with your team (and yourself if you’re using it to look around a corner).
 
-Laser sight: This device uses a laser beam to project a visible dot (in your choice of colors) on the target. This increases the weapon’s Accuracy by 1, which is not cumulative with smartlink modifiers. The laser sight can be attached to either the underbarrel mount or top mount. Activating or deactivating a laser sight is a Minor Action. Wireless: The wireless laser sight provides a +1 modifier on attack tests, not cumulative with smartlink modifiers. Activating and deactivating the laser sight is a Free Action.
+Laser sight: This device uses a laser beam to project a visible dot (in your choice of colors) on the target. This increases the weapon’s Accuracy by 1, which is not cumulative with smartlink modifiers. The laser sight can be attached to either the underbarrel mount or top mount. Activating or deactivating a laser sight is a Simple Action. Wireless: The wireless laser sight provides a +1 modifier on attack tests, not cumulative with smartlink modifiers. Activating and deactivating the laser sight is a Free Action.
 
 Periscope: This adjustable “off-axis” viewer attaches to a top mount and allows an operator to target a weapon around corners, reducing the usual –3 modifier to –2. A periscope can be upgraded with any of the vision enhancements noted on Wireless: The modifier for shooting around corners is reduced to –1.
 
-Quick-draw holster: This easy access holster can hold any weapon of Machine Pistol or smaller size. It reduces the threshold for quick-drawing the holstered weapon by 1.
+Quick-draw holster: This easy access holster can hold any weapon of Machine Pistol or smaller size. It reduces the TN for quick-drawing the holstered weapon by 1.
 
 Shock pad: A shock-absorbing pad is situated on the rigid stock of a rifle, shotgun, or heavy weapon, and provides 1 point of recoil compensation
 
-Silencer/suppressor: This barrel-mounted accessory reduces the sound and flash of a weapon’s discharge. It cannot be used with revolvers or shotguns. It applies a –4 modifier on all Perception Tests to notice the weapon’s use or locate the weapon’s firer. Attaching or removing a silencer takes a Major Action. Wireless: The silencer/suppressor features a Rating 2 microphone with Rating 2 Select Sound Filter and simple software that alerts you via AR if your silencer detects the sound of someone nearby reacting to the sound of the silenced weapon.
+Silencer/suppressor: This barrel-mounted accessory reduces the sound and flash of a weapon’s discharge. It cannot be used with revolvers or shotguns. It applies a –4 modifier on all Perception Tests to notice the weapon’s use or locate the weapon’s firer. Attaching or removing a silencer takes a Complex Action. Wireless: The silencer/suppressor features a Rating 2 microphone with Rating 2 Select Sound Filter and simple software that alerts you via AR if your silencer detects the sound of someone nearby reacting to the sound of the silenced weapon.
 
 Smart firing platform: This is a non-mobile robotic tripod equipped with a remote control pivot that allows for a 180-degree firing arc and a 60-degree inclination. You can mount one smartgun-equipped weapon to the platform, and it will be fired by the device’s onboard Pilot (Device Rating 3). The platform is equipped with a Targeting Autosoft (Rating 3) and can be upgraded with additional autosofts, usually a Clearsight program. You need to set the parameters of who exactly the platform should and shouldn’t shoot at, which are followed by the platform’s pilot. The platform provides 5 points of Recoil Compensation. It has an Initiative attribute of Pilot x 2 and 4D6 Initiative Dice when acting autonomously. Wireless: You can fire the mounted weapon remotely, like a drone with no rigger interface. You can use an implanted smartlink with the smartgun if you’re in VR.
 
 Smartgun system: This connects a firearm or a projectile weapon directly to the user’s smartlink. Incorporating a small camera and laser range finder, the smartlink keeps track of ammunition, heat buildup, and material stress. If you have a smartlink, you can mentally switch between gun modes, eject a clip, and fire the gun without pulling the trigger. The camera lets you shoot around corners without exposing yourself to return fire (at a –3 modifier). The system makes use of advanced calculation software, allowing for precisely calculated trajectories and high precision over any distance.
 
-If you’re using a smartlink, the smartgun system increases the gun’s Accuracy by 2. The smartgun features are accessed either by universal access port cable to an imaging device (like glasses, goggles, or a datajack for someone with cybereyes) or by a wireless connection working in concert with direct neural interface. Retrofitting a firearm with an internal smartgun system doubles the weapon’s price and adds 2 to its Availability. An external smartgun system can be attached to the top mount or underbarrel mount with an `Mechanics + Logic (12,4, 1 hour)` Extended Test. The small camera has a capacity of 1 and can be equipped with vision enhancements. Wireless: A wireless smartlink provides a modifier to all attacks with the weapon: +1 if you’re using gear with a smartlink or +2 if you’re using an augmentation for which you paid Essence. Ejecting a clip and changing fire modes are Free Actions
+If you’re using a smartlink, the smartgun system increases the gun’s Accuracy by 2. The smartgun features are accessed either by universal access port cable to an imaging device (like glasses, goggles, or a datajack for someone with cybereyes) or by a wireless connection working in concert with direct neural interface. Retrofitting a firearm with an internal smartgun system doubles the weapon’s price and adds 2 to its Availability. An external smartgun system can be attached to the top mount or underbarrel mount with an `Armorer + Logic (12,4, 1 hour)` Extended Test. The small camera has a capacity of 1 and can be equipped with vision enhancements. Wireless: A wireless smartlink provides a modifier to all attacks with the weapon: +1 if you’re using gear with a smartlink or +2 if you’re using an augmentation for which you paid Essence. Ejecting a clip and changing fire modes are Free Actions
 
 Spare clip: A spare clip comes unloaded but can hold the maximum rounds for the weapon. Each clip is specific to the weapon you buy it for, but they all cost the same. And yes, it’s technically a detachable box magazine, but the Cityspeak word for it is so popular these days that even the catalogs call them clips
 
-Speed loader: The speed loader is a simple device that holds a ring of bullets for fast insertion into a revolver’s cylinder. Each speed loader is specific to the weapon it was designed for. It lets you fully reload a revolver as a Minor Action instead of having to load rounds one at a time as a Major Action.
+Speed loader: The speed loader is a simple device that holds a ring of bullets for fast insertion into a revolver’s cylinder. Each speed loader is specific to the weapon it was designed for. It lets you fully reload a revolver as a Simple Action instead of having to load rounds one at a time as a Complex Action.
 
 Tripod: The tripod provides a stable base to fire a weapon low to the ground with the user kneeling or sitting. A tripod can be attached to the underbarrel mount and provides 6 points of Recoil Compensation when properly deployed. Attaching a tripod takes one minute. Folding up or deploying the bipod is a Free Action. Wireless: Folding up, deploying, or removing the tripod is a Free Action.
 
@@ -2014,8 +2276,9 @@ Tracer rounds: Tracer ammo burns along the line of flight, making it easier for 
 Taser dart: These darts are designed to be loaded into taser weapons
 
 **GRENADES**
+---
 
-Grenades are small, self-contained explosive packages. Minigrenades are grenades specifically designed for use with grenade launchers, set to arm when they have traveled 5 yards from their point of origin and explode on impact (unless using an airburst link). This safety feature can be disabled with an `Demolitions + Logic [Mental] (12,4, 5 Minutes) Extended Test`. Minigrenades have the same cost and effects as standard grenades. Use the Throwing Weapons skill when throwing grenades, or Gunnery when launching a grenade from a grenade launcher. Follow the rules for Grenades. Grenades and similar explosives can also be rigged with a tripwire to set up as a basic booby-trap. This requires an `Extended Demolitions + Logic [Mental] (12, 8, 1 Major Action) Test`. In addition to any other wireless bonus, all grenades have the following wireless feature (use it with caution): Wireless: You can use the wireless link trigger for your grenades, even if you don’t have DNI (Direct Neural Interface).
+Grenades are small, self-contained explosive packages. Minigrenades are grenades specifically designed for use with grenade launchers, set to arm when they have traveled 5 yards from their point of origin and explode on impact (unless using an airburst link). This safety feature can be disabled with an `Demolitions + Logic [Mental] (12,4, 5 Minutes) Extended Test`. Minigrenades have the same cost and effects as standard grenades. Use the Throwing Weapons skill when throwing grenades, or Heavy Weapons when launching a grenade from a grenade launcher. Follow the rules for Grenades. Grenades and similar explosives can also be rigged with a tripwire to set up as a basic booby-trap. This requires an `Extended Demolitions + Logic [Mental] (12, 8, 1 Complex Action) Test`. In addition to any other wireless bonus, all grenades have the following wireless feature (use it with caution): Wireless: You can use the wireless link trigger for your grenades, even if you don’t have DNI (Direct Neural Interface).
 
 Flash-bang grenades: Upon detonation, these “concussion” or “stun” grenades explode to create a bright, loud, shocking blast distributed equally over a radius of 10 yards.
 
@@ -2032,6 +2295,7 @@ Smoke: Similar to the gas grenade, a smoke grenade releases a cloud of smoke ove
 Thermal smoke: Identical to a smoke grenade, except that the smoke contains hot particles designed to obscure thermographic vision. Apply the visibility modifiers for thermal smoke. The cloud lasts for approximately 4 Combat Turns (less in windy areas, longer in confined areas with poor ventilation, at the GM’s discretion).
 
 **ROCKETS AND MISSILES**
+---
 
 Rockets are projectiles consisting of a light metal or plastic body with stabilizing fins, a propulsion system (usually solid-chemical) and a warhead. Missiles are rockets that carry internal guidance systems, making them more expensive than standard “dumb” rockets.
 
@@ -2044,6 +2308,33 @@ Fragmentation: Used principally against people, the warhead discharges high-spee
 High explosive: HE rockets/missiles are designed to do heavy damage to a large area. Their blast pattern is similar to that of a grenade, but much larger. They are not particularly effective against hardened targets, such as vehicles or protected military structures. HE weapons use the standard grenade rules for determining the blast and its effects
 
 
+**EXPLOSIVES**
+---
+
+| **TYPE, PER 2 POUNDS** | **RATING** | **AVAIL** | **COST**      |
+| ---------------------- | ---------- | --------- | ------------- |
+| Commercial             | 5          | 8R        | 100¥          |
+| Foam                   | 6-25       | 12F       | Rating x 100¥ |
+| Plastic                | 6-25       | 16F       | Rating x 100¥ |
+| **ACCESSORIES**        | **RATING** | **AVAIL** | **COST**      |
+| Detonator cap          | —          | 8R        | 75¥           |
+
+Explosives are primarily used to damage structures. You can use the Demolitions skill to prepare explosives, identify key or weak structural points, and focus the blast. Each Effect on a `Demolitions + Logic [Mental] Test` adds 1 to the explosive’s effective rating. See Barriers, for calculating an explosive’s effect on a barrier.
+
+> Shadowrun really jumped the shark 2e and beyond with square roots and making this insanely complicated. This is Sixfinity not Shadowrun.
+
+
+All explosives do `Rating * 3 Explosive Damage` they lose 1 rating per Yard (or square) from the origin point.
+
+Commercial explosives: A range of explosive compounds, both solid and liquid, are available to the construction industry for all their destructive needs.
+
+Plastic explosives: These highly stable moldable, and adhesive explosive compounds are military grade. They’re ideal for certain jobs, like breaching walls. They are usually color-tinted to indicate the level of current needed to detonate them, from the black of magnetic- field induction to the chalky white of 440-volt industrial explosives.
+
+Explosive foam: Plastic explosives with the consistency of shaving cream, stored in an aerosol can. Perfect for spraying into crevices, and detonated the same way as regular plastic explosives.
+
+Detonator cap: This detonator is inserted into a mass of explosives and set off either by a programmable timer or radio signal. Setting the timer takes a Complex Action. Wireless: You can set the detonator’s timer with a Simple Action. You can also set it off without a countdown as a Free Action.
+
+### Clothing and Armor
 
 
 
@@ -2051,119 +2342,231 @@ High explosive: HE rockets/missiles are designed to do heavy damage to a large a
 
 ## Chapter 8: Combat
 
+Combat Step By Step
+
+1. Determine Surprise
+2. Establish Positions
+3. Determine Initiative
+4. Take Turns
+5. Move to next Round
+
+### Surprise
+
+A band of runners sneaks up on a a group of guards. A hell hound sneaks down an officer hallway, unnoticed by the runners until the hell hound engulfs one of them in flame. In these situations, one side of the battle gains surprise over the other.
+
+The GM determines who might be surprised. If neither side tries to be stealthy, they automatically notice each other. Otherwise, the GM compares the Agility  (Sneaking) tests of anyone hiding with the passive Intuition (Perception) [`10 + Intuition`] score of each creature on the opposing side. Any character or critter that doesn’t notice a threat is surprised at the start of the encounter.
+
+If you’re surprised, you can’t move or take an action on your first turn of the combat, and you can’t take a reaction until that turn ends. A member of a group can be surprised even if the other members aren’t.
+
 ### Initiative
 
-Initiative determines the order in which characters act, as well as how often they act (rounds) during a single Combat Turn. Initiative is based on two factors: Initiative Attribute, and Initiative Score.
+Initiative determines the order of turns during combat. When com⁠bat starts, every participant makes a Initiative Test `3D6 + (Reaction + Intution)` for personal combat, other types of combat have different Initiative Tests on the table below, to determine their place in the initiative order. The GM makes one roll for an entire group of identical creatures, so each member of the group acts at the same time.
 
-#### Initiative Attribute
+The GM ranks the combatants in order from the one with the highest Dexterity check total to the one with the lowest. This is the order (called the initiative order) in which they act during each round. The initiative order remains the same from round to round.
 
-The Initiative Attribute is a derived attribute used to measure the speed, perceptiveness, and reaction rate of a combatant. 
+If a tie occurs, the DM decides the order among tied DM-controlled creatures, and the players decide the order among their tied characters. The GM can decide the order if the tie is between a monster and a player character. Optionally, the GM can have the tied characters and monsters each roll a d20 to determine the order, highest roll going first; or have them go simultaneously.
 
-There are multiple types of Initiative. Physical and Astral.
+**Initiative Table**
 
-Astral is used for Magicians fighting Astral entities. This is `Intutition X 2`
+| Initiative Type | Initiative Test      |
+| --------------- | -------------------- |
+| Personal Combat | Reaction + Intuition |
+| Astral Combat   | Inuition x 2         |
+| Cybercombat     | Reaction + Intuition |
 
-Physical is the most common and is pre-written on characters. This is `Reaction + Intuition`
-
-#### Initiative Score
-
-This is pre-determined on the character sheet to speed combat along—this total is your Initiative Score. Courage may be used on this test to roll the maximum of 5D6 for a single Combat Turn and add it to the Score. The gamemaster records the score for each character, from highest to lowest. The character with the highest score goes first and the others follow in descending order during each Initiative Pass (round).
-
-If there is a tied Initiative Score use CRIC (Courage, Reaction, Intuition, Coin toss) to break the tie, comparing Attributes in that order, with the character with the higher Attribute going first. If you’re still tied after comparing all three tie-breaker Attributes, flip a coin. Alternately, at the gamemaster’s discretion, both characters can act simultaneously.
-
-#### Initiative Passes AKA Rounds
-
-How many times a character can act during a Combat Turn is determined by their Initiative Score. Some characters may spend Courage or have magic or implants that increase their Initiative total by adding extra dice (up to the maximum of 5D6), allowing them to roll more dice and potentially perform more actions than their non-enhanced associates.
-
-The Combat Turn is divided into Initiative Passes called "Rounds". Everyone gets to act during the first Round (in order according to their Initiative Score). At the end of each Round the **gamemaster subtracts 10 from all characters Initiative Score**. Conventiently characters have a pre-determined Initiative Score so its easy to know how many Rounds you will get per turn. Characters with an Initiative Score higher than 0 get to go again during a second Initiative Pass. This process is repeated until all characters have an Initiative Score of 0 or less, the Combat Turn ends, or the combat ends.
-
-A character with an Initiative Score of 0 or less can only take one Free Action during an Initiative Pass. However, a character with 0 or less Initiative is allowed one Free Action. She can also respond to attacks by dodging or defending herself.
 
 #### Timed Items & Initiative
 
-Some items, such as grenades, explosive devices, timed traps, and so on, go off after a certain preset interval. In most situations, these items do what they do based on the character’s current Initiative Score during the next Combat Turn. If there are no more Combat Turns, the item activates as the gamemaster sees fit.
+Unless the item allows a timer to be set, in which case the player can determine when, these items go off at the end of the players turn.
 
-If an item has a timer set by a player character, that character can decide for how long to set the timer, but he must declare this when the item is activated. It’s usually best to have such items go off during the character’s Action Phase on a predetermined Round or at the beginning or end of a three-second Combat Turn. Timed items always go last in the case of tied Initiative Scores. In the case of radio-detonated items, the character spends their Action Phase performing a Use Item action.
+### Your Turn
+On your turn, you can move a distance up to your speed and take either one major action or two minor actions. You decide whether to move first or take your action first. Your speed—sometimes called your walking speed—is noted on your character sheet.
 
+The most com⁠mon actions you can take are described in the "Actions in Combat". Many features and other abilitie⁠s provide additional options for your action.
 
+The “Movement and Position” section gives the rules for your move.
 
-### Action Economy
+You can forgo moving, taking an action, or doing anything at all on your turn. If you can’t decide what to do on your t⁠urn, consider taking the Dodge or Ready action, as described in “Actions in Combat”
+
+### Movement and Position
+
+In combat, characters and NOC's are in constant motion, often using movement and position to gain the upper hand.
+
+On your turn if you use a Dash you can use as much or as little of your speed as you like on your turn, following the rules here.
+
+Your movement can include jumping, climbing, and swimming. These different modes of movement can be combined with walking, or they can constitute your entire move. However you're moving, you deduct the distance of each part of your move from your speed until it is used up or until you are done moving.
+
+#### Breaking Up Your Move
+
+You can break up your movement on your turn, using some of your speed before and after your another action. For example, if you have a speed of 10 yards, you can move 2 yards, take your action, and then move 8 yards.
+
+#### Difficult Terrain
+
+Combat rarely takes place in bare rooms or on featureless plains.
+
+Furniture-strewn offices, rubble filled streets, treacherous staircases—the setting of a typical fight contains difficult terrain.
+
+Every yard of movement in difficult terrain costs 1 extra yard. This rule is true even if multiple things in a space count as difficult terrain.
+
+Low furniture, rubble, undergrowth, steep stairs, snow, and shallow bogs are examples of difficult terrain. The space of another creature, whether hostile or not, also counts as difficult terrain.
+
+#### Being Prone
+
+Combatants often find themselves lying on the ground, either because they are knocked down or because they throw themselves down. In the game, they are prone, a condition described in the appendix.
+
+You can drop prone without using any of your speed. Standing up takes more effort; doing so costs an amount of movement equal to one third your speed. For example, if your speed is 10 yards, you must spend 3 yards of movement to stand up. You can't stand up if you don't have enough movement left or if your speed is 0.
+
+To move while prone, you must crawl or use magic. Every foot of movement while crawling costs 1 extra yard. Crawling 1 yard in difficult terrain, therefore, costs 3 yards of movement.
+
+#### Moving around Other Creatures
+
+You can move through a nonhostile creature's space. In contrast, you can move through a hostile creature's space only if the creature is at least two sizes larger or smaller than you. Remember that another creature's space is difficult terrain for you.
+
+Whether a creature is a friend or an enemy, you can't willingly end your move in its space.
+
+If you leave a hostile creature's reach during your move, you provoke an opportunity attack, as explained later in the chapter.
+
+### Creature Size
+
+Each creature takes up a different amount of space.
+
+The Size Categories table shows how much space a creature of a particular size controls in combat. Objects sometimes use the same size categories.
+
+| Size       | Space    |
+| ---------- | -------- |
+| Small      | 1y by 1y |
+| Medium     | 1y by 1y |
+| Large      | 2y by 2y |
+| Huge       | 3y by 3y |
+| Gargantuan | 4y by 4y |
+
+#### Space
+
+A creature's space is the area in feet that it effectively controls in combat, not an expression of its physical dimensions. A typical Medium creature isn't 1 yard wide, for example, but it does control a space that wide. If a Medium Orc stands in a 5-foot-wide doorway, other creatures can't get through unless the Orc lets them.
+
+A creature's space also reflects the area it needs to fight effectively. For that reason, there's a limit to the number of creatures that can surround another creature in combat. Assuming Medium combatants, eight creatures can fit in a 1-yard radius around another one.
+
+Because larger creatures take up more space, fewer of them can surround a creature.
+
+If four Large creatures crowd around a Medium or smaller one, there's little room for anyone else. In contrast, as many as twenty Medium creatures can surround a Gargantuan one.
+
+### Action In Combat
 
 The Action economy of Sixfinity is mare structured than the economy in Shadowrun. 
 
-Every **round** a character gets:
-- 1 Major Action
-- 1 Minor Action
+Every **combat turn** a character gets:
+- 1 Complex Action OR 2 Simple Actions
 - 1 Bonus Action (if the character has something that allows it)
 - 1 Reaction
 
-If the character has a high initiative they get more Rounds per Turn and thus more actions. 
-
-#### Combat Turns
-
-A Combat Turn is a set of characters taking their Turns, making rounds around the initiative. 
-
-#### Combat Rounds
-
-Your initiative lets you know how many rounds you get per turn. Think of it like chances to roll the dice in a typical board game. You take your turn. Well if your character has a high enough initiative they can get to do **more** on their turns becuase they are fast and do it in the same amount of time others do less. 
-
-> At the table we pass around a token to each player to denote who is acting this round. I write in washable marker the Combat Turn number on it because some effects last a certain number of turns. For example bleeding to death is once per **turn** not once per round. 
-
-For example Sarah has an Initiative of 14. She is going to get 2 rounds in the combat turn. She is fighting a Security guard who has a 10 Initiative, he will get 1 round in the turn.
-
-As Sarah has a 14 she goes first. She gets 1 Major Action, 1 Minor Action and a Reaction. 
-
-She decides to move her ten yards of movement and take cover. This is all part of moving, and its her Minor Action used. She uses her Major Action to attack the Security Guard.
-
- ### NOTE HERE HANDLE MULTIPLE ATTACKS -0/-5/-10/-15/-20/... up to Physical Limit.
- So a character with a Physical Limit of 4 could make 4 attacks. The first at -0, and each subsequent attack at an increasing -5 modifier. (-0/-5/-10/-15).
 
 
-#### Major Actions
-{{Rewrite these}}
-- Charge: You move up to half your Speed (rounded down) in yards and finish with a melee attack against an adjacent enemy. If you moved at least 4 yards in a straight line before reaching your target, you gain advantage on your attack roll.
-- Dodge: Using the Dodge action lets a character focus on avoiding being hit in combat. When a character uses the Dodge action, anyone attacking them has disadvantage on their attack rolls, and the character has advantage on Agility saving throws. These effects last until the start of the character’s next turn.
-- The Disengage action can be useful when a combatant wants to escape a melee opponent or run past other enemies. If a combatant uses the Disengage action, their movement for the rest of their turn does not provoke opportunity attacks.
-- First Aid: By using the First Aid action, a character can make an Logic (First Aid) check to provide first aid to an ally or to themself during combat. Some activities associated with the First Aid action require a first aid kit for essential supplies
-- Melee Attack: You attack one adjacent enemy in hand-to-hand combat. An enemy within 2 yards of you is considered adjacent. Unarmed or Armed Combat (Blades, Clubs, etc.) test
-- Ranged Attack: You fire or throw a missile weapon at one visible enemy within range. Ranged Combat (Automatics, Pistols, etc.) Test.
-- Sprint: On foot, you may move up to Speed in yards, sacrificing the ability to perform another action so you can move farther. You cannot take this action if you are prone
-- Help: A character can use the Help action to assist an ally within reach with something they are doing. The ally gains advantage on one ability check or attack roll made before the start of the helping character’s next turn.
-- Hide: A character can use the Hide action to attempt to get out of sight, making a Agility (Sneaking) check as part of a contest with combatants that might notice them.
-- Object Interaction: The Object Interaction action allows a character to do something with an object that requires focus and concentration, or which goes beyond the limits of what is allowed as a free action
-- Reload: The Reload action allows a character to pull ammunition from their inventory, then load their weapon with that ammunition, giving it a full number of rounds. A combatant must have a hand free to use the Reload action. This is required for Major reload weapons but will work for Minor reload weapons. 
-- Search: A character uses the Search action to deliberately observe their environment using either a Willpower (Perception) or Logic (Investigation) check.
-- Second Wind: When a hero uses the Second Wind action they spend 1 Courage and gain half their Physical Health, they can’t do so again until finishing a breather or long rest. NPCs and companions normally can’t take this action.
-- You may also take another Minor Action in place of your Major Action
-
-
-#### Minor Actions
-- Activate: This action allows you to start using certain abilities or items, such as an arcane power or an electronic device. When a vehicle has integrated weaponry (such as a machine gun built into a spy car) you use the Activate action to deliver attacks.
-- Aim: You take the measure of your opponent and plan your next strike. If your next action is a Melee Attack or Ranged Attack, you gain advantage on your attack roll.
-- Attacking with an Offhand Weapon is a Minor Action and is rolled at Diasadvantage (unless the proper Ambidextrous Edge is obtained)
-- Move: You can move up to your Speed in yards and can combine this with actions like falling prone, standing up, mounting a horse, or climbing on a vehicle, but these actions consume half your Speed (rounded down).
-- Prepare: When you take this action, you postpone your major action to use at a later point. You declare one major action and your choice to Prepare it. After you do so, the next person in initiative order acts, and so on, but at any time until your next turn, you can interrupt another character and take your prepared action immediately. If you don’t use the prepared action by your next turn, you lose it.
-- Ready: You draw a weapon, pull out a device, or otherwise ready an item that is stowed. As part of this action, you can put away something already in hand. You could holster a handgun and pull out a grenade, for example.
-- Reload: The Reload Minor action functions as the Reload action (see above), but it applies only to weapons whose reload value indicates that they can be reloaded as a Minor action.
-
-#### Variable Actions
-- Use a Power: You attempt to use a special ability granted by a talent, specialization, or any other source, including arcane spells or psychic powers. This may be a major action, minor action, or free action depending on the power and may require a specific ability test.
-- Reload: You reload a missile weapon. This may be a major action, minor action, or free action depending on the weapon, and your abilities.
 
 #### Free Actions
-- Pulling the first item from inventory during a turn (pulling additional items requires the Object Interaction action)
-- Drawing one weapon
-- Opening an unlocked door
-- Communicating quickly (making a brief comment, speaking a short statement, whistling to alert a companion, and so forth)
-- Using an object in a simple way (dropping something held, opening an unlocked cupboard, pushing a button, and so forth)
-- Picking up a small item close at hand
+
+
+#### Simple Actions
+A Simple Action is one step more complicated than a Free Action and requires a bit more concentration to attempt. Only a few Simple Actions, however, require a Success Test to accomplish. Simple Actions can only be taken on a character’s turn.
+
+- Dash
+- Change Gun Mode
+- Fire Weapon/Throw Weapon
+- Insert Clip
+- Pick Up/Put Down Object
+- Quick Draw
+- Ready Weapon
+
+##### DASH
+
+You move up to your speed. See Movement and Position
+
+##### CHANGE GUN MODE
+
+A character holding a ready firearm can change its firing mode via a Simple Action. If the weapon is a properly linked smartgun, it takes only a Free Action to change the mode. See Firearms, and Smartgun Systems. This includes changing a shotgun’s choke if the gun does not have a smartgun link. See Shotguns.
+
+##### FIRE WEAPON
+
+A character may fire a ready firearm/or throw a ready thrown weapon, in single-shot, semi-automatic, or burst-fire mode via a Simple Action (See Firearms). If a character has one weapon in each hand, he may   fire once with each weapon by expending one Simple Action (see Attacker Using a Second Firearm). Note that single-shot weapons may be fired only once per turn. Likewise, only one long burst may be fired in each turn.
+
+##### Insert Clip
+
+A character may insert a fresh clip into a ready firearm by taking a Simple Action, they quickly eject the first clip before inserting a new one as one simple action.
+
+##### Pick Up/Put Down Object
+
+A character may pick up an object within reach or put down one that he was holding by expending a Simple Action (note that just dropping an object is a Free Action).
+
+##### Quick Draw
+
+A character may attempt to quick-draw a pistol or pistol-sized weapon and immediately fire it by expending a Quick Draw action. For the character to successfully draw the weapon, the player must make a `Pistols + Reaction (18)` Test. If the pistol is held in a quick-draw holster, reduce the TN to 12. If the test is successful, the character draws the pistol and fires as a single Quick Draw Simple Action. If the test fails, he clears the gun but cannot fire with the same Simple Action. If he glitches, the gun is stuck in the holster or dropped. On a critical glitch, it is flung across the room or misfired while still in the holster.
+
+Only weapons that can be fired with a Simple Action can be quick-drawn. Two weapons may be quick-drawn and fired simultaneously, but this raises the TN on the `Pistols + Reaction` Test to 24 (see Attacker Using a Second Firearm). A separate `Pistols + Reaction (24)` Test is required for each pistol (TN 18 if they are held in quick-draw holsters).
+
+##### Ready Weapon 
+
+A character may ready a weapon by spending a Simple Action. This usually comes up during surpruse. The weapon may be a firearm, melee weapon, throwing weapon, ranged weapon, or mounted or vehicular weapon. Readying entails drawing a firearm from a holster, drawing a throwing or melee weapon from a sheath, picking up any kind of weapon, nocking an arrow in a bow, or generally preparing any kind of weapon for use. A weapon must be ready before it can be used.
+
+A character can ready a number of small throwing weapons, such as throwing knives or shuriken, equal to one-half his Agility (round down) per Ready Weapon action.
+
+#### Bonus Actions
+
+Various edges, augmentations, spells, and other abili⁠ties let you take an additional action on your turn called a bonus action. You can take a bonu⁠s action only when a sp⁠ecial ability, spell, or other feature of the game states that you can do something as a bon⁠us action. You otherwise don’t have a bo⁠nus action to take. A bonus action is for all intents and purposes an additional Simple Action.
+
+For example the Augmentation Wired Reflexes allows a Bonus Action per round per Rating of the Wired Reflexes.
+
+You choose when to take a bonus action during your turn, unless the bonus action’s timing is specified, and anything that deprives you of your ability to take actions also prevents you from taking a bon⁠us action.
 
 #### Reactions
-You get one voluntary Reaction. You can make any number of involuntary reactions susck as Quickness, Willpower, Stamina, Intuition checks in a round.
-- Attack of Opportunity when something leaves your threatened square you can make a melee attack
-- Counterspell if you are a Magician
-- Any Spell that is a Reaction
-- Anything else that is considered a Reaction
+
+Certain spe⁠cial abili⁠ties, spells, and situations allow you to take a spe⁠cial action called a reaction. A reaction is an instant response to a trigger of some kind, which can occur on your turn or on someone else’s. The opportunity attack, described in " Making an Attack ", is the most com⁠mon type of reaction.
+
+When you take a reaction, you can’t take another one until the start of your next turn. If the reaction interrupts another creature’s turn, that creature can continue its turn right after the reaction.
+
+#### Complex Actions
+
+A Complex Action requires concentration and/or finesse. Only one Complex Action is possible per Turn. A character who wishes to take a Complex Action may also take a Free Action thatturn, but no Simple Actions are possible.
+
+- Disengage
+- Dodge/Full Defense
+- Fire Automatic Weapon/Mounted Vehicle Weapon
+- Melee/Unarmed Attack
+- Reload Weapon
+- Use Skill
+- Use Object
+- Ready
+
+##### Disengage
+
+If you take the Disengage action, your movement doesn't provoke opportunity attacks for the rest of the turn.
+
+##### Dodge/Full Defense
+
+When you take the Dodge action, you focus entirely on avoiding attacks. Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker. You lose this benefit if you are incapacitated (as explained in the appendix) or if your speed drops to 0.
+
+##### Fire Automatic Weapon
+
+A character may fire a ready firearm in full auto fire mode or a Mounted Vehicle Weapon by taking a Complex Action.
+
+##### Melee/Unarmed Attack
+
+A character may make a melee or unarmed attack by taking a Complex
+Action. A character may also attack multiple
+targets within melee range with a single Complex Action
+
+##### Reload Weapon
+
+##### Use Skill
+
+##### Use Object
+
+##### Ready
+
+Sometimes you want to get the jump on a foe or wait for a particular circumstance before you act. To do so, you can take the Ready action on your turn, which lets you act using your reaction before the start of your next turn.
+
+First, you decide what perceivable circumstance will trigger your reaction. Then, you choose the action you will take in response to that trigger, or you choose to move up to your speed in response to it. Examples include "If the Samurai steps on the trapdoor, I'll pull the lever that opens it," and "If the Troll steps next to me, I move away."
+
+When the trigger occurs, you can either take your reaction right after the trigger finishes or ignore the trigger. Remember that you can take only one reaction per round.
+
 
 ### Cover Mechanics
 
@@ -2228,7 +2631,7 @@ If a creature or character has an effect which gives them vulnerability to a typ
 
 ### Healing
 
-- First Aid: Another character can aid you with a First Aid action, as described under Major Actions in this chapter. You can’t benefit from another First Aid action until you take more damage (there is only so much benefit you can gain from basic care).
+- First Aid: Another character can aid you with a First Aid action, as described under Complex Actions in this chapter. You can’t benefit from another First Aid action until you take more damage (there is only so much benefit you can gain from basic care).
 - You can take a breather after a combat encounter. This is a 5-minute rest that lets you catch your breath, tend to minor cuts and abrasions, drink some water, and so on. After a breather, you get back 5 + Body in Physical Health. You can take only one breather after an encounter. If you were at 0 Physical Health when the combat encounter ended, you cannot take a breather at all.
 - You can get some sleep. If you can get at least 6 hours of restful sleep, you can recover Physical Health Rating x 10 + Body in Physical Health.
 - You receive extended medical attention. Another character can tend to your injuries with a {TN} 13 Logic (Medicine) test that lasts 1 hour or is concurrent with sleep as above. The character in charge of your care must use proper medical tools and supplies (found easily in any clinic, hospital, or doctor’s office). Success means you recover an additional amount of Physical Health equal to 5 + treating character’s Logic + treating chaacters Medicine Rating.
@@ -2542,7 +2945,7 @@ The astral plane is fueled by the life force that exists in and on our planet, a
 
 Many Awakened characters can perceive the astral plane from the physical world. This ability is called astral perception sometimes called "Third Eye". It is the primary sense used in the astral plane; it shows auras, allowing magicians to examine living creatures in the physical world as well as creatures who live on the astral plane. Astral Willpower is available to characters who take the Magician quality during character generation.
 
-It takes a Minor Action to shift one’s perception from the astral to the physical, and another to shift it back again (it is not possible to see both at the same time, though almost everything in physical space is reflected on the astral, albeit without detail). A character using astral perception is considered dual-natured, active on both the physical and astral planes simultaneously.
+It takes a Simple Action to shift one’s perception from the astral to the physical, and another to shift it back again (it is not possible to see both at the same time, though almost everything in physical space is reflected on the astral, albeit without detail). A character using astral perception is considered dual-natured, active on both the physical and astral planes simultaneously.
 
 While astral perception allows an Awakened character to sense the astral plane, actually interpreting what is sensed takes practice. Interpreting auras to gain information about the person or thing to whom they belong is called Assensing. A magician who wishes to learn more about an aura must make an Assensing test `Magic + Perception Rating` test against the {TN} as outlined on the Assensing Table (below). Without attempting to read an aura, a magician can still get an impression of what type of aura it is (spell, spirit, living creature, etc.).
 
@@ -2573,7 +2976,7 @@ Magical skills and abilities produce an astral signature on anything affected by
 
 Magical forensic investigators use astral signatures to gather information about criminal magicians, so characters should be careful about leaving astral signatures where they are likely to be seen by anyone who knows them.
 
-A magician using astral perception may take a number of Major Actions equal to the Force of an astral signature to erase it completely.
+A magician using astral perception may take a number of Complex Actions equal to the Force of an astral signature to erase it completely.
 
 ### Initiation
 
@@ -2841,7 +3244,7 @@ These spells channel magical energy directly into the target, causing Stun damag
 
 ### Detection Spells
 
-Detection also known as Divination spells give the subject a new sense, beyond the normal five senses, for as long as they are maintained. They are cast upon either the magician or a subject within Touch range. Using the sense may require the subject to take a Minor Action to Perception in Detail. Detection spells are either directional (like normal sight), area effect (work in all directions at once, like hearing), or psychic (providing some other special “sense” such as telepathy or precognition). Additionally the sense is either active or passive (see below).
+Detection also known as Divination spells give the subject a new sense, beyond the normal five senses, for as long as they are maintained. They are cast upon either the magician or a subject within Touch range. Using the sense may require the subject to take a Simple Action to Perception in Detail. Detection spells are either directional (like normal sight), area effect (work in all directions at once, like hearing), or psychic (providing some other special “sense” such as telepathy or precognition). Additionally the sense is either active or passive (see below).
 
 **Active**: The sense actively analyzes or seeks out certain information when the subject concentrates on it. Active Detection spells are treated as an Opposed Test, pitting the caster’s `Spellcasting + Magic vs. The target’s Willpower (+ Counterspelling, if available)`; magical objects resist with Force. Against objects, handle the spell as a Success Test with a {TN} based on the Object Resistance. The Detection Spell Results table provides guidelines for how thoroughly the sense works, based on Effect scored. Note that Counterspelling may be used to defend against active Detection spells, even if the magician is not aware of them (see Counterspelling).
 
@@ -2991,7 +3394,7 @@ Mindlink allows the caster and one voluntary subject to communicate mentally, ex
 - Duration: S 
 - FV: (F ÷ 2) + 2
 
-This spell allows the subject to telepathically probe the mind of a specific target within range of the sense (chosen when the spell is cast). The target is aware of the probing, though they may not know the source of the spell. If the caster gains one or more Effect, consult the Mind Probe Results table (below) for the information gained. The subject may probe for one piece of information per Major Action. Additional uses of Mind Probe against the same target within a number of hours equal to the target’s Willpower are at a –2 modifier per previous Spellcasting attempt.
+This spell allows the subject to telepathically probe the mind of a specific target within range of the sense (chosen when the spell is cast). The target is aware of the probing, though they may not know the source of the spell. If the caster gains one or more Effect, consult the Mind Probe Results table (below) for the information gained. The subject may probe for one piece of information per Complex Action. Additional uses of Mind Probe against the same target within a number of hours equal to the target’s Willpower are at a –2 modifier per previous Spellcasting attempt.
 
 **Mind Probe Results table**
 | {TN} | Result                                                                                                     |
@@ -3080,11 +3483,11 @@ Note that increasing an attribute may affect other derived statistics (Increase 
 - Duration: S 
 - FV: (F ÷ 2) + 2
 
-This spell increases the reflexes (Initiative) of a voluntary subject. Each level of increase adds +1 Initiative. The caster must achieve a certain Effect threshold for each level:
+This spell increases the reflexes (Initiative) of a voluntary subject. Each level of increase adds +1 Initiative. The caster must achieve a certain Effect TN for each level:
 
 - Effect 2: +1 Initiative
-- Effect 3: +2 Initiative, +1 Major Action
-- Effect 4 (max.): +3 Initiative, +2 Major Actions
+- Effect 3: +2 Initiative, +1 Complex Action
+- Effect 4 (max.): +3 Initiative, +2 Complex Actions
 
 A character can only be affected by a single Increase Reflexes spell at a time.
 
@@ -3133,7 +3536,7 @@ Obvious illusions are used solely for entertainment and cannot fool subjects int
 
 Mana Illusions: Mana-based illusion spells affect the mind and are ineffective against technological viewing systems like cameras. Mana illusions are resisted by Willpower + Counterspelling (if any). Some mana illusions affect the target’s senses directly, others affect the senses of anyone perceiving the subject of the spell (though the spellcaster is not affected by her own spell). 
 
-Physical Illusions: Physical illusion spells create actual images or alter physical properties, such as light or sound. Physical illusions are effective against technological systems, assuming the caster achieves enough Effect to meet the Object Resistance threshold. They are resisted by `Intuition + Counterspelling (if any)`; non-living devices do not get a resistance test. The spellcaster must generate more Effect than the observer for the illusion to be considered real. If the spell is not completely resisted, the character is fully affected by the illusion.
+Physical Illusions: Physical illusion spells create actual images or alter physical properties, such as light or sound. Physical illusions are effective against technological systems, assuming the caster achieves enough Effect to meet the Object Resistance TN. They are resisted by `Intuition + Counterspelling (if any)`; non-living devices do not get a resistance test. The spellcaster must generate more Effect than the observer for the illusion to be considered real. If the spell is not completely resisted, the character is fully affected by the illusion.
 
 #### Confusion (Realistic, Multi-Sense)
 
@@ -3207,7 +3610,7 @@ Entertainment affects the minds of the subjects and cannot be detected by non-li
 
 This spell makes the subject more difficult to detect by normal visual senses (including low-light, thermographic, and other senses that rely on the visual spectrum). The subject is completely tangible and detectable by the other senses (hearing, smell, touch, etc.). Her aura is still visible to astral perception. 
 
-Anyone who might perceive the subject must first successfully resist the spell. Simply make one Spellcasting Test and use the result scored as the threshold for anyone that resists at a later point. Even if the spell is resisted, the subject might remain unnoticed if she wins a Sneaking Test. An invisible character may still be detected by non-visual means, such as hearing or smell. Attacks against invisible targets suffer the Target Hidden modifier (disadvantage) if the attacker is unable to see or otherwise sense the subject of the spell. Invisibility affects the minds of viewers. Improved invisibility creates an actual warping of light around the subject that affects technological sensors as well.
+Anyone who might perceive the subject must first successfully resist the spell. Simply make one Spellcasting Test and use the result scored as the TN for anyone that resists at a later point. Even if the spell is resisted, the subject might remain unnoticed if she wins a Sneaking Test. An invisible character may still be detected by non-visual means, such as hearing or smell. Attacks against invisible targets suffer the Target Hidden modifier (disadvantage) if the attacker is unable to see or otherwise sense the subject of the spell. Invisibility affects the minds of viewers. Improved invisibility creates an actual warping of light around the subject that affects technological sensors as well.
 
 
 This spell makes the subject more difficult to detect
@@ -3224,7 +3627,7 @@ ble to astral perception.
 Anyone who might be in a position to perceive the
 subject must first successfully resist the spell. Simply
 make one Spellcasting Test and use the hits scored as
-the threshold for anyone that resists at a later point.
+the TN for anyone that resists at a later point.
 Even if the spell is resisted, the subject might remain
 undetected if she’s good enough with her Sneaking Test. An invisible character may still be detected by non-visual means, such as hearing or smell. Attacks against invisible targets suffer the Blind Fire modifier if the attacker is unable to see or otherwise sense the subject of the spell.
 
@@ -3266,7 +3669,7 @@ Mask affects the minds of viewers. Physical Mask creates an illusion that affect
 - FV: (F ÷ 2) +3
 
 
-These area spells create convincing illusions of any object, creature, or scene the caster desires. They can create an illusion of anything the caster has seen before, from a flower or a credstick to a dragon breathing fire, as long as the illusion is no larger than the spell’s area. Anyone who might pierce the illusion must successfully resist the spell. Simply make one Spellcasting Test and use the result as the threshold for anyone that resists at a later point. Phantasm only affects living beings, while Trid Phantasm affects technological sensors as well. 
+These area spells create convincing illusions of any object, creature, or scene the caster desires. They can create an illusion of anything the caster has seen before, from a flower or a credstick to a dragon breathing fire, as long as the illusion is no larger than the spell’s area. Anyone who might pierce the illusion must successfully resist the spell. Simply make one Spellcasting Test and use the result as the TN for anyone that resists at a later point. Phantasm only affects living beings, while Trid Phantasm affects technological sensors as well. 
 
 #### Hush (Realistic, Single-Sense, Area)
 
@@ -3298,19 +3701,19 @@ Hush is a mana spell and so only affects living beings and magic sonic attacks. 
 
 Sneaking makes the subject less audible to normal hearing (including augmented hearing). The subject moves in silence, making less or no noise. Things not directly touched by the subject can still make noise, so a character under a Sneaking spell would make no noise knocking on a door, but the door would make noise hitting the floor or wall if it was kicked in.
 
-Anyone who might hear the subject must first successfully resist the spell. Simply make one Spellcasting Test and use the result scored as the threshold for anyone that resists at a later point. Even if the spell is resisted, the subject might remain unnoticed if she wins a Shadowing or Infiltration Test.
+Anyone who might hear the subject must first successfully resist the spell. Simply make one Spellcasting Test and use the result scored as the TN for anyone that resists at a later point. Even if the spell is resisted, the subject might remain unnoticed if she wins a Shadowing or Infiltration Test.
 
 ### Manipulation Spells
 
 Manipulation spells control, animate, or transform matter and energy.
-Many Manipulation spells have a threshold; this is the number of
+Many Manipulation spells have a TN; this is the number of
 Spellcasting + Magic hits required for the spell to function. Mental
 Manipulations affect the mind, Physical Manipulations affect physical
 forms, and Environmental Manipulations affect conditions such as
 light, temperature, gravity, etc. Most Manipulation spells are handled
 as Success Tests, with hits determining the effect.
 
-Mental Manipulations: For Mental Manipulation spells, the caster makes an Opposed Spellcasting + Magic Test against the target’s Willpower (+ Counterspelling, if available). If the caster scores more hits, she controls the target as noted in the spell description. Every (Force) Combat Turns, the victim may spend a Major Action to shake off the mental control. the victim rolls a Willpower (+ Counterspelling) Test; each hit reduces the Effect on the caster’s original Spellcasting Test. If the spellcaster’s Effect are reduced to 0, the spell no longer affects the target.
+Mental Manipulations: For Mental Manipulation spells, the caster makes an Opposed Spellcasting + Magic Test against the target’s Willpower (+ Counterspelling, if available). If the caster scores more hits, she controls the target as noted in the spell description. Every (Force) Combat Turns, the victim may spend a Complex Action to shake off the mental control. the victim rolls a Willpower (+ Counterspelling) Test; each hit reduces the Effect on the caster’s original Spellcasting Test. If the spellcaster’s Effect are reduced to 0, the spell no longer affects the target.
 
 #### Armor (Physical)
 
@@ -3345,7 +3748,7 @@ Action; when not directly controlled, the victim may act as normal.
 Control Actions only affects a single target, Mob Control affects
 any living targets within the area of effect. Victims of a Mob Control
 may be manipulated individually (with separate Simple Actions) or
-issued the same command as a group (with a single Minor Action).
+issued the same command as a group (with a single Simple Action).
 
 #### Control Emotions (Mental)
 
@@ -3367,7 +3770,7 @@ wholeheartedly, but not mindlessly. A target who acts in accordance with
 the emotion (for example, fighting while filled with anger or hate) suffers
 no penalty. If the target takes action not relevant to the emotion (trying
 to drive while laughing hysterically), she suffers a –2  modifier
-for the distraction. the caster may switch emotions with a Minor Action.
+for the distraction. the caster may switch emotions with a Simple Action.
 Control Emotions only affects a single target, Mob Mood affects
 any living targets within the area of effect.
 
@@ -3386,13 +3789,13 @@ any living targets within the area of effect.
 - FV: (F ÷ 2) + 4
 
 the caster seizes control of the target’s mind, directing everything the
-target does. the caster mentally gives commands with a Minor Action
+target does. the caster mentally gives commands with a Simple Action
 and the target is compelled to obey
 
 Control thoughts affects a single target, while Mob Mind affects
 any living targets within the area of effect. Victims of a Mob Mind may
 be manipulated individually (with separate Simple Actions) or issued
-the same command as a group (with a single Minor Action)
+the same command as a group (with a single Simple Action)
 
 #### Fling (Physical)
 
@@ -3416,7 +3819,7 @@ on the spell’s effective Strength.
 
 This spell creates a slippery sheet of ice over the area of effect.
 Characters crossing the ice must make an Agility + Reaction Test with
-a threshold equal to the hits scored to avoid falling prone. Vehicles
+a TN equal to the hits scored to avoid falling prone. Vehicles
 must make a Crash Test. the sheet melts at a rate of 1 square
 yard per minute in normal temperatures.
 
@@ -3429,7 +3832,7 @@ yard per minute in normal temperatures.
 
 the Ignite spell accelerates molecular motion in the target, causing it
 to catch fire once the spell becomes permanent. the spellcaster must
-achieve enough Effect to beat a threshold equal to the target’s Object
+achieve enough Effect to beat a TN equal to the target’s Object
 Resistance. Once the target ignites, it burns normally until it
 is consumed or extinguished.
 Against living targets, treat Ignite as an Opposed Test pitting
@@ -3464,7 +3867,7 @@ the caster can also withdraw the suggestion at any time.
 - FV: (F ÷ 2) + 1
 
 Levitate allows the caster to telekinetically lift a person or object and
-move it around. the caster must achieve a threshold on the Spellcasting
+move it around. the caster must achieve a TN on the Spellcasting
 Test equal to 1 per 200 kg of the subject’s mass. the subject of the spell
 can be moved anywhere in the caster’s line of sight at a Movement rate
 equal to the spell’s Force x net Spellcasting hits in yards per turn.
@@ -3522,7 +3925,7 @@ or physical objects, but it does impede spirits, foci, dual beings, and
 spells. If cast on the astral plane, it also impedes astral forms and restricts visibility. Any target of a spell that is on the other side of the
 Mana Barrier receives a bonus to its spell resistance  equal to
 the barrier’s Force. If the target had no resistance , but instead
-has an Object Resistance threshold, increase the threshold by 1 for
+has an Object Resistance TN, increase the TN by 1 for
 every increment of 3 Force in the Mana Barrier (round up). 
 
 #### Petrify (Physical)
