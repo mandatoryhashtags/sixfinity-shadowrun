@@ -106,8 +106,130 @@ SIRE is a 3d6 TTRPG system created by CJ Schrum to be a generic system used to p
 
 
 ## Shadowrun Setting
+ 
+#### Shadowrun Lingo and Slang
 
-
+- arc: n. An arcology.
+- arctic: adj. Good, great.
+- arrow: n. Augmented Reality Object
+- Azzie: n. Member of Aztechnology, derogative
+- barrens: n. The bad side of town, the skids.
+- beetle: m. A BTL chip.
+- Big A: n. Short for Aztechnology
+- Big D: n. Short for Dunkelzahn
+- Big R: n. Short for Renraku
+- body shop: n. An establishment offering cyberware (and bioware) implants. uUnlicensed estabilishments are called chop shops.
+- breeder: n. Ork slang for a "normal" Human.
+- bug: n An insect spirit
+- burn out: n. a mage who has lost much of their magical ability due to installing cyberware. Also v., to lose your magical ability this way, and as an adj., "burned out".
+- business: n. In slang context, crime, Also "Biz".
+- buzz: v. Go away. Buzz off.
+- chill: adj. Good, cool, acceptable. v. To calm oneself.
+- chiphead: n. A junkie addicted to BTLs
+- chip truth: n. A fact or honest statement.
+- chipped: adj. Senses, skills, reflexes, muscles, and so on, enhanced by cyberware.
+- chop shop: n. An unlicensed body shop.
+- chrome: n. External cyberware.
+- chummer n. Friend, used in the same sense as “pal” or “buddy.”
+- cleaner: n. An assassin (or team) used to eliminate all traces of a mission, including the participants.
+- comm: n. Short for commlink, your phone, handheld computer, music player, game device, and more in the palm of your hand.
+- corp: n. Corporation., adj. Corporate
+- cred n. Money. Reputation, especially good reputation.
+- dandelion eater: n. Elf or elven. Highly Insulting.
+- dataslave: n. Corporate decker or other data processing employee.
+- datasteal: n. Theft of data from a computer, usually by decking.
+- deck: n. A cyberdeck. Or, v. To use a cyberdeck, usually illegally.
+- deckhead: n. Simsense abuser; anyone with a datajack or chipjack.
+- delta: n. Highest quality of wetware.
+- drek: n. (vul) feces, excrement, as in "bulldrek!" or "drek-for-brains". adj: Drekky
+- dump: v. To be involuntarily ejected from the Matrix.
+- dumpshock: n. Nausea and disorientation from being Dumped out of a simsense interface (usually the Matrix or a remote control rig)
+- exec: n. Corporate executive.
+- face: n. A shadowrunner specializing in social interaction.
+- fetishman: n. A talismonger.
+- frag: v. Common swear word; To desire or take joy in someone's death. Adj: Fragging. Derived from "Frag"-grenade.
+- fragged: adj. (vul) Broken, in trouble.
+- geek: v. To kill.
+- go-gang: n. A motorized gang.
+- go-go-go: n. A bike gang or gang member.
+- halfer: n. Dwarf or dwarven. Racially derogative.
+- heatwave: n. Police crackdown.
+- hoi: interj. (Dutch) Familiar greeting
+- hoop: n. (vul) A common curse word referring to a person's backside.
+- hose: v. Louse up. Screw up.
+- ice: n. Security software. "Intrusion Countermeasures," or IC.
+- to get iced: v. To get killed by IC.
+- jack: v. jack in, or enter cyberspace. jack out, or to leave cyberspace.
+- jander: v. To walk in an arrogant yet casual manner; to strut.
+- Japanacorps: n Slang for Japanese AAA-corporations
+- keeb: n. (vul) An Elf. From "Keebler Elves". Highly insulting.
+- kobun: n (Japanese). Member of a Yakuza clan.
+- link: n. Short for commlink
+- meat: n. An unwired individual, or the physical part of a Matrix user in VR.
+- Mr. Johnson: n. Refers to an anonymous employer or corporate agent.
+- meshed adj. Online, connected to the Matrix.
+- meta(s): n. Short for metahumanity.
+- mundane: n. (vul) Non-magician or non-magical.
+- norm: n. Human.
+- nuyen: n. World standard of currency.
+- omae: n. (Japanese) Friend.
+- oyabun: n. (Japanese) Head of a Yakuza clan.
+- panzer: n. Any ground-effect combat vehicle.
+- pawn: n. (derogatory) Street slang for Knight Errant of officers
+- paydata: n. A datafile worth money on the black market.
+- pixie: n. (vul) An elf. An elf poser. Or a pixie.
+- plex: n. A metropolitan complex, short for "metroplex".
+- poli: n. A policlub (political action group) or policlub member.
+- razorgirl: n. A female with extensive combat enhancements.
+- razorguy n. A male with extensive combat enhancements.
+- roke: adj. Overly elaborate or unnecessarily detailed. From a shortening of Baroque.
+- run: n: Short for shadowrun.
+- runner: n. Short for shadowrunner.
+- salaryman: n. see sarariman
+- sam: n. Short for samurai
+- samurai: n. (Japanese) Mercenary or muscle for hire. Implies honor code.
+- sarariman: n. (Engrish) A corporate employee. From mispronunciation of salaryman.
+- screamer: n. Credstick or other ID that triggers computer alarms if used.
+- scrip: n. A currency that is not nuyen, usually referring to currency issued by a megacorporation.
+- seoul man: n. A member of a Seoulpa ring.
+- shadowrun: n. an illegal operation
+- shaikujin: n. (Japanese) Lit. "Honest citizen". A corporate employee.
+- SINless: adj. Lacking a System Identification Number
+- SINner: n. A person with a SIN. An honest person.
+- slot: n. Mild curse word. v. To insert a chip or credstick into chip or credstick reading device.
+- slot and run: v. Hurry up. Get to the point. Move it.
+- so ka: (Japanese) I understand. I get it.
+- spellworm: n. Derogative term for a mage
+- spider: n. Corporate decker or rigger, usually tasked with defense of corporate facilities.
+- sprawl: n. a metroplex (see plex); v. fraternize below one's social level.
+- squat: n. Abandoned urban area used for housing. (vul) A dwarf.
+- squatter: n. a resident of a squat
+- squishy n. (vul) A dwarf, elf, or human. Usually used by orks and trolls.
+- Star, the: n. The police. Originally referring to Lone Star specifically.
+- static: n. Trouble, usually social in nature.
+- street doc: n An unlicensed physician.
+- street samurai: n. A shadowrunner or merc specializing in melee or ranged combat without the magic enhancement
+- suit: n. A "straight citizen". See Shaikujin, Sarariman.
+- swag adj. Awesome.
+- System Identification Number (SIN): n. Identification number assigned to each person in the society.
+- Talislegging: n. The underground trade in telesma and other magical objects.
+- T-bird: n. Low-altitude vehicle (LAV), usually vectored thrust. Named after but not to be confused with a paracritter Thunderbird.
+- trid, trideo: n. Holographic animated media; Three-dimensional successor to video.
+- trog: n. (vul) An Ork or Troll. From "troglodyte". Highly insulting.
+- tusker: n. Ork. Racially derogatory.
+- vatjob: n. A person with extensive cyberware replacement, reference is to a portion of the process during which the patient must be submerged in nutrient fluid.
+- wagemage: n. A magician (usually mage) employed by a corporation.
+- wageslave: n. A low-level corporate employee.
+- wetware: n Cyberware, also bioware.
+- wetwork: n. Assassination. Murder.
+- wired: adj. Equipped with cyberware, especially increased reflexes.
+- wiz adj. Wonderful, excellent.
+- wizkid n. A young mage, probably a teenager.
+- wizgang: n. A gang composed only of magically active members.
+- wizard: n. A magician, usually a mage
+- wizworm: n. slang. A dragon.
+- wyrm: n. Another slang for a dragon.
+- Yak: n. (Japanese) Yakuza. Either a clan member or a clan itself.
 
 ## Chapter 1: Character Creation 
 {{Write a Definition}}
@@ -478,6 +600,10 @@ This was added for Shadowrun. If you see something that says "Net Hits" it means
 On occasion loike breaking a Barrier, you need to compare the Effect Rating of the Barrier against your Effect and see if you got through it. 
 
 In this case you take your `Effect - Target's Effect Rating` the result is **Net Effect** if its positive you won, if its not you failed. Often times when you succeed something happens like carry over damage. 
+
+In an opposed test, you are aiming to roll higher. In cases where Effect is important compare your "Net Effect" or "Net Hits" is the value of the Effect Dice.
+
+> It Shadowrun you roll a pool of dice, they roll of pool of dice whoever gets more hits wins, and the net hits counts. In Sixfinity it is assumed you already out rolled them and the Effect Dice indicates what the net effect is.
 
 ### Advantage and Disadvantage
 
@@ -1349,6 +1475,7 @@ When the punching and the kicking and the shooting starts, these are the skills 
 
 Archery is used to fire string-loaded projectile weapons. An archer is familiar with many different styles of bow and the multitude of arrows that can be used to maximum effect.
 
+
 - Default: Yes
 - Skill Group: No
 - Specializations: Bow, Crossbow, Non-Standard Ammunition, Slingshot
@@ -1357,6 +1484,7 @@ Archery is used to fire string-loaded projectile weapons. An archer is familiar 
 
 The Automatics skill covers a specific subset of firearms larger than handheld pistols but smaller than rifles. This category includes submachine guns and other fully automatic carbines.
 
+
 - Default: Yes
 - Skill Group: Firearms
 - Specializations: Assault Rifles, Cyber-Implant, Machine Pistols, Submachine Guns
@@ -1364,6 +1492,7 @@ The Automatics skill covers a specific subset of firearms larger than handheld p
 ##### BLADES
 
 Slice and dice! The Blades skill includes the use of all handheld slashing and stabbing weapons. You can use a range of edged weapons including daggers, swords, and axes.
+
 
 - Default: Yes
 - Skill Group: Close Combat
@@ -1375,6 +1504,7 @@ Clubs governs the use of all hand-held bludgeoning instruments.
 With this skill you can turn any blunt item,
 be it a baseball bat, crutch, or mace, into a weapon.
 
+
 - Default: Yes
 - Skill Group: Close Combat
 - Specializations: Batons, Hammers, Saps, Staves, Parrying
@@ -1384,6 +1514,7 @@ be it a baseball bat, crutch, or mace, into a weapon.
 
 Sometimes a regular gun or blade won’t do the job and you need something fancier. Or weirder. This skill must be taken once for each unusual ranged weapon you want to use. Some examples include blowguns, gyrojet pistols, flamethrowers, and lasers.
 
+
 - Default: No
 - Skill Group: None
 - Specializations: None
@@ -1391,6 +1522,7 @@ Sometimes a regular gun or blade won’t do the job and you need something fanci
 ##### HEAVY WEAPONS
 
 The term heavy weapon is designated for all projectile weaponry larger than an assault rifle, such as grenade launchers, machine guns, and assault cannons. This skill is exclusive to handheld and non-vehicle-mounted weaponry—if you’ve got a gun mounted on or in a vehicle, use Gunnery.
+
 
 - Default: Yes
 - Skill Group: None
@@ -1400,6 +1532,7 @@ The term heavy weapon is designated for all projectile weaponry larger than an a
 ##### LONGARMS
 
 The Longarms skill is for firing extended-barrel weapons such as sporting rifles and sniper rifles. This grouping also includes weapons like shotguns that are designed to be braced against the shoulder.
+
 
 - Default: Yes
 - Skill Group: Firearms
@@ -1411,6 +1544,7 @@ This skill category includes all types of handheld pistols,
 including tasers, single-shots, semi-automatics,
 and revolvers.
 
+
 - Default: Yes
 - Skill Group: Firearms
 - Specializations: Holdouts, Revolvers, Semi-Automatics, Tasers
@@ -1419,6 +1553,7 @@ and revolvers.
 
 Throwing Weapons is a broad-based attack skill that can be used for any handheld item that is thrown by the user as a weapon.
 
+
 - Default: Yes
 - Skill Group: None
 - Specializations: Aerodynamic, Blades, Non-Aerodynamic
@@ -1426,6 +1561,7 @@ Throwing Weapons is a broad-based attack skill that can be used for any handheld
 ##### UNARMED COMBAT
 
 Unarmed Combat covers the various self-defense and attack moves that employ the body as a primary weapon. This includes a wide array of martial arts along with the use of cybernetic implant weaponry and the fighting styles that sprung up around those implants.
+
 
 - Default: Yes
 - Skill Group: Close Combat
@@ -1439,6 +1575,7 @@ These skills are all about actions you take with your body (besides things cover
 
 Disguise covers non-magical forms of masking your identity, including makeup and enhancement. See Using Disguise and Impersonation
 
+
 - Default: Yes
 - Skill Group: Stealth
 - Specializations: Camouflage, Cosmetic, Theatrical, Trideo & Video
@@ -1447,6 +1584,7 @@ Disguise covers non-magical forms of masking your identity, including makeup and
 
 Diving brings together a wide array of actions performed underwater. This skill can be applied when diving, swimming underwater, using complex diving equipment, and holding your breath.
 
+
 - Default: Yes
 - Skill Group: None
 - Specializations: By breathing apparatus (Liquid Breathing Apparatus, Mixed Gas, Oxygen Extraction, SCUBA), by condition (Arctic, Cave, Commercial, Military etc.), Controlled Hyperventilation
@@ -1454,6 +1592,7 @@ Diving brings together a wide array of actions performed underwater. This skill 
 ##### ESCAPE ARTIST (AGILITY)
 
 Escape Artist measures the character’s ability to escape from bindings by using body contortion and manual dexterity. See Using Escape Artist
+
 
 - Default: Yes
 - Skill Group: None
@@ -1484,6 +1623,7 @@ In Shadowrun, you might just find yourself caught instead of killed. Escape Arti
 
 This skill covers any jump from height, including leaps from a third-floor window to jumps from a plane at high altitude. If it involves any kind of attempt to slow or control your fall, this covers it, so it includes skydiving with a parachute, flying a wingsuit, or descending on a line, bungee cord, or zipline.
 
+
 - Default: Yes
 - Skill Group: None
 - Specializations: BASE Jumping, Break-Fall, Bungee, HALO, Low Altitude, Parachute, Static Line, Wingsuit, Zipline
@@ -1491,6 +1631,7 @@ This skill covers any jump from height, including leaps from a third-floor windo
 ##### GYMNASTICS (AGILITY)
 
 Gymnastics measures your balance, general athleticism, and all-around ability to use your body. For more information on ways Gymnastics may be applied ingame, see Jumping.
+
 
 - Default: Yes
 - Skill Group: Athletics
@@ -1501,7 +1642,7 @@ Gymnastics measures your balance, general athleticism, and all-around ability to
 
 **CLIMBING**
 
-The Gymnastics skill is applied to both assisted and unassisted climbing tasks. Assisted climbing is accomplished with specialized gear such as ropes and harnesses. Assisted climbing is easier and safer, but requires more preparation. Unassisted climbing may be done on the fly, because you climb without any gear. Climbing is a Complex Action, and the number of hits you get on your `Gymnastics + Strength [Physical]` Test determines how far you can move vertically or laterally during your climb, as noted on the Climbing Table. The more difficult the climb, the more modifiers you get, which is also noted on the Climbing Table.
+The Gymnastics skill is applied to both assisted and unassisted climbing tasks. Assisted climbing is accomplished with specialized gear such as ropes and harnesses. Assisted climbing is easier and safer, but requires more preparation. Unassisted climbing may be done on the fly, because you climb without any gear. Climbing is a Complex Action, and the number of effect you get on your `Gymnastics + Strength [Physical]` Test determines how far you can move vertically or laterally during your climb, as noted on the Climbing Table. The more difficult the climb, the more modifiers you get, which is also noted on the Climbing Table.
 
 **Climbing Table**
 
@@ -1541,6 +1682,7 @@ Jumping is done from a running or standing position. Running leaps get more dist
 
 Palming is sleight-of-hand skill that gives a character the ability to snag, hide, and pass off small objects.
 
+
 - Default: No
 - Skill Group: Stealth
 - Specializations: Legerdemain, Pickpocket, Pilfering
@@ -1548,6 +1690,7 @@ Palming is sleight-of-hand skill that gives a character the ability to snag, hid
 ##### PERCEPTION (INTUITION)
 
 Perception refers to the ability to spot anomalies in everyday situations, making it one of the key skills a shadowrunner needs. See Using Perception.
+
 
 - Default: Yes
 - Skill Group: None
@@ -1585,6 +1728,7 @@ Perception Tests are for any situation involving basic senses (sight, hearing, s
 
 Running, as you may guess, is about how much ground you can cover quickly. For more information see Using Running.
 
+
 - Default: Yes
 - Skill Group: Athletics
 - Specializations: Distance, Sprinting, by terrain (Desert, Urban, Wilderness, etc.)
@@ -1597,6 +1741,7 @@ The Running skill allows you to increase the distance you can cover in a Combat 
 
 Need to get where you’re not supposed to be? This skill allows you to remain inconspicuous in various situations. See Using Stealth Skills.
 
+
 - Default: Yes
 - Skill Group: Stealth
 - Specializations: Location type (Jungle, Urban, Desert, etc.)
@@ -1604,6 +1749,7 @@ Need to get where you’re not supposed to be? This skill allows you to remain i
 ##### SURVIVAL (WILLPOWER)
 
 In the desert with nothing more than a tin cup, a poncho, and an iron rod? You’ll need this skill to help you get out alive. Survival is the ability to stay alive in extreme environmental conditions for extended periods of time. The skill governs a character’s ability to perform vital outdoor tasks such as start a fire, build a shelter, scrounge for food, etc. in hostile environments. See Using Survival.
+
 
 - Default: Yes
 - Skill Group: Outdoors
@@ -1642,6 +1788,7 @@ The Survival skill is used for braving all forms of extreme outdoor conditions�
 
 This skill determines the character’s ability to swim in various bodies of water. The skill level affects the distance and speed at which a character can swim. See Using Swimming
 
+
 - Default: Yes
 - Skill Group: Athletics
 - Specializations: Dash, Long Distance
@@ -1664,6 +1811,7 @@ If you’re just trying to keep afloat, you can tread water. You can tread water
 
 This skill confers the ability to detect the passage of metahumans and other game through terrain and use those clues to follow that individual. This skill also allows you to identify unmarked trails and common game paths is various environments. See Using Tracking.
 
+
 - Default: Yes
 - Skill Group: Outdoors
 - Specializations: Desert, Forest, Jungle, Mountain, Polar, Urban, another terrain type
@@ -1678,9 +1826,75 @@ Dice rarely need to get involved when characters need to solve problems between 
 
 Social skills are intended to be used to complement good role-playing, not replace it. The Social Test should come either at the end of a well-role-played scene to wrap it up, or in place of a social situation that would be less interesting to actually play through to get through it quickly. The gamemaster can provide modifiers on this test based on how well you make your point, or how much bulldrek you’re able to pile up without flinching.
 
+**Social Modifiers Table**
+
+| **GENERAL MODIFIERS**                                                                     | **MODIFIER**    |
+| ----------------------------------------------------------------------------------------- | --------------- |
+| The NPC’s attitude toward the character is:                                               | =============   |
+| Neutral                                                                                   | +0              |
+| Friendly                                                                                  | +2              |
+| Suspicious                                                                                | –1              |
+| Prejudiced                                                                                | –2              |
+| Hostile                                                                                   | –3              |
+| Enemy                                                                                     | –4              |
+| Character’s desired result is:                                                            | =============   |
+| Advantageous to NPC                                                                       | +1              |
+| Of no value to NPC                                                                        | +0              |
+| Annoying to NPC                                                                           | –1              |
+| Harmful to NPC                                                                            | –3              |
+| Disastrous to NPC                                                                         | –4              |
+| Control Thoughts/Emotions spell cast on                                                   | –1 per effect   |
+| Character has (known) street reputation                                                   | + (Street Cred) |
+| Subject has (known) street reputation                                                     | – (Street Cred) |
+| Subject has “ace in the hole”                                                             | +2              |
+| Subject has romantic attraction to character                                              | +2              |
+| Character is intoxicated                                                                  | -1              |
+| **CON MODIFIERS**                                                                         | **MODIFIER**    |
+| Character has plausible-seeming evidence                                                  | +1 or 2         |
+| Subject is distracted                                                                     | +1              |
+| Subject has time to evaluate situation                                                    | –1              |
+| **ETIQUETTE MODIFIERS**                                                                   | **MODIFIER**    |
+| Character is wearing the wrong attire or doesn’t have the right look                      | -2              |
+| Character is obviously nervous, agitated, or frenzied                                     | -2              |
+| Subject is distracted                                                                     | –1              |
+| **INTIMIDATION MODIFIERS**                                                                | **MODIFIER**    |
+| Character is physically imposing                                                          | +1 to +3        |
+| Subject is physically imposing                                                            | –1 to –3        |
+| Characters outnumber the subject(s)                                                       | +2              |
+| Subjects outnumber the character(s)                                                       | –2              |
+| Character wielding weapon or obvious magic                                                | +2              |
+| Subject wielding weapon or obvious magic                                                  | –2              |
+| Character is causing (or has caused) subject physical pain (torture)                      | +2              |
+| Subject is oblivious to danger or doesn’t think character “would try something so stupid" | +2              |
+| **LEADERSHIP MODIFIERS**                                                                  | **MODIFIER**    |
+| Character has superior rank                                                               | +1 to +3        |
+| Subject has superior rank                                                                 | –1 to –3        |
+| Character is an obvious authority figure                                                  | +1              |
+| Character not part of subject’s social strata                                             | –1 to –3        |
+| Subject is a fan or devoted to character                                                  | +2              |
+| **NEGOTIATION MODIFIERS**                                                                 | **MODIFIER**    |
+| Character lacks background knowledge of situation                                         | -2              |
+| Character has blackmailed material or heavy bargaining chip                               | +2              |
+
+
+
+
+**Social Skill Test Lookup Table**
+
+| **CHARACTER ROLL**                | **TARGET ROLL**                 |
+| --------------------------------- | ------------------------------- |
+| Con + Charisma [Social]           | Con + Charisma [Social]         |
+| Etiquette + Charisma [Social]     | Perception + Charisma [Social]  |
+| Impersonation + Charisma [Social] | Perception + Intuition [Mental] |
+| Intimidation + Charisma [Social]  | Charisma + Willpower            |
+| Leadership + Charisma [Social]    | Leadership + Willpower [Social] |
+| Negotiation + Charisma [Social]   | Negotiation + Charisma [Social] |
+| Performance + Charisma [Social]   | Charisma + Willpower            |
+
 ##### CON (CHARISMA)
 
 Con governs the ability to manipulate or fool an NPC during a social encounter. This skill covers a range of confidence games as well as the principles behind those cons.
+
 
 - Default: Yes
 - Skill Group: Acting
@@ -1690,15 +1904,27 @@ Con governs the ability to manipulate or fool an NPC during a social encounter. 
 
 Etiquette represents the level of understanding and awareness of proper social rituals. The skill works as a sort of social version of Sneak, allowing you to move unimpeded through various social situations. Etiquette also serves as a social safety net in case a player botches a social situation in a way a skilled character would not. See Using Etiquette.
 
+
 - Default: Yes
 - Skill Group: Influence
 - Specializations: By culture or subculture (Corporate, High Society, Media, Mercenary, Street, Yakuza, etc.)
 
+**USING ETIQUETTE**
 
+Etiquette is about blending into the social fabric. Skilled characters can move through a social situation without anyone realizing that they don’t belong. It’s more than knowing the right mores (you could look those up on the Matrix), it’s about trained instinct.
+
+You can use Etiquette to ease suspicions, so that people might trust you more than they would an outsider. Make an `Etiquette + Charisma [Social] Test` against the other person’s `Perception + Charisma [Social] Opposed Test`. If you get you roll higher, they’ll accept you. If you get 3 or more net effect, their attitude toward you will improve, moving up a line on the “NPC’s attitude” section of the Social Modifiers table.
+
+The skill is not meant to replace role-playing, but it can save you from a social blunder that you (the player) make when your character probably wouldn’t have. When this happens, make an Etiquette Test against a threshold equal to the severity of the blunder (set by the gamemaster). A successful test means your character recovers from the misstep.
+
+When making Etiquette tests with a group of NPCs, use the same rules for influencing groups (Using Social Skills).
+
+A glitch on an Etiquette Test is treated the same as a social blunder—the temporary annoyance could give you a –2 modifier on your next social test. Critical glitches result in major social gaffes that have a lasting effect on the relationship your character has with others—the NPC’s stance towards your character could move one step toward Enemy. This is the stuff of which long-time grudges and major feuds are made, the words of disrespect that set street armies into motion.
 
 ##### IMPERSONATION (CHARISMA)
 
 Impersonation is the ability to assume the identity of another person, including voice and physical mannerisms. The skill is limited by the physical abilities of the character. A dwarf might be able to impersonate a troll over a commlink, but the illusion shatters when he is face to face with his target.
+
 
 - Default: Yes
 - Skill Group: Acting
@@ -1708,13 +1934,22 @@ Impersonation is the ability to assume the identity of another person, including
 
 Instruction governs the ability to teach people. The skill level helps determine how comfortable the instructor is delivering new material as well as how complex of a skill may be taught. See Using Instruction.
 
+
 - Default: Yes
 - Skill Group: None
 - Specializations: By Active or Knowledge skill category (Combat, Language, Magical, Academic Knowledge, Street Knowledge, etc.)
 
+**USING INSTRUCTION**
+
+From virtual instructors to how-to vids, there are numerous ways to learn skills. There is no substitute, however, for a flesh-and-blood instructor. In order to teach someone a skill, a character must have the skill at Rating 2 or higher. The teacher can only teach up to their own Instruction Rating. Teaching is an `Instruction + Charisma [Social] Test`. Every effect on the Teaching Test reduces the time for the student to improve their skill by a day (Character Advancement).
+
+Instruction is also used to teach spells, complex forms, rituals, and various other techniques. The rules for using Instruction are a bit different in these cases and are explained in the appropriate sections of this book
+
+
 ##### INTIMIDATION (CHARISMA)
 
 Intimidation is about creating the impression that you are more menacing than another person in order to get them to do what you want. The skill may be applied multiple ways, from negotiation to interrogation. Intimidation is an Opposed `Intimidation + Charisma [Social]` Test against the target’s `Charisma + Willpower`, modified by the appropriate entries on the Social Modifiers Table.
+
 
 - Default: Yes
 - Skill Group: None
@@ -1724,13 +1959,27 @@ Intimidation is about creating the impression that you are more menacing than an
 
 Leadership is the ability to direct and motivate others. It’s like Con, except rather than using deception you’re using a position of authority. This skill is especially helpful in situations where the will of a teammate is shaken or someone is being asked to do something uncomfortable. The Leadership skill is not meant to replace or make up for poor teamwork. When using Leadership make an opposed test `Charisma + Leadership`. See Using Social Influence Skills, for test modifiers.
 
+
 - Default: Yes
 - Skill Group: Influence
 - Specializations: Command, Direct, Inspire, Rally
 
+**USING LEADERSHIP**
+
+The Leadership skill is about coaxing, convincing, threatening, or challenging your subordinates, or getting people to accept you as a superior. If you lead people who accept you as their (lone) superior, even temporarily, you can take a Complex Action to make a `Leadership + Charisma [Social] Test`. How this helps depends on what you choose to do.
+
+Command: The target resists with a `Leadership + Willpower [Mental] test` (with Social Modifiers). For every net hit you get, the target accepts you as their leader for 1 Combat Turn. This doesn’t work if you’ve failed on this target before.
+
+Direct: Your effect act as a Teamwork Test for one subordinate’s skill or Composure Test that they perform on or before their next Turn.
+
+Inspire: Your effect act as a Teamwork Test for your subordinates’ Surprise Test for the rest of the Combat Turn.
+
+Rally: Your subordinates add 1 to their Initiative Score for every 2 effect you get.
+
 ##### NEGOTIATION (CHARISMA)
 
 Negotiation governs a character’s ability to apply their charisma, tactics, and knowledge of situational psychology in order to create a better position when making deals.
+
 
 - Default: Yes
 - Skill Group: Influence
@@ -1740,16 +1989,400 @@ Negotiation governs a character’s ability to apply their charisma, tactics, an
 
 This skill governs the ability to execute a performing art. Performance is to the arts what Artisan is to craft. The performer uses her skill to entertain or even captivate an audience. See Using Performance.
 
+
 - Default: Yes
 - Skill Group: Acting
 - Specializations: By performance art (Presentation, Acting, Comedy, specific Musical Instrument, etc.)
 
 **USING PERFORMANCE**
 
-Performance is a Simple Test with a Social limit—the gamemaster can use your hits to gauge the artistry of your performance. If you’re trying distract a target, or sweep them up in your performance, the generic modifiers on the Social Modifiers Table apply, and your target(s) use their `Charisma + Willpower` to oppose your test.
+Performance is a Simple Test with a Social limit—the gamemaster can use your effect to gauge the artistry of your performance. If you’re trying distract a target, or sweep them up in your performance, the generic modifiers on the Social Modifiers Table apply, and your target(s) use their `Charisma + Willpower` to oppose your test.
 
-**Social Modifiers Table**
----
+
+
+
+
+#### Magic Active Skills
+
+##### ALCHEMY (MAGIC)
+
+Alchemy is used to create substances that store spells. Alchemy is most commonly used to brew potions, distill magical reagents, and even create orichalcum.
+
+
+- Default: No
+- Skill Group: Enchanting
+- Specializations: By trigger (Command, Contact, Time), by spell type (Combat Spells, Detection Spells, etc.)
+
+##### ARCANA (LOGIC)
+
+Arcana governs the creation of magical formulae used to create spells, foci, and all other manner of magical manipulations. Arcana is required to understand formulae that may be purchased over the counter or discovered by other means.
+
+
+- Default: No
+- Skill Group: None
+- Specializations: Spell Design, Focus Design, Spirit Formula
+
+##### ARTIFICING (MAGIC)
+
+Artificing is the process of crafting magical foci. The skill may also be used forensically, in order to assense qualities about an existing focus’ creation and purpose. See Artificing.
+
+
+- Default: No
+- Skill Group: Enchanting
+- Specializations: Focus Analysis, Crafting (by focus type)
+
+##### ASSENSING (INTUITION)
+
+Assensing is a magic user’s ability to read and interpret fluctuations in the astral world. This skill allows practitioners to learn information by reading astral auras. Only characters capable of astral perception may take this skill. For more information, see Astral Perception
+
+
+- Default: No
+- Skill Group: None
+- Specializations: Aura Reading, Astral Signatures, by aura type (Metahumans, Spirits, Foci, Wards, etc.)
+
+##### ASTRAL COMBAT (WILLPOWER)
+
+Fighting in Astral Space requires the Astral Combat skill. Combat in the Astral World relies on a very different set of abilities and attributes than physical combatants. See Astral Combat.
+
+
+- Default: No
+- Skill Group: None
+- Specializations: By specific weapon focus type, by opponents (Magicians, Spirits, Mana Barriers, etc.)
+
+##### BANISHING (MAGIC)
+
+Banishing is used to disrupt the link between spirits and the physical world. Banished spirits are forced to return to their native plane and are no longer required to complete unfulfilled services.
+
+
+- Default: No
+- Skill Group: Conjuring
+- Specializations: By spirit type (Spirits of Air, Spirits of Man, etc.)
+
+##### BINDING (MAGIC)
+
+Binding is used to compel a summoned spirit to perform a number of additional services. See Binding.
+
+
+- Default: No
+- Skill Group: Conjuring
+- Specializations: By spirit type (Spirits of Fire, Spirits of Earth, etc.)
+
+##### COUNTERSPELLING (MAGIC)
+
+Counterspelling is a defensive skill used to defend against magical attacks and dispel sustained magical spells. See Counterspelling.
+
+
+- Default: No
+- Skill Group: Sorcery
+- Specializations: By spell type (Combat Spells, Detection Spells, etc.)
+
+##### DISENCHANTING (MAGIC)
+
+This skill governs a character’s ability to remove the enchantment from an item. See Disenchanting.
+
+
+- Default: No
+- Skill Group: Enchanting
+- Specializations: By type (Alchemical Preparations, Power Foci, etc.)
+
+##### RITUAL SPELLCASTING (MAGIC)
+
+Ritual spellcasting is a spellcasting skill used to cast ritual spells. See Ritual Spellcasting.
+
+
+- Default: No
+- Skill Group: Sorcery
+- Specializations: By keyword (Anchored, Spell, etc.)
+
+##### SPELLCASTING (MAGIC)
+
+The Spellcasting skill permits the character to channel mana into effects known as spells. See Spellcasting.
+
+
+- Default: No
+- Skill Group: Sorcery
+- Specializations: By spell type (Combat Spells, Detection Spells, etc.)
+
+##### SUMMONING (MAGIC)
+
+This skill is used to summon spirits. See Summoning.
+
+
+- Default: No
+- Skill Group: Conjuring
+- Specializations: By spirit type (Spirits of Earth, Spirits of Man, etc.)
+
+#### Technical Active Skills
+
+##### AERONAUTICS MECHANIC (LOGIC)
+
+Aeronautics mechanics have the ability to repair a variety of aerospace vehicles, provided the proper tools and parts are available. See Building & Repairing
+
+
+- Default: No
+- Skill Group: Engineering
+- Specializations: Aerospace, Fixed Wing, LTA (blimp), Rotary Wing, Tilt Wing, Vector Thrust
+
+##### ANIMAL HANDLING (CHARISMA)
+
+This skill governs the training, care, riding (if they’re big enough), and control of non-sentient animals. Competent trainers have the ability to handle multiple animals. It is even possible to approach an untrained animal and get it to trust you, or at least not eat you.
+
+- Default: Yes
+- Skill Group: None
+- Specializations: By animal (Cat, Bird, Hell Hound, Horse, Dolphin, etc.), Herding, Riding, Training
+
+##### ARMORER (LOGIC)
+
+Armorer encompasses the broad array of skills required to build and maintain weapons and armor. As with all mechanics-based skills, the proper tools and equipment are required to perform any repair or build operation. For thresholds and information on determining success results, see Building & Repairing
+
+- Default: Yes
+- Skill Group: None
+- Specializations: Armor, Artillery, Explosives, Firearms, Melee Weapons, Heavy Weapons, Weapon Accessories
+
+##### ARTISAN (INTUITION)
+
+This skill includes several different forms of artistic impression as well as the handcrafting of fine objects that would otherwise be produced on an assembly line. The world’s top artists and crafters are considered artisans.
+
+- Default: No
+- Skill Group: None
+- Specializations: By discipline (Cooking, Sculpting, Drawing, Carpentry, etc.)
+
+##### AUTOMOTIVE MECHANIC (LOGIC)
+
+Automotive mechanics are tasked with fixing all types of ground-based vehicles ranging from commercial automobiles to wheeled drones to tanks. Repairs require the proper tools and time. See Building & Repairing
+
+- Default: No
+- Skill Group: Engineering
+- Specializations: Walker, Hover, Tracked, Wheeled
+
+##### BIOTECHNOLOGY (LOGIC)
+
+Biotechnology is a wide-ranging skill primarily used by doctors and scientists to grow organic body parts. This skill is the basis for cloning as well as all forms of bioware. Provided the right equipment is available, biotechnology can be used to repair damaged bioware, clone new tissue, or detect any bioware in a subject’s body. This skill does not allow characters to install or remove bioware.
+
+- Default: No
+- Skill Group: None
+- Specializations: Bioinformatics, Bioware, Cloning, Gene Therapy, Vat Maintenance
+
+##### CHEMISTRY (LOGIC)
+
+Chemistry permits the character to create chemical reactions and develop chemical compounds ranging from drugs, to perfumes, to biopolymers like NuSkin. Chemistry can also be used to analyze chemical compounds to determine what they are.
+
+- Default: No
+- Skill Group: None
+- Specializations: Analytical, Biochemistry, Inorganic, Organic, Physical
+
+##### COMPUTER (LOGIC)
+
+Computer is the base skill for interacting with the Matrix. It represents the ability to use computers and other Matrix- connected devices. The Computer skill focuses on understanding multiple operating systems. It does not allow the character to exploit code (Hacking) or strip down mainframes (Hardware). See Using Computer
+
+- Default: Yes
+- Skill Group: Electronics
+- Specializations: By action (Edit File, Matrix Perception, Matrix Search, etc.)
+
+##### CYBERCOMBAT (LOGIC)
+
+Cybercombat is the skill used by hackers to engage in combat on the Matrix. See Using Cybercombat
+
+- Default: Yes
+- Skill Group: Cracking
+- Specializations: By target type (Devices, Grids, IC, Personas, Sprites, etc.)
+
+##### CYBERTECHNOLOGY (LOGIC)
+
+Cybertechnology is the ability to create, maintain, and repair cybernetic parts. A character with the proper tools and parts may repair or even build new cybernetics. Cybertechnology is not a surgical skill. Characters cannot attach or re-attach cybernetics to organic material with this skill. This skill may be used to modify or upgrade cybernetics within cyberlimbs. See Building and Repairing
+
+- Default: No
+- Skill Group: Biotech
+- Specializations: Bodyware, Cyberlimbs, Headware, Repair
+
+##### DEMOLITIONS (LOGIC)
+
+Demolitions is used to prepare, plant, detonate, and often defuse chemical-based explosives. See Explosives
+
+- Default: Yes
+- Skill Group: None
+- Specializations: Commercial Explosives, Defusing, Improvised Explosives, Plastic Explosives
+
+##### ELECTRONIC WARFARE (LOGIC)
+
+Electronic Warfare is the basis of military signals intelligence. It governs the encoding, disruption, spoofing, and decoding of communication systems. Providing the user has the proper equipment, the skill can be used to manipulate or even take over the signal of any item’s communication system. See Using Electronic Warfare
+
+- Default: No
+- Skill Group: Cracking
+- Specializations: Communications, Encryption, Jamming, Sensor Operations
+
+##### FIRST AID (LOGIC)
+
+First Aid is the ability to provide emergency medical assistance similar to that of a paramedic. This skill may be used to stabilize wounds and prevent characters from dying. First Aid cannot be used to perform surgery or repair damaged implants. For more information, see Healing
+
+- Default: Yes
+- Skill Group: Biotech
+- Specializations: By treatment (Gunshot Wounds, Resuscitation, Broken Bones, Burns, etc.)
+
+##### FORGERY (LOGIC)
+
+Forgery is used to produce counterfeit items or alter existing items to a specific purpose. Depending on the type of forgery, the forger may need specific tools or schematics to complete the task. See Using Forgery
+
+- Default: Yes
+- Skill Group: None
+- Specializations: Counterfeiting, Credstick Forgery, False ID, Image Doctoring, Paper Forgery
+
+**USING FORGERY**
+
+Talented forgers can simulate anything from a signature to a credstick to the Mona Lisa. The skill is most often used for doctoring hardcopy IDs, signatures, and official paperwork, but it can be used to fabricate anything you can imagine and your skill level can handle. Creating a forgery is a `Forgery + Logic Test`. The limit for this test is either Physical (for forged art, signatures,and other physical objects) or Mental (for credsticks, documents, and other items that are more data than substance). Your dice pool is adjusted by appropriate modifiers (see the Build/Repair Table for suggestions), and given a time requirement by the gamemaster (an interval from the Extended Test Difficulties table is fine).
+
+The quality of the forgery is based on the number of hits scored on the test. This number acts as the threshold for attempts to spot the fake. Anyone examining a forgery makes an Opposed Test using a `Perception + Intuition [Mental]` Test or `Forgery + Intuition [Mental]` Test. If they score as many or more hits than the quality of the forgery, the item is exposed as a fake.
+
+Data-based forgeries, like credsticks, documents, and SINs, don’t really hold up well to scrutiny, what with information being so readily available. They can appear almost identical to the original, but any attempt to get it to act like the original (transfer nuyen, pass a SIN check, etc.) reveals the forgery.
+
+##### HACKING (LOGIC)
+
+Hacking is used to discover and exploit security flaws in computers and other electronics. For more on how Hacking is used, see Using Hacking
+
+- Default: Yes
+- Skill Group: Cracking
+- Specializations: Devices, Files, Hosts, Personas
+
+##### HARDWARE (LOGIC)
+
+Hardware reflects a characters ability to build and repair electronic devices. A workspace, proper materials, and sufficient build time are required to enact a repair or to build a new device. See Building & Repairing, at right.
+
+- Default: No
+- Skill Group: Electronics
+- Specializations: By hardware type (Commlinks, Cyberdecks, Smartguns, etc.)
+
+##### INDUSTRIAL MECHANIC (LOGIC)
+
+An industrial mechanic is tasked with repairing or modifying large-scale machines, such as assembly line equipment, power generators, HVAC units, industrial robots, etc. See Building and Repairing, at right.
+
+- Default: No
+- Skill Group: Engineering
+- Specializations: Electrical Power Systems, Hydraulics, HVAC, Industrial Robotics, Structural, Welding
+
+##### LOCKSMITH (AGILITY)
+
+This skill covers building, repairing, and opening mechanical and electronic locks. While largely banished to antiquity, traditional mechanical locking mechanisms are still in use around the globe, often as throwbacks or backups. Electronic locks are far more common and quite susceptible to your ministrations. See Doors, Windows, & Locks
+
+- Default: No
+- Skill Group: None
+- Specializations: By type (Combination, Keypad, Maglock, Tumbler, Voice Recognition, etc.)
+
+##### MEDICINE (LOGIC)
+
+Medicine is used to perform advanced medical procedures such as surgeries. It includes long-term medical support for disease and illness, and the skill can be used to diagnose a character’s medical condition. This skill is used to implant or remove cybernetics and bioware but cannot be used to repair or maintain implanted devices. For more information,
+see Healing, p. 205.
+
+- Default: No
+- Skill Group: Biotech
+- Specializations: Cosmetic Surgery, Extended Care,Implant Surgery, Magical Health, Organ Culture, Trauma Surgery
+
+##### NAUTICAL MECHANIC (LOGIC)
+
+Nautical Mechanic is concerned with the maintenance and repair of watercraft. This skill is only effective if the necessary equipment and time are available. See Building & Repairing below.
+
+- Default: No
+- Skill Group: Engineering
+- Specializations: Motorboat, Sailboat, Ship, Submarine
+
+##### NAVIGATION (INTUITION)
+
+Navigation governs the use of technology and natural instinct to navigate through territory. This skill enables characters to read maps, use GPS devices, follow AR nav points, or follow a course by landmarks or general direction sense. Navigation applies to both AR and non-AR-enhanced environments.
+
+- Default: Yes
+- Skill Group: Outdoors
+- Specializations: Augmented Reality Markers, Celestial, Compass, Maps, GPS
+
+**USING NAVIGATION**
+
+Since the advent of AR mapping, a walk through the sprawl never requires a test, but getting from A to B can be a lot tougher when the Matrix isn’t pointing the way. Navigation tests are required when you’re traversing unmarked or highly unfamiliar terrain, such as someone new to Seattle attempting to navigate the Ork Underground. It’s a Simple Navigation + Intuition [Mental] Test, with a threshold based on the terrain, taking into account modifiers for environmental factors such as poor visibility, landmarks, existing trails, advice from locals, and so on—your gamemaster will give you a tn
+
+##### SOFTWARE (LOGIC)
+
+Software is the skill used to create and manipulate programming in the Matrix. See Using Software.
+
+- Default: No
+- Skill Group: Electronics
+- Specializations: Data Bombs or by complex form (Editor, Resonance Spike, Tattletale, etc.)
+
+##### BUILDING & REPAIRING
+
+Building or repairing an object is an Extended Test that the gamemaster may decide requires certain tools or facilities. Modifiers from the Build/Repair Table /should be applied to the test. Characters electing to design new items must have the appropriate Knowledge skills to conceptualize and create schematics. The gamemaster assigns a threshold and interval for the Extended Test using the Task Difficulty Table
+
+**Build and Repair Table**
+
+| SITUATION                  | MODIFIER           |
+| -------------------------- | ------------------ |
+| Working Conditions         | ================== |
+| Distracting                | –1                 |
+| Poor                       | –2                 |
+| Bad                        | –3                 |
+| Terrible                   | –4                 |
+| Superior                   | +1                 |
+| Tools and/or Parts Are:    | ================== |
+| Inadequate                 | –2                 |
+| Unavailable                | –4 or not allowed  |
+| Superior                   | +1 or more         |
+| Plans/Reference Materials: | ================== |
+| Available                  | +1                 |
+| Augmented Reality Enhanced | +2                 |
+| Working from Memory        | ================== |
+| Logic 5+                   | +0                 |
+| Logic 1–4                  | –(5 – Logic)       |
+
+#### Vehicle Active Skills
+
+Vehicle skills are used for driving and performing combat maneuvers with vehicles (see Vehicles). Unless otherwise noted, Vehicle skills are linked to Reaction.
+
+##### GUNNERY (AGILITY)
+Gunnery is used when firing any vehicle-mounted weapon, regardless of how or where the weapon is mounted. This skill extends to manual and sensor-enhanced gunnery.
+
+- Default: Yes
+- Skill Group: None
+- Specializations: Artillery, Ballistic, Energy, Guided Missile, Rocket
+
+##### PILOT AEROSPACE
+Aerospace vehicles include all reduced- and zero-gravity aircraft capable of suborbital or extra-orbital flight.
+
+- Default: No
+- Skill Group: None
+- Specializations: Deep Space, Launch Craft, Remote Operation, Semiballistic, Suborbital
+
+##### PILOT AIRCRAFT
+This skill is used to pilot any manned or unmanned aircraft operating solely within planetary atmosphere.
+
+- Default: No
+- Skill Group: None
+- Specializations: Fixed-Wing, Lighter-Than-Air,
+Remote Operation, Rotary Wing, Tilt Wing, Vectored Thrust
+
+##### PILOT WALKER
+Any vehicle that walks on two or more legs is piloted through this skill. Characters may control the walker
+physically or remotely.
+
+- Default: No
+- Skill Group: None
+- Specializations: Biped, Multiped, Quadruped, Remote
+
+##### PILOT EXOTIC VEHICLE (SPECIFIC)
+Characters must take this skill one time for each specific exotic vehicle. Characters may control the vehicle remotely with this skill where possible.
+
+- Default: No
+- skill Group: None
+- specializations: N/A
+
+##### PILOT GROUND CRAFT
+This skill is used to pilot any ground-based vehicle, excluding legged vehicles. This skill applies whether the pilot is in the vehicle or controlling the vehicle via remote access.
+
+- Default: Yes
+- Skill Group: None
+- Specializations: Bike, Hovercraft, Remote Operation, Tracked, Wheeled
+
+##### PILOT WATERCRAFT
+This skill is used to pilot any waterborne vehicle, whether from inside it or by remote control.
+
+- Default: Yes
+- Skill Group: None
+- Specializations: Hydrofoil, Motorboat, Remote Operation, Sail, Ship, Submarine
 
 
 
@@ -2265,7 +2898,7 @@ Gel rounds: These less-lethal rounds use a hard, jelly-like substance that is a 
 
 Hollow point rounds: Hollow point or dum dum rounds have their tips indented, so they are designed to “mushroom” or expand on impact, becoming a hail of deadly fragments not unlike flechettes, although hollow points are a much older technology. Like flechettes, hollow points work better on unarmored targets and tend to flatten against armor.
 
-Injection darts: For use with dart guns of various types, like the Parashield pistol and rifle. Each injection dart carries a single dose of a drug or toxin (sold separately). The effect of the dart depends on the drug payload, but to successfully deliver that payload, the attack with the dart must get at least one net hit against an unarmored target or three net hits against a target with armor. This is an injection vector toxin attack.
+Injection darts: For use with dart guns of various types, like the Parashield pistol and rifle. Each injection dart carries a single dose of a drug or toxin (sold separately). The effect of the dart depends on the drug payload, but to successfully deliver that payload, the attack with the dart must get at least one net hit against an unarmored target or three net effect against a target with armor. This is an injection vector toxin attack.
 
 Regular ammo: Also called ball or full metal jacket rounds, these solid slugs are useful for numerous applications (mainly killing things).
 
