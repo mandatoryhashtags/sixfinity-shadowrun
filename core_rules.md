@@ -410,18 +410,7 @@ Lifeblood = Body + Misc Bonuses
 
 #### Toughness
 
-Toughness = [Body + Augmentation Adjustments / 3] Round Up 
-
-This is how much damage you can naturally ignore. It does not apply to Penetrating damage. 
-
-Example: Sarah is fighting a Security Guard. 
-
-- Sarah is hit by a Ruger Super Warhawk (9P, AP –2). The attacker rolled 3 Effect, for a DV of 12.
-- Sarah’s Armor Jacket (10) is reduced by AP –2 → 8 effective Armor.
-- DV 12 – 8 Armor = 4 damage left.
-- Of this, 2 damage is penetrating and bypasses Toughness.
-- Sarah’s Toughness 3 absorbs the remaining 2 non-penetrating damage.
-- Final Result: 2 damage goes through.
+Toughness is a measure of how well prepared you are to take a blow, or to encourage it to miss you. It is used in virtually all combat situations. To generate it, add your Armor rating to Body. Some qualities and gear may affect this.
 
 #### Movement
 
@@ -429,34 +418,29 @@ Base movement for any character is 10 + Agility in Yards.
 
 #### Initiative
 
-This is used for Initiative it is also used for Passive checks. Initiative is pre-determined to speed up combat.
+Initiative is used to determine who goes first in combat. Add your Reaction + Intuition for your base, then write how many Initiative Dice you have. You start with a default of 1; this may be increased by augmentations. It looks like this when written: 9 + 1D6
 
-This can be modified with Courage, Augmentations, raising Attributes etc.
-
-Initiative = Reaction + Intuition + 4
+Initiative = Reaction + Intuition + 1D6
 
 #### Courage Points
 
 List your Courage Rating after character creation.
 
-#### Limits
-Limits are your Effect limits. No matter how well you roll. There are limits to the body, those limits will limit how much Effect you can apply to situations. Often times you will be more limited by your equipment than your body. Accuracy on a weapon for example, is a limit to how much Effect you can apply as extra damage.
+#### Composure (Willpower + Charisma)
 
-##### Mental
+When the stress is running hot, the gamemaster can call for a test to see if you keep your cool. The gamemaster sets the threshold, and the player makes the roll to see if they stay engaged or start freaking out. Note that repeated exposure to certain types of situations reduces the need for Composure tests in those situations
 
-[(Logic x 2) + Intuition + Willpower] / 3 (round up)
+#### Judge Intentions (Willpower + Intuition)
 
-For example if you have a Logic of 5, a Intuition of 3 and a Willpower of 4 your Mental Limit would be 6.
+Sometimes you just need a roll to get a read on someone. The Judge Intentions test is just that. Once you’ve had enough time to get a read on someone (as judged by the gamemaster), you can make a roll to help fill in your basic attitude and feelings toward the target. Just remember that a good part of Mr. Johnson’s training is dedicated to getting you to trust them when you shouldn’t.
 
-[(5 x 2) + 3 + 4] / 3 = 5.667, rounds up to 6.
+#### Memory (Logic + Intuition)
 
-##### Physical
+Most of us don’t remember our lives with one hundred percent clarity. We’re influenced by the mood at the time we formed a memory, the current mood, the presence or absence of memorable stimuli, or even slight oddities in the details. Then you have the tricks our mind plays in distorting memories to make us the heroes of our own story, and things get really weird. When it’s time to make a withdrawal from the memory bank, the gamemaster sets a threshold based on the age and complexity of the information, and you can roll to determine whether or not you recall the information you want. It may be about remembering a face, recalling a critical piece of information, pulling up a detail from the past that will help you understand what’s happening in front of you right now, or some other mental feat.
 
-[(Strength x 2) + Body + Reaction] / 3 (round up)
+#### Lift/Carry (Body + Willpower)
 
-##### Social
-
-[(Charisma x 2) + Willpower + Essence] / 3 (round up)
+As any professional powerlifter or crossfit champ will tell you, it’s not all in the muscles. You need the will to persevere in order to pull that little extra bit for the big efforts. Whether it’s pulling a comrade out of danger or flipping a car to cover your getaway, this is going to be the roll when there’s a question on whether or not it can be done. Characters can lift `[(Strength x Strength) x 20]` pounds naturally; if they need to raise the weight over their head, the multiplier drops to 10. Making a Lift/Carry test increases your effective Strength by 1 per net hit. It also does 1 Stun damage, resisted by Body. The damage increase by +1 each combat round you continue holding or carrying the weight.
 
 ### Character Advancement
 
@@ -493,96 +477,52 @@ A Species block contains the following information:
 - Ability Adjustments
 - Extra Features like Night Vision
 
-### Humans
-Identification: Humans stand·about 5'6 high and weigh
-about 140 kilograms. Coloration Is valiable, from pinkish-white to
-ebony. There are three major ethnic groups, each of which varies
-considerably in size, coloration, and hair distribution and quality,
-but the ears are always rounded, the skull has 32 teeth, and the
-women have 2 mammae.
+### Humans (homo sapiens sapiens)
+• Average height: 5'6
+• Average weight: 140 pounds
+• Ears: Rounded
+• Known for: Average size; average build; freaking out about people who don’t meet their averages
+• Racial qualities: Humans have no extra racial qualities.
 
-Habitat: Humans prefer to dwell in roofed structures.
+As the majority of the sentient beings of the world, humans create existing definitions of “normal,” and then some of them set out to abuse those definitions as hard as they can. These humans know that they lack the pure physical strength and social cohesion of some of the other metatypes, so they shape the world in a way that keeps the individuals they don’t like from ever realizing what they can do, and what they can become. The side effect of this, of course, is that many humans are caught up in the demoralizing machinery that the ruling corporate class has assembled, because they don’t fit into this artificial average. They are grist for the mill, people to be chewed up and spat out in the name of greater wealth and power for the people at the top. Because they’re humans, and there are so many of them, who’s going to notice how they’re ground down, and who is going to miss them when they’re gone? The shadows are full of humans who could not find a way to be normal or average.
 
-Habits: Most humans prefer daytime activity. Their diet is omnivorous.
-Human populations live in small family groups, pairs of adults,
-or alone. The worldwide average human life span is 85 years. The
-breeding season is unrestricted. Gestation is 266.5 days.
+### Elves (homo sapiens nobilis)
+- Average height: 1.9 meters
+- Average weight: 80 kg
+- Ears: Pointy
+- Known for: Slender, lithe build; being attractive and knowing it
+- Racial qualities: Elves have low-light vision
 
-Young: Usually one. Twins are uncommon and higher multiples
-even rarer. Birth weight is 5.5 percent of mother's weight. Suckling
-time is more than twelve months. An individual offspring may be
-of subspecies robustus or ingentis and may express (undergo
-Unexplained Genetic Expression) at puberty.
+Perhaps the most infuriating thing about elves to the other metatypes is that you can resent them like hell, and they just won’t care. They have two prosperous nations—Tír na nÓg (formerly known as Ireland) and Tír Tairngire (in the western part of North America)—they have people in some of the most powerful positions in the world, and celebrities whose MeFeed hits are in the billions. They are envied, not looked down on. But plenty of elves know that this envy does not extend to every elf. If you’re an elf who is not rich, elegant, or graceful, you’re often viewed as a failure, someone who had all the gifts of life handed to them and somehow screwed them up. And it’s not just nonelves who hold this view. Never mind that you might have grown up poor, never mind what obstacles you had to face—people think you automatically had it easy because you’re an elf. But elf society is not easy to survive. The upper crust can be absolutely ruthless about enforcing their status quo, labeling those who don’t fit as malcontents and finding ways to cast them aside. The barrens of the major sprawls of the world have plenty of elves who were thrown out because they wouldn’t cave to what society wanted them to be. Their anger could burn the whole earth.
 
-Commentary: As the form of Homo sapiens present throughout recorded history, Homo sapiens sapiens is sometimes called "normal," as distinguished from other subspecies. This is not a scientific term, as any subspecies is just as normal as another. In common usage, the term differentiates sapiens from the groups of "metahumans" whose existence has been recorded since 2011.
+### Dwarfs (homo sapiens pumilionis)
+Average height: 1.2 meters
+- Average weight: 54 kg
+- Ears: Slightly pointy
+- Known for: Short size; stocky build; perseverance
+- Racial qualities: Dwarfs have thermographic vision and toxin resistance.
 
-**Ability Adjustments**
-- The Human Spirit: +1 Courage
-- All attributes limit is 6
-
-### Elf
-Identification: The height of the typical elf Is 6ft, and his weight is 114 pounds. Coloration is pale pink to white or ebony. The females have 2 mammae, and all elves have 32 teeth. Nobilis Is more slender than sapiens and has a lighter build. though the bone structure and musculature are equally strong. The slenderness is exaggerated in nobilis of Polynesian and Australian aboriginal origin. Elven body hair is sparse, but head hair is usually luxuriant and extremely fine. Elven hair is usually straight or slightly wavy, and Is almost always worn long. There are also several populations showing tightly curled head hair, however. The eyes are almondshaped; in darker-skinned nobilis they are often slightly protuberant. The ears come to a definite point.
-
-Habitat: In urban areas, elves inhabit standard human structures. In wilderness areas. they prefer to live In structures built of natural materials or living plants.
-
-Habits: Elves are nocturnal beings. Their diet Is vegetarian. They tend to live In small groups, preferably apart from the rest of humanity. The elf life-expectancy is unverified, with possible life spans of several hundred years, but metabolic studies are inconclusive. The elven breeding season is unrestricted. Gestation Is 360 days.
-
-Young: Usually one, though twins are common. In such cases, only one is nobilis, with the other usually nonviable. Birth weight is 5.2 percent of mother's weight. Suckling time Is more than 25 months.
-
-Commentary: Elven eyes are heavily endowed with rod structures. This allows them to see in dim light far better than sapiens.
-
-**Ability Adjustments**
-- Racial Abilities: Low light Vision
-- Agility Maximum is 7, Presnce Maximum is 8
-
-### Dwarf
-Identlftcatlon: The average dwarf is 4ft tall and weighs 108 pounds. His coloration is usually pinkish-white or light tan, but may be as dark as ebony. Female dwarfs have 2 mammae, and all dwarfs have 32 teeth. Dwarf legs are disproportionately short, making them poor runners. Their torsos are wide, with great breadth at the shoulders, endowing the subspecies with increased arm strength. Their body hair is well-developed and head hair profuse: males have extensive facial hair. The dwarf nose tends to be large and long, and the ears slightly pointed.
-
-Habitat: This subspecies prefers artificial or natural caverns in wilderness areas. In urban environments, dwarfs show a preference for dwelling in basements or subbasements.
-
-Habits: Dwarfs may be active by day or night. Their diet is omnivorous. Populations form small family groups, and though they show isolationist tendencies, small enclaves are found in communities all over the world. Their life span is unverified, but predictions based on metabolic rates run to more than a hundred years. Their breeding season is unrestricted. The gestation period is 284 days.
-
-Young: One. Birth weight is 5.6 percent of mother's weight. Suckling time is more than 15 months.
-
-Commentary: With eyes sensitive to the infrared spectrum, a dwarfs activity is as unrestricted underground as above. Dwarf phenotypes also show an increased resistance to pathogens.
-
-**Ability Adjustments**
-- Racial Abilites: Thermographic Vision, Resistance to Poison 
-- Body Maximum is 8, Strength Maximum is 8, Charisma Maximum is 5, Movement is 8 yards instead of 10.
-
-### Orc
-Identification: Orks are 6ft tail and weigh 190 pounds. Their skin coloration vanes from pale pink to ebony. Ork bodies are proportioned similarly to that of 5aplens, but robustus is more heavily built. Head hair is usually more prominent than the sapiens ethnic group from which the Individual robustus was derived. The ork nose tends to be broad and the lips thin. The ears show definite points and are sometimes elongated as well. The ork skull has 32 teeth, with greatly enlarged lower canines. Ork females have 2 mammae.
-
-Habitat: Usually in roofed buildings.
-
-Habits: Orks are active day and night, but seem to prefer the night. Their diet is omnivorous, but with a distinct preference for meat. Populations form large groups, often with a tribal structure. The typical life span appears to be between 35 and 40 years. Their breeding season Is unrestricted. Gestation is 187 days.
-
-Young: Ork mothers usually bear four children, but births of six or eight are not uncommon. Birth weight is 4.2 percent of mother's weight. Suckling time is more than seven months. Most newborns are obviously robustus, but may appear as sapiens; 95 percent of the latter will express at puberty, which occurs around age ten.
-
-Commentary: The higher proportion of rod over cone structures in the ork's eyes allows enhanced low-light vision. Individuals expressing into robustus usually evidence negative psychological effects, with severe psychoses and aberrant behavioral patterns common. Individuals born robustus usually socialize normally.
-
-**Ability Adjustments**
-- Racial Abilites: Low Light Vision
-- Body Maximum is 9, Strength Maximum is 8, Intelelct Maximum is 5, Charisma Maximum is 5
-
-### Troll
-Identification: Trolls measure 9ft and weigh 450 pounds. Skin color varies from pinkish-white to mahogany brown, and usually remains unchanged after ingentisization, or transformation into troll form. Ingentis body proportions differ from those of sapiens, with the ratio of arm-to-leg length significantly higher in ingentis. Trolls are very heavily built and occasionally exhibit dermal bone deposition, resulting in spines, rough surface texture, or an armor-plated effect. Body hair is usually well-developed, but may be absent altogether. Head hair is usually more prominent than among the Sapiens ethnic group from which the individual ingentis was derived. The nose tends to be broad. The ears show definite points and are sometimes elongated. The sloped skull has 34 teeth; lower canines are enlarged and molars display extreme convolutions, which researchers interpret to mean that ingentis teeth are constantly regenerating. Troll females have 2 mammae.
-
-Habitat: Trolls who live In wilderness areas use caverns and converted structures such as bridges for their dwelling places. In urban areas, they prefer areas shunned by "normals,.. such as sewers or derelict buildings.
-
-Habits: Trolls prefer nighttime activity. Their diet is omnivorous. Populations usually congregate in small groups, which often cohabit with subspecies robustus. Metabolic studies and direct observation indicate a life expectancy of about 50 years. The breeding season Is unrestricted. Gestation Is 259 days.
-
-Young: Usually one. Birth weight is 2.5 percent of mother's weight. Suckling time is more than 15 months.
-
-Commentary: The sensitivity of trolls' eyes to the infrared portion of the spectrum allows a troll almost unrestricted activity after dark.
-
-Expression from sapiens to ingentis adversely affects an individual's mental condition, often resulting in psychosis and aberrant behavioral patterns. Individuals born as ingentis do not experience this trauma and usually socialize normally
+Sixth World dwarfs are often accepted into mainstream society without being fully valued. The taller metatypes seem to be happiest when dwarfs fit the roles they have preconceived for them— sidekicks, drivers, mechanics, that sort of thing. It doesn’t help that their size helps them squeeze into vehicles that orks, humans, and elves might have difficulty with, ones that trolls couldn’t even consider using. Still, they get work and little direct hate. They’re treated nicely, but they can’t help but feel that they’re being, well, overlooked. Dwarfs across the globe are dedicated to showing that they cannot be ignored. Dwarf deckers, street samurai, covert ops specialists, faces, and more are popping up in the international shadows, and others underestimate them at their peril. The lack of heightened antipathy against dwarfs helped them assimilate in human communities better than other metatypes. This means that they do not have as many of their own enclaves as some of the other metatypes (it also doesn’t help that they don’t have access to whatever stream of revenue the elves tap into build their kingdoms). With the founding of the dwarf-centric Biloxi Technical Institute, southern Mississippi in the CAS is becoming a dwarf haven. What that will grow into and how that will shape the world is anyone’s guess.
 
 
-**Ability Adjustments**
-- Racial Abilites: Thermographic Vision
-- Toughness: +1 from Natural Armor
-- Body Maximum is 8, Agility Maximum is 5, Strength Maximum is 8, Charisma Maximum is 4
+### Orks (homo sapiens robustus)
+- Average height: 1.9 meters
+- Average weight: 128 kg
+- Ears: Pointy- Known for: Big, powerful physique; tusks; constantly being seen as outsiders
+- Racial qualities: Orks have low-light vision and the Built Tough (1) quality
+
+Orks make people nervous, and people don’t like to be nervous. Their tusks, bone structure, and pointed ears mark them as something altogether else, and their strength and size clearly show the damage they could do. As humans have done for centuries, they address the thing they fear by pushing them aside, keeping orks from building collective strength, and crushing them with the sheer force of numbers. That approach works as long as you can keep fear stoked and have it immobilize the masses. Because if people can move past the fear and start to understand the deliberate injustice that has been forced on some groups, they separate themselves from society’s machine, and the number of people used to enforce oppression gets smaller. Oppressors aren’t especially good at developing new solutions to such problems— they usually just resort to oppressing harder. So while realization of the injustices they deal with is spreading, orks across the Sixth World are preparing for things to get worse so that they can survive and set about the work of making things better. They already have some enclaves carved out for themselves— Seattle’s Underground, Atlanta’s Sweetwater Creek, Dharavi in the Indian Union—and they hope those locales will be the starting points for societies that include orks instead of fearing them.
+
+
+### Trolls (homo sapiens ingentis)
+- Average height: 2.5 meters
+- Average weight: 300 kg
+- Ears: Slightly pointy, often hidden by horns
+- Known for: Being so big, you guys. Just huge. And horns.
+- Racial qualities: Trolls have thermographic vision, the Built Tough (2) quality, and dermal deposits (which provide +1 to trolls’ Defense Rating).
+
+It’s not easy to live in a society where you look like the walking embodiment of everyone else’s nightmares. Being two to three times as large as everyone else doesn’t help much, either. It’s not a troll’s world, and most of the other residents of the world aren’t inclined to change that fact. Who wants to make space for imposing monsters? Trolls are going to have to force their way into a place in the world—of course, when they force their way in anywhere, they’re inevitably called vandals and destroyers. A significant number of trolls have looked at the way the deck is stacked against them and decided they don’t need to play the rest of the world’s game anymore. They’ll stand aside and watch the world burn—and maybe throw on an extra match every now and then. The Black Forest Troll Republic is one of the most important troll communities in the world, acting as a beacon and vision for what troll society can be while keeping a certain distance from everyone else. Whether they assimilate or build a higher wall is an open question. Trolls have the most difficult time adapting to other metatypes because their bodies are so different. It’s more than just the size and the horns— they have dermal deposits all over their bodies that make knobs, bumps, and other formations. They scrape up furniture and clothing, and make some people think twice about giving a troll a big bear hug. Especially since there are few people who can wrap their arms around a whole troll.
+
 
 
 
@@ -2513,23 +2453,23 @@ Every item described in this chapter includes a set of statistics. Every item ha
 
 ### Melee Weapons
 
-| **Blades**          | **Accuracy** | **Reach** | **Damage**   | **AP** | **Avail** | **Cost** |
-| ------------------- | ------------ | --------- | ------------ | ------ | --------- | -------- |
-| Combat Axe          | 4            | 2         | (STR/2 + 4)P | -1     | 12R       | 4,000¥   |
-| Combat knife        | 6            | -         | (STR/2 + 1)P | -1     | 4         | 300¥     |
-| Forearm snap-blades | 4            | -         | (STR/2 + 2)P | -      | 7R        | 200¥     |
-| Katana              | 7            | 1         | (STR/2 + 3)P | -1     | 9R        | 1,000¥   |
-| Knife               | 5            | -         | (STR/2 + 1)P | -      | —         | 10¥      |
-| Pole arm            | 5            | 2         | (STR/2 + 2)P | -1     | 6R        | 1,000¥   |
-| Survival knife      | 5            | -         | (STR/2 + 1)P | -1     | —         | 100¥     |
-| Sword               | 6            | 1         | (STR/2 + 3)P | -      | 5R        | 500¥     |
-| **Clubs**           | **Accuracy** | **Reach** | **Damage**   | **AP** | **Avail** | **Cost** |
-| Club                | 4            | 1         | (STR/2 + 1)P | —      | —         | 30¥      |
-| Extendable baton    | 5            | 1         | (STR/2 + 1)P | —      | 4         | 100¥     |
-| Sap                 | 5            | 1         | (STR/2 + 1)S | —      | 2         | 30¥      |
-| Staff               | 6            | 2         | (STR/2 + 2)P | —      | 3         | 100¥     |
-| Stun baton          | 4            | 1         | 6S(e)        | -5     | 6R        | 750¥     |
-| Telescoping staff   | 4            | 2         | (STR + 2)P   | —      | 4         | 350¥     |
+| **Blades**          | **Damage**   | **Avail** | **Cost** |
+| ------------------- | ------------ | --------- | -------- |
+| Combat Axe          | (STR/2 + 4)P | 12R       | 4,000¥   |
+| Combat knife        | (STR/2 + 1)P | 4         | 300¥     |
+| Forearm snap-blades | (STR/2 + 2)P | 7R        | 200¥     |
+| Katana              | (STR/2 + 3)P | 9R        | 1,000¥   |
+| Knife               | (STR/2 + 1)P | —         | 10¥      |
+| Pole arm            | (STR/2 + 2)P | 6R        | 1,000¥   |
+| Survival knife      | (STR/2 + 1)P | —         | 100¥     |
+| Sword               | (STR/2 + 3)P | 5R        | 500¥     |
+| **Clubs**           | **Damage**   | **Avail** | **Cost** |
+| Club                | (STR/2 + 1)P | —         | 30¥      |
+| Extendable baton    | (STR/2 + 1)P | 4         | 100¥     |
+| Sap                 | (STR/2 + 1)S | 2         | 30¥      |
+| Staff               | (STR/2 + 2)P | 3         | 100¥     |
+| Stun baton          | 6S(e)        | 6R        | 750¥     |
+| Telescoping staff   | (STR + 2)P   | 4         | 350¥     |
 
 #### Melee Weapon Descriptions
 
@@ -3185,7 +3125,16 @@ Commlinks are universal communication devices; they’re used by everyone all th
 
 Sim Module: This commlink upgrade gives you the simsense experience, translating computer data into neural signals that allow you to directly experience simsense programs and augmented reality. A sim module must be accessed via a direct neural interface (trodes, datajack, or implanted commlink). Sim modules are a must-have for virtual reality of sorts, including VR clubs, VR games, simsense, and darker virtual pleasures. Sim modules can be modified for hot-sim, which opens up the full (and dangerous) range of VR experiences.
 
+### Cyberdecks
 
+| ITEM                | DEVICE RATING | HARDENING | ACTIVE PROGRAM SLOTS | AVAIL | COST     |
+| ------------------- | ------------- | --------- | -------------------- | ----- | -------- |
+| Erika MCD-6         | 1             | 4/3       | 2                    | 3(I)  | 24,750¥  |
+| Spinrad Falcon      | 2             | 5/4       | 4                    | 3(I)  | 61,500¥  |
+| MCT 360             | 3             | 6/5       | 6                    | 3(I)  | 95,000¥  |
+| Renraku Kitsune     | 4             | 7/6       | 8                    | 4(I)  | 107,000¥ |
+| Shiawase Cyber-6    | 5             | 8/7       | 10                   | 5(I)  | 172,500¥ |
+| Fairlight Excalibur | 6             | 9/8       | 12                   | 6(I)  | 410,600¥ |
 
 ## Chapter 8: Combat
 
@@ -3313,6 +3262,27 @@ Every **combat round** a character gets:
 - 1 Major Action and 1 Minor Actions
 
 
+| Minor Actions                 | Major Actions               |
+| ----------------------------- | --------------------------- |
+| Activate/Deactivate Focus (I) | Assist (A)                  |
+| Avoid Incoming (A)            | Astral Projection (I)       |
+| Block (A)                     | Attack (I)                  |
+| Call a Shot (A)               | Banish Spirit (I)           |
+| Change Device Mode (A)        | Cast Spell (I)              |
+| Command Drone (I)             | Cleanse (I)                 |
+| Command Spirit (I)            | Counterspell (I)            |
+| Dismiss Spirit (A)            | Full Defense (I)            |
+| Dodge (A)                     | Manifest (I)                |
+| Drop Object (A)               | Observe in Detail (I)       |
+| Drop Prone  (I)               | Pick Up/Put Down Object (I) |
+| Intercept (A)                 | Ready Weapon (I)            |
+| Move (I)                      | Reload Weapon (I)           |
+| Multiple Attacks (I)          | Rigger Jump In (I)          |
+| Quick Draw (I)                | Sprint (I)                  |
+| Reload Smartgun (I)           | Summon Spirit (I)           |
+| Shift Perception (I)          | Use Simple Device (I)       |
+| Stand Up (I)                  | Use Skill (I)               |
+| Take Cover  (I)               |
 
 
 
@@ -3320,7 +3290,7 @@ Every **combat round** a character gets:
 
 
 #### Minor Actions
-A Minor Action is one step more complicated than a Free Action and requires a bit more concentration to attempt. Only a few Minor Actions, however, require a Success Test to accomplish. Minor Actions can only be taken on a character’s turn.
+These actions usually take only a small amount of focus or a quick and simple thought or movement. A key point among Minor Actions is that they generally do not require a test of any kind. That doesn’t mean in truly dire situations where the pressure is on that the gamemaster can’t ask for a test to be made—it just means that usually, as long as you have the action available, you can perform the task by simply declaring the use of it.
 
 - Dash
 - Change Gun Mode
@@ -4897,3 +4867,373 @@ The Grid is the physical network of all computer systems interconnected by the w
 In 2053, hard-core computer systems users, those whose work entails sifting, sorting, and routing vast and complex amounts of data, do not simply use their computer system. They inhabit it.
 
 Matrix technology places the user inside a computer-generated simulation of the computer system known as a virtual reality. Everything in the Matrix is a graphic (visual) representation of some physical component (like a datastore or processor), a program (like a data-sifting browse program or an intrusion countermeasures program), or an action (like copying a file, changing a code, and so on). The computer operator of 2053 does not sit in some cubicle in some department somewhere staring at a computer screen and typing away, along with hundreds of other wage slaves. The operator's physical body may be in such a cube, but his senses are inside a wondrous neon and chrome symbolic representation of the data with which he is working. A good analogy might be to actually being inside a video game. The data moves and changes in response to the operator's mental commands, the Matrix technology translating his or her thoughts (with some physical, keyboard-based assistance) into computer-system commands. Instead of having to remember countless keystrokes and command words to get the work done, the computer operator just does it. Compared to his or her counterparts of the late 20th century, work is easy.
+
+**ACCESSING THE MATRIX**
+
+There is only one way Into the Matrix, and that is with a "Matrix
+imaging Cybernetic Interface Device," or cyberdeck. Other interface
+devices still exist, but they are old tech. The cyberdeck Is the
+only choice for someone who wants an edge. Leave the big, ugly,
+slow stuff to the corporate wage slaves.
+
+To connect into the Grid, all decks have a fiber-optic cable with
+a standard data plug like those found on home telecom systems. With
+the right tools, a decker can drop a neat little tap into any existing
+comm line to accommodate that plug. All that remains is to power
+up the deck, jack into it, and go. The deck connects to its user either
+via an electrode net that slips over the head (the way of cowards), or
+with a direct cybernetic Interface through a datajack (the only way to
+fly.) Some deckers still use some form of keyboard assistance, but
+many prefer running with a pure cybernetic hook-up.
+
+The deck, once activated, overrides most of the user's own
+sensory information and replaces It with an electronic simulation
+known as simsense. The simsense ( "simulated senses") signal
+translates the complex code-structures of the actual Grid Into the
+graphic representation of the Matrix. The deck, knowing that the
+user's signal is traveling through a dataline, feeds the user a
+simsense signal that makes it look (and feel) like the user is zooming
+down a neon tunnel. When the decker Is about to enter the vast
+computer systems of Fuchl Industrial Electronics, for example, the
+deck gives that system the appearance of a giant, five-pointed
+chrome star many thousand times the size of the decker. Fuchi's
+computer system does not actually look like a chrome star, but
+thanks to the cyberdeck, that is what the decker sees.
+
+**ENTERING THE MATRIX**
+
+After a second of disorientation, the decker (that is, the Matrix
+image of the decker character) appears in the Matrix at the point
+where the cyberdeck tapped into the Grid. If he enters from an
+Illegal tap In the back room at Matchstick's Bar&.. Grill. the decker's
+image will appear in the telecom line that serves the joint.
+
+The decker appears standing next to the deck· s construct. ( In the
+Matrix, the representations of physical systems, such as a computer
+system, a node, or even a cyberdeck, are referred to as constructs.)
+It is usually a small. white pyramid that looks the same as a licensed,
+legal cyberterminal. It can assume any shape the decker wants, but
+most deckers like to keep a low profile, and so they leave the
+appearance of their entry point as is. On the other hand, some of the
+really hot deckers don't give a drek whether or not they get spotted.
+The late, great St. Louis Blue used to Image his deck construct like a
+carnival tent with a neon sign that said "lhis deck belongs to the
+meanest dude in the Matrix." (Damn shame about old Blue.)
+
+Usually, the decker plugs into the Local Telecommunications
+Grid, or LTG. The LTG is the equivalent of an area code in an antique
+telephone system, providing connections to all the phone systems
+(and computer systems) within that area code. Getting Into the LTG
+Is easy. It's only when the decker wants to travel to another part of
+the Grid, or to any computer system linked to the LTG, that things
+get interesting.
+
+**SECURITY RATINGS**
+
+All computer systems In the Matrix consist of a group of nodes,
+which are connected to the L TG through a SAN. All the nodes In the
+Matrix have a general Security Rating. This Security Rating reflects
+the relative ease or difficulty with which a decker can manipulate
+that node. Each node can also have an additional protection
+program known as Intruder countermeasures (IC) assigned to It.
+
+The general Security Rating of a node Is denoted by a color (Its
+Security Code) and a numeric System Rating. The Security Rating Is
+very Important, because whenever a decker attempts to do anything
+to any part of the node, he must first overcome the node's
+general Security Code, so that It will start to execute his orders,
+which are given via a program.
+
+At the same time, most IC programs w111b e trying to get an
+Intruding cyberdeck to execute their programs In order to dump the
+decker out of the Matrix or do something else equally nasty. In the
+artificial environment of the Matrix, this attempt might manifest
+Itself as an actual attack against the decker's persona (the Matrix
+image), but In the real world, the nasty corp IC Is really trying to
+muck up the Insides of the deck, just like the decker Is mucking with
+the Insides of their main frame. lsn 't symmetry a grand thing?
+The color of the Security Code indicates the difficulty of getting
+that node to execute unauthorized programs or instructions-and
+let's face it, anything the decker does in the Matrix Is unauthorized.
+The higher the Security Code, the more successes the decker needs
+to get a node to even listen. For example, getting a blue datastore
+to execute an order to download a file requires 1 success on a
+Computer Sklll Test. Getting a red datastore to execute the same
+instruction takes 4 successes.
+
+Blue nodes are open and have no appreciable security. Small
+personal computers, free advertising databases, public service networl<
+s, and so on are blue nodes. Getting a blue database to download
+its Information requires 1 success on a Computer Sklll Test.
+
+Green nodes have minor levels of security. These are usually
+systems with limited membership or that charge fees for access.
+Public library databases, subscription services, and most telecom
+grids are green systems. Breaklng a green code requires 2 successes
+on a Computer Sklll Test.
+
+Orange nodes are considered quite secure. This Is the typical
+Security Code for any government or corporate system not containing
+highly dasslfled data. Computer systems belonging to criminals
+are often protected by orange IC as well. To crack an orange security
+code requires 3 successes on a Computer Sklll Test.
+
+Red nodes are "top secret." Classified government systems,
+corporate financial and research and development systems, and the
+systems belonging to organized crime syndicates are typical examples.
+To break this top-secret code requires 4 successes on a
+Computer Sklll Test.
+
+
+**EXITING THE MATRIX**
+
+A decker can leave the Matrix any time by jacking out, pulllng
+the plug that connects his datajack to the deck. Keep in mind that the
+decker's Matrix-image, the persona, is only a program running on the
+computers of the Grid. The persona does not really go anywhere and
+has no Independent consciousness. Despite decker legends, one
+cannot get "trapped" In the Matrix.
+
+A decker kicked out of the Matrix Involuntarily has been dumped.
+The rapid cutoff of the deck's slmsense signal can cause the decker to
+experience mlld disorientation called dump shock. This lasts up to 30
+seconds, during which time the character Is disoriented. Dump shock
+adds +2 to all target numbers for the duration. The character can make
+a WIiipower Test against a Target Number 4 to attempt to throw off
+the effects, dividing the number of successes Into 30 seconds to
+determine the actual amount of time he or she Is disoriented. Every
+3 seconds, or part thereof, is one Combat Tum.
+
+If fighting against black IC. the decker must make a WIiipower
+Test against a target number equal to the rating of the IC. This requires
+a Simple Action.
+
+
+**Dumpshock**
+
+When you’re disconnected from the Matrix without gracefully jacking out, you suffer a nasty shock as your sim module kicks out. This happens to hackers so often that it has its own name: dumpshock. The Damage Value for dumpshock is 3S. Dumpshock is biofeedback damage, so you resist it with Willpower. As if that weren’t enough, you’re also suffering the Stunned Condition (10 – Willpower) minutes, even if you manage to soak all the damage.
+
+### IC
+
+Intrusion countermeasures (IC) are software programs installed in a system to protect that system's information from unauthorized users. Intrusion countermeasures may be installed in any node with a Security Code of green or higher. "Ice," as it is colloquially pronounced, makes life difficult for deckers. Some IC tries to make life impossible for deckers. E.very IC system has a rating, which Is usually its "skill."
+
+There are three classes of IC: white, gray, and black. White IC offers passive resistance. Gray IC actively attacks intruders or traces their entry point into the Matrix. Black IC tries to kill deckers. E.ach is described in the following sections.
+
+##### WHITE IC
+
+White IC is primarily concerned with identifying and locating intruder persona programs. White IC is so called because it is not harmful in itself. though it may activate other countermeasures that are downright deadly.
+
+If white IC is satisfied that a persona program may legitimately be in the area, it will do nothing. (E.ach type of white IC has its own requirements for "satisfaction," as described below.) If the IC is not satisfied, it will signal a passive alert on its next Action. The white IC will check the identity of the persona program again, and If it is still not satisfied, it may trigger an active alert.
+
+Generally, the process goes something like this:
+
+1. Intruding persona program moves into contact range. (As long as the persona stays beyond contact range. the IC pays no heed. Usually.)
+2. The persona program must then attempt to fool the white IC into believing it, the persona, is a legal signal. Again, see each type of white IC for the types of programs that are effective against It.
+3. If the persona succeeds, the IC lets it pass. The persona program continues on.
+4. If the persona fails to fool the IC, the IC will signal a passive alert. It will then attempt to verify the identity of the intruder again. If it cannot, an active alert is triggered and any gray or black IC present will activate
+
+White IC cannot defend itself against an attacking persona program. White IC that survives to its next Action Phase while under attack will trigger an immediate active alert. A decker can try to jam the IC by using dice from his Hacking Pool. This requires a Simple Action and prevents the IC from activating an alert on its next Action Phase. Make a test with Hacking Pool dice using the IC's System Rating as the target number. The IC makes a test against the persona program, using its own rating for the number of dice rolled, and the persona's Masking Rating as its target number. If the IC wins, it triggers the alert.
+
+If a persona does not immediately attempt to use a deception or sleaze program upon entering contact range, the IC will initiate the verification attempt on its next action.
+
+##### GRAY IC
+
+Gray IC Is more dangerous than white IC because It can actually damage a deck or Its user. Unless an analyze program Is used successfully, gray IC resembles white, In that the Sensor Attribute of the deck recognizes both programs as IC. Gray IC usually requires a trigger, which Is often white IC. Once activated, however, It needs no further prompting. If the gray IC In a node Is donnant and the white IC present Is fooled by the persona program, the gray IC will not activate.
+
+When already active, gray IC will move to Interrogate a persona program as soon as the icon moves to within sensor range of the node where the gray IC is currently located. Some paranoid corporations place active gray IC In Isolated systems where sensitive data Is stored. They often place the IC In the SAN, particularly when most legitimate users do not have to cross through the SAN to use the data in it (they enter the system though 1/0Ps in the same duster as the data). All gray IC is mobile.
+
+##### BLACK IC
+
+Black IC Is so named because it attacks the decker, not his deck. Black IC nonnally does Physical damage, but can be programmed to do Stun damage If the system owner Is In a good mood. Remember, dead men tell no tales, but prisoners can be downright talkative.
+
+Black IC Is activated In the same way as gray IC. Black IC Is most certainly mobile.
+
+Deckers not using a cybernetic link are Immune to the damaging effects of black IC. Sure, a tortoise (see p. 177) can stand up to the punishment, but he's got to get to the black IC In the first place. Once black IC scores a hit, the decker may either hang tough or jack out.
+
+### Nodes
+
+The Matrix is composed of billions of nodes. A group of nodes that works together is called a system. A system is a single computer, usually a mainframe (a big, non-portable computer).
+
+Nodes are connected by datalines, which have no Security Rating. There is no IC on a dataline, nor any hardware to run programs, so no Matrix combat can occur there. If combat crosses through a dataline, it will continue in the node to which the line connects. Datalines look like translucent narrow bridges, pathways, or tunnels of energy, pulsing as data Hows through them.
+
+Following are descriptions of the seven basic types of node: what they are, examples of how they appear from inside (the construct), what the decker can do when Inside (system operations), and the types of nodes to which they connect.
+
+#### Central Processing Unit (CPU)
+Every system has only one central processing unit, or CPU. It
+is the heart and brain of the system. Most systems have powerful
+IC guarding the CPU.
+
+System Operations
+- Cancel Alert: Cancels a passive alert signal. An active alert program in progress is beyond the decker's control. Triggering a cancel alert operation will not prevent subsequent alerts from performing their function.
+- Change Node: This Is a "teleport" straight into any node In the system. This only works one way; once there, the decker cannot "teleport" back to the CPU.
+- Dlsplay Map: The gamemaster must show the decker-player a map of the system. It shows its nodes and their security codes, but no IC, files, or anything else. 
+- Shutdown: This crashes the system and dumps any deckers anywhere In the system.
+
+#### Datastore (DS)
+A datastore holds Information, or flies. From the decker's point of view, this is where the loot is. Datastores also tend to be heavily loaded with IC.
+
+- Erase: Wipe out one file (e.g., erase a police record).
+- Edit: Change contents of a file (e.g., awarding someone straight A's on a college transcript).
+- Read: Reading a Ille works like downloading it. The decker does not actually copy it, so the deck does not need storage to hold it. The decker Is skimming the file's contents. If a character wants to find the private telecom number for a corporate officer, he should read the personnel files. The gamemaster is the judge of what a decker can get from a file by reading. Simple facts like names, dates, phone numbers, addresses, and so on are easy to remember. Highly technical data cannot be memorized. For example, if the decker wants to find and sell a complex formula, he must download it.
+- Transfer: Copy data to a cyberdeck's storage (downloading) or from storage to the datastore (uploading). 
+
+
+#### I/0 Ports (I/OP)
+
+An I/OP is a limited-access node that opens the system to
+various data input/output devices: terminals, cyberdecks, printers,
+graphics displays, data readers for optical chips, and so on. A
+decker can jack into the system through these devices using a
+cyberdeck. In big systems, a single I/OP node could be the access
+point for hundreds of devices.
+
+
+- Display Message: Display a message on the terminal the I/OP controls.
+- Lockout: Lock the I/OP out of the system. Nothing it controls can contact the computer now. If the I/OP representsacybertermlnal that someone is using, the decker must crash the terminal through Matrix combat first.
+
+#### Sub-Processor Units (SPU)
+An SPU Isa small computer that is "slaved" toa more powerful
+one. The CPU gives it orders, and the SPU does various jobs for the
+boss node. Some SPUs are just "traffic cops," connecting datalines
+to other nodes. Others might lead to datastores or other goodies.
+
+#### System Access Node (SAN)
+A SAN connects to other systems or to the Grid. They are the
+doorways into systems.
+
+Lockout: The decker can lock the SAN, preventing any other
+persona from using it.
+
+#### Slave Node (SN)
+A slave node controls some physic.al process or device,
+anything from an electric coffeemaker to an assembly line to the
+elevators for a corp HQ building. A decker can jack into the system
+through a slave node.
+
+- Control: The decker can control whatever the slave node controls, whether it be making the coffee boil over or shutting down the assembly line.
+- Sensor Readout: The decker can read any sensors or cameras run by the slave node. For example, the slave controlling building security would let the decker use the security cameras.
+
+---
+
+> Credit for a lot of this system falls to Ross Watson and a conversation with Tom Dowd
+
+### System Rating
+
+Everything that can be hacked has a System Rating. This generally runs from 6-12, although there is no upper limit. A truly high-level system (like a military command center) might have a system rating of 17 or higher. The system rating acts as both a threshold for the number of hits required to affect the system and as a condition monitor if attacked in cybercombat, with the number of boxes in the condition monitor equal to its rating. In the case of vehicles and drones, use the Pilot Rating and add 5. In the case of other items, the rule of thumb is to set the item’s system rating at 1/2 its body, rounding up.
+
+Generally, subtract the program's Rating to get your Adjusted System Rating.
+
+
+### Cyberdecks and Condition Monitors
+
+Cyberdecks have a physical condition monitor (representing the physical condition of the deck) and a detection condition monitor (representing the Decker’s ability to avoid detection whilst hacking). When the physical condition monitor is boxed out, the deck is destroyed. 
+
+### The Hacking Test
+
+Whenever a Decker attempts to interact with an object with a system rating, he rolls `Logic + Cracking + his Cyberdeck’s rating`.
+
+Note: Again, to emphasize, this paradigm means that the Decker must roll a Hacking Test to accomplish any and all tasks inside a system – the usage of the Hacking test is intentionally broad because it is likely that a Decker will be making this test every round he is jacked into the system.
+
+The threshold for his test is the system rating of the system he is attempting to hack. The Decker’s Exploit program rating helps the Decker by lowering the system rating’s threshold for this test by its rating (i.e., a Decker hacking a system rating 8 would subtract his Exploit program’s rating of 5, meaning that the actual threshold for the Hacking test is 3). This keeps the focus on the Decker’s skill rather than his gear, as the Decker modifies his programs on the fly to best suit his needs. This new System Rating (the original minus the Decker’s Exploit program rating) is known as the adjusted system rating.
+
+To get the TN required multiple the Adjusted System Rating X 6. So In the above example of a Rating 8 system with an Exploit program of 5, resulting in an Adjusted System Rating of 3 means the TN for the Hacking test is 18. 
+
+### Crashing a system
+
+Instead of hacking a system, a Decker can attempt to crash it. This is done by attacking the system in cybercombat. The system rating is the system’s condition monitor and also serves as the modifier the system adds rolls to defend itself against cybercombat (much like a Body attribute on a physical object in the real world). Crashed systems do not function until they are rebooted. Authorized Deckers can reboot a crashed system with a simple action. A system cannot be crashed if there is an active defender (Agent, Sprite, or enemy Decker) present.
+
+Crashing a System will dump everyone out of it with Biofeedback.
+
+### The Detection Test
+
+Using a similar approach to magic, after a Magician casts a spell, he then resists drain. In this hacking paradigm, after a Decker performs a hack, he then resists detection. This mechanic represents the Decker’s skill at evading detection whilst hacking a system. To do this, the Decker must resist a number of hits equal to the adjusted system rating. The Decker rolls his `Cracking skill + the Hardening` rating of his deck. Any hits that are not resisted inflict damage to the deck’s Detection condition monitor. When the deck’s detection condition monitor is boxed out, alarms go off in the node and any adjacent connected node. Any Deckers or agents in those nodes are instantly aware of the hacking Decker’s location and cybercombat is very likely imminent.
+
+### Glitching the Detection Test
+
+If a Decker glitches on the Detection Test, the IC of the system has noticed something is wrong and begins to interfere with his presence. This is represented by a basic chart that establishes a rule of thumb—the GM may always decide on something else happening and certain systems (such as ones used in an adventure) can have their own custom response chart.
+
+- Glitch on a System Rating 6-9: The Decker is hit with a Traceroute attack program with a rating equal to the adjusted system rating.
+- Glitch on a System Rating 10-12: The Decker is hit with a White IC attack program with a rating equal to the adjusted system rating.
+- Critical Glitch on a System Rating 6-9: The Decker is ejected from the system and may suffer dumpshock.
+- Critical Glitch on a System Rating 10-12: The Decker is hit with a Black IC program with a rating equal to the adjusted system rating.
+
+Note: Naturally, glitches by player characters are going to be fairly rare, but this provides a simple and easy to use guideline for when that happens during the game.
+
+### Remaining in the System
+
+Once a Decker has successfully hacked a system (i.e., he has boxed out the system’s condition monitor either through hacking or cybercombat), he can stay in that system indefinitely. Note that if an enemy agent or enemy Decker enters the same node, the Decker can be engaged in cybercombat. Every time the Decker attempts to make the system do something, he must resist Detection, meaning that Deckers who are active inside a system are likely to trigger alarms eventually unless they are exceptionally careful or stealthy.
+
+### Overclocking
+
+Normally, just like a Magician casting spells, a Decker is limited by the rating of his program in how much he can affect the system rating of the system he is attempting to hack. Drawing another parallel to magic, Deckers can “overcast” by Overclocking their deck. This allows the Decker to increase the rating of his program up to double its base rating. However, during the Detection Test, any hits that are inflicted affect his Cyberdeck’s physical condition monitor rather than the detection condition monitor.
+
+Note: This is the cinematic “holy crap I really need to make this work” moment. Overclocking has a definitive downside (you could fry your deck). It is likely that the player character is going to overclock in conjunction with spending Edge on both the Cracking Test and the followup Detection test, just like a player character Magician who overcasts. It is possible that the detection test could or should also be more difficult when the Decker is overclocking.
+
+### Resetting the Detection Condition Monitor
+
+The Detection condition monitor does not “heal” as long as the Decker is jacked into the system in which he suffered the “damage.” Deckers do not simply jack out and jack back in once they are close to detection. Once the Decker jacks out of that system and performs a purge (a major action requiring a `Logic + Cracking (12)`), his deck’s Detection condition monitor resets and all the damage inflicted on it is “healed.”
+
+### Persona Programs
+
+The following are the core programs used by Deckers:
+
+- Exploit: Primary program for hacking. Reduces the threshold of a system rating for gaining access or information.
+- Spoof: Secondary program for hacking. Reduces the threshold of a system rating for giving commands.
+- Purge: The “medic” program – erases data from the cyberdeck. Adds its rating to the Decker’s `Logic+Electronics Test `for eliminating harmful viruses (including Traceroute).
+- Sleaze: Passive program – its rating equals the number of boxes of the cyberdeck’s detection condition monitor.
+- Analyze: The “perception” program. Adds its rating to the Decker’s `Logic + Cracking Test` for gaining additional information about icons in the matrix.
+- Armor: Passive program. Adds its rating to the Decker’s Logic Test to resist damage in cybercombat.
+- Attack: The program used to perform attacks
+
+### Technomancer interaction
+
+Under this Paradigm, a Technomancer’s Resonance equals his Deck rating and the rating of any required program. Overclocking on a Technomancer opens him up to physical damage on the Detection roll. In addition, Technomancers basically have access to any and all “guns” in the Attack program catalogue.
+
+### Agents and Sprites
+
+Agents and Sprites get `Logic + Agent rating/Sprite force`. Agents and Sprites have a detection condition monitor equal to their rating/force. The type and number of Attack programs or armor programs that a sprite or agent can carry is limited to their rating/force.
+
+### Examples
+
+Example: Hacking the cameras to hide the team’s presence
+
+A shadowrunner team is infiltrating a research facility. Sam the Decker has a 5 Logic, a 5 Cracking Skill, and a rating 5 Cyberdeck. All of his programs are also rating 5.
+
+The shadowrunners need Sam to hack the facility’s security cameras so that they can enter the facility undetected. Sam is already jacked into the matrix and is within wireless range of the system. The system rating of the node controlling the security cameras is 9. Sam subtracts his Exploit program rating of 5 from the system rating of 9 and ends up with an adjusted system rating of 4 making the Target Number 24. Sam rolls `3d6 + 15` and gets 25 with a 5 on the Effect Dice, successfully hacking the node. The cameras do not record the shadowrunners entering the facility. The GM rules the Effect results in 5 minutes of them being removed from the cameras.
+
+Sam then must resist Detection, rolling his Logic of 5 and the Hardening of his Deck (also of 5) against a threshold of 24 (the adjusted system rating). Sam rolls 18 with a 3 Effect Dice so failed the test. The Rating 4 Syatem does 4 Damage compared to his 3 Effect Dice leaving 1 left over, he crosses out one box on his Detection condition monitor. Until he jacks out of the system, performs a purge, and his detection monitor resets, Sam is going to suffer a -1 penalty to all future Matrix skill rolls.
+
+Note: In this case, Sam has the option in his next Initiative to try and “own” the camera system node. This would be accomplished by another Cracking Test against the adjusted system rating and successfully resisting Detection. “Owning a system” is another concept that is very basic in this design sketch.
+
+### Cybercombat
+
+#### Matrix Actions
+
+##### Major Actions
+
+- Execute Program (Exploit, Spoof, Analyze, Attack)
+
+##### Minor Actions
+
+- Execute System Operation (see Nodes)
+- Jack Out! (requires Willpower Test against the rating of the black IC)
+- JamIC (see White IC, p. 16 9)
+
+##### Free Actions
+
+- Delay Action
+- Observe
+- Speak a Word
+
+#### Step 1. Determine Initiative
+
+Decker: `Intuition + Data Processing + 2D6`
+
+1 Major, 1 Minor Actions a round
+
+| System | Initiative |
+| ------ | ---------- |
+| Blue   | No IC      |
+| Green  | 1D6        |
+| Orange | 3D6        |
+| Red    | 5D6        |
