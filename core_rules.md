@@ -21,7 +21,7 @@ Ch1. Step by Step Characters
 
 Ch2. Metahumanity
 
-Ch3. Edges/Flaws
+Ch3. Qualities
 
 Ch4. Equipment
 
@@ -48,15 +48,15 @@ V.07
 
 #### V0.7
 - Reworked skills to line up with Shadowrun
-- Lowered skill cap to fit new TN
-- TODO: Edges/Flaws - Fill in, and rename to Feature OR Qualities
+- Lowered skill cap to fit new Threshold
+- TODO: Qualities - Fill in, and rename to Feature OR Qualities
 - TODO: Finish Equipment
 - TODO: Finish Combat
 - TODO: Rewrite Magic
 - TODO: Write Matrix
 - TODO: Write Setting
 - TODO: Write Seattle Sprawl
-- TODO: Fill in Species rename to Metahuman
+- TODO: Fill in Metatype rename to Metahuman
 - TODO: Write Contacts and Allies stick in Gamemastering chapter
 
 #### V0.6
@@ -73,13 +73,13 @@ V.07
 - Added rules for various kinds of tests
 - Added Contacts/Allies
 - Removed XP system for character creation and went BACK to the priority system because BP was way too hard for young players
-- Added/Removed some Edges/Flaws and reworked costs from BP to XP
+- Added/Removed some Qualities and reworked costs from BP to XP
 - Eliminated Reactions thanks to the changes in Attributes
 
 
 #### V0.4
 - Added character generation rules
-- Added first species templates
+- Added first metatype templates
 - Updated Advancement costs.
 - Changed critical rules, added glitches
 - Reformatted chapters
@@ -97,7 +97,7 @@ V.07
 - Initial Magic system pass using Fatigue
 - Backgrounds
 - Professions
-- Initial pass at Species
+- Initial pass at Metatype
 
 #### V0.2
 - Changed attributes to Strength, Agility, Body, Logic, Willpower, Charisma
@@ -112,7 +112,7 @@ V.07
 
 SIRE is a 3d6 TTRPG system created by CJ Schrum to be a generic system used to play any kind of TTRPG. It was influenced by his near thirty years of table top games in nearly every ruleset created. 
 
-> I used to play FATE I liked a lot of things about FATE, I hated FATE dice mechanics. I played a lot of Cepheus, Traveller, Decipher Star Trek, ModernAGE, West End Games Star Wars, and Sixfinity so lets say I have a lot of experience with D6 in my hands. So I set out to create a fairly generic style RPG using 3D6 (I like the curve better than the standard distribution of 2D6). Allowing for Advanatage Roll 3D6 twice take highest, and Disadvantage Roll 3D6 twice take the lowest. They also have Courage Points they can spend.
+> I used to play FATE I liked a lot of things about FATE, I hated FATE dice mechanics. I played a lot of Cepheus, Traveller, Decipher Star Trek, ModernAGE, West End Games Star Wars, and Sixfinity so lets say I have a lot of experience with D6 in my hands. So I set out to create a fairly generic style RPG using 3D6 (I like the curve better than the standard distribution of 2D6). Allowing for Advanatage Roll 3D6 twice take highest, and Disadvantage Roll 3D6 twice take the lowest. They also have Edge Points they can spend.
 > Combat is meant to be cinematic in style with a tactical flavor. Characters have Physical Health.
 
 
@@ -258,7 +258,7 @@ There are eight attributes and two special attributes.
 
 **Body**
 
-The Body attribute determines a character’s resistance to outside forces. It represents the character’s cardiovascular fitness and endur- ance, immune system, how well she heals, her tolerance for drugs and alcohol, and, to some extent, her muscle and bone structure and weight. Low Body could mean a character is skinny and frail-boned or has bad eating and health habits. High Body means a character is better fed, tough as nails, has strong bones with some spring to them, and an immune system that won’t quit. Body does not necessarily correlate with physical size—a fat, out of shape character likely has a low Body, but a small character who is wiry and athletic may have a high Body.
+This represents the general sturdiness, integrity, and health of the individual. It sometimes is correlated to size—trolls tend to have high Body ratings— but this is not a perfect correlation, as dwarfs tend to have higher Body ratings than humans. Body’s uses include resisting damage and toxins.
 
 **Agility**
 
@@ -302,16 +302,16 @@ Please note Resonance is not used in Sixfinity if it is referenced ignore it.
 
 **Magic**
 
-Magic is a measure of the ability to use magic and of the body’s attunement to the mana that flows through our plane. Those with strong Magic ratings are able to hand e powerful magic and mana ma- nipulation. Those with weak Magic ratings are more sensitive and more easily drained by the use of magic. Those with no Magic rating have no magical capabilities and are tuned out from the magical realms. Serious damage to the body and invasive additions such as cyberware and bio- ware reduce the Magic attribute. Magic and Resonance are mutually exclusive attributes. A character who possesses a quality that grants a Magic of 1 or higher cannot have a Resonance attribute.
+Not all characters have this attribute; it is only for magic-using characters, who are generally referred to as Awakened characters. It measures their strength in channeling mana into spectacular effects.
 
-**Courage**
+**Edge**
 
-A character’s Courage represents that special something that can turn the tide and save the day—a successful gut check, a moment of brilliant inspiration or creativity, or a once-in-a-lifetime physical feat. Courage is a combination of luck, timing, and the favor of the gods. Characters with low Courage are unlikely to get unexpected breaks in life, much less win the lottery. A high-Courage character, however, is graced with good fortune and has an uncanny ability to succeed despite the odds. Courage can be spent at certain points in the game to help tip the odds in your character’s favor. Unlike other attributes, Courage provides Courage points that may be spent in certain ways—once used, these points are not regained until certain in- game events occur, at the discretion of the gamemaster 
+This critical statistic measures the undefinable, putting it on tricky ground right at the outset. It is that combination of guts, risk, and heedless ignorance of danger and good sense that lets shadowrunners survive where others do not. Edge is detailed and important enough to have its own section
 
 
 **Essence**
 
-Essence is a measure of life force, of a body’s wholeness. It represents the body’s cohesiveness and holistic strength. Things that are invasive to the body, such as cyberware and bioware, reduce Essence. If a character abuses her body repeatedly with chemicals, toxins, or even just negli- gence over a long period of time, she may lose Essence as well. Long-time drug addicts and chipheads who have done permanent damage to their systems have lost Essence. Lost Essence can never be regained (short of the Essence Drain critter power). When Essence declines, Magic and Resonance decline by the same amount. All characters start the game with an Essence of 6.
+All characters have this attribute, starting at 6. It is a measure of how many augmentations characters can hold. The metahuman body can only contain so much ’ware before it loses the small spark that separates a living being from a machine. This attribute primarily exists due to the degrees of difference between biology and technology—it simply does not flow well through technology and becomes limited as your Essence declines (specifically, anytime your Essence goes below any whole integer, you lose a corresponding point of Magic or Resonance). Also, some magic, particularly healing magic, has less of an effect on you as you gain more augmentations. Finally, if your Essence ever reaches 0, you die
 
 
 ---
@@ -319,11 +319,11 @@ Essence is a measure of life force, of a body’s wholeness. It represents the b
 
 ### Priority System
 
-In Sixfinity character generation is based on the Priority System. The Priority System is a table with the following columns: Species, Attributes, Magic, Skills, and Resources. The rows are divided into Priority Levels ranging from Priority A to Priority E. Players assign a specific Priority Level for each of the columns to their character depending on their preferences. The values assigned must be different for each column (representing each aspect of the character), and there can be no duplications. For example, a character may not have Priority Level B for Magic and Priority B for Resources. The higher the Priority Level (A, B, etc.), the more valuable it is for the character. Characters use Experience later on to customize their characters even further.
+In Sixfinity character generation is based on the Priority System. The Priority System is a table with the following columns: Metatype, Attributes, Magic, Skills, and Resources. The rows are divided into Priority Levels ranging from Priority A to Priority E. Players assign a specific Priority Level for each of the columns to their character depending on their preferences. The values assigned must be different for each column (representing each aspect of the character), and there can be no duplications. For example, a character may not have Priority Level B for Magic and Priority B for Resources. The higher the Priority Level (A, B, etc.), the more valuable it is for the character. Characters use Experience later on to customize their characters even further.
 
-The player begins the character-creation process by choosing their character’s metatype, or species. There are five distinct races within the core Sixfinity system, gamemasters are welcome to add or replace them: dwarfs, elves, humans, orcs, and fomori. Each species receives different racial advantages (and possibly disadvantages). Humans, for example, receive a higher rating in Courage (+1). Formions receive Thermographic Vision, +1 Reach (1 square), and Dermal Armor, but they also have the disadvantage of having their Lifestyle costs doubled to reflect the costs of adapting everything they use—especially their gear, to meet their massive physical requirements. Several species also receive physical or mental advantages/disadvantages to their attribute ratings (such as higher or lower natural attribute limits). When determining which metatype best fits the character concept they wish to play, the player should refer to the Species Attribute Table (below) and review the specific details for each metatype.
+The player begins the character-creation process by choosing their character’s metatype, or metatype. There are five distinct races within the core Sixfinity system, gamemasters are welcome to add or replace them: dwarfs, elves, humans, orcs, and fomori. Each metatype receives different racial advantages (and possibly disadvantages). Humans, for example, receive a higher rating in Edge (+1). Formions receive Thermographic Vision, +1 Reach (1 square), and Dermal Armor, but they also have the disadvantage of having their Lifestyle costs doubled to reflect the costs of adapting everything they use—especially their gear, to meet their massive physical requirements. Several metatype also receive physical or mental advantages/disadvantages to their attribute ratings (such as higher or lower natural attribute limits). When determining which metatype best fits the character concept they wish to play, the player should refer to the Metatype Attribute Table (below) and review the specific details for each metatype.
 
-Once the player has selected the metatype they wish to play, they should review the Species column to determine which Priority Levels give them the best options for their character based on their preferred metatype and the special attribute points they need. The special attributes are Courage, and Magic; if you want your character to have a high rating in one or more of these areas, make sure you select a row with plenty of special attribute points.
+Once the player has selected the metatype they wish to play, they should review the Metatype column to determine which Priority Levels give them the best options for their character based on their preferred metatype and the special attribute points they need. The special attributes are Edge, and Magic; if you want your character to have a high rating in one or more of these areas, make sure you select a row with plenty of special attribute points.
 
 Regardless of Priority all starting characters get 25 Experience to spend on their character to flesh them out, make then unique.
 
@@ -338,16 +338,16 @@ Regardless of Priority all starting characters get 25 Experience to spend on the
 | D        | Human(2),Elf(0)                          | 14               | Magic:2                               | 20     | 50k       |
 | E        | Human(1)                                 | 12               | -                                     | 18     | 6k        |
 
-**Species Attribute Table**
+**Metatype Attribute Table**
 
 
-| Species | Body | Agi | Rea | Str  | Wil | Log | Int | Cha | Cou | Special Features                             |
-| ------- | ---- | --- | --- | ---- | --- | --- | --- | --- | --- | -------------------------------------------- |
-| Human   | 1/6  | 1/6 | 1/6 | 1/6  | 1/6 | 1/6 | 1/6 | 1/6 | 2/7 | Extra Courage                                |
-| Elf     | 1/6  | 2/7 | 1/6 | 1/6  | 1/6 | 1/6 | 1/6 | 3/8 | 1/6 | Low-Light Vision                             |
-| Dwarf   | 3/8  | 1/6 | 1/5 | 3/8  | 2/7 | 1/6 | 1/6 | 1/6 | 1/6 | Thermographic Vision, Resistance:Poison      |
-| Orc     | 4/9  | 1/6 | 1/6 | 3/8  | 1/6 | 1/5 | 1/6 | 1/5 | 1/6 | Low-Light Vision                             |
-| Troll   | 5/10 | 1/5 | 1/6 | 5/10 | 1/6 | 1/5 | 1/5 | 1/4 | 1/6 | Thermographic Vision, +1 Reach, +1 Toughness |
+| Metatype | Body | Agi | Rea | Str  | Wil | Log | Int | Cha | Cou | Special Features                             |
+| -------- | ---- | --- | --- | ---- | --- | --- | --- | --- | --- | -------------------------------------------- |
+| Human    | 1/6  | 1/6 | 1/6 | 1/6  | 1/6 | 1/6 | 1/6 | 1/6 | 2/7 | Extra Edge                                   |
+| Elf      | 1/6  | 2/7 | 1/6 | 1/6  | 1/6 | 1/6 | 1/6 | 3/8 | 1/6 | Low-Light Vision                             |
+| Dwarf    | 3/8  | 1/6 | 1/5 | 3/8  | 2/7 | 1/6 | 1/6 | 1/6 | 1/6 | Thermographic Vision, Resistance:Poison      |
+| Orc      | 4/9  | 1/6 | 1/6 | 3/8  | 1/6 | 1/5 | 1/6 | 1/5 | 1/6 | Low-Light Vision                             |
+| Troll    | 5/10 | 1/5 | 1/6 | 5/10 | 1/6 | 1/5 | 1/5 | 1/4 | 1/6 | Thermographic Vision, +1 Reach, +1 Toughness |
 
 
 **Step One**
@@ -356,7 +356,7 @@ Pick a Concept for your character
 
 **Step Two**
 
-Pick Species Priority. Spend Special Points on Courage, and Magic. Pick Attribute Priority and Spend the points.
+Pick Metatype Priority. Spend Special Points on Edge, and Magic. Pick Attribute Priority and Spend the points.
 
 **Step Three**
 
@@ -388,29 +388,45 @@ Final Touches and Derived Stats.
 
 Defense = 10 + (REACTION + INTUITION)
 
+#### Attack Rating
+
+When a character goes on the offensive, their chosen weapon has a combination of traits that determine it's overall effectiveness. This combination of stopping power, accuracy, and recoil compensation (for firearms) is captured in the Attack Rating. Characters add their Strength to the Attack Rating for melee weapons and the Attack Rating for unarmed combat is Strength + Reaction.
+
+#### Defense Rating
+
+This stat is an important part of combat, representing how well the character and their worn armor resist incoming attacks. It is a combination of Body, worn armor, and other effects, including augmentations and magic. This is used to calculate combat advantage and toughness
+
+Defense Rating = Body + Armor
+
 #### Physical Health
 
-Physical Health = ([Body / 2] + 8) x3
+Physical Health = ([Body / 2] + 8) x4
 
-This is your Physical Health. If it reach zero you are bleeding to death. You will start at 0 and lose 1 point per round you are not stabalized. You can go into the negative equal to your Lifeblood. 
+This is your Physical Health. If it reach zero you are bleeding to death. You will start at 0 and lose 1 point per round you are not stabalized. You can go into the negative equal to your Overflow. 
 
-For Example Jared is hit by a Shotgun for 13. Jared only had 10 Physical left. So Jared drops to 0 and is Incapacitated. The next round Jared drops to -1, Jared has a Body of 5 so he can bleed until he is at -5 once he ticks to -6 he is dead. 
+For Example Jared is hit by a Shotgun for 13. Jared only had 10 Physical left. So Jared drops to 0 and is Incapacitated. The next round Jared drops to -1, Jared has a Body of 5 so he can bleed until he is at -10 once he ticks to -11 he is dead. 
+
+> I will send you to a place where no amount of clapping will bring you back
 
 #### Stun Health
 
-Stun Health = ([Willpower / 2] + 8) x3
+Stun Health = ([Willpower / 2] + 8) x4
 
 This is where Stun Damage is recorded. If it reaches 0 you start taking Physical Damage and you are at Disadvantage to most Tests until you take a Breather (see Healing). 
 
-#### Lifeblood
+#### Overflow
 
 This is how far into the Negatives you can go before you die. 
 
-Lifeblood = Body + Misc Bonuses
+Overflow = Body X 2
 
 #### Toughness
 
-Toughness is a measure of how well prepared you are to take a blow, or to encourage it to miss you. It is used in virtually all combat situations. To generate it, add your Armor rating to Body. Some qualities and gear may affect this.
+Toughness is a measure of how well prepared you are to take a blow, or to encourage it to miss you. It is used in virtually all combat situations. Some qualities and gear may affect this.
+
+Toughness = [Defense Rating] /4 round up
+
+If you have a Defense Rating of 11 that would be a Toughness of 3.
 
 #### Movement
 
@@ -422,9 +438,9 @@ Initiative is used to determine who goes first in combat. Add your Reaction + In
 
 Initiative = Reaction + Intuition + 1D6
 
-#### Courage Points
+#### Edge Points
 
-List your Courage Rating after character creation.
+List your Edge Rating after character creation.
 
 #### Composure (Willpower + Charisma)
 
@@ -448,34 +464,20 @@ In this game you spend your experience you gain at the end of the sessions to in
 
 Raising attributes is based on what the modifier not the base score. So to increase your Strength that is +3 to +4
 
-| Desired Effect                                  | XP Cost         |
-| ----------------------------------------------- | --------------- |
-| Raise a Physical/Mental/Magic/Courage attribute | Next rating X 5 |
-| Raise an active skill                           | New Rating X 2  |
-| Raise a Knowledge/Language Skill                | New Rating      |
-| New Knowledge/Language Skill                    | 2               |
-| New Specialization                              | 2               |
-| New Active Skill                                | 4               |
-| Additional Physical Health (BOD+STR)            | 10              |
-| Buy or upgrade and Edge                         | XP Cost X 2     |
-| Remove a Flaw                                   | XP Bonus X 2    |
-| New Spell                                       | 5               |
-
-Toughness and Defense, Physical Health, Reactions get recalculated when base attributes go up. You can increase the Misc. bonus to reactions with Experience. There is no option to increase Toughness or Defense characters can buy Armor and have other means to make themselves harder to hit. 
+| Desired Effect                               | XP Cost         |
+| -------------------------------------------- | --------------- |
+| Raise a Physical/Mental/Magic/Edge attribute | Next rating X 5 |
+| Raise an active skill                        | New Rating X 2  |
+| Raise a Knowledge/Language Skill             | New Rating      |
+| New Knowledge/Language Skill                 | 2               |
+| New Specialization                           | 2               |
+| New Active Skill                             | 4               |
+| Buy or Remove and Quality                    | XP Cost X 2     |
+| New Spell                                    | 5               |
 
 
 
-## Chapter 2: Species
-
-Each Species template here is provided as an example. Species in Sixfinity unlike many other games do not start with higher base attributes; instead they just have a higher potential attribute maximum. However, the Gamemaster can also raise their starting attributes by the same amount it is adjusted at the other end if they wish to do so. Not all of these species are used in Sixfinity and none of them are required except humans.
-
-**Reading Species Blocks**
-
-A Species block contains the following information:
-- Name
-- Description
-- Ability Adjustments
-- Extra Features like Night Vision
+## Chapter 2: Metatype
 
 ### Humans (homo sapiens sapiens)
 • Average height: 5'6
@@ -528,7 +530,16 @@ It’s not easy to live in a society where you look like the walking embodiment 
 
 ## Chapter 3: Contacts & Allies
 
-
+A shadowrunner who goes it alone is often one
+that winds up in a lonely, solitary grave. Experienced
+shadowrunners build a network of people who can
+provide the information and goods critical to their
+work. Maybe it’s a bartender who knows the people
+in their neighborhood, or an arms dealer who can get
+the ammo that doesn’t flow through legal channels,
+or a Lone Star officer who likes to shoot the breeze
+about who just got arrested. These people and more
+can be reached out to in times of need.
 
 ## Chapter 4: Rules
 
@@ -540,97 +551,80 @@ Nearly everything is a TEST or CHECK.
 
 Result = 3D6 + Ability Modifier + Skill Rank
 
-You compare this result to a Target Number (below)
+You compare this result to a Threshold (below)
 
-### TN's
+### Thresholds
+A Threshold is the minimum number needed to succeed at a task. Threshold Step is used very often in these rules. A threshold step is used instead of giving the Threshold Target (or TN in other games) to allow the Gamemaster to alter the Targets as they see fit for their game without needing to alter the writing in the rules to maintein balance.
 
-| Difficulty           | TN  | Threshold Stepping |
-| -------------------- | --- | ------------------ |
-| Easy                 | 6   | 1                  |
-| Average              | 12  | 2                  |
-| Hard                 | 18  | 3-4                |
-| Very Hard            | 24  | 5-6                |
-| Extreme              | 30  | 7-8                |
-| Virtually Impossible | 36  | 9-10               |
+For example if a character needs a `Biotech + Logic (2) test` in Sixfinity Standard rules they need to roll *at least* a 9 on 3D6. If a GM decided they wanted that to be a 10 they do not need to change anything just tell the character they succeeded or failed without having to make any adjustments to the rules. This is the same as using the word Simple but the Step makes it easier to explain to a player. This is inspired by a number of 80's games like Traveller, Gamma World, Shadowrun 1e where the target number on dice could change. This allows for some GM's who want to, to easily swap to a D20 and use 5/10/15/20/25 for their TN's and go looking for Dragons in Dungeons if they want.
 
-#### Threshold
-Threshold is just another way of saying, "TN" its the minimum Threshold you need to reach to achieve your goal. This term is not part of Sixfinity Core;
-This was added just for SR5e, in some cases things call for a Threshold Reduction. This just means stepping the TN down.
+If you are assining a test and the only thing that matters is their Effect on the roll feel free to make it a Step 1 test. 
 
-So if something was a Threshold 3, it was a TN 18 and you reduce the Threshold by 1, it is a TN 12.
+| Difficulty | Step | Threshold Target |
+| ---------- | ---- | ---------------- |
+| Easy       | 1    | 6                |
+| Simple     | 2    | 9                |
+| Average    | 3    | 12               |
+| Hard       | 4    | 18               |
+| Very Hard  | 5-6  | 24               |
+| Extreme    | 7-8  | 30               |
 
-This means if something says it is a Threshold 3 then the TN is 18. 
 
-> This is the behidn the curtain look at how I did this conversion. Normal Sixfinity these TN's are 5/10/15/20/25/30 I adjusted them to be by 6's because of the math I found when I started looking into the 1/3 success rate on dice. They consider 4 dice a guranteed success so I took the average for a D6 as 3 (rounded down) multipled it by 4 to get the "Average" then went half for Easy and scaled from there.
+> Did I really make Sixfinity Dice Agnostic ... more or less yes as long as you know what you're doing. You could use a D20 (swingy), 3D6, 2d10, 2d12, 4d6, 5d4 even 2D6 or 1d12 if you made sure the curve made sense with the Skill Ratings. 
+
+
+
 
 ### Rolling 18
-One of two things happen when you roll 6 on all three dice. 
+When you roll a nautral 18, you get another D6 to roll and add to your total it also adds to your Total and Effect Dice. This is the same as a Push the Limit Edge spend. 
 
-1. If you succeeded at your test, you get to roll the Effect Dice again, once, and add the total to your Effect Dice for Effect.
-
-2. If you did not you get to add the new Roll to your Total for the Test. **This triggers the Rule of Six.**
-
-> Errata: In case 2 assuming you get a high enough Total to succeed at the roll your Effect is considered 6, you did after all start with a 6.
+Optionally you can recharge a **Spent** Edge.
 
 #### Glitching
 
 Also called a Botch. 
 
-When you roll a natural 1 on the effect dice; this is called a glitch or a botch. As long as you still beat the Target Number provided you are able to get a success. However, something will happen that did not go according to plan this is ruled by the Gamemaster but some suggestions are things like gun jammed requiring a Minor A ction to clear it. We treat this as a "Yes but..." siutation.
+When you roll a natural 1 on the effect dice; this is called a glitch or a botch. As long as you still beat the Threshold provided you are able to get a success. However, something will happen that did not go according to plan this is ruled by the Gamemaster but some suggestions are things like gun jammed requiring a Minor A ction to clear it. We treat this as a "Yes but..." siutation.
 
 What if you roll a natural 3? In that case you have a Critical Glitch. Critical Glitches can be quite bad it depends on the GM a common rule during combat is that the gun is so fouled up it takes a Major Action or it may be completely out of commission until you can make a Mechanics check to repair it. This is treated as a "No and..." situation. A roll of 3 always fails.
 
 
-### The Rule of Six
-
-The Rule of Six says anytime something says it Triggered the Rule of Six, you get to roll the Effect Dice again and add it to the total, if you roll 6 again you can add it and roll again. You can keep rolling as long as you roll 6 and add them to the total. This helps with your Total versus a TN but not your Effect.
-
-For example if Sarah rolls 3D6 +7 to attack a security guard and rolls, a 2, 2, and 6 on her Effect Dice, for a total of 10. Sarah re-rolls the Effect Dice and gets 6 again making her total 16, she rolls the 6 again and gets 6 again giving her a 22, she rolls 6 again and gets a 4 adding it to her roll she finishes with a 26.
-
-
 ### Effect
-This is where the game really takes off. As long as you succeeded at a Test you are considered to have an Effect of 1. In some cases (like combat) you need to know how well you did. In cases like this the Effect Dice result will tell you what your Effect is. There are Limits to how much Effect you can apply regardless of how much you ended up getting on the dice, or even from rolling a Nat 18. 
-
-- You cannot exceed your Weapons Accuracy in Effect
-- You cannot exceed your Limits on your character
+This is where the game really takes off. As long as you succeeded at a Test you are considered to have an Effect of 1. In some cases (like combat) you need to know how well you did. In cases like this the Effect Dice result will tell you what your Effect is.
 
 #### Net Effect
 
-This was added for Shadowrun. If you see something that says "Net Hits" it means Net Effect. If you see something that says "hit" or {hits} it is referring to the Effect Dice.
+Net Effect is calculated after a roll. 
 
-On occasion loike breaking a Barrier, you need to compare the Effect Rating of the Barrier against your Effect and see if you got through it. 
+In a Success Test the GM rolls and Effect Dice. You compare your Effect Dice (total if you got more than one) with the Effect Dice of the GM. Subtract the lesser from the greater and the net result is the Net Effect. Minimum 1.
 
-In this case you take your `Effect - Target's Effect Rating` the result is **Net Effect** if its positive you won, if its not you failed. Often times when you succeed something happens like carry over damage. 
-
-In an opposed test, you are aiming to roll higher. In cases where Effect is important compare your "Net Effect" or "Net Hits" is the value of the Effect Dice.
-
-> It Shadowrun you roll a pool of dice, they roll of pool of dice whoever gets more hits wins, and the net hits counts. In Sixfinity it is assumed you already out rolled them and the Effect Dice indicates what the net effect is.
+In an opposed test you compare the Effect Dice of both sides. Subtract the lesser dice number from the greater dice(s) number and the net result is the Net Effect which goes to whoever won. Minimum 1.
 
 ### Advantage and Disadvantage
 
-Advantage means you get an extra 1D6 added to roll and take the three highest.
+Advantage: Roll 3d6 and keep the higher of the two rolls.
 
-Disadvanatage means you roll 4D6 and take the three lowest.
+Disadvantage: Roll 3d6 keep the lower of the two rolls.
 
 
 ### Success Tests
-A Success test means you are rolling your dice, adding your modifiers and comparing against a {TN}
+In a Simple test, you roll `3D6 + Attribute + Skill`, and see if you meet total or beat a Threshold established by the gamemaster. The gamemaster establishes the Threshold based on the Threshold Guidelines and suggestions and guidelines established within the rules. If the the total is equal to or greater than the threshold, the action succeeds; in some occasions, the number of effect (the number on the Effect Dice) comes into play.
 
+Written as `Attribute + Skill (Threshold Step)`
 
+This is a very important thing to understand - these are written as THRESHOLD STEP. This allows the Gamemaster to alter the actual dice Thresholds as they see fit without changing how a test works.
 
 ### Opposed Tests
-Is where you roll a specified test and your opponent rolls a specified test. You compare the results which ever is higher wins. On a tie the defender wins.
 
+In an Opposed test, another character, object, device, or entity is actively (or passively) resisting your efforts, so you must exceed their effort to succeed. In an Opposed test, two parties roll their dice and compare the number to the totals. The one with the highest total wins. Ties typically go to the aggressor, though this may change if net effect are required to make a given effect. The difference between the higher number of effect and the lower number of effect are the net effect in these tests, and they are often applied to the action in some way— for example, in combat, net effect from the attacker are added to the Damage Value of their attack.
+
+Written as `Attribute + Skill vs. Opposed Attribute + Skill` These are rolled for higher roll. Then calculate Net Effect winner Effect Dice - Loser Effect Dice minimum 1 Net Effect.
 
 ### Extended Tests
 
-An Extended test has 3 Components: 
+Simple and Opposed tests involve actions that are taken and resolved quickly, generally in the course of a few seconds. Extended tests take longer and are for more complicated activities, like repairing an automobile or building a backdoor into a Matrix host. Extended tests have a modifier and a threshold like Simple tests, but they threshold does not have to be met on a single roll (and often can’t be) as it is a threshold *step*. The player can make multiple rolls of the dice,until they have accumulated enough total (totaling the totals from all their rolls) to meet or beat the threshold. With each roll, a certain amount of time passes. This time is known as the interval, and it is listed as part of each Extended test. 
 
-1. Target Number Required
-2. Number of Successful Attempts
-3. Time Interval Per Test
-
-Often written like this: Perform a Mechanics (15,5,1 day) Extended Test. This means the character must succeed at a Mechanics Test VS {TN} 15, they must do this 5 times, each attempt takes 1 day fail or succeed. 
+Written as: Extended `Engineering + Logic (9, 1 hour) test`
 
 ### Attribute Only Tests
 
@@ -668,40 +662,52 @@ When you take more damage in a single attack than your Physical Limit x 3 you mu
 
 `Body + Willpower + the rating of any protective gear/systems`; each Effect reduces the toxin’s Power by 1 point. If the Power is reduced to zero, the toxic substance takes no effect; otherwise, apply the effect depending on the remaining Power level.
 
-### Courage Points
+### Edge Points
 
-Courage is a character’s luck, the favor of the gods, that unexplainable factor that allows her to beat the odds. A character’s Courage attribute represents the number of Courage points a character has to spend during gameplay. Courage points can be used for a wide range of benfits, each noted below. Courage points that are spent are temporarily unavailable (see Regaining Courage, below)—luck will only take you so far. Note that a character’s Courage attribute never actually changes, even when Courage points are spent, unless the character permanently burns Courage (see Burning Courage)
+Edge is a character’s luck, the favor of the gods, that unexplainable factor that allows her to beat the odds. A character’s Edge attribute represents the number of Edge points a character has to spend during gameplay. Edge points can be used for a wide range of benfits, each noted below. Edge points that are spent are temporarily unavailable (see Regaining Edge, below)—luck will only take you so far. Note that a character’s Edge attribute never actually changes, even when Edge points are spent, unless the character permanently burns Edge (see Burning Edge)
 
-Humans can have 7 **maximum** courage, other species the **maximum** is 6 without the Lucky Edge. 
+Humans can have 7 **maximum** courage, other metatype the **maximum** is 6 without the Lucky Quality. 
 
-Spent Courage refreshes every game session. Or whenever the GM says it does.
+Spent Edge refreshes every game session. Or whenever the GM says it does.
 
-On a long rest you get 1 Courage back.
+On a long rest you get 1 Edge back.
 
-**Optional Rule:** You can refresh a point of Courage on a Critical Success as long as no Courage was spent on that test.
+**Optional Rule:** You can refresh a point of Edge on a Critical Success as long as no Edge was spent on that test.
 
-Burnt Courage is gone. You have to buy more with Experience.
+Burnt Edge is gone. You have to buy more with Experience.
 
-#### Spending Courage 
+#### Spending Edge 
 
-A character can only spend Courage points on her own actions; she cannot spend it on behalf of others (except when engaged in a “teamwork” test). You can only use Courage once on any test/roll or challenge. If you spent a point of Courage for extra dice and rolled a critical glitch anyway, for example, you cannot use Courage to negate that critical glitch since you have already applied Courage to that test.
+A character can only spend Edge points on her own actions; she cannot spend it on behalf of others (except when engaged in a “teamwork” test). You can only use Edge once on any test/roll or challenge. If you spent a point of Edge for extra dice and rolled a critical glitch anyway, for example, you cannot use Edge to negate that critical glitch since you have already applied Edge to that test.
 
-Spending Courage can do the following, players choice:
+Spending Edge can do the following, players choice:
 
-- Push the Limit: Re-roll your Effect Die and add the new result to your Effect total. The Rule of Six applies. This triggers the same effect as if you had rolled a Nat 18. 
-- Action Surge: By spending a Courage point you can push yourself beyond your normal limits for a moment. On your combat round, you can take one additional action
+- Push the Limit: Roll an additional Effect Dice and add it to your Total and Effect Dice
+- Blitz!: Spend 1 Edge and get your Edge Rating in Bonus Edge to spend on this test.
 - Seize the Initiative: Jump to the top of the initiative order. A character cannot both Blitz and Seize the Initiative in the same combat round.
 - Dead Man’s Trigger: When reduced to 0 Physical Health or about to die, you immediately regain half your Physical Health. This can only be used once per Breather or Long Rest (5 minutes / 6 hours).
 - Close Call: Either negate the effects of one glitch or turn a critical glitch into a glitch.
 
+#### Burning Edge
 
+In certain drastic situations, even spending Edge may not be enough. A character can choose to burn a point of Edge permanently reducing his Edge attribute by 1 for one of the following effects:
 
-#### Burning Courage
-
-In certain drastic situations, even spending Courage may not be enough. A character can choose to burn a point of Courage permanently reducing his Courage attribute by 1 for one of the following effects:
-
-- Crits and Things: Burn 1 Courage to get +10 to your roll and 6 Effect.
+- Crits and Things: Burn 1 Edge to get +10 Bonus Edge to spend immediately. This breaks the rule of no more than 7 Bonus Edge.
 - Not Dead Yet: When facing death you somehow survive. You still take all the negative effects of what happened such as lost limbs, you are just not dead. You are not dying either, you are stable.
+
+#### Bonus Edge
+
+This comes up in some situations. Bonus edge can be spent in one of two ways. It can buy +1 per point on your dice total, or it can buy 1 Effect for every 2.
+
+For example in Combat:
+
+Oda is attacking an Eye-Fiver. Here we compare the Attack Rating of the Ares Predator VI (8) to the Defense Rating of the Eye-Fiver (4; Body 3, + 1 for leathers) and see that Oda has a difference of **4 or more greater**, giving Oda one bonus Edge. 
+
+Next, we check out the situation. It’s nighttime in a
+dimly lit alley because Oda wanted to get them all bunched together and take advantage of the low-light vision on his cybereyes, which the gangers don’t have. This gives a second bonus Edge to Oda. 
+
+Finally, we look at any other elements that might help either side. None are present, so the process moves on and Oda has 2 Bonus Edge he can spend to get 1 Effect or +2 on his roll total.
+
 
 
 ### Individual Rule Sections
@@ -714,7 +720,7 @@ A direct neural interface, or DNI, connects your brain to electronic devices. Di
 
 #### Grenades
 
-When throwing a grenade, choose a location as a target. Use a Throw Weapon Minor Action and make a Throwing Weapons + Agility [Physical] (TN 18) Test modified for range and all the usual conditions. Success means the grenade lands right where you wanted. If you don’t meet the TN, the grenade scatters. The gamemaster determines scatter by consulting the Scatter Table (Determine Scatter). Hitting the TN on the test means no scatter, but it is still possible to hit the target if the scatter roll is low and the thrower got some Effect (see Determine Scatter). This all goes back to the old saying: “Close only counts in horseshoes and hand grenades.”
+When throwing a grenade, choose a location as a target. Use a Throw Weapon Minor Action and make a Throwing Weapons + Agility [Physical] (Threshold 18) Test modified for range and all the usual conditions. Success means the grenade lands right where you wanted. If you don’t meet the Threshold, the grenade scatters. The gamemaster determines scatter by consulting the Scatter Table (Determine Scatter). Hitting the Threshold on the test means no scatter, but it is still possible to hit the target if the scatter roll is low and the thrower got some Effect (see Determine Scatter). This all goes back to the old saying: “Close only counts in horseshoes and hand grenades.”
 
 Grenades are small, self-contained explosive or gasdelivery packages. They may come with a built-in timer to detonate after a pre-set amount of time (usually three seconds), a motion-sensor set to detonate on impact, or a wireless link set to detonate upon remote command. The type of detonation device determines the special rules and timing of grenade explosions.
 
@@ -757,7 +763,7 @@ If the attacker misses their intended landing spot, the gamemaster must determin
 
 Occasionally, characters get their hands on military- grade hardware, like grenade launchers, missiles, and rocket launchers. Resolving a launched grenade, rocket, or missile attack is a two-step process. The first step determines where the projectile ends up in relation to the target (see Determine Scatter). The second step resolves the effect of the projectile’s explosion.
 
-When you fire a grenade, rocket, or missile you use a Attack Major Action and roll a Heavy Weapons + Agility [Accuracy] (TN 18) Test modified for range and all the usual conditions. Success means the launched weapon hits right where you wanted. If you don’t meet the TN, the projectile scatters. The gamemaster determines scatter by consulting the Scatter Table.
+When you fire a grenade, rocket, or missile you use a Attack Major Action and roll a Heavy Weapons + Agility [Accuracy] (Threshold 18) Test modified for range and all the usual conditions. Success means the launched weapon hits right where you wanted. If you don’t meet the Threshold, the projectile scatters. The gamemaster determines scatter by consulting the Scatter Table.
 
 #### Blast Effects
 
@@ -792,9 +798,9 @@ This determines how quickly the victim suffers the toxin’s Effect. These effec
 
 
 
-## Chapter 5: Edges & Flaws
+## Chapter 5: Qualities
 
-### Edges
+### Positive Qualities
 These provide bonuses in role playing situations, situational modifiers, and permanent effects. 
 
 
@@ -840,7 +846,7 @@ A character with this quality reads, writes, and speaks a second language fluent
 
 Cost: 8 XP
 
-This character blends into a crowd; he’s seldom noticed and easily forgotten. He is unremarkable in every aspect of physical appearance. Anyone attempting to describe the character cannot come up with anything more precise than “average height, average build, average hair, etc.” Increase the {TN} tier for anyone to recall specific details about the character by 1. This means a Memory Test with a difficulty of Average ({TN} 10) becomes a Hard test ({TN} 15).
+This character blends into a crowd; he’s seldom noticed and easily forgotten. He is unremarkable in every aspect of physical appearance. Anyone attempting to describe the character cannot come up with anything more precise than “average height, average build, average hair, etc.” Increase the {Threshold} tier for anyone to recall specific details about the character by 1. This means a Memory Test with a difficulty of Average ({Threshold} 10) becomes a Hard test ({Threshold} 15).
 
 Individuals attempting to shadow or physically locate a character with the Blandness quality in a populated setting receive a –2 modifier on all tests related to their search. The same penalty applies if they’re asking around about the person based on the individual’s physical appearance. If the character acquires any visible tattoos, scars, or other distinguishing features, the bonuses from the Blandness quality go away until the distinctive features are removed from the character’s appearance.
 
@@ -862,7 +868,7 @@ You are exceptionally skilled at navigating the Net and executing digital intrus
 
 Effect: You gain a Advantage on all Tests involving hacking, intrusion, or similar Net-based actions.
 
-Restriction: This Edge may only be taken once.
+Restriction: This Quality may only be taken once.
 
 #### Double Jointed
 
@@ -879,7 +885,7 @@ GM Discretion: You may also attempt to squeeze into cramped or narrow spaces whe
 
 Cost: 14 XP
 
-Some individuals push beyond the natural limits of their species, embodying rare physical or mental potential.
+Some individuals push beyond the natural limits of their metatype, embodying rare physical or mental potential.
 
 Effect: Choose one Attribute. Your natural maximum for that Attribute increases by +1 above your species’ normal maximum.
 
@@ -887,7 +893,7 @@ Example: A Human with Exceptional Attribute could raise one Attribute to 7 inste
 
 Augmented Maximum: The augmented maximum for that Attribute also increases by +1.
 
-Restriction: This Edge may only be taken once.
+Restriction: This Quality may only be taken once.
 
 
 #### First Impression
@@ -926,7 +932,7 @@ When a bug spirit with dripping mandibles comes calling, the character with Guts
 
 Cost: 7 XP per rating (max rating 3)
 
-Your Lifeblood is increased by 1 per rating.
+Your Overflow is increased by 1 per rating.
 
 Restriction: Maximum rating is 3.
 
@@ -940,7 +946,7 @@ Effect: Human NPCs treat you with a neutral baseline attitude when making Social
 
 Complications: You may suffer increased hostility from non-human NPCs who resent humans—or who think you’re “trying too hard” to look like one.
 
-Restriction: Only Elves, Dwarves, and Orcs may take this Edge.
+Restriction: Only Elves, Dwarves, and Orcs may take this Quality.
 
 #### Indomitable
 
@@ -953,15 +959,15 @@ Bodies and minds have limits, but some people have the will to push right throug
 
 Cost: 12 XP
 
-Some individuals have an indomitable spirit that pushes beyond the limits of their species.
+Some individuals have an indomitable spirit that pushes beyond the limits of their metatype.
 
-Effect: Your Courage Attribute maximum increases by +1 above your species’ normal limit.
+Effect: Your Edge Attribute maximum increases by +1 above your species’ normal limit.
 
-Example: A Human with Exceptional Courage could raise Courage to 8 instead of the usual maximum of 7.
+Example: A Human with Exceptional Edge could raise Edge to 8 instead of the usual maximum of 7.
 
-Advancement: This Edge does not grant an immediate increase to Courage; it only raises the cap. The Experience cost for raising the Attribute must still be paid through normal advancement.
+Advancement: This Quality does not grant an immediate increase to Edge; it only raises the cap. The Experience cost for raising the Attribute must still be paid through normal advancement.
 
-Restriction: This Edge may only be taken once.
+Restriction: This Quality may only be taken once.
 
 
 #### Magic Resistance
@@ -1043,9 +1049,9 @@ This character can go into the negatives an additional point per rating up to th
 ---
 
 
-### Flaws
+### Negative Qualities
 
-Flaws provide bonus XP that can be used toward the cost of attributes, skills, edges, and other resources and abilities. Characters may not earn more than 35 XP from purchasing Flaws.
+
 
 #### Addiction
 
@@ -1087,7 +1093,7 @@ The astral signature of a character with the Astral Beacon quality is like, well
 
 Bonus: 12 XP
 
-This character is cursed—his own luck often turns against him. Whenever this character uses Courage, roll 1D6. On a result of 1, the Courage is spent, but it has the exact opposite effect intended. For example, if a character hopes to gain a reroll dice to take the higher option, instead he takes the lower option. If a character spends Courage to go first in an Initiative, he ends up going last. If a character spent Courage to negate a glitch, Bad Luck turns it into a critical glitch.
+This character is cursed—his own luck often turns against him. Whenever this character uses Edge, roll 1D6. On a result of 1, the Edge is spent, but it has the exact opposite effect intended. For example, if a character hopes to gain a reroll dice to take the higher option, instead he takes the lower option. If a character spends Edge to go first in an Initiative, he ends up going last. If a character spent Edge to negate a glitch, Bad Luck turns it into a critical glitch.
 
 #### Codeblock
 
@@ -1134,13 +1140,13 @@ Bonus: 10 XP
 
 The Loss of Confidence quality means something has caused the character to lose confidence in himself and one of his abilities. Though a skilled hacker, he failed to hack into a Starbucks host, or despite high Agility, he glitched an easy Climbing Test and fell into a dumpster— whatever the reason, he now doubts himself and his abilities. In tests involving the affected skill, the character suffers a –2 modifier. If the character has a specialization with the skill, the character cannot use that specialization while suffering a loss of confidence.
 
-The skill chosen for the character to have a Loss of Confidence must be one that the character prides himself in and has invested in building. Only skills with a rating 4 or higher may suffer the Loss of Confidence quality. Courage may not be used for tests involving this skill when the character is suffering Loss of Confidence.
+The skill chosen for the character to have a Loss of Confidence must be one that the character prides himself in and has invested in building. Only skills with a rating 4 or higher may suffer the Loss of Confidence quality. Edge may not be used for tests involving this skill when the character is suffering Loss of Confidence.
 
 #### Low Pain Threshold
 
 Bonus: 9 XP
 
-Your Lifeblood is reduced by 1 (minimum 0).
+Your Overflow is reduced by 1 (minimum 0).
 
 
 
@@ -1166,7 +1172,7 @@ Characters with the Uneducated quality are considered “unaware” in Knowledge
 
 Bonus: 7 XP
 
-A character with Unsteady Hands has mild shakes that affect the dexterity and finesse in his hands. The character suffers a –2 modifier for all Agility-based tests when symptoms manifest themselves. The condition could be physiological (an untreated genetic disorder or damaged nerves, for example), caused by psychological trauma, or even be symptomatic of age. Certain augmentations or medications can mask these symptoms under normal circumstances. Under more stressful situations in the course of the run, there is a chance the Unsteady Hands condition can reappear. The character makes an Agility + Body ({TN} 20) Test following a stressful encounter (combat, for example). A successful test means the character does not experience the symptoms of this condition (this time). A failed test causes the difficulties associated with unsteady hands to re-emerge, and they remain with the character for the remainder of the run.
+A character with Unsteady Hands has mild shakes that affect the dexterity and finesse in his hands. The character suffers a –2 modifier for all Agility-based tests when symptoms manifest themselves. The condition could be physiological (an untreated genetic disorder or damaged nerves, for example), caused by psychological trauma, or even be symptomatic of age. Certain augmentations or medications can mask these symptoms under normal circumstances. Under more stressful situations in the course of the run, there is a chance the Unsteady Hands condition can reappear. The character makes an Agility + Body ({Threshold} 20) Test following a stressful encounter (combat, for example). A successful test means the character does not experience the symptoms of this condition (this time). A failed test causes the difficulties associated with unsteady hands to re-emerge, and they remain with the character for the remainder of the run.
 
 #### Tracked (Layered)
 
@@ -1295,7 +1301,7 @@ New characters may only take one specialization per skill at character creation 
 
 ### Defaulting
 
-It is impossible to prepare for every scenario and only slightly harder to have every skill. When you perform an action without actually having the skill for the test, there’s still hope. You can default the skill, making the test using only the attribute to form the modifier. You don’t have any tremendous talent when you default— quite the opposite in fact. Defaulting imposes a –1 modifier in addition to any other modifiers the situation demands. Unless the gamemaster feels that you’re at a complete loss when defaulting, you can use Courage to Push the Limit and better your chances.
+It is impossible to prepare for every scenario and only slightly harder to have every skill. When you perform an action without actually having the skill for the test, there’s still hope. You can default the skill, making the test using only the attribute to form the modifier. You don’t have any tremendous talent when you default— quite the opposite in fact. Defaulting imposes a –1 modifier in addition to any other modifiers the situation demands. Unless the gamemaster feels that you’re at a complete loss when defaulting, you can use Edge to Push the Limit and better your chances.
 
 Some skills are too technically demanding for you to default. In these cases, you don’t get to even try the test; you just fail. Vehicles or Unarmed Combat, for example, are relatively simple skills that can be attempted without formal training, so you can default if you need to. Mechanics, on the other hand, is too complicated to try without some training (you could say it’s rocket science). Skills that cannot be defaulted are given in italics on the Active Skill List—and it’s also mentioned in the skill description.
 
@@ -1434,12 +1440,12 @@ quickly found on the Matrix. Knowledge skills are not
 about that basic level of detail, but rather information
 that not everyone knows or can find so easily.
 
-| Character Seeks     | TN  |
-| ------------------- | --- |
-| General Knowledge   | 6   |
-| Detailed Knowledge  | 12  |
-| Intricate Knowledge | 18  |
-| Obscure Knowledge   | 24  |
+| Character Seeks     | Threshold |
+| ------------------- | --------- |
+| General Knowledge   | 6         |
+| Detailed Knowledge  | 12        |
+| Intricate Knowledge | 18        |
+| Obscure Knowledge   | 24        |
 
 | Skill Example        | Type         | Specilizations                                                                                       |
 | -------------------- | ------------ | ---------------------------------------------------------------------------------------------------- |
@@ -1602,7 +1608,7 @@ Escape Artist measures the character’s ability to escape from bindings by usin
 **USING ESCAPE ARTIST**
 
 
-In Shadowrun, you might just find yourself caught instead of killed. Escape Artist provides a chance to escape from most forms of confinement, including ropes, handcuffs, and other bindings. To get out of restraints, make an `Escape Artist + Agility [Physical]` Test against a TN based on what you’re trying to get out of. If you succeed, you’re free after working on it for one minute (20 Combat Turns), divided by the number of net effect you get on the test. The dice is modified by a variety of factors, such as whether or not you’re being watched (and trying to be subtle) or if you’re carrying a set of lockpicks. These situational modifiers are on the Escape Artist Table. The gamemaster may decide that some restraints are too difficult to escape from without outside help.
+In Shadowrun, you might just find yourself caught instead of killed. Escape Artist provides a chance to escape from most forms of confinement, including ropes, handcuffs, and other bindings. To get out of restraints, make an `Escape Artist + Agility [Physical]` Test against a Threshold based on what you’re trying to get out of. If you succeed, you’re free after working on it for one minute (20 Combat Turns), divided by the number of net effect you get on the test. The dice is modified by a variety of factors, such as whether or not you’re being watched (and trying to be subtle) or if you’re carrying a set of lockpicks. These situational modifiers are on the Escape Artist Table. The gamemaster may decide that some restraints are too difficult to escape from without outside help.
 
 **Escape Artist Table**
 
@@ -1668,11 +1674,11 @@ The Gymnastics skill is applied to both assisted and unassisted climbing tasks. 
 
 **RAPPELLING**
 
-Rappelling is a gear-aided descent at near free-fall speed. This technique requires a `Free-Fall + Body [Physical] (12)` Success Test. So long as you have the proper gear and training, you can brake at any point in the descent, slow your speed, and land safely. Rappelling expends a Minor Action, during which you fall at a rate of 20 yards per Combat Turn. Rappelling characters can increase the number of yards descended during that same Combat Turn by 1 for each net effect beyond the threshold on the Free-Fall Test. If you take another Minor Action in the same phase, such as firing a weapon, you get a –2 modifier to both that action and the Free-Fall Test. Stopping requires another Free-Fall Test with the same threshold. On an unsuccessful test, you don’t slow down and may take damage if you hit the ground at speed (Falling Damage).
+Rappelling is a gear-aided descent at near free-fall speed. This technique requires a `Free-Fall + Body [Physical] (3)` Success Test. So long as you have the proper gear and training, you can brake at any point in the descent, slow your speed, and land safely. Rappelling expends a Minor Action, during which you fall at a rate of 20 yards per Combat Turn. Rappelling characters can increase the number of yards descended during that same Combat Turn by 1 for each net effect beyond the threshold on the Free-Fall Test. If you take another Minor Action in the same phase, such as firing a weapon, you get a –2 modifier to both that action and the Free-Fall Test. Stopping requires another Free-Fall Test with the same threshold. On an unsuccessful test, you don’t slow down and may take damage if you hit the ground at speed (Falling Damage).
 
 **CLIMBING FAILURES AND GLITCHES**
 
-A test while climbing or rappelling automatically halts your progress, and you have to make a `Reaction + Strength` Test to hold on. If you fail this second test, you start to fall (about 20 yards per Combat Turn). During your next turn, you may attempt to stop by making a `Reaction + Strength Test` with a –2 modifier. Your gamemaster may allow other climbers to make a `Reaction + Strength` Test to grab you. Characters who are using climbing gear are allowed an additional test if they fall. Have the character who prepared the safety lines make a `Free-Fall + Logic [Mental]` Test against a threshold equal to half the falling character’s Body (round down). The falling character may apply Courage to this test. If successful, the safety gear catches, leaving the character dangling. If it fails, the character falls (see Falling Damage).
+A test while climbing or rappelling automatically halts your progress, and you have to make a `Reaction + Strength` Test to hold on. If you fail this second test, you start to fall (about 20 yards per Combat Turn). During your next turn, you may attempt to stop by making a `Reaction + Strength Test` with a –2 modifier. Your gamemaster may allow other climbers to make a `Reaction + Strength` Test to grab you. Characters who are using climbing gear are allowed an additional test if they fall. Have the character who prepared the safety lines make a `Free-Fall + Logic [Mental]` Test against a threshold equal to half the falling character’s Body (round down). The falling character may apply Edge to this test. If successful, the safety gear catches, leaving the character dangling. If it fails, the character falls (see Falling Damage).
 
 **JUMPING**
 
@@ -1699,7 +1705,7 @@ Perception refers to the ability to spot anomalies in everyday situations, makin
 
 **USING PERCEPTION**
 
-Perception Tests are for any situation involving basic senses (sight, hearing, smell, touch, or taste) where you’re looking for something that isn’t obvious. Your gamemaster might call for you to make one, or you can call for a Perception Test by taking an Use Skill Major Action to get a handle on what’s going down around you. Making the TN on a `Perception + Intuition [Mental]` Test indicates that you’ve noticed something subtle or important (or both)—net effect determine how much detail you get. If someone is deliberately trying to hide from you, they’ll oppose your test with their own skill (Using Stealth Skills). Perception Tests involving vision (which is most of them) use the same Visibility and Light modifiers as attacks do in combat (Environmental Modifiers). Other modifiers are listed on the Perception Test Modifiers table. If a bunch of people are making a Perception Test and looking for the same thing, use a Teamwork Test.
+Perception Tests are for any situation involving basic senses (sight, hearing, smell, touch, or taste) where you’re looking for something that isn’t obvious. Your gamemaster might call for you to make one, or you can call for a Perception Test by taking an Use Skill Major Action to get a handle on what’s going down around you. Making the Threshold on a `Perception + Intuition [Mental]` Test indicates that you’ve noticed something subtle or important (or both)—net effect determine how much detail you get. If someone is deliberately trying to hide from you, they’ll oppose your test with their own skill (Using Stealth Skills). Perception Tests involving vision (which is most of them) use the same Visibility and Light modifiers as attacks do in combat (Environmental Modifiers). Other modifiers are listed on the Perception Test Modifiers table. If a bunch of people are making a Perception Test and looking for the same thing, use a Teamwork Test.
 
 **Perception Test Modifiers table**
 
@@ -1714,14 +1720,14 @@ Perception Tests are for any situation involving basic senses (sight, hearing, s
 | Perceiver has active enhancements                   | + (Rating)            |
 | Visibility and Light                                | Environmental Factors |
 
-**Perception TN's**
+**Perception Threshold's**
 
-| **ITEM/EVENT IS:**     | **TN THRESHOLD** | **EXAMPLES**                                            |
-| ---------------------- | ---------------- | ------------------------------------------------------- |
-| Obvious/Large/Loud     | 6                | Neon sign, running crowd, yelling, gunfire              |
-| Normal                 | 12               | Street sign, pedestrian, conversation, silenced gunfire |
-| Obscured/Small/Muffled | 18               | Item dropped under table, contact lens, whispering      |
-| Hidden/Micro/Silent    | 24               | Secret door, needle in haystack, subvocal speech        |
+| **ITEM/EVENT IS:**     | **Threshold THRESHOLD** | **EXAMPLES**                                            |
+| ---------------------- | ----------------------- | ------------------------------------------------------- |
+| Obvious/Large/Loud     | 6                       | Neon sign, running crowd, yelling, gunfire              |
+| Normal                 | 12                      | Street sign, pedestrian, conversation, silenced gunfire |
+| Obscured/Small/Muffled | 18                      | Item dropped under table, contact lens, whispering      |
+| Hidden/Micro/Silent    | 24                      | Secret door, needle in haystack, subvocal speech        |
 
 
 
@@ -1819,7 +1825,7 @@ This skill confers the ability to detect the passage of metahumans and other gam
 
 **USING TRACKING**
 
-Tracking a person or critter requires a `Tracking + Intuition [Mental] Test` with a threshold based on the terrain (decided by the gamemaster using the TN table). If the target is actively obscuring their trail, tracking is handled as an Opposed Test. The tracker rolls `Tracking + Intuition [Mental]` against the target’s `Sneak + Agility [Physical]`. Any effect on a Tracking Test can be used to gain additional information about the trail, such as the number of people using the trail, type of critters recently using it, and how old the tracks are. In urban tracking, additional effect can be used to identify local crowd movement patterns, relevant cameras, and AR clues that reveal where the target was heading and how long ago it passed by. The gamemaster may choose to apply modifiers for conditions such as weather, age of the tracks, the amount of people who’ve trampled the trail, and so on. Individuals using a tracking dog or other tracking critter may use Animal Handling as a Teamwork Test for their animal’s Tracking Test.
+Tracking a person or critter requires a `Tracking + Intuition [Mental] Test` with a threshold based on the terrain (decided by the gamemaster using the Threshold table). If the target is actively obscuring their trail, tracking is handled as an Opposed Test. The tracker rolls `Tracking + Intuition [Mental]` against the target’s `Sneak + Agility [Physical]`. Any effect on a Tracking Test can be used to gain additional information about the trail, such as the number of people using the trail, type of critters recently using it, and how old the tracks are. In urban tracking, additional effect can be used to identify local crowd movement patterns, relevant cameras, and AR clues that reveal where the target was heading and how long ago it passed by. The gamemaster may choose to apply modifiers for conditions such as weather, age of the tracks, the amount of people who’ve trampled the trail, and so on. Individuals using a tracking dog or other tracking critter may use Animal Handling as a Teamwork Test for their animal’s Tracking Test.
 
 #### Social Active Skills
 
@@ -2389,232 +2395,390 @@ This skill is used to pilot any waterborne vehicle, whether from inside it or by
 
 ## Chapter 7: Equipment
 
-### Shadowrun Economy
+You’re only as good as your gear. It’s a common saying, but it’s true, especially on the mean streets of the Sixth World. Having the wrong gear at the right time or the right gear at the wrong time are both potentially fatal flaws. Either way you’re probably going to end up in a world of hurt, or worse.
 
-### Nuyen
+### Gear Stats
 
-{{Put details here}}
+The key functions of any piece of gear in Shadowrun are expressed in its game stats. The exact categories of stats depend on the item’s type. Cost is a universal stat—everything costs money—and all items also have Availability. We’ll cover that and some of the more specialized stats.
 
-### Buying Gear
+#### Availability
 
-Gear’s Availability Rating determines how easy (or hard, or practically impossible) it is to acquire a needed or desired piece of equipment. Availability is an abstract amalgamation of factors like rarity, legality, distribution issues, supply, demand, and so on. The letter that follows an item’s numerical Availability Rating shows whether the item is Restricted (R) or Forbidden (F). For this reason, the gamemaster should feel free to modify an item’s Availability Rating—either the numerical value, or its legality code—in situations that would warrant it, like if the strider is in a war zone or in a country with a restricted economy.
+Availability expresses how easy it is to find a piece of gear. The higher the number, the more scarce the item is. Availabilities typically range from 1 to 6, but circumstances can push them up to 9.
 
-Standard gear is generally available in most places. In locations where it is not you can roll `3D6 + Streetwise VS (Availability + 10)` to see if you can find the items. You must roll for Restricted items, and Forbidden Items you will generally need a Contact to get your hands on those. 
+Note that the top levels of Availability are primarily reserved for alphaware, betaware, and deltaware versions of augmentations.
 
-#### Standard Gear
+Availability ratings give a general sense to the gamemaster of whether player characters can find a given item, but they also can be used in mechanics in two ways. First, the Availability rating can be used as a threshold in Matrix Search tests to find someone who carries the item—though the gamemaster should note that just because the players find a seller doesn’t mean that seller will be easily accessible. Second, players may ask a contact to locate an item. 
 
-Standard items with no Availability rating can be purchased at your local WalMart, Starbucks, or Electronics Store, or perhaps ordered online or picked up from a vending machine. All you have to do is pay the cost listed in the book for the item (with adjustments from the gamemaster if she wants, according to local market fluctuations or other extenuating circumstances she deems appropriate).
+Generally speaking, contacts can find goods whose Availability is less than (not equal to) their Connection rating. Whether they connect the player characters to the gear is a question of Loyalty and role-playing.
 
-While easy to buy, standard goods are eminently traceable. Records of legal purchases are almost always kept, shared, and cross-indexed; whether this datatrail gets stuck to your fake ID or, worse, a real one, it’s a potential liability. Purchasing habits are valuable to marketing companies, so you’ll start seeing AR advertisements tailored to what you buy and what you like. And since Big Brother Commerce is watching, remember that the Net host that knows and remembers your favorite store to buy sneakers at isn’t necessarily as secure as your commlink. Fake IDs can be used to shield yourself from this pervasive data-mining, but as long as you’re on the grid, even fake IDs will accumulate profiles of their own after long-term use. And there’s always the chance someone can find out more about you than you want to let go.
+**Availability**
 
-Of course, standard goods can also be purchased on the black market to avoid traceability, but the gamemaster may decide that the latest copy of Miracle Shooter is more expensive with the digital serial numbers filed off and apply a surcharge for your paranoia.
+- 1 These items can be found just about anywhere. If you’re in a relatively civilized area, just walk a few blocks, and you’ll find a place that sells this.
+- 2 These items are a bit more specialized, but that mainly means you’ll have to seek out a store that focuses on this type of merchandise, rather than finding it in your local Stuffer Shack or whatever.
+- 3 These are starting to be boutique items, the type of things aficionados seek out, or things that are made in relatively small batches. They’re not the rarest items, but they’re also not sitting in a ton of stores across the sprawl.
+- 4 Now we’re getting into specialty markets. These are things not intended for mass markets, and their specialized function isn’t for everyone. Few people in any given sprawl carry them, and their supplies are limited.
+- 5 True specialty items. These may be collector’s items or things deliberately made for a niche audience, but they are not at all easy to find.
+- 6 These are quite rare, often hand-crafted items. Small workshops and specialty manufacturers make them, and you’ll never find them at a major retailer. Work hard, and you might track a by-appointment seller who will sell you one.
+- 7 These items are not available off-the-rack. They are specially ordered and custom-made.
+- 8 Same as 7, but you have to make an appointment to order one, and you may be subjected to a background check based on whatever obscure criteria the manufacturer has decided to assemble.
+- 9 The most rare items money can buy—you just have to find the person who will take your cash. Owning one of these marks you as a member of the elite, and selling one of them brings in extra cash due to their scarcity.
 
-#### Starting Gear
+#### Legality
 
-Like it says in character creation, starting characters may not purchase items with a rating greater than 6 or an Availability greater than 12 during character creation. You don’t need to worry about your purchases at character creation going on some kind of permanent record (although there are some qualities you can take that would). Once the game is on, you can beg, borrow, and steal whatever gear you can get your grubby little hands on—at least, you can certainly try.
+Some items are listed with an (I) or (L) as part of their Availability rating. The former refers to items that are illegal for private ownership in most places, which means they are only allowed in the possession of security, megacorporate, or government entities. The latter designation is attached to items that require a license in order to legally possess or transport them. Licenses are bought and attached to SINs (or fake SINs). The legal status of any given item is dependent on the local laws. What’s legal in the UCAS may not be legal in CalFree, or vice versa. The listings here are for the UCAS and Seattle in particular, as the UCAS has several laws (like gun possession) that vary by state.
 
-### Gear Ratings
+#### Active Program Slots
 
-Every item described in this chapter includes a set of statistics. Every item has a cost along with an Availability Rating, and most non-weapon, non-armor items, except those that simply confer an ability or don’t, have an overall Rating, usually between 1 and 6. Often a gear’s Cost and Availability are functions of its Rating.
+This shows how many programs an electronic device can have running at a single time.
 
-**Accuracy**: Refers to a weapon’s overall accuracy. A firearm’s Accuracy acts as the limit for tests involving that weapon, capping the number of Effect that can be achieved on an attack roll using it.
+#### Attack Rating
 
-**Ammo**: Refers to the amount of ammunition a ranged weapon can hold, followed by the method of reloading in parentheses: (b) means break action, (c) means detachable external box magazine, or “clip” in modern street parlance, (d) means drum, (ml) means muzzle-loader, (m) means internal magazine, (cy) means cylinder, and (belt) means belt-fed.
 
-**Armor**: Each piece of armor has an Armor value that adds to the wearer’s Damage Resistance (see Armor).
+Close 0-3 yds, Near 4-50 yds, Medium 51-250 yds, Far 251-500 yds, Extreme 500 yds
 
-**Armor Penetration**: All weapons have an Armor Penetration value, although in some cases, this value is listed with no value, meaning no AP. The AP value indicates how a weapon interacts with armor (see Armor Penetration). This is the amount of Armor protection that is ignored by the weapon. It had no effect on Toughness, the only things that ignore Toughness are Special Damage types. 
+#### Ammo
 
-**Availability**: The higher the Availability of an item, the more difficult and costly it is to get it (see Buying Gear). Gear without an Availability rating can be bought at an appropriate local store or ordered online without any trouble. The letter that follows an item’s numerical Availability rating shows whether the item is Restricted (R) or Forbidden (F). Items without a letter in parentheses are considered legal—they aren’t necessarily easy to find, but you won’t ever get arrested for seeking them.
+This is the ammo capacity a firearm has, as well as the type of container—(belt) belt, (c) clip, (cy) cylinder, (m) magazine, (ml) missile, or (z) muzzle loaders.
 
-**Blast**: This rating is possessed by grenades, missiles, rockets, and other area-of-effect weapons. Blast is the amount the blast weapon’s damage value is reduced per yard of distance from the explosion’s point of origin (see Blast Effects).
+#### Armor Rating
+This is the boost to a character’s Toughness.
 
-**Capacity**: Some sensor packages and cyberware can be equipped with a range of subsystems. A Capacity value is listed for these, indicating the maximum amount of “slots” worth of accessories the item can hold. If the Capacity is listed in brackets, it’s the cost of that subsystem or accessory, or the number of slots that item takes up. Some cyberware items with a Capacity cost can also be installed as standalone items (taking up Essence) rather than subsystems (taking up Capacity); if both costs are listed, only one applies, depending on whether you installed it in another item or in yourself.
+#### Blast
+This is the size of a blast of an explosive.
 
-**Concealability Modifier**: This indicates how easy it is to hide a given item, and is applied as a modifier to Perception + Intuition Tests to spot the item (see Concealing Gear).
+#### Capacity
+Some items can hold modifications and other
+adaptations, and they have a Capacity rating to indicate
+how much they can hold. Other items take
+up this space—those items have a Capacity rating
+listed in brackets [].
 
-**Cost**: This is the base price a character must pay to buy the item. If the item is legal, this is the standard price found at stores or online. Note that rare and/or illegal items may cost less or more depending on certain black market variations (see (Il)legality). Cost is also subject to local supply and demand, so the gamemaster should feel free to adjust it accordingly for certain settings.
+#### Damage Value (DV)
+This is used for weapons and is the base damage
+the weapon inflicts if it hits. It may have a letter
+indicating its elemental damage, such as (e) for
+electricity or (f) for fire. For explosives, this is listed
+at different ranges, including ground zero (GZ),
+Close, and Near ranges.
 
-**Damage Value (DV)**: A weapon’s Damage Value represents the base amount of harm, in points of damage, it causes when it hits a target. Damage Values consist of a number (the the base damage) and a letter indicating the type of damage caused: P for Physical, S for Stun. A parenthetical annotation following the damage type, such as (f) or (e), indicates that the damage is flechette or electrical (see Damage).
+#### Device Rating
+Used for electronic devices, this is a kind of
+all-purpose stat that reflects the devices overall
+power and systems integrity.
 
-**Device Rating**: The Device Rating determines the overall quality and effectiveness of a device, from a stimulant patch to a commlink.
+#### Essence
+Used for cyberware and bioware, this shows the
+Essence reduction you experience when installing
+this item.
 
-**Essence Cost**: All cyberware and bioware implants have an Essence Cost, representing the reduction of the character’s Essence rating that occurs when the augmentation is implanted.
+#### Modes
+These are the firing modes firearms use.
 
-**Mode**: A firearm’s firing mode indicates the rate of fire it is capable of. Some weapons have more than one mode available, so characters may switch between them (see Firearms). The firing modes are: SS (single-shot), SA (semi-automatic), BF (burst fire), and FA (full auto).
+#### Mount
+This describes where an accessory is placed
 
-**Mounts**: There are several places where a weapon accessory can be attached to a firearm: underbarrel, barrel, or top-mount. Only one accessory can be attached to a particular mount. Integral accessories (those that come with the weapon) don’t take up mount locations. Hold-outs don’t have mounts. Pistols, machine pistols, and SMGs do not have an underbarrel mount, just top and barrel mounts. All rifles and heavy weapons have all three types of mounts. Projectile weapons can only take accessories designed for them specifically.
-
-**Reach**: Melee weapons may have a Reach rating, the default value is 1. Meaning you can hit any target within 1 yard. This equates to one square on a combat grid, so within 1 square of you. Each rating over extends the reach of the weapon by 1 square.
-
-**Recoil Compensation (RC)**: This lists the amount of recoil compensation a firearm has to offer, reducing the modifiers from a weapon’s recoil (see Recoil). Numbers in parentheses refer to full recoil compensation that applies only when all integral accessories are deployed (folding or detachable stocks and so forth).
+#### Rating
+If an item has a range of ratings in which it is available, it is listed in this column or next to the item’s name.
 
 > Why isn't range listed? Because its a dumb concept in a TTRPG. I can hit a target with an AR-15 at almost a mile out. Basically if I can see it, its in range. Thats why. I love Gygax as much as the next guy but a Longbow fired by a professional can hit a target at a 100 yards easily which is also within site.
 
+### Moving Gear
+
+#### Standard Goods
+
+Some general assumptions of item ownership come with the purchase of a Lifestyle. Basic clothing and doss furnishings would be included along with general amenities appropriate to the Lifestyle level. These items only need to be worried about when a character loses their Lifestyle or doss due to unforeseen circumstances, but they are replaced as soon as the runner buys a new Lifestyle.
+
+#### Starting Gear
+
+Runners use the funds they get at character creation to buy their initial gear. This includes arms, armor, tech, vehicles, and everything else that wouldn’t be a normal part of everyday life. These items should have some kind of note on where they are stored, because the runner could lose items if they keep them in their vehicle and it gets stolen, keep them at their base and it gets burned, or keep them on their person and they get pinched
+
+#### Fencing Gear
+
+Let’s make this simple. In order to fence the valuables you come across, you need a contact who’s in the right field (your bartender contact isn’t going to be the most useful helping you unload that cyberdeck prototype you lifted from Mitsuhama). If you have the right contact, you can get back ten percent of the base value on the item, plus one percent for every Effect on an `Influence + Charisma test (Avail)`. If the item is particularly hot or desired (according to the gamemaster’s discretion) the whole selling process could be more adventurous and offer a bigger payday, but that’s up to the individual running the show.
+
+#### Concealing Gear
+
+Sometimes you want to keep your stuff away from prying eyes. There is no active test for hiding gear—you put it in its carrier or holster or whatever and hope the equipment does its job. Spotting gear is based on a Concealability Threshold that is used in Perception tests. Items have a base Threshold based on their general size and shape; some items change this based on their design, whether they are built to be hidden or bulkier than normal and hard to make disappear. All these thresholds assume the item is being hidden by the owner—if you’re holding the item openly in your hand, the Concealability threshold would not apply.
+
+| **SIZE**       | **Threshold THRESHOLD** | **EXAMPLE**             |
+| -------------- | ----------------------- | ----------------------- |
+| Large          | 0                       | Assault Cannon          |
+| Bulky          | 6                       | Assault Rifle           |
+| Tuckable       | 12                      | SMG                     |
+| Pocket Size    | 18                      | Light Pistol            |
+| Palm size      | 24                      | Deck of Cards           |
+| Slim palm size | 24 + 2 Effect           | Single Card             |
+| Palmable       | 24 + 3 Effect           | Lighter                 |
+| Small          | 24 + 4 Effect           | 6 sided die             |
+| Mini           | 24 + 5 Effect           | Stealth RFID Tag        |
+| Fine           | 24 + 6 Effect           | Powder traces           |
+| Microscopic    | 24 + 7 Effect           | A flea on your shoulder |
+
+#### Size Cost Adjustments
+Most gear is built to be used by humans, or at least human-sized creatures. Elves and orks are close enough to human sizes that they can generally make this gear work for them, but it’s not as easy for dwarfs and trolls. They usually need to shop at special stores or order their gear with certain customizations made to it. To account for this, dwarfs pay a ten percent markup on all the fitted gear they purchase. This applies to items like armor and clothes Size Cost Adjustments Most gear is built to be used by humans, or at least human-sized creatures. Elves and orks are close enough to human sizes that they can generally make this gear work for them, but it’s not as easy for dwarfs and trolls. They usually need to shop at special stores or order their gear with certain customizations made to it. To account for this, dwarfs pay a ten percent markup on all the fitted gear they purchase. This applies to items like armor and clothes
+
+**Using Unadapted Gear**
+
+Sometimes a dwarf or a troll has to use someone else’s stuff or make do with what’s handy. Any time a dwarf or troll uses gear that is not adapted for them, they suffer a –2 penalty on all actions involving that gear. This means armor doesn’t close right, guns don’t fit right, commlinks aren’t easy to use, etc
+
+#### Wireless Functionality
+
+Nearly every device is wireless. The wireless revolution started for tracking purposes, though most of the tracking was about observing consumer behavior. The corps also found it useful for inventory tracking and seeing how people used their goods. The only trick was finding a way to make sure consumers had a reason to keep the wireless functionality on at all times. That led to … the wireless bonus!
+
+**Wireless Bonus**
+
+Many items have a bonus applied when they’re kept attached to the Matrix. For the bulk of the population, this is just a little convenient aid in their normal life, but for runners it is often a door- die decision, because leaving your Smartgun XI linked to the Matrix could be the little edge you need, or it could be your doom as you get hacked and the fancy electronics-laden SMG becomes a paperweight. Items with a bonus are listed, and some have it listed for the entire category as well.
+
+**Turning It Off**
+
+Separating yourself and your gear from the Matrix is easy. An `Electronics + Logic (6) Test` as a Minor Action is all it takes in combat. The rest of the time, you can just assume you can figure it out as long as you have the Electronics skill.
+
+**Throwbacks**
+
+These devices are older tech. Whether it’s because they’re incompatible with the current Matrix or devoid of a way to interface with it, they don’t have a way to connect and gain any bonus from the wireless world. They also can’t be hacked in any way shape or form other than the other use of the word, like when a troll swings his axe and hacks your antique rifle in half.
+
+
+
 ### Melee Weapons
 
-| **Blades**          | **Damage**   | **Avail** | **Cost** |
-| ------------------- | ------------ | --------- | -------- |
-| Combat Axe          | (STR/2 + 4)P | 12R       | 4,000¥   |
-| Combat knife        | (STR/2 + 1)P | 4         | 300¥     |
-| Forearm snap-blades | (STR/2 + 2)P | 7R        | 200¥     |
-| Katana              | (STR/2 + 3)P | 9R        | 1,000¥   |
-| Knife               | (STR/2 + 1)P | —         | 10¥      |
-| Pole arm            | (STR/2 + 2)P | 6R        | 1,000¥   |
-| Survival knife      | (STR/2 + 1)P | —         | 100¥     |
-| Sword               | (STR/2 + 3)P | 5R        | 500¥     |
-| **Clubs**           | **Damage**   | **Avail** | **Cost** |
-| Club                | (STR/2 + 1)P | —         | 30¥      |
-| Extendable baton    | (STR/2 + 1)P | 4         | 100¥     |
-| Sap                 | (STR/2 + 1)S | 2         | 30¥      |
-| Staff               | (STR/2 + 2)P | 3         | 100¥     |
-| Stun baton          | 6S(e)        | 6R        | 750¥     |
-| Telescoping staff   | (STR + 2)P   | 4         | 350¥     |
+| **WEAPON**            | **DV** | **ATTACK RATINGS** | **AVAILABILITY** | **COST** |
+| --------------------- | ------ | ------------------ | ---------------- | -------- |
+| Combat Axe            | 5P     | 9/—/—/—/—          | 4                | 4,000¥   |
+| Combat/Survival Knife | 3P     | 8/2*/—/—/—         | 2                | 300¥     |
+| Forearm snap-blades   | 3P     | 6/—/—/—/—          | 3                | 200¥     |
+| Katana                | 4P     | 6/1*/—/—/—         | 1                | 1,000¥   |
+| Knife                 | 2P     | 10/—/—/—/—         | 3                | 10¥      |
+| Pole arm              | 4P     | 8/—/—/—/—          | 2                | 1,000¥   |
+| Sword                 | 3P     | 9/—/—/—/—          | 3                | 500¥     |
+| **CLUBS**             | **DV** | **ATTACK RATING**  | **AVAILABILITY** | **Cost** |
+| Club                  | 3S     | 6/—/—/—/—          | 1                | 30¥      |
+| Extendable baton      | 2S     | 5/—/—/—/—          | 2                | 100¥     |
+| Sap                   | 2S     | 6/—/—/—/—          | 1                | 30¥      |
+| Staff                 | 4S     | 8/—/—/—/—          | 1                | 100¥     |
+| Stun baton            | 5S(e)  | 6/—/—/—/—          | 2                | 750¥     |
+| Telescoping staff     | 4S     | 8/—/—/—/—          | 2                | 350¥     |
+
+| **OTHER**          | **TYPE** | **DV** | **ATTACK RATING** | **AVAILABILITY** | **Cost** |
+| ------------------ | -------- | ------ | ----------------- | ---------------- | -------- |
+| Bike chain         | Unarmed  | 2S     | 5/—/—/—/—         | 1                | 15¥      |
+| Bullwhip*          | Exotic   | 1P     | 6/—/—/—/—         | 4                | 255¥     |
+| Knucks             | Unarmed  | 3P     | 6/—/—/—/—         | 1                | 100¥     |
+| Shock Gloves       | Unarmed  | 4S(e)  | 5/—/—/—/—         | 4                | 790¥     |
+| Monofilament whip* | Exotic   | 6P     | 14/—/—/—/—        | 6(I)             | 1,300¥   |
+
+* *Whips add the attackers Reaction instead of Strength to the Attack Rating
 
 #### Melee Weapon Descriptions
 
 **BLADES**
 
 
-Use the Blades skill to wield these weapons. Combat axe: A two-handed tungsten-alloy monster, available single- or double-bladed. A hardened thrusting point can be concealed, spring-loaded, in the handle. While it may seem barbaric or primitive, the physical augmentations of 2075 can make an old-school weapon like a combat axe even deadlier than a firearm in the right hands. So go ahead, go medieval.
+Sharp edges provide the lethal advantage to everything with a blade. Brute force works, but elegant style is just as effective with objects honed to a razor sharpness.
 
-Combat knife: A long, KA-BAR-style fighting knife with a blacked-out blade and a chisel point for punching through armor.
+**Combat axe**
 
-Forearm snap-blades: These are essentially like spurs, only they’re external—painless to install or remove. A forearm sheath conceals three blades that can be extended or retracted via wireless link or muscle movement commands.
+Whether you’re Neal the Firefighter or Neil the Ork Barbarian, you can swing an axe for both utility and violence. The combat axe come with a single or double blade and a hardened spring-loaded thrusting point for breaking glass or providing an unpleasant surprise. In the overmuscled hands of a 2080s street warrior, this weapon can be far deadlier than a firearm.
 
-Wireless: Readying the forearm snap blades is a Free Action instead of a Minor Action.
+**Combat Knife**
 
-Katana: The legendary two-handed sword of the samurai. The katana has become synonymous not just with street samurai, but with shadowrunners in general, at least in the trids; they’ve got everyone packing a katana, from the decker to the mage. But being a silly cliché doesn’t make this blade any less dangerous, or less helpful in a fight.
+A simple, elegant, efficient killing device with a chisel point to make light work of armor. It’s also carbon-coated black, so no reflections give away your approach.
 
-Knife: Your basic, all-purpose street cutter. It comes in a bewildering array of styles, colors, and flavors, but the statistics don’t vary from one to the next. Ordinary knives are used by the poor, the desperate, or the cautious as backup weapons.
+**Forearm snap blades**
 
-Pole arm: This is, at its very essence, a blade on the end of a very long stick. It usually features an axe-head, glaive, spear point, or similar maiming implement. It’s not easy to handle and it’s just about impossible to conceal, but it’s popular both with trolls and with melee combatants looking to safely keep said large trolls at more than arm’s length.
+Don’t like getting implants but still want three razor sharp blades to pop out of your forearm? This is the weapon for you. The blades extend and retract through either a forearm muscle command or a wireless signal. Either way, it takes a Minor Action. 
 
-Survival knife: A fine quality blade—smooth on one edge, serrated on the other—with several accessories, including a GPS monitor, mini-multitool, micro-lighter, and a hidden compartment in the handle. The sides of the steel are coated with a non-toxic chemical that blacks out the blade when inert to prevent unwanted reflection, but can be activated to provide two hours of phosphorescent light. All knives can cut flesh, but a survival knife is better at cutting rope and wood, or otherwise being used as a tool. The survival knife is the kind of gadget that no professional should be without. Wireless: The knife displays an ARO of local maps, your GPS position, and can be used to make commcalls.
+Wireless bonus: The blades grant an extra Minor Action on the turn when they are extended or retracted.
 
-Sword: It’s sharp, it’s heavy, and it will fragging cut you wide open. Available in a wide variety of styles (wakizashi, seax, scimitar, jian, machete, and so on and so forth), this one-handed blade is not as formidable as a katana but is substantially easier to hide.
+**Katana**
+
+The iconic two-handed sword of the samurai is standard issue for trid-series shadowrunners. Out on the street, the deadly blade teaches lessons to those who think the trope is solely about looks.
+
+**Knife**
+
+A catchall term for a variety of different deadly fighting blades. The style is up to you, but the stats are all the same.
+
+**Polearm**
+
+Take a long stick, add any of a dozen varieties of blades to the head, and you’ve got a polearm. Designed to keep distance between attacker and defender or strike at a mounted target, they’re not common street weapons. They’re nearly impossible to conceal, even for a troll, but they’re great at keeping problems at a safe distance.
+
+**Survival knife**
+
+Specifically designed with a cutting edge on one side and a serrated sawing edge on the other, the true “survival” piece of this knife is in the handle and its collection of accessories. In the handle you’ll find a GPS monitor, mini-multitool, and micro- lighter. The blade is coated with a photovoltaic skin that blacks out the blade to prevent unwanted reflection; when charged, the skin can be activated to provide two hours of light. Combat stats are the same as the combat knife.
+
+Wireless bonus: The knife displays an ARO of local maps and your GPS position, along with providing basic biomonitor data when in your hand.
+
+**Sword**
+
+A heavy blade on a one-handed grip that comes in a variety of styles. The world’s dominant combat weapon for thousands of years until the firearm came along.
 
 **CLUBS**
 
+**Club**
 
-Use the Clubs skill to inflict blunt force trauma with these weapons.
+The stats listed can be used for a range of objects, including an axe handle, baseball bat, crowbar, tire iron, wrench, or even a two-by-four with a couple nails in it. The price listed is for a professionally made, old-style police baton, but it would be relatively easy to find one for free in a pinch.
 
-Club: The weapon they named the skill after. These stats represent a range of objects, including an axe handle, baseball bat, wrench, crowbar, a tire iron, and a two-by-four with a rusty nail in it. There is a price listed, but it’s not overly difficult to find one for free if you know where to look.
+**Extendable baton**
 
-Extendable baton: This telescoping club can be collapsed, and it can be extended with a sharp flick of the wrist or a wireless signal. When retracted, it’s more easily concealed (Concealability Modifier 0 when retracted, +2 when extended). Wireless: Readying the extendable baton is a Free Action instead of a Minor Action.
+This telescoping club can be extended with a wrist flick or a wireless signal. In its retracted form, it’s easier to conceal (Concealability threshold 4 when retracted, 2 when extended). Retracting or extending it is a Minor Action. Wireless bonus: You gain a bonus Minor Action on a turn when you retract or extend the baton.
 
-Sap: Also called a blackjack, this is a small, springy club, or a flat piece of iron in a flexible leather covering. It’s specially designed for concealment (Concealability Modifier –2).
+**Sap**
 
-Staff: This large, heavy stick is popular with magicians going for that traditional look. Available in composite, hardwood, high-carbon steel, and other materials.
+Also known as a blackjack, this is a short, flexible club or a leather-wrapped iron, lead, or sand filled sack for thumping heads. It’s designed to be concealable, often fitting in the palm of the hand (Concealability threshold 4).
 
-Stun baton: A standard riot-control weapon, viewed as a tool and symbol of corporate-government oppressors but pragmatically useful to runners. It has ten charges and regains one charge per ten seconds when plugged in. Wireless: The stun baton recharges by induction, regaining one charge per full hour of wireless-enabled time.
+**Staff**
 
-Telescoping staff: This is a metal and composite staff that can telescope down to a reasonable size, one that can be concealed about as easily as a stun baton or a sword. It can be extended and locked in place by whirling it at the correct speed and angle and twisting the grip, or via a wireless signal. Wireless: Readying the telescoping staff is a Free Action instead of a Minor Action.
+Speak softly and carry a big stick. This is that big stick. Available in composite, hardwood, high-carbon steel, and other materials.
 
-### Projectile Weapons
+**Stun baton**
+A riot-control staple and viewed as a symbol of corporate-government oppression, this handy electrical prod is still useful for everyone in the shadows. The stun baton holds ten charges and regains one charge per ten seconds when plugged in. 
 
-| **Bows**                | **Accuracy** | **Damage**    | **AP** | **Avail**    | **Cost**      |
-| ----------------------- | ------------ | ------------- | ------ | ------------ | ------------- |
-| Bow                     | 6            | (Rating + 2)P | -      | Rating       | Rating x 100¥ |
-| Arrow                   | -            | -             | -      | Rating       | Rating X 2¥   |
-| Injection Arrow         | -            | -             | -      | (Rating +2)R | Rating x 20   |
-| **Crossbows**           | **Accuracy** | **Damage**    | **AP** | **Avail**    | **Cost**      |
-| Light                   | 7            | 3P            | -      | 2            | 300¥          |
-| Medium                  | 6            | 5P            | -      | 4R           | 500¥          |
-| Heavy                   | 5            | 7P            | -1     | 8R           | 1,000¥        |
-| Bolt                    | -            | -             | -      | 2            | 5¥            |
-| Injection Bolt          | -            | -             | -      | 8R           | 50¥           |
-| **Throwing Weapons**    | **Accuracy** | **Damage**    | **AP** | **Avail**    | **Cost**      |
-| Throwing knife/shuriken | Physical     | (STR/2 + 1)P  | –      | 4R           | 25¥           |
+Wireless bonus: The stun baton recharges without being plugged in, regaining one charge per half hour of wireless-enabled time.
+
+**Telescoping staff**
+
+A big stick that starts out as a small stick. This metal and composite staff can telescope down to the size of a stun baton or a sword. It can be extended and locked in place by spinning or snapping it out in each direction and giving the handle a twist to lock it. Or it can use a wireless signal to activate the telescoping effect. Extending or retracting it takes a Minor Action.
+
+Wireless bonus: You gain a bonus Minor Action on a turn when you retract or extend the baton.
+
+**OTHER**
+
+**Bike Chain**
+
+Go-gangs love to pull the old equipment off their scrap bikes and smack other people with it. These heavy metal chains are brutal weapons, esespecially when backed by the speed of a motorcycle. You gain a bonus Minor Action on a turn when you use the Trip Minor Action with this weapon.
+
+**Knucks**
+
+Everything from a roll of quarters in the palm (though who has that lying around?) to brass knuckles to Ares Hardliner Gloves, these weapons move a fist from potentially deadly to a probably deadly by augmenting the structure of the hand with metals or composites.
+
+**Monofilament Whip**
+
+Striking fear in the hearts of those who have warily watched its serpentine glow since the 2050s. In the hands of a trained user, this terrifying weapon can cut through armor, flesh, and bone as easy as butter with every millimeter of its two meters of monofilament line. In the wrong hands, or even with a bad twist of a skilled wrist, that line can send you to the street doc looking for a new limb. The whip is stored in the specially designed compartment in the handle with a small weight that detaches when the weapon is activated. Glitches are handled as usual, but a critical glitch always requires the wielder to resist the base damage of the weapon.
+
+Wireless bonus: The whip uses your visuals on the target to make small adjustments in targeting, and the whip adjusts its trajectory. This increases the Attack Rating by 2. Also, the whip’s built-in safety system retracts automatically instead of hitting you on a critical glitch.
+
+
+
+### Thrown/Projectile Weapons
+
+Attacks using weapons in this category are made using the Athletics skill.
+
+| **WEAPON**           | **DV**        | **ATTACK RATINGS**   | **AVAILABILITY** | **COST**      |
+| -------------------- | ------------- | -------------------- | ---------------- | ------------- |
+| Bow                  | (Rating + 2)P | (Rating/2)/(Rating)/ | Rating/3 L       | Rating x 10¥  |
+| Arrow                | -             | (Rating/4)/—/—       | Rating/3         | Rating X 2¥   |
+| Injection Arrow      | -             | -                    | 4                | Rating x 20 ¥ |
+| **Crossbows**        | **Damage**    | **ATTACK RATINGS**   | **Avail**        | **Cost**      |
+| Light                | 2P            | 6/8/2/—/—            | 3                | 150¥          |
+| Medium               | 3P            | 2/10/4/2/—           | 3L               | 290¥          |
+| Heavy                | 4P            | 2/8/6/4/—            | 4L               | 425¥          |
+| Bolt                 | -             | -                    | 2                | 5¥            |
+| Injection Bolt       | -             | -                    | 4                | 50¥           |
+| **Throwing Weapons** | **Damage**    | **ATTACK RATINGS**   | **Avail**        | **Cost**      |
+| Throwing knives      | 2P            | 10/9/3/—/—           | 2                | 155¥          |
+| Throwing stars       | 2P            | 9/11/5/—/—           | 2                | 160¥          |
+
+#### Projectile Weapon Descriptions
 
 **BOWS**
 
+**Bow**
 
-Bows: This could be a traditional longbow of fiberglass or wood, or possibly a modern compound-and-pulley bow. Both are archaic and rare weapons on the streets of 2075, and both have the advantage of being hacker- proof. Reloading a bow takes a Minor Action (Ready Weapon).
+Everything from the traditional longbow of fiberglass or wood to the modern compound bow. These archaic weapons aren’t common on the streets of 2080. They have the advantage of being hacker-proof as long as you leave off the fancy add-ons. Nocking an arrow takes a Minor Action (Ready Weapon). Bows have a rating that indicates the minimum Strength you need to use the weapon. The weapon’s rating is also used to determine damage (maximum rating is 14). Arrows also have ratings, and they must equal or exceed that of the bow.
 
-Bows have ratings that indicate the minimum Strength you need to use that weapon. When attacking with a bow, a character whose Strength is less than the Strength minimum suffers a –3 modifier per point below the minimum; this penalty reflects the difficulty they have in pulling the bow and nocking an arrow. The weapon’s Rating is also used to determine its range and damage (maximum Rating is 10). Use the lowest value of your Strength, the bow’s rating, or the arrow Rating for range and damage when attacking a target, because your average Rating 10 titanium-sheathed beryllium-alloy bow tends to turn wood or fiberglass arrows into powder when they hit a target.
+**Crossbow**
 
-Crossbows: Modern crossbows are equipped with automatic reloading devices, so unless you’re using a museum piece, reloading doesn’t require a Ready Weapon action. Crossbows have internal magazines (m) holding up to 4 bolts. Crossbows are available in Light, Medium, and Heavy sizes.
+Modern crossbows are designed with autoloading systems, internal magazines that hold up to four bolts, and come in light, medium, and heavy designs. Light models are single-handed, while medium and heavy designs require two hands.
 
-Injection arrow/bolt: An injection bolt causes the same damage as a regular arrow or bolt, but also includes a payload of one dose of a drug or toxin. Effects depend on the drug payload, but to successfully deliver it, the attack must deal at least one box of damage after the Damage Resistance Test. This is an injection vector toxin attack.
+**Injection Arrow/Bolt**
 
-Throwing knives/shuriken: A wide variety of shapes and sizes of aerodynamically balanced, specially weighted, muscle-powered throwing weapons are available, from throwing spikes to darts to kunai and shuriken. A character can ready (Agility ÷ 2) of these knives with one Ready Weapon action.
+The injection arrow or bolt causes its base damage while also delivering a payload of one dose of a drug or toxin. A successful hit must deal at least one damage after the Toughness. Injection arrows and bolts come at a base rating of 8. Higher-rating models are available for heavier bows, but lower-rating models aren’t sturdy enough to deliver this heavier projectile.
 
-Wireless: If all the throwing knives or shuriken you throw in a single Combat Turn are wireless and you have a smartlink system, each knife you throw receives a +1 bonus per knife thrown that Combat Turn at your current target, as the knives inform and adjust for wind and other atmospheric conditions. So you’d get no bonus on the first throw, a +1 bonus on the second throw, a +2 bonus on the third throw, etc. (assuming you aimed all three knives at the same target).
+Wireless bonus: The injection can be delayed until a wireless signal is sent. The injection also doesn’t need any damage; it just needs at least 1 net effect.
 
-#### Projectile Weapon Descriptions
+**Throwing Knives/Shuriken**
+
+From stars to spikes and everything in between, these stats cover all the muscle-powered, small throwing weapons on the market. Up to (Agility/2) of these weapons can be readied for throwing with a Ready Weapon action.
+
+Wireless bonus: Successful hits leave wireless weapons in targets that can be used to predict movement patterns and offer an estimated location. A successful hit offers anyone wirelessly linked to the throwing weapon and using a smartlink system a +1 bonus for their attacks.
 
 
 
 ### Firearms
 
-| **Tasers**                 | **Accuracy** | **Damage**    | **AP** | **Mode**     | **RC** | **Ammo**          | **Avail** | **Cost** |
-| -------------------------- | ------------ | ------------- | ------ | ------------ | ------ | ----------------- | --------- | -------- |
-| Defiance EX Shocker        | 4            | 8S(e)         | -5     | SS           | —      | 4 (m)             | —         | 250¥     |
-| Yamaha Pulsar              | 5            | 6S(e)         | -5     | SA           | —      | 4 (m)             | —         | 180¥     |
-| **Hold-Outs**              | **Accuracy** | **Damage**    | **AP** | **Mode**     | **RC** | **Ammo**          | **Avail** | **Cost** |
-| Fichetti Tiffani Needler   | 5            | 7P(f)         | +5     | SA           | —      | 4 (c)             | 5R        | 1,000¥   |
-| Streetline Special         | 4            | 5P            | —      | SA           | —      | 6 (c)             | 4R        | 120¥     |
-| Walther Palm Pistol        | 4            | 6P            | —      | SS/BF        | —      | 2 (b)             | 4R        | 180¥     |
-| **Light Pistols**          | **Accuracy** | **Damage**    | **AP** | **Mode**     | **RC** | **Ammo**          | **Avail** | **Cost** |
-| Ares Light Fire 75         | 6 (8)        | 5P            | —      | SA           | —      | 16 (c)            | 6F        | 1,250¥   |
-| Ares Light Fire 70         | 7            | 5P            | —      | SA           | —      | 16 (c)            | 3R        | 200¥     |
-| Beretta 201T               | 6            | 5P            | —      | SA / BF      | (1)    | 21 (c)            | 7R        | 210¥     |
-| Colt America L36           | 7            | 6P            | —      | SA           | —      | 11 (c)            | 4R        | 320¥     |
-| Fichetti Security 600      | 6 (7)        | 6P            | —      | SA           | (1)    | 30 (c)            | 6R        | 350¥     |
-| Taurus Omni-6              | 5 (6)        | 5P / 6P       | 0 / -1 | SA / SS      | —      | 6 (cy)            | 3R        | 300¥     |
-| **Heavy Pistols**          | **Accuracy** | **Damage**    | **AP** | **Mode**     | **RC** | **Ammo**          | **Avail** | **Cost** |
-| Ares Predator V            | 5 (7)        | 5P            | –1     | SA           | —      | 15 (c)            | 5R        | 725¥     |
-| Ares Viper Slivergun       | 4            | 7P (f)        | +4     | SA / BF      | —      | 30 (c)            | 8F        | 380¥     |
-| Browning Ultra-Power       | 5 (6)        | 7P            | –1     | SA           | —      | 10 (c)            | 4R        | 640¥     |
-| Colt Government 2066       | 6            | 5P            | –1     | SA           | —      | 14 (c)            | 7R        | 425¥     |
-| Remington Roomsweeper      | 4            | 5P            | –1     | SA           | —      | 8 (m)             | 6R        | 250¥     |
-| w/ flechettes              | —            | 7P (f)        | +4     | —            | —      | —                 | —         | —        |
-| Ruger Super Warhawk        | 5            | 6P            | –2     | SS           | —      | 6 (cy)            | 4R        | 400¥     |
-| **Machine Pistols**        | **Accuracy** | **Damage**    | **AP** | **Mode**     | **RC** | **Ammo**          | **Avail** | **Cost** |
-| Ares Crusader II           | 5 (7)        | 5P            | —      | SA / BF      | 2      | 40 (c)            | 9R        | 830¥     |
-| Ceska Black Scorpion       | 5            | 4P            | —      | SA / BF      | (1)    | 35 (c)            | 6R        | 270¥     |
-| Steyr TMP                  | 4            | 4P            | —      | SA / BF / FA | —      | 30 (c)            | 8R        | 350¥     |
-| **Submachine Guns**        | **Accuracy** | **Damage**    | **AP** | **Mode**     | **RC** | **Ammo**          | **Avail** | **Cost** |
-| Colt Cobra TZ-120          | 4 (5)        | 5P            | -      | SA/BF/FA     | 2 (3)  | 32 (c)            | 5R        | 660¥     |
-| FN P93 Praetor             | 6            | 5P            | —      | SA / BF / FA | 1 (2)  | 50 (c)            | 11F       | 900¥     |
-| HK-227                     | 5 (7)        | 5P            | —      | SA / BF / FA | (1)    | 28 (c)            | 8R        | 730¥     |
-| Ingram Smartgun X          | 4 (6)        | 5P            | —      | BF / FA      | 2      | 32 (c)            | 6R        | 800¥     |
-| SCK Model 100              | 5 (7)        | 5P            | —      | SA / BF      | (1)    | 30 (c)            | 6R        | 875¥     |
-| Uzi IV                     | 4 (5)        | 5P            | —      | BF           | (1)    | 24 (c)            | 4R        | 450¥     |
-| **Assault Rifle**          | **Accuracy** | **Damage**    | **AP** | **Mode**     | **RC** | **Ammo**          | **Avail** | **Cost** |
-| AK-97                      | 5            | 6P            | –2     | SA / BF / FA | —      | 38 (c)            | 4R        | 950¥     |
-| Ares Alpha                 | 5 (7)        | 6P            | –2     | SA / BF / FA | 2      | 42 (c)            | 11F       | 2,650¥   |
-| Grenade Launcher           | 4 (6)        | —             | —      | SS           | —      | 6 (c)             | —         | —        |
-| Colt M23                   | 4            | 7P            | –2     | SA / BF / FA | —      | 40 (c)            | 4R        | 550¥     |
-| FN HAR                     | 5 (6)        | 6P            | –2     | SA / BF / FA | 2      | 35 (c)            | 8R        | 1,500¥   |
-| Yamaha Raiden              | 6 (8)        | 7P            | –2     | BF / FA      | 1      | 60 (c)            | 14F       | 2,600¥   |
-| **Sniper Rifles**          | **Accuracy** | **Damage**    | **AP** | **Mode**     | **RC** | **Ammo**          | **Avail** | **Cost** |
-| Ares Desert Strike         | 7            | 8P            | –2     | SA           | (1)    | 14 (c)            | 10F       | 17,500¥  |
-| Cavalier Arms Crockett EBR | 6            | 7P            | –1     | SA / BF      | (1)    | 20 (c)            | 12F       | 10,300¥  |
-| Ranger Arms SM-5           | 8            | 8P            | –3     | SA           | (1)    | 15 (c)            | 16F       | 28,000¥  |
-| Remington 950              | 7            | 7P            | –3     | SS           | —      | 5 (m)             | 4R        | 2,100¥   |
-| Ruger 100                  | 6            | 7P            | –1     | SA           | (1)    | 8 (m)             | 4R        | 1,300¥   |
-| **Shotguns**               | **Accuracy** | **Damage**    | **AP** | **Mode**     | **RC** | **Ammo**          | **Avail** | **Cost** |
-| Defiance T-250             | 4            | 9P            | –1     | SS / SA      | —      | 5 (m)             | 4R        | 450¥     |
-| Enfield AS-7               | 4 (5)        | 8P            | –1     | SA / BF      | —      | 10 (c)/24 (d)     | 12F       | 1,100¥   |
-| PJSS Model 55              | 6            | 9P            | –1     | SS           | (1)    | 2 (b)             | 9R        | 1,000¥   |
-| **Special Weapons**        | **Accuracy** | **Damage**    | **AP** | **Mode**     | **RC** | **Ammo**          | **Avail** | **Cost** |
-| Ares S-III Super Squirt    | 3            | Chemical      | —      | SA           | —      | 20 (c)            | 7R        | 950¥     |
-| Fichetti Pain Inducer      | 3            | Special       | —      | SS           | —      | Special           | 11R       | 5,000¥   |
-| Parashield Dart Pistol     | 5            | as Drug/Toxin | —      | SA           | —      | 5 (c)             | 4R        | 600¥     |
-| Parashield Dart Rifle      | 6            | as Drug/Toxin | —      | SA           | —      | 6 (m)             | 6R        | 1,200¥   |
-| **Machine Guns**           | **Accuracy** | **Damage**    | **AP** | **Mode**     | **RC** | **Ammo**          | **Avail** | **Cost** |
-| Ingram Valiant             | 5 (6)        | 6P            | –1     | BF / FA      | 2 (3)  | 50 (c)/100 (belt) | 12F       | 5,800¥   |
-| Stoner-Ares M202           | 5            | 6P            | –2     | FA           | —      | 50 (c)/100 (belt) | 12F       | 7,000¥   |
-| RPK HMG                    | 5            | 7P            | –3     | FA           | (6)    | 50 (c)/100 (belt) | 16F       | 16,300¥  |
-| **Cannons/Launchers**      | **Accuracy** | **Damage**    | **AP** | **Mode**     | **RC** | **Ammo**          | **Avail** | **Cost** |
-| Ares Antioch-2             | 4 (6)        | Grenade       | —      | SS           | —      | 8 (m)             | 8F        | 3,200¥   |
-| ArmTech MGL-12             | 4            | Grenade       | —      | SA           | —      | 12 (c)            | 10F       | 5,000¥   |
-| Aztechnology Striker       | 5            | Missile       | —      | SS           | —      | 1 (ml)            | 10F       | 1,200¥   |
-| Krime Cannon               | 4            | 10P           | –5     | SA           | (1)    | 6 (m)             | 20F       | 21,000¥  |
-| Onotari Interceptor        | 4 (6)        | Missile       | —      | SS           | —      | 2 (ml)            | 18F       | 14,000¥  |
-| Panther XXL                | 5 (7)        | 10P           | –5     | SS           | —      | 15 (c)            | 20F       | 43,000¥  |
+Leadslingers abound on the streets of 2080 (the name remains, even though lead rounds aren’t the norm anymore). For years, the streets managed to snag and use caseless rounds in order to stay clear of the law tracking them, but recent events have led arms manufacturers (a.k.a. the megacorps) to desire a tighter leash on their shadow assets, and cased ammo is becoming the norm once again, with each casing containing a microRFID to identify the weapon and location where it was fired. The glory of watching spent shells spinning through the air is back, and so are the back-alley reloads and scrubbed slugs to keep those of us in the shadows off the radar. Weapons are chambered for cased or caseless, with caseless ammo being marginally harder to track but tougher to find on the streets. 
+
+Wireless bonus: All modern firearms are considered to be wireless-equipped and come with a digital ammunition counter and an ARO that tells you the ammo type loaded. If equipped with DNI, you gain a bonus Minor Action any turn when you eject a clip (for weapons that have them) or change fire modes (on models that have more than one).
+
+| **TASERS**                     | **DV**       | **MODES**    | **ATTACK RATINGS** | **AMMO**           | **AVAILABILITY** | **COST**  |
+| ------------------------------ | ------------ | ------------ | ------------------ | ------------------ | ---------------- | --------- |
+| Defiance Super Shocker         | 6S(e)        | SS           | 10/6*/—/—/—        | 4 (m)              | 1                | 240¥      |
+| Yamaha Pulsar I/II             | 4S(e)        | SA           | 9/9†/—/—/—         | 4 (m)              | 1                | 325¥/350¥ |
+| **Hold-Outs**                  | **DV**       | **MODES**    | **ATTACK RATINGS** | **AMMO**           | **AVAILABILITY** | **COST**  |
+| Fichetti Tiffani Needler       | 3P           | SA           | 10/6/2/—/—         | 4 (c)              | 2                | 435¥      |
+| Streetline Special             | 2P           | SS           | 8/8/—/—/—          | 6(c)               | 2                | 200¥      |
+| Walther Palm Pistol            | 2P           | SS/BF        | 12/7/—/—/—         | 6(b)               | 2                | 345¥      |
+| **Light Pistols**              | **DV**       | **MODES**    | **ATTACK RATINGS** | **AMMO**           | **AVAILABILITY** | **COST**  |
+| Ares Light Fire 70             | 2P           | SA           | 10/7/6/—/—         | 16(c)              | 3(L)             | 350¥      |
+| Ares Light Fire 75             | 2P           | SA           | 10/7/6/—/—         | 16(c)              | 3(L)             | 400¥      |
+| Beretta 101T                   | 2P           | SA           | 9/8/6/—/—          | 21(c)              | 2(L)             | 260¥      |
+| Beretta 201T                   | 2P           | SA/FA        | 9/8/6—/—           | 21(c)              | 3(L)             | 460¥      |
+| /Colt America L36              | 2P           | SA           | 8/8/6/—/—          | 11(c)              | 2(L)             | 230¥      |
+| Fichetti Security 600          | 2P           | SA           | 10/9/6/—/—         | 30(c)              | 3(L)             | 390¥      |
+| Ruger Redhawk                  | 3P           | SA/BF        | 7/10/7/—/—         | 8(cy)              | 2(L)             | 250¥      |
+| **Heavy Pistols**              | **DV**       | **MODES**    | **ATTACK RATINGS** | **AMMO**           | **AVAILABILITY** | **COST**  |
+| Ares Predator VI               | 3P           | SA/BF        | 10/10/8/—/—        | 15(c)              | 2(L)             | 750¥      |
+| Ares Viper Slivergun           | 4P(fl)       | SA/BF        | 12/8/6/—/—         | 30(c)              | 4(L)             | 610¥      |
+| Browning Ultra Power           | 3P           | SA           | 10/9/6/—/—         | 10(c)              | 2(L)             | 315¥      |
+| Colt Government 2076/Manhunter | 3P           | SA           | 10/8/6/—/—         | 14(c)              | 3(L)             | 275¥/500¥ |
+| Ruger Super Warhawk            | 4P           | SA           | 8/11/8/—/—         | 6(cy)              | 3(L)             | 400¥      |
+| **Machine Pistols**            | **DV**       | **MODES**    | **ATTACK RATINGS** | **AMMO**           | **AVAILABILITY** | **COST**  |
+| Ares Crusader II               | 2P           | SA/BF        | 9/9/7/—/—          | 40(c)              | 4(L)             | 520¥      |
+| Ceska Black Scorpion           | 2P           | SA/BF        | 10/9/8/—/—         | 35(c)              | 3(L)             | 510¥      |
+| Steyr TMP                      | 2P           | SA/FA        | 8/8/6/—/—          | 30(c)              | 3(L)             | 690¥      |
+| **Submachine Guns**            | **DV**       | **MODES**    | **ATTACK RATINGS** | **AMMO**           | **AVAILABILITY** | **COST**  |
+| Colt Cobra TZ-100              | 3P           | SA/BF        | 9/9/6/—/—          | 32(c)              | 2(L)             | 730¥      |
+| Colt Cobra TZ-110              | 3P           | SA/BF        | 10/10/7/—/—        | 32(c)              | 2(L)             | 785¥      |
+| Colt Cobra TZ-120              | 3P           | SA/BF        | 10/11/8/—/—        | 32(c)              | 3(L)             | 840¥      |
+| FN P93 Praetor                 | 4P           | SA/BF/FA     | 9/12/7/—/—         | 50(c)              | 4(L)             | 925¥      |
+| HK-227                         | 3P           | SA/BF        | 10/11/8/—/—        | 28(c)              | 3(L)             | 825¥      |
+| Ingram Smartgun XI             | 3P           | SA/BF        | 11/9/6/—/—         | 32(c)              | 3(L)             | 750¥      |
+| SCK Model 100                  | 3P           | SA/BF        | 10/10/7/—/—        | 30(c)              | 3(L)             | 725¥      |
+| Uzi V                          | 3P           | SA/BF/FA     | 8/8/7/—/—          | 24(c)              | 2(L)             | 455¥      |
+| **Rifles**                     | **DV**       | **MODES**    | **ATTACK RATINGS** | **AMMO**           | **AVAILABILITY** | **COST**  |
+| AK-97                          | 5P           | SA/BF/FA     | 4/11/9/7/1         | 38(c)              | 2(L)             | 2,100¥    |
+| Ares Alpha                     | 4P           | SA/BF/FA     | 4/10/9/7/2         | 42(c)              | 5(L)             | 3,400¥    |
+| - Grenade Launcher             | As grenade   | SS           | 4/10/6/2/—         | 6(c)               | —                | —         |
+| Colt M23                       | 4P           | SA/BF/FA     | 5/8/8/8/1          | 40(c)              | 2(L)             | 2,100¥    |
+| FN-HAR                         | 5P           | SA/BF/FA     | 3/11/10/6/1        | 35(c)              | 3(L)             | 2,100¥    |
+| Yamaha Raiden                  | 4P           | SA/BF/FA     | 4/11/10/7/2        | 60(c)              | 5(L)             | 3,200¥    |
+| - Grenade Launcher             | As grenade   | SS           | 4/11/7/1/—         | 4(c)               | —                | —         |
+| - Shotgun                      | 4P           | SS/SA        | 7/9/8/—/—          | 2(b)               | —                | —         |
+| Ares Desert Strike             | 5P           | SA           | 3/10/10/10/10      | 14(c)              | 4(I)             | 11,000¥   |
+| Cavalier Arms Crockett EBR     | 5P           | SA/BF        | 3/8/11/8/8         | 20(c)              | 5(I)             | 9,050¥    |
+| Ranger Arms SM-5               | 5P           | SA           | 3/6/9/11/12        | 15(c)              | 5(I)             | 13,200¥   |
+| Remington 900                  | 5P           | SS           | 2/7/10/12/11       | 5(m)               | 3(L)             | 12,000¥   |
+| Ruger 101                      | 5P           | SA           | 2/6/10/12/11       | 8(m)               | 2(L)             | 11,100¥   |
+| Barret Model 122               | 6P           | SA           | 1/8/11/16/14       | 10(c)              | 6(I)             | 15,200¥   |
+| **Shotguns**                   | **DV**       | **MODES**    | **ATTACK RATINGS** | **AMMO**           | **AVAILABILITY** | **COST**  |
+| Defiance T-250                 | 4P           | SS/SA        | 7/10/6/—/—         | 5(m)               | 2(L)             | 330¥      |
+| Mossberg CMDT                  | 4P           | SA/BF        | 4/11/7/—/—         | 10(c)              | 4(L)             | 700¥      |
+| PJSS Model 55                  | 4P           | SA/BF(short) | 3/12/8/—/—         | 2(b)               | 5(L)             | 325¥      |
+| Remington Roomsweeper          | 5P           | SA           | 9/8/4/—/—          | 8(m)               | 2(L)             | 325¥      |
+| **Machine Guns**               | **DV**       | **MODES**    | **ATTACK RATINGS** | **AMMO**           | **AVAILABILITY** | **COST**  |
+| Ingram Valiant                 | 4P           | SA/BF/FA     | 2/11/12/7/3        | 50(c) or 100(belt) | 4(L)             | 4,175¥    |
+| Stoner-Ares M202               | 5P           | SA/BF/FA     | 1/10/11/7/6        | 50(c) or 100(belt) | 4(L)             | 6,900¥    |
+| RPK HMG                        | 6P           | SA/BF/FA     | 1/10/12/8/7        | 50(c) or 100(belt) | 5(L)             | 8,000¥    |
+| Panther XXL                    | 7P           | SA           | 1/9/12/8/6         | 15(c)              | 6(I)             | 10,000¥   |
+| **Special**                    | **DV**       | **MODES**    | **ATTACK RATINGS** | **AMMO**           | **AVAILABILITY** | **COST**  |
+| Ares Super Squirt              | Special      | SS           | 8/12/9/—/—         | 20(c)              | 3(L)             | 560¥      |
+| Parashield DART Pistol         | 1P + special | SS           | 9/10/8/—/—         | 5(c)               | 2                | 510¥      |
+| Parashield DART Rifle          | 1P + special | SS           | 5/8/11/3/—         | 6(m)               | 3                | 710¥      |
+| **Launchers**                  | **DV**       | **MODES**    | **ATTACK RATINGS** | **AMMO**           | **AVAILABILITY** | **COST**  |
+| Ares Antioch II                | Grenade      | SS           | —/6/8/6/5          | 8(m)               | 3(I)             | 5,900¥    |
+| ArmTech MGL-6                  | Grenade      | SA           | —/8/8/3/—          | 6(c)               | 4(I)             | 1,800¥    |
+| ArmTech MGL-12                 | Grenade      | SA           | —/8/9/6/2          | 12(c)              | 4(I)             | 5,000¥    |
+| Aztechnology Striker           | Missile      | SS           | —/4/10/9/6         | 1(ml)              | 5(I)             | 7,000¥    |
+| Onotari Interceptor            | Missile      | SS           | —/5/9/10/8         | 2(ml)              | 5(I)             | 9,000¥    |
 
 #### Firearm Descriptions
 
@@ -2826,7 +2990,7 @@ Gas-vent system: Gas-vent recoil compensation systems are barrel-mounted accesso
 
 Gyro mount: This heavy upper-body harness features an attached, articulated, motorized gyro-stabilized arm that mounts an assault rifle or a heavy weapon. The system neutralizes up to 6 points of recoil and movement modifiers. Attaching or removing a weapon from the mount takes a Minor Action. Putting on a gyro-mount harness takes about five minutes, while the quick-release allows you to get out of it with a Major Action. Wireless: Activating the harness’s quick-release with a wireless signal to exit the harness is a Free Action.
 
-Hidden arm slide: Attached to the forearm and worn under clothing, this slide can accommodate a pistol- sized weapon. It can fit a hold-out, light pistol, or taser. With a hand gesture, the slide releases the weapon/ object right into your hand. If you quick draw the weapon in this slide, the TN for the quick draw is TN 18. It also gives the weapon a –1 Concealability modifier. Wireless: You can ready the weapon in the slide as a Free Action.
+Hidden arm slide: Attached to the forearm and worn under clothing, this slide can accommodate a pistol- sized weapon. It can fit a hold-out, light pistol, or taser. With a hand gesture, the slide releases the weapon/ object right into your hand. If you quick draw the weapon in this slide, the Threshold for the quick draw is Threshold 18. It also gives the weapon a –1 Concealability modifier. Wireless: You can ready the weapon in the slide as a Free Action.
 
 Imaging scope: These classic scopes are attached to the top mount; attaching or removing them takes only a Minor Action. Imaging scopes include a micro camera and vision magnification, and they have a Capacity of 3 to hold vision enhancements. Wireless: The scope’s “line of sight” can be shared, allowing you to share what your scope sees with your team (and yourself if you’re using it to look around a corner).
 
@@ -2834,7 +2998,7 @@ Laser sight: This device uses a laser beam to project a visible dot (in your cho
 
 Periscope: This adjustable “off-axis” viewer attaches to a top mount and allows an operator to target a weapon around corners, reducing the usual –3 modifier to –2. A periscope can be upgraded with any of the vision enhancements noted on Wireless: The modifier for shooting around corners is reduced to –1.
 
-Quick-draw holster: This easy access holster can hold any weapon of Machine Pistol or smaller size. It reduces the TN for quick-drawing the holstered weapon by 1.
+Quick-draw holster: This easy access holster can hold any weapon of Machine Pistol or smaller size. It reduces the Threshold for quick-drawing the holstered weapon by 1.
 
 Shock pad: A shock-absorbing pad is situated on the rigid stock of a rifle, shotgun, or heavy weapon, and provides 1 point of recoil compensation
 
@@ -2844,7 +3008,7 @@ Smart firing platform: This is a non-mobile robotic tripod equipped with a remot
 
 Smartgun system: This connects a firearm or a projectile weapon directly to the user’s smartlink. Incorporating a small camera and laser range finder, the smartlink keeps track of ammunition, heat buildup, and material stress. If you have a smartlink, you can mentally switch between gun modes, eject a clip, and fire the gun without pulling the trigger. The camera lets you shoot around corners without exposing yourself to return fire (at a –3 modifier). The system makes use of advanced calculation software, allowing for precisely calculated trajectories and high precision over any distance.
 
-If you’re using a smartlink, the smartgun system increases the gun’s Accuracy by 2. The smartgun features are accessed either by universal access port cable to an imaging device (like glasses, goggles, or a datajack for someone with cybereyes) or by a wireless connection working in concert with direct neural interface. Retrofitting a firearm with an internal smartgun system doubles the weapon’s price and adds 2 to its Availability. An external smartgun system can be attached to the top mount or underbarrel mount with an `Armorer + Logic (12,4, 1 hour)` Extended Test. The small camera has a capacity of 1 and can be equipped with vision enhancements. Wireless: A wireless smartlink provides a modifier to all attacks with the weapon: +1 if you’re using gear with a smartlink or +2 if you’re using an augmentation for which you paid Essence. Ejecting a clip and changing fire modes are Free Actions
+If you’re using a smartlink, the smartgun system increases the gun’s Accuracy by 2. The smartgun features are accessed either by universal access port cable to an imaging device (like glasses, goggles, or a datajack for someone with cybereyes) or by a wireless connection working in concert with direct neural interface. Retrofitting a firearm with an internal smartgun system doubles the weapon’s price and adds 2 to its Availability. An external smartgun system can be attached to the top mount or underbarrel mount with an `Armorer + Logic (4, 1 hour)` Extended Test. The small camera has a capacity of 1 and can be equipped with vision enhancements. Wireless: A wireless smartlink provides a modifier to all attacks with the weapon: +1 if you’re using gear with a smartlink or +2 if you’re using an augmentation for which you paid Essence. Ejecting a clip and changing fire modes are Free Actions
 
 Spare clip: A spare clip comes unloaded but can hold the maximum rounds for the weapon. Each clip is specific to the weapon you buy it for, but they all cost the same. And yes, it’s technically a detachable box magazine, but the Cityspeak word for it is so popular these days that even the catalogs call them clips
 
@@ -3175,18 +3339,9 @@ If a tie occurs, the DM decides the order among tied DM-controlled creatures, an
 
 Unless the item allows a timer to be set, in which case the player can determine when, these items go off at the end of the players turn.
 
-### Your Turn
-On your turn, you can move a distance up to your speed and take either one major action or two minor actions. You decide whether to move first or take your action first. Your speed—sometimes called your walking speed—is noted on your character sheet.
-
-The most com⁠mon actions you can take are described in the "Actions in Combat". Many features and other abilitie⁠s provide additional options for your action.
-
-The “Movement and Position” section gives the rules for your move.
-
-You can forgo moving, taking an action, or doing anything at all on your turn. If you can’t decide what to do on your t⁠urn, consider taking the Dodge or Ready action, as described in “Actions in Combat”
-
 ### Movement and Position
 
-In combat, characters and NOC's are in constant motion, often using movement and position to gain the upper hand.
+In combat, characters and NPC's are in constant motion, often using movement and position to gain the upper hand.
 
 On your turn if you use a Dash you can use as much or as little of your speed as you like on your turn, following the rules here.
 
@@ -3222,29 +3377,6 @@ Whether a creature is a friend or an enemy, you can't willingly end your move in
 
 If you leave a hostile creature's reach during your move, you provoke an opportunity attack, as explained later in the chapter.
 
-### Creature Size
-
-Each creature takes up a different amount of space.
-
-The Size Categories table shows how much space a creature of a particular size controls in combat. Objects sometimes use the same size categories.
-
-| Size       | Space    |
-| ---------- | -------- |
-| Small      | 1y by 1y |
-| Medium     | 1y by 1y |
-| Large      | 2y by 2y |
-| Huge       | 3y by 3y |
-| Gargantuan | 4y by 4y |
-
-#### Space
-
-A creature's space is the area in feet that it effectively controls in combat, not an expression of its physical dimensions. A typical Medium creature isn't 1 yard wide, for example, but it does control a space that wide. If a Medium Orc stands in a 5-foot-wide doorway, other creatures can't get through unless the Orc lets them.
-
-A creature's space also reflects the area it needs to fight effectively. For that reason, there's a limit to the number of creatures that can surround another creature in combat. Assuming Medium combatants, eight creatures can fit in a 1-yard radius around another one.
-
-Because larger creatures take up more space, fewer of them can surround a creature.
-
-If four Large creatures crowd around a Medium or smaller one, there's little room for anyone else. In contrast, as many as twenty Medium creatures can surround a Gargantuan one.
 
 ### Action In Combat
 
@@ -3262,174 +3394,228 @@ Every **combat round** a character gets:
 - 1 Major Action and 1 Minor Actions
 
 
-| Minor Actions                 | Major Actions               |
-| ----------------------------- | --------------------------- |
-| Activate/Deactivate Focus (I) | Assist (A)                  |
-| Avoid Incoming (A)            | Astral Projection (I)       |
-| Block (A)                     | Attack (I)                  |
-| Call a Shot (A)               | Banish Spirit (I)           |
-| Change Device Mode (A)        | Cast Spell (I)              |
-| Command Drone (I)             | Cleanse (I)                 |
-| Command Spirit (I)            | Counterspell (I)            |
-| Dismiss Spirit (A)            | Full Defense (I)            |
-| Dodge (A)                     | Manifest (I)                |
-| Drop Object (A)               | Observe in Detail (I)       |
-| Drop Prone  (I)               | Pick Up/Put Down Object (I) |
-| Intercept (A)                 | Ready Weapon (I)            |
-| Move (I)                      | Reload Weapon (I)           |
-| Multiple Attacks (I)          | Rigger Jump In (I)          |
-| Quick Draw (I)                | Sprint (I)                  |
-| Reload Smartgun (I)           | Summon Spirit (I)           |
-| Shift Perception (I)          | Use Simple Device (I)       |
-| Stand Up (I)                  | Use Skill (I)               |
-| Take Cover  (I)               |
-
-
-
-#### Free Actions
-
 
 #### Minor Actions
 These actions usually take only a small amount of focus or a quick and simple thought or movement. A key point among Minor Actions is that they generally do not require a test of any kind. That doesn’t mean in truly dire situations where the pressure is on that the gamemaster can’t ask for a test to be made—it just means that usually, as long as you have the action available, you can perform the task by simply declaring the use of it.
 
-- Dash
-- Change Gun Mode
-- Fire Weapon/Throw Weapon
-- Insert Clip
-- Pick Up/Put Down Object
-- Quick Draw
-- Ready Weapon
+| Minor Actions                 |
+| ----------------------------- |
+| Activate/Deactivate Focus (I) |
+| Attack of Opportunity (A)     |
+| Block (A)                     |
+| Change Device Mode (A)        |
+| Command Drone (I)             |
+| Command Spirit (I)            |
+| Dismiss Spirit (A)            |
+| Dodge (A)                     |
+| Drop Object (A)               |
+| Drop Prone  (I)               |
+| Move (I)                      |
+| Multiple Attacks (I)          |
+| Quick Draw (I)                |
+| Reload Smartgun (I)           |
+| Shift Perception (I)          |
+| Stand Up (I)                  |
+| Take Cover  (I)               |
+| Trip (I)                      |
 
-##### DASH
+##### Activate (Deactivate) Focus (I)
 
-You move up to your speed. See Movement and Position
+A character can activate or deactivate a bonded focus that they are carrying on their person with a Minor Action.
 
-##### CHANGE GUN MODE
+##### Attack of Opportunity (A)
 
-A character holding a ready firearm can change its firing mode via a Minor Action. If the weapon is a properly linked smartgun, it takes only a Free Action to change the mode. See Firearms, and Smartgun Systems. This includes changing a shotgun’s choke if the gun does not have a smartgun link. See Shotguns.
+When an enemy leaves your threatened area you may make an immediate melee attack on them as long as you have a Minor Action available to you.
 
-##### FIRE WEAPON
+##### Block (A)
 
-A character may fire a ready firearm/or throw a ready thrown weapon, in single-shot, semi-automatic, or burst-fire mode via a Minor Action (See Firearms). If a character has one weapon in each hand, he may   fire once with each weapon by expending one Minor Action (see Attacker Using a Second Firearm). Note that single-shot weapons may be fired only once per turn. Likewise, only one long burst may be fired in each turn.
+A character can add their Close Combat skill to their melee defense. This lasts until they are attacked or their next turn
 
-##### Insert Clip
+##### Change Device Mode (A)
 
-A character may insert a fresh clip into a ready firearm by taking a Minor Action, they quickly eject the first clip before inserting a new one as one simple action.
+A character may use a Minor Action to activate, deactivate, or switch the mode on any device that they are linked to by a direct neural interface, be it a wired or wireless link. This includes activating or deactivating cyberware, changing a smartgun’s firing settings, switching a commlink to hidden mode, turning a device’s wireless functionality off, and so on
 
-##### Pick Up/Put Down Object
+##### Command Drone (I)
 
-A character may pick up an object within reach or put down one that he was holding by expending a Minor Action (note that just dropping an object is a Free Action).
+A character may issue a command to a drone they control. If multiple drones are controlled through a rigger command console (RCC), the same command can be issued to every drone. If a different command is desired for each drone, it requires multiple Minor Actions.
 
-##### Quick Draw
+##### Command Spirit (I)
 
-A character may attempt to quick-draw a pistol or pistol-sized weapon and immediately fire it by expending a Quick Draw action. For the character to successfully draw the weapon, the player must make a `Pistols + Reaction (18)` Test. If the pistol is held in a quick-draw holster, reduce the TN to 12. If the test is successful, the character draws the pistol and fires as a single Quick Draw Minor Action. If the test fails, he clears the gun but cannot fire with the same Minor Action. If he glitches, the gun is stuck in the holster or dropped. On a critical glitch, it is flung across the room or misfired while still in the holster.
+A character may issue a service command to a single spirit or group of spirits under their control, or dismiss them. The service must be the same. If multiple services are desired, multiple Minor Actions must be used.
 
-Only weapons that can be fired with a Minor Action can be quick-drawn. Two weapons may be quick-drawn and fired simultaneously, but this raises the TN on the `Pistols + Reaction` Test to 24 (see Attacker Using a Second Firearm). A separate `Pistols + Reaction (24)` Test is required for each pistol (TN 18 if they are held in quick-draw holsters).
+##### Dismiss Spirit (A)
 
-##### Ready Weapon 
+A character may dismiss their spirit at any time with a Minor Action.
 
-A character may ready a weapon by spending a Minor Action. This usually comes up during surpruse. The weapon may be a firearm, melee weapon, throwing weapon, ranged weapon, or mounted or vehicular weapon. Readying entails drawing a firearm from a holster, drawing a throwing or melee weapon from a sheath, picking up any kind of weapon, nocking an arrow in a bow, or generally preparing any kind of weapon for use. A weapon must be ready before it can be used.
+##### Dodge (A)
 
-A character can ready a number of small throwing weapons, such as throwing knives or shuriken, equal to one-half his Agility (round down) per Ready Weapon action.
+A character can add their Athletics skill to their ranged Defense. This lasts until they are attacked or their next turn.
 
-#### Bonus Actions
+##### Drop Object (A)
 
-Various edges, augmentations, spells, and other abili⁠ties let you take an additional action on your turn called a bonus action. You can take a bonu⁠s action only when a sp⁠ecial ability, spell, or other feature of the game states that you can do something as a bon⁠us action. You otherwise don’t have a bo⁠nus action to take. A bonus action is for all intents and purposes an additional Minor Action.
+A character may drop an object they are holding in their hand or hands as a single Minor Action. The objects fall to the ground and may suffer damage or ill effects if the gamemaster so chooses, depending on the distance of the fall and the landing spot.
 
-For example the Augmentation Wired Reflexes allows a Bonus Action per round per Rating of the Wired Reflexes.
+##### Drop Prone (I)
 
-You choose when to take a bonus action during your turn, unless the bonus action’s timing is specified, and anything that deprives you of your ability to take actions also prevents you from taking a bon⁠us action.
+A character may choose to drop themselves to the ground as a Minor Action. They gain the Prone status until they choose to use the Stand Up Action.
 
-#### Reactions
+##### Move (I)
 
-Certain spe⁠cial abili⁠ties, spells, and situations allow you to take a spe⁠cial action called a reaction. A reaction is an instant response to a trigger of some kind, which can occur on your turn or on someone else’s. The opportunity attack, described in " Making an Attack ", is the most com⁠mon type of reaction.
+A character can use this Minor Action for 10 yards of movement. Only one Move Action is allowed per player turn.
 
-When you take a reaction, you can’t take another one until the start of your next turn. If the reaction interrupts another creature’s turn, that creature can continue its turn right after the reaction.
+##### Multiple Attacks (I)
 
-#### Complex Actions
+A character can attack more than one opponent, assuming ammunition, reach, and enemy placement allow it. Split your modifier evenly among all targets rounded down. This action must be used in conjunction with an Attack Major Action.
 
-A Major Action requires concentration and/or finesse. Only one Major Action is possible per Turn. A character who wishes to take a Major Action may also take a Free Action thatturn, but no Minor Actions are possible.
+##### Quick Draw (I)
+A character may quick draw a pistol, pistol- sized weapon, or small throwing weapon and immediately attack with this Minor Action. The Attack action must be used in conjunction with this action. They must have the appropriate gear, augmentation, or quality to be allowed this action— if they don’t have something that allows this action, they can’t take it.
 
-- Disengage
-- Dodge/Full Defense
-- Fire Automatic Weapon/Mounted Vehicle Weapon
-- Melee/Unarmed Attack
-- Reload Weapon
-- Use Skill
-- Use Object
-- Ready
+##### Reload Smartgun (I)
 
-##### Disengage
+A character linked to a ready smartgun may use a mental command to eject the weapon’s clip while sliding a new one in with one deft motion, assuming that the new ammo is readily available.
 
-If you take the Disengage action, your movement doesn't provoke opportunity attacks for the rest of the turn.
+##### Shift Perception (I)
 
-##### Dodge/Full Defense
+A character capable of Astral Perception may shift perception to or from astral space as a Minor Action
 
-When you take the Dodge action, you focus entirely on avoiding attacks. Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker. You lose this benefit if you are incapacitated (as explained in the appendix) or if your speed drops to 0.
+##### Stand Up (I)
 
-##### Fire Automatic Weapon
+Whether they chose to be prone or they got knocked down, a character uses this action to get back to their feet and remove the Prone status
 
-A character may fire a ready firearm in full auto fire mode or a Mounted Vehicle Weapon by taking a Major Action.
+##### Take Aim (I)
 
-##### Melee/Unarmed Attack
+A character gains a +1 bonus edge bonus with the use of this action. The action can only be taken once per combat round, but if the bonus is not used, it carries over to the next combat round, allowing it to be combined with actions taken over the course of several combat rounds. If the character takes a player turn without taking the Take Aim or Attack actions, any carryover bonuses from previous rounds are lost. The maximum bonus edge from the use of this action is equal to the character’s Willpower. A character may take aim with a ready firearm, bow, or exotic ranged weapon.
 
-A character may make a melee or unarmed attack by taking a Complex
-Action. A character may also attack multiple
-targets within melee range with a single Major Action
+If the character is using vision magnification or a targeting scope, the Take Aim action must be used to line up the shot in order to receive any bonus from the item. In this case, the first action of Take Aim does not provide any additional bonus beyond enabling the function of the modification.
 
-##### Reload Weapon
+##### Take Cover (I)
 
-##### Use Skill
+The character uses something in their area to provide protection, but they also must operate from the constraints created by the cover. Taking cover gives the player the Cover I, II, III, or IV status
 
-##### Use Object
+#### Major Actions
 
-##### Ready
+These actions take a bit more concentration or time to complete. Several involve a test of some kind, but some simply occur as long as you have the Action available. Just like Minor Actions, if there is no test involved but the gamemaster feels the pressure is on and one should be required, they have final say in the matter.
 
-Sometimes you want to get the jump on a foe or wait for a particular circumstance before you act. To do so, you can take the Ready action on your turn, which lets you act using your reaction before the start of your next turn.
+| Major Actions               |
+| --------------------------- |
+| Assist (A)                  |
+| Astral Projection (I)       |
+| Attack (I)                  |
+| Banish Spirit (I)           |
+| Cast Spell (I)              |
+| Cleanse (I)                 |
+| Counterspell (I)            |
+| Full Defense (I)            |
+| Manifest (I)                |
+| Observe in Detail (I)       |
+| Pick Up/Put Down Object (I) |
+| Ready Weapon (I)            |
+| Reload Weapon (I)           |
+| Rigger Jump In (I)          |
+| Sprint (I)                  |
+| Summon Spirit (I)           |
+| Use Simple Device (I)       |
+| Use Skill (I)               |
 
-First, you decide what perceivable circumstance will trigger your reaction. Then, you choose the action you will take in response to that trigger, or you choose to move up to your speed in response to it. Examples include "If the Samurai steps on the trapdoor, I'll pull the lever that opens it," and "If the Troll steps next to me, I move away."
+##### Assist (A)
+You make the same test they are making; your Effect becomes Bonus Edge for them to use up to 7 points total from your roll.
 
-When the trigger occurs, you can either take your reaction right after the trigger finishes or ignore the trigger. Remember that you can take only one reaction per round.
+##### Astral Projection (I)
+
+A character capable of Astral Projection (full magician or aspected magician) may shift their consciousness to or from the astral plane as a Major Action. The process is complete the moment the action is declared and therefore places them on the astral plane immediately, including for the remainder of the current combat round.
+
+##### Attack (I)
+
+A character may perform one of a variety of forms of attack with this Major Action. See the below for more details.
+
+##### Banish Spirit (I)
+
+Any character may attempt a Banishing on a spirit as a Major Action
+
+##### Cast Spell (I)
+
+A character may cast a spell as a Major Action. For details on how, see Spells
+
+##### Cleanse (I)
+
+Awakened characters use this action to erase traces of their magic activity
+
+##### Counterspell (A)
+
+Perform Counterspell (see Magic)
+
+##### Full Defense (A)
+
+A character can add their Willpower to all Defense tests until their next turn. It persists through attacks until their next turn.
+
+##### Manifest (I)
+
+Characters who are astrally projecting use this action to appear as a ghostly form
+
+##### Observe in Detail (I)
+
+A character may make a detailed observation by taking a Major Action. This action allows a Perception test or Assensing test. This action is intended for determining details that may be obscured due to the pace and rigors of combat. It is assumed that everyone engaged in a combat is aware of the presence of everyone else, barring the use of Stealth or obscuring magic, but not necessarily details of their gear or equipment, and in some particularly hectic or rushed circumstances, the identity of individuals. In the midst of a hectic gunfight/ brawl in the dark, the winner of the brawl, who is now sprinting toward your character, may not be identifiable without an Observe in Detail action. (Deprecated)
+
+##### Pick Up/Put Down Object (I)
+
+A character may pick up an object within reach or put down one that they were holding as a Major Action. This action means care is taken to put the object down or pick it up. If the picked-up object is a weapon, this counts as readying the weapon.
+
+##### Ready Weapon (I)
+
+A character may ready a weapon by using this action. This includes drawing and readying a firearm; pulling a melee weapon from a sheath or pocket; taking out and readying a grenade or throwing knife; or any other kind of weapon preparation. Almost all weapons require this action before they are ready for use, though many times it occurs before combat even starts. Small weapons such as throwing knives and shuriken can be readied in bunches, with a total number equal to the character’s Agility attribute pulled into the character’s off-hand with a single Ready Weapon action.
+
+##### Reload Weapon (I)
+
+Weapons without a smartlink, or weapons where the smartlink is currently disengaged, require a Major Action to reload. Reloading a weapon refills the weapon to its maximum capacity as long as the character has sufficient ammunition to do so.
+
+##### Rigger Jump In (I)
+
+A character with a vehicle control rig (VCR) and rigger-adapted vehicle or drone or a rigger command console (RCC) may jump in to control the vehicle or operate the RCC with a Major Action.
+
+##### Sprint (I)
+
+A character may move at a Sprint with this Major Action. Movement starts at 15 yards and is increased by 1 yard per effect on an `Athletics + Agility Test (1)`. Only one Sprint Action is allowed per player turn, and it cannot be performed in the same turn as a Move action or Avoid Incoming action.
+
+##### Summon Spirit (I)
+
+A character capable of summoning may use a Major Action to summon a spirit to assist them. A spirit that is already summoned is controlled using the Command Spirit Minor Action.
+
+##### Use Simple Device (I)
+
+A character can use any simple device with a Major Action. Simple devices are those that are activated with a simple movement like a thumb trigger, pressing a single key, or tapping a single icon. It takes longer to interact with more complex devices, with required time being up to the gamemaster or listed with the description of specific gear. Remember, a device connected via a DNI-enabled system uses the Minor Action.
+
+##### Use Skill (I)
+
+A character may use an appropriate skill by using a Major Action
 
 
-### Cover Mechanics
 
-You usually don’t have to take any action to avoid attacks. It’s a reflex, and covered by your Defense score. You might take actions to modify your Defense, however, such as Dodge.
+### Combat Round
 
-Taking cover is a special case. In modern games, the prevalence of firearms makes it prudent to put something between yourself and their firing arcs. You can move behind cover.
+A combat round is approximately 3 seconds long in the game world. During a single combat round, each participant gets an allotment of Actions to use on or around their player turn. The basic Action allotment for each character is 1 Minor Action and 1 Major Action per combat round. Players get 1 additional Minor Action for every Initiative Die they have.
 
-Cover provides a bonus to your Defense against all ranged attacks.
+Actions can be traded between Minor and Major, but there are restrictions. A Major Action can be used to perform a Minor Action, simple as that. A character can also trade 4 Minor Actions to perform 1 Major Action.
+
+Characters may never start a player turn with more than 5 Minor Actions. If they would have earned more through any circumstances, that number is reduced to 5.
+
+#### Attacks
+
+Ranged Attack Rolls are rolled as: `3d6 + Firearms + Agility + Misc` vs. Targets Defense.
+
+>Oda is firing a pistol using Firearms 5 + Agility 7 + 1 for a wireless active smartlink (he’s not worried about a hacker in this gang), for a modifier of 13. The Eye-Fiver defends with Reaction 4 + Intuition 3, a defense of 17.
+>
+> Oda gets 2 Bonus Edge and uses them for both to get 1 more Effect. Oda rolls and gets a 24 more than enough to hit the Eye-Fiver. Comparing the Effect Dice for Oda who has a 6 on his Effect Dice and the Eye-Fiver has a 2 on his Effect Dice. Making the Net Effect 4, Oda adds his +1 Effect from his Bonus Edge spend to have 5 Net Effect.
 
 
-| Rating | Defense Bonus              | Ranged Attack Penalty     |
-| ------ | -------------------------- | ------------------------- |
-| 1      | 1                          | –1                        |
-| 2      | 2                          | –2                        |
-| 3      | 4                          | –3                        |
-| 4      | 6                          | -4                        |
-| Total  | Can’t be attacked at range | Can’t make ranged attacks |
-
-### Attacks
-
-An attack is rolled as 3D6 + Agility (Ranged or Unarmed) / Strength (Armed) + Relevent Skill Rating
-
-For example if making a ranged attack with Agility 3 and Automatics 4 they would add 7 to their roll. 
-
-The attacker needs to exceed the Defense of the target to hit.
-
-#### Accuracy
-
-All weapons have an Accuracy score that acts as a Limit for that weapon. Accuracy scores reflect the quality and craftsmanship of a weapon and determine the number of Effect that can be applied in a skill test.
-
-Melee weapons, those that were made for combat, have an average Accuracy of 5. Improvised weapons— items that can be used, however awkwardly, to inflict damage but are not designed for combat, such as a golf club or frying pan—usually have an accuracy of 4. Random objects used as weapons that are very unwieldy or heavy (like a chair, barstool, or refrigerator) generally have an Accuracy of 3. Standard Weapons that are in poor condition or broken can have their Accuracy reduced by 1.
-
-Unarmed attacks use the Inherent Limit [Physical] as determined by the Attributes of the character and do not have an Accuracy rating. Items used as part of the Unarmed Attack, also use the Physical limit.
-
-Most basic ranged weapons have an accuracy of 4 or 5. Specialized ranged weapons, like some sniper rifles, have an accuracy of 6 or higher. Improvised ranged weapons have an Accuracy of 3, and broken, old, damaged, or otherwise flawed ranged weapons can have their Accuracy reduced by 1, to a minimum of 1.
 
 ### Damage
 
 Involved as they are in an illegal and often hazardous line of work, runners get hurt and get hurt often. What kind of damage, how bad an injury is, and how much it affects the character vary greatly depending on the situation.
+
+Damage is calculated based on the weapon, spell, effect in Physical or Stun. You deduct that from your Health. 
+
+> Continuing from Above
+> We calculate the incoming damage using the base Damage Value of the Ares Predator VI (3P) and add the net effect (5) to get a modified Damage Value of 8. The Eye-Fiver leader has a Toughness of 1 to soak the Damage, reducing the incoming damage to 7 of Physical Damage. As an NPC the Eye-Fiver only has 10 Health so he has 3 left. 
 
 #### Types of Injury
 
@@ -3439,144 +3625,204 @@ Damage in Sixfinity is defined as Physical or Stun. Each type of damage is track
 
 Physical damage, the most dangerous type, is the kind done by guns, explosions, most melee weapons, and many magic spells. Weapons that inflict Physical damage have the letter “P” following their Damage Value. Physical damage takes a longer time to heal.
 
-
 ##### Stun Damage
 
 Stun damage—bruising, muscle fatigue, and the like— is the kind done by fists, kicks, blunt weapons, stun rounds, shock weapons, concussion grenades, and some magic spells. If something does Stun damage, the letter “S” follows the Damage Value. Stun damage takes a shorter time to heal.
 
-
-### Resistance
-
-If a creature or character has an effect which gives them resistance to a type of damage (see damage types) they take half damage from that source.
-
-### Vulnerability
-
-If a creature or character has an effect which gives them vulnerability to a type of damage (see damage types) they take double damage from that source. 
-
 ### Healing
 
-- First Aid: Another character can aid you with a First Aid action, as described under Complex Actions in this chapter. You can’t benefit from another First Aid action until you take more damage (there is only so much benefit you can gain from basic care).
-- You can take a breather after a combat encounter. This is a 5-minute rest that lets you catch your breath, tend to minor cuts and abrasions, drink some water, and so on. After a breather, you get back 5 + Body in Physical Health. You can take only one breather after an encounter. If you were at 0 Physical Health when the combat encounter ended, you cannot take a breather at all.
-- You can get some sleep. If you can get at least 6 hours of restful sleep, you can recover Physical Health Rating x 10 + Body in Physical Health.
-- You receive extended medical attention. Another character can tend to your injuries with a {TN} 13 Logic (Medicine) test that lasts 1 hour or is concurrent with sleep as above. The character in charge of your care must use proper medical tools and supplies (found easily in any clinic, hospital, or doctor’s office). Success means you recover an additional amount of Physical Health equal to 5 + treating character’s Logic + treating chaacters Medicine Rating.
+We’ve explained to you how to put the hurt on, so now let’s talk about getting the hurt off. Healing in Shadowrun is a mix of in-the-field first aid, miraculous magic, futuristic tech, and heroic speeds of natural recovery. Getting back in the fight is a lot more fun than lying in a hospital bed for weeks or months.
 
-Breather = 5 min rest, regain 5 + BOD Physical Health. One per scene. Not if you hit 0.
+The first thing to cover is the order of operations for healing. Do you need to apply first aid before magic or after? Can you magically heal someone who’s already been treated by a medkit? The answer is simple: The order doesn’t matter, except that Overflow damage heals first. Every character gets multiple chances to get patched up before they’re stuck carrying around their injuries for days. The key here is how soon each needs to be applied. Details are under each description below.
 
-##### First Aid Table
+#### First Aid
+- Biotech + Logic (5 - Essence)
 
-| Medicine Check {TN} | Result                                                                                         | First Aid Kit Required |
-| ------------------- | ---------------------------------------------------------------------------------------------- | ---------------------- |
-| 10                  | Stabilize an ally, they stop bleeding.                                                         | No                     |
-| 10                  | Stabilize an ally, If the check succeeds by 5 or more, the ally regains 1 hit point.           | Yes                    |
-| 10                  | End the Blinded or Deafened condition imposed by a weapon on one combatant.                    | No                     |
-| 10                  | Smother the flames on one combatant that is Burning.                                           | No                     |
-| Poison DC           | Give a combatant advantage on their next Stamina reaction against poison.                      | Yes                    |
-| Poison DC           | Allow a combatant to make a saving throw to end an ongoing effect imposed by a poison or drug. | Yes                    |
+As implied by the name, this is probably the first aid you should apply because it has the narrowest window. After the end of a combat encounter in which a character was injured, they have 1 minute (20 combat rounds if another fight kicks off) to receive First Aid. To apply First Aid, a character needs the right tools for the job, in this case a first aid kit. Any test made without a kit suffers a -2 modifier, and no Edge can be spent on the test.
 
-### Conditions
-These were borrowed from the 5e SRD which is open Source and are quite convenient. 
+Make a `Biotech + Logic test against a threshold equal to 5 – target’s Essence`. If the target is one-hundred-percent natural, the healer actually gets an automatic +1 Effect added to what they roll. This represents the difficulty of repairing someone who has metal parts as well as those with organs not normally found in average people. Effect is used to heal 4 points of Stun Damage (**not including drain**) per effect or 4 points of Physical Damage or 2 points of Overflow per effect. Drain cannot be healed with First Aid. A character can receive First Aid only once for any single set of injuries.
 
-#### Blinded
-- A blinded creature can’t see and automatically fails any ability check that requires sight.
-- Attack rolls against the creature have advantage, and the creature’s attack rolls have disadvantage.
+#### Medkit
+- Biotech + Logic (5 - Essence)
 
-#### Burning
+Medkits are more detailed. The patient must be connected to medkit monitors and diagnosed, after which they receive injections and IVs. After the end of a combat encounter in which a character is injured, they have one hour to be connected to a medkit or get medical attention from a trained professional with a medkit. If they wait beyond this period, a medkit will not help them. It takes one minute to hook up the patient, get the medkit to spit out a diagnosis, and begin treatment. The healing process takes one minute per 4 points healed (so, if the process is interrupted, you know how much they were patched up). Each time a medkit is used, it consumes one batch of supplies. Treatment cannot be attempted if no medkit supplies remain.
 
-- A character that is Burning takes 1d6 fire damage at the start of each of their turns. This damage ignores armor.
-- A DC 10 Agility, Willpower (Survival), or Logic (Medicine) check can be made as an action to extinguish the fire.
-- Immersion in water or the use of a fire extinguisher automatically extinguishes the fire.
+Make a `Biotech/Medkit Rating + Logic test against a threshold of 5 – target’s Essence`. If the target is one-hundred-percent natural, the healer gets an automatic +1 Effect added to their roll. Like First Aid, this fixes biological material, not machinery. Effect is used to heal 4 points of Stun, Physical, or Overflow Damage per Effect, but not damage from drain.
+
+There is a limit to receiving a medkit treatment. A character can only benefit from a medkit once for any single set of injuries.
+
+#### Magic
+- Sorcery + Magic (using Healing or similar spell)
+
+The wonders of magic are many and great. Healing spells are some of the most commonly studied magics for those working on the streets. Some use their skills to earn a little extra cash patching up gangers; others serve on a runner team, keeping their partners fighting when the bullets start finding their targets. Those with hearts of gold work as regular street healers to give the denizens of the barrens a chance at a healthy life.
+
+The good news about magical healing is it works at the speed of a spell—once the spell is cast, the effect takes hold.
+
+Healing magic can mend both Physical and Stun injuries, but not those caused by Drain. The leftover taint of wearisome mana prevents the healing magics from connecting to that damaged tissue to heal it. As with medkits, net effect can be used to heal 4 points of Stun, Physical, or Overflow Damage per Effect. For more information on casting healing spells, see Magic.
+
+A character can be healed by Magic only once for any single set of injuries.
+
+#### Natural Recovery/Medical Assistance (Varies by damage type)
+
+After all other options have been used, if injury remains, it’s all about rest and possibly some help from a trained medical professional (or just your team medic). Rest is simply defined as not engaging in any strenuous physical or mental activity—essentially, anything that involves a dice roll would break your rest. Medical attention offers a bonus to the recovery roll. If any person trained in Biotech is watching over the character for at least half of their rest period, the wounded individual gains a +2 Effect to the healing tests defined below.
+
+To heal Physical Damage, roll `Body + Body (1)` once per day. Each Effect heals 4 points of Physical Damage after that day of rest.
+
+To heal Stun Damage, roll `Body + Willpower (1)` once per hour. Each hit heals 4 points of Stun Damage after that hour of rest. A full 8 hour (Long Reat) rest will recover all lost Stun Health.
+
+#### Overflow & Dying
+
+Sometimes a hit brings you closer to death than you ever really want to be, and you’ve got some Damage Overflow to recover. These points are healed just like Physical Damage and need to be healed before the character can return to the land of the conscious. Note that if a character receives (Body x 2) points of Overflow damage, they are dead and gone, beyond the reach of any kind of healing.
+
+### Status List
+The different statuses used in Shadowrun, Sixth World are described below.
+
+
+#### Blinded I, II, III
+
+Whether it’s flashing lights, some specialized chemical, or the pure force of magic, there are plenty of ways to make it impossible for shadowrunners to see. For the first two levels of this status, characters take a –3 penalty per level to all tests involving visibility. At the third level, characters automatically fail any tests involving visibility.
+
+#### Burning #
+
+The Burning status is the result of being hit with a flame-based attack. Once the initial blow has done its damage, you have to deal with the continuing heat and flames, and the parts of yourself that may be on fire. **Toughness has no effect on this damage.**
+
+The status should be noted with a number that indicates the amount of Physical damage the character must resist each round while the status exists. There are multiple ways to remove this status. You can spend a Major Action and roll an `Agility + Reaction (2) test`; success means the fire is out and the status is removed. You can also jump into water to remove the status without a roll.
+
+If you gain the Wet and/or Chilled statuses, the Burning status is canceled. Similarly, gaining the Burning status cancels the Wet or Chilled status.
 
 #### Charmed
 - A charmed creature can’t attack the charmer or target the charmer with harmful abilities or magical effects.
-- The charmer has advantage on any ability check to interact socially with the creature.
+- The charmer has +3 on any test to interact socially with the creature.
 
-#### Deafened
-- A deafened creature can’t hear and automatically fails any ability check that requires hearing.
+#### Chilled
+
+When you are truly, damagingly cold, it seeps into your bones and won’t let go, and you can’t move as smoothly and nimbly as you would like. When you are Chilled, you get –4 to your Initiative Score and –1 to all tests. This status cancels and is canceled by the Burning status.
+
+#### Confused #
+
+Colors, patterns, and weird ideas swirl around your head, keeping you from being able to focus, which makes your actions uncoordinated and awkward. The number after the status acts as a penalty on any test you take.
+
+#### Corrosive #
+
+Acids, bases, and other caustics eat into your flesh and don’t stop. The ongoing damage from these chemicals is noted with the Corrosive status, which comes with a number after it to denote how much damage the ongoing effect inflicts. **Toughness has no effect on this damage.**
+
+This status can be removed with certain gear (like baking soda for acids!) and equipment. The Wet status does not necessarily remove it, as some chemicals continue burning the skin even after contact with water. The gamemaster can determine when enough water has been applied to remove the chemical in question.
+
+#### Cover I, II, III, IV
+
+Whether you hide behind a wall, a dumpster, or a body, Cover is protection from hostile fire. It comes at four levels, indicating how much of a character’s body is protected (one-quarter, onehalf, three quarters, or all). A character in Cover gets a +2 bonus per Cover level to their Defense Rating. Attacking from Cover requires an extra Minor Action in order to get clear enough to take a shot, imposes a –2 penalty to your attack at Cover IV, and you cannot gain Bonus Edge while attacking from Cover (you can gain it from defending).
+
+#### Dazed
+
+One too many thumps to the head, or maybe the solar plexus, leaves the character woozy and unable to act with their normal alacrity. The character reduces their Initiative Score by –4, and they cannot gain or spend Edge (but they can burn Edge) as long as they have this Status.
+
+#### Deafened I, II, III
+
+Whether you heard a sudden, hugely loud clap, or someone stuffed your ears full of cotton-like mana, sound waves are not getting through so that your brain can tell you what they mean. For the first two levels of this status, characters take a –3 penalty per level to all tests involving hearing. At the third level, characters automatically fail any tests involving hearing.
+
+#### Fatigued I, II, III
+
+At its top level, this status is that dreamlike weariness, where your legs are lead and just will. Not. Move. Characters with this status take a –2 penalty per level to all tests. Characters move at 5 yards per turn instead of 10 for walking, and 10 instead of 15 for sprinting.
 
 #### Frightened
-- A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.
-- The creature can’t willingly move closer to the source of its fear.
 
-#### Grappled
-- A grappled creature’s speed becomes 0, and it can’t benefit from any bonus to its speed.
-- The condition ends if the grappler is incapacitated (see the condition).
-- The condition also ends if an effect removes the grappled creature from the reach of the grappler or grappling effect
+Something has hit your lizard brain, and rational thought flees. All you have left is fear. Characters take a –4 penalty to any tests directed to or defending against the source of the effect. They also cannot move toward the source of their fear. 
+
+#### Hazed
+
+Something has messed up your connection to the astral world, leaving that realm out of your reach. Or worse, if you were already astral, you’re stuck there. A character with this status is unable to move between the astral plane and the physical world. They cannot astrally project or manifest. They may still perceive astrally.
+
+#### Hobbled
+
+Any movement on foot, whether by the Move, Sprint, or Avoid Incoming action, is halved (round up). Said another way it cost twice movement to move.
+
+#### Immobilized
+
+Just what it sounds like! Characters with this status cannot move, though they can take any actions that will function with their feet stuck to the ground. Their Attack Rating is reduced by 3, and they take a –3 penalty on all attacks. They cannot use Reaction on their Defense tests.
 
 #### Incapacitated
 - An incapacitated creature can’t take actions or reactions.
 
-#### Invisible
-- An invisible creature is impossible to see without the aid of magic or a special sense. For the purpose of hiding, the creature is heavily obscured. The creature’s location can be detected by any noise it makes or any tracks it leaves.
-- Attack rolls against the creature have disadvantage, and the creature’s attack rolls have advantage.
+#### Invisible #
 
-#### Paralyzed
-- A paralyzed creature is incapacitated (see the condition) and can’t move or speak.
-- The creature automatically fails Quickness Reactions.
-- Attack rolls against the creature have advantage.
-- Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature.
+The go-to status for sneak thieves. Characters are less visible to living and sentient beings. The number after the status indicates the threshold step people must hit on a Perception test to notice the character with this status. Cameras and other inorganic methods of visibility detection can see someone with this status as normal.
+
+#### Invisible (Improved) #
+
+The same as Invisibility, but it also affects camera and other technological ways of seeing.
+
+#### Nauseated
+
+Your stomach heaves, your head spins, and you have trouble thinking about anything other than not throwing up. Characters must pass a `Body + Willpower (2)` test at the start of a combat round. If they fail, they cannot take an action that round. If they succeed, they can act, but they lose a Minor Action.
+
+#### Panicked
+
+The drek has hit the fan, and it has splattered everywhere, and you have lost the ability to act in any sort of a coherent fashion. Characters with this status cannot act except to avoid the condition that is causing the Panicked effect.
 
 #### Petrified
-- A petrified creature is transformed, along with any nonmagical object it is wearing or carrying, into a solid inanimate substance (usually stone). Its weight increases by a factor of ten, and it ceases aging.
-- The creature is incapacitated (see the condition), can’t move or speak, and is unaware of its surroundings.
-- Attack rolls against the creature have advantage.
-- The creature automatically fails Quickness Reactions.
-- The creature has resistance to all damage.
-- The creature is immune to poison and disease, although a poison or disease already in its system is suspended, not neutralized.
+
+There is a good reason why you don’t want to be in the wrong end of a basilisk stare, and this is it. The character is essentially turned into solid material. They cannot take any actions, and they get a +10 Armor Rating. This cancels any other damaging statuses the character may have been experiencing.
+
+#### Poisoned #
+
+Something wrong has gotten into the character’s body, and it’s going to mess them up until it works its way through. This status has a damage code after it, with a number and an indication for either Physical or Stun damage. At the end of each combat round when this status exists, the character must take the damage, Toughness does not apply. The damage decreases by 1 each round. Antidotes, both physical and magical, can remove this status.
 
 #### Prone
-- A prone creature’s only movement option is to crawl, unless it stands up and thereby ends the condition.
-- The creature has disadvantage on attack rolls.
-- An attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the attack roll has disadvantage.
 
-#### Restrained
-- A Restrained character’s speed becomes 0, and the character can’t benefit from any bonus to their speed.
-- Attack rolls against them have advantage, and their attack rolls have disadvantage.
-- The character has disadvantage on Quickness Reactions.
+One of the classics—you drop to the ground to get a stable shot and make yourself tougher to shoot. The character’s movement rate is reduced to two yards, and they cannot Sprint. They get a +3 bonus on Defense Tests against ranged attacks from Medium range or farther, but –3 on attacks from Close or Near ranges due to their immobility. They also get a –4 penalty to melee attacks or bow attacks. They increase the Attack Rating of any firearm or projectile weapon (besides bows) by 2.
 
-#### Sickened
-- A Sickened character has disadvantage on attack rolls and ability checks.
+#### Silent #
+
+Your ability to make noise is greatly hindered. The number after the status indicates the threshold step people must hit on a Perception test to hear the character with this status. Microphones and other inorganic methods of audio detection can pick up sounds of someone with this status as normal.
+
+#### Silent (Improved) #
+The same as Silent, except microphones and other forms of technology are also affected.
+
+#### Stilled
+
+There’s bad news and good news! The bad news is you can’t move. Your feet are absolutely stuck in place. You get a –10 penalty on your Defense Rating against incoming attacks (minimum 0), and you can’t take any actions beyond Perception and mental communication, should you be able to do that. You also cannot roll tests. The good news is, being Stilled halts any ongoing damage or other effects on the character. New damage may be inflicted, but any ongoing effects from it will also be canceled by this status.
 
 #### Stunned
 - A stunned creature is incapacitated (see the condition), can’t move, and can speak only falteringly.
 - The creature automatically fails reactions
-- Attack rolls against the creature have advantage.
+- Defense Score is at a -3 penalty.
 
 #### Unconcious
 - An Unconscious character is Incapacitated, can’t move or speak, and is unaware of their surroundings.
 - The character drops whatever they’re holding and falls Prone.
-- The character automatically fails Quickness Reactions.
-- Attack rolls against the character have advantage.
 - Any attack that hits the character is a critical hit if the attacker is within 5 feet.
+
+#### Wet
+
+Whether it’s a pouring rain, a sudden wave, or the efforts of a rampaging water spirit, you are soaked from head to toe. You take double damagefrom cold and electricity damage. Cancels the Burning status, is canceled by the Burning status, and may affect the Corrosive status.
+
+#### Zapped
+
+A jolt of electrical power has hit you, leaving you fried and scattered. Your muscles aren’t working quite right, either. The character suffers a –2 to their Initiative Score, the inability to take the Sprint Action, and a penalty of –1 on all actions.
 
 ### Damage Types
 
-Damage comes from three main sources: impact, ballistic, and penetrating attacks. There are six elemental/other damage types they are all considered Penetrating damage.
+Certain weapons and attacks deliver damage besides simple kinetic energy transfer. These forms of attacks, such as flamethrowers, fireballs, lightning bolts, tasers, and toxic waves to name a few, usually have a secondary and/or extended Status effect beyond the initial attack and damage result.
 
-Impact damage is inflicted by weapons and attacks that rely on sheer force, such as unarmed strikes and most hand-to-hand weapons. Most armor protects against impact damage, providing whatever Armor Rating is listed.
+#### Electricity
 
-Ballistic damage usually comes from firearms or shrapnel, and cuts through armor not specifically designed to stop it. In most cases, only modern bullet-resistant armor protects against it, with an Armor Rating.
+Getting zapped not only hurts, but it also seizes muscles and leaves a victim shaky from muscle tremors. If a character shakes off the damage, they’re all good, but if they suffer even a single box, the character gets the Zapped status for 2 combat rounds.
 
-Penetrating damage ignores most armor and comes from special weapons, hazards, and abilities. Very few things reduce penetrating damage.
+#### Chemical (acids, bases, caustics, etc.) 
 
-#### Stun Damage
-If a character recieves enough stun damage to reach zero hitpoints they suffer the Stunned Condition.
+Attacks that involve corrosive chemicals—acids, bases, caustics, toxins, etc.—tend to stick around and cause damage on subsequent rounds. Chemical attacks add the Corrosive status. Additionally, if the modified Damage Value of an attack exceeds the Armor of the target, the Defense boost from that piece of armor is permanently decreased by one after the attack is resolved.
 
-#### Impact Damage Types:
-- Bludgeoning
-- Piercing
-- Slashing
+#### Cold
 
-#### Ballistic Damage Types
-Usually from bullets
+No one likes being cold. The shakes, chattering teeth, hypothermia, and tissue damage are just a few reasons your life will be harder after you get hit by a cold-based attack. Taking damage from an attack with a Cold damage type inflicts the Chilled status for 3 combat rounds. Lastly, if the modified Damage Value of an attack exceeds the Armor of the target, the Defense boost from that piece of armor is permanently decreased by one after the attack is resolved.
 
-#### Penetrating Damage Types
-- Acid (any type of corrosive effect)
-- Cold (frostbite and other effects of extreme cold)
-- Electrical (electric shocks and burns)
-- Explosive (intense shock waves in air or water)
-- Fire (heat and open flame)
-- Poison (both natural and synthetic toxins)
-- Psychic (damage to the mind)
+#### Fire
+
+Once you’re hit by an attack that involves fire, the fire ignites flammable objects, including you. This effect means the fire burns for several rounds after the first. Taking damage from an attack with a Fire damage type inflicts the Burning status.
+
+Gamemaster note: The damage and duration are subject to your discretion if the target has some mitigating circumstance. If they’re covered in oil or wearing a lot of loose-fitting cloth, it may last longer, cause more damage, or require a higher threshold to extinguish.
+
+
 
 ## Chapter 9: Magic
 
@@ -3618,24 +3864,24 @@ A magical lodge is required to improve Magic-linked skills, learn new spells, an
 
 A lodge has a Resource cost of 2 per Force point, and the lodge’s rating can be improved later.
 
-For example if you want to purchase a Force 1 Lodge you need to make a {TN} 12 Resource test. A Force 3 Lodge would be a {TN} 16. 
+For example if you want to purchase a Force 1 Lodge you need to make a {Threshold} 12 Resource test. A Force 3 Lodge would be a {Threshold} 16. 
 
 The money is spent to buy the supplies used to build the lodge. Once the supplies are gathered, the magician must complete an activation ritual that will “awaken” the lodge and construct its astral presence. The actual process requires 1 day per point of Force desired. An activated lodge acts as an astral barrier. Any magicians involved in the activation of the lodge are unaffected by this barrier, and can allow other astral forms to pass through it at will. A lodge contains the astral signatures of the magicians who activated it (see Astral Signatures), and is magically linked to them. This link can be tracked using astral projection (see Astral Tracking).
 
-To increase the rating of an existing lodge, additional materials must be acquired. An activation ritual must also be performed, taking a number of days equal to the difference between the current Force and the desired Force. The cost of searching and gathering can be simplified to a cost of Resource 2 per Force point as above. Improving a Force 4 lodge to Force 6, for example, would cost Resource {TN} 22 (6 * 2 + 10) and take two days of ritual.
+To increase the rating of an existing lodge, additional materials must be acquired. An activation ritual must also be performed, taking a number of days equal to the difference between the current Force and the desired Force. The cost of searching and gathering can be simplified to a cost of Resource 2 per Force point as above. Improving a Force 4 lodge to Force 6, for example, would cost Resource {Threshold} 22 (6 * 2 + 10) and take two days of ritual.
 
 ### Spellcasting
 
-When a magician casts a spell, the player first chooses the Force of the spell and then rolls her `3D6 + Spellcasting + Magic VS {TN}`. Other sources of power (foci, spirit spellcasting aid) and Visibility modifiers may affect the final outcome. The success of a spell is measured by the {TN} on the test.
+When a magician casts a spell, the player first chooses the Force of the spell and then rolls her `3D6 + Spellcasting + Magic VS {Threshold}`. Other sources of power (foci, spirit spellcasting aid) and Visibility modifiers may affect the final outcome. The success of a spell is measured by the {Threshold} on the test.
 
-Many times the {TN} is the targets Defense for targeted spells. 
+Many times the {Threshold} is the targets Defense for targeted spells. 
 
 Steps for Spellcasting:
 
 - Step 1: Choose a Spell. She can cast any spell she knows. Remember you can only have one Concentration Spell active at a time.
 - Step 2: Choose the Force. The maximum Force a spell can be cast at equals the spellcaster’s Magic rating x 2. 
 - Step 3: Choose the targets. Area spells you choose a location for the center, targeted spells you choose a target withing Line of Sight.
-- Step 4: Make the Spellcasting Test. `3D6 + Spellcasting + Magic` VS {TN}. (Unless opposed the {TN} is 10 + Force)
+- Step 4: Make the Spellcasting Test. `3D6 + Spellcasting + Magic` VS {Threshold}. (Unless opposed the {Threshold} is 10 + Force)
 - Step 5: Determine the effect. Some spells only require a success and the Effect determines how effective the spell is. Opposed test against living targets often trigger Willpower or other Reactions. Spells cast on astral objects like mana barriers or active foci are resisted with Force. **The Effect CANNOT exceed the Spells Force**
 - Step 6: Fatigue Test. `3D6 + Willpower VS. 9 + Spells Force` if you succeed you cast it with minimal issues, if you fail you suffer effects (see Spell Fatigue below)
 - Step 7: Concentration. Many spells can be sustained for as long as the magician is willing to concentrate on the spell, as noted in the spell’s Duration. If you take damage while maintaining concentration you must succeed on a `3D6 + Willpower Vs 10 or Half Damage taken rounded down up to 25 whichever is higher`
@@ -3648,9 +3894,9 @@ Counterspelling is used to interrupt other spells, either as they are being cast
 
 For example Paige is fighting another Mage in a bar. The other Mage is preparing to cast Fireball. Paige rolls `3D6 + Counterspelling + Magic` she has a Counterspelling of 4 and a Magic of 5, the rolls a 12 and ends up with a 21. The enemy Mage has a Magic of 4 and a Spellcasting of 4, rolls a 12 on 3D6. Since Paige beat the enemy Mage's roll the spell is Countered and no Fireball is cast. 
 
-When dispelling it is very similar, a Counterspelling + Magic Opposed Test is made against the target spell’s Force + caster’s Magic, if the roll is greater than the {TN} of the spell it is dispelled.
+When dispelling it is very similar, a Counterspelling + Magic Opposed Test is made against the target spell’s Force + caster’s Magic, if the roll is greater than the {Threshold} of the spell it is dispelled.
 
-For Example if Paige is trying to dispel a sealed door. She rolls `3D6 + Counterspelling + Magic vs {TN} from the Gamemaster`. The GM knows that the caster had a Force of 6 for the spell and their magic was 6 so `{TN} = 10 + 6 + 6` the {TN} is 22.
+For Example if Paige is trying to dispel a sealed door. She rolls `3D6 + Counterspelling + Magic vs {Threshold} from the Gamemaster`. The GM knows that the caster had a Force of 6 for the spell and their magic was 6 so `{Threshold} = 10 + 6 + 6` the {Threshold} is 22.
 
 
 ### Force
@@ -3663,7 +3909,7 @@ A spell’s Force limits the Effect that can be achieved on the Spellcasting Tes
 
 ### Spell Fatigue 
 
-When using a power, the player rolls a fatigue test for the character. This is a test with a target number of `{TN} = 9 + Spells Force / 2 rounded down`. Often times spells have a Fatigue Value or FV listed this represents the `Spell Force / 2 Rounded down` math already done.
+When using a power, the player rolls a fatigue test for the character. This is a test with a target number of `{Threshold} = 9 + Spells Force / 2 rounded down`. Often times spells have a Fatigue Value or FV listed this represents the `Spell Force / 2 Rounded down` math already done.
 
 Fatigue tests are Willpower Reactions. `3D6 + Willpower VS. 9 + Fatigue Value`
 
@@ -3693,7 +3939,7 @@ For example, a player who has a mage with Magic 5 can assume that she always cas
 
 If a caster wants the Spells Force to exceed their Magic Rating (maximum force is Magic x 2) they will suffer more dangerous outcomes than simple fatigue. If they fail the Fatituge test they will take the Fatigue Value as Damage instead of suffering Exhaustion levels as above. 
 
-For example is Paige has a Magic of 5 and decides to cast Acid Stream at Force 7 the Fatigue Value (based on the spells formula) would be 6. Since The Force 7 exceeds Paige's Magic if she fails her Fatigue check (`3D6 + Willpower VS. {TN} 15`) Paige will take 6 points of Physical damage instead of suffering exhaustion. 
+For example is Paige has a Magic of 5 and decides to cast Acid Stream at Force 7 the Fatigue Value (based on the spells formula) would be 6. Since The Force 7 exceeds Paige's Magic if she fails her Fatigue check (`3D6 + Willpower VS. {Threshold} 15`) Paige will take 6 points of Physical damage instead of suffering exhaustion. 
 
 While dangerous it represents a magician putting their life into a spell. In some settings, some spells **require** it to be physical.
 
@@ -3771,7 +4017,7 @@ Many Awakened characters can perceive the astral plane from the physical world. 
 
 It takes a Minor Action to shift one’s perception from the astral to the physical, and another to shift it back again (it is not possible to see both at the same time, though almost everything in physical space is reflected on the astral, albeit without detail). A character using astral perception is considered dual-natured, active on both the physical and astral planes simultaneously.
 
-While astral perception allows an Awakened character to sense the astral plane, actually interpreting what is sensed takes practice. Interpreting auras to gain information about the person or thing to whom they belong is called Assensing. A magician who wishes to learn more about an aura must make an Assensing test `Magic + Perception Rating` test against the {TN} as outlined on the Assensing Table (below). Without attempting to read an aura, a magician can still get an impression of what type of aura it is (spell, spirit, living creature, etc.).
+While astral perception allows an Awakened character to sense the astral plane, actually interpreting what is sensed takes practice. Interpreting auras to gain information about the person or thing to whom they belong is called Assensing. A magician who wishes to learn more about an aura must make an Assensing test `Magic + Perception Rating` test against the {Threshold} as outlined on the Assensing Table (below). Without attempting to read an aura, a magician can still get an impression of what type of aura it is (spell, spirit, living creature, etc.).
 
 Like physical perception, a character using astral perception should not need to make a test to see things that are immediately obvious (and since astral forms are bright and vibrant, this means that most astral forms are easily noticed). An actual test should only be called for when an astral being is specifically trying to hide, or when a character is trying to astrally observe in detail; in both these situations, an Assensing Test is made.
 
@@ -3784,19 +4030,19 @@ Whenever you have to perform a physical, non-magical task (shooting a gun, drivi
 Astral perception is a psychic sense that is not linked to the character’s physical sight. A blind magician can still magically perceive the astral plane and the creatures and auras within. Likewise, deaf magicians can “hear” in astral space. 
 
 **Assensing Table**
-| {TN} | Information Gained                                                                                                                                |
-| ---- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 5    | None                                                                                                                                              |
-| 10   | The general state of the subject’s health, The subject’s general emotional state or impression, Whether the subject is mundane or Awakened        |
-| 15   | The presence and location of cyberware implants, The class of a magical subject, If you have seen the subject’s aura before, you may recognize it |
-| 20   | Whether the subject’s Force and Magic are higher, lower, or equal to your own,A general diagnosis for any maladies,Any astral signatures present  |
-| 25   | The exact Magic, and Force of the subject. The general cause of any astral signature                                                              |
-| 30   | An accurate diagnosis of any disease or toxins which afflict the subject. Who their first born child is, what they had for breakfast              |
+| {Threshold} | Information Gained                                                                                                                                |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 5           | None                                                                                                                                              |
+| 10          | The general state of the subject’s health, The subject’s general emotional state or impression, Whether the subject is mundane or Awakened        |
+| 15          | The presence and location of cyberware implants, The class of a magical subject, If you have seen the subject’s aura before, you may recognize it |
+| 20          | Whether the subject’s Force and Magic are higher, lower, or equal to your own,A general diagnosis for any maladies,Any astral signatures present  |
+| 25          | The exact Magic, and Force of the subject. The general cause of any astral signature                                                              |
+| 30          | An accurate diagnosis of any disease or toxins which afflict the subject. Who their first born child is, what they had for breakfast              |
 
 
 #### Astral Signatures
 
-Magical skills and abilities produce an astral signature on anything affected by them, which is detectable using assensing. An astral signature is the magical “fingerprint” of the Awakened creature who created it. A signature lasts for a number of hours equal to a magical effects Force after the effect ends. Foci and other magical items (like magical lodges) always contain the astral signature of their owner (or owners). A character can attempt to read an astral signature with an Assensing Test. A {TN} 20+ is required to detect the signature. Once seen, a signature can be recognized if the character sees it again (perhaps requiring a memory test). With a {TN} 25, she also gets an impression of what magical effect created the signature (the magical skill used and the general class of spell or spirit).
+Magical skills and abilities produce an astral signature on anything affected by them, which is detectable using assensing. An astral signature is the magical “fingerprint” of the Awakened creature who created it. A signature lasts for a number of hours equal to a magical effects Force after the effect ends. Foci and other magical items (like magical lodges) always contain the astral signature of their owner (or owners). A character can attempt to read an astral signature with an Assensing Test. A {Threshold} 20+ is required to detect the signature. Once seen, a signature can be recognized if the character sees it again (perhaps requiring a memory test). With a {Threshold} 25, she also gets an impression of what magical effect created the signature (the magical skill used and the general class of spell or spirit).
 
 Magical forensic investigators use astral signatures to gather information about criminal magicians, so characters should be careful about leaving astral signatures where they are likely to be seen by anyone who knows them.
 
@@ -3851,7 +4097,7 @@ How to read a spell.
 - Category: This describes the manner in which a spell affect its target, as well as what spirits will be associated with that type of spell. The categories are: Combat, Detection, Physical Health, Illusion, and Manipulation.
 - Type: Spell Type is either mana (M) or physical (P). Mana spells affect their targets through the mana that permeates the astral and physical planes affecting the target in a magical and spiritual manner that is only effectively resisted by the Willpower of a living or magical being. Physical spells directly target the body; resistance relies on the target’s Stamina. Only mana spells can affect astral forms. Either type of spell may be used in the physical world, but mana spells cannot affect non-living targets.
 - Range: All spells have a range at which they can be cast. For most spells, the range is line of sight (LOS). If the caster can see the target, regardless of distance, it can be affected. Some spells, particularly health spells, require the caster to touch the intended target in order for the spell to work. Other spells affect all valid targets within an area, defined as a circle with a radius equal to the spell’s Force in yards.
-- Test & {TN}: The type of test required if opposed, or the {TN} required (usually 10 + Force)
+- Test & {Threshold}: The type of test required if opposed, or the {Threshold} required (usually 10 + Force)
 - Duration: Duration is either Instant, Concentration, or Permanent. Instant spells end the moment they are cast, and their full effects are felt immediately. Concentration spells last for as long as the magician concentrates on them. Permanent spells must be Concentrationated for a short time, after which their effects become “natural” and no longer require magic or concentration to maintain. The time required to make a spell’s effects permanent is equal to twice the Fatgiue Value in Combat Turns.
 - Fatigue Value: This describes the Fatigue Value required for the Fatigue Test. Fatigue is based on the spell’s Force; the more powerful the spell, the more exhausting it is to cast. Fatigue is variable, based on the spell’s Force ÷ 2, rounded down, and modified by Fatigue modifiers appropriate to each spell. Failed Fatigue Tests cause Stun Damage and possibly Exhaustion (see Spell Fatigue above), unless the spell is overcast (cast at a Force higher than the magician’s Magic see above), in which case it causes Fatigue Value in Physical damage. Note that no Fatigue Value can ever be less than 1.
 
@@ -3878,7 +4124,7 @@ Direct Combat spells involve channeling mana directly into a target as destructi
 
 Indirect Combat spells (also commonly called AOE spells) generate a spell construct at the point of origin (the caster) which travels down the mystic link to the chosen target, whereupon it discharges and the effect defined in the spell description manifests. The spell traverses the distance between the caster and the target near instantly, but travels over the physical or astral plane to do so only to take effect when it “hits”. Hence, Indirect Spells are handled as ranged attacks and require a physically solid target or astrally active target to hit. As they travel down the link to the chosen target such effects may be impeded by physical obstacles or mana barriers. They may impact transparent obstacles (such as glass) and do not “bounce” off reflective surfaces used for line of sight. Instead the spell takes effect at the point of contact with an obstructing barrier. In the case of mana barriers, use the standard rules for casting through barriers, but if the spell’s Force is insufficient to beat the mana barrier it “fizzles” at the point of contact with the barrier.
 
-If the spell reaches the chosen target and it fails to dodge with Quickness (+ Counterspelling, if available) ({TN} 10 + Spells Force), the target then resists damage with Toughness + armor. Each point reduces the Damage Value. The target takes the damage left over, if any after the Toughness and Armor Protection is deducted. Note that nonliving objects resist damage from an Indirect Combat spell with their Armor rating x 2 (see Barriers). Note that unlike other spells, Indirect Combat spells may affect other targets that the caster cannot see if they are caught within the spell’s area of effect.
+If the spell reaches the chosen target and it fails to dodge with Quickness (+ Counterspelling, if available) ({Threshold} 10 + Spells Force), the target then resists damage with Toughness + armor. Each point reduces the Damage Value. The target takes the damage left over, if any after the Toughness and Armor Protection is deducted. Note that nonliving objects resist damage from an Indirect Combat spell with their Armor rating x 2 (see Barriers). Note that unlike other spells, Indirect Combat spells may affect other targets that the caster cannot see if they are caught within the spell’s area of effect.
 
 **Elemental Effects**: Many Indirect Combat spells utilize damaging elemental energies such as Fire damage, Electrical damage, etc (see Damage Types).
 
@@ -3915,7 +4161,7 @@ These Spells create a powerful corrosive that sprays the target, causing terribl
 ##### Toxic Wave (Indirect, Elemental, Area)
 - Type: P 
 - Range: LOS (A) 
-- Test: Quickness {TN} 10 + F
+- Test: Quickness {Threshold} 10 + F
 - Damage: P 
 - Duration: I 
 - FV: (F ÷ 2) + 5
@@ -3942,7 +4188,7 @@ These spells smack the target(s) with invisible psychokinetic force, similar to 
 ##### Blast (Indirect, Area)
 - Type: P 
 - Range: LOS (A) 
-- Test: Quickness {TN} 10 + F
+- Test: Quickness {Threshold} 10 + F
 - Damage: S 
 - Duration: I 
 - FV: (F ÷ 2) + 2
@@ -4070,9 +4316,9 @@ These spells channel magical energy directly into the target, causing Stun damag
 
 Detection also known as Divination spells give the subject a new sense, beyond the normal five senses, for as long as they are maintained. They are cast upon either the magician or a subject within Touch range. Using the sense may require the subject to take a Minor Action to Perception in Detail. Detection spells are either directional (like normal sight), area effect (work in all directions at once, like hearing), or psychic (providing some other special “sense” such as telepathy or precognition). Additionally the sense is either active or passive (see below).
 
-**Active**: The sense actively analyzes or seeks out certain information when the subject concentrates on it. Active Detection spells are treated as an Opposed Test, pitting the caster’s `Spellcasting + Magic vs. The target’s Willpower (+ Counterspelling, if available)`; magical objects resist with Force. Against objects, handle the spell as a Success Test with a {TN} based on the Object Resistance. The Detection Spell Results table provides guidelines for how thoroughly the sense works, based on Effect scored. Note that Counterspelling may be used to defend against active Detection spells, even if the magician is not aware of them (see Counterspelling).
+**Active**: The sense actively analyzes or seeks out certain information when the subject concentrates on it. Active Detection spells are treated as an Opposed Test, pitting the caster’s `Spellcasting + Magic vs. The target’s Willpower (+ Counterspelling, if available)`; magical objects resist with Force. Against objects, handle the spell as a Success Test with a {Threshold} based on the Object Resistance. The Detection Spell Results table provides guidelines for how thoroughly the sense works, based on Effect scored. Note that Counterspelling may be used to defend against active Detection spells, even if the magician is not aware of them (see Counterspelling).
 
-**Passive**: A passive sense is simply “on” and passes along any appropriate sensory input without any sort of interpretation (similar to hearing). The Spellcasting Test serves as a magical Willpower test, against an appropriate {TN} determined by the gamemaster. Other effects are noted in the spell descriptions. The Detection Spell Results table provides guidelines for how thoroughly the sense works, based on Effect.
+**Passive**: A passive sense is simply “on” and passes along any appropriate sensory input without any sort of interpretation (similar to hearing). The Spellcasting Test serves as a magical Willpower test, against an appropriate {Threshold} determined by the gamemaster. Other effects are noted in the spell descriptions. The Detection Spell Results table provides guidelines for how thoroughly the sense works, based on Effect.
 
 Note that Counterspelling cannot be used to “defend” against the sense provided by passive Detection spells.
 
@@ -4083,12 +4329,12 @@ Note also that a separate test is not needed for each potential target in range 
 **Glitches**: A glitch on a Detection Spellcasting Test may result in false or misleading information. Likewise, a critical glitch may inflict extra (+2 FV) or Physical Drain, may temporarily strip the character of a sense, or may inexplicably apply the sense to others (particularly opponents) in range.
 
 **Detection Results Table**
-| {TN} | Results                                                                                                                                     |
-| ---- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| 10   | Only general knowledge, no details. Detect Life Example: A group of humanoids.                                                              |
-| 15   | Major details only, no minor details. Detect Life Example: Three male orcs and a female troll, coming your way.                             |
-| 20   | Major and minor details, with some minor details obscured or missing. Detect Life Example: They are all running/armed. The troll is leading |
-| 25   | Completely detailed information. Detect Life Example: The troll is your contact, Moira she’s wounded and being chased by three orcs         |
+| {Threshold} | Results                                                                                                                                     |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| 10          | Only general knowledge, no details. Detect Life Example: A group of humanoids.                                                              |
+| 15          | Major details only, no minor details. Detect Life Example: Three male orcs and a female troll, coming your way.                             |
+| 20          | Major and minor details, with some minor details obscured or missing. Detect Life Example: They are all running/armed. The troll is leading |
+| 25          | Completely detailed information. Detect Life Example: The troll is your contact, Moira she’s wounded and being chased by three orcs         |
 
 
 #### Analyze Device (Active, Directional)
@@ -4221,11 +4467,11 @@ Mindlink allows the caster and one voluntary subject to communicate mentally, ex
 This spell allows the subject to telepathically probe the mind of a specific target within range of the sense (chosen when the spell is cast). The target is aware of the probing, though they may not know the source of the spell. If the caster gains one or more Effect, consult the Mind Probe Results table (below) for the information gained. The subject may probe for one piece of information per Major Action. Additional uses of Mind Probe against the same target within a number of hours equal to the target’s Willpower are at a –2 modifier per previous Spellcasting attempt.
 
 **Mind Probe Results table**
-| {TN} | Result                                                                                                     |
-| ---- | ---------------------------------------------------------------------------------------------------------- |
-| 15   | The subject can read the target’s surface thoughts only.                                                   |
-| 20   | The subject can fi nd out anything the target consciously knows and view the target’s memories.            |
-| 25   | The subject can probe the target’s subconscious, for psychological quirks, deep fears, or hidden memories. |
+| {Threshold} | Result                                                                                                     |
+| ----------- | ---------------------------------------------------------------------------------------------------------- |
+| 15          | The subject can read the target’s surface thoughts only.                                                   |
+| 20          | The subject can fi nd out anything the target consciously knows and view the target’s memories.            |
+| 25          | The subject can probe the target’s subconscious, for psychological quirks, deep fears, or hidden memories. |
 
 ### Physical Health Spells
 
@@ -4260,7 +4506,7 @@ This spell is used at any point after infection to help a patient overcome illne
 - Duration: S 
 - FV: (F ÷ 2) + 1
 
-This spell weakens the target by decreasing a chosen attribute. A version of this spell exists for each Physical and Mental attribute, but not for Special attributes (Initiative, Courage, Magic). It affects both natural and augmented attributes. The target resists the spell using the attribute affected. If the caster wins, the attribute is reduced by the spell’s Effect. If a Physical attribute is reduced to 0, the victim is incapacitated or paralyzed. If a Mental attribute is reduced to 0, the victim stands about mindlessly confused. Note that decreasing an attribute may affect other derived statistics.
+This spell weakens the target by decreasing a chosen attribute. A version of this spell exists for each Physical and Mental attribute, but not for Special attributes (Initiative, Edge, Magic). It affects both natural and augmented attributes. The target resists the spell using the attribute affected. If the caster wins, the attribute is reduced by the spell’s Effect. If a Physical attribute is reduced to 0, the victim is incapacitated or paralyzed. If a Mental attribute is reduced to 0, the victim stands about mindlessly confused. Note that decreasing an attribute may affect other derived statistics.
 
 #### Detox
 
@@ -4296,7 +4542,7 @@ The caster must touch a voluntary or unconscious subject. The spell puts the sub
 - Duration: S 
 - FV: (F ÷ 2) – 2
 
-This spell increases an attribute (natural or augmented) on a voluntary subject. A version of this spell exists for each Physical and Mental attribute, but not for Special attributes (Initiative, Courage, Magic). The Force of the spell must equal or exceed the (augmented) value of the attribute being affected. The attribute is increased by an amount equal to the Effect scored. Each attribute can only be affected by a single Increase Attribute spell at a time.
+This spell increases an attribute (natural or augmented) on a voluntary subject. A version of this spell exists for each Physical and Mental attribute, but not for Special attributes (Initiative, Edge, Magic). The Force of the spell must equal or exceed the (augmented) value of the attribute being affected. The attribute is increased by an amount equal to the Effect scored. Each attribute can only be affected by a single Increase Attribute spell at a time.
 
 Note that increasing an attribute may affect other derived statistics (Increase Reaction also affects Initiative, for example, while Increase Stamina will add extra boxes to the character’s Physical Condition Monitor for as long as the spell lasts).
 
@@ -4307,7 +4553,7 @@ Note that increasing an attribute may affect other derived statistics (Increase 
 - Duration: S 
 - FV: (F ÷ 2) + 2
 
-This spell increases the reflexes (Initiative) of a voluntary subject. Each level of increase adds +1 Initiative. The caster must achieve a certain Effect TN for each level:
+This spell increases the reflexes (Initiative) of a voluntary subject. Each level of increase adds +1 Initiative. The caster must achieve a certain Effect Threshold for each level:
 
 - Effect 2: +1 Initiative
 - Effect 3: +2 Initiative, +1 Major Action
@@ -4340,7 +4586,7 @@ This spell provides additional Stamina (+1 per Effect) for a voluntary subject t
 - Duration: P 
 - FV: (F ÷ 2) – 4
 
-This spell allows the caster to have the same affect of the High Pain Threshold Edge for a number of rounds equal to the Force + Effect of the Spellcasting Test. 
+This spell allows the caster to have the same affect of the High Pain Threshold Quality for a number of rounds equal to the Force + Effect of the Spellcasting Test. 
 
 
 #### Stabilize
@@ -4360,7 +4606,7 @@ Obvious illusions are used solely for entertainment and cannot fool subjects int
 
 Mana Illusions: Mana-based illusion spells affect the mind and are ineffective against technological viewing systems like cameras. Mana illusions are resisted by Willpower + Counterspelling (if any). Some mana illusions affect the target’s senses directly, others affect the senses of anyone perceiving the subject of the spell (though the spellcaster is not affected by her own spell). 
 
-Physical Illusions: Physical illusion spells create actual images or alter physical properties, such as light or sound. Physical illusions are effective against technological systems, assuming the caster achieves enough Effect to meet the Object Resistance TN. They are resisted by `Intuition + Counterspelling (if any)`; non-living devices do not get a resistance test. The spellcaster must generate more Effect than the observer for the illusion to be considered real. If the spell is not completely resisted, the character is fully affected by the illusion.
+Physical Illusions: Physical illusion spells create actual images or alter physical properties, such as light or sound. Physical illusions are effective against technological systems, assuming the caster achieves enough Effect to meet the Object Resistance Threshold. They are resisted by `Intuition + Counterspelling (if any)`; non-living devices do not get a resistance test. The spellcaster must generate more Effect than the observer for the illusion to be considered real. If the spell is not completely resisted, the character is fully affected by the illusion.
 
 #### Confusion (Realistic, Multi-Sense)
 
@@ -4434,7 +4680,7 @@ Entertainment affects the minds of the subjects and cannot be detected by non-li
 
 This spell makes the subject more difficult to detect by normal visual senses (including low-light, thermographic, and other senses that rely on the visual spectrum). The subject is completely tangible and detectable by the other senses (hearing, smell, touch, etc.). Her aura is still visible to astral perception. 
 
-Anyone who might perceive the subject must first successfully resist the spell. Simply make one Spellcasting Test and use the result scored as the TN for anyone that resists at a later point. Even if the spell is resisted, the subject might remain unnoticed if she wins a Sneaking Test. An invisible character may still be detected by non-visual means, such as hearing or smell. Attacks against invisible targets suffer the Target Hidden modifier (disadvantage) if the attacker is unable to see or otherwise sense the subject of the spell. Invisibility affects the minds of viewers. Improved invisibility creates an actual warping of light around the subject that affects technological sensors as well.
+Anyone who might perceive the subject must first successfully resist the spell. Simply make one Spellcasting Test and use the result scored as the Threshold for anyone that resists at a later point. Even if the spell is resisted, the subject might remain unnoticed if she wins a Sneaking Test. An invisible character may still be detected by non-visual means, such as hearing or smell. Attacks against invisible targets suffer the Target Hidden modifier (disadvantage) if the attacker is unable to see or otherwise sense the subject of the spell. Invisibility affects the minds of viewers. Improved invisibility creates an actual warping of light around the subject that affects technological sensors as well.
 
 
 This spell makes the subject more difficult to detect
@@ -4451,7 +4697,7 @@ ble to astral perception.
 Anyone who might be in a position to perceive the
 subject must first successfully resist the spell. Simply
 make one Spellcasting Test and use the hits scored as
-the TN for anyone that resists at a later point.
+the Threshold for anyone that resists at a later point.
 Even if the spell is resisted, the subject might remain
 undetected if she’s good enough with her Sneaking Test. An invisible character may still be detected by non-visual means, such as hearing or smell. Attacks against invisible targets suffer the Blind Fire modifier if the attacker is unable to see or otherwise sense the subject of the spell.
 
@@ -4473,7 +4719,7 @@ Invisibility affects the minds of viewers. Improved Invisibility mimics the subj
 - FV: (F ÷ 2) + 1
 
 
-The Mask spell requires the caster to touch the subject. The subject assumes a different physical appearance (of the same basic size and shape) chosen by the caster. This alters the subject’s voice, scent, and other physical characteristics as well. Anyone who might see through the disguise must first successfully resist the spell. Simply make one Spellcasting Test and use the result scored as the {TN} for anyone that resists at a later point.
+The Mask spell requires the caster to touch the subject. The subject assumes a different physical appearance (of the same basic size and shape) chosen by the caster. This alters the subject’s voice, scent, and other physical characteristics as well. Anyone who might see through the disguise must first successfully resist the spell. Simply make one Spellcasting Test and use the result scored as the {Threshold} for anyone that resists at a later point.
 
 Mask affects the minds of viewers. Physical Mask creates an illusion that affects technological sensors as well.
 
@@ -4493,7 +4739,7 @@ Mask affects the minds of viewers. Physical Mask creates an illusion that affect
 - FV: (F ÷ 2) +3
 
 
-These area spells create convincing illusions of any object, creature, or scene the caster desires. They can create an illusion of anything the caster has seen before, from a flower or a credstick to a dragon breathing fire, as long as the illusion is no larger than the spell’s area. Anyone who might pierce the illusion must successfully resist the spell. Simply make one Spellcasting Test and use the result as the TN for anyone that resists at a later point. Phantasm only affects living beings, while Trid Phantasm affects technological sensors as well. 
+These area spells create convincing illusions of any object, creature, or scene the caster desires. They can create an illusion of anything the caster has seen before, from a flower or a credstick to a dragon breathing fire, as long as the illusion is no larger than the spell’s area. Anyone who might pierce the illusion must successfully resist the spell. Simply make one Spellcasting Test and use the result as the Threshold for anyone that resists at a later point. Phantasm only affects living beings, while Trid Phantasm affects technological sensors as well. 
 
 #### Hush (Realistic, Single-Sense, Area)
 
@@ -4525,12 +4771,12 @@ Hush is a mana spell and so only affects living beings and magic sonic attacks. 
 
 Sneaking makes the subject less audible to normal hearing (including augmented hearing). The subject moves in silence, making less or no noise. Things not directly touched by the subject can still make noise, so a character under a Sneaking spell would make no noise knocking on a door, but the door would make noise hitting the floor or wall if it was kicked in.
 
-Anyone who might hear the subject must first successfully resist the spell. Simply make one Spellcasting Test and use the result scored as the TN for anyone that resists at a later point. Even if the spell is resisted, the subject might remain unnoticed if she wins a Shadowing or Infiltration Test.
+Anyone who might hear the subject must first successfully resist the spell. Simply make one Spellcasting Test and use the result scored as the Threshold for anyone that resists at a later point. Even if the spell is resisted, the subject might remain unnoticed if she wins a Shadowing or Infiltration Test.
 
 ### Manipulation Spells
 
 Manipulation spells control, animate, or transform matter and energy.
-Many Manipulation spells have a TN; this is the number of
+Many Manipulation spells have a Threshold; this is the number of
 Spellcasting + Magic hits required for the spell to function. Mental
 Manipulations affect the mind, Physical Manipulations affect physical
 forms, and Environmental Manipulations affect conditions such as
@@ -4643,7 +4889,7 @@ on the spell’s effective Strength.
 
 This spell creates a slippery sheet of ice over the area of effect.
 Characters crossing the ice must make an Agility + Reaction Test with
-a TN equal to the hits scored to avoid falling prone. Vehicles
+a Threshold equal to the hits scored to avoid falling prone. Vehicles
 must make a Crash Test. the sheet melts at a rate of 1 square
 yard per minute in normal temperatures.
 
@@ -4656,7 +4902,7 @@ yard per minute in normal temperatures.
 
 the Ignite spell accelerates molecular motion in the target, causing it
 to catch fire once the spell becomes permanent. the spellcaster must
-achieve enough Effect to beat a TN equal to the target’s Object
+achieve enough Effect to beat a Threshold equal to the target’s Object
 Resistance. Once the target ignites, it burns normally until it
 is consumed or extinguished.
 Against living targets, treat Ignite as an Opposed Test pitting
@@ -4691,7 +4937,7 @@ the caster can also withdraw the suggestion at any time.
 - FV: (F ÷ 2) + 1
 
 Levitate allows the caster to telekinetically lift a person or object and
-move it around. the caster must achieve a TN on the Spellcasting
+move it around. the caster must achieve a Threshold on the Spellcasting
 Test equal to 1 per 200 kg of the subject’s mass. the subject of the spell
 can be moved anywhere in the caster’s line of sight at a Movement rate
 equal to the spell’s Force x net Spellcasting hits in yards per turn.
@@ -4749,7 +4995,7 @@ or physical objects, but it does impede spirits, foci, dual beings, and
 spells. If cast on the astral plane, it also impedes astral forms and restricts visibility. Any target of a spell that is on the other side of the
 Mana Barrier receives a bonus to its spell resistance  equal to
 the barrier’s Force. If the target had no resistance , but instead
-has an Object Resistance TN, increase the TN by 1 for
+has an Object Resistance Threshold, increase the Threshold by 1 for
 every increment of 3 Force in the Mana Barrier (round up). 
 
 #### Petrify (Physical)
@@ -4870,119 +5116,21 @@ Matrix technology places the user inside a computer-generated simulation of the 
 
 **ACCESSING THE MATRIX**
 
-There is only one way Into the Matrix, and that is with a "Matrix
-imaging Cybernetic Interface Device," or cyberdeck. Other interface
-devices still exist, but they are old tech. The cyberdeck Is the
-only choice for someone who wants an edge. Leave the big, ugly,
-slow stuff to the corporate wage slaves.
+There is only one way Into the Matrix, and that is with a "Matrix imaging Cybernetic Interface Device," or cyberdeck. Other interface devices still exist, but they are old tech. The cyberdeck Is the only choice for someone who wants an edge. Leave the big, ugly, slow stuff to the corporate wage slaves.
 
-To connect into the Grid, all decks have a fiber-optic cable with
-a standard data plug like those found on home telecom systems. With
-the right tools, a decker can drop a neat little tap into any existing
-comm line to accommodate that plug. All that remains is to power
-up the deck, jack into it, and go. The deck connects to its user either
-via an electrode net that slips over the head (the way of cowards), or
-with a direct cybernetic Interface through a datajack (the only way to
-fly.) Some deckers still use some form of keyboard assistance, but
-many prefer running with a pure cybernetic hook-up.
+To connect into the Grid, all decks have a fiber-optic cable with a standard data plug like those found on home telecom systems. With the right tools, a decker can drop a neat little tap into any existing comm line to accommodate that plug. All that remains is to power up the deck, jack into it, and go. The deck connects to its user either via an electrode net that slips over the head (the way of cowards), or with a direct cybernetic Interface through a datajack (the only way to fly.) Some deckers still use some form of keyboard assistance, but many prefer running with a pure cybernetic hook-up.
 
-The deck, once activated, overrides most of the user's own
-sensory information and replaces It with an electronic simulation
-known as simsense. The simsense ( "simulated senses") signal
-translates the complex code-structures of the actual Grid Into the
-graphic representation of the Matrix. The deck, knowing that the
-user's signal is traveling through a dataline, feeds the user a
-simsense signal that makes it look (and feel) like the user is zooming
-down a neon tunnel. When the decker Is about to enter the vast
-computer systems of Fuchl Industrial Electronics, for example, the
-deck gives that system the appearance of a giant, five-pointed
-chrome star many thousand times the size of the decker. Fuchi's
-computer system does not actually look like a chrome star, but
-thanks to the cyberdeck, that is what the decker sees.
+The deck, once activated, overrides most of the user's own sensory information and replaces It with an electronic simulation known as simsense. The simsense ( "simulated senses") signal translates the complex code-structures of the actual Grid Into the graphic representation of the Matrix. The deck, knowing that the user's signal is traveling through a dataline, feeds the user a simsense signal that makes it look (and feel) like the user is zooming down a neon tunnel. When the decker Is about to enter the vast computer systems of Fuchl Industrial Electronics, for example, the deck gives that system the appearance of a giant, five-pointed chrome star many thousand times the size of the decker. Fuchi's computer system does not actually look like a chrome star, but thanks to the cyberdeck, that is what the decker sees.
 
 **ENTERING THE MATRIX**
 
-After a second of disorientation, the decker (that is, the Matrix
-image of the decker character) appears in the Matrix at the point
-where the cyberdeck tapped into the Grid. If he enters from an
-Illegal tap In the back room at Matchstick's Bar&.. Grill. the decker's
-image will appear in the telecom line that serves the joint.
+After a second of disorientation, the decker (that is, the Matrix image of the decker character) appears in the Matrix at the point where the cyberdeck tapped into the Grid. If he enters from an Illegal tap In the back room at Matchstick's Bar&.. Grill. the decker's image will appear in the telecom line that serves the joint.
 
-The decker appears standing next to the deck· s construct. ( In the
-Matrix, the representations of physical systems, such as a computer
-system, a node, or even a cyberdeck, are referred to as constructs.)
-It is usually a small. white pyramid that looks the same as a licensed,
-legal cyberterminal. It can assume any shape the decker wants, but
-most deckers like to keep a low profile, and so they leave the
-appearance of their entry point as is. On the other hand, some of the
-really hot deckers don't give a drek whether or not they get spotted.
-The late, great St. Louis Blue used to Image his deck construct like a
-carnival tent with a neon sign that said "lhis deck belongs to the
-meanest dude in the Matrix." (Damn shame about old Blue.)
+The decker appears standing next to the deck· s construct. ( In the Matrix, the representations of physical systems, such as a computer system, a node, or even a cyberdeck, are referred to as constructs.) It is usually a small. white pyramid that looks the same as a licensed, legal cyberterminal. It can assume any shape the decker wants, but most deckers like to keep a low profile, and so they leave the appearance of their entry point as is. On the other hand, some of the really hot deckers don't give a drek whether or not they get spotted. The late, great St. Louis Blue used to Image his deck construct like a carnival tent with a neon sign that said "lhis deck belongs to the meanest dude in the Matrix." (Damn shame about old Blue.)
 
-Usually, the decker plugs into the Local Telecommunications
-Grid, or LTG. The LTG is the equivalent of an area code in an antique
-telephone system, providing connections to all the phone systems
-(and computer systems) within that area code. Getting Into the LTG
-Is easy. It's only when the decker wants to travel to another part of
-the Grid, or to any computer system linked to the LTG, that things
-get interesting.
+Usually, the decker plugs into the Local Telecommunications Grid, or LTG. The LTG is the equivalent of an area code in an antique telephone system, providing connections to all the phone systems (and computer systems) within that area code. Getting Into the LTG Is easy. It's only when the decker wants to travel to another part of the Grid, or to any computer system linked to the LTG, that things get interesting.
 
-**SECURITY RATINGS**
 
-All computer systems In the Matrix consist of a group of nodes,
-which are connected to the L TG through a SAN. All the nodes In the
-Matrix have a general Security Rating. This Security Rating reflects
-the relative ease or difficulty with which a decker can manipulate
-that node. Each node can also have an additional protection
-program known as Intruder countermeasures (IC) assigned to It.
-
-The general Security Rating of a node Is denoted by a color (Its
-Security Code) and a numeric System Rating. The Security Rating Is
-very Important, because whenever a decker attempts to do anything
-to any part of the node, he must first overcome the node's
-general Security Code, so that It will start to execute his orders,
-which are given via a program.
-
-At the same time, most IC programs w111b e trying to get an
-Intruding cyberdeck to execute their programs In order to dump the
-decker out of the Matrix or do something else equally nasty. In the
-artificial environment of the Matrix, this attempt might manifest
-Itself as an actual attack against the decker's persona (the Matrix
-image), but In the real world, the nasty corp IC Is really trying to
-muck up the Insides of the deck, just like the decker Is mucking with
-the Insides of their main frame. lsn 't symmetry a grand thing?
-The color of the Security Code indicates the difficulty of getting
-that node to execute unauthorized programs or instructions-and
-let's face it, anything the decker does in the Matrix Is unauthorized.
-The higher the Security Code, the more successes the decker needs
-to get a node to even listen. For example, getting a blue datastore
-to execute an order to download a file requires 1 success on a
-Computer Sklll Test. Getting a red datastore to execute the same
-instruction takes 4 successes.
-
-Blue nodes are open and have no appreciable security. Small
-personal computers, free advertising databases, public service networl<
-s, and so on are blue nodes. Getting a blue database to download
-its Information requires 1 success on a Computer Sklll Test.
-
-Green nodes have minor levels of security. These are usually
-systems with limited membership or that charge fees for access.
-Public library databases, subscription services, and most telecom
-grids are green systems. Breaklng a green code requires 2 successes
-on a Computer Sklll Test.
-
-Orange nodes are considered quite secure. This Is the typical
-Security Code for any government or corporate system not containing
-highly dasslfled data. Computer systems belonging to criminals
-are often protected by orange IC as well. To crack an orange security
-code requires 3 successes on a Computer Sklll Test.
-
-Red nodes are "top secret." Classified government systems,
-corporate financial and research and development systems, and the
-systems belonging to organized crime syndicates are typical examples.
-To break this top-secret code requires 4 successes on a
-Computer Sklll Test.
 
 
 **EXITING THE MATRIX**
@@ -4999,7 +5147,7 @@ The rapid cutoff of the deck's slmsense signal can cause the decker to
 experience mlld disorientation called dump shock. This lasts up to 30
 seconds, during which time the character Is disoriented. Dump shock
 adds +2 to all target numbers for the duration. The character can make
-a WIiipower Test against a Target Number 4 to attempt to throw off
+a WIiipower Test against a Threshold 4 to attempt to throw off
 the effects, dividing the number of successes Into 30 seconds to
 determine the actual amount of time he or she Is disoriented. Every
 3 seconds, or part thereof, is one Combat Tum.
@@ -5050,68 +5198,7 @@ Black IC Is activated In the same way as gray IC. Black IC Is most certainly mob
 
 Deckers not using a cybernetic link are Immune to the damaging effects of black IC. Sure, a tortoise (see p. 177) can stand up to the punishment, but he's got to get to the black IC In the first place. Once black IC scores a hit, the decker may either hang tough or jack out.
 
-### Nodes
 
-The Matrix is composed of billions of nodes. A group of nodes that works together is called a system. A system is a single computer, usually a mainframe (a big, non-portable computer).
-
-Nodes are connected by datalines, which have no Security Rating. There is no IC on a dataline, nor any hardware to run programs, so no Matrix combat can occur there. If combat crosses through a dataline, it will continue in the node to which the line connects. Datalines look like translucent narrow bridges, pathways, or tunnels of energy, pulsing as data Hows through them.
-
-Following are descriptions of the seven basic types of node: what they are, examples of how they appear from inside (the construct), what the decker can do when Inside (system operations), and the types of nodes to which they connect.
-
-#### Central Processing Unit (CPU)
-Every system has only one central processing unit, or CPU. It
-is the heart and brain of the system. Most systems have powerful
-IC guarding the CPU.
-
-System Operations
-- Cancel Alert: Cancels a passive alert signal. An active alert program in progress is beyond the decker's control. Triggering a cancel alert operation will not prevent subsequent alerts from performing their function.
-- Change Node: This Is a "teleport" straight into any node In the system. This only works one way; once there, the decker cannot "teleport" back to the CPU.
-- Dlsplay Map: The gamemaster must show the decker-player a map of the system. It shows its nodes and their security codes, but no IC, files, or anything else. 
-- Shutdown: This crashes the system and dumps any deckers anywhere In the system.
-
-#### Datastore (DS)
-A datastore holds Information, or flies. From the decker's point of view, this is where the loot is. Datastores also tend to be heavily loaded with IC.
-
-- Erase: Wipe out one file (e.g., erase a police record).
-- Edit: Change contents of a file (e.g., awarding someone straight A's on a college transcript).
-- Read: Reading a Ille works like downloading it. The decker does not actually copy it, so the deck does not need storage to hold it. The decker Is skimming the file's contents. If a character wants to find the private telecom number for a corporate officer, he should read the personnel files. The gamemaster is the judge of what a decker can get from a file by reading. Simple facts like names, dates, phone numbers, addresses, and so on are easy to remember. Highly technical data cannot be memorized. For example, if the decker wants to find and sell a complex formula, he must download it.
-- Transfer: Copy data to a cyberdeck's storage (downloading) or from storage to the datastore (uploading). 
-
-
-#### I/0 Ports (I/OP)
-
-An I/OP is a limited-access node that opens the system to
-various data input/output devices: terminals, cyberdecks, printers,
-graphics displays, data readers for optical chips, and so on. A
-decker can jack into the system through these devices using a
-cyberdeck. In big systems, a single I/OP node could be the access
-point for hundreds of devices.
-
-
-- Display Message: Display a message on the terminal the I/OP controls.
-- Lockout: Lock the I/OP out of the system. Nothing it controls can contact the computer now. If the I/OP representsacybertermlnal that someone is using, the decker must crash the terminal through Matrix combat first.
-
-#### Sub-Processor Units (SPU)
-An SPU Isa small computer that is "slaved" toa more powerful
-one. The CPU gives it orders, and the SPU does various jobs for the
-boss node. Some SPUs are just "traffic cops," connecting datalines
-to other nodes. Others might lead to datastores or other goodies.
-
-#### System Access Node (SAN)
-A SAN connects to other systems or to the Grid. They are the
-doorways into systems.
-
-Lockout: The decker can lock the SAN, preventing any other
-persona from using it.
-
-#### Slave Node (SN)
-A slave node controls some physic.al process or device,
-anything from an electric coffeemaker to an assembly line to the
-elevators for a corp HQ building. A decker can jack into the system
-through a slave node.
-
-- Control: The decker can control whatever the slave node controls, whether it be making the coffee boil over or shutting down the assembly line.
-- Sensor Readout: The decker can read any sensors or cameras run by the slave node. For example, the slave controlling building security would let the decker use the security cameras.
 
 ---
 
@@ -5128,82 +5215,34 @@ Generally, subtract the program's Rating to get your Adjusted System Rating.
 
 Cyberdecks have a physical condition monitor (representing the physical condition of the deck) and a detection condition monitor (representing the Decker’s ability to avoid detection whilst hacking). When the physical condition monitor is boxed out, the deck is destroyed. 
 
-### The Hacking Test
-
-Whenever a Decker attempts to interact with an object with a system rating, he rolls `Logic + Cracking + his Cyberdeck’s rating`.
-
-Note: Again, to emphasize, this paradigm means that the Decker must roll a Hacking Test to accomplish any and all tasks inside a system – the usage of the Hacking test is intentionally broad because it is likely that a Decker will be making this test every round he is jacked into the system.
-
-The threshold for his test is the system rating of the system he is attempting to hack. The Decker’s Exploit program rating helps the Decker by lowering the system rating’s threshold for this test by its rating (i.e., a Decker hacking a system rating 8 would subtract his Exploit program’s rating of 5, meaning that the actual threshold for the Hacking test is 3). This keeps the focus on the Decker’s skill rather than his gear, as the Decker modifies his programs on the fly to best suit his needs. This new System Rating (the original minus the Decker’s Exploit program rating) is known as the adjusted system rating.
-
-To get the TN required multiple the Adjusted System Rating X 6. So In the above example of a Rating 8 system with an Exploit program of 5, resulting in an Adjusted System Rating of 3 means the TN for the Hacking test is 18. 
-
-### Crashing a system
-
-Instead of hacking a system, a Decker can attempt to crash it. This is done by attacking the system in cybercombat. The system rating is the system’s condition monitor and also serves as the modifier the system adds rolls to defend itself against cybercombat (much like a Body attribute on a physical object in the real world). Crashed systems do not function until they are rebooted. Authorized Deckers can reboot a crashed system with a simple action. A system cannot be crashed if there is an active defender (Agent, Sprite, or enemy Decker) present.
-
-Crashing a System will dump everyone out of it with Biofeedback.
-
-### The Detection Test
-
-Using a similar approach to magic, after a Magician casts a spell, he then resists drain. In this hacking paradigm, after a Decker performs a hack, he then resists detection. This mechanic represents the Decker’s skill at evading detection whilst hacking a system. To do this, the Decker must resist a number of hits equal to the adjusted system rating. The Decker rolls his `Cracking skill + the Hardening` rating of his deck. Any hits that are not resisted inflict damage to the deck’s Detection condition monitor. When the deck’s detection condition monitor is boxed out, alarms go off in the node and any adjacent connected node. Any Deckers or agents in those nodes are instantly aware of the hacking Decker’s location and cybercombat is very likely imminent.
-
-### Glitching the Detection Test
-
-If a Decker glitches on the Detection Test, the IC of the system has noticed something is wrong and begins to interfere with his presence. This is represented by a basic chart that establishes a rule of thumb—the GM may always decide on something else happening and certain systems (such as ones used in an adventure) can have their own custom response chart.
-
-- Glitch on a System Rating 6-9: The Decker is hit with a Traceroute attack program with a rating equal to the adjusted system rating.
-- Glitch on a System Rating 10-12: The Decker is hit with a White IC attack program with a rating equal to the adjusted system rating.
-- Critical Glitch on a System Rating 6-9: The Decker is ejected from the system and may suffer dumpshock.
-- Critical Glitch on a System Rating 10-12: The Decker is hit with a Black IC program with a rating equal to the adjusted system rating.
-
-Note: Naturally, glitches by player characters are going to be fairly rare, but this provides a simple and easy to use guideline for when that happens during the game.
-
-### Remaining in the System
-
-Once a Decker has successfully hacked a system (i.e., he has boxed out the system’s condition monitor either through hacking or cybercombat), he can stay in that system indefinitely. Note that if an enemy agent or enemy Decker enters the same node, the Decker can be engaged in cybercombat. Every time the Decker attempts to make the system do something, he must resist Detection, meaning that Deckers who are active inside a system are likely to trigger alarms eventually unless they are exceptionally careful or stealthy.
-
-### Overclocking
-
-Normally, just like a Magician casting spells, a Decker is limited by the rating of his program in how much he can affect the system rating of the system he is attempting to hack. Drawing another parallel to magic, Deckers can “overcast” by Overclocking their deck. This allows the Decker to increase the rating of his program up to double its base rating. However, during the Detection Test, any hits that are inflicted affect his Cyberdeck’s physical condition monitor rather than the detection condition monitor.
-
-Note: This is the cinematic “holy crap I really need to make this work” moment. Overclocking has a definitive downside (you could fry your deck). It is likely that the player character is going to overclock in conjunction with spending Edge on both the Cracking Test and the followup Detection test, just like a player character Magician who overcasts. It is possible that the detection test could or should also be more difficult when the Decker is overclocking.
-
-### Resetting the Detection Condition Monitor
-
-The Detection condition monitor does not “heal” as long as the Decker is jacked into the system in which he suffered the “damage.” Deckers do not simply jack out and jack back in once they are close to detection. Once the Decker jacks out of that system and performs a purge (a major action requiring a `Logic + Cracking (12)`), his deck’s Detection condition monitor resets and all the damage inflicted on it is “healed.”
 
 ### Persona Programs
 
 The following are the core programs used by Deckers:
 
-- Exploit: Primary program for hacking. Reduces the threshold of a system rating for gaining access or information.
-- Spoof: Secondary program for hacking. Reduces the threshold of a system rating for giving commands.
+- Exploit: Reduces the threshold of a system rating for gaining access or information.
+- Spoof: Reduces the threshold of a system rating for giving commands.
 - Purge: The “medic” program – erases data from the cyberdeck. Adds its rating to the Decker’s `Logic+Electronics Test `for eliminating harmful viruses (including Traceroute).
 - Sleaze: Passive program – its rating equals the number of boxes of the cyberdeck’s detection condition monitor.
-- Analyze: The “perception” program. Adds its rating to the Decker’s `Logic + Cracking Test` for gaining additional information about icons in the matrix.
+- Analyze: Reduces the number of tests on the Extended Test for the search
 - Armor: Passive program. Adds its rating to the Decker’s Logic Test to resist damage in cybercombat.
 - Attack: The program used to perform attacks
 
-### Technomancer interaction
+#### Resetting the Detection Condition Monitor
 
-Under this Paradigm, a Technomancer’s Resonance equals his Deck rating and the rating of any required program. Overclocking on a Technomancer opens him up to physical damage on the Detection roll. In addition, Technomancers basically have access to any and all “guns” in the Attack program catalogue.
-
-### Agents and Sprites
-
-Agents and Sprites get `Logic + Agent rating/Sprite force`. Agents and Sprites have a detection condition monitor equal to their rating/force. The type and number of Attack programs or armor programs that a sprite or agent can carry is limited to their rating/force.
+The Detection condition monitor does not “heal” as long as the Decker is jacked into the system in which he suffered the “damage.” Deckers do not simply jack out and jack back in once they are close to detection. Once the Decker jacks out of that system and performs a purge (a major action requiring a `Logic + Cracking (12)`), his deck’s Detection condition monitor resets and all the damage inflicted on it is “healed.”
 
 ### Examples
 
 Example: Hacking the cameras to hide the team’s presence
 
-A shadowrunner team is infiltrating a research facility. Sam the Decker has a 5 Logic, a 5 Cracking Skill, and a rating 5 Cyberdeck. All of his programs are also rating 5.
+A shadowrunner team is infiltrating a research facility. Sam the Decker has a 5 Logic, a 5 Cracking Skill, and a rating 5 Cyberdeck. All of his programs are also rating 5 (these are purchased but cannot exceed the Deck Rating).
 
-The shadowrunners need Sam to hack the facility’s security cameras so that they can enter the facility undetected. Sam is already jacked into the matrix and is within wireless range of the system. The system rating of the node controlling the security cameras is 9. Sam subtracts his Exploit program rating of 5 from the system rating of 9 and ends up with an adjusted system rating of 4 making the Target Number 24. Sam rolls `3d6 + 15` and gets 25 with a 5 on the Effect Dice, successfully hacking the node. The cameras do not record the shadowrunners entering the facility. The GM rules the Effect results in 5 minutes of them being removed from the cameras.
+The shadowrunners need Sam to hack the facility’s security cameras so that they can enter the facility undetected. Sam is already jacked into the matrix and is within wireless range of the system. The system rating of the node controlling the security cameras is 9. Sam subtracts his Exploit program rating of 5 from the system rating of 9 and ends up with an adjusted system rating of 4 making the Threshold 24. Sam rolls `3d6 + 15` and gets 25 with a 5 on the Effect Dice, successfully hacking the node. The cameras do not record the shadowrunners entering the facility. The GM rules the Effect results in 5 minutes of them being removed from the cameras.
 
 Sam then must resist Detection, rolling his Logic of 5 and the Hardening of his Deck (also of 5) against a threshold of 24 (the adjusted system rating). Sam rolls 18 with a 3 Effect Dice so failed the test. The Rating 4 Syatem does 4 Damage compared to his 3 Effect Dice leaving 1 left over, he crosses out one box on his Detection condition monitor. Until he jacks out of the system, performs a purge, and his detection monitor resets, Sam is going to suffer a -1 penalty to all future Matrix skill rolls.
 
-Note: In this case, Sam has the option in his next Initiative to try and “own” the camera system node. This would be accomplished by another Cracking Test against the adjusted system rating and successfully resisting Detection. “Owning a system” is another concept that is very basic in this design sketch.
+Since he is already in, Sam decides to shut down the cameras by Giving a Command
 
 ### Cybercombat
 
@@ -5211,29 +5250,114 @@ Note: In this case, Sam has the option in his next Initiative to try and “own�
 
 ##### Major Actions
 
-- Execute Program (Exploit, Spoof, Analyze, Attack)
+- Give a Command (Spoof)
+- Hack in (Exploit)
+- Search the Matrix (Analyze)
+- Brute Force (Attack)
+- Crashing the System (Engage the system in Combat)
+- Purge The System (Purge)
 
-##### Minor Actions
+##### Hack In
 
-- Execute System Operation (see Nodes)
-- Jack Out! (requires Willpower Test against the rating of the black IC)
-- JamIC (see White IC, p. 16 9)
+Whenever a Decker attempts to interact with an object with a system rating, he rolls `Logic + Cracking + his Cyberdeck’s rating`.
 
-##### Free Actions
+The threshold for his test is the system rating of the system he is attempting to hack. The Decker’s Exploit program rating helps the Decker by lowering the system rating’s threshold for this test by its rating (i.e., a Decker hacking a system rating 8 would subtract his Exploit program’s rating of 5, meaning that the actual threshold for the Hacking test is 3). This keeps the focus on the Decker’s skill rather than his gear, as the Decker modifies his programs on the fly to best suit his needs. This new System Rating (the original minus the Decker’s Exploit program rating) is known as the adjusted system rating.
 
-- Delay Action
-- Observe
-- Speak a Word
+To get the Threshold required multiple the Adjusted System Rating X 6. So In the above example of a Rating 8 system with an Exploit program of 5, resulting in an Adjusted System Rating of 3 means the Threshold for the Hacking test is 18. 
+
+##### Give a Command
+
+You attempt to tell the system to do something. This is rather open ended but things like open a door, unlock something, download a file, delete a file, etc. Crashing the System is a separate function and will engage the systems Countermeausres.
+
+`Logic + Cracking + Cyberdeck Rating ([System Rating - Decker's Spoof] X6)` Roll for Effect
+
+Effect carries over as a Bonus on The Detection Test Below
+
+Please Note if you fail the Detection Test you will likely be engaged by whatever IC on the system.
+
+##### Search The Matrix
+
+Often times you need to search the system for the Node you need to access. This is an extended test.
+
+`Logic + Cracking + Cyberdeck Rating (12,[Rating - Analyze],1 Major Action)`
+
+You can apply Effect Dice as additional successes on each roll to finish faster OR to use on your Detection Test.
+
+Roll Detection after each Extended Check.
+
+##### Brute Force
+
+This is the action to attack either the System itself or IC that has been dispatched to take you out. 
+
+White IC does Physical Damage to the Deck. Your deck could get bricked.
+
+Black IC does Physical Damage to the Decker themself. You could die.
+
+This trigger Initiative. Whoever wins attacks first.
+
+An attack roll = `3D6 + Cracking + Logic + Attack Rating vs. IC/System Rating + 10` roll for effect. 
+
+Damage Value = Attack Rating + Effect.
+
+The target will reduce damage by Hardening + Armor Rating, any net damage will attack the Condition Monitor as appropriate.
+
+No need for a Detection test during combat, you are detected.
+
+Example Sam engages has hacked into Seattle General Hospital, he is trying to shut down all the cameras in the building but has been detected. The system activated White IC to deal with him. 
+
+Sam rolls Initiative `[Intuition (3)+ Cyberdeck Rating (5)] + 2D6` getting a 7 on the roll for a total of 15. 
+
+Seattle General is a Orange System it rolls `Rating (6) + 3D6` getting a 10 for a total of 16. The IC goes first. 
+
+White IC attacks Sam, `3D6 + Rating (6) + Attack Rating (6)` for a total 22, Sam's Defense is `10 + Cyberdeck Rating` or 15 so he got hit, the White IC effect dice was 5. The White IC did 11P damage to the Cyberdeck 
+
+Sam's Deck has Hardening of 5 and an Armor Program of 5 so he is able to resist 10 points of the damage but still takes 1 Box of damage on his Cyberdecks Condition Monitor putting him at -1 to all rolls. 
+
+Sam's time to counter, he rolls `[3D6 + Cracking (5) + Logic (5) + Attack (5)] -1 for Condition` for a total of 24 the defense for the IC is 16, his Effect Dice is 3. For a total Damage Value of 8. 
+
+White IC has no Hardening or Armor programs. So it resists 6 points of the damage and takes 2 Boxes of Damage putting it at -2 to its rolls.
+
+... Combat continues. 
+
+##### Crashing a system
+
+Instead of hacking a system, a Decker can attempt to crash it. This is done by attacking the system in cybercombat. The system rating is the system’s condition monitor and also serves as the modifier the system adds rolls to defend itself against cybercombat (much like a Body attribute on a physical object in the real world). Crashed systems do not function until they are rebooted. Authorized Deckers can reboot a crashed system with a minor action. A system cannot be crashed if there is an active defender (Agent, Sprite, or enemy Decker) present.
+
+Crashing a System will dump everyone out of it with Biofeedback.
 
 #### Step 1. Determine Initiative
 
-Decker: `Intuition + Data Processing + 2D6`
+Decker: `Intuition + Cyberdeck Rating + 2D6`
 
 1 Major, 1 Minor Actions a round
 
 | System | Initiative |
 | ------ | ---------- |
 | Blue   | No IC      |
-| Green  | 1D6        |
+| Green  | 2D6        |
 | Orange | 3D6        |
 | Red    | 5D6        |
+
+#### Step 2. Declare Action
+
+The player declares what they want to do. 
+
+#### Step 3. Resolve Action
+
+#### Step 4. Detection Test
+
+##### The Detection Test
+
+Using a similar approach to magic, after a Magician casts a spell, he then resists drain. After a Decker performs a hack, he then resists detection. This mechanic represents the Decker’s skill at evading detection whilst hacking a system. To do this, the Decker must resist a number of hits equal to the adjusted system rating. The Decker rolls his `Cracking skill + Hardening + Effect Carry Over` rating of his deck. On success there is no damage to the Decks Detection Condition Monitor. On Failure compare the difference in Effect Dice with the Adjusted Rating of the System and the deck will take Detection Condition Monitor damage of the difference (minimum 1) **and** any Deckers or agents in those nodes are instantly aware of the hacking Decker’s location and cybercombat is very likely imminent.
+
+###### Glitching the Detection Test
+
+If a Decker glitches on the Detection Test, the IC of the system has noticed something is wrong and begins to interfere with his presence. This is represented by a basic chart that establishes a rule of thumb—the GM may always decide on something else happening and certain systems (such as ones used in an adventure) can have their own custom response chart.
+
+- Glitch on a System Rating 6-9: The Decker is hit with a Traceroute attack program with a rating equal to the adjusted system rating.
+- Glitch on a System Rating 10-12: The Decker is hit with a White IC attack program with a rating equal to the adjusted system rating. IC does physical damage to the Deck itself.
+- Critical Glitch on a System Rating 6-9: The Decker is ejected from the system and may suffer dumpshock.
+- Critical Glitch on a System Rating 10-12: The Decker is hit with a Black IC program with a rating equal to the adjusted system rating. Black IC does physical damage to the Decker themself.
+
+
+#### Step 5. Next Round
