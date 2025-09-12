@@ -47,8 +47,10 @@ V.07
 ### Changelog
 
 #### V0.7
-- Reworked skills to line up with Shadowrun
+- Reworked skills to line up with Shadowrun Sixth
 - Lowered skill cap to fit new Threshold
+- Bonus Effect
+- Threshold Steps
 - TODO: Qualities - Fill in, and rename to Feature OR Qualities
 - TODO: Finish Equipment
 - TODO: Finish Combat
@@ -386,7 +388,7 @@ Final Touches and Derived Stats.
 
 #### Defense
 
-Defense = 10 + (REACTION + INTUITION)
+Defense = 10 + Reaction + Intuition
 
 #### Attack Rating
 
@@ -430,7 +432,7 @@ If you have a Defense Rating of 11 that would be a Toughness of 3.
 
 #### Movement
 
-Base movement for any character is 10 + Agility in Yards.
+Base movement for any character is 10 Yards.
 
 #### Initiative
 
@@ -572,13 +574,8 @@ If you are assining a test and the only thing that matters is their Effect on th
 
 > Did I really make Sixfinity Dice Agnostic ... more or less yes as long as you know what you're doing. You could use a D20 (swingy), 3D6, 2d10, 2d12, 4d6, 5d4 even 2D6 or 1d12 if you made sure the curve made sense with the Skill Ratings. 
 
-
-
-
 ### Rolling 18
-When you roll a nautral 18, you get another D6 to roll and add to your total it also adds to your Total and Effect Dice. This is the same as a Push the Limit Edge spend. 
-
-Optionally you can recharge a **Spent** Edge.
+When you roll a nautral 18, you get another D6 to roll and add the number on the dice as Bonus Effect.
 
 #### Glitching
 
@@ -590,21 +587,22 @@ What if you roll a natural 3? In that case you have a Critical Glitch. Critical 
 
 
 ### Effect
-This is where the game really takes off. As long as you succeeded at a Test you are considered to have an Effect of 1. In some cases (like combat) you need to know how well you did. In cases like this the Effect Dice result will tell you what your Effect is.
+Effect is the most important part of the Sixfinity Engine. Effect determines how well things went or not. It is used throughout the rules and makes a lot of mechanics function. Additionally, it makes the Gamemasters life a lot easier as they can evaluate Effect in many cases.
 
 #### Net Effect
 
-Net Effect is calculated after a roll. 
+Net Effect is calculated after a roll. It will always be the difference in two effect totals.
 
-In a Success Test the GM rolls and Effect Dice. You compare your Effect Dice (total if you got more than one) with the Effect Dice of the GM. Subtract the lesser from the greater and the net result is the Net Effect. Minimum 1.
+If it is needed in a Success Test the GM rolls and Effect Dice. You compare your Effect Dice (total if you got more than one) with the Effect Dice of the GM. Subtract the lesser from the greater and the net result is the Net Effect. Minimum 1.
 
 In an opposed test you compare the Effect Dice of both sides. Subtract the lesser dice number from the greater dice(s) number and the net result is the Net Effect which goes to whoever won. Minimum 1.
 
 ### Advantage and Disadvantage
+If used in text or a GM can use as shorthand.
 
-Advantage: Roll 3d6 and keep the higher of the two rolls.
+Advantage: Get a Bonus Effect
 
-Disadvantage: Roll 3d6 keep the lower of the two rolls.
+Disadvantage: You cannot gain Bonus Effect.
 
 
 ### Success Tests
@@ -618,7 +616,7 @@ This is a very important thing to understand - these are written as THRESHOLD ST
 
 In an Opposed test, another character, object, device, or entity is actively (or passively) resisting your efforts, so you must exceed their effort to succeed. In an Opposed test, two parties roll their dice and compare the number to the totals. The one with the highest total wins. Ties typically go to the aggressor, though this may change if net effect are required to make a given effect. The difference between the higher number of effect and the lower number of effect are the net effect in these tests, and they are often applied to the action in some way— for example, in combat, net effect from the attacker are added to the Damage Value of their attack.
 
-Written as `Attribute + Skill vs. Opposed Attribute + Skill` These are rolled for higher roll. Then calculate Net Effect winner Effect Dice - Loser Effect Dice minimum 1 Net Effect.
+Written as `Attribute + Skill vs. Opposed Attribute + Skill` These are rolled for higher roll. Then calculate Net Effect which will go to the winner.
 
 ### Extended Tests
 
@@ -666,13 +664,11 @@ When you take more damage in a single attack than your Physical Limit x 3 you mu
 
 Edge is a character’s luck, the favor of the gods, that unexplainable factor that allows her to beat the odds. A character’s Edge attribute represents the number of Edge points a character has to spend during gameplay. Edge points can be used for a wide range of benfits, each noted below. Edge points that are spent are temporarily unavailable (see Regaining Edge, below)—luck will only take you so far. Note that a character’s Edge attribute never actually changes, even when Edge points are spent, unless the character permanently burns Edge (see Burning Edge)
 
-Humans can have 7 **maximum** courage, other metatype the **maximum** is 6 without the Lucky Quality. 
+Humans can have 7 **maximum** edge (8 with lucky), other metatype the **maximum** is 6 without the Lucky Quality. 
 
 Spent Edge refreshes every game session. Or whenever the GM says it does.
 
 On a long rest you get 1 Edge back.
-
-**Optional Rule:** You can refresh a point of Edge on a Critical Success as long as no Edge was spent on that test.
 
 Burnt Edge is gone. You have to buy more with Experience.
 
@@ -682,8 +678,7 @@ A character can only spend Edge points on her own actions; she cannot spend it o
 
 Spending Edge can do the following, players choice:
 
-- Push the Limit: Roll an additional Effect Dice and add it to your Total and Effect Dice
-- Blitz!: Spend 1 Edge and get your Edge Rating in Bonus Edge to spend on this test.
+- Blitz!: Spend 1 Edge and get your Edge Rating in Bonus Effect to spend on this test.
 - Seize the Initiative: Jump to the top of the initiative order. A character cannot both Blitz and Seize the Initiative in the same combat round.
 - Dead Man’s Trigger: When reduced to 0 Physical Health or about to die, you immediately regain half your Physical Health. This can only be used once per Breather or Long Rest (5 minutes / 6 hours).
 - Close Call: Either negate the effects of one glitch or turn a critical glitch into a glitch.
@@ -692,21 +687,22 @@ Spending Edge can do the following, players choice:
 
 In certain drastic situations, even spending Edge may not be enough. A character can choose to burn a point of Edge permanently reducing his Edge attribute by 1 for one of the following effects:
 
-- Crits and Things: Burn 1 Edge to get +10 Bonus Edge to spend immediately. This breaks the rule of no more than 7 Bonus Edge.
+- Crits and Things: Burn 1 Edge to get +10 Bonus Effect.
 - Not Dead Yet: When facing death you somehow survive. You still take all the negative effects of what happened such as lost limbs, you are just not dead. You are not dying either, you are stable.
 
-#### Bonus Edge
+#### Bonus Effect
 
-This comes up in some situations. Bonus edge can be spent in one of two ways. It can buy +1 per point on your dice total, or it can buy 1 Effect for every 2.
+This comes up in some situations. Bonus effect is just like regular Effect. It is the same as having another D6 with the number of Bonus Effect on the dice, it adds to your total **and** to your overall effect. Bonus Effect are applied to the Net Effect after it is calculated.
 
-For example in Combat:
+It will always come up in combat as you are looking to see who has the tactical advanatage in the fight, that person will get a Bonus Effect to spend for each tactical advanatage they have. For example if your Defense Rating is higher than their Attack Rating. Whoever has the advantage will get a Bonus Effect for every 4 points of Advantage they have.
 
-Oda is attacking an Eye-Fiver. Here we compare the Attack Rating of the Ares Predator VI (8) to the Defense Rating of the Eye-Fiver (4; Body 3, + 1 for leathers) and see that Oda has a difference of **4 or more greater**, giving Oda one bonus Edge. 
+Oda is attacking an Eye-Fiver. Here we compare the Attack Rating of the Ares Predator VI (8) to the Defense Rating of the Eye-Fiver (4; Body 3, + 1 for leathers) and see that Oda has a difference of **4 or more greater**, giving Oda one Bonus Effect. 
 
-Next, we check out the situation. It’s nighttime in a
-dimly lit alley because Oda wanted to get them all bunched together and take advantage of the low-light vision on his cybereyes, which the gangers don’t have. This gives a second bonus Edge to Oda. 
+Next, we check out the situation. It’s nighttime in a dimly lit alley because Oda wanted to get them all bunched together and take advantage of the low-light vision on his cybereyes, which the gangers don’t have. This gives a second Bonus Effect to Oda. 
 
-Finally, we look at any other elements that might help either side. None are present, so the process moves on and Oda has 2 Bonus Edge he can spend to get 1 Effect or +2 on his roll total.
+Finally, we look at any other elements that might help either side. None are present, so the process moves on and Oda has 2 Bonus Effect.
+
+> This is how we handle Advanatage in Sixfinity by giving out Bonus Effect. Instead of re-rolls and extra dice.  There is not a concept of "Disadvantage" because the other side having Bonus Effect and you not getting any is a Disadvantage however some things can prevent you from getting Bonus Effect eliminating things like Burning edge for Crits and Things.
 
 
 
@@ -794,7 +790,6 @@ Injection toxins must get into the target’s bloodstream, whether through a dar
 
 
 This determines how quickly the victim suffers the toxin’s Effect. These effects are always applied at the end of a Combat Turn.
-
 
 
 
@@ -2236,7 +2231,7 @@ Forgery is used to produce counterfeit items or alter existing items to a specif
 
 **USING FORGERY**
 
-Talented forgers can simulate anything from a signature to a credstick to the Mona Lisa. The skill is most often used for doctoring hardcopy IDs, signatures, and official paperwork, but it can be used to fabricate anything you can imagine and your skill level can handle. Creating a forgery is a `Forgery + Logic Test`. The limit for this test is either Physical (for forged art, signatures,and other physical objects) or Mental (for credsticks, documents, and other items that are more data than substance). Your dice pool is adjusted by appropriate modifiers (see the Build/Repair Table for suggestions), and given a time requirement by the gamemaster (an interval from the Extended Test Difficulties table is fine).
+Talented forgers can simulate anything from a signature to a credstick to the Mona Lisa. The skill is most often used for doctoring hardcopy IDs, signatures, and official paperwork, but it can be used to fabricate anything you can imagine and your skill level can handle. Creating a forgery is a `Forgery + Logic Test`. The limit for this test is either Physical (for forged art, signatures,and other physical objects) or Mental (for credsticks, documents, and other items that are more data than substance). Your modifier is adjusted by appropriate modifiers (see the Build/Repair Table for suggestions), and given a time requirement by the gamemaster (an interval from the Extended Test Difficulties table is fine).
 
 The quality of the forgery is based on the number of hits scored on the test. This number acts as the threshold for attempts to spot the fake. Anyone examining a forgery makes an Opposed Test using a `Perception + Intuition [Mental]` Test or `Forgery + Intuition [Mental]` Test. If they score as many or more hits than the quality of the forgery, the item is exposed as a fake.
 
@@ -2703,6 +2698,7 @@ Wireless bonus: Successful hits leave wireless weapons in targets that can be us
 
 
 
+
 ### Firearms
 
 Leadslingers abound on the streets of 2080 (the name remains, even though lead rounds aren’t the norm anymore). For years, the streets managed to snag and use caseless rounds in order to stay clear of the law tracking them, but recent events have led arms manufacturers (a.k.a. the megacorps) to desire a tighter leash on their shadow assets, and cased ammo is becoming the norm once again, with each casing containing a microRFID to identify the weapon and location where it was fired. The glory of watching spent shells spinning through the air is back, and so are the back-alley reloads and scrubbed slugs to keep those of us in the shadows off the radar. Weapons are chambered for cased or caseless, with caseless ammo being marginally harder to track but tougher to find on the streets. 
@@ -2782,243 +2778,387 @@ Wireless bonus: All modern firearms are considered to be wireless-equipped and c
 
 #### Firearm Descriptions
 
-Cold steel that spits hot lead. Slug-throwing firearms are by far the most common weapons on the streets of 2075. Each weapon is chambered to take either old-fashioned cased ammunition or caseless ammo. Most firearms load caseless ammunition, with fewer and fewer models coming in variants able to handle cased ammunition. Sure, releasing a storm of shell casings when you hold down the trigger looks awesome, but it’s impractical for the modern shadowrunner and their natural enemy, law enforcement and corporate security.
-
-Firearms come with wireless capability and a digital ammunition counter. Ammunition is sold separately. All firearms have the following wireless bonuses in addition to any wireless bonuses on each model: 
-
-**Wireless**: The weapon displays an ARO that tells you ammo levels and ammo type loaded. If you have a DNI, you get two additional benefits. First, ejecting a clip (for weapons that have them) is a Free Action rather than a Minor Action. Second, changing fire modes (on models that have more than one) is a Free Action rather than a Minor Action.
-
 **TASERS**
 
-Tasers are legal to carry and a great choice for non-lethally incapacitating someone. Tasers, like other electrical weapons, have a flat Armor Penetration value of –5 and deal electricity damage. Use the Pistols skill to fire a taser. Tasers can take only top-mounted accessories.
+Tasers accept top-mounted accessories.
 
-Defiance EX Shocker: This heavy-duty taser fires up to 4 darts that trail wires up to 20 yards long. The wired connection to the battery allows for a more powerful shock. Most modern tasers use wireless darts, so the Defiance EX Shocker is an exception. It also features contacts that allow it to be used as a stun weapon in melee (Accuracy 3, DV 8S(e), Reach 0). Wireless: A successful hit informs you of the status of the target’s basic health (and Condition Monitors).
+**Defiance Super Shock**
 
-Yamaha Pulsar: The darts of this taser contain wireless capacitors, meaning that the Pulsar eliminates the need for cumbersome wires. As a trade-off, it is slightly less powerful than the EX Shocker, although it can fire faster. It lacks the EX Shocker’s melee contacts. Wireless: A successful hit informs you of the status of the target’s basic health (and Condition Monitors).
+This heavy-duty taser can fire up to four darts with twenty-meter-long wires. The wired connection to the battery allows for a more powerful shock but limits range. It can also be used point pointblank in Close Combat for the same damage. After a successful hit, if the target does not knock the lines free, the attacker may use a Major Action to inflict the base damage of the weapon again by opening another set of capacitors. 
+
+Wireless bonus: A successful hit informs you of the status of the target’s basic health in terms of Condition Monitors (general statements, rather than exact number of boxes left).
+
+**Yamaha Pulsar I/II**
+
+The Pulsar uses wireless capacitors, meaning that the Pulsar has increased range compared to other wired tasers. As a trade-off, it packs a little less punch than wired models, but it fires faster and delivers repeated hits. The Pulsar I has no melee contacts, but the Pulsar II includes a pair of contacts on the base of the grip to use in melee (treat these as a Close Combat attack as a Club).
+
+Wireless bonus: A successful hit informs you of the status of the target’s basic health and Condition Monitors (general statements, rather than exact number of boxes left).
 
 **HOLD-OUTS**
 
+Hold-outs can’t take accessories or modifications.
 
-Hold-out pistols are very concealable and are perfect for sneaking into a meet or wearing as a back-up piece. They don’t have much else going for them, being both weak and inaccurate. Use the Pistols skill when firing a hold-out pistol. Hold-outs can’t take accessories. 
+**Fichetti Tiffani Needler**
 
-Fichetti Tiffani Needler: Designed to appeal to social climbers and debutantes, the Tiffani Needler is available in a wide variety of colors and styles. It also has a special color-changing coating that can be manipulated via wireless signal. This is useful to make sure your gun matches with your shoes or your handbag. The Needler can only fire flechette rounds (already factored into its damage code). Wireless: You can change the color of the Tiffani Needler with a Minor Action. 
+Pretty and deadly are not mutually exclusive. Fichetti gunsmithing combined with Tiffani style makes the Needler the single most popular designer handgun in the world. The base model is matte grey, but its special color-changing coating can be manipulated via wireless signal with an infinite number of patterns and designs. The coating allows your gun to match your shoes, your handbag, or the camo pattern of your fatigues. The Needler only chambers caseless flechette rounds, which are already factored into its damage code.
 
-Streetline Special: Popular among society’s dregs, the Streetline Special is a small, lightweight weapon made of composite materials. Magnetic Anomaly Detectors suffer a –2 modifier to detect it.
+Wireless bonus: You can change the color of the Fichetti Tiffani Needler with a Minor Action. Applying a camouflage pattern to the Needler increases the concealability threshold by 1 for visual Perception tests.
 
-Walther Palm Pistol: This is a classic double-barreled derringer in an over-under barrel combination. It packs a punch for its size, but on the downside it has one of the most diminutive “magazine” capacities on the market— just one bullet per barrel. Both barrels can be fired at once as a short burst.
+**Streetline Special**
+
+Designed for cheap 3D nanoprinting, the Streetline Special is made of composite materials, making it harder to detect with MAD scanners (increasing the threshold to detect it by 1).
+
+**Walther Palm Pistol**
+
+Walther keeps the double-barreled derringer with the classic over-under design alive in the latter half of the twenty-first century with the Palm Pistol. Capable of Burst Fire by firing from both barrels at once, the limited ammo supply only offers a six-shot capacity—so tread carefully how often you go with a burst.
 
 **LIGHT PISTOLS**
 
+Light pistols can take top- and barrel-mounted accessories.
 
-Light pistols are highly accurate and fairly concealable, occupying a comfortable middle ground between Hold-outs and Heavy Pistols. They’re extremely common on the streets. Use the Pistols skill when firing a light pistol. Light pistols can take top- and barrel- mounted accessories.
+**Ares Light Fire Series**
 
-Ares Light Fire 75: Designed based on one of the most common pistols on the market, the Light Fire is a weapon for special operators, not commonly available through legal channels. A special barrel-mounted silencer developed exclusively for the Light Fire comes attached, applying an additional –1 modifier to the modifier usually provided by silencers. In addition to its integral silencer, the Ares Light Fire 75 includes a smartgun system.
+The Light Fire Series is designed for special operators. The 70 is a street standard, while the 75 is not commonly available through regular dealers and standard legal channels. But what runner uses those? The integration of a barrel-mounted silencer in both designs makes the Light Fire series nearly trid-flick silent.
 
-Ares Light Fire 70: The Ares Light Fire 70 is one of the most common pistols on the market. A special barrel-mounted silencer developed exclusively for the Light Fire 70 is available that gives you an additional –1 modifier to the usual –4 (for a total of –5); this silencer costs 750¥.
+The 75 comes preloaded with smartlink hardware and software, and both come with a laser sight. The silencer for these models increases the threshold for audio Perception tests by 3 for the Light Fire Series when equipped and costs 750¥.
 
-Beretta 201T: This light sidearm is used by many security professionals. It is capable of burst fire. Since the 201T is classified as a light pistol without further limitations, it is quite popular with security agencies in countries where heavy pistols and machine pistols are hard to come by legally. Semi-automatic bursts using the Beretta 201T require a Minor Action. The weapon includes a detachable shoulder stock.
+**Beretta T-series**
 
-Colt America L36: A venerable pistol with a great reputation. This basic firearm is cheap, easily concealed, and nearly ubiquitous. A perfect throwaway weapon.
+The preferred sidearm of many security forces around the world, the T-series is classified as a light pistol, even though the 201 design offers automatic fire capability, making it popular in nations that limit heavy and machine pistols. Since the frame is the same, it’s easier to disguise as a 101. The 201 also comes with a detachable shoulder stock, though it is often lost before the gun reaches the street market.
 
-Fichetti Security 600: A light sidearm for security forces, this weapon’s highly efficient feeding mechanism allows it a thirty-round magazine. The Fichetti Security 600 comes with a detachable folding stock and laser sight
+**Colt America L36**
 
-Taurus Omni-6: This reliable, rugged revolver is specially designed to handle a wide variety of ammunition. Popular with hobbyists and hand-loaders, the Omni-6 comes with some interchangeable cylinders so it can take either cased or caseless, light pistol or heavy pistol ammo. When firing light pistol rounds, the Omni-6 is semi-automatic (SA) and has a base DV of 6P, and when it fires heavy pistol ammo it has only single shot mode (SS), and a base DV of 7P and –1 AP. The Omni-6 includes an integral laser sight.
+A tribute to Colt’s world-class reputation, the L36 is cheap, easily concealed, and abundant on the streets. In order to be easily transferred between corporate security rookies, the weapon feafeatures an ownership swap feature that has been abused by cops and crooks alike. A perfect throwaway weapon.
+
+Wireless Bonus: The user can alter ownership data with a Minor Action.
+
+**Fichetti Security 600**
+
+Designed as a light sidearm for security forces, the thirty-round magazine allows them to miss a ton and not worry about running out of ammo. This also makes it great for deckers. The Security 600 comes with a detachable folding stock and laser sight.
+
+**Ruger Redhawk**
+
+This rugged revolver is the kid brother of the legendary Super Warhawk. Designed with precision and fun shooting in mind, the Redhawk has a revolutionary single/double firing selector. Classic double action allows a shot with each trigger pull (Semi-Auto Fire), while the single setting lets you play old-west gunslinger and “fan” the hammer (Burst Fire).
+
+Wireless Bonus: You get an extra Minor Action in a turn where you change the action selection.
+
+**Machine Pistols**
+
+Machine pistols can take top- and barrel-mounted accessories.
+
+**Ares Crusader II**
+
+High capacity and comfortable styling make the Ares Crusader II a standout in its class. The Ares brand is synonymous with functionality, and the Crusader II integrates a gas-vent recoil compensation system and comes standard with smartgun systems and software preloaded.
+
+**Ceska Black Scorpion**
+
+Small and lethal, but not designed for beauty. Burst Fire capable from the get-go, it also comes equipped with an integral folding stock.
+
+**Steyr TMP**
+
+A lightweight polymer-frame and full autofire capability are not an ideal design combo, but spraying enough lead to make everyone duck for cover is the goal with the TMP. A top-mounted laser sight comes standard to make users think they’ll be aiming.
 
 **HEAVY PISTOLS**
 
+Heavy pistols can take top- and barrel- mounted accessories.
 
-Heavy pistols are powerful sidearms that are a good compromise between concealability and firepower. When you shoot a heavy pistol, you use the Pistols skill. Heavy pistols can take top- and barrel- mounted accessories
+**Ares Predator VI**
 
-Ares Predator V: The newest iteration of the most popular handgun in the world, especially with mercenaries and shadowrunners. Upgraded with improved ergonomics and handling features, the Ares Predator V includes a smartgun system. Some say that the Ares Predator V isn’t better than other guns in its class, but no one can argue that it has better brand recognition.
+The Predator V rode on the laurels of its name. The Predator VI is genuine innovation built into some classic styling. Built on the framing of the original Predator, the VI comes with the standard smartgun operations but adds Burst Fire capability and a new variable ammunition system that will make it king of the streets and warzones once again, even if it comes with a price tag to match that innovation. The variable ammunition system allows a single specially designed magazine (30¥ per spare) to be loaded with different ammo types. The smartgun is used to select ammo types and cycles them to the chamber in whatever quantity is necessary and available. If there aren’t enough rounds of a particular kind, the ammo counter reads empty and the weapon stops firing.
 
-Ares Viper Slivergun: The sleek Slivergun pairs the undeniably winning combo of burst-fire capability and built-in sound suppression (an integral silencer) with its large magazine capacity. It fires metal slivers that count as flechette ammunition, which is factored into the weapon’s damage code.
+**Ares Viper Slivergun**
 
-Browning Ultra-Power: This venerable sidearm is the Ares Predator’s primary competition as the world’s toughest heavy pistol. It offers a built-in top-mounted laser sight and is slightly cheaper
+The unique Slivergun hangs out in the Heavy Pistol class, but it’s a creature all its own. The Slivergun fires metal slivers that count as flechette ammunition and are bought as such, but they aren’t interchangeable with any other flechette weapon. The weapon remains capable of Burst Fire and has a silencer integrated into the barrel, and the large ammo capacity makes it a terror on the streets.
 
-Colt Government 2066: This government-issue weapon, styled after the legendary Colt M1911a1, uses an electrically induced spark to detonate the bullet’s propellants. The removal of most moving parts from the firing mechanism gives this weapon a reputation for being exceptionally reliable.
+**Browning Ultra Power**
 
-Remington Roomsweeper: This is really more of a short-barreled shotgun than a pistol. When loaded with shot rounds (flechette) rather than solid slugs, it uses Heavy Pistol ranges but shotgun rules
+Once the Predator’s primary competition as the world’s best heavy pistol, the Ultra Power has ceded its claim to the title since it has not kept pace with the tech advances in the Pred-VI. The Browning is cheaper, though, and offers a built-in top-mounted laser sight.
 
-Ruger Super Warhawk: This revolver is as loud as a jet liner and twice as shiny. It’s also one of the scariest handguns in the world. The cased ammo variant is popular for the sheer thrill of swinging open the cylinder gate one handed and dumping spent brass 
+**Colt Government 2076/Manhunter**
 
-**MACHINE PISTOLS**
+Governments need new weapons contracts for bribe purposes, so having a new standard issue after only ten years seems about par for the course. The years of technomancer and hacker fear since the ’60s have left the electronic firing 2066 in a lot of storage cabinets for fear of hacking. The 2076 takes a jump back to the style of the classic Manhunter (in fact, the model with an integrated smartgun system has that denotation) and comes with an integral laser sight.
 
+**Ruger Super Warhawk**
 
-Machine pistols offer a high rate of fire in a compact package. Use the Automatics skill to fire a machine pistol (characters may use the Pistols skill in Semi-Auto mode). Machine pistols can take top- and barrel-mounted accessories.
-
-Ares Crusader II: A large magazine and easy handling make the Ares Crusader II one of the most popular weapons of its class. It features an integral barrel-mounted gas-vent 2 recoil compensation system and comes with an integral smartgun system.
-
-Ceska Black Scorpion: This classic machine pistol provides concealable burst-fire capability. It comes equipped with an integral folding stock.
-
-Steyr TMP: This lightweight polymer-frame pistol is capable of full autofire, but its light weight makes it hard to control when firing on full auto. It comes equipped with a built-in top-mounted laser sight.
+Boom and glitz! That’s the standard street tag for the Super Warhawk. This revolver is shiny and chrome and makes holes the size of a troll’s fist straight out of the box. Upgrade the ammo or the features and those holes get real precise.
 
 **SUBMACHINE GUNS**
 
-
-Use the Automatics skill when firing a submachine gun.
 SMGs can take top- and barrel-mounted accessories.
 
-Colt Cobra TZ–120: With its unique design and wide range of accessories, the Colt Cobra series is quite popular both among security forces the world over and on the trids. The TZ–120 comes with a folding stock, top-mounted laser sight, and a barrel-mounted gas-vent 2 system.
+**Colt Cobra TZ Series**
 
-FN P93 Praetor: This bullpup submachine gun was purpose-built for Corporate Court-controlled Interpol fast-response teams. Its special chamber system provides 1 point of Recoil Compensation, it has an integrated rigid stock, and a flashlight that can be used to reduce darkness penalties by one step (Environmental Modifiers). Possession of the FN P93 while not a legitimate member of a Corporate Court force is a crime in most jurisdictions.
+Colt loves variety, and the Cobra TZ series highlights the options they offer with this line. The 100 is the base model with an integral folding stock, the 110 adds a top-mounted laser sight, the 120 features the folding stock, top-mounted laser sight, and a barrel-mounted gas-vent system, making it a hit with security forces all over the world and with trid shows that love all the fancy features.
 
-HK–227: The SMG of choice for many corporate and military security forces, the HK–227 boasts a retractable stock, smartgun system, and integral sound suppressor
+**FN P93 Praetor**
 
-Ingram Smartgun X: Grade-A bang bang. Famous as the weapon of choice for many legendary street samurai since the 2050s, the Ingram Smartgun comes tricked out with a gas-vent 2 system, a smartgun system, and an integral sound suppressor
+An unmistakable bullpup design offers a builtin fear response from anyone who sees these guns in the hand of corpsec forces. The Praetor offers an integrated rigid stock, a laser sight, and a flashlight with three settings to benefit low-light, thermographic, or regular vision.
 
-SCK Model 100: Shin Chou Kyogo is synonymous with Japanese corporate security. Nearly every Japanacorp’s security forces are issued the SCK 100, including Renraku’s infamous Red Samurai. The SCK 100 features an internal smartgun system and a folding stock.
+**HK-227**
 
-Uzi IV: This aging submachine gun is a worthy descendant of the famous Israeli weapon. The SMG features an integral folding stock and built-in top-mounted laser sight.
+Heckler & Koch know how to design an SMG, since the 227 has been built off the same frame (the venerable MP5) for over a century. A top choice for corporate and military security forces, the HK–227 offers a retractable stock, integrated smartgun system, and an integral barrel- mounted silencer.
+
+**Ingram Smartgun XI**
+
+Street samurai create legendary reputations that they don’t always deserve, but the Smartgun has maintained its street rep as a grade-A bang bang for decades. Famous as the weapon of choice for many legendary street samurai since the 2050s, the Ingram Smartgun comes tricked out with a gasvent system, a smartgun system, and an integral silencer.
+
+**SCK Model 100**
+
+Shin Chou Kyogo has made the Model 100 the corp-suit equivalent of the Smartgun with the help of the elite Red Samurai. Across the Japanacorps, their security forces are issued the SCK 100. The Model 100 features an internal smartgun system and a folding stock.
+
+**Uzi V**
+
+A new design for a new world. The latest model Uzi is a big market entry for Spinrad Global. The V model features an integral folding stock and builtin top-mounted laser sight.
+
+**Shotguns**
+
+The stats for these shotguns are for normal slug rounds. Shotguns can take top, barrel, and underbarrel accessories.
+
+**Defiance T-250**
+
+A solid street howitzer, this semi-automatic shotgun is available in either a normal-length or short-barreled version. It is gas operated and features a secondary pump action for situations where preventing jams is more important than quickly firing a second shot (clear glitch jams with a Minor Action). The short-barreled version has a Concealability threshold of 3, DV 3, Attack Ratings 8/8/4/—/—.
+
+**Mossberg CMDT**
+
+This assault shotgun provides classic bang for the buck. It can either be loaded with ten-round ammo clips or a big boy twenty-four-round drum. The best features are burst fire mode and a top-mounted laser sight.
+
+**PJSS Model 55**
+
+Rich people own shotguns too. Small production runs, usually purchased by rich European hunters and trap shooters, make this a status symbol made for killing. The Model 55 comes with a rigid stock equipped with an integrated shock pad. Both barrels can be shot at once as a short burst (see Not Enough Rounds).
+
+**Remington Roomsweeper**
+
+Double-barreled and pistol gripped makes this little beast bad news when it slips out of a pocket. If you’re not a fan of flechette shooters, load some Heavy Pistol rounds into a Roomsweeper and she shoots like a really inaccurate hand cannon.
 
 **ASSAULT RIFLES**
+Rifles can take top, barrel-, and underbarrel-mounted accessories.
 
-Use the Automatics skill when firing an assault rifle. Assault rifles can take top-, barrel-, and underbarrel- mounted accessories.
+**Remington 900**
 
-AK-97: The AK-97 is a legendary weapon with storied reliability—you can bury it for ten years, dig it up, and fire it immediately without a single problem. When all of the nano-fabricated AK–174s melted to slag, the AK-97s kept functioning just fine.
+A high-powered bolt-action hunting rifle with a classic wooden body. The base model is sold with a top-mounted imaging scope, but it cannot mount underbarrel accessories.
 
-Ares Alpha: Specially designed for Ares Firewatch special forces, the Alpha has since become a multi-platinum best-selling success the world over, seeing use with UCAS Special Forces. In part, this is due to its exceptional brand awareness, and also because of its underbarrel grenade launcher, smartgun system, and an expensive chamber design that provides 2 points of Recoil Compensation.
+**Ruger 101**
 
-Colt M23: This cheap, mass-produced, no-frills assault rifle is loved both by the gangbangers and pirates who can manage to get their hands on one and by the pros who are looking for something to modify from the ground up.
+Like futuretech in a hunting-rifle format, this gas-operated favorite sits in the hands of many professional hunters and hobbyists. It features a builtin imaging scope and a rigid stock with shock pad.
 
-FN HAR: This assault rifle is supremely popular with private security forces and corporate threat-response teams. It features a laser sight and a gas-vent 2 system
+**AK-97**
 
-Yamaha Raiden: This electronic-firing assault rifle is state-of-the-art. The Raiden is very accurate and is quickly being adopted by japanacorp security forces and the Japanese Imperial Marines. It features an integral sound suppressor and smartgun system, and the electronic firing mechanism and design provides 1 point of Recoil Compensation.
+The AK-97 will never go out of style, especially since it still looks like its mid-twentieth-century predecessor. Built for reliability and endurance, it’s not the prettiest girl at the dance, but it can sure shake a tailfeather.
+
+**Ares Alpha**
+
+Made famous in the hands of Ares Firewatch teams, the Alpha quickly became a worldwide success with UCAS and CAS special operators along with a myriad of Desert Wars teams. The integrated underbarrel grenade launcher, smartgun system, and an innovative design for superior handling make it special.
+
+**Colt M23**
+
+Cheap, mass-produced, and infinitely adaptable, the M23 finds its ways to the hands of everyone from gangbangers to pirates to delta-level government operators. The M23 can accept two additional underbarrel accessories for a total of three.
+
+**FN HAR**
+
+Fabrique Nationale is the name to fear when facing private security forces and corporate highthreat- response teams around the world. They made this weapon, which features a laser sight and a gas-vent system.
+
+**Yamaha Raiden**
+
+While Ares made the Alpha, the Japanacorps, through Yamaha, developed the Raiden. Electronic firing and exceptional accuracy are integral to the design. Japanacorp security forces and the Japanese Imperial Marines now swear by the Raiden. It features an integral silencer, smartgun system, and underbarrel shotgun/grenade launcher.
+
+**Ares Desert Strike**
+
+“The Desert Strike for the Desert Wars” is the tagline today. Built to fight in the harshest conditions, the Desert Strike comes equipped with a rigid stock with shock pad and a detachable imaging scope.
+
+**Cavalier Arms Crockett EBR**
+
+Cavalier played a dangerous game by offering a sniper rifle capable of burst fire. The Crockett EBR can stay accurate at long range, but those bursts don’t allow repeated accuracy. The Crockett comes standard with a rigid stock with shock pad and a detachable imaging scope.
+
+**Ranger Arms SM-6**
+
+Ranger Arms knows what the SM line has always been about—silently neutralizing targets. This sniper rifle features a silencer, an imaging scope, a smartgun system, and a rigid stock with shock pad. The SM–6 carries on the line’s ability to quickly get into the action and then get out just as fast. It can fit into a standard briefcase; setting it up or breaking it down takes a Firearms + Logic (6, Major Action) Extended test. The SM-6 has dealt with the line’s fragility issues, and once put together it has no problem operating in any capacity.
+
+**Barret Model 122**
+
+Sometimes you need to shoot an enemy; sometimes you need to shoot an enemy through the side of an APC. The Barret Model 122 excels at tearing through metal and getting to the things it attempts to protect, ripping apart machines and vehicles with horrible tearing sounds that are music to the ears of the shooter. It has a silencer, smartgun system, and folding bipod.
 
 
-**SNIPER RIFLES**
+**Machine Guns/Assault Cannons**
 
+Machine guns come in three categories—light, medium, and heavy—that determine their Attack Ratings. All, even the “light” ones, are bulky and unwieldy. A light machine gun is bigger and heavier than most rifles, while medium machine guns and heavy machine guns can only be carried by someone with Strength of 3+ and 5+, respectively, since they are designed as vehicle- mounted weapons. Machine guns can take top, barrel, and underbarrel accessories.
 
-Use the Longarms skill when firing sniper rifles. Firearm enthusiasts will be the first to tell you that sport and hunting rifles are technically not sniper rifles, but they are similar enough in terms of game statistics to be included here rather than in their own section. Sniper rifles can take top, barrel-, and underbarrel-mounted accessories
+**Ingram Valiant**
 
-Ares Desert Strike: This combat-hardened sniper rifle is intended for long-range shooting in harsh environments. That means it was built without materials or technologies prone to failure. It comes equipped with a rigid stock with shock pad and a detachable imaging scope.
+The Valiant light machine gun sits in the hands of mercenary units the world over. Basic equipment includes a rigid stock with shock pad, a laser sight, and a barrel-mounted gas-vent system.
 
-Cavalier Arms Crockett EBR: Straddling the line between assault rifle and sniper rifle, the Crockett EBR features a burst fire mode. While it lacks the magazine capacity of a true assault rifle, and lacks the precision of a true marksman’s weapon, it makes up for this in versatility, being able to switch fluidly between a sniping role and a combat role as easy as flipping a switch. It comes equipped with a rigid stock with shock pad and a detachable imaging scope.
+**Stoner-Ares M202**
 
-Ranger Arms SM–5: A legendary assassin’s weapon, this sniper rifle features a silencer, an imaging scope, and a rigid stock with shock pad. The SM–5 disassembles completely in order to fit into a standard briefcase; setting it up or breaking it down takes an `Extended Firearms + Logic [Mental] (6, Major Action)` Test. While deadly, the SM–5 is fragile. At the end of every Combat Turn in which the weapon is used in a running firefight, reduce its Accuracy by 1 (to a minimum of 3). If the weapon is used in combat as a melee weapon or to defend from a melee attack, reduce its Accuracy by 2 (again to a minimum of 3). Recalibrating the weapon (a one-hour job) returns its Accuracy to normal.
+This medium machine gun packs a tremendous punch and is often found in the hands of trolls with no concept of subtlety. It’s a brutally simple weapon, but accessorizing is always an option for those with a taste for more complexity.
 
-Remington 950: This high-powered bolt-action hunting rifle features classic wooden furniture and a top-mounted imaging scope that have kept it popular with hunters for several decades. It cannot mount underbarrel accessories.
+**RPK HMG**
 
-Ruger 101: This futuristic-looking gas-operated sporting rifle is the favorite weapon for many professional hunters and hobbyists. It features a built-in imaging scope and a rigid stock with shock pad.
+This heavy machine gun is used by militaries across eastern Europe and Asia. Usually set up as a vehicle-mounted weapon, it comes standard with a detachable tripod, as the RPK is best fired from a prone, sitting, or kneeling position when not mounted on a vehicle.
 
-**SHOTGUNS**
+**Panther XXL**
 
-
-Use the Longarms skill when firing shotguns. The stats for these shotguns are for normal slug rounds. When firing shot, use the special rules for shotguns, choke settings, and flechette ammo (Shotguns). Shotguns can take top, barrel, and underbarrel accessories.
-
-Defiance T–250: A common sight on the mean streets when things escalate beyond pistols and knives, this semi-automatic shotgun is available in either a normal- length or short-barreled version. It is gas operated, but also features a secondary pump action for situations where preventing jams is more important than quickly firing a second shot. The short-barreled version has the Concealability of +4, the range of a heavy pistol, and a damage code of 9P.
-
-Enfield AS-7: This military assault shotgun provides its user with massive firepower. As a close-quarters weapon and general combat gun, it is universally feared. It can either be loaded with ten-round ammo clips or a special twenty-four-round drum. The Enfield AS-7 comes equipped with a built-in, top-mounted laser sight
-
-PJSS Model 55: This is a weapon of classic style for a classic sport. Produced only in small numbers, it’s renowned among European hunters and trap shooters as a precise and prestigious weapon. The weapon’s rigid stock comes equipped with an integrated shock pad. Both barrels can be shot at once as a short burst (see Not Enough Bullets).
+Bulky, ugly, deadly, and as destructive as they come. Panther’s XXL model of assault cannon is the thing of nightmares on the street. To make sure every shot counts, it comes with a built-in smartgun system.
 
 **SPECIAL WEAPONS**
 
-
-Use the Exotic Ranged Weapon skill when firing these weapons. This skill is not on the list of skills it can be added **if someone wants to use one of these wacky weapons**.
-
-Ares S-III Super Squirt: This popular non-lethal weapon fires DMSO gel packs. The dimethyl sulfoxide forces the skin to absorb the chemicals the operator wishes to deliver. The attack itself causes no damage, but when the target is hit successfully, the DMSO delivers the substance directly into the target’s bloodstream as a Contact vector toxin (Toxins, Drugs, and BTLs). The Super Squirt uses Light Pistol ranges and can accept top- and underbarrel-mounted accessories
-
-Fichetti Pain Inducer: For a non-lethal weapon, the Fichetti Pain Inducer is not very humane. It makes someone feel like they are in a microwave, roasting from the inside out. Treat this as a toxin attack with a Power of 8 and a speed of Immediate. The target resists with Body + Willpower. If the modified Power exceeds the target’s Mental limit, the target must spend his next Action Phase doing whatever it takes to run away from the pain. The attacker can continue to hold her beam on a target with a Major Action unless the gamemaster deems the target has dodged away or found cover. If the target cannot get out of the beam, he is incapacitated with pain, suffering a modifier equal to the modified Power on all tests for as long as the beam is trained on him. The Pain Inducer uses SMG ranges and can take top and underbarrel accessories. It has ten charges; when attached to a power point, it reloads one charge every ten seconds. Wireless: The Pain Inducer recharges by induction at a rate of 1 charge per hour
-
-Parashield Dart Pistol: The industry standard dart pistol, this fires injection darts with narcoject or another payload. The Parashield dart pistol uses Heavy Pistol ranges and can take top-mounted accessories. Wireless: The dart reports whether or not it has struck home and successfully injected. It may also report any gross physical anomalies in the target’s tissue, although its medical sensors are not very sophisticated (Device Rating of 1 for the dart).
-
-Parashield Dart Rifle: Originally designed to non-lethally take down large game animals at long ranges, the Parashield dart rifle uses compressed air cartridges to fire injection darts. This weapon includes a top-mounted imaging scope. It uses sporting rifle ranges and can mount top and underbarrel accessories. Wireless: The dart reports whether or not it has struck home and successfully injected. It may also report any gross physical anomalies in the target’s tissue, although its medical sensors are not very sophisticated (Device Rating of 1 for the dart).
-
-**MACHINE GUNS**
+Use the Exotic Ranged Weapon skill when firing these weapons.
 
 
-Machine guns come in three varieties—light, medium, and heavy—that determine their ranges. All, even the “light” ones, are in fact very heavy and large. A light machine gun is physically bigger and heavier than an assault rifle. MMGs and HMGs could be carried by someone with Strength of 8+ and 10+ (respectively), but they work better as vehicle-mounted weapons.
+**Ares S-III Super Squirt**
 
-Use the Heavy Weapons skill when firing these weapons. They suffer from double modifiers for uncompensated recoil (Recoil). Machine guns can take top, barrel, and underbarrel accessories.
+That name is terrible. Everyone thinks the Super Squirt is some kind of water gun, but it’s basically a glorified paintball marker that fires nonlethal dimethyl sulfoxide (DMSO) gel packs. The DMSO forces the skin to absorb whichever chemicals the operator wishes to deliver. The attack itself causes no damage, but when the target is hit successfully, the DMSO delivers the substance directly into the target’s bloodstream as a Contact-vector toxin (see Toxins and Drugs). The Super Squirt can accept top- and underbarrel- mounted accessories.
 
-Ingram Valiant: This legendary light machine gun is popular with mercenary units the world over. It comes with a rigid stock with shock pad, a laser sight, and a barrel-mounted gas-vent 2 system.
+**Parashield DART Series**
 
-Stoner-Ares M202: This MMG packs a tremendous punch into a relatively lightweight framework made of extra-durable compounds. Due to its relatively small size, it’s a very popular secondary weapon for heavy military vehicles. Trolls with no concept of subtlety sometimes deck them out with accessories for use as personal weapons.
+Bringing down trolls with a little plastic, steel, and chemical cocktail for decades, Parashield sets the industry standard for dart weapons. The pistol model can accept top-mounted accessories only. The rifle includes a top-mounted imaging scope and can mount top and underbarrel accessories.
 
-RPK HMG: This heavy Russian machine gun is used by the militaries of several eastern European and Near East countries, primarily as a vehicle-mounted support weapon. Equipped with a detachable tripod, the RPK is usually fired from a prone, sitting, or kneeling position when not mounted on a vehicle.
+Wireless bonus: The dart reports whether or not it has struck home and successfully injected along with the effect based on heart rate and pulse levels, although its medical sensors are not very sophisticated (Device Rating of 1 for the dart).
 
-**CANNONS & LAUNCHERS**
+**Launchers**
 
+The Exotic Weapons skill is used to fire launchers, and they can take top and underbarrel accessories. Grenade launchers fire minigrenades, and missile launchers launch missiles or rockets.
 
-Use the Heavy Weapons skill when firing assault cannons and grenade and missile launchers. All suffer from double modifiers for uncompensated recoil. Both assault cannons and launchers can take top and underbarrel accessories. Naturally, assault cannons use assault cannon ammo, grenade launchers fire minigrenades, and missile launchers launch missiles or rockets.
+**Ares Antioch II**
 
-Ares Antioch–2: The Antioch–2 features a classic grenade launcher design combined with an integral smartlink system. It is one of the more affordable grenade launchers on the market. Wireless: You can use the wireless link trigger for your grenades, even if you don’t have DNI (Direct Neural Interface).
+The Antioch II is the fanciest tube with a trigger around, complete with an integral smartgun system. A secondary trigger setting allows for wireless activation of launched projectiles. Wireless bonus: You can use the wireless link trigger for your grenades, even if you don’t have DNI.
 
-ArmTech MGL–12: This bullpup-configuration grenade launcher is popular, since it can fire in semi-auto mode and carries substantially more minigrenades than its competitors. Wireless: You can use the wireless link trigger for your grenades, even if you don’t have DNI (Direct Neural Interface).
+**ArmTech MGL-6/MGL-12**
 
-Aztechnology Striker: The Striker is an extremely light disposable launcher—perfect when you want to deliver a punch and make a quick, unencumbered getaway. Wireless: You can use the wireless link trigger for your missiles, even if you don’t have DNI (Direct Neural Interface).
+Semi-auto grenade launchers in a bullpup pistol and rifle style that can send a whole lot of bad news downrange real fast. 
 
-Krime Cannon: Krime may be a small-time manufacturer, but their assault cannon, simply called the Cannon, is a cheap heavy weapon big on attitude and firepower. It comes standard with modification for trolls, and so is the first weapon in the Sixth World to be intended for larger customers.
+Wireless bonus: When active the launcher will not detonate any ordnance loaded into the weapon within five meters of the weapon, even if a spoofed command tells it to do otherwise.
 
-Onotari Interceptor: This Saeder-Krupp-developed military missile launcher is designed to fire rockets or guided missiles, of any type. It has two separate barrels and firing chambers, and can load up to two missiles at once, which need not be of the same type. Due to backblast issues, it is not capable of “giving ‘em both barrels.” It features an internal smartgun system.Wireless: You can use the wireless link trigger for your missiles, even if you don’t have DNI (Direct Neural Interface).
+**Aztechnology Striker**
 
-Panther XXL: This huge fragging gun is an assault cannon that uses ammunition similar to the primary weapon in many small tanks. It comes with a built-in smartgun system.
+Deadly and disposable, the Striker is a great analogy for runners. The launch tube can be reused, which is nice considering recent price increases. Wireless bonus: Connecting this launcher to the local Matrix provides a +1 modifier bonus as long as no other bonus-applying systems are in use.
+
+**Onotari Interceptor**
+
+Saeder-Krupp developed this multipurpose missile launcher for military use. It has two separate barrels that can load two missiles at once, which don’t need to be the same type. Both barrels cannot be fired simultaneously, though this safety feature has been known to be removed, much to the dismay of the target—and the firer, as it turns out. It features an internal smartgun system that controls the fire-safety system. Firing both barrels launches both weapons. Split the attack modifier and resolve each projectile independently. The firer must resist 6P Fire damage when launching both tubes.
+
+Wireless bonus: The safety system cannot be disengaged, but the firer gains the smartlink wireless bonus.
+
 
 
 ### Firearm Accessesories
 
 Most firearm accessories must be attached to a particular mount—top, barrel, underbarrel. Each mount can only hold one accessory at a time.
 
-| ACCESSORY                    | MOUNT        | AVAILABILITY  | COST               |
-| ---------------------------- | ------------ | ------------- | ------------------ |
-| Airburst link                | —            | 6R            | 600¥               |
-| Bipod                        | Under        | 2             | 200¥               |
-| Concealable holster          | —            | 2             | 150¥               |
-| Gas-vent system (Rating 1-3) | Barrel       | (Rating x 3)R | Rating x 200¥      |
-| Gyro mount                   | Under        | 7             | 1,400¥             |
-| Hidden arm slide             | —            | 4R            | 350¥               |
-| Imaging scope                | Top          | 2             | 300¥               |
-| Laser sight                  | Top or Under | 2             | 125¥               |
-| Periscope                    | Top          | 3             | 70¥                |
-| Quick-draw holster           | —            | 4             | 175¥               |
-| Shock pad                    | —            | 2             | 50¥                |
-| Silencer/suppressor          | Barrel       | 9F            | 500¥               |
-| Smart firing platform        | Under        | 12F           | 2,500¥             |
-| Smartgun system, internal    | —            | (+2)R         | (Weapon Cost) x 2¥ |
-| Smartgun system, external    | Top or Under | 4R            | 200¥               |
-| Spare clip                   | —            | 4             | 5¥                 |
-| Speed loader                 | —            | 2             | 25¥                |
-| Tripod                       | Under        | 4             | 500¥               |
+| **ACCESSORY**                | **MOUNT**    | **AVAILABILITY** | **COST**           |
+| ---------------------------- | ------------ | ---------------- | ------------------ |
+| Airburst link                | —            | 6R               | 600¥               |
+| Bipod                        | Under        | 2                | 200¥               |
+| Concealable holster          | —            | 2                | 150¥               |
+| Gas-vent system (Rating 1-3) | Barrel       | (Rating x 3)R    | Rating x 200¥      |
+| Gyro mount                   | Under        | 7                | 1,400¥             |
+| Hidden arm slide             | —            | 4R               | 350¥               |
+| Imaging scope                | Top          | 2                | 300¥               |
+| Laser sight                  | Top or Under | 2                | 125¥               |
+| Periscope                    | Top          | 3                | 70¥                |
+| Quick-draw holster           | —            | 4                | 175¥               |
+| Shock pad                    | —            | 2                | 50¥                |
+| Silencer/suppressor          | Barrel       | 9F               | 500¥               |
+| Smart firing platform        | Under        | 12F              | 2,500¥             |
+| Smartgun system, internal    | —            | (+2)R            | (Weapon Cost) x 2¥ |
+| Smartgun system, external    | Top or Under | 4R               | 200¥               |
+| Spare clip                   | —            | 4                | 5¥                 |
+| Speed loader                 | —            | 2                | 25¥                |
+| Tripod                       | Under        | 4                | 500¥               |
 
-Airburst link: This grenade/rocket launcher smartgun accessory uses a “smart” rangefinder to air-burst the explosive projectile at a point deemed to be both a safe distance from the launcher and within the closest possible proximity to the target. An airburst link reduces the scatter distance for a launched grenade by two yards per net hit instead of by one yard per hit (Determine Scatter) when you use the wireless link trigger. Wireless: An airburst link requires wireless functionality to function at all. Both the grenades and the launcher must have wireless mode turned on.
+**Airburst link**
 
-Bipod: This two-legged brace extends downward from the weapon, allowing it to be fired low to the ground with the user in a prone or sitting position. A bipod can be attached to the underbarrel mount of a weapon and provides 2 points of Recoil Compensation when properly deployed. Attaching a bipod takes one minute. Folding up or deploying a bipod is a Minor Action. Removing it is a Major Action. Wireless: Folding up or deploying the bipod is a Free Action
+A smartgun accessory for grenade and rocket launchers uses a rangefinder to air-burst the explosive projectile in close proximity to the target. An airburst link reduces the scatter distance for a launched weapon by two meters per net hit instead of one meter per hit (Blast Attacks and Scatter) when you use the wireless link trigger. The airburst link also prevents the defender from using the Hit the Dirt Action to reduce damage, as the Prone status offers no benefit against the airburst. 
 
-Concealable holster: This small holster can be worn on the ankle, clipped to the forearm, in the small of the back, or anywhere else it’s unlikely to be seen. The concealable holster adds –1 to the item’s Concealability. Only pistols and tasers fit in a Concealable Holster. Wireless: Wireless sensors and a smart-fabric coated weave allow the holster to alter color and texture in real time adding an additional –1 to the item’s Concealability.
+Wireless bonus: An airburst link requires wireless functionality to function at all. Both the grenades and the launcher must have wireless mode turned on for the system to function.
 
-Gas-vent system: Gas-vent recoil compensation systems are barrel-mounted accessories that vent a weapon’s barrel gases at a specific vector to counter muzzle climb. Once installed, a gas-vent cannot be removed. Gas-vent systems provide a number of points of Recoil Compensation equal to their rating.
+**Bipod**
 
-Gyro mount: This heavy upper-body harness features an attached, articulated, motorized gyro-stabilized arm that mounts an assault rifle or a heavy weapon. The system neutralizes up to 6 points of recoil and movement modifiers. Attaching or removing a weapon from the mount takes a Minor Action. Putting on a gyro-mount harness takes about five minutes, while the quick-release allows you to get out of it with a Major Action. Wireless: Activating the harness’s quick-release with a wireless signal to exit the harness is a Free Action.
+A two-legged brace extends down from the weapon, allowing it to be fired low to the ground with the user in a prone or sitting position. A bipod can be attached to the underbarrel mount of a weapon and provides a +2 to the Attack Rating when properly deployed. Attaching a bipod takes a Major Action. Folding up or deploying a bipod is a Minor Action.
 
-Hidden arm slide: Attached to the forearm and worn under clothing, this slide can accommodate a pistol- sized weapon. It can fit a hold-out, light pistol, or taser. With a hand gesture, the slide releases the weapon/ object right into your hand. If you quick draw the weapon in this slide, the Threshold for the quick draw is Threshold 18. It also gives the weapon a –1 Concealability modifier. Wireless: You can ready the weapon in the slide as a Free Action.
+Wireless bonus: The Attack Rating bonus increases to +3 if used when prone or sitting.
 
-Imaging scope: These classic scopes are attached to the top mount; attaching or removing them takes only a Minor Action. Imaging scopes include a micro camera and vision magnification, and they have a Capacity of 3 to hold vision enhancements. Wireless: The scope’s “line of sight” can be shared, allowing you to share what your scope sees with your team (and yourself if you’re using it to look around a corner).
+**Concealable holster**
 
-Laser sight: This device uses a laser beam to project a visible dot (in your choice of colors) on the target. This increases the weapon’s Accuracy by 1, which is not cumulative with smartlink modifiers. The laser sight can be attached to either the underbarrel mount or top mount. Activating or deactivating a laser sight is a Minor Action. Wireless: The wireless laser sight provides a +1 modifier on attack tests, not cumulative with smartlink modifiers. Activating and deactivating the laser sight is a Free Action.
+A small holster worn just about anywhere on the body it can’t be seen, attached with a smart adhesive. It increases the Concealability threshold of the weapon inside by 1. Only pistols (including machine pistols) and tasers fit in a concealable holster.
 
-Periscope: This adjustable “off-axis” viewer attaches to a top mount and allows an operator to target a weapon around corners, reducing the usual –3 modifier to –2. A periscope can be upgraded with any of the vision enhancements noted on Wireless: The modifier for shooting around corners is reduced to –1.
+Wireless bonus: Sensors, smart-fabric, and active adhesive allow the holster to alter color and move small amounts in real time, increasing the Concealability threshold by an additional 1.
 
-Quick-draw holster: This easy access holster can hold any weapon of Machine Pistol or smaller size. It reduces the Threshold for quick-drawing the holstered weapon by 1.
+**Gas-vent system**
 
-Shock pad: A shock-absorbing pad is situated on the rigid stock of a rifle, shotgun, or heavy weapon, and provides 1 point of recoil compensation
+Gas-vent recoil compensation systems are barrel-mounted accessories that vent a weapon’s barrel gases at a specific vector to counter muzzle climb. Once installed, a gas-vent cannot be removed. Gas-vent systems remove the Attack Rating penalty for Semi-Automatic fire and reduce it to 2 for Burst Fire.
 
-Silencer/suppressor: This barrel-mounted accessory reduces the sound and flash of a weapon’s discharge. It cannot be used with revolvers or shotguns. It applies a –4 modifier on all Perception Tests to notice the weapon’s use or locate the weapon’s firer. Attaching or removing a silencer takes a Major Action. Wireless: The silencer/suppressor features a Rating 2 microphone with Rating 2 Select Sound Filter and simple software that alerts you via AR if your silencer detects the sound of someone nearby reacting to the sound of the silenced weapon.
+**Gyro mount**
 
-Smart firing platform: This is a non-mobile robotic tripod equipped with a remote control pivot that allows for a 180-degree firing arc and a 60-degree inclination. You can mount one smartgun-equipped weapon to the platform, and it will be fired by the device’s onboard Pilot (Device Rating 3). The platform is equipped with a Targeting Autosoft (Rating 3) and can be upgraded with additional autosofts, usually a Clearsight program. You need to set the parameters of who exactly the platform should and shouldn’t shoot at, which are followed by the platform’s pilot. The platform provides 5 points of Recoil Compensation. It has an Initiative attribute of Pilot x 2 and 4D6 Initiative Dice when acting autonomously. Wireless: You can fire the mounted weapon remotely, like a drone with no rigger interface. You can use an implanted smartlink with the smartgun if you’re in VR.
+This heavy harness features an articulated and motorized gyro-stabilized arm. The mount can hold a rifle or machine gun. The system negates the Attack Rating adjustment for Semi-Auto and Burst Fire and provides a +3 Attack Rating for Full-Auto. This system also shifts the Strength requirements for medium and heavy machine guns to 2+ and 4+ respectively. Attaching or removing a weapon from the mount takes a Minor Action. Putting on a gyro-mount harness takes about a minute, while the quick-release allows you to get out of it with a Major Action. 
 
-Smartgun system: This connects a firearm or a projectile weapon directly to the user’s smartlink. Incorporating a small camera and laser range finder, the smartlink keeps track of ammunition, heat buildup, and material stress. If you have a smartlink, you can mentally switch between gun modes, eject a clip, and fire the gun without pulling the trigger. The camera lets you shoot around corners without exposing yourself to return fire (at a –3 modifier). The system makes use of advanced calculation software, allowing for precisely calculated trajectories and high precision over any distance.
+Wireless bonus: Activating the harness’s quick-release with a wireless signal to exit the harness is a Minor Action.
 
-If you’re using a smartlink, the smartgun system increases the gun’s Accuracy by 2. The smartgun features are accessed either by universal access port cable to an imaging device (like glasses, goggles, or a datajack for someone with cybereyes) or by a wireless connection working in concert with direct neural interface. Retrofitting a firearm with an internal smartgun system doubles the weapon’s price and adds 2 to its Availability. An external smartgun system can be attached to the top mount or underbarrel mount with an `Armorer + Logic (4, 1 hour)` Extended Test. The small camera has a capacity of 1 and can be equipped with vision enhancements. Wireless: A wireless smartlink provides a modifier to all attacks with the weapon: +1 if you’re using gear with a smartlink or +2 if you’re using an augmentation for which you paid Essence. Ejecting a clip and changing fire modes are Free Actions
+**Hidden arm slide**
 
-Spare clip: A spare clip comes unloaded but can hold the maximum rounds for the weapon. Each clip is specific to the weapon you buy it for, but they all cost the same. And yes, it’s technically a detachable box magazine, but the Cityspeak word for it is so popular these days that even the catalogs call them clips
+Attached to the forearm and worn under clothing, this slide can fit a Hold-out, Light Pistol, or Taser. With a Minor Action and a specific movement, the slide moves the weapon into your hand. The use of a hidden arm slide provides a Bonus Effect when first used. It also increases the Concealability threshold by 1.
 
-Speed loader: The speed loader is a simple device that holds a ring of bullets for fast insertion into a revolver’s cylinder. Each speed loader is specific to the weapon it was designed for. It lets you fully reload a revolver as a Minor Action instead of having to load rounds one at a time as a Major Action.
+Wireless bonus: You get a bonus Minor Action on any turn when you activate the slide.
 
-Tripod: The tripod provides a stable base to fire a weapon low to the ground with the user kneeling or sitting. A tripod can be attached to the underbarrel mount and provides 6 points of Recoil Compensation when properly deployed. Attaching a tripod takes one minute. Folding up or deploying the bipod is a Free Action. Wireless: Folding up, deploying, or removing the tripod is a Free Action.
+**Imaging scope**
+
+The classic top-mounted scope that includes a micro camera and vision magnification, along with a Capacity of 3 for additional vision enhancements. Attachment or removal takes only a Minor Action. The Take Aim Minor Action must be used in order to gain the benefits of an imaging scope, though the modifier bonus from that action is not gained for the first action of use. When you are using an imaging scope, your target cannot gain Bonus Effect by having a higher Defense Rating. Wireless bonus: The scope’s “line of sight” can be shared, allowing you to share what your scope sees with your team (and yourself if you’re using it to look around a corner).
+
+**Laser sight**
+
+This device uses a laser beam to project a visible dot (normal, low-light, or thermographic) on the target. This increases the weapon’s Attack Rating by 1, not cumulative with smartlink modifiers. The laser sight can be mounted as either an underbarrel mount or top mount. Activating or deactivating a laser sight is a Minor Action.
+
+Note that in weapons with a laser sight included as standard equipment, this bonus is already calculated into the Attack Rating.
+
+Wireless bonus: The bonus to the Attack Rating increases to 2. You gain a bonus Minor Action on a turn when you activate or deactivate the laser sight.
+
+**Periscope**
+
+This adjustable viewer attaches to a top mount and allows the user to target a weapon around corcorners, reducing the Cover IV modifier penalty to –1 when using the Take Cover Action. A periscope can be upgraded with any of the vision enhancements noted on. Capacity 3. Wireless bonus: The modifier penalty noted above is reduced to 0.
+
+**Quick-draw holster**
+
+An easy access holster designed to hold pistols and tasers. Use of the Quick-Draw holster provides a bonus Minor Action when the Quick-Draw Action is taken.
+
+**Shock pads**
+
+A shock-absorbing pad situated on the rigid stock of a rifle, shotgun, or heavy weapon. It decreases the Semi-Auto and Burst Fire Attack Rating modifiers by 1.
+
+**Silencer**
+
+A barrel-mounted accessory for reducing the sound and flash of firing a weapon; not compatible with revolvers or shotguns. It increases the threshold on Perception tests by 2 to notice the weapon’s use or locate the weapon’s firer. Attaching or removing a silencer takes a Major Action.
+
+Wireless bonus: The silencer features systems and simple software that alerts you via AR if someone nearby moves quickly in response to the sound of the silenced weapon.
+
+**Smart firing platform**
+
+A robotic tripod equipped with a mechanized pivot that allows for a 180-degree firing arc and a 60-degree inclination. It can mount one smartgun- equipped weapon to the platform. The weapon will be fired by the platform’s onboard pilot (Device Rating 3), using a pre-programmed Targeting Autosoft (Rating 3). It can be upgraded with additional autosofts, usually a Clearsight program. You need to set the parameters of who exactly the platform should and shouldn’t shoot at, which are followed by the platform’s pilot. The platform negates the Attack Rating adjustments for Semi-Auto and Burst Fire and offers a +3 Attack Rating for Full-Auto. It has an Initiative rank of Pilot x 4, 3D6 Initiative Dice, 4 Minor Actions, and 1 Major Action. Wireless bonus: You can fire the mounted weapon remotely using an implanted smartlink using VR, replacing the system’s dice pools with your own.
+
+**Smartgun system**
+
+This is the firearm or a projectile-weapon side of the smartlink system. The system includes a small camera and range finder. It keeps track of ammunition and, through DNI, allows switching between gun modes, ejecting a clip, and firing the gun without pulling the trigger. The camera allows you to fire from cover, suffering no Attack test penalties while affected by the Cover Status. If you’re using a smartlink, the smartgun system increases the gun’s Attack Rating by 2 across all available range categories. The smartgun features are accessed either by universal access port cable to an imaging device (like glasses, goggles, or a datajack for someone with cybereyes) or by a wireless connection working in concert with direct neural interface. Internal smartgun systems add 500 nuyen to the weapon price. An external smartgun system can be attached to the top mount or underbarrel mount with an Engineering + Logic (4, 1 hour) Extended Test. The small camera has a capacity of 1 and can be equipped with vision enhancements.
+
+**Spare clip**
+
+This is an unloaded standard magazine for a specific selected weapon. Wireless bonus: The clip provides a current ammo count even without a smartgun system.
+
+**Speed loader**
+
+The speed loader holds a ring of bullets for reloading a revolver’s cylinder. Speed loaders are specific to the weapon. It lets you fully reload a revolver as a Minor Action.
+
+**Tripod**
+
+The tripod provides a stable base to fire a weapon low to the ground with the user kneeling or sitting. A tripod can be attached to the underbarrel mount. It negates the Attack Rating adjustments for Semi-Auto and Burst Fire and offers a +3 Attack Rating for Full-Auto when properly deployed. Attaching a tripod takes a Major Action. Folding up or deploying the bipod is a Minor Action. Wireless bonus: The player gains a free Minor Action on a turn when they fold up, deploy, or remove the tripod.
+
 
 ### Ammunition
 
-Ammunition is defined by type (regular, gel, APDS, etc.), class of ammo is exchangeable with the other ammo of its type. Meaning all Clips (c) can fit any Clip firearm, all internal magazines (m) fit all internal magazines, every muzzel loader ammo fits any other etc.
+Ammunition is defined by type (regular, gel, APDS, etc.), class of firearm (light pistol, heavy pistol, assault rifle, etc.) and is considered cased unless the caseless option is purchased. Unless indicated otherwise in its description, a gun can fire cased or caseless ammo, but not both. Each class of gun can trade ammo with another of its class. For example, all Heavy Pistols and SMGs can share ammo. An ammunition type’s Attack Rating Modifier and Damage Value Modifier are added to the weapon’s ratings. For example, an Ares Predator VI (DV 3P, Attack Ratings Close 9, Near 9, Medium 7, Far —, Extreme —) loaded with explosive rounds (AR —, DV +1) has a DV of 4P with no change to the Attack Ratings.
+
+**Caseless vs. Cased**
+
+Caseless ammo is rare these days, with the corps wanting to track who’s doing what against them. With no shell casing it’s one less thing to help track down a culprit. They also install a hardened stealth micro-RFID in half of all the cased rounds they produce that activates when fired and alerts local authorities. Most runners have a tech guy who waves his magic wand (tag eraser) over their ammo and fries the tags, but it doesn’t always work, and not everyone owns a tag eraser.
+
+Erasing tags requires a tag eraser. Make an Electronics + Logic (2, 1 minute) for every ten rounds being erased.
+
 
 | **AMMO, PER 10 SHOTS** | **DAMAGE MODIFIER** | **AP MODIFIER** | **AVAILABILITY** | **COST** |
 | ---------------------- | ------------------- | --------------- | ---------------- | -------- |
@@ -3034,129 +3174,195 @@ Ammunition is defined by type (regular, gel, APDS, etc.), class of ammo is excha
 | Tracer                 | —                   | —               | 6R               | 60¥      |
 | Taser dart             | —                   | —               | 3                | 50¥      |
 
-| **GRENADES**   | **DAMAGE**  | **AP**    | **BLAST**  | **AVAILABILITY**          | **COST**              |
-| -------------- | ----------- | --------- | ---------- | ------------------------- | --------------------- |
-| Flash-bang     | 6S          | –4        | 10y Radius | 6R                        | 100¥                  |
-| Flash-pak      | Special     | —         | Special    | 4                         | 125¥                  |
-| Fragmentation  | 12P (f)     | +5        | –1/y       | 11F                       | 100¥                  |
-| High explosive | 14P         | –2        | –2/y       | 11F                       | 100¥                  |
-| Gas            | as Chemical | —         | 10y Radius | 2 + Chemical Availability | 40¥ + Chemical cost   |
-| Smoke          | —           | —         | 10y Radius | 4R                        | 40¥                   |
-| Thermal, smoke | —           | —         | 10y Radius | 6R                        | 60¥                   |
-| **ROCKETS**    | **DAMAGE**  | **AP**    | **BLAST**  | **AVAILABILITY**          | **COST**              |
-| Anti-vehicle   | 24P         | –4 / –10  | –4/y       | 18F                       | 2,800¥                |
-| Fragmentation  | 23P (f)     | +5        | –1/y       | 12F                       | 2,000¥                |
-| High-explosive | 21P         | –2        | –2/y       | 18F                       | 2,100¥                |
-| **MISSILES**   | **DAMAGE**  | **AP**    | **BLAST**  | **AVAILABILITY**          | **COST**              |
-| As Rocket      | As Rocket   | As Rocket | As Rocket  | +4                        | +Sensor rating x 500¥ |
+| **AMMO BY TYPE**                    | **AVAIL** | **COST (PER 10 ROUNDS)** |
+| ----------------------------------- | --------- | ------------------------ |
+| Holdout/Light Pistol/Machine Pistol | 1         | 5¥                       |
+| Heavy Pistol/SMG                    | 1         | 10¥                      |
+| Rifles                              | 2(L)      | 20¥                      |
+| Taser                               | 1         | 10¥                      |
+| Injection Dart                      | 2         | 5¥ + Toxin               |
+| Assault Cannon                      | 4(I)      | 50¥                      |
+| Machine Gun                         | 2(L)      | 15¥ per 10               |
+| DMSO                                | 1         | 10¥ per 10               |
+| Shotgun                             | 2(L)      | 15¥                      |
 
 
-APDS rounds: These are military-grade armor piercing rounds—their full name is armor piercing discarding sabot. They are designed to travel at high velocities and punch through personal body armor. Assault cannon rounds: These are for assault cannons only, and they’re the only thing assault cannons can load.
-
-Explosive rounds: These slugs carry a shaped-charge explosive, designed to explode and fragment on impact. Explosive rounds misfire whenever you roll a critical glitch. When this happens, you must resist one “attack” with a Damage Value equal to the normal damage done by the weapon (and don’t forget the modifier for the explosive rounds). The attack misses its intended target, and the weapon firing the bullets is destroyed.
-
-Flechette rounds: The payload of a flechette round is made up of tiny, tightly packed metal slivers. The round breaks up and shatters on impact, becoming a tumbling hail of shrapnel. Flechette rounds are devastating against unprotected targets, but not as effective against hardened armor.
-
-Gel rounds: These less-lethal rounds use a hard, jelly-like substance that is a safer alternative to rubber bullets. They are often employed for riot control. Their usually semi-rigid slugs flatten on impact, disbursing their kinetic energy over a larger-than-normal area. Gel rounds inflict Stun damage (AP +1). Gel rounds give the target Disadvantage against being knocked prone (see Resist Knockdown)
-
-Hollow point rounds: Hollow point or dum dum rounds have their tips indented, so they are designed to “mushroom” or expand on impact, becoming a hail of deadly fragments not unlike flechettes, although hollow points are a much older technology. Like flechettes, hollow points work better on unarmored targets and tend to flatten against armor.
-
-Injection darts: For use with dart guns of various types, like the Parashield pistol and rifle. Each injection dart carries a single dose of a drug or toxin (sold separately). The effect of the dart depends on the drug payload, but to successfully deliver that payload, the attack with the dart must get at least one net hit against an unarmored target or three net effect against a target with armor. This is an injection vector toxin attack.
-
-Regular ammo: Also called ball or full metal jacket rounds, these solid slugs are useful for numerous applications (mainly killing things).
-
-Stick-n-Shock: Stick-n-Shock rounds deal electrical Stun damage of equal to the damage of the base weapon –2. They have a flat AP of –5 that replaces the weapon’s AP instead of stacking with it.
-
-Tracer rounds: Tracer ammo burns along the line of flight, making it easier for the shooter to home in on the target. This type of ammunition can only be used in Full Auto weapons and, being loaded as every third round in a clip, is an exception to the restriction of one type of ammunition per clip. They improve the Accuracy of your gun by 1 when you fire more than one round in an Action Phase (cumulative with a laser sight but not a smartgun).
-
-Taser dart: These darts are designed to be loaded into taser weapons
-
-**GRENADES**
+| **GRENADES**        | **DV GZ** | **DV CLOSE** | **DV NEAR** | **BLAST** | **AVAIL** | **COST**                |
+| ------------------- | --------- | ------------ | ----------- | --------- | --------- | ----------------------- |
+| Stun                | 10S       | 8S           | 6S          | 15y       | 4(L)      | 100¥                    |
+| Fragmentation       | 16P       | 12P          | 8P          | 20y       | 4(I)      | 150¥                    |
+| High explosive      | 16P       | 10P          | 4P          | 15y       | 4(I)      | 150¥                    |
+| Gas                 | —         | —            | —           | —         | 4(I)      | 50¥ + 20 doses chemical |
+| Smoke/thermal smoke | —         | —            | —           | —         | 4(I)      | 50¥                     |
+| Flash-pak*          | BIII      | BII          | BI          | 10y       | 4(L)      | 125¥                    |
 
 
-Grenades are small, self-contained explosive packages. Minigrenades are grenades specifically designed for use with grenade launchers, set to arm when they have traveled 5 yards from their point of origin and explode on impact (unless using an airburst link). This safety feature can be disabled with an `Demolitions + Logic [Mental] (12,4, 5 Minutes) Extended Test`. Minigrenades have the same cost and effects as standard grenades. Use the Throwing Weapons skill when throwing grenades, or Heavy Weapons when launching a grenade from a grenade launcher. Follow the rules for Grenades. Grenades and similar explosives can also be rigged with a tripwire to set up as a basic booby-trap. This requires an `Extended Demolitions + Logic [Mental] (12, 8, 1 Major Action) Test`. In addition to any other wireless bonus, all grenades have the following wireless feature (use it with caution): Wireless: You can use the wireless link trigger for your grenades, even if you don’t have DNI (Direct Neural Interface).
+**APDS**
 
-Flash-bang grenades: Upon detonation, these “concussion” or “stun” grenades explode to create a bright, loud, shocking blast distributed equally over a radius of 10 yards.
+Armor-piercing discarding sabot is a mouthful, which is why the APDS acronym is used so frequently. The sabot allows for high muzzle velocities pushing an ultra-hard penetrator designed to punch through armor. APDS is rarely made caseless because the sabot shells are left lying around anyway.
 
-Flash-pak: Not a grenade per se, this is an electronic unit the size of a pack of cigarettes containing four quartz-halogen micro-flashes designed to fire in random strobing sequence to blind opponents. Anyone looking in the direction of a flash-pak receives a –4 modifier on attack tests due to the strobing (flare compensation goggles, glasses, etc. reduce this modifier to –2, while flare compensation in cybereyes or as a retinal modification reduces this modifier to –1). The flash-pak has 10 charges; when activated it uses one charge per Combat Turn. When plugged in, it recharges one charge every 10 seconds. Wireless: The strobe sequence can avoid directing strong flashes at the subscribed character; they suffer only half glare penalties from the flash-pak, rounded down. It can recharge by induction, regaining one charge per hour.
+**Explosive**
 
-Fragmentation grenade: These classic killing devices are designed to spread a cloud of deadly shrapnel over a large area, seriously injuring soft targets.
+These slugs carry a shaped-charge explosive. Explosive rounds misfire whenever you roll a critical glitch. When this happens, the attacker must resist damage equal to the Damage Value done by the weapon (and don’t forget the modifier for the explosive rounds). Naturally, the attack misses its
+intended target, and the weapon firing the bullets is destroyed.
 
-High-explosive grenade: These grenades are designed to deliver a large blast and concentrated hurt.
+**Flechette**
 
-Gas Grenade: Instead of exploding, the gas grenade releases a cloud of gas over an area with a radius of 10 yards. This is usually riot control/CS gas, but many other chemical or toxin payloads can be chosen (Toxins, Drugs, and BTLs). The cloud lasts for approximately 4 Combat Turns (less in windy areas, longer in confined areas with poor ventilation, at the gamemaster’s discretion).
+The payload of a flechette (fl) round is made up of tiny, tightly packed fin-stabilized metal slivers or metal balls (depending on the weapon). They have some spread, making them more likely to catch a soft spot, but they’re small compared to other ammo, delivering less kinetic energy to the target.
 
-Smoke: Similar to the gas grenade, a smoke grenade releases a cloud of smoke over an area with a diameter of 10 yards. The cloud obscures vision, applying visibility modifiers for smoke to relevant tests. The cloud lasts for approximately 4 Combat Turns (less in windy areas, longer in confined areas with poor ventilation, at the gamemaster’s discretion).
+**Gel**
 
-Thermal smoke: Identical to a smoke grenade, except that the smoke contains hot particles designed to obscure thermographic vision. Apply the visibility modifiers for thermal smoke. The cloud lasts for approximately 4 Combat Turns (less in windy areas, longer in confined areas with poor ventilation, at the GM’s discretion).
+These gel-ball rounds look like flattened blueberries on impact. Generally used for riot control or non-lethal subdual, they’re great for knocking a target on their hoop, though you shouldn’t expect that to work on trolls. Gel rounds inflict Stun damage. A target struck by a gel round must succeed at an immediate Agility (2) or Body (4) test (player’s choice) or gain the Prone status. Burst Fire and Full Auto increase the threshold to avoid being knocked down by 1.
+
+**Stick-n-Shock**
+
+Stick-n-Shock rounds make any regular weapon a taser. They deal Stun damage and apply the Zapped status but don’t carry the punch of the regular round.
+
+**Assault cannon**
+
+Big rounds for assault cannons. They’re the only thing assault cannons can load, and they can’t be modified with other types.
+
+**Injection darts**
+
+Each injection dart carries a single dose of a drug or toxin (purchased separately). Successful delivery of the payload requires at least one net hit on the Attack test versus an unarmored target or two net hits against a target with any form of armor, be it worn or natural. The effect of the dart depends on the drug payload and is an Injection-vector toxin attack
+
+**Taser**
+
+These darts are designed to be loaded into taser weapons.
+
+**Regular**
+
+Classic ball or full metal jacket slugs.
+
+
+**All Things That Go BOOM!**
+
+Some days, you want to make things blow up real good. Okay, make that most days. Anyway, here are some ways to blow a little select portion of the world to smithereens.
+
+**Grenades**
+
+Grenades are small, self-contained explosive packages. Boom and shrapnel all in one neat and deadly little cluster! Minigrenades are specifically designed for use with grenade launchers, set to arm when they have traveled five meters and explode on impact or with an airburst link. The five-yard safety feature can be disabled with an `Engineering + Logic (4, 5 Minutes) Extended Test`. Minigrenades have the same effects as standard grenades.
+
+The damage from grenades becomes less the farther away from them you are. The DV entry for grenades lists the initial damage for those closest to the grenade, within a meter, called Ground Zero, then two categories of lesser damage for those in Close and Near Range, with the damage limited to a maximum range of the Blast attribute. Use the `Athletics skill + Agility` when throwing grenades, or `Exotic Weapons (Launcher) + Agility` when launching a grenade from a grenade launcher. Follow the rules for Blast Attacks. Grenades and similar explosives can also be rigged with a tripwire to be set up as a basic booby trap. This requires an `Engineering + Logic (8, 1 Major Action) Extended Test`. All grenades have the following wireless feature: You can use the wireless link trigger for your grenades via an ARO on your commlink even if you don’t have direct neural interface.
+
+**Stun grenade**
+
+Often called flash-bangs, these grenades explode to create a bright, loud, shocking blast that stuns and staggers anyone in their range. Along with the damage, those in the Blast of a Stun grenade suffer the Blinded I, Deafened I, and Dazed Status Effect.
+
+**Flash-pak**
+
+This is an electronic box, ten centimeters by ten centimeters on its face and two centimeters thick, containing a set of micro-flashes on each side designed to fire in random strobing sequence to confuse opponents. Anyone in the range of a flash-pak and using standard vision receives the Blinded status (p. 51) indicated in the DV chart on all tests that include vision due to the strobe effect. Using low-light causes the status to shift up one level. Flare compensation drops the status down one level. The flash-pak has ten charges and uses one charge per combat round. Plugged in, it recharges one charge every ten seconds. 
+
+Wireless bonus: The strobe sequence can avoid directing strong flashes at the subscribed character preventing any Status Effect for them. The device can recharge by induction, regaining one charge per hour
+
+**Fragmentation**
+
+The classic grenade, designed to launch deadly shrapnel over a large area.
+
+**High explosive**
+
+These grenades are designed to deliver a powerful blast but over a smaller space.
+
+**Gas**
+
+Any chemical or toxin payload can be chosen (Toxins and Drugs). The cloud lasts for approximately 10 combat rounds, based on the Gas Attack rules.
+
+**Smoke/thermal smoke**
+
+Similar to the gas grenade, a smoke grenade releases a cloud of smoke instead of toxic gas. The cloud obscures vision, inflicting the Blinded I Status for anyone acting through the smoke and Blinded II for anyone trying to act from within the smoke. The cloud lasts for approximately 10 combat rounds based on the Gas Attack rules.
 
 **ROCKETS AND MISSILES**
 
+| **ROCKERS/MISSILES**       | **DV GZ** | **DV CLOSE** | **DV NEAR** | **BLAST** | **AVAIL** | **COST**                         | **NOTES**            |
+| -------------------------- | --------- | ------------ | ----------- | --------- | --------- | -------------------------------- | -------------------- |
+| Anti-vehicle Rocket        | 12P       | 8P           | 4P          | 10m       | 5(I)      | 2,800¥                           | -                    |
+| Fragmentation Rocket       | 16P       | 12P          | 8P          | 30m       | 5(I)      | 2,000¥                           | -                    |
+| High Explosive Rocket      | 16P       | 10P          | 4P          | 20m       | 5(I)      | 2,100¥                           | -                    |
+| Gas Rocket                 | —         | —            | —           | —         | 4(I)      | 750¥ + 100 dose payload          | Use Gas Attack rules |
+| Smoke/Thermal Smoke Rocket | —         | —            | —           | —         | 4(I)      | 1,200¥                           | See rules            |
+| Missile Variant            | as Rocket | as Rocket    | as Rocket   | as Rocket | +1(I)     | As Rocket + Sensor rating x 500¥ | +2 to Attack Rating  |
 
-Rockets are projectiles consisting of a light metal or plastic body with stabilizing fins, a propulsion system (usually solid-chemical) and a warhead. Missiles are rockets that carry internal guidance systems, making them more expensive than standard “dumb” rockets.
+Rockets are launched projectiles with stabilizing fins, a propulsion system, and a warhead. Missiles are rockets that carry internal guidance systems, with sensor packages adding their rating to the attack roll, since they can adjust their trajectory in flight (also reflected in their Attack Rating). Rockets and missiles are set to arm when they have traveled 10 yards from their point of origin and explode on impact or with an airburst link. This safety feature can be disabled with an `Engineering + Logic (4, 5 Minutes) Extended Test`.
 
-Rules for firing rockets and missiles are in the Rules chapter Rockets and missiles are set to arm when they have traveled 10 yards from their point of origin and explode on impact. This safety feature can be disabled with an Demolitions + Logic [Mental] (12,4, 5 Minutes) Extended Test. In addition to any other wireless bonus, all rockets and missiles have the following wireless feature: Wireless: You can use the wireless link trigger for your rocket or missile, even if you don’t have DNI (Direct Neural Interface).
+As is the case with grenades, damage from rockets and missiles decreases the farther you are from the point of impact. The ranges differ based on the weapon, as listed in the stats for each weapon. All rockets and missiles have the following wireless feature: You can use the wireless link trigger for your rocket or missile, even if you don’t have a direct neural interface.
 
-Anti-vehicle: AV rockets/missiles contain a shapedcharge warhead designed to burn or punch its way through a vehicle or barrier. Though the impact causes a blast, it is limited compared to that of a High-Explosive projectile. AV attacks have an AP of –10 against vehicles and barriers, –4 against other targets.
+**Anti-vehicle**
 
-Fragmentation: Used principally against people, the warhead discharges high-speed metal or plastic-metal fragments designed to tear into unprotected flesh. These rockets/missiles are very effective against unprotected individuals, but fairly ineffective against barriers, structures, and vehicles.
+AV rockets/missiles contain a shaped-charge warhead designed to burn or punch its way through a vehicle or barrier. Though the impact causes a blast, it is limited compared to that of a High-Explosive projectile. +2 Attack Rating against vehicles.
 
-High explosive: HE rockets/missiles are designed to do heavy damage to a large area. Their blast pattern is similar to that of a grenade, but much larger. They are not particularly effective against hardened targets, such as vehicles or protected military structures. HE weapons use the standard grenade rules for determining the blast and its effects
+**Fragmentation** 
 
+Used principally against people, the warhead discharges high-speed fragments designed to tear soft targets. These rockets/missiles are very effective against unprotected individuals, but not great against barriers, structures, and vehicles.
 
-**EXPLOSIVES**
+**High explosive** 
 
-| **TYPE, PER 2 POUNDS** | **RATING** | **AVAIL** | **COST**      |
-| ---------------------- | ---------- | --------- | ------------- |
-| Commercial             | 3          | 8R        | 100¥          |
-| Foam                   | 4-15       | 12F       | Rating x 100¥ |
-| Plastic                | 4-15       | 16F       | Rating x 100¥ |
-| **ACCESSORIES**        | **RATING** | **AVAIL** | **COST**      |
-| Detonator cap          | —          | 8R        | 75¥           |
-
-Explosives are primarily used to damage structures. You can use the Demolitions skill to prepare explosives, identify key or weak structural points, and focus the blast. Each Effect on a `Demolitions + Logic [Mental] Test` adds 1 to the explosive’s effective rating. See Barriers, for calculating an explosive’s effect on a barrier.
-
-> Shadowrun really jumped the shark 2e and beyond with square roots and making this insanely complicated. This is Sixfinity not Shadowrun.
+HE rockets/missiles are designed to do heavy
+damage to a small area. Their blast pattern is similar
+to that of a grenade, but slightly larger.
 
 
-All explosives do `Rating * 3 Explosive Damage` they lose 1 rating per Yard (or square) from the origin point.
+**Conventional Explosives**
 
-Commercial explosives: A range of explosive compounds, both solid and liquid, are available to the construction industry for all their destructive needs.
+| Explosives Rating | AVAIL | COST            |
+| ----------------- | ----- | --------------- |
+| 1–3               | 1(I)  | Rating x 10¥    |
+| 4–6               | 2(I)  | Rating x 50¥    |
+| 7–9               | 3(I)  | Rating x 100¥   |
+| 10–12             | 4(I)  | Rating x 250¥   |
+| 13–15             | 5(I)  | Rating x 500¥   |
+| 16–18             | 6(I)  | Rating x 1,000¥ |
+| 19–20             | 7(I)  | Rating x 5,000¥ |
+| Detonator Cap     | 4(I)  | 75¥             |
 
-Plastic explosives: These highly stable moldable, and adhesive explosive compounds are military grade. They’re ideal for certain jobs, like breaching walls. They are usually color-tinted to indicate the level of current needed to detonate them, from the black of magnetic- field induction to the chalky white of 440-volt industrial explosives.
 
-Explosive foam: Plastic explosives with the consistency of shaving cream, stored in an aerosol can. Perfect for spraying into crevices, and detonated the same way as regular plastic explosives.
 
-Detonator cap: This detonator is inserted into a mass of explosives and set off either by a programmable timer or radio signal. Setting the timer takes a Major Action. Wireless: You can set the detonator’s timer with a Minor Action. You can also set it off without a countdown as a Free Action.
+Explosives are primarily used to damage structures, but metahumankind has come up with many ways to have them hurt body structures. You can use the Engineering skill to prepare explosives
+
+A range of explosive compounds, both solid and liquid, are available to the construction industry for all their destructive needs. All explosives are bought as an Explosive Package with a set Rating that encompasses an amalgamation of their power and quantity without defining either. They cannot be combined between rating ranges due to the differences in compounds and quantities. This makes using them simpler
+
+**Plastic**
+
+These highly stable, moldable, and adhesive explosive compounds are military grade. They’re ideal for certain jobs, like breaching walls and are usually color-tinted to indicate the level of current needed to detonate them, from the black of magnetic- field induction to the chalky white of 440- volt industrial explosives. We say usually because some bomb makers like to dye their devices to throw off bomb techs trying to disarm their device.
+
+**Foam**
+
+Plastic explosives with the consistency of shaving cream, stored in an aerosol can. Perfect for spraying into crevices, and detonated the same way as regular plastic explosives.
+
+**Detonator cap**
+
+This detonator is inserted into a mass of explosives and set off either by a programmable timer or radio signal. Setting the timer takes a Major Action. Wireless bonus: You can set the detonator’s timer with a Minor Action. You gain a Minor Action Command DNI-linked device Action to detonate the explosive.
 
 ### Clothing and Armor
 
-In 2075, you’d have to be crazy to consider walking outside with just a tee-shirt and jeans, even in some of the nicer parts of the Sprawl. You need protection: from the acid rain, from air pollution, from ultraviolet radiation from the completely fragged ozone layer, and of course, from random street violence.
+The streets of 2080 are mean, but so is the air, the rain, the paracritters, and a plethora of other things that can kill you just for walking out your front door. What’s the solution? Armor! Get yours here, and maybe you’ll survive a few days in the sprawl.
+
+**Clothing**
+
+Clothing in 2080 has some serious functionality options: commlinks, music players, and other electronic devices can be woven right in, powered by interwoven batteries or special energy-gathering fabrics. On the other side of the economy, cheap soybased “flats” can be had for ten nuyen a set from vending machines around whatever sprawl you find yourself in. Spend more money, look more chic—simple as that.
+
+| **CLOTHING**                | **AVAIL** | **COST**    |
+| --------------------------- | --------- | ----------- |
+| Clothing                    | —         | 20¥-10,000¥ |
+| Electrochromic modification | 1         | +75¥        |
+| Feedback clothing           | 1         | +150¥       |
 
 
-| **CLOTHING**                | **ARMOR**        | **AVAIL** | **COST**     |
-| --------------------------- | ---------------- | --------- | ------------ |
-| Clothing                    | 0                | —         | 20¥-100,000¥ |
-| Electrochromic modification | —                | +2        | +500¥        |
-| Feedback clothing           | —                | 8         | +500¥        |
-| (Synth)Leather              | 2                | —         | +200¥        |
-| **ARMOR**                   | **ARMOR RATING** | **AVAIL** | **COST**     |
-| Actioneer Business Clothes  | 5                | 8         | 1,500¥       |
-| Armor clothing              | 4                | 2         | 450¥         |
-| Armor jacket                | 8                | 2         | 1,000¥       |
-| Armor vest                  | 6                | 4         | 500¥         |
-| Chameleon suit              | 8                | 10R       | 1,700¥       |
-| Full body armor             | 10               | 14R       | 2,000¥       |
-| Full helmet                 | +2               | —         | +500¥        |
-| Chemical seal               | —                | +6        | +6,000¥      |
-| Environment adaptation      | —                | +3        | +1,000¥      |
-| Lined coat                  | 6                | 4         | 900¥         |
-| Urban Explorer Jumpsuit     | 6                | 8         | 650¥         |
-| Helmet                      | +1               | —         | +100¥        |
-| **HELMETS/SHIELDS**         | **ARMOR RATING** | **AVAIL** | **COST**     |
-| Helmet                      | +1               | 2         | 100¥         |
-| Ballistic shield            | +6               | 12R       | 1,200¥       |
-| Riot shield                 | +2               | 10R       | 1,500¥       |
+| **ARMOR**                  | **DEFENSE RATING** | **CAPACITY** | **AVAIL** | **COST** |
+| -------------------------- | ------------------ | ------------ | --------- | -------- |
+| Synthleather jacket        | +1                 | 3            | 1         | 300¥     |
+| Actioneer Business Clothes | +2                 | 6            | 2         | 1,500¥   |
+| Armor clothing             | +2                 | 4            | 2         | 400¥     |
+| Armor jacket               | +4                 | 8            | 2         | 1,000¥   |
+| Armor vest                 | +3                 | 6            | 2         | 750¥     |
+| Chameleon suit             | +2                 | 4            | 4(I)      | 2000¥    |
+| Full body armor            | +5                 | 10           | 4(L)      | 2,000¥   |
+| Full helmet                | +2                 | 6            | -         | 500¥     |
+| Lined coat                 | +3                 | 7            | 2         | 900¥     |
+| Urban Explorer Jumpsuit    | +3                 | 6            | 2         | 800¥     |
+| **HELMETS/SHIELDS**        | **DEFENSE RATING** | **CAPACITY** | **AVAIL** | **COST** |
+| Helmet                     | +1                 |              | 2         | 100¥     |
+| Ballistic shield           | +6                 |              | 12R       | 1,200¥   |
+| Riot shield                | +2                 |              | 10R       | 1,500¥   |
 
 
 | **MODIFICATION**    | **CAPACITY** | **AVAIL** | **COST**      |
@@ -3172,100 +3378,101 @@ In 2075, you’d have to be crazy to consider walking outside with just a tee-sh
 
 #### Clothing Descriptions
 
-Clothing: Clothing in 2075 comes with amazing features you’ll likely completely take for granted. Commlinks, music players, and other electronic devices can be woven right into the fabric, powered by interwoven batteries or special energy-gathering fabrics. On the other side of the economy, cheap soybased “flats” can be had for five nuyen per article of clothing from vending machines around the Sprawl. The more money you spend on your threads, the more impressive you look.
+**Electrochromic feature**
 
-Electrochromic clothing: Electrochromic threads can change color with voltage, letting you alter the color of your clothing or display text, images, or patterns. This is good for fashion, but great for vanishing into a crowd if you need a quick costume change. You can even get armored clothing in electrochromic styles. It takes a Minor Action to change the settings on your electrochromic clothes, but a couple of Combat Turns to complete the change.
+Electrochromic threads can change color with voltage, letting you alter the color of your clothing or display text, images, or patterns. This is good for fashion, but great for vanishing into a crowd if you need a quick costume change. You can even get armored clothing in electrochromic styles. It takes a Minor Action to change the settings on your electrochromic clothes, but two combat rounds to complete the change.
 
-Wireless: Changing your clothes’ settings is a Free Action, and while it’s not good enough to be camouflage, it can display images, text files, or flat video from your commlink.
+Wireless bonus: You gain a free Minor Action during any turn when you change your clothes’ settings, and your clothing can display images, text files, or video from your commlink.
 
-Feedback clothing: This haptic clothing allows for a tactile component to an augmented reality experience. 
+**Feedback feature**
 
-Leather jacket/duster: Usually made of synthleather unless you’ve got mad nuyen, this type of jacket (waist-length to duster) never goes out of style and even offers a modicum of protection. Just don’t expect it to stop bullets.
+This haptic clothing allows for a tactile component to an augmented reality experience.
 
 #### Armor Descriptions
 
-Actioneer Business Clothes: A discreetly armored
-“power suit” is a popular choice among Mr. Johnsons,
-faces, and fixers looking for a little high-class protection
-coupled with style. It features a concealable holster
-(Firearm Accessories, p. 431) in the jacket.
+Due to materials advances modern armor can be lightweight, flexible, and concealable. Armor adds to Defense Rating, and multiple items do not stack unless noted.
 
-Armor clothing: Lightweight ballistic fiber weave
-makes these garments almost impossible to detect as
-armor. It doesn’t provide as much protection as real armor,
-but it’s available in a wide variety of styles.
+**Leather jacket/duster**
 
-Armor jacket: The most popular armor solution on
-the streets comes in all styles imaginable. It offers good
-protection without catching too much attention. But
-don’t think of wearing one to a dinner party.
+Synthleather is the norm for street types, and this type of jacket (waist-length to duster) never goes out of style. It even offers a modicum of protection.
 
-Armor vest: This modern flexible-wrap vest is designed
-to be worn under regular clothing without displaying
-any bulk. A popular and cost-effective option.
+**Actioneer business clothes**
 
-Chameleon suit: This full-body suit has a smart ruthenium
-polymer coating supported by a sensor suite; the
-technology allows it to scan its surroundings and replicate
-the images at the proper perspectives. Add 2 to your
-limit when you make Sneaking tests to hide. A chameleon
-suit is also armored for the wearer’s protection.
+This is the fancy armored suit popular among Mr. Johnsons, faces, and fixers looking for a little protection coupled with style. It features a concealable holster in the jacket.
 
-Wireless: The suit uses the extra information about
-your surroundings and also gives you a +2 dice pool bonus
-to Sneaking Tests for hiding.
+**Armor clothing**
 
-Full body armor: Impossible to conceal, this armor is
-worn by military and security personnel around the world
-for heavy ops duty. It is styled for intimidation as well as
-ease of movement, with a full array of tactical holsters,
-pouches, and webbing, and is certain to draw attention.
-The suit can be modified for environmental adaptation (hot
-or cold environments) or chemically sealed to completely
-protect the wearer from toxic environments and attacks.
-The suit’s helmet has a Capacity of 6 for the purpose of
-being equipped with vision or audio enhancements.
-Lined coat: This Wild West style duster has been
-consistently popular on the mean streets of the world’s
-sprawls for the past thirty years. Besides its protective
-traits, the armored trenchcoat provides an additional –2
-Concealability modifier to items hidden underneath.
-Urban Explorer Jumpsuit: Designed for couriers,
-athletes, and freerunners, these colorful jumpsuits are
-well ventilated and breathable but surprisingly protective
-with lightweight densiplast and liquid reactive armor.
-Urban explorer jumpsuits feature a built-in music
-player and biomonitor.
+Lightweight ballistic weave makes these garments almost impossible to detect as armor. It doesn’t provide as much protection as real armor, but it comes in just about any style you desire.
+
+**Armor jacket**
+
+Available in all manner of styles, it offers good protection without catching too much attention. But don’t think of wearing one to a social event or government building.
+
+**Armor vest**
+
+A flexible-wrap vest designed to be worn under regular clothing without displaying any bulk.
+
+**Chameleon suit**
+
+A head-to-toe suit with a ruthenium polymer coating supported by a sensor suite, allowing it to scan its surroundings and replicate the images at the proper perspectives. You gain a bonus Edge when performing Stealth tests to hide while wearing an active suit.
+
+Wireless bonus: The suit also raises your Defense Rating by 2 thanks to improved hiding ability.
+
+**Full body armor**
+
+This armor is worn by military and security personnel around the world for heavy-duty jobs. It is styled for intimidation but includes an array of tactical holsters, pouches, and webbing for deadly efficiency. It’s going to draw attention, just so you know. The suit can be modified for environmental adaptation (hot or cold environments) or chemically sealed to completely protect the wearer from toxic environments and attacks. The suit comes with a helmet with a Capacity of 6 for vision or audio enhancements.
+
+**Lined coat**
+
+This cowboy-style duster has been consistently popular on the mean streets of the world’s sprawls for the past fifty years. Besides being protective, the armored trenchcoat provides a bonus Edge against tests to spot items hidden underneath.
+
+**Urban Explorer jumpsuit**
+
+Designed for couriers, athletes, and freerunners, this is the armored version of “flats” but available in a stupid array of styles. Because they’re so hip, these jumpsuits include a built-in music player and biomonitor.
+
+
 
 ##### ARMOR MODIFICATIONS
 
-Any piece of worn armor can be upgraded with a range of modifications. The Capacity of a piece of armor is equal to its Armor Rating. Armor modifications have variable Capacity costs. Each modification also has a rating between 1 and 6, except as noted.
+Armor can be upgraded with a range of modifications. The Capacity of a piece of armor is listed in the Armor Table. Armor modifications have a Capacity costs equal to their rating; the Capacity cost determines how much you can stuff into a single piece of armor.
 
-Chemical protection: Water-resistant, non-porous, impermeable materials, and a coating of neutralizing agents protect the wearer against contact-vector chemical attacks (Toxins, Drugs and BTLs). Add the rating of the Chemical Protection modification to tests made to resist contact-vector toxin attacks.
+**Chemical Protection**
 
-Chemical seal: Available only to full body armor that includes a helmet, the chemical seal is an airtight environmental control that takes a Major Action to activate (if you’re already wearing the armor, natch). It provides complete protection against contact and inhalation vector chemicals, but can only be used for a total of an hour (the limit of the air supply) at a time.
+This modification protects the wearer against Contact-vector chemical attacks (Toxins and Drugs, p. 121). The special coating neutralizes the Corrosive status for a number of attacks equal to its rating.
 
-Wireless: Activating the chemical seal is a Free Action.
+**Chemical Seal**
 
-Fire resistance: Fire-retardant, nonflammable materials protect the wearer against Fire damage. Add the full rating of the Fire Resistance modification to the Armor value when resisting Fire attacks or checking if the armor catches fire.
+Available only with full body armor, the chemical seal is an airtight environmental control that takes a Major Action to activate. It prevents the effects of all statuses connected to Contact- and Inhalation- vector chemicals but can only be used for a total of an hour at a time due to the air supply. It also neutralizes the Corrosive status six times before it’s built in chemical protection is worn away and the armor no longer has chemical seal protection. Wireless bonus: Activating the chemical seal is a Minor Action.
 
-Insulation: Thermal fibers and heat-retentive materials protect the wearer against Cold damage. Add the full rating of the Insulation modification to the Armor value when resisting Cold attacks.
+**Cold Resistance**
 
-Nonconductivity: Electrical insulation and non-conductive materials protect the wearer against Electricity damage. Add the full rating of this modification to the Armor value when resisting Electricity attacks.
+Thermal fibers and heat-retentive materials protect the wearer. The armor cancels the Chilled status a number of times equal to its rating. Once it has resisted the Chilled status a number of times equal to its rating, it is worn away, and the armor no longer has cold resistance.
 
-Shock frills: These strips of “fur” are electrically charged when activated, standing on end and inflicting Electricity damage to anyone that touches you. Use Unarmed Combat to attack with the frills. The frills hold 10 charges; when attached to a power point, they recharge one charge per 10 seconds. Wireless: The shock frills can be activated or deactivated as a Free Action. They can also recharge by induction, recharging one charge per hour.
+**Fire Resistance**
 
-Thermal damping: Designed to reduce your thermal signature, these inner layers capture or bleed heat, so the outer layers maintain a surface temperature equal to the surrounding air. Add the rating to your limit on any Sneaking test against thermographic vision or thermal sensors. Wireless: The suit uses the extra information about your surroundings and also gives you its rating as a dice pool bonus to Sneaking tests against heat-based detection.
+Fire-retardant, nonflammable materials protect the wearer. The armor cancels the Burning status a number of times equal to its rating. Past that point, it is worn away, and the armor no longer has fire resistance.
 
-#### HELMETS AND SHIELDS
+**Electricity Resistance**
 
-Instead of counting as separate pieces of armor, helmets and shield modify the rating of worn armor by their Rating (Armor and Encumbrance). Due to the awkwardness of holding a shield, if you’re using one you take a –1 modifier to your Physical limit when you do something where the shield might get in the way (though not attacks made using the shield as a weapon). Shields may be upgraded with the chemical protection, fire resistance, and nonconductivity armor modifications and have a Capacity equal to their Armor Rating for this purpose.
+Electrical insulation and non-conductive materials protect the wearer. The armor cancels the Zapped status a number of times equal to its rating. Once it has been Zapped a number of times equal to its rating, it is worn away, and the armor no longer has electricity resistance.
 
-Helmet: Helmets come in a wide variety of shapes and sizes and protect your noggin from trauma. Helmets have Capacity 6 for being tricked out with accessories like trode nets and vision enhancements.
 
-Ballistic shield: This large opaque shield is used by SWAT teams and in urban combat. It features a clear plastic window and a built-in ladder frame along the inside so that it can be used to climb over small obstacles.
 
-Riot shield: As an added crowd control measure, a riot shield can be used to shock anyone who comes into contact with it, inflicting Electricity damage. The taser shield holds 10 charges; when attached to a power point, it regains one charge per 10 seconds. Wireless: The riot shield recharges by induction, recharging one charge per hour.
+#### Helmets & Shields
+
+Helmets come in a wide variety of shapes and sizes and protect your noggin from trauma. Helmets have Capacity that is usable for accessories such as trode nets and vision enhancements.
+
+**Shields**
+
+**Ballistic shield**
+
+The impressive black shield used by SWAT teams and in urban combat. It features a clear plasteel window and a built-in ladder frame along the inside so that it can be used to climb over short obstacles.
+
+**Riot shield**
+
+The clear plasteel cousin of the ballistic shield, this one adds an electricity attack option. Use the Close Combat skill for the attack and attack characteristics of a Stun Baton. The taser shield holds 10 charges; when attached to a power point, it regains one charge per 10 seconds.
+
+Wireless bonus: The riot shield recharges by induction, recharging one charge per hour.
 
 ### ELECTRONICS
 
@@ -3429,7 +3636,7 @@ When an enemy leaves your threatened area you may make an immediate melee attack
 
 ##### Block (A)
 
-A character can add their Close Combat skill to their melee defense. This lasts until they are attacked or their next turn
+A character can add their Close Combat skill to their Defense versus Melee Attacks. This lasts until they are attacked or their next turn
 
 ##### Change Device Mode (A)
 
@@ -3449,7 +3656,7 @@ A character may dismiss their spirit at any time with a Minor Action.
 
 ##### Dodge (A)
 
-A character can add their Athletics skill to their ranged Defense. This lasts until they are attacked or their next turn.
+A character can add their Athletics skill to their Defense versus Ranged Attacks. This lasts until they are attacked or their next turn.
 
 ##### Drop Object (A)
 
@@ -3518,7 +3725,7 @@ These actions take a bit more concentration or time to complete. Several involve
 | Use Skill (I)               |
 
 ##### Assist (A)
-You make the same test they are making; your Effect becomes Bonus Edge for them to use up to 7 points total from your roll.
+You make the same test they are making; your Effect becomes Bonus Effect for them to use up to 7 points total from your roll.
 
 ##### Astral Projection (I)
 
@@ -3604,7 +3811,7 @@ Ranged Attack Rolls are rolled as: `3d6 + Firearms + Agility + Misc` vs. Targets
 
 >Oda is firing a pistol using Firearms 5 + Agility 7 + 1 for a wireless active smartlink (he’s not worried about a hacker in this gang), for a modifier of 13. The Eye-Fiver defends with Reaction 4 + Intuition 3, a defense of 17.
 >
-> Oda gets 2 Bonus Edge and uses them for both to get 1 more Effect. Oda rolls and gets a 24 more than enough to hit the Eye-Fiver. Comparing the Effect Dice for Oda who has a 6 on his Effect Dice and the Eye-Fiver has a 2 on his Effect Dice. Making the Net Effect 4, Oda adds his +1 Effect from his Bonus Edge spend to have 5 Net Effect.
+> Oda gets 2 Bonus Effect Oda rolls and gets a 24 more than enough to hit the Eye-Fiver. Comparing the Effect Dice for Oda who has a 6 on his Effect Dice and the Eye-Fiver has a 2 on his Effect Dice. Making the Net Effect 4, Oda adds his +2 Effect from his Bonus Effect to have 6 Net Effect.
 
 
 
@@ -3615,7 +3822,7 @@ Involved as they are in an illegal and often hazardous line of work, runners get
 Damage is calculated based on the weapon, spell, effect in Physical or Stun. You deduct that from your Health. 
 
 > Continuing from Above
-> We calculate the incoming damage using the base Damage Value of the Ares Predator VI (3P) and add the net effect (5) to get a modified Damage Value of 8. The Eye-Fiver leader has a Toughness of 1 to soak the Damage, reducing the incoming damage to 7 of Physical Damage. As an NPC the Eye-Fiver only has 10 Health so he has 3 left. 
+> We calculate the incoming damage using the base Damage Value of the Ares Predator VI (3P) and add the net effect (6) to get a modified Damage Value of 8. The Eye-Fiver leader has a Toughness of 1 to soak the Damage, reducing the incoming damage to 8 of Physical Damage. As an NPC the Eye-Fiver only has 10 Health so he has 2 left. 
 
 #### Types of Injury
 
@@ -3710,7 +3917,7 @@ This status can be removed with certain gear (like baking soda for acids!) and e
 
 #### Cover I, II, III, IV
 
-Whether you hide behind a wall, a dumpster, or a body, Cover is protection from hostile fire. It comes at four levels, indicating how much of a character’s body is protected (one-quarter, onehalf, three quarters, or all). A character in Cover gets a +2 bonus per Cover level to their Defense Rating. Attacking from Cover requires an extra Minor Action in order to get clear enough to take a shot, imposes a –2 penalty to your attack at Cover IV, and you cannot gain Bonus Edge while attacking from Cover (you can gain it from defending).
+Whether you hide behind a wall, a dumpster, or a body, Cover is protection from hostile fire. It comes at four levels, indicating how much of a character’s body is protected (one-quarter, onehalf, three quarters, or all). A character in Cover gets a +2 bonus per Cover level to their Defense Rating. Attacking from Cover requires an extra Minor Action in order to get clear enough to take a shot, imposes a –2 penalty to your attack at Cover IV, and you cannot gain Bonus Effect while attacking from Cover (you can gain it from defending).
 
 #### Dazed
 
