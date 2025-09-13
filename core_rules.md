@@ -387,8 +387,9 @@ Final Touches and Derived Stats.
 ### Derived Stats
 
 #### Defense
+We use Defense Rolls to Defend Attacks. 
 
-Defense = 10 + Reaction + Intuition
+Defense = Reaction + Intuition
 
 #### Attack Rating
 
@@ -402,7 +403,7 @@ Defense Rating = Body + Armor
 
 #### Physical Health
 
-Physical Health = ([Body / 2] + 8) x4
+Physical Health = ([Body / 2] + 8) x3
 
 This is your Physical Health. If it reach zero you are bleeding to death. You will start at 0 and lose 1 point per round you are not stabalized. You can go into the negative equal to your Overflow. 
 
@@ -412,7 +413,7 @@ For Example Jared is hit by a Shotgun for 13. Jared only had 10 Physical left. S
 
 #### Stun Health
 
-Stun Health = ([Willpower / 2] + 8) x4
+Stun Health = ([Willpower / 2] + 8) x3
 
 This is where Stun Damage is recorded. If it reaches 0 you start taking Physical Damage and you are at Disadvantage to most Tests until you take a Breather (see Healing). 
 
@@ -482,16 +483,16 @@ Raising attributes is based on what the modifier not the base score. So to incre
 ## Chapter 2: Metatype
 
 ### Humans (homo sapiens sapiens)
-• Average height: 5'6
-• Average weight: 140 pounds
-• Ears: Rounded
-• Known for: Average size; average build; freaking out about people who don’t meet their averages
-• Racial qualities: Humans have no extra racial qualities.
+- Average height: 5'6
+- Average weight: 140 pounds
+- Ears: Rounded
+- Known for: Average size; average build; freaking out about people who don’t meet their averages
+- Racial qualities: Humans have no extra racial qualities.
 
 As the majority of the sentient beings of the world, humans create existing definitions of “normal,” and then some of them set out to abuse those definitions as hard as they can. These humans know that they lack the pure physical strength and social cohesion of some of the other metatypes, so they shape the world in a way that keeps the individuals they don’t like from ever realizing what they can do, and what they can become. The side effect of this, of course, is that many humans are caught up in the demoralizing machinery that the ruling corporate class has assembled, because they don’t fit into this artificial average. They are grist for the mill, people to be chewed up and spat out in the name of greater wealth and power for the people at the top. Because they’re humans, and there are so many of them, who’s going to notice how they’re ground down, and who is going to miss them when they’re gone? The shadows are full of humans who could not find a way to be normal or average.
 
 ### Elves (homo sapiens nobilis)
-- Average height: 1.9 meters
+- Average height: 1.9 yards
 - Average weight: 80 kg
 - Ears: Pointy
 - Known for: Slender, lithe build; being attractive and knowing it
@@ -500,7 +501,7 @@ As the majority of the sentient beings of the world, humans create existing defi
 Perhaps the most infuriating thing about elves to the other metatypes is that you can resent them like hell, and they just won’t care. They have two prosperous nations—Tír na nÓg (formerly known as Ireland) and Tír Tairngire (in the western part of North America)—they have people in some of the most powerful positions in the world, and celebrities whose MeFeed hits are in the billions. They are envied, not looked down on. But plenty of elves know that this envy does not extend to every elf. If you’re an elf who is not rich, elegant, or graceful, you’re often viewed as a failure, someone who had all the gifts of life handed to them and somehow screwed them up. And it’s not just nonelves who hold this view. Never mind that you might have grown up poor, never mind what obstacles you had to face—people think you automatically had it easy because you’re an elf. But elf society is not easy to survive. The upper crust can be absolutely ruthless about enforcing their status quo, labeling those who don’t fit as malcontents and finding ways to cast them aside. The barrens of the major sprawls of the world have plenty of elves who were thrown out because they wouldn’t cave to what society wanted them to be. Their anger could burn the whole earth.
 
 ### Dwarfs (homo sapiens pumilionis)
-Average height: 1.2 meters
+Average height: 1.2 yards
 - Average weight: 54 kg
 - Ears: Slightly pointy
 - Known for: Short size; stocky build; perseverance
@@ -510,7 +511,7 @@ Sixth World dwarfs are often accepted into mainstream society without being full
 
 
 ### Orks (homo sapiens robustus)
-- Average height: 1.9 meters
+- Average height: 1.9 yards
 - Average weight: 128 kg
 - Ears: Pointy- Known for: Big, powerful physique; tusks; constantly being seen as outsiders
 - Racial qualities: Orks have low-light vision and the Built Tough (1) quality
@@ -519,7 +520,7 @@ Orks make people nervous, and people don’t like to be nervous. Their tusks, bo
 
 
 ### Trolls (homo sapiens ingentis)
-- Average height: 2.5 meters
+- Average height: 2.5 yards
 - Average weight: 300 kg
 - Ears: Slightly pointy, often hidden by horns
 - Known for: Being so big, you guys. Just huge. And horns.
@@ -692,7 +693,7 @@ In certain drastic situations, even spending Edge may not be enough. A character
 
 #### Bonus Effect
 
-This comes up in some situations. Bonus effect is just like regular Effect. It is the same as having another D6 with the number of Bonus Effect on the dice, it adds to your total **and** to your overall effect. Bonus Effect are applied to the Net Effect after it is calculated.
+This comes up in some situations. Bonus effect is just like regular Effect. It is the same as having another D6 with the number of Bonus Effect on the dice, it adds to your total **and** to your overall effect. Bonus Effect are applied to the Net Effect after it is calculated. As a rule no one can get more than two Bonus Effect in a single round unless triggered by a mechanic like spending Edge, or rolling a Nat 18.
 
 It will always come up in combat as you are looking to see who has the tactical advanatage in the fight, that person will get a Bonus Effect to spend for each tactical advanatage they have. For example if your Defense Rating is higher than their Attack Rating. Whoever has the advantage will get a Bonus Effect for every 4 points of Advantage they have.
 
@@ -2647,7 +2648,7 @@ Everything from a roll of quarters in the palm (though who has that lying around
 
 **Monofilament Whip**
 
-Striking fear in the hearts of those who have warily watched its serpentine glow since the 2050s. In the hands of a trained user, this terrifying weapon can cut through armor, flesh, and bone as easy as butter with every millimeter of its two meters of monofilament line. In the wrong hands, or even with a bad twist of a skilled wrist, that line can send you to the street doc looking for a new limb. The whip is stored in the specially designed compartment in the handle with a small weight that detaches when the weapon is activated. Glitches are handled as usual, but a critical glitch always requires the wielder to resist the base damage of the weapon.
+Striking fear in the hearts of those who have warily watched its serpentine glow since the 2050s. In the hands of a trained user, this terrifying weapon can cut through armor, flesh, and bone as easy as butter with every millimeter of its two yards of monofilament line. In the wrong hands, or even with a bad twist of a skilled wrist, that line can send you to the street doc looking for a new limb. The whip is stored in the specially designed compartment in the handle with a small weight that detaches when the weapon is activated. Glitches are handled as usual, but a critical glitch always requires the wielder to resist the base damage of the weapon.
 
 Wireless bonus: The whip uses your visuals on the target to make small adjustments in targeting, and the whip adjusts its trajectory. This increases the Attack Rating by 2. Also, the whip’s built-in safety system retracts automatically instead of hitting you on a critical glitch.
 
@@ -2784,7 +2785,7 @@ Tasers accept top-mounted accessories.
 
 **Defiance Super Shock**
 
-This heavy-duty taser can fire up to four darts with twenty-meter-long wires. The wired connection to the battery allows for a more powerful shock but limits range. It can also be used point pointblank in Close Combat for the same damage. After a successful hit, if the target does not knock the lines free, the attacker may use a Major Action to inflict the base damage of the weapon again by opening another set of capacitors. 
+This heavy-duty taser can fire up to four darts with twenty-yard-long wires. The wired connection to the battery allows for a more powerful shock but limits range. It can also be used point pointblank in Close Combat for the same damage. After a successful hit, if the target does not knock the lines free, the attacker may use a Major Action to inflict the base damage of the weapon again by opening another set of capacitors. 
 
 Wireless bonus: A successful hit informs you of the status of the target’s basic health in terms of Condition Monitors (general statements, rather than exact number of boxes left).
 
@@ -3025,7 +3026,7 @@ The Antioch II is the fanciest tube with a trigger around, complete with an inte
 
 Semi-auto grenade launchers in a bullpup pistol and rifle style that can send a whole lot of bad news downrange real fast. 
 
-Wireless bonus: When active the launcher will not detonate any ordnance loaded into the weapon within five meters of the weapon, even if a spoofed command tells it to do otherwise.
+Wireless bonus: When active the launcher will not detonate any ordnance loaded into the weapon within five yards of the weapon, even if a spoofed command tells it to do otherwise.
 
 **Aztechnology Striker**
 
@@ -3066,7 +3067,7 @@ Most firearm accessories must be attached to a particular mount—top, barrel, u
 
 **Airburst link**
 
-A smartgun accessory for grenade and rocket launchers uses a rangefinder to air-burst the explosive projectile in close proximity to the target. An airburst link reduces the scatter distance for a launched weapon by two meters per net hit instead of one meter per hit (Blast Attacks and Scatter) when you use the wireless link trigger. The airburst link also prevents the defender from using the Hit the Dirt Action to reduce damage, as the Prone status offers no benefit against the airburst. 
+A smartgun accessory for grenade and rocket launchers uses a rangefinder to air-burst the explosive projectile in close proximity to the target. An airburst link reduces the scatter distance for a launched weapon by two yards per net hit instead of one yard per hit (Blast Attacks and Scatter) when you use the wireless link trigger. The airburst link also prevents the defender from using the Hit the Dirt Action to reduce damage, as the Prone status offers no benefit against the airburst. 
 
 Wireless bonus: An airburst link requires wireless functionality to function at all. Both the grenades and the launcher must have wireless mode turned on for the system to function.
 
@@ -3241,9 +3242,9 @@ Some days, you want to make things blow up real good. Okay, make that most days.
 
 **Grenades**
 
-Grenades are small, self-contained explosive packages. Boom and shrapnel all in one neat and deadly little cluster! Minigrenades are specifically designed for use with grenade launchers, set to arm when they have traveled five meters and explode on impact or with an airburst link. The five-yard safety feature can be disabled with an `Engineering + Logic (4, 5 Minutes) Extended Test`. Minigrenades have the same effects as standard grenades.
+Grenades are small, self-contained explosive packages. Boom and shrapnel all in one neat and deadly little cluster! Minigrenades are specifically designed for use with grenade launchers, set to arm when they have traveled five yards and explode on impact or with an airburst link. The five-yard safety feature can be disabled with an `Engineering + Logic (4, 5 Minutes) Extended Test`. Minigrenades have the same effects as standard grenades.
 
-The damage from grenades becomes less the farther away from them you are. The DV entry for grenades lists the initial damage for those closest to the grenade, within a meter, called Ground Zero, then two categories of lesser damage for those in Close and Near Range, with the damage limited to a maximum range of the Blast attribute. Use the `Athletics skill + Agility` when throwing grenades, or `Exotic Weapons (Launcher) + Agility` when launching a grenade from a grenade launcher. Follow the rules for Blast Attacks. Grenades and similar explosives can also be rigged with a tripwire to be set up as a basic booby trap. This requires an `Engineering + Logic (8, 1 Major Action) Extended Test`. All grenades have the following wireless feature: You can use the wireless link trigger for your grenades via an ARO on your commlink even if you don’t have direct neural interface.
+The damage from grenades becomes less the farther away from them you are. The DV entry for grenades lists the initial damage for those closest to the grenade, within a yard, called Ground Zero, then two categories of lesser damage for those in Close and Near Range, with the damage limited to a maximum range of the Blast attribute. Use the `Athletics skill + Agility` when throwing grenades, or `Exotic Weapons (Launcher) + Agility` when launching a grenade from a grenade launcher. Follow the rules for Blast Attacks. Grenades and similar explosives can also be rigged with a tripwire to be set up as a basic booby trap. This requires an `Engineering + Logic (8, 1 Major Action) Extended Test`. All grenades have the following wireless feature: You can use the wireless link trigger for your grenades via an ARO on your commlink even if you don’t have direct neural interface.
 
 **Stun grenade**
 
@@ -3431,7 +3432,6 @@ This cowboy-style duster has been consistently popular on the mean streets of th
 Designed for couriers, athletes, and freerunners, this is the armored version of “flats” but available in a stupid array of styles. Because they’re so hip, these jumpsuits include a built-in music player and biomonitor.
 
 
-
 ##### ARMOR MODIFICATIONS
 
 Armor can be upgraded with a range of modifications. The Capacity of a piece of armor is listed in the Armor Table. Armor modifications have a Capacity costs equal to their rating; the Capacity cost determines how much you can stuff into a single piece of armor.
@@ -3456,8 +3456,6 @@ Fire-retardant, nonflammable materials protect the wearer. The armor cancels the
 
 Electrical insulation and non-conductive materials protect the wearer. The armor cancels the Zapped status a number of times equal to its rating. Once it has been Zapped a number of times equal to its rating, it is worn away, and the armor no longer has electricity resistance.
 
-
-
 #### Helmets & Shields
 
 Helmets come in a wide variety of shapes and sizes and protect your noggin from trauma. Helmets have Capacity that is usable for accessories such as trode nets and vision enhancements.
@@ -3474,38 +3472,60 @@ The clear plasteel cousin of the ballistic shield, this one adds an electricity 
 
 Wireless bonus: The riot shield recharges by induction, recharging one charge per hour.
 
-### ELECTRONICS
+| ITEM             | DEFENSE RATING | CAPACITY | AVAIL | COST   |
+| ---------------- | -------------- | -------- | ----- | ------ |
+| Helmet           | +1             | 4        | 1     | 200¥   |
+| Ballistic shield | +2             | 2        | 4     | 900¥   |
+| Riot shield      | +2             | 2        | 4     | 1,200¥ |
 
-For complete coverage of the Matrix attributes used by electronic equipment, see Devices.
+| WEAPON           | TYPE         | DV    | ATTACK RATINGS |
+| ---------------- | ------------ | ----- | -------------- |
+| Ballistic shield | Close Combat | 2S    | 4/—/—/—/—      |
+| Riot Shield      | Close Combat | 4S(e) | 4/—/—/—/—      |
+
+### ELECTRONICS
 
 #### COMMLINKS
 
-| MODEL             | DEVICE RATING | AVAIL | COST   |
-| ----------------- | ------------- | ----- | ------ |
-| Meta Link         | 1             | 2     | 100¥   |
-| Sony Emperor      | 2             | 4     | 700¥   |
-| Renraku Sensei    | 3             | 6     | 1,000¥ |
-| Erika Elite       | 4             | 8     | 2,500¥ |
-| Hermes Ikon       | 5             | 10    | 3,000¥ |
-| Transys Avalon    | 6             | 12    | 5,000¥ |
-| Fairlight Caliban | 7             | 14    | 8,000¥ |
-| Sim module        | —             | —     | +100¥  |
-| w/ hot-sim        | —             | +4F   | +250¥  |
+Commlinks are universal communication devices used by virtually everyone all the time. They come in a variety of shapes and styles, with some included in augmentations and articles of clothing. Even the most basic of them include AR Matrix browsing capability, telephone, vidphone, text, music players, micro trid-projectors, touchscreen displays, high-resolution video and still-image cameras, image/text and RFID tag scanners, builtin GPS guidance systems, chip players, credstick readers, retractable earbuds, voice access, and textto- speech and speech-to-text technologies. They also offer plenty of other add-on features.
 
-Commlinks are universal communication devices; they’re used by everyone all the time. Commlinks are essentially the digital Swiss army knives of the modern world. Even the most basic of them includes AR Matrix browsing capability, multiple telephone and radio modes of real-time talk and text, music players, micro trid-projectors, touchscreen displays, built in high-resolution digital video and still image cameras, image/text and RFID tag scanners, built-in GPS guidance systems, chip players, credstick readers, retractable earbuds, voice-access dialing, textto-speech and speech-to-text technologies, and a shock and water resistant case. And all of this at an inexpensive price that a few decades ago would have seemed absurd.
+| ITEM           | DEVICE RATING | ATTRIBUTES (D/F) | ACTIVE PROGRAM SLOT | AVAIL | COST   |
+| -------------- | ------------- | ---------------- | ------------------- | ----- | ------ |
+| Meta Link      | 1             | 1/0              | 0                   | 2     | 100¥   |
+| Sony Emperor   | 2             | 1/1              | 1                   | 2     | 700¥   |
+| Renraku Sensei | 3             | 2/0              | 1                   | 2     | 1,000¥ |
+| Erika Elite    | 4             | 2/1              | 2                   | 2     | 2,500¥ |
+| Hermes Ikon    | 5             | 3/0              | 2                   | 3     | 5,000¥ |
+| Transys Avalon | 6             | 3/1              | 3                   | 3     | 8,000¥ |
 
-Sim Module: This commlink upgrade gives you the simsense experience, translating computer data into neural signals that allow you to directly experience simsense programs and augmented reality. A sim module must be accessed via a direct neural interface (trodes, datajack, or implanted commlink). Sim modules are a must-have for virtual reality of sorts, including VR clubs, VR games, simsense, and darker virtual pleasures. Sim modules can be modified for hot-sim, which opens up the full (and dangerous) range of VR experiences.
+
+
 
 ### Cyberdecks
 
-| ITEM                | DEVICE RATING | HARDENING | ACTIVE PROGRAM SLOTS | AVAIL | COST     |
-| ------------------- | ------------- | --------- | -------------------- | ----- | -------- |
-| Erika MCD-6         | 1             | 4/3       | 2                    | 3(I)  | 24,750¥  |
-| Spinrad Falcon      | 2             | 5/4       | 4                    | 3(I)  | 61,500¥  |
-| MCT 360             | 3             | 6/5       | 6                    | 3(I)  | 95,000¥  |
-| Renraku Kitsune     | 4             | 7/6       | 8                    | 4(I)  | 107,000¥ |
-| Shiawase Cyber-6    | 5             | 8/7       | 10                   | 5(I)  | 172,500¥ |
-| Fairlight Excalibur | 6             | 9/8       | 12                   | 6(I)  | 410,600¥ |
+When the corps cracked down on the Matrix, working hard to prevent illicit use of their pretty new system, the cyberdeck re-emerged as the tool for messing with innards of the Matrix. They are powerful devices in the hands of a skilled decker. The newest models look something like medieval bracers, only less bulky. They’re worn on the wrist and can project keyboards (or whatever interface the user prefers) onto the user’s arm, a nearby surface, or just the air around them. Some models have screens; most don’t. They tend to look like a block with a series of ports, though many deckers connect to their deck wirelessly. For more information about them, see Devices. All cyberdecks include hot-sim modules.
+
+| ITEM                | DEVICE RATING | ATTRIBUTES (A/S) | ACTIVE PROGRAM SLOT | AVAIL | COST     |
+| ------------------- | ------------- | ---------------- | ------------------- | ----- | -------- |
+| Erika MCD-6         | 1             | 4/3              | 2                   | 3(I)  | 24,750¥  |
+| Spinrad Falcon      | 2             | 5/4              | 4                   | 3(I)  | 61,500¥  |
+| MCT 360             | 3             | 6/5              | 6                   | 3(I)  | 95,000¥  |
+| Renraku Kitsune     | 4             | 7/6              | 8                   | 4(I)  | 107,000¥ |
+| Shiawase Cyber-6    | 5             | 8/7              | 10                  | 5(I)  | 172,500¥ |
+| Fairlight Excalibur | 6             | 9/8              | 12                  | 6(I)  | 410,600¥ |
+
+Cyberjacks are a fairly invasive piece of gear, implanted deep into the brain, and meant to interface more smoothly with a cyberdeck. While they can act as a simple datajack, they also perform the function of integrating the ASIST interface more directly, thus providing superior speed and response times.
+
+They represent the Data Processing and Firewall attributes
+
+| CYBERJACK | ATTRIBUTES (D/F) | VR MATRIX INIT DICE BONUS | AVAIL | ESS | COST     |
+| --------- | ---------------- | ------------------------- | ----- | --- | -------- |
+| Rating 1  | 4/3              | +1                        | 3(L)  | 1   | 45,000¥  |
+| Rating 2  | 5/4              | +1                        | 3(L)  | 1.5 | 65,000¥  |
+| Rating 3  | 6/5              | +1                        | 3(L)  | 2   | 80,000¥  |
+| Rating 4  | 7/6              | +2                        | 4(L)  | 2.3 | 95,000¥  |
+| Rating 5  | 8/7              | +2                        | 5(L)  | 2.6 | 140,000¥ |
+| Rating 6  | 9/8              | +2                        | 6(L)  | 3   | 210,000¥ |
 
 ## Chapter 8: Combat
 
@@ -5315,256 +5335,423 @@ barrier Armor rating equal to Stamina + Effect.
 
 ## The Matrix
 
-The Grid is the physical network of all computer systems interconnected by the world telecommunications system. If a computer is connected to any part of the Grid, then it can be accessed from any other part of the Grid. With the exception of some technicians, however, most people refer to the world-wide computer network as the Matrix.
+In the Sixth World, information is power. Nowhere is this more true than on the Matrix. It is ubiquitous, connecting everything from office workstations to home-automation systems. From bleeding-edge advanced prototypes to ten-year-old burner commlinks, the Matrix is everywhere. Technically speaking, the Matrix is the interconnection of all worldwide devices, wireless or otherwise, that use the same protocols and methods for communication. In a more abstract sense, the Matrix is a vast shared virtual space, home to the entirety of metahuman knowledge, with a fair bit of imagination and outright lies mixed in. Everyday users access the Matrix for many tasks in the course of their day, searching for trideos of cats, answering phone calls, remotely turning on their car, controlling a logging drone, or monitoring cameras, among other things.
 
-In 2053, hard-core computer systems users, those whose work entails sifting, sorting, and routing vast and complex amounts of data, do not simply use their computer system. They inhabit it.
+Hackers (Deckers), on the other hand, make the Matrix do what they want, legally or otherwise. Some, called deckers after the equipment they use, do it with high-tech devices called cyberdecks.
 
-Matrix technology places the user inside a computer-generated simulation of the computer system known as a virtual reality. Everything in the Matrix is a graphic (visual) representation of some physical component (like a datastore or processor), a program (like a data-sifting browse program or an intrusion countermeasures program), or an action (like copying a file, changing a code, and so on). The computer operator of 2053 does not sit in some cubicle in some department somewhere staring at a computer screen and typing away, along with hundreds of other wage slaves. The operator's physical body may be in such a cube, but his senses are inside a wondrous neon and chrome symbolic representation of the data with which he is working. A good analogy might be to actually being inside a video game. The data moves and changes in response to the operator's mental commands, the Matrix technology translating his or her thoughts (with some physical, keyboard-based assistance) into computer-system commands. Instead of having to remember countless keystrokes and command words to get the work done, the computer operator just does it. Compared to his or her counterparts of the late 20th century, work is easy.
+Matrix-based devices and defenses are so common that a character competent in using or bypassing such things is integral to any runner team. Hackers earn their pay disabling alarms and auto-defenses, scrambling enemy communications, and destroying anything that connects to the Matrix. They act as the team’s communications hub, safeguarding them from virtual attack. They’re also the go-to specialists when it comes to digging out information, either in a general search or a quest for specific piece of data they can fence or ransom for cash.
 
-**ACCESSING THE MATRIX**
+### Matrix History
 
-There is only one way Into the Matrix, and that is with a "Matrix imaging Cybernetic Interface Device," or cyberdeck. Other interface devices still exist, but they are old tech. The cyberdeck Is the only choice for someone who wants an edge. Leave the big, ugly, slow stuff to the corporate wage slaves.
+The Matrix, as we know it in the Sixth World, is the third iteration of what used to be called the in ternet or World Wide Web. Around the turn of the millennium, it took off and grew incredibly fast, adding new technologies for enhanced stability and speed at an almost daily rate.
 
-To connect into the Grid, all decks have a fiber-optic cable with a standard data plug like those found on home telecom systems. With the right tools, a decker can drop a neat little tap into any existing comm line to accommodate that plug. All that remains is to power up the deck, jack into it, and go. The deck connects to its user either via an electrode net that slips over the head (the way of cowards), or with a direct cybernetic Interface through a datajack (the only way to fly.) Some deckers still use some form of keyboard assistance, but many prefer running with a pure cybernetic hook-up.
+Then, in 2029, things took a turn for the worse. A fast-moving and destructive virus unlike anything the world had seen began taking down large swaths of network infrastructure, destroying software and hardware alike. The United States organized an elite squad of hackers, technicians, and network wizards and equipped them with newly developed techniques for direct neural interface, then sent them against the virus. Echo Mirage, as the “cyber-commandos” were known, took heavy casualties as lethal biofeedback from the Crash Virus shocked and cooked their brains. Undeterred, they pressed on, and eventually scrubbed the Virus from the network—but the damage had been done.
 
-The deck, once activated, overrides most of the user's own sensory information and replaces It with an electronic simulation known as simsense. The simsense ( "simulated senses") signal translates the complex code-structures of the actual Grid Into the graphic representation of the Matrix. The deck, knowing that the user's signal is traveling through a dataline, feeds the user a simsense signal that makes it look (and feel) like the user is zooming down a neon tunnel. When the decker Is about to enter the vast computer systems of Fuchl Industrial Electronics, for example, the deck gives that system the appearance of a giant, five-pointed chrome star many thousand times the size of the decker. Fuchi's computer system does not actually look like a chrome star, but thanks to the cyberdeck, that is what the decker sees.
+The demise of the old internet and the Crash of ’29 gave rise to the Matrix, an advanced network designed to run with the human-computer interfaces used exclusively by crack teams like Echo Mirage in the past. The direct neural links that at one point required psychoactive drugs, massive amounts of cable, and a sensory-deprivation tank to use now only took a much-smaller computer and a small piece of cyberware called a datajack. The datajack was implanted directly into a user’s head, acting as a port for a cable that would connect a computer to the metahuman brain.
 
-**ENTERING THE MATRIX**
+As time went on, virtual space grew more and more complex, and it became commonplace for workers to spend their entire day “jacked in.” Not every technological leap forward was a boon, though. Pushing the envelope on advanced, semi-autonomous programs, Renraku stumbled into creating the first artificial intelligence. Later, born from the dissection of Renraku’s creation, another AI—one hostile to metahumanity—came into being. The shockwaves caused by this AI, in addition to a perfect storm of other factors, turned out to be too much for the Matrix. The network collapsed completely in 2064, an event now known as the Second Crash (or Crash 2.0).
 
-After a second of disorientation, the decker (that is, the Matrix image of the decker character) appears in the Matrix at the point where the cyberdeck tapped into the Grid. If he enters from an Illegal tap In the back room at Matchstick's Bar&.. Grill. the decker's image will appear in the telecom line that serves the joint.
+Out of the ashes of the old Matrix came the Matrix as we know it today. It is primarily a wireless network, and corporations have taken extensive steps to stop would-be hackers through the implementation of the Grid Overwatch Division. Yet, despite the chokehold corporations hold over the Matrix, its mysteries run deep. Some infrastructure is decades old, and unknown to even the savviest virtual crusaders. Even more strangely, some metahumans are able to access the Matrix without using any sort of equipment at all. In the corporations’ eyes, these technomancers are both a security threat and a valuable commodity as a new evolution of metahumanity.
 
-The decker appears standing next to the deck· s construct. ( In the Matrix, the representations of physical systems, such as a computer system, a node, or even a cyberdeck, are referred to as constructs.) It is usually a small. white pyramid that looks the same as a licensed, legal cyberterminal. It can assume any shape the decker wants, but most deckers like to keep a low profile, and so they leave the appearance of their entry point as is. On the other hand, some of the really hot deckers don't give a drek whether or not they get spotted. The late, great St. Louis Blue used to Image his deck construct like a carnival tent with a neon sign that said "lhis deck belongs to the meanest dude in the Matrix." (Damn shame about old Blue.)
+### The Matrix in Daily Life
 
-Usually, the decker plugs into the Local Telecommunications Grid, or LTG. The LTG is the equivalent of an area code in an antique telephone system, providing connections to all the phone systems (and computer systems) within that area code. Getting Into the LTG Is easy. It's only when the decker wants to travel to another part of the Grid, or to any computer system linked to the LTG, that things get interesting.
+Using the Matrix is an everyday task for most of the Sixth World, though some immerse themselves in it, allowing their perceptions to be overridden by simsense. Either way, to make the Matrix do what you want, you must first understand what you’re looking at. If you’re interacting with the Matrix through the screen of a commlink held in your hand, what you see will look vastly different than if you were using augmented reality (AR) or virtual reality (VR). This is the most rudimentary use of the Matrix, allowing for things such as commcalls, messaging, and use of basic media, including music and games. When using a commlink, various programs can help you navigate from place to place through voice or touch commands. Through these, you can access various hosts and interface with augmented-reality objects (AROs) nearby, allowing them to appear as a sort of pop-up window on the commlink screen.
 
+When you enter augmented reality, whether you use an implanted image link, AR-capable glasses, a datajack, or a technomancer’s innate perception, your perspective on the world around you will change dramatically. The “real world” still exists, but virtual icons interact and overlap with it. A mechanic might use an AR display to provide a digital outline and manual for an engine to assist them with repairs. Entering a posh new restaurant, you may be greeted with a wine list and a menu, along with the day’s specials, hovering alongside you as you walk. An old warehouse can be turned into a vibrant dance club with bright icons and swirling glitter that have no physical substance.
 
+Using AR is essentially dipping a toe into the greater virtual reality of the Matrix. You can see the Matrix sprawling out around you, but real-life rules still apply. Your speed in AR is limited by how fast your body can move, and you can only see as far as you normally could, making the abstract infinity of the Matrix seem impossibly far away at times. Even so, this small dip into the Matrix can greatly alter the world around you, as advertisements, virtual overlays, and the myriad of wireless devices provide stark contrast with reality’s frequent dullness.
 
+To take things a step further, you’ll have to immerse yourself in full virtual reality. In VR, the perceptions of the real world fall away; your consciousness is subsumed into the Matrix, and your senses are overridden by the ASIST (Artificial Sensory Induction Systems Technology) interface, more commonly known as simsense. Before you stretches an infinite black horizon, dotted with brightly colored images. 
 
-**EXITING THE MATRIX**
+These icons represent anything that can be interacted with in the Matrix. In their default mode, an icon appears as a featureless white sphere—but seeing such an icon is a rarity, thanks to the amount of customization available. Icons for parked cars look like virtual representations of what they are, and icons for individual personal area networks (PANs) are often represented by animated characters, or hyper-realistic versions of their owner’s subjective view of perfection. Ultimately, an icon can appear in whatever way the owner chooses, with the higher-end icons being incredibly detailed and sculpted. Beyond individual PANs, huge icons loom over the virtual horizon, representing those with the most power over the Matrix, the corporations that make it run. These monumental icons are the public gateways to the individual hosts of those corporations, replete with propaganda extolling the virtues of the company in glowing corporate-speak—and sometimes, coupons!
 
-A decker can leave the Matrix any time by jacking out, pulllng
-the plug that connects his datajack to the deck. Keep in mind that the
-decker's Matrix-image, the persona, is only a program running on the
-computers of the Grid. The persona does not really go anywhere and
-has no Independent consciousness. Despite decker legends, one
-cannot get "trapped" In the Matrix.
+Icons whose hosts are closest to your meat body appear closer, with physically far-away hosts seeming out of sight of your virtual perceptions. Of course, physics is just a suggestion within the Matrix, and traveling these distances in the blink of an eye is as simple as willing yourself to your destination. Still other icons and access points exist, so that people across the globe can log on whever they want.
 
-A decker kicked out of the Matrix Involuntarily has been dumped.
-The rapid cutoff of the deck's slmsense signal can cause the decker to
-experience mlld disorientation called dump shock. This lasts up to 30
-seconds, during which time the character Is disoriented. Dump shock
-adds +2 to all target numbers for the duration. The character can make
-a WIiipower Test against a Threshold 4 to attempt to throw off
-the effects, dividing the number of successes Into 30 seconds to
-determine the actual amount of time he or she Is disoriented. Every
-3 seconds, or part thereof, is one Combat Tum.
+For all of the official control, though, there are corners of the Matrix that are still unknown. Whether these are the result of older corporate networks hanging on as part of the new Matrix, the expansion of artificial intelligence, or the manifestation of the mysterious source of power that technomancers call the Resonance is yet to be revealed.
 
-If fighting against black IC. the decker must make a WIiipower
-Test against a target number equal to the rating of the IC. This requires
-a Simple Action.
+### Matrix Security: Grid Overwatch Division
+
+In the wake of the Second Crash in 2064, the new Matrix that was born from the ashes of the old one gave rise to widespread wireless technology. No longer did users have to use a cable to jack into the Matrix—now, they could wirelessly connect from anywhere they could receive a signal. The network had become such a reliable mesh that roaming between grids became the norm. A hacker could conceivably never leave their home and still interact with (and break into) any number of devices and hosts around the world, using only their commlink.
+
+That all changed in the mid-2070s, when the Corporate Court Matrix Authority created the Grid Overwatch Division, or GOD. Initially, this organization comprised representatives of the Big Ten megacorporations who propped up the Matrix after the Crash, and it was tasked with keeping an eye on the emergence of artificial intelligences. Their authority was soon expanded to make them a watchdog group responsible for tracking down illegal use of the Matrix—and to help define what was and was not legal. This practice was adopted individually by other corporations, who formed their own internal groups, colloquially known as demi-GODs.
+
+With the increase in GOD’s power, the Wild West era of the new Matrix was all but over. Still, there are those who know how to fly under the radar, at least for little while, before they are caught.
 
 
-**Dumpshock**
+### Personas and Attributes
 
-When you’re disconnected from the Matrix without gracefully jacking out, you suffer a nasty shock as your sim module kicks out. This happens to hackers so often that it has its own name: dumpshock. The Damage Value for dumpshock is 3S. Dumpshock is biofeedback damage, so you resist it with Willpower. As if that weren’t enough, you’re also suffering the Stunned Condition (10 – Willpower) minutes, even if you manage to soak all the damage.
+Personas are the “people” of the Matrix. They’re primarily metahumans, but personas can also be programs, agents, intrusion countermeasures (IC or “ice”), and (rarely) artificial intelligences. Just like living beings in the meat world, personas have attributes and skills that determine how well they function. The skills you have in the meat world carry over to the Matrix, though they are not always useful (your persona may look like it’s firing a gun, but the Firearms skill is of little use in the Matrix— what looks like an attack is an action covered by another skill; see Matrix Actions).
 
-### IC
+Attributes are somewhat different. Your Mental attributes carry over into the Matrix, but your Physical attributes are replaced by four Matrix attributes: Attack, Sleaze, Data Processing, and Firewall (ASDF).
 
-Intrusion countermeasures (IC) are software programs installed in a system to protect that system's information from unauthorized users. Intrusion countermeasures may be installed in any node with a Security Code of green or higher. "Ice," as it is colloquially pronounced, makes life difficult for deckers. Some IC tries to make life impossible for deckers. E.very IC system has a rating, which Is usually its "skill."
+Attack represents the offensive power of the
+device in cybercombat and how much damage
+it can do when attacking.
 
-There are three classes of IC: white, gray, and black. White IC offers passive resistance. Gray IC actively attacks intruders or traces their entry point into the Matrix. Black IC tries to kill deckers. E.ach is described in the following sections.
+- Sleaze is the stealth attribute of the persona and represents how easy it is to hide and blend in with its surroundings, appearing as a normal icon among others, essentially disappearing.
 
-##### WHITE IC
+- Data Processing is the raw computing power of a device. Data Processing governs how quickly a device can operate and contributes to running programs concurrently. 
 
-White IC is primarily concerned with identifying and locating intruder persona programs. White IC is so called because it is not harmful in itself. though it may activate other countermeasures that are downright deadly.
+- Firewall is a persona’s primary defensive attribute. It represents how well-defended the persona is against attempts to take unauthorized actions.
 
-If white IC is satisfied that a persona program may legitimately be in the area, it will do nothing. (E.ach type of white IC has its own requirements for "satisfaction," as described below.) If the IC is not satisfied, it will signal a passive alert on its next Action. The white IC will check the identity of the persona program again, and If it is still not satisfied, it may trigger an active alert.
+If you’re a decker, your Matrix attributes are determined by the device you’re using to access the Matrix. If the device doesn’t possess one or more of the Matrix attributes, then the applicable attribute is treated as if it were 0. You can rotate any non-zero attributes through your persona, even if they originated from different devices. 
 
-Generally, the process goes something like this:
+Devices also have a Matrix Condition Monitor, which is equal to `(Device Rating / 2, rounded up) + 8`. 
 
-1. Intruding persona program moves into contact range. (As long as the persona stays beyond contact range. the IC pays no heed. Usually.)
-2. The persona program must then attempt to fool the white IC into believing it, the persona, is a legal signal. Again, see each type of white IC for the types of programs that are effective against It.
-3. If the persona succeeds, the IC lets it pass. The persona program continues on.
-4. If the persona fails to fool the IC, the IC will signal a passive alert. It will then attempt to verify the identity of the intruder again. If it cannot, an active alert is triggered and any gray or black IC present will activate
+All tests using a damaged device have a –1 modifier for every three full boxes of Matrix damage, until the device is repaired. If a device’s Matrix Condition Monitor is filled up, it is bricked (see Bricked Devices, below).
 
-White IC cannot defend itself against an attacking persona program. White IC that survives to its next Action Phase while under attack will trigger an immediate active alert. A decker can try to jam the IC by using dice from his Hacking Pool. This requires a Simple Action and prevents the IC from activating an alert on its next Action Phase. Make a test with Hacking Pool dice using the IC's System Rating as the target number. The IC makes a test against the persona program, using its own rating for the number of dice rolled, and the persona's Masking Rating as its target number. If the IC wins, it triggers the alert.
+### Bricked Devices
 
-If a persona does not immediately attempt to use a deception or sleaze program upon entering contact range, the IC will initiate the verification attempt on its next action.
+A bricked device is one whose formerly complex functioning has been reduced to that of a slab of nonfunctional material. That is to say, it doesn’t work, plain and simple, since its Condition Monitor has been filled. For the most part, meat-world observers of a bricked device can tell when something goes wrong—sparks, popping noises, and smoke are clear indicators of a problem. Users of a bricked device are abruptly ejected from the Matrix, and VR users have to deal with dumpshock. The device will not work again until it is repaired.
 
-##### GRAY IC
-
-Gray IC Is more dangerous than white IC because It can actually damage a deck or Its user. Unless an analyze program Is used successfully, gray IC resembles white, In that the Sensor Attribute of the deck recognizes both programs as IC. Gray IC usually requires a trigger, which Is often white IC. Once activated, however, It needs no further prompting. If the gray IC In a node Is donnant and the white IC present Is fooled by the persona program, the gray IC will not activate.
-
-When already active, gray IC will move to Interrogate a persona program as soon as the icon moves to within sensor range of the node where the gray IC is currently located. Some paranoid corporations place active gray IC In Isolated systems where sensitive data Is stored. They often place the IC In the SAN, particularly when most legitimate users do not have to cross through the SAN to use the data in it (they enter the system though 1/0Ps in the same duster as the data). All gray IC is mobile.
-
-##### BLACK IC
-
-Black IC Is so named because it attacks the decker, not his deck. Black IC nonnally does Physical damage, but can be programmed to do Stun damage If the system owner Is In a good mood. Remember, dead men tell no tales, but prisoners can be downright talkative.
-
-Black IC Is activated In the same way as gray IC. Black IC Is most certainly mobile.
-
-Deckers not using a cybernetic link are Immune to the damaging effects of black IC. Sure, a tortoise (see p. 177) can stand up to the punishment, but he's got to get to the black IC In the first place. Once black IC scores a hit, the decker may either hang tough or jack out.
+### Repairing Matrix Damage
 
 
+What’s broken can often be fixed, with the proper tools, time, and talent. Repairing a damaged device is an `Engineering + Logic (number of boxes, 1 hour Extended test`. 
 
----
+The device cannot be used while it is being repaired, and repairs cannot be performed without a toolkit. A critical glitch on a repair test means you messed up good—the device fails totally and will never work again.
 
-> Credit for a lot of this system falls to Ross Watson and a conversation with Tom Dowd
+### Overwatch Score and Convergence
 
-### System Rating
+When hacking, note the number of Effect scored by the defender. This is not net effect, but all effect scored in the test. This total becomes the Overwatch Score (OS). When the OS reaches 40, Convergence occurs.
 
-Everything that can be hacked has a System Rating. This generally runs from 6-12, although there is no upper limit. A truly high-level system (like a military command center) might have a system rating of 17 or higher. The system rating acts as both a threshold for the number of hits required to affect the system and as a condition monitor if attacked in cybercombat, with the number of boxes in the condition monitor equal to its rating. In the case of vehicles and drones, use the Pilot Rating and add 5. In the case of other items, the rule of thumb is to set the item’s system rating at 1/2 its body, rounding up.
+Convergence is GOD zeroing in on your location. When this occurs, the device used to perform the last hacking test is bricked (its Condition Monitor is filled), and the user is dumped from the Matrix, with associated dumpshock. Additionally, the user’s physical location is reported to the authorities so they might send people to track you down.
 
-Generally, subtract the program's Rating to get your Adjusted System Rating.
+Things that increase the Overwatch Score are as follows:
+
+- Using hacking programs: OS increases by 1 for each Matrix action modified by a hacking program. Simply having the program loaded without actively using it doesn’t increase your OS.)
+
+- Performing hacking actions (as noted above): +1 OS per effect on the opposing roll, whether the defense was successful or not.
+
+- Every round you are connected to a Device or Sytem you are not supposed to the OS will go up 1 unless you make your Detection Test
+
+- During Cybercombat your OS goes up 1 automatically every round without a Detection Test allowed.
 
 
-### Cyberdecks and Condition Monitors
+### Dumpshock and Link-Locking
 
-Cyberdecks have a physical condition monitor (representing the physical condition of the deck) and a detection condition monitor (representing the Decker’s ability to avoid detection whilst hacking). When the physical condition monitor is boxed out, the deck is destroyed. 
+When you’re disconnected from the Matrix while in VR without gracefully switching to AR first, you suffer a nasty shock as your sim module kicks out. This happens to hackers so often that it has its own name: dumpshock. The Damage Value for dumpshock is 3S if you’re in cold-sim and 3P if you’re in hot-sim. Dumpshock is biofeedback damage, so you resist it with Willpower. As if that weren’t enough, you’re also disoriented and so cannot gain Bonus Effect or use Edge on actions for (10 – Willpower) minutes, even if you manage to soak all the damage.
+
+Another danger in the Matrix is having your connection link-locked. This is when another persona or device sends keep-alive signals to your deck (or other device) that force it to cancel any attempt to leave the Matrix. If you’re link-locked, you can’t use the Enter/Exit Host, Reboot Device, or Switch Interface Mode actions on the device your persona is using (probably your deck). You can escape with a successful Jack Out action. Successfully jacking out usually means suffering dumpshock, but at least you’re free. Any persona, be they agent, technomancer, or sprite, can be link-locked.
+
+Usually, if you fall unconscious in VR, your commlink or deck automatically switches you to AR. If you’re link-locked, you remain online and in VR, which can be quite dangerous. IC may attack an unconscious decker, and security spiders, being a bit smarter than IC and no less ruthless, have a lot of options to punish someone who is helpless and stuck in the Matrix. Either way, it’s nasty, since you can’t defend against actions when you’re unconscious.
+
+### Noise
+
+Noise represents any interference between a user and their target. Noise can be created by sheer distance or other factors, such as jamming or obstructions. Each point of noise incurs a –1 penalty to any test taken in the Matrix. If noise is greater than the device rating, the device cannot access the Matrix or provide wireless bonuses.
 
 
-### Persona Programs
+| PHYSICAL DISTANCE TO TARGET/OBSTACLES        | NOISE LEVEL                         |
+| -------------------------------------------- | ----------------------------------- |
+| Directly connected (any distance)            | 0                                   |
+| Up to 100 yards                              | 0                                   |
+| 100–1,000 yards                              | 1                                   |
+| 1,001–10,000 yards (10k yds )                | 3                                   |
+| 10,001 yards to 100k yds                     | 5                                   |
+| Greater than 100k yds                        | 8                                   |
+| Dense foliage                                | 1 per 5 yards                       |
+| Faraday cage                                 | no signal, action blocked           |
+| Fresh water                                  | 1 per 6 inches                      |
+| Jamming                                      | 1 per Effect on Jam Signals actions |
+| Metal-laced earth or wall                    | 1 per 5 yards                       |
+| Salt water                                   | 1 per 6 inches                      |
+| Spam zone or static zone                     | Rating                              |
+| Wireless negation (e.g., wallpaper or paint) | Rating                              |
 
-The following are the core programs used by Deckers:
+### Cyberjacks
 
-- Exploit: Reduces the threshold of a system rating for gaining access or information.
-- Spoof: Reduces the threshold of a system rating for giving commands.
-- Purge: The “medic” program – erases data from the cyberdeck. Adds its rating to the Decker’s `Logic+Electronics Test `for eliminating harmful viruses (including Traceroute).
-- Sleaze: Passive program – its rating equals the number of boxes of the cyberdeck’s detection condition monitor.
-- Analyze: Reduces the number of tests on the Extended Test for the search
-- Armor: Passive program. Adds its rating to the Decker’s Logic Test to resist damage in cybercombat.
-- Attack: The program used to perform attacks
+Cyberjacks are a fairly invasive piece of gear, implanted deep into the brain, and meant to interface more smoothly with a cyberdeck. While they can act as a simple datajack, they also perform the function of integrating the ASIST interface more directly, thus providing superior speed and response times.
 
-#### Resetting the Detection Condition Monitor
+They represent the Data Processing and Firewall attributes
 
-The Detection condition monitor does not “heal” as long as the Decker is jacked into the system in which he suffered the “damage.” Deckers do not simply jack out and jack back in once they are close to detection. Once the Decker jacks out of that system and performs a purge (a major action requiring a `Logic + Cracking (12)`), his deck’s Detection condition monitor resets and all the damage inflicted on it is “healed.”
+| CYBERJACK | ATTRIBUTES (D/F) | VR MATRIX INIT DICE BONUS | AVAIL | ESS | COST     |
+| --------- | ---------------- | ------------------------- | ----- | --- | -------- |
+| Rating 1  | 4/3              | +1                        | 3(L)  | 1   | 45,000¥  |
+| Rating 2  | 5/4              | +1                        | 3(L)  | 1.5 | 65,000¥  |
+| Rating 3  | 6/5              | +1                        | 3(L)  | 2   | 80,000¥  |
+| Rating 4  | 7/6              | +2                        | 4(L)  | 2.3 | 95,000¥  |
+| Rating 5  | 8/7              | +2                        | 5(L)  | 2.6 | 140,000¥ |
+| Rating 6  | 9/8              | +2                        | 6(L)  | 3   | 210,000¥ |
 
-### Examples
+### Cyberdecks
 
-Example: Hacking the cameras to hide the team’s presence
+These represetn the Attack and Sleaze Attributes.
 
-A shadowrunner team is infiltrating a research facility. Sam the Decker has a 5 Logic, a 5 Cracking Skill, and a rating 5 Cyberdeck. All of his programs are also rating 5 (these are purchased but cannot exceed the Deck Rating).
+| ITEM                | DEVICE RATING | ATTRIBUTES (A/S) | ACTIVE PROGRAM SLOT | AVAIL | COST     |
+| ------------------- | ------------- | ---------------- | ------------------- | ----- | -------- |
+| Erika MCD-6         | 1             | 4/3              | 2                   | 3(I)  | 24,750¥  |
+| Spinrad Falcon      | 2             | 5/4              | 4                   | 3(I)  | 61,500¥  |
+| MCT 360             | 3             | 6/5              | 6                   | 3(I)  | 95,000¥  |
+| Renraku Kitsune     | 4             | 7/6              | 8                   | 4(I)  | 107,000¥ |
+| Shiawase Cyber-6    | 5             | 8/7              | 10                  | 5(I)  | 172,500¥ |
+| Fairlight Excalibur | 6             | 9/8              | 12                  | 6(I)  | 410,600¥ |
 
-The shadowrunners need Sam to hack the facility’s security cameras so that they can enter the facility undetected. Sam is already jacked into the matrix and is within wireless range of the system. The system rating of the node controlling the security cameras is 9. Sam subtracts his Exploit program rating of 5 from the system rating of 9 and ends up with an adjusted system rating of 4 making the Threshold 24. Sam rolls `3d6 + 15` and gets 25 with a 5 on the Effect Dice, successfully hacking the node. The cameras do not record the shadowrunners entering the facility. The GM rules the Effect results in 5 minutes of them being removed from the cameras.
+### Hacking the Matrix
 
-Sam then must resist Detection, rolling his Logic of 5 and the Hardening of his Deck (also of 5) against a threshold of 24 (the adjusted system rating). Sam rolls 18 with a 3 Effect Dice so failed the test. The Rating 4 Syatem does 4 Damage compared to his 3 Effect Dice leaving 1 left over, he crosses out one box on his Detection condition monitor. Until he jacks out of the system, performs a purge, and his detection monitor resets, Sam is going to suffer a -1 penalty to all future Matrix skill rolls.
+To Hack into the Matrix first you need to gain access to a Device or System. You have two options (technically three) to do this.
 
-Since he is already in, Sam decides to shut down the cameras by Giving a Command
+1. The best and easiest way in, is a Hardline access through the building. You need a user and credentials otherwise you still need options 2 or 3
+2. Probe your way in using Sleaze. You try to work your way in through gaps in the security you make Detection Tests each round. 
+3. Brute Force your way in. This is the noisy way in. You attack the Device/Network/System Node directly. This will trigger any IC that Device has
+
+### Systems and Devices
+
+Whats the difference?
+
+#### Devices
+
+A Device is a physical electronic or mechanical object with a function or purpose, such as a commlink, smartgun, sensor, or even an appliance. Devices have an associated Device Rating, can be integrated into a mesh network, and can be wirelessly accessed or controlled through the Matrix. Hacking a device is generally done against the Device Rating (where Hosts use their Host Rating)
+
+#### Hosts
+Hosts have a general rating, which translates into their Matrix attributes. These general ratings are between 1 and 12. The ratings of these attributes are usually (host rating), (host rating + 1), (host rating + 2), and (host rating + 3), in any order. For example, a rating 4 host might have Attack 5, Sleaze 4, Data Processing 7, Firewall 6. A host’s attributes are shared by itself and its IC programs.
+
+Host Attack Rating: Host Rating X 2
+
+Condition Monitor: 
+
+Initiative: (Data Processing x 2) + 3D6
+
+- Rating 1: Personal sites, public education.
+- Rating 2–3: Low-end commercial businesses, social media.
+- Rating 4–5: Local and regional corporate sites, major governments.
+- Rating 6+: Megacorporate headquarters, military command
+
+Systems are really just a collection of Nodes. There are many different kinds of Nodes but the ones you care about are:
+
+- Central Processing Unit (CPU)Each system has one, and only one, CPU. It's the brain of the system, so it's naturally the most heavily guarded
+  - Allows you to Crash the System if you get access, you can completely take over the System and all Devices attach to it. Raises OS 5 a round.
+- Datastores (DS) where information is stored its Rating is also the Encryption Rating (usually)
+- Input Output Port (IOP) these are hardline points inside a building or system. Devices like Cameras are attached to IOP's so is every terminal.
+- System Access Node (SAN) these are generally public access points with lower security, a typical access point for a Decker
+
+### Types of IC
+
+These are the types of IC a host may throw at unwary intruders. All IC use Host Attack Rating and (Host Rating x 2) for Condition Monitor and most rolls. Their Initiative is (Data Processing x 2) + 3D6. Defensive rolls and effects vary by IC type.
+
+Trust me, the GM knows exactly what kind of IC you are up against.
+
+#### Acid
+- Defense: Host Rating + Firewall
+
+Acid IC is about wearing down the defenses of intruders so that the other IC can finish it off. When Acid IC hits in cybercombat, the target’s Firewall attribute is reduced by 1 per net hit, reducing the effective defenses. Lost points are restored after leaving the host, at a rate of 1 point per minute.
+
+#### Binder
+- Defense: Firewall + Data Processing
+
+Where Acid IC wants to reduce your defenses, Binder IC wants to slow down all of your functionality— and keep you from running as many programs as you would like. When Binder IC hits in cybercombat, the target’s Data Processing attribute is reduced by 1 per net Effect. When Data Processing hits 0, no Matrix actions can be performed until it hits 1 or higher. Lost points are restored after leaving the host, at a rate of 1 point per minute.
+
+#### Black IC
+- Defense: Host Rating + Firewall
+
+Black IC means business. When a host tosses this out, it wants your brain fried, plain and simple. If you see this coming at you, no one would blame you for running. In cybercombat, Black IC does (host rating + net effect) in both Matrix damage and biofeedback damage.
+
+#### Blaster
+- Defense: Host Rating + Firewall
+
+Blaster IC isn’t fun, but at least it’s not as focused on killing you as Black IC is. Yeah, it might want to subject you to all sorts of unpleasant Matrix- based torture, but you have to be alive to experience pain, so that’s something, right? In cybercombat, this does (Rating) Matrix damage while also link-locking the target.
+
+#### Crash
+- Defense: Host Rating + Firewall
+
+Crash delivers a sweeping blow intended to take weapons out of your hand. When it hits in cybercombat, this IC does no Matrix damage; instead, it crashes one random program. Crashed programs can’t be run again until the device is rebooted.
+
+#### Jammer
+- Defense: Firewall + Attack
+
+Jammer IC is an expert fencer who toys with you rather than killing you outright. In cybercombat, when Jammer IC hits, the target’s Attack attribute is reduced by 1 per net effect. No actions using the Attack rating can be performed when the Attack rating is 0. Lost points are restored after leaving the host, at a rate of 1 point per minute.
+
+#### Killer
+- Defense: Host Rating + Firewall
+
+Killer IC is the choice of hosts where they don’t want to go for a bunch of fancy tactics and prefer to just leap for the jugular. When Killer IC hits in cybercombat, it does (net hits + host rating) Matrix damage to the target.
+
+#### Marker
+- Defense: Firewall + Sleaze
+
+Marker IC is a response to too many backdoors— if hackers are going to start preferring Sleaze options to make and secure backdoors into hosts, then hosts are going to keep hackers from having high Sleaze ratings. In cybercombat, when Marker IC hits, the target’s Sleaze attribute is reduced by 1 per net hit. No actions using the Sleaze rating can be performed when the Sleaze rating is 0. Lost points are restored after leaving the host, at a rate of 1 point/minute.
+
+#### Scramble
+- Defense: Host Rating + Firewall
+
+Scramble IC doesn’t care how hurt or damaged you are; it just wants you gone. If Scramble IC hits in cybercombat, it forces the target to reboot on the target’s next turn, unless the target is linklocked.
+
+#### Sparky
+- Defense: Host Rating + Firewall
+
+Sparky is aggressive IC that wants to bring the damage right to the user, bypassing hardware entirely. If Sparky IC hits in cybercombat, it does (host rating + net hits) in biofeedback damage.
+
+#### Tar Baby
+- Defense: Host Rating + Firewall
+
+Tar Baby is about slowing you down so you can be caught by other IC or you abandon the host in frustration. If Tar Baby hits in cybercombat, it forces link-lock.
+
+#### Track
+- Defense: Firewall + Sleaze
+
+Track IC doesn’t do harm directly—it’s about gathering information in case harm needs to be done later. If it hits in cybercombat, Track IC discovers the target’s physical location.
+
+### Regular Matrix Actions
+These are used outside Cybercombat. You take 1 action a round.
+
+#### **Brute Force**
+
+Getting access the loud way.
+
+This is an obvious attack and will trigger an alert. Your OS *will* go up using Attacks. This is used to get into a System. Using Brute Force will trigger Any IC if there is any
+
+`Cracking + Logic` vs. `Rating + Firewall` DV = (Attack + Effect) Reduce Damage by Firewall
+
+If attacked by a Host, IC, or Device they roll `Rating + Attack` against your `Cracking + Logic` and you will reduce damage by your Firewall. Damage will be applied to your Cyber Deck
+
+#### **Probe**
+
+Getting Access the Quiet Way.
+
+Used to sneak into systems and not trigger an alert. As long as you are undetected (see Detection Tests) your OS will not go up. This requires a Detection Test.
+
+`Cracking + Logic` vs. `Rating + Firewall` Sleaze + Effect applies to Detection Test
+
+#### **Matrix Search**
+
+Search the publicly accessible grid for information. The number of effect generated gives you more information regarding the subject.
+
+`Cracking + Logic` vs. `Sleaze + Firewall`
+
+#### **Encrypt/Decrypt File**
+
+Decrypts a file or Encrypts a file on the Host. Usually used after a Matrix Search. This requires a Detection Test.
+
+`Cracking + Logic vs. Encryption Rating` Effect + Data Processing will weaken Encryption.
+
+`Cracking + Logic` to set Encryption Strength with Effect + Data Processing.
+
+#### **Snoop**
+
+This action lets you intercept Matrix traffic sent to and from your target for as long as you have access. You can listen to, view, or read this data live, or you can save it for later playback/viewing if you have something to store it on (your deck or commlink will do). This requires a Detection Test.
+
+`Cracking + Logic vs. Rating + Firewall` Effect + Data Processing applies to Detection Roll
+
+
+#### **Control Device**
+
+You take control of a device (like a camera). You own it as long as you control it. This is an obvious action and will raise your OS in the System. You can control 1 device per Data Processing of your Deck.
+
+`Cracking + Logic vs. Rating + Firewall` Effect + Data Processing for how long you will control the device.
+
+#### Analyze
+
+This allows you to Analyze a Node or Device you are wanting information about. Analyze will tell you on a success the Rating, if it has IC. Each Net Effect can tell you a piece of information. This requires a Detection Test.
+
+`Electronics + Intuition vs Device Sleaze + Firewall` Sleaze + Effect will tell you a piece of Information.
+
+#### **Jack Out**
+
+This logs you out and resets your Deck immediately. You will have Dumpshock if you do this during Cybercombat.
+
+#### Check OS Score
+
+Does not require a roll will tell you what your Current OS score is. This requires a Detection Test.
+
+### Detection Rolls
+
+This works a lot a like resisting, Drain does for an Awakened Character. You need to roll to avoid Detection if you fail your OS goes up. Any action you take (except Attack because it guarantees OS will go up) you roll to avoid Detection.
+
+`Cracking + Logic` vs. `Rating + your current OS` failure means you take the Net Effect to your OS
+
+Once OS reaches 40 they are detected and Dumped out of the Matrix and their Deck is Bricked. 
+
+### Programs
+Your Cyberdeck can hold a number of programs up to its Capacity. 
+
+#### Encryption Suite
++2 when doing Encrypt/Decrypt File action.
+
+#### Signal Scrubber
+
+Reduce noise level by 2.
+
+#### Exploit
+
+Reduce Defense Rating of hacking target by 2.
+
+#### Armor
+
++2 to Defense Rating
+
+#### Baby Monitor
+
+Tells you your current Overwatch Score without needing an action.
+
+#### Browse
+
+When doing Matrix searches, gain 1 Bonus Effect that is either spent immediately on that action or disappears.
+
+#### Toolbox
+
++1 to Data Processing.
+
+#### Virtual Machine
+
+2 extra program slots; take 1 extra box of unresisted Matrix damage when attacked.
+
+#### Biofeedback
+
+Causes Physical damage with Matrix attack. This program is linked to the Attack attribute.
+
+#### Biofeedback Filter
+
+Allows Toughness to apply to Matrix Damage
+
+#### Blackout
+
+Like Biofeedback, but Stun damage only. This program is linked to the Attack attribute.
+
+#### Overclock (Action)
+
+Add two Bonus Effect to a Matrix action, need a program for each Action affected.
+
+#### Stealth 
+
++2 On Detection Tests
+
+#### Rabbit
+
+Lowers OS by 5 can only be used once and then it has to be reloaded after a Restart. 
 
 ### Cybercombat
 
-#### Matrix Actions
+What happens when you are dected? Maybe you did a Brute Force and smacked into an IC, maybe you failed a Detection Roll and the defensive systems decided to come find you. You move to Cybercombat.
 
-##### Major Actions
+#### Cybercombat Actions
 
-- Give a Command (Spoof)
-- Hack in (Exploit)
-- Search the Matrix (Analyze)
-- Brute Force (Attack)
-- Crashing the System (Engage the system in Combat)
-- Purge The System (Purge)
+Player Attack:
 
-##### Hack In
+Player Defense:
 
-Whenever a Decker attempts to interact with an object with a system rating, he rolls `Logic + Cracking + his Cyberdeck’s rating`.
+Host Attack: 
 
-The threshold for his test is the system rating of the system he is attempting to hack. The Decker’s Exploit program rating helps the Decker by lowering the system rating’s threshold for this test by its rating (i.e., a Decker hacking a system rating 8 would subtract his Exploit program’s rating of 5, meaning that the actual threshold for the Hacking test is 3). This keeps the focus on the Decker’s skill rather than his gear, as the Decker modifies his programs on the fly to best suit his needs. This new System Rating (the original minus the Decker’s Exploit program rating) is known as the adjusted system rating.
+Host Defense: Varies by IC
 
-To get the Threshold required multiple the Adjusted System Rating X 6. So In the above example of a Rating 8 system with an Exploit program of 5, resulting in an Adjusted System Rating of 3 means the Threshold for the Hacking test is 18. 
+#### Major Actions
 
-##### Give a Command
+##### Attack
 
-You attempt to tell the system to do something. This is rather open ended but things like open a door, unlock something, download a file, delete a file, etc. Crashing the System is a separate function and will engage the systems Countermeausres.
+#### Minor Actions
 
-`Logic + Cracking + Cyberdeck Rating ([System Rating - Decker's Spoof] X6)` Roll for Effect
+##### Jack Out!
 
-Effect carries over as a Bonus on The Detection Test Below
+#### 1. Grab your dice
 
-Please Note if you fail the Detection Test you will likely be engaged by whatever IC on the system.
+#### 2. Roll Initiative
 
-##### Search The Matrix
+Player Rolls `Reaction + Intuition + 1D6`
 
-Often times you need to search the system for the Node you need to access. This is an extended test.
+Host Rolls: `(Data Processing x 2) + 3D6`
 
-`Logic + Cracking + Cyberdeck Rating (12,[Rating - Analyze],1 Major Action)`
+#### 3. Declare Actions
 
-You can apply Effect Dice as additional successes on each roll to finish faster OR to use on your Detection Test.
+You get 1 Major Action and 1 Minor Action per D6 on the initiative
 
-Roll Detection after each Extended Check.
+#### 4. Distribute Bonus Effect
 
-##### Brute Force
-
-This is the action to attack either the System itself or IC that has been dispatched to take you out. 
-
-White IC does Physical Damage to the Deck. Your deck could get bricked.
-
-Black IC does Physical Damage to the Decker themself. You could die.
-
-This trigger Initiative. Whoever wins attacks first.
-
-An attack roll = `3D6 + Cracking + Logic + Attack Rating vs. IC/System Rating + 10` roll for effect. 
-
-Damage Value = Attack Rating + Effect.
-
-The target will reduce damage by Hardening + Armor Rating, any net damage will attack the Condition Monitor as appropriate.
-
-No need for a Detection test during combat, you are detected.
-
-Example Sam engages has hacked into Seattle General Hospital, he is trying to shut down all the cameras in the building but has been detected. The system activated White IC to deal with him. 
-
-Sam rolls Initiative `[Intuition (3)+ Cyberdeck Rating (5)] + 2D6` getting a 7 on the roll for a total of 15. 
-
-Seattle General is a Orange System it rolls `Rating (6) + 3D6` getting a 10 for a total of 16. The IC goes first. 
-
-White IC attacks Sam, `3D6 + Rating (6) + Attack Rating (6)` for a total 22, Sam's Defense is `10 + Cyberdeck Rating` or 15 so he got hit, the White IC effect dice was 5. The White IC did 11P damage to the Cyberdeck 
-
-Sam's Deck has Hardening of 5 and an Armor Program of 5 so he is able to resist 10 points of the damage but still takes 1 Box of damage on his Cyberdecks Condition Monitor putting him at -1 to all rolls. 
-
-Sam's time to counter, he rolls `[3D6 + Cracking (5) + Logic (5) + Attack (5)] -1 for Condition` for a total of 24 the defense for the IC is 16, his Effect Dice is 3. For a total Damage Value of 8. 
-
-White IC has no Hardening or Armor programs. So it resists 6 points of the damage and takes 2 Boxes of Damage putting it at -2 to its rolls.
-
-... Combat continues. 
-
-##### Crashing a system
-
-Instead of hacking a system, a Decker can attempt to crash it. This is done by attacking the system in cybercombat. The system rating is the system’s condition monitor and also serves as the modifier the system adds rolls to defend itself against cybercombat (much like a Body attribute on a physical object in the real world). Crashed systems do not function until they are rebooted. Authorized Deckers can reboot a crashed system with a minor action. A system cannot be crashed if there is an active defender (Agent, Sprite, or enemy Decker) present.
-
-Crashing a System will dump everyone out of it with Biofeedback.
-
-#### Step 1. Determine Initiative
-
-Decker: `Intuition + Cyberdeck Rating + 2D6`
-
-1 Major, 1 Minor Actions a round
-
-| System | Initiative |
-| ------ | ---------- |
-| Blue   | No IC      |
-| Green  | 2D6        |
-| Orange | 3D6        |
-| Red    | 5D6        |
-
-#### Step 2. Declare Action
-
-The player declares what they want to do. 
-
-#### Step 3. Resolve Action
-
-#### Step 4. Detection Test
-
-##### The Detection Test
-
-Using a similar approach to magic, after a Magician casts a spell, he then resists drain. After a Decker performs a hack, he then resists detection. This mechanic represents the Decker’s skill at evading detection whilst hacking a system. To do this, the Decker must resist a number of hits equal to the adjusted system rating. The Decker rolls his `Cracking skill + Hardening + Effect Carry Over` rating of his deck. On success there is no damage to the Decks Detection Condition Monitor. On Failure compare the difference in Effect Dice with the Adjusted Rating of the System and the deck will take Detection Condition Monitor damage of the difference (minimum 1) **and** any Deckers or agents in those nodes are instantly aware of the hacking Decker’s location and cybercombat is very likely imminent.
-
-###### Glitching the Detection Test
-
-If a Decker glitches on the Detection Test, the IC of the system has noticed something is wrong and begins to interfere with his presence. This is represented by a basic chart that establishes a rule of thumb—the GM may always decide on something else happening and certain systems (such as ones used in an adventure) can have their own custom response chart.
-
-- Glitch on a System Rating 6-9: The Decker is hit with a Traceroute attack program with a rating equal to the adjusted system rating.
-- Glitch on a System Rating 10-12: The Decker is hit with a White IC attack program with a rating equal to the adjusted system rating. IC does physical damage to the Deck itself.
-- Critical Glitch on a System Rating 6-9: The Decker is ejected from the system and may suffer dumpshock.
-- Critical Glitch on a System Rating 10-12: The Decker is hit with a Black IC program with a rating equal to the adjusted system rating. Black IC does physical damage to the Decker themself.
-
-
-#### Step 5. Next Round
+#### 5. 
