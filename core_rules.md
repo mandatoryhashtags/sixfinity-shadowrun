@@ -601,7 +601,7 @@ In an opposed test you compare the Effect Dice of both sides. Subtract the lesse
 ### Advantage and Disadvantage
 If used in text or a GM can use as shorthand.
 
-Advantage: Get a Bonus Effect
+Advantage: Get 2 Bonus Effect
 
 Disadvantage: You cannot gain Bonus Effect.
 
@@ -812,14 +812,6 @@ Cost: 5
 
 Analytical Mind describes the uncanny ability to logically analyze information, deduce solutions to problems, or separate vital information from distractions and noise. It’s useful in cracking cyphers, solving puzzles, figuring out traps, and sifting through data. This quality gives the character a Advantage to any Mental Tests involving pattern recognition, evidence analysis, clue hunting, or solving puzzles. This quality also reduces the time it takes the character to solve a problem by half.
 
-#### Animal Empathy
-
-Cost: 5 XP
-
-A character with Animal Empathy has an intuitive sense for understanding and handling animals of all kinds.
-
-Effect: You gain a Advantage on all Tests made to influence, calm, train, guide, or control animals (this includes riding, driving, or directing them).
-
 #### Aptitude
 
 Cost: 14 XP
@@ -932,6 +924,81 @@ Your Overflow is increased by 1 per rating.
 
 Restriction: Maximum rating is 3.
 
+
+#### HOME GROUND
+COST: 10 KARMA
+If a character knows her neighborhood better than anyone—
+the shortcuts, the hiding places, and the people
+she can trust—then she probably has the Home Ground
+quality. She knows the families who live there, their stories,
+and what the kids who moved out are doing; she
+knows the streets better than GridGuide, knows things
+that aren’t on GridGuide, and knows when GridGuide
+is wrong. She knows the politics of the gangs, who’s
+running for whom and who’s running from whom. But
+it’s not just the physical streets. Depending on the character,
+her Home Ground quality can manifest in ways
+specific to who and what she is. When choosing this
+quality, select one of the bonuses below:
+• Astral Acclimation: The character has become
+acclimated to the background count of her
+Home Ground. Through a lifetime of familiarity
+she’s learned to work around it, enabling her to
+ignore up to two points of background count.
+For example, if the background count on her
+Home Ground is 3, she sees only a reduction of
+1 to her Magic tests; if the background count is
+5, for her it is only a 3, and so on. This quality
+works only on her Home Ground and has no
+benefit anywhere else.
+• You Know a Guy: The character has built up
+long-lasting relationships with people from her
+neighborhood. These people are not contacts,
+but they know her as one of their own and are
+more likely to do favors for or talk to her. NPCs
+from the character’s Home Ground neighborhood
+are considered friendly toward her wherever
+she encounters them (unless she has done
+something to change that).The character receives
++2 Street Cred for any Negotiation with
+people from her Home Ground.
+• Digital Turf: This is for a decker or technomancer
+who has a specific host that she calls her
+own. She may actually own the spot, or it can be
+a place she frequents enough to consider home.
+The character receives a +2 bonus to Matrix
+Tests while in her Home Ground host. Bonuses
+from other Qualities may stack with Home
+Ground. If the character has not frequented this
+host for more than six months, she loses the
+Home Ground quality because she is no longer
+as familiar as she should be.
+• The Transporter: This character knows the layout
+of streets, back alleys, service tunnels, etc.,
+like the back of her hand. She knows when
+GridGuide is wrong and when GridGuide is out
+of date. When the transporter is on her Home
+Ground, she has a +2 dice pool modifier for Evasion
+Tests.
+• On the Lam: Hiding out and lying low are part of
+a shadowrunner’s daily life. On the Lam means
+a character has an encyclopedic knowledge of
+safehouses, bolt holes, abandoned buildings,
+just about any out-of-the-way place not claimed
+by gangs or squatters. When she needs to find a
+safe location in a hurry, this character receives a
++2 dice pool bonus to her Intuition + appropriate
+street knowledge skill to find a suitable place
+to hole up fast.
+• Street Politics: This character knows the street
+gangs, the criminal operations, and the beneath-
+the-surface affiliations that are the social
+and political fabric of her Home Ground. She receives
+a +2 dice pool modifier for Knowledge
+Tests relating to gangs or their operations.
+This quality can be taken multiple times, selecting
+one of the categories above each time.
+
 #### Human Looking
 
 Cost: 5 XP
@@ -949,6 +1016,44 @@ Restriction: Only Elves, Dwarves, and Orcs may take this Quality.
 Cost: 8 XP Per rating (Max 3)
 
 Bodies and minds have limits, but some people have the will to push right through those boundaries. For each level of Indomitable, a character receives a +1 increase to an Inherent limit of his choice (Mental, Physical, or Social). He can take up to three levels and can apply them in any way he chooses (+3 to one Inherent Limit, for example; or +2 to one Inherent and +1 to another; or +1 to all three).
+
+
+JURYRIGGER
+COST: 10 KARMA
+Juryrigger gives a character an intuitive grasp of the inner
+workings and underlying principles of mechanical
+and electronic devices. She knows how to repair the
+broken, rejuvenate the worn, improve a device’s efficiency,
+or coax it into doing things it’s designers hadn’t
+intended. Characters with the Juryrigger quality receive
+a +2 dice pool modifier for Mechanical Tests when
+juryrigging gear. If the gamemaster decides what the
+character wants to accomplish is in fact possible, he determines
+the threshold for her success using the Build/
+Repair Table (p. 146) as a guideline, then reduces the
+threshold for the test by 1. While a successful Mechanics
+Skill Test enables the Juryrigger to perform amazing
+technical feats, everything she devises is temporary.
+Examples of what a character may be able to do with
+Juryrigger include:
+• Juryrig a destroyed device so that it will operate
+just one more time (for 1D6 minutes).
+• Tweak an electronic device to function at a rating
+one higher than normal for 1D6 Combat Turns.
+• Temporarily coax extra performance from a
+vehicle’s or drone’s components, increasing its
+Sensor or Handling by +1 (if combined with bonuses
+from Gearhead, the vehicle’s or drone’s
+critical components completely burn out at the
+end of the duration from being pushed well beyond
+their limits; at that point, the vehicle or
+drone becomes a big paperweight).
+• Improvise a one-shot device or weapon from
+disparate components (the gamemaster has final
+say on whether suitable parts are available).
+• Devise an impromptu means to bypass a security
+measure, such as a trip beam or pressure plate.
+
 
 
 #### Lucky
@@ -979,11 +1084,37 @@ Limitation: This resistance applies to all spells, even beneficial ones such as 
 
 Scaling: This Quality may be taken multiple times, increasing your modifier by +1 for each purchase (up to the maximum of 4).
 
+
+#### MENTOR SPIRIT
+COST: 5 KARMA
+Everyone needs some help in life, even if it comes from
+someone relatively filmy and insubstantial. Mentor
+Spirit means the character follows a patron spirit (see
+Mentor Spirits, p. 320) that guides him in his practice
+of magic and provides certain advantages and disadvantages
+to his natural abilities. A character may change
+mentor spirits, but he may have only one mentor spirit
+at a time. To change mentor spirits, the character must
+first buy off the current mentor spirit as if it were a Negative
+quality. He can then purchase the quality again to
+follow a different mentor spirit. This cost represents the
+toll of divorcing from one mentor spirit and bonding
+with a new one.
+
+
+
 #### Natural Athlete
 
 Cost: 7 XP
 
 A character with this quality has an innate combination of physical fitness, spatial awareness, and natural athletic or gymnastic talent. While the character may not be a world-class athlete and may require training to achieve peak performance, he is in prime physical shape for his size and weight class. The Natural Athlete adds a Advantage for Running and Gymnastics skill tests.
+
+#### NATURAL HARDENING
+COST: 10 KARMA
+This quality makes the character’s neural structure resistant
+to feedback. This gives her 1 point of natural biofeedback
+filtering, which is cumulative with a Biofeedback Filter
+program or a technomancer’s firewall (p. 251).
 
 #### Natural Immunity
 
@@ -1023,11 +1154,29 @@ Cost: 3 XP
 A Quick Healer recovers from damage more quickly than other characters. The character receives a Advantage to all Healing Tests made on/for/by him, including magical healing.
 
 
-#### Resistance to Damage
+#### RESISTANCE TO PATHOGENS/TOXINS
 
 Cost: 8 XP
 
 A character with resistance chooses a *special* type of damage (not Impact or Ballistic) such as Fire, or Poison and gains resistance to that damage. Suffering half-damage from that source. This can only be taken once. 
+
+#### SPIRIT AFFINITY
+COST: 7 KARMA
+Available only to magic users, the Spirit Affinity quality
+allows a character to be attuned to one type of spirit
+(see Spirits, p. 303). These spirits find the character
+interesting, are drawn to her, and are more inclined to
+assist her. They may be reluctant to attack the character,
+and if forced to do so they are likely to use nonlethal
+power. Watchers and minions do not count for this
+quality as they are constructed and are not summoned
+like normal spirits. Spirit Affinity provides magicians
+with 1 additional spirit service for each spirit of that
+type, and it also provides a +1 dice pool modifier for
+Binding Tests.
+Magic users may possess this quality for a type of
+spirit that is not part of their magical tradition.
+
 
 #### Vigor
 
@@ -1046,8 +1195,6 @@ This character can go into the negatives an additional point per rating up to th
 
 
 ### Negative Qualities
-
-
 
 #### Addiction
 
@@ -1091,6 +1238,113 @@ Bonus: 12 XP
 
 This character is cursed—his own luck often turns against him. Whenever this character uses Edge, roll 1D6. On a result of 1, the Edge is spent, but it has the exact opposite effect intended. For example, if a character hopes to gain a reroll dice to take the higher option, instead he takes the lower option. If a character spends Edge to go first in an Initiative, he ends up going last. If a character spent Edge to negate a glitch, Bad Luck turns it into a critical glitch.
 
+#### BAD REP
+BONUS: 7 KARMA
+A character with a Bad Rep quality has a dark and lasting
+stain on her reputation. She may be a former Knight Errant
+cop known to have been particularly brutal in dealing
+with shadowrunners. Or word on the street might be that
+she once killed a member of her own runner team. If she’s
+Awakened and comes from a polluted region, it may be
+generally accepted that she’s a toxic shaman. Whether
+she is actually guilty of any wrongdoing is not relevant.
+What people believe she has done has permanently
+tainted the way they see her and how they deal with
+her. Whatever the reason, the character starts play with
+3 points of Notoriety (p. 372) that can only be removed
+or decreased by confronting and resolving the source of
+the bad reputation. Only then may the Bad Rep quality be
+bought off with Karma.
+
+#### CODE OF HONOR
+BONUS: 15 KARMA
+The character has a binding Code of Honor when it
+comes to killing members of a specific group; it’s a
+matter of unwavering principle. The character with
+the Code of Honor quality chooses a specific group
+that they will not kill or allow others to kill. Examples
+of this group could include women, children, innocent
+bystanders, or a specific metatype. A character can
+choose to protect specific paracritters, but only if the
+specified paracritter possesses the Sapience power.
+The gamemaster must approve the group that the
+character designates as being “off limits.” If the group
+(such as children) is not regularly encountered in campaigns
+the gamemaster can reject the choice. If the
+player feels strongly about his choice, the gamemaster
+may allow the player to take two groups they will not
+harm, (i.e., women and children), one of which must be
+likely to be encountered in the campaign. A magician
+can legitimately choose to not destroy any type of spirit
+from which their Mentor Spirit bestows a bonus for summoning.
+This Code of Honor respects their Mentor Spirit
+and is worthy of the Karma. Characters can’t pick an obscure
+or non-existent group to acquire this quality—you
+can’t acquire Karma by vowing to never kill sapient hamsters,
+for example.
+Any time anyone attempts to kill a member of the
+character’s protected list, the character must make a
+Charisma + Willpower (4) Test. A failed roll means the
+character must immediately put a stop the violence
+against the member of their protected group. If the
+situation forces the character to take action against
+any of his protected group, he will always choose
+non-lethal methods. Killing a member of the group he
+has sworn to protect is a line he will not cross for any
+reason.
+There are drawbacks to having a Code of Honor. For
+example, it can leave witnesses behind. For each person
+in the protected group the character leaves alive
+and who is in a position to remember them, increase the
+character’s Public Awareness by 1. The character’s job
+options are also limited—he will not take a job if the objective
+is the death of a member of his protected group
+and will have reservations about taking part in a mission
+with a high probability of causing collateral harm to
+members of his protected group.
+There is always a chance things will go wrong whenever
+non-lethal force is used. A person may have a
+life-threatening allergic reaction to a usually harmless
+knockout drug, or a heart condition that makes a taser
+shock deadly. For this reason, each time the character
+takes a violent action or allows others to take violent action
+against a member of his chosen group, the gamemaster
+makes a secret roll of 1D6. On a roll of 1, there is
+an unforeseen complication from the use of non-lethal
+force. With a metahuman it could be a life-threatening
+medical condition; with a spirit, an attempt to banish
+rather than destroy may in fact set the spirit free. When
+a complication arises, the gamemaster makes a secret
+Perception (4) Test for the character to notice if anything
+has gone wrong.
+If a person in the character’s chosen group is killed,
+whether intentionally or inadvertently, the character loses
+a point of Karma for that adventure for each person in
+their “protected group” that is killed.
+The Code of Honor can take other forms as well. For
+example:
+• Assassin’s Creed: A character never kills anyone
+that they are not paid to kill. Being precise as an
+assassin, not leaving collateral damage, and 
+ing invisible are important hallmarks of those
+who believe in the Assassin’s Creed. Characters
+who take this version of Code of Honor lose 1
+point of Karma for every unintentional and/or
+unpaid murder they commit, and their Public
+Awareness goes up by 1 for each such death.
+• Warrior’s Code: The character who follows a
+Warrior’s Code maintains a strict sense of personal
+honor. In 2075, this likely means a character
+will not kill an unarmed person, take lethal action
+against an opponent who is unaware or unprepared
+for an attack (i.e., a guard who doesn’t
+know the runner is there), or knowingly take an
+action that could kill someone who is defenseless
+(i.e., from a stray bullet or allow someone to
+be killed from a sniper shot). The character loses
+1 Karma per unarmed or defenseless person that
+they kill or allow to be killed through their actions.
+
 #### Codeblock
 
 Bonus: 10 XP
@@ -1103,6 +1357,76 @@ Bonus: 12 XP
 
 A character with Combat Paralysis freezes in combat situations. On the character’s first Initiative Test in combat, the character
 rolls Initiative with disadvantage. On the second and subsequent Initiative Tests, however, the character rolls his normal Initiative. The character also receives a –3 modifier on Surprise Tests.
+
+#### DEPENDENTS
+BONUS: 3, 6, OR 9 KARMA
+A character with the Dependents quality has one or
+more loved ones who depend on them for emotional
+support and financial aid. Dependents may include
+children, parents, a spouse or lover, a sibling, or an
+old friend. Meeting the needs of a dependent should
+take up a fair amount of the character’s time, as well as
+some of the character’s money. Increase the amount of
+time it takes to learn a new skill or improve an existing
+skill by fifty percent. See the Character Advancement
+section on p. 103 for more information on how long it
+takes to improve skills. Also increase the base time for
+any long-term projects by fifty percent. A dependent
+could also be a hindrance in other ways—getting underfoot,
+sharing living space, involving herself in the
+character’s work, borrowing the car, calling at the most
+inopportune moments, etc.
+For 3 Karma, the dependent is an occasional nuisance:
+dropping in unexpectedly (such as when the
+character must go to a meet), needing emotional support,
+favors, or other confirmations of friendship/commitment,
+and occasionally money. Examples of dependents
+at this level include: slacker sibling, long-term
+boyfriend/girlfriend, or a child not living with the character
+but for whom the character pays child support and
+visits regularly. Raise the character’s lifestyle cost by 10
+percent each month.
+For 6 Karma, the dependent is a regular inconvenience:
+needing attention and commitment on a regular
+basis, getting involved in the character’s affairs, sharing
+living space. Examples of dependents at this level include:
+a live-in lover/wife/husband or family member, a
+child for whom the character shares custody and routinely
+has in his home (every other weekend, etc.), or a
+young child or close sibling for whom the character is
+responsible. Increase the character’s lifestyle cost by 20
+percent each month.
+At the 9 Karma level, the dependent is close family
+or a life partner and lives with the character. The dependent
+is a strain on the character’s time and resources,
+and/or requires special care and attention that limits the
+character’s availability for missions or specific actions.
+Examples of these dependents include large family
+sharing the living space, parents or grandparents with
+medical or physical needs, and full custody of any children.
+Increase the lifestyle cost for the character by 30
+percent each month.
+
+#### DISTINCTIVE STYLE
+BONUS: 5 KARMA
+A character with the Distinctive Style quality has at least
+one aspect of his appearance, mannerism, or personality
+that makes him inconveniently memorable. Choices
+for Distinctive Style include, but are by no means
+limited to: tattoos that cannot be easily concealed, an
+accent or atypical manner of speaking, bizarre fashion
+choices, scars, gang or prison signs, flashy custom augmentations,
+or non-metahuman modifications like a
+tail. Note that what’s distinctive in one culture or location
+may not be in another.
+Whatever Distinctive Style the player selects makes
+her character easy to remember. Anyone who attempts
+to identify, trace, or physically locate this character (or
+gain information about him via legwork) receives a +2
+dice pool modifier for relevant tests. If an NPC makes a
+Memory Test (p. 152) to determine how much they recall
+about the character, reduce the Difficulty Threshold
+by 1, to a minimum of 1.
 
 #### Gremlins
 
@@ -1198,80 +1522,19 @@ This character is at Disadvantage on certain tests. For 5 XP they are at disadva
 
 ## Chapter 6: Skills
 
-> Note Sixfinity does not use Skill Groups
+When trying to accomplish something more refined than hefting a load, spotting an
+ambush, or running for cover, a character will normally use a skill. Shadowrun skills
+are groups of closely related techniques and knowledge, not narrow, limiting areas
+of function. The game takes this approach in an attempt to keep down the number
+of statistics. If a character uses Concentrations and Specializations, he or she has
+increased capability in that specialized area, but at the cost of reduced ability in the
+rest of the functions covered by the general skill.
 
-Base skills are the fundamental skills in Sixfinity. Whereas attributes represent an individual’s inherent capacities, skills are abilities an individual learns over time. Each skill represents the training and methods a character has picked up that enable her to use her natural attributes in a certain way. To reflect this connection, each skill is linked to an attribute. A list of skills and their linked attributes appears in the Skills and Linked Attributes Table, below.
-
-Skills are grouped into two broad categories: Active, and Knowledge. Characters begin the game with a set of skills chosen by the player.
-
-During game play, characters can improve or specialize in skills, or learn new ones as they experience new things. 
-
-**Active Skills**
-
-
-Active skills are the skills characters use to take action, affect something, or somehow make an impact. These skills are the ones that usually matter the most to characters. Firing a gun, negotiating, driving a car , and so on. For a complete description of base Active skills and specializations see below.
-
-**Knowledge Skills**
-
-
-Knowledge Skills represent what a character knows about certain subjects. Beginning Knowledge skills are based on a character’s Willpower and Logic attributes. Knowledge skills are useful for fleshing out a character by defining her background or areas of interest, and are used in the game most often to represent legwork, show character development, or allow characters to come up with information they might not otherwise have a chance to gain. they can range from fields of knowledge important in the game universe—such as Corporate Finance, Political History, Research, or Magic—to more esoteric, bizarre, or mundane interests such as trash Metal Bands, or Elven Wines.
-
-Knowledge skills fall into four categories: Stree, Academic, Interests, and Professional.
-
-Each category presents an opportunity to shape the experiences of a character far beyond what happens on a run. Knowledge skills do not affect tests the way Active skills do. In certain cases Knowledge skills may provide the background needed to complete an action, but they typically do not provide dice for Active skill tests. You get a number of free Knowledge skill points at character creation. Skill advancement and additional Knowledge skills follow the skill advancement rules (Character Advancement).
-
-Knowledge skills complement your character. They create meaning and history behind the Active skills and abilities you choose. Shadowrun gives you some room to play with Knowledge skills. You’re free to take practically any Knowledge skill your can think up for your character. Knowledge skills are meant to represent a limited set of knowledge the character could have gained in some in-game fashion. For example, a kid growing up in an Evo corporate enclave could have a skill in Corporate Culture. On the other hand, had she tried to take Culture as a Knowledge skill, it would have been way too broad to be a Knowledge skill and her gamemaster would have told her she needs to narrow it down a bit. Check out the Knowledge Skill Examples to get a good idea about how to hit the Knowledge skill sweet spot
-
-**STREET KNOWLEDGE**
-
-
-Street Knowledge is linked to Intuition. This type of Knowledge skill is about knowing the movers and shakers in an urban area, along with how things get done on the street. You know about the people who live in different neighborhoods, who to ask to get what, and where things are. The information that these skills cover tends to change rapidly, but your instincts help you keep up.
-
-**ACADEMIC KNOWLEDGE**
-
-
-Academic knowledge is linked to Logic. This type of knowledge includes university subjects such as history, science, design, technology, magical theory, and the people and organizations with fingers in those pies. The humanities (cultures, art, philosophy, and so on) are also included in this category.
-
-**PROFESSIONAL KNOWLEDGE**
-
-
-Professional Knowledge skills deal with subjects related to normal trades, professions, and occupations, things like journalism, engineering, business, and so on. You might find them helpful when doing legwork for a run, especially those in the corporate world. All Professional Knowledge skills are linked to Logic.
-
-**INTERESTS**
-
-
-Strange as it might sound, you might have some hobbies outside of slinging mana and bullets. Interests are the kind of Knowledge skill that describes what you know because of what you do for fun. There are no guidelines (and no limit) to the sort of interest skills you can have. Interest Knowledge skills are linked to Intuition.
-
-**Languages**
-
-
-There are few situations where language skills should require a dice roll. Characters with a language skill don’t need to make tests to understand one another in every day situations. The character’s skill level serves as a benchmark for how well they can communicate in a foreign language over time. However, in critical situations where precise translation is important, a gamemaster may elect to require a Language skill test. For more information, see Using Language Skills.
-
-**LINGOS**
-
-
-Lingos are informal languages formed out of a mother tongue and heavy with slang, jargon, and culturally significant metaphorical language. Lingos arise out of professional and often cultural need. For example, the Cityspeak word ”wiz” came from jargon specific to the magically active. Lingos are specializations of base languages.
-
-| Name       | Meaning                                                       |
-| ---------- | ------------------------------------------------------------- |
-| Cityspeak  | A Japanese/English pidgin spoken in Seattle                   |
-| Creole     | A French/English hybrid spoken in the CAS                     |
-| Street     | Localized jive based on a city’s street population            |
-| ‘l33tspeak | Decker code talk                                              |
-| Milspec    | Military jargon shared between soldiers/mercs                 |
-| Corp       | Technical banter shared by corporate office staff and lawyers |
-| Orbital    | Jargon shared by off-world colonies                           |
-
-**USING LANGUAGE SKILLS**
-
-
-A gamemaster may elect to call for a Language Test anytime information needs to be translated hurriedly or in a tense situation. The Language Skill Table suggests thresholds for the test as well as possible modifiers. Failing a Language Test means the parties are unable to understand each other. If a glitch is rolled, some meaningful portion of the information is presumed to be understood but is actually misunderstood. The gamemaster may want to make the Language Test secretly, in order to maintain the illusion that the characters understand what is going on.
-
-**Skill Ratings**
+### SKILL RATINGS
 
 Skill ratings are the numerical values assigned to skills or skill groups, either at character creation or when the skill is learned during game play. They represent how good a character is at a task when using that particular skill. Skill ratings are written as the name of the skill, followed by the rating. For example, Sneaking 3 means the character has the Sneaking Skill at a rating of 3. The skill rating is added to the linked attribute to determine the modifier added to 3D6 when that skill is used. For example, if the character with Sneaking 3 also had an Agility 4, she would add 7 to her rolls on a Sneaking Test.
 
-The skill Rating is a numerical value ranging from 1, representing the most rudimentary skill, to 7 (or 13 with the Aptitude quality) representing the height of sentient achievement. 
+The skill Rating is a numerical value ranging from 1, representing the most rudimentary skill, to 6 (or 7 with the Aptitude quality) representing the height of sentient achievement. 
 
 The unmodified skill rating assigned at character creation or purchased during game play is considered to be the character’s base skill rating. Some abilities and implants (as noted) may increase this rating, creating a modified skill rating. A modified skill cannot exceed the base skill rating x 1.5. Specializations, spells, and other implants may provide a bonus to a skill, but do not change the base skill rating. These extra modifiers are listed in parentheses after the base skill, as in Sneaking 4 (+2)
 
@@ -1287,13 +1550,43 @@ The unmodified skill rating assigned at character creation or purchased during g
 | 6      | Elite        |
 | 7      | Legendary    |
 
-### Specializations
 
-If you devote extra time to a subset of a skill, it’s called a specialization. If your character has the Gymnastics skill but spends a lot of time practicing parkour, you get a character that is good at Gymnastics but especially good at climbing past obstacles.
+### SPECIALIZATIONS SKILLS
 
-A specialization adds +2 modifier to any test made for that skill when the specialization comes into play. You write the specialization in parentheses right after the skill, and then add a “(+2)” after the rating to remind you of the bonus. Characters can have multiple specializations within the same skill, but one applies at a time. For example, a character with the Blades skill who specializes in Axes and Parrying would only receive a +2 modifier to tests when parrying with an axe.
+If you devote extra time to a subset of a skill, it’s called a specialization. If your character has the Athletics skill but spends a lot of time practicing parkour, you get a character that is good at Athletics but especially good at climbing past obstacles.
 
-New characters may only take one specialization per skill at character creation (Creating a Character), but you can buy more later. If you want a specialization in a skill, you have to have it first (meaning a Rating of at least 1). 
+A specialization adds +2 modifier to any test made for that skill when the specialization comes into play. You write the specialization in parentheses right after the skill, and then add a “(+2)” after the rating to remind you of the bonus. Characters cannot have multiple specializations within the same skill.
+
+If you want a specialization in a skill, you have to have it first (meaning a Rating of at least 1). 
+
+### Active Skills
+
+
+Active skills are the skills characters use to take action, affect something, or somehow make an impact. These skills are the ones that usually matter the most to characters. Firing a gun, negotiating, driving a car , and so on. For a complete description of base Active skills and specializations see below.
+
+### Knowledge Skills
+
+
+Knowledge Skills give a character access to specific Information. This is especially useful when the character is an expert In a fleld in which the player Is Ignorant. 
+
+Many Knowledge Skills also provide the character with the theoretical basis of actions related to the fleld of study and the basis for new designs In an area.
+
+**Languages**
+
+
+Language skills are an exception to the basic skills rule because each specific language Is a Specialization of a family of languages. Thus, a character will have some facility with languages related to his specific language, but will not be fluent In additional languages within that family unless he or she also acquires Specializations in those languages. Different language families are not considered to be related.
+
+When language Specializations are taken as part of character generation, the Specialization Ratings automatically increase by +2. The language family, as the equivalent of the general skill, would have a skill rating of 4 less than the Language Rating itself. Any modifled rating less than 1 is treated as a 1.
+
+
+Players should note that there are no formal troll, dwarf, or ork languages. These characters use the languages of their mothers and fathers, most of whom are human. These groups may often speak a kind of patois, however.
+
+Each language family is listed in bold type, followed by the specific languages
+
+This means if a character takes the language French they will start at French 3, and have Romance Languages at 1. If they later took French again it would be 6 (maxed besides Native) and would have Romance Languages 2. If they later wanted to take Spanish they could spend 1 point and have Spanish at 5 and Romance Languages at 3. They could spend another point to move Spanish to 6 or could take Italian and it would start at 5 giving them Romance Languages at 4. This demonstrated how related languages make others like them easier to learn. That same character if they then took Russian would get Russian at 3 and Slavic at 1 because they are not related in any way to Romance Languages.
+
+Every character gets their native language at N for native but no points in the Family of the language. 
+
 
 ### Defaulting
 
@@ -1390,7 +1683,6 @@ Some skills are too technically demanding for you to default. In these cases, yo
 | *Biotechnology*         |
 | *Chemistry*             |
 | Computer                |
-| Cybercombat             |
 | *Cybertechnology*       |
 | Demolitions             |
 | *Electronic Warfare*    |
@@ -2182,14 +2474,6 @@ Computer is the base skill for interacting with the Matrix. It represents the ab
 - Skill Group: Electronics
 - Specializations: By action (Edit File, Matrix Perception, Matrix Search, etc.)
 
-##### CYBERCOMBAT (LOGIC)
-
-Cybercombat is the skill used by hackers to engage in combat on the Matrix. See Using Cybercombat
-
-- Default: Yes
-- Skill Group: Cracking
-- Specializations: By target type (Devices, Grids, IC, Personas, Sprites, etc.)
-
 ##### CYBERTECHNOLOGY (LOGIC)
 
 Cybertechnology is the ability to create, maintain, and repair cybernetic parts. A character with the proper tools and parts may repair or even build new cybernetics. Cybertechnology is not a surgical skill. Characters cannot attach or re-attach cybernetics to organic material with this skill. This skill may be used to modify or upgrade cybernetics within cyberlimbs. See Building and Repairing
@@ -2537,7 +2821,7 @@ These devices are older tech. Whether it’s because they’re incompatible with
 
 ### Melee Weapons
 
-| **WEAPON**            | **DV** | **ATTACK RATINGS** | **AVAILABILITY** | **COST** |
+| **BLADES**            | **DV** | **ATTACK RATINGS** | **AVAILABILITY** | **COST** |
 | --------------------- | ------ | ------------------ | ---------------- | -------- |
 | Combat Axe            | 5P     | 9/—/—/—/—          | 4                | 4,000¥   |
 | Combat/Survival Knife | 3P     | 8/2*/—/—/—         | 2                | 300¥     |
@@ -2554,7 +2838,7 @@ These devices are older tech. Whether it’s because they’re incompatible with
 | Stun baton            | 5S(e)  | 6/—/—/—/—          | 2                | 750¥     |
 | Telescoping staff     | 4S     | 8/—/—/—/—          | 2                | 350¥     |
 
-| **OTHER**          | **TYPE** | **DV** | **ATTACK RATING** | **AVAILABILITY** | **Cost** |
+| **EXOTIC**         | **TYPE** | **DV** | **ATTACK RATING** | **AVAILABILITY** | **Cost** |
 | ------------------ | -------- | ------ | ----------------- | ---------------- | -------- |
 | Bike chain         | Unarmed  | 2S     | 5/—/—/—/—         | 1                | 15¥      |
 | Bullwhip*          | Exotic   | 1P     | 6/—/—/—/—         | 4                | 255¥     |
@@ -2636,7 +2920,7 @@ A big stick that starts out as a small stick. This metal and composite staff can
 
 Wireless bonus: You gain a bonus Minor Action on a turn when you retract or extend the baton.
 
-**OTHER**
+**EXOTIC**
 
 **Bike Chain**
 
@@ -2654,11 +2938,11 @@ Wireless bonus: The whip uses your visuals on the target to make small adjustmen
 
 
 
-### Thrown/Projectile Weapons
+### Thrown/Archery Weapons
 
 Attacks using weapons in this category are made using the Athletics skill.
 
-| **WEAPON**           | **DV**        | **ATTACK RATINGS**   | **AVAILABILITY** | **COST**      |
+| **Archery**          | **DV**        | **ATTACK RATINGS**   | **AVAILABILITY** | **COST**      |
 | -------------------- | ------------- | -------------------- | ---------------- | ------------- |
 | Bow                  | (Rating + 2)P | (Rating/2)/(Rating)/ | Rating/3 L       | Rating x 10¥  |
 | Arrow                | -             | (Rating/4)/—/—       | Rating/3         | Rating X 2¥   |
@@ -2741,7 +3025,7 @@ Wireless bonus: All modern firearms are considered to be wireless-equipped and c
 | Ingram Smartgun XI             | 3P           | SA/BF        | 11/9/6/—/—         | 32(c)              | 3(L)             | 750¥      |
 | SCK Model 100                  | 3P           | SA/BF        | 10/10/7/—/—        | 30(c)              | 3(L)             | 725¥      |
 | Uzi V                          | 3P           | SA/BF/FA     | 8/8/7/—/—          | 24(c)              | 2(L)             | 455¥      |
-| **Rifles**                     | **DV**       | **MODES**    | **ATTACK RATINGS** | **AMMO**           | **AVAILABILITY** | **COST**  |
+| **Assault Rifles**             | **DV**       | **MODES**    | **ATTACK RATINGS** | **AMMO**           | **AVAILABILITY** | **COST**  |
 | AK-97                          | 5P           | SA/BF/FA     | 4/11/9/7/1         | 38(c)              | 2(L)             | 2,100¥    |
 | Ares Alpha                     | 4P           | SA/BF/FA     | 4/10/9/7/2         | 42(c)              | 5(L)             | 3,400¥    |
 | - Grenade Launcher             | As grenade   | SS           | 4/10/6/2/—         | 6(c)               | —                | —         |
@@ -2750,6 +3034,7 @@ Wireless bonus: All modern firearms are considered to be wireless-equipped and c
 | Yamaha Raiden                  | 4P           | SA/BF/FA     | 4/11/10/7/2        | 60(c)              | 5(L)             | 3,200¥    |
 | - Grenade Launcher             | As grenade   | SS           | 4/11/7/1/—         | 4(c)               | —                | —         |
 | - Shotgun                      | 4P           | SS/SA        | 7/9/8/—/—          | 2(b)               | —                | —         |
+| **Longarm Rifles**             | **DV**       | **MODES**    | **ATTACK RATINGS** | **AMMO**           | **AVAILABILITY** | **COST**  |
 | Ares Desert Strike             | 5P           | SA           | 3/10/10/10/10      | 14(c)              | 4(I)             | 11,000¥   |
 | Cavalier Arms Crockett EBR     | 5P           | SA/BF        | 3/8/11/8/8         | 20(c)              | 5(I)             | 9,050¥    |
 | Ranger Arms SM-5               | 5P           | SA           | 3/6/9/11/12        | 15(c)              | 5(I)             | 13,200¥   |
@@ -2780,6 +3065,7 @@ Wireless bonus: All modern firearms are considered to be wireless-equipped and c
 #### Firearm Descriptions
 
 **TASERS**
+Pistols
 
 Tasers accept top-mounted accessories.
 
@@ -2796,6 +3082,7 @@ The Pulsar uses wireless capacitors, meaning that the Pulsar has increased range
 Wireless bonus: A successful hit informs you of the status of the target’s basic health and Condition Monitors (general statements, rather than exact number of boxes left).
 
 **HOLD-OUTS**
+Pistols
 
 Hold-outs can’t take accessories or modifications.
 
@@ -2844,6 +3131,7 @@ This rugged revolver is the kid brother of the legendary Super Warhawk. Designed
 Wireless Bonus: You get an extra Minor Action in a turn where you change the action selection.
 
 **Machine Pistols**
+Automatics
 
 Machine pistols can take top- and barrel-mounted accessories.
 
@@ -2860,6 +3148,7 @@ Small and lethal, but not designed for beauty. Burst Fire capable from the get-g
 A lightweight polymer-frame and full autofire capability are not an ideal design combo, but spraying enough lead to make everyone duck for cover is the goal with the TMP. A top-mounted laser sight comes standard to make users think they’ll be aiming.
 
 **HEAVY PISTOLS**
+Pistols
 
 Heavy pistols can take top- and barrel- mounted accessories.
 
@@ -2884,6 +3173,7 @@ Governments need new weapons contracts for bribe purposes, so having a new stand
 Boom and glitz! That’s the standard street tag for the Super Warhawk. This revolver is shiny and chrome and makes holes the size of a troll’s fist straight out of the box. Upgrade the ammo or the features and those holes get real precise.
 
 **SUBMACHINE GUNS**
+Automatics 
 
 SMGs can take top- and barrel-mounted accessories.
 
@@ -2912,6 +3202,7 @@ Shin Chou Kyogo has made the Model 100 the corp-suit equivalent of the Smartgun 
 A new design for a new world. The latest model Uzi is a big market entry for Spinrad Global. The V model features an integral folding stock and builtin top-mounted laser sight.
 
 **Shotguns**
+Longarm
 
 The stats for these shotguns are for normal slug rounds. Shotguns can take top, barrel, and underbarrel accessories.
 
@@ -2932,15 +3223,9 @@ Rich people own shotguns too. Small production runs, usually purchased by rich E
 Double-barreled and pistol gripped makes this little beast bad news when it slips out of a pocket. If you’re not a fan of flechette shooters, load some Heavy Pistol rounds into a Roomsweeper and she shoots like a really inaccurate hand cannon.
 
 **ASSAULT RIFLES**
+Automatics 
+
 Rifles can take top, barrel-, and underbarrel-mounted accessories.
-
-**Remington 900**
-
-A high-powered bolt-action hunting rifle with a classic wooden body. The base model is sold with a top-mounted imaging scope, but it cannot mount underbarrel accessories.
-
-**Ruger 101**
-
-Like futuretech in a hunting-rifle format, this gas-operated favorite sits in the hands of many professional hunters and hobbyists. It features a builtin imaging scope and a rigid stock with shock pad.
 
 **AK-97**
 
@@ -2962,6 +3247,9 @@ Fabrique Nationale is the name to fear when facing private security forces and c
 
 While Ares made the Alpha, the Japanacorps, through Yamaha, developed the Raiden. Electronic firing and exceptional accuracy are integral to the design. Japanacorp security forces and the Japanese Imperial Marines now swear by the Raiden. It features an integral silencer, smartgun system, and underbarrel shotgun/grenade launcher.
 
+**Longarm Rifles**
+Longarms
+
 **Ares Desert Strike**
 
 “The Desert Strike for the Desert Wars” is the tagline today. Built to fight in the harshest conditions, the Desert Strike comes equipped with a rigid stock with shock pad and a detachable imaging scope.
@@ -2969,6 +3257,14 @@ While Ares made the Alpha, the Japanacorps, through Yamaha, developed the Raiden
 **Cavalier Arms Crockett EBR**
 
 Cavalier played a dangerous game by offering a sniper rifle capable of burst fire. The Crockett EBR can stay accurate at long range, but those bursts don’t allow repeated accuracy. The Crockett comes standard with a rigid stock with shock pad and a detachable imaging scope.
+
+**Remington 900**
+
+A high-powered bolt-action hunting rifle with a classic wooden body. The base model is sold with a top-mounted imaging scope, but it cannot mount underbarrel accessories.
+
+**Ruger 101**
+
+Like futuretech in a hunting-rifle format, this gas-operated favorite sits in the hands of many professional hunters and hobbyists. It features a builtin imaging scope and a rigid stock with shock pad.
 
 **Ranger Arms SM-6**
 
@@ -2980,6 +3276,7 @@ Sometimes you need to shoot an enemy; sometimes you need to shoot an enemy throu
 
 
 **Machine Guns/Assault Cannons**
+Heavy Weapons
 
 Machine guns come in three categories—light, medium, and heavy—that determine their Attack Ratings. All, even the “light” ones, are bulky and unwieldy. A light machine gun is bigger and heavier than most rifles, while medium machine guns and heavy machine guns can only be carried by someone with Strength of 3+ and 5+, respectively, since they are designed as vehicle- mounted weapons. Machine guns can take top, barrel, and underbarrel accessories.
 
@@ -3561,7 +3858,7 @@ If a tie occurs, the DM decides the order among tied DM-controlled creatures, an
 | --------------- | --------------------------------------- |
 | Personal Combat | (Reaction + Intuition) + Initiative Die |
 | Astral Combat   | Inuition x 2 + Initiative Die           |
-| Cybercombat     | (Reaction + Intuition) + Initiative Die |
+
 
 
 #### Timed Items & Initiative
@@ -5386,9 +5683,7 @@ Personas are the “people” of the Matrix. They’re primarily metahumans, but
 
 Attributes are somewhat different. Your Mental attributes carry over into the Matrix, but your Physical attributes are replaced by four Matrix attributes: Attack, Sleaze, Data Processing, and Firewall (ASDF).
 
-Attack represents the offensive power of the
-device in cybercombat and how much damage
-it can do when attacking.
+Attack represents the offensive power of the device in cybercombat and how much damage it can do when attacking.
 
 - Sleaze is the stealth attribute of the persona and represents how easy it is to hide and blend in with its surroundings, appearing as a normal icon among others, essentially disappearing.
 
@@ -5409,7 +5704,7 @@ A bricked device is one whose formerly complex functioning has been reduced to t
 ### Repairing Matrix Damage
 
 
-What’s broken can often be fixed, with the proper tools, time, and talent. Repairing a damaged device is an `Engineering + Logic (number of boxes, 1 hour Extended test`. 
+What’s broken can often be fixed, with the proper tools, time, and talent. Repairing a damaged device is an `Hardware + Logic (number of boxes, 1 hour Extended test`. 
 
 The device cannot be used while it is being repaired, and repairs cannot be performed without a toolkit. A critical glitch on a repair test means you messed up good—the device fails totally and will never work again.
 
@@ -5601,9 +5896,9 @@ Getting access the loud way.
 
 This is an obvious attack and will trigger an alert. Your OS *will* go up using Attacks. This is used to get into a System. Using Brute Force will trigger Any IC if there is any
 
-`Cracking + Logic` vs. `Rating + Firewall` DV = (Attack + Effect) Reduce Damage by Firewall
+`Hacking + Logic` vs. `Rating + Firewall` DV = (Attack + Effect) Reduce Damage by Firewall
 
-If attacked by a Host, IC, or Device they roll `Rating + Attack` against your `Cracking + Logic` and you will reduce damage by your Firewall. Damage will be applied to your Cyber Deck
+If attacked by a Host, IC, or Device they roll `Rating + Attack` against your `Hacking + Logic` and you will reduce damage by your Firewall. Damage will be applied to your Cyber Deck
 
 #### **Probe**
 
@@ -5611,34 +5906,34 @@ Getting Access the Quiet Way.
 
 Used to sneak into systems and not trigger an alert. As long as you are undetected (see Detection Tests) your OS will not go up. This requires a Detection Test.
 
-`Cracking + Logic` vs. `Rating + Firewall` Sleaze + Effect applies to Detection Test
+`Hacking + Logic` vs. `Rating + Firewall` Sleaze + Effect applies to Detection Test
 
 #### **Matrix Search**
 
 Search the publicly accessible grid for information. The number of effect generated gives you more information regarding the subject.
 
-`Cracking + Logic` vs. `Sleaze + Firewall`
+`Hacking + Logic` vs. `Sleaze + Firewall`
 
 #### **Encrypt/Decrypt File**
 
 Decrypts a file or Encrypts a file on the Host. Usually used after a Matrix Search. This requires a Detection Test.
 
-`Cracking + Logic vs. Encryption Rating` Effect + Data Processing will weaken Encryption.
+`Hacking + Logic vs. Encryption Rating` Effect + Data Processing will weaken Encryption.
 
-`Cracking + Logic` to set Encryption Strength with Effect + Data Processing.
+`Hacking + Logic` to set Encryption Strength with Effect + Data Processing.
 
 #### **Snoop**
 
 This action lets you intercept Matrix traffic sent to and from your target for as long as you have access. You can listen to, view, or read this data live, or you can save it for later playback/viewing if you have something to store it on (your deck or commlink will do). This requires a Detection Test.
 
-`Cracking + Logic vs. Rating + Firewall` Effect + Data Processing applies to Detection Roll
+`Hacking + Logic vs. Rating + Firewall` Effect + Data Processing applies to Detection Roll
 
 
 #### **Control Device**
 
 You take control of a device (like a camera). You own it as long as you control it. This is an obvious action and will raise your OS in the System. You can control 1 device per Data Processing of your Deck.
 
-`Cracking + Logic vs. Rating + Firewall` Effect + Data Processing for how long you will control the device.
+`Hacking + Logic vs. Rating + Firewall` Effect + Data Processing for how long you will control the device.
 
 #### Analyze
 
@@ -5658,7 +5953,7 @@ Does not require a roll will tell you what your Current OS score is. This requir
 
 This works a lot a like resisting, Drain does for an Awakened Character. You need to roll to avoid Detection if you fail your OS goes up. Any action you take (except Attack because it guarantees OS will go up) you roll to avoid Detection.
 
-`Cracking + Logic` vs. `Rating + your current OS` failure means you take the Net Effect to your OS
+`Hacking + Logic` vs. `Rating + your current OS` failure means you take the Net Effect to your OS
 
 Once OS reaches 40 they are detected and Dumped out of the Matrix and their Deck is Bricked. 
 
