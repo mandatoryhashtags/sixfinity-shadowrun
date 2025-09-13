@@ -3527,6 +3527,8 @@ They represent the Data Processing and Firewall attributes
 | Rating 5  | 8/7              | +2                        | 5(L)  | 2.6 | 140,000¥ |
 | Rating 6  | 9/8              | +2                        | 6(L)  | 3   | 210,000¥ |
 
+### Accessories
+
 ## Chapter 8: Combat
 
 Combat Step By Step
@@ -3827,9 +3829,9 @@ Characters may never start a player turn with more than 5 Minor Actions. If they
 
 #### Attacks
 
-Ranged Attack Rolls are rolled as: `3d6 + Firearms + Agility + Misc` vs. Targets Defense.
+Ranged Attack Rolls are rolled as: `3d6 + Firearms + Agility + Misc` vs. Targets Defense Roll.
 
->Oda is firing a pistol using Firearms 5 + Agility 7 + 1 for a wireless active smartlink (he’s not worried about a hacker in this gang), for a modifier of 13. The Eye-Fiver defends with Reaction 4 + Intuition 3, a defense of 17.
+>Oda is firing a pistol using Firearms 5 + Agility 7 + 1 for a wireless active smartlink (he’s not worried about a hacker in this gang), for a modifier of 13. The Eye-Fiver defends with Reaction 4 + Intuition 3, a defense roll of 17.
 >
 > Oda gets 2 Bonus Effect Oda rolls and gets a 24 more than enough to hit the Eye-Fiver. Comparing the Effect Dice for Oda who has a 6 on his Effect Dice and the Eye-Fiver has a 2 on his Effect Dice. Making the Net Effect 4, Oda adds his +2 Effect from his Bonus Effect to have 6 Net Effect.
 
