@@ -42,24 +42,28 @@ Ch11. Seattle 2075
 
 ## Version
 
-V.07
+V.08
 
 ### Changelog
 
-#### V0.7
-- Reworked skills to line up with Shadowrun Sixth
-- Lowered skill cap to fit new Threshold
-- Bonus Effect
-- Threshold Steps
-- TODO: Qualities - Fill in, and rename to Feature OR Qualities
+#### V0.8
+- Began using 2nd Edition Shadowrun for Conversion.
+- Removed Qualities
+- Renamed Attributes to 2ed
 - TODO: Finish Equipment
 - TODO: Finish Combat
 - TODO: Rewrite Magic
 - TODO: Write Matrix
 - TODO: Write Setting
 - TODO: Write Seattle Sprawl
-- TODO: Fill in Metatype rename to Metahuman
+- Filled in Metatype rename to Metahuman
 - TODO: Write Contacts and Allies stick in Gamemastering chapter
+
+#### V0.7
+- Reworked skills to line up with Shadowrun Sixth
+- Lowered skill cap to fit new Threshold
+- Bonus Effect
+- Threshold Steps
 
 #### V0.6
 - Began converting Shadowrun to Sixfinity
@@ -102,7 +106,7 @@ V.07
 - Initial pass at Metatype
 
 #### V0.2
-- Changed attributes to Strength, Agility, Body, Logic, Willpower, Charisma
+- Changed attributes to Strength, Quickness, Body, Intelligence, Willpower, Charisma
 - Moved away from rolling attributes and looking up the modifier on a chart to a fixed point build
 - Modified Advancement
 - Finalized Equipment
@@ -262,13 +266,9 @@ There are eight attributes and two special attributes.
 
 This represents the general sturdiness, integrity, and health of the individual. It sometimes is correlated to size—trolls tend to have high Body ratings— but this is not a perfect correlation, as dwarfs tend to have higher Body ratings than humans. Body’s uses include resisting damage and toxins.
 
-**Agility**
+**Quickness**
 
-Agility represents fine motor control—manual dexterity, flexibility, balance, and coordination. A character with a low Agility may be someone with an inner-ear problem, one leg that is shorter than the other, or a simple klutz. Higher Agility ratings may belong to charac- ters that are “natural” athletes.
-
-**Reaction**
-
-A character’s Reaction is, quite simply, her physical reflexes—how quickly she can react to a changing situation, and how well she can dodge the physical slings and arrows that shadowrunning brings. A character with a high Reaction is more likely to be on top of a situation and will be in a better position to react to danger, while low-Reaction characters will lag behind.
+Quickness represents fine motor control—manual dexterity, flexibility, balance, and coordination. A character with a low Quickness may be someone with an inner-ear problem, one leg that is shorter than the other, or a simple klutz. Higher Quickness ratings may belong to charac- ters that are “natural” athletes.
 
 **Strength**
 
@@ -286,9 +286,9 @@ Charisma is a nebulous attribute. More than just looks, Charisma rep- resents a 
 
 Intuition covers “mental alertness”—the ability to take in and process information, to read a crowd, to assess a situation for danger or opportunity. A character with little Intuition may be unobservant, may rarely think things fully through, or could simply be “slow.” A character with a high Intuition is adept at making the best of a bad situation, knowing when to leave before an encounter escalates, noticing small clues, and working from instinct.
 
-**Logic**
+**Intelligence**
 
-Logic represents a character’s memorizing ability and raw brain- power. It denotes how fast a character learns, how much she can re- member, and how well she can execute pre-planned sequences. A Logic-lacking character might get overwhelmed when confronted with a lot of details and may have a poor memory—especially for facts and figures. Characters with a high Logic rating will likely be excellent book-learners, able to deal with computer and magic theory with ease, and capable of building (and tearing down!) machinery and electronics. 
+Intelligence represents a character’s memorizing ability and raw brain- power. It denotes how fast a character learns, how much she can re- member, and how well she can execute pre-planned sequences. A Intelligence-lacking character might get overwhelmed when confronted with a lot of details and may have a poor memory—especially for facts and figures. Characters with a high Intelligence rating will likely be excellent book-learners, able to deal with computer and magic theory with ease, and capable of building (and tearing down!) machinery and electronics. 
 
 
 **Willpower**
@@ -310,6 +310,11 @@ Not all characters have this attribute; it is only for magic-using characters, w
 
 This critical statistic measures the undefinable, putting it on tricky ground right at the outset. It is that combination of guts, risk, and heedless ignorance of danger and good sense that lets shadowrunners survive where others do not. Edge is detailed and important enough to have its own section
 
+**Reaction**
+
+A character’s Reaction is, quite simply, her physical reflexes—how quickly she can react to a changing situation, and how well she can dodge the physical slings and arrows that shadowrunning brings. A character with a high Reaction is more likely to be on top of a situation and will be in a better position to react to danger, while low-Reaction characters will lag behind.
+
+Reaction = (Quickness + Intelligence) / 2 rounded down
 
 **Essence**
 
@@ -343,7 +348,7 @@ Regardless of Priority all starting characters get 25 Experience to spend on the
 **Metatype Attribute Table**
 
 
-| Metatype | Body | Agi | Rea | Str  | Wil | Log | Int | Cha | Cou | Special Features                             |
+| Metatype | Body | Agi | Rea | Str  | Wil | Log | Int | Cha | Edg | Special Features                             |
 | -------- | ---- | --- | --- | ---- | --- | --- | --- | --- | --- | -------------------------------------------- |
 | Human    | 1/6  | 1/6 | 1/6 | 1/6  | 1/6 | 1/6 | 1/6 | 1/6 | 2/7 | Extra Edge                                   |
 | Elf      | 1/6  | 2/7 | 1/6 | 1/6  | 1/6 | 1/6 | 1/6 | 3/8 | 1/6 | Low-Light Vision                             |
@@ -453,7 +458,7 @@ When the stress is running hot, the gamemaster can call for a test to see if you
 
 Sometimes you just need a roll to get a read on someone. The Judge Intentions test is just that. Once you’ve had enough time to get a read on someone (as judged by the gamemaster), you can make a roll to help fill in your basic attitude and feelings toward the target. Just remember that a good part of Mr. Johnson’s training is dedicated to getting you to trust them when you shouldn’t.
 
-#### Memory (Logic + Intuition)
+#### Memory (Intelligence + Intuition)
 
 Most of us don’t remember our lives with one hundred percent clarity. We’re influenced by the mood at the time we formed a memory, the current mood, the presence or absence of memorable stimuli, or even slight oddities in the details. Then you have the tricks our mind plays in distorting memories to make us the heroes of our own story, and things get really weird. When it’s time to make a withdrawal from the memory bank, the gamemaster sets a threshold based on the age and complexity of the information, and you can roll to determine whether or not you recall the information you want. It may be about remembering a face, recalling a critical piece of information, pulling up a detail from the past that will help you understand what’s happening in front of you right now, or some other mental feat.
 
@@ -559,7 +564,7 @@ You compare this result to a Threshold (below)
 ### Thresholds
 A Threshold is the minimum number needed to succeed at a task. Threshold Step is used very often in these rules. A threshold step is used instead of giving the Threshold Target (or TN in other games) to allow the Gamemaster to alter the Targets as they see fit for their game without needing to alter the writing in the rules to maintein balance.
 
-For example if a character needs a `Biotech + Logic (2) test` in Sixfinity Standard rules they need to roll *at least* a 9 on 3D6. If a GM decided they wanted that to be a 10 they do not need to change anything just tell the character they succeeded or failed without having to make any adjustments to the rules. This is the same as using the word Simple but the Step makes it easier to explain to a player. This is inspired by a number of 80's games like Traveller, Gamma World, Shadowrun 1e where the target number on dice could change. This allows for some GM's who want to, to easily swap to a D20 and use 5/10/15/20/25 for their TN's and go looking for Dragons in Dungeons if they want.
+For example if a character needs a `Biotech + Intelligence (2) test` in Sixfinity Standard rules they need to roll *at least* a 9 on 3D6. If a GM decided they wanted that to be a 10 they do not need to change anything just tell the character they succeeded or failed without having to make any adjustments to the rules. This is the same as using the word Simple but the Step makes it easier to explain to a player. This is inspired by a number of 80's games like Traveller, Gamma World, Shadowrun 1e where the target number on dice could change. This allows for some GM's who want to, to easily swap to a D20 and use 5/10/15/20/25 for their TN's and go looking for Dragons in Dungeons if they want.
 
 If you are assining a test and the only thing that matters is their Effect on the roll feel free to make it a Step 1 test. 
 
@@ -576,7 +581,7 @@ If you are assining a test and the only thing that matters is their Effect on th
 > Did I really make Sixfinity Dice Agnostic ... more or less yes as long as you know what you're doing. You could use a D20 (swingy), 3D6, 2d10, 2d12, 4d6, 5d4 even 2D6 or 1d12 if you made sure the curve made sense with the Skill Ratings. 
 
 ### Rolling 18
-When you roll a nautral 18, you get another D6 to roll and add the number on the dice as Bonus Effect.
+When you roll a nautral 18, you get a free Edge Dice.
 
 #### Glitching
 
@@ -601,9 +606,9 @@ In an opposed test you compare the Effect Dice of both sides. Subtract the lesse
 ### Advantage and Disadvantage
 If used in text or a GM can use as shorthand.
 
-Advantage: Get 2 Bonus Effect
+Advantage: You get a free Edge Dice for this test.
 
-Disadvantage: You cannot gain Bonus Effect.
+Disadvantage: You cannot spend Edge on this Test.
 
 
 ### Success Tests
@@ -623,7 +628,7 @@ Written as `Attribute + Skill vs. Opposed Attribute + Skill` These are rolled fo
 
 Simple and Opposed tests involve actions that are taken and resolved quickly, generally in the course of a few seconds. Extended tests take longer and are for more complicated activities, like repairing an automobile or building a backdoor into a Matrix host. Extended tests have a modifier and a threshold like Simple tests, but they threshold does not have to be met on a single roll (and often can’t be) as it is a threshold *step*. The player can make multiple rolls of the dice,until they have accumulated enough total (totaling the totals from all their rolls) to meet or beat the threshold. With each roll, a certain amount of time passes. This time is known as the interval, and it is listed as part of each Extended test. 
 
-Written as: Extended `Engineering + Logic (9, 1 hour) test`
+Written as: Extended `Engineering + Intelligence (9, 1 hour) test`
 
 ### Attribute Only Tests
 
@@ -647,7 +652,7 @@ The baseline for lifting weight is 30 pounds per point of Strength. Anything mor
 **MEMORY (LOG + WIL)**
 
 
-While there are numerous mnemonic devices designed for remembering information, memory is not a skill. If a character needs to recall information make a `Logic + Willpower` Test.
+While there are numerous mnemonic devices designed for remembering information, memory is not a skill. If a character needs to recall information make a `Intelligence + Willpower` Test.
 
 Glitches can have a devastating effect on memory. A glitch means the character misremembers some portion of the information, such as order of numbers in a passcode. A critical glitch means the character has completely fooled himself into believing and thus remembering something that never actually happened.
 
@@ -661,50 +666,18 @@ When you take more damage in a single attack than your Physical Limit x 3 you mu
 
 `Body + Willpower + the rating of any protective gear/systems`; each Effect reduces the toxin’s Power by 1 point. If the Power is reduced to zero, the toxic substance takes no effect; otherwise, apply the effect depending on the remaining Power level.
 
-### Edge Points
+### Edge
 
-Edge is a character’s luck, the favor of the gods, that unexplainable factor that allows her to beat the odds. A character’s Edge attribute represents the number of Edge points a character has to spend during gameplay. Edge points can be used for a wide range of benfits, each noted below. Edge points that are spent are temporarily unavailable (see Regaining Edge, below)—luck will only take you so far. Note that a character’s Edge attribute never actually changes, even when Edge points are spent, unless the character permanently burns Edge (see Burning Edge)
+Edge is a character’s luck, the favor of the gods, that unexplainable factor that allows her to beat the odds. A character’s Edge attribute represents the number of Edge points a character has to spend during gameplay. Edge points can be used for a wide range of benfits, each noted below. Edge points come in a pool of Edge Dice. Your Edge Attribute lets you know how many Edge Dice you have to spend. 
 
-Humans can have 7 **maximum** edge (8 with lucky), other metatype the **maximum** is 6 without the Lucky Quality. 
+Spending an Edge Point adds a D6 to your dice, you add this dice to your total and your Effect. The most Edge that can be spent on a roll is equal to the Skill Rating in the Test being rolled.
 
-Spent Edge refreshes every game session. Or whenever the GM says it does.
+So if you had an Edge of 4, and a Firearms of 3. You could add up to 3 Dice from your Edge Pool on a Firearms Test because thats the Rating of your skill. You can spend Edge **before** you rolle but not after. You can spend Edge on any Test in the game.
 
-On a long rest you get 1 Edge back.
+#### Refreshing your Edge Pool
 
-Burnt Edge is gone. You have to buy more with Experience.
-
-#### Spending Edge 
-
-A character can only spend Edge points on her own actions; she cannot spend it on behalf of others (except when engaged in a “teamwork” test). You can only use Edge once on any test/roll or challenge. If you spent a point of Edge for extra dice and rolled a critical glitch anyway, for example, you cannot use Edge to negate that critical glitch since you have already applied Edge to that test.
-
-Spending Edge can do the following, players choice:
-
-- Blitz!: Spend 1 Edge and get your Edge Rating in Bonus Effect to spend on this test.
-- Seize the Initiative: Jump to the top of the initiative order. A character cannot both Blitz and Seize the Initiative in the same combat round.
-- Dead Man’s Trigger: When reduced to 0 Physical Health or about to die, you immediately regain half your Physical Health. This can only be used once per Breather or Long Rest (5 minutes / 6 hours).
-- Close Call: Either negate the effects of one glitch or turn a critical glitch into a glitch.
-
-#### Burning Edge
-
-In certain drastic situations, even spending Edge may not be enough. A character can choose to burn a point of Edge permanently reducing his Edge attribute by 1 for one of the following effects:
-
-- Crits and Things: Burn 1 Edge to get +10 Bonus Effect.
-- Not Dead Yet: When facing death you somehow survive. You still take all the negative effects of what happened such as lost limbs, you are just not dead. You are not dying either, you are stable.
-
-#### Bonus Effect
-
-This comes up in some situations. Bonus effect is just like regular Effect. It is the same as having another D6 with the number of Bonus Effect on the dice, it adds to your total **and** to your overall effect. Bonus Effect are applied to the Net Effect after it is calculated. As a rule no one can get more than two Bonus Effect in a single round unless triggered by a mechanic like spending Edge, or rolling a Nat 18.
-
-It will always come up in combat as you are looking to see who has the tactical advanatage in the fight, that person will get a Bonus Effect to spend for each tactical advanatage they have. For example if your Defense Rating is higher than their Attack Rating. Whoever has the advantage will get a Bonus Effect for every 4 points of Advantage they have.
-
-Oda is attacking an Eye-Fiver. Here we compare the Attack Rating of the Ares Predator VI (8) to the Defense Rating of the Eye-Fiver (4; Body 3, + 1 for leathers) and see that Oda has a difference of **4 or more greater**, giving Oda one Bonus Effect. 
-
-Next, we check out the situation. It’s nighttime in a dimly lit alley because Oda wanted to get them all bunched together and take advantage of the low-light vision on his cybereyes, which the gangers don’t have. This gives a second Bonus Effect to Oda. 
-
-Finally, we look at any other elements that might help either side. None are present, so the process moves on and Oda has 2 Bonus Effect.
-
-> This is how we handle Advanatage in Sixfinity by giving out Bonus Effect. Instead of re-rolls and extra dice.  There is not a concept of "Disadvantage" because the other side having Bonus Effect and you not getting any is a Disadvantage however some things can prevent you from getting Bonus Effect eliminating things like Burning edge for Crits and Things.
-
+- All of your Edge come back after a night of rest (Long Rest)
+- If you take a Short Rest (1 hour) you get Half your Edge back you can do this once her pay.
 
 
 ### Individual Rule Sections
@@ -717,7 +690,7 @@ A direct neural interface, or DNI, connects your brain to electronic devices. Di
 
 #### Grenades
 
-When throwing a grenade, choose a location as a target. Use a Throw Weapon Minor Action and make a Throwing Weapons + Agility [Physical] (Threshold 18) Test modified for range and all the usual conditions. Success means the grenade lands right where you wanted. If you don’t meet the Threshold, the grenade scatters. The gamemaster determines scatter by consulting the Scatter Table (Determine Scatter). Hitting the Threshold on the test means no scatter, but it is still possible to hit the target if the scatter roll is low and the thrower got some Effect (see Determine Scatter). This all goes back to the old saying: “Close only counts in horseshoes and hand grenades.”
+When throwing a grenade, choose a location as a target. Use a Throw Weapon Minor Action and make a Throwing Weapons + Quickness [Physical] (Threshold 18) Test modified for range and all the usual conditions. Success means the grenade lands right where you wanted. If you don’t meet the Threshold, the grenade scatters. The gamemaster determines scatter by consulting the Scatter Table (Determine Scatter). Hitting the Threshold on the test means no scatter, but it is still possible to hit the target if the scatter roll is low and the thrower got some Effect (see Determine Scatter). This all goes back to the old saying: “Close only counts in horseshoes and hand grenades.”
 
 Grenades are small, self-contained explosive or gasdelivery packages. They may come with a built-in timer to detonate after a pre-set amount of time (usually three seconds), a motion-sensor set to detonate on impact, or a wireless link set to detonate upon remote command. The type of detonation device determines the special rules and timing of grenade explosions.
 
@@ -760,7 +733,7 @@ If the attacker misses their intended landing spot, the gamemaster must determin
 
 Occasionally, characters get their hands on military- grade hardware, like grenade launchers, missiles, and rocket launchers. Resolving a launched grenade, rocket, or missile attack is a two-step process. The first step determines where the projectile ends up in relation to the target (see Determine Scatter). The second step resolves the effect of the projectile’s explosion.
 
-When you fire a grenade, rocket, or missile you use a Attack Major Action and roll a Heavy Weapons + Agility [Accuracy] (Threshold 18) Test modified for range and all the usual conditions. Success means the launched weapon hits right where you wanted. If you don’t meet the Threshold, the projectile scatters. The gamemaster determines scatter by consulting the Scatter Table.
+When you fire a grenade, rocket, or missile you use a Attack Major Action and roll a Heavy Weapons + Quickness [Accuracy] (Threshold 18) Test modified for range and all the usual conditions. Success means the launched weapon hits right where you wanted. If you don’t meet the Threshold, the projectile scatters. The gamemaster determines scatter by consulting the Scatter Table.
 
 #### Blast Effects
 
@@ -794,732 +767,6 @@ This determines how quickly the victim suffers the toxin’s Effect. These effec
 
 
 
-## Chapter 5: Qualities
-
-### Positive Qualities
-These provide bonuses in role playing situations, situational modifiers, and permanent effects. 
-
-
-#### Ambidextrous
-
-Cost: 4 XP
-
-The character can use and handle objects equally well with both hands. The character does not suffer disadvantage for using an off-hand weapon. When using two weapons at once, however, the character must still get disadvantage on the off hand attack. 
-
-#### Analytical Mind
-
-Cost: 5
-
-Analytical Mind describes the uncanny ability to logically analyze information, deduce solutions to problems, or separate vital information from distractions and noise. It’s useful in cracking cyphers, solving puzzles, figuring out traps, and sifting through data. This quality gives the character a Advantage to any Mental Tests involving pattern recognition, evidence analysis, clue hunting, or solving puzzles. This quality also reduces the time it takes the character to solve a problem by half.
-
-#### Aptitude
-
-Cost: 14 XP
-
-This quality is how you become even better than the best in the world. The standard limit for skills is 6. Every so often, there is a character who can exceed limitations and be truly exceptional in a particular skill. With this particular quality, the character can have one skill rated at 7 at character creation, and may eventually build that skill up to rating 7. Characters may only take the Aptitude quality once.
-
-#### Astral Chameleon
-
-Cost: 10 XP
-
-With the Astral Chameleon quality, the character’s astral signature blends into the background of astral space and is difficult to detect. All signatures left by the character last only half as long as other astral signatures. Any individuals assensing astral signatures left behind by a character with this quality receive a –2 modifier for the Assensing Test. Only characters with a Magic rating and capable of leaving astral signatures may have this quality.
-
-#### Bilingual 
-
-Cost: 5 XP
-
-A character with this quality reads, writes, and speaks a second language fluently. They can list a second language as a native tongue (see Language Skills). **This quality can only be acquired at character creation**; selecting it gives the character a second free language skill during Step Five: Purchase Active, Knowledge, and Language Skills.
-
-#### Blandness
-
-Cost: 8 XP
-
-This character blends into a crowd; he’s seldom noticed and easily forgotten. He is unremarkable in every aspect of physical appearance. Anyone attempting to describe the character cannot come up with anything more precise than “average height, average build, average hair, etc.” Increase the {Threshold} tier for anyone to recall specific details about the character by 1. This means a Memory Test with a difficulty of Average ({Threshold} 10) becomes a Hard test ({Threshold} 15).
-
-Individuals attempting to shadow or physically locate a character with the Blandness quality in a populated setting receive a –2 modifier on all tests related to their search. The same penalty applies if they’re asking around about the person based on the individual’s physical appearance. If the character acquires any visible tattoos, scars, or other distinguishing features, the bonuses from the Blandness quality go away until the distinctive features are removed from the character’s appearance.
-
-In certain circumstances and specific situations, the gamemaster may determine that Blandness does not apply. For example, a Troll with the Blandness quality still towers head and shoulders over a crowd of humans and so still stands out, no matter how average they dress. The character only regains his bonus by leaving the situation where he stands out.
-
-#### Catlike
-
-Cost: 7 XP
-
-A character with the Catlike quality is gifted with an uncanny elegance, a stealthy gait, and an almost preternatural ability to move without making a sound.
-
-They also claim they land on their feet when dropped, though they tend not to let people test this. This quality adds a Advantage to Sneaking skill tests.
-
-#### Codeslinger
-
-Cost: 10 XP
-
-You are exceptionally skilled at navigating the Net and executing digital intrusions.
-
-Effect: You gain a Advantage on all Tests involving hacking, intrusion, or similar Net-based actions.
-
-Restriction: This Quality may only be taken once.
-
-#### Double Jointed
-
-Cost: 6 XP
-
-Your joints are unusually flexible, allowing you to bend and contort your body into extreme positions.
-
-Effect: You gain a Advantage on all Sleight of Hand Tests when performing escape artist actions, such as slipping out of cuffs, ropes, or other restraints.
-
-GM Discretion: You may also attempt to squeeze into cramped or narrow spaces where a less limber character could not fit.
-
-
-#### Exceptional Attribute
-
-Cost: 14 XP
-
-Some individuals push beyond the natural limits of their metatype, embodying rare physical or mental potential.
-
-Effect: Choose one Attribute. Your natural maximum for that Attribute increases by +1 above your species’ normal maximum.
-
-Example: A Human with Exceptional Attribute could raise one Attribute to 7 instead of the usual maximum of 6.
-
-Augmented Maximum: The augmented maximum for that Attribute also increases by +1.
-
-Restriction: This Quality may only be taken once.
-
-
-#### First Impression
-
-Cost: 11 XP
-
-You have a natural knack for sliding into new places and situations as if you belong there.
-
-Effect: You gain a Advantage on all Social Tests made during your first interaction in a new environment—whether infiltrating a group, meeting contacts in a new city, or joining a fresh team.
-
-Limitation: The bonus only applies during the initial encounter. Subsequent meetings and interactions are unaffected.
-
-
-
-#### Focused Concentration
-
-Cost: 4 XP (Maxium 6 Rating)
-
-A magician with the Focused Concentration quality has the discipline to manipulate mana more precisely than otherwise possible. This precision reduces stress to the magician. She is able to sustain one spell form with a force/level equal to her Focused Concentration rating without suffering any penalties. For example, a magician with Focused Concentration rating 3 may sustain a Force 3 Armor spell without taking the negative modifier for sustaining a spell. Sustaining any additional spells incurs the standard –2 modifier per spell sustained to Fatigue checks. This quality may only be taken by magician characters that are able to cast spells.
-
-#### Gearhead
-
-Cost: 11 XP
-
-The Gearhead is who you look for when it’s time to stomp on the gas and move. She’s a natural-born driver or pilot. When she’s at the wheel/stick/controls of a vehicle or drone, she has an intuitive understanding of its limitations and its capabilities and is able to coax whatever machine she’s controlling to perform at its best. During vehicle or chase combat, a Gearhead can increase the Speed of her vehicle or drone by 20 percent or increase the Handling modifier by +1 (player’s choice). She also receives a Advantage when attempting difficult maneuvers or stunts in the vehicle. This bonus lasts for 1D6 minutes.
-
-The player can choose to make this bonus last up to an additional 1D6 minutes if she wants. Doing so pushes the vehicle or drone well beyond its design limits and risks catastrophic damage. For each minute the character pushes the vehicle past its initial bonus period, the vehicle automatically takes one point of stress damage (unresisted)
-
-#### Guts
-
-Cost: 10 XP
-
-When a bug spirit with dripping mandibles comes calling, the character with Guts is the one most likely to stand and fight instead of freaking the hell out. Guts gives a character a Advantage on tests to resist fear and intimidation, including magically induced fear from spells or critter powers.
-
-#### High Pain Tolerance
-
-Cost: 7 XP per rating (max rating 3)
-
-Your Overflow is increased by 1 per rating.
-
-Restriction: Maximum rating is 3.
-
-
-#### HOME GROUND
-COST: 10 KARMA
-If a character knows her neighborhood better than anyone—
-the shortcuts, the hiding places, and the people
-she can trust—then she probably has the Home Ground
-quality. She knows the families who live there, their stories,
-and what the kids who moved out are doing; she
-knows the streets better than GridGuide, knows things
-that aren’t on GridGuide, and knows when GridGuide
-is wrong. She knows the politics of the gangs, who’s
-running for whom and who’s running from whom. But
-it’s not just the physical streets. Depending on the character,
-her Home Ground quality can manifest in ways
-specific to who and what she is. When choosing this
-quality, select one of the bonuses below:
-• Astral Acclimation: The character has become
-acclimated to the background count of her
-Home Ground. Through a lifetime of familiarity
-she’s learned to work around it, enabling her to
-ignore up to two points of background count.
-For example, if the background count on her
-Home Ground is 3, she sees only a reduction of
-1 to her Magic tests; if the background count is
-5, for her it is only a 3, and so on. This quality
-works only on her Home Ground and has no
-benefit anywhere else.
-• You Know a Guy: The character has built up
-long-lasting relationships with people from her
-neighborhood. These people are not contacts,
-but they know her as one of their own and are
-more likely to do favors for or talk to her. NPCs
-from the character’s Home Ground neighborhood
-are considered friendly toward her wherever
-she encounters them (unless she has done
-something to change that).The character receives
-+2 Street Cred for any Negotiation with
-people from her Home Ground.
-• Digital Turf: This is for a decker or technomancer
-who has a specific host that she calls her
-own. She may actually own the spot, or it can be
-a place she frequents enough to consider home.
-The character receives a +2 bonus to Matrix
-Tests while in her Home Ground host. Bonuses
-from other Qualities may stack with Home
-Ground. If the character has not frequented this
-host for more than six months, she loses the
-Home Ground quality because she is no longer
-as familiar as she should be.
-• The Transporter: This character knows the layout
-of streets, back alleys, service tunnels, etc.,
-like the back of her hand. She knows when
-GridGuide is wrong and when GridGuide is out
-of date. When the transporter is on her Home
-Ground, she has a +2 dice pool modifier for Evasion
-Tests.
-• On the Lam: Hiding out and lying low are part of
-a shadowrunner’s daily life. On the Lam means
-a character has an encyclopedic knowledge of
-safehouses, bolt holes, abandoned buildings,
-just about any out-of-the-way place not claimed
-by gangs or squatters. When she needs to find a
-safe location in a hurry, this character receives a
-+2 dice pool bonus to her Intuition + appropriate
-street knowledge skill to find a suitable place
-to hole up fast.
-• Street Politics: This character knows the street
-gangs, the criminal operations, and the beneath-
-the-surface affiliations that are the social
-and political fabric of her Home Ground. She receives
-a +2 dice pool modifier for Knowledge
-Tests relating to gangs or their operations.
-This quality can be taken multiple times, selecting
-one of the categories above each time.
-
-#### Human Looking
-
-Cost: 5 XP
-
-Some non-humans can pass for human in most day-to-day situations. Their appearance, mannerisms, and presence blend well enough that most people simply assume they are baseline human.
-
-Effect: Human NPCs treat you with a neutral baseline attitude when making Social Tests, unless given a reason to react otherwise.
-
-Complications: You may suffer increased hostility from non-human NPCs who resent humans—or who think you’re “trying too hard” to look like one.
-
-Restriction: Only Elves, Dwarves, and Orcs may take this Quality.
-
-#### Indomitable
-
-Cost: 8 XP Per rating (Max 3)
-
-Bodies and minds have limits, but some people have the will to push right through those boundaries. For each level of Indomitable, a character receives a +1 increase to an Inherent limit of his choice (Mental, Physical, or Social). He can take up to three levels and can apply them in any way he chooses (+3 to one Inherent Limit, for example; or +2 to one Inherent and +1 to another; or +1 to all three).
-
-
-JURYRIGGER
-COST: 10 KARMA
-Juryrigger gives a character an intuitive grasp of the inner
-workings and underlying principles of mechanical
-and electronic devices. She knows how to repair the
-broken, rejuvenate the worn, improve a device’s efficiency,
-or coax it into doing things it’s designers hadn’t
-intended. Characters with the Juryrigger quality receive
-a +2 dice pool modifier for Mechanical Tests when
-juryrigging gear. If the gamemaster decides what the
-character wants to accomplish is in fact possible, he determines
-the threshold for her success using the Build/
-Repair Table (p. 146) as a guideline, then reduces the
-threshold for the test by 1. While a successful Mechanics
-Skill Test enables the Juryrigger to perform amazing
-technical feats, everything she devises is temporary.
-Examples of what a character may be able to do with
-Juryrigger include:
-• Juryrig a destroyed device so that it will operate
-just one more time (for 1D6 minutes).
-• Tweak an electronic device to function at a rating
-one higher than normal for 1D6 Combat Turns.
-• Temporarily coax extra performance from a
-vehicle’s or drone’s components, increasing its
-Sensor or Handling by +1 (if combined with bonuses
-from Gearhead, the vehicle’s or drone’s
-critical components completely burn out at the
-end of the duration from being pushed well beyond
-their limits; at that point, the vehicle or
-drone becomes a big paperweight).
-• Improvise a one-shot device or weapon from
-disparate components (the gamemaster has final
-say on whether suitable parts are available).
-• Devise an impromptu means to bypass a security
-measure, such as a trip beam or pressure plate.
-
-
-
-#### Lucky
-
-Cost: 12 XP
-
-Some individuals have an indomitable spirit that pushes beyond the limits of their metatype.
-
-Effect: Your Edge Attribute maximum increases by +1 above your species’ normal limit.
-
-Example: A Human with Exceptional Edge could raise Edge to 8 instead of the usual maximum of 7.
-
-Advancement: This Quality does not grant an immediate increase to Edge; it only raises the cap. The Experience cost for raising the Attribute must still be paid through normal advancement.
-
-Restriction: This Quality may only be taken once.
-
-
-#### Magic Resistance
-
-Cost: 6 XP per rating (max rating 4)
-
-You have an innate resistance to magical effects, making it harder for spells to take hold—whether harmful or helpful.
-
-Effect: For every 6 XP spent, you gain a +1 bonus on all Spell Resistance Tests. A magically resistant character cannot choose
-to lower his magical resistance; it affects all spells and magical effects, good or bad. A character with Magic Resistance is never a willing subject for spells that require a voluntary subject; such spells automatically fail when used on magic resistant characters.
-
-Limitation: This resistance applies to all spells, even beneficial ones such as Heal.
-
-Scaling: This Quality may be taken multiple times, increasing your modifier by +1 for each purchase (up to the maximum of 4).
-
-
-#### MENTOR SPIRIT
-COST: 5 KARMA
-Everyone needs some help in life, even if it comes from
-someone relatively filmy and insubstantial. Mentor
-Spirit means the character follows a patron spirit (see
-Mentor Spirits, p. 320) that guides him in his practice
-of magic and provides certain advantages and disadvantages
-to his natural abilities. A character may change
-mentor spirits, but he may have only one mentor spirit
-at a time. To change mentor spirits, the character must
-first buy off the current mentor spirit as if it were a Negative
-quality. He can then purchase the quality again to
-follow a different mentor spirit. This cost represents the
-toll of divorcing from one mentor spirit and bonding
-with a new one.
-
-
-
-#### Natural Athlete
-
-Cost: 7 XP
-
-A character with this quality has an innate combination of physical fitness, spatial awareness, and natural athletic or gymnastic talent. While the character may not be a world-class athlete and may require training to achieve peak performance, he is in prime physical shape for his size and weight class. The Natural Athlete adds a Advantage for Running and Gymnastics skill tests.
-
-#### NATURAL HARDENING
-COST: 10 KARMA
-This quality makes the character’s neural structure resistant
-to feedback. This gives her 1 point of natural biofeedback
-filtering, which is cumulative with a Biofeedback Filter
-program or a technomancer’s firewall (p. 251).
-
-#### Natural Immunity
-
-Cost: 4 XP or 10 XP
-
-You have an innate or developed resistance to a specific toxin or disease.
-
-Effect:
-
-4 XP: You are completely immune to one natural disease or toxin.
-
-10 XP: You are completely immune to one synthetic (artificially engineered) disease or toxin.
-
-Limitations:
-
-This Quality does not apply to magically based diseases or toxins (such as lycanthropy).
-
-The chosen disease, drug, or poison must be something your character could reasonably have been exposed to. The player and GM must agree on the specific agent.
-
-Exposure: You may safely ingest or be exposed to one dose every (12 – Body) hours with no ill effects. If more than one dose is taken during that period, you suffer normal damage but your recovery time is halved.
-
-Contagion: Immunity does not make you non-contagious. Characters immune to a disease can still carry and transmit it to others, even without symptoms.
-
-
-#### Photographic Memory
-
-Cost: 6 XP
-
-A character with Photographic Memory can instantly recall facts, dates, numbers, or anything else he has seen or heard. The character gains a Advantage to all Memory Tests
-
-
-
-#### Quick Healer
-
-Cost: 3 XP
-
-A Quick Healer recovers from damage more quickly than other characters. The character receives a Advantage to all Healing Tests made on/for/by him, including magical healing.
-
-
-#### RESISTANCE TO PATHOGENS/TOXINS
-
-Cost: 8 XP
-
-A character with resistance chooses a *special* type of damage (not Impact or Ballistic) such as Fire, or Poison and gains resistance to that damage. Suffering half-damage from that source. This can only be taken once. 
-
-#### SPIRIT AFFINITY
-COST: 7 KARMA
-Available only to magic users, the Spirit Affinity quality
-allows a character to be attuned to one type of spirit
-(see Spirits, p. 303). These spirits find the character
-interesting, are drawn to her, and are more inclined to
-assist her. They may be reluctant to attack the character,
-and if forced to do so they are likely to use nonlethal
-power. Watchers and minions do not count for this
-quality as they are constructed and are not summoned
-like normal spirits. Spirit Affinity provides magicians
-with 1 additional spirit service for each spirit of that
-type, and it also provides a +1 dice pool modifier for
-Binding Tests.
-Magic users may possess this quality for a type of
-spirit that is not part of their magical tradition.
-
-
-#### Vigor
-
-Cost: 9 XP per rating (Max 3)
-
-Each time this is taken you increase your Toughness by 1 up to a Max of 3
-
-#### Will To Live
-
-Cost: 5 XP per rating (max 3)
-
-This character can go into the negatives an additional point per rating up to the maximum of 3 when dying. Normally a character can only go into the negative equal to their Body.
-
-
----
-
-
-### Negative Qualities
-
-#### Addiction
-
-Bonus: 4 to 25 XP
-
-A character with the Addiction flaw is addicted to alcohol, drugs, or a similar substance with a detrimental effect on the character’s health (note that nicotine, caffeine, and sugar do not count). The value of this flaw depends on how severe the addiction is: Mild, Moderate, Severe, or Burnout. 
-
-Mild (4 XP): the addiction is omnipresent but not blatant or intrusive; it may not even be recognized or acknowledged. At this stage it is easier to seek help, but very few recognize their addiction as something needing help at this stage. Addicts experience cravings at least once a week (if not every few days), but can ignore them if necessary without too much difficulty. The addict suffers a –2 modifier to Willpower and/or Stamina Tests to resist the craving.
-
-Moderate (9 XP): the addiction at this stage is marked and  difficult to overcome. Addicts experience cravings at least once a day (if not more), and they are more difficult to ignore. The addict suffers a –4 modifier to Willpower and/or Stamina Tests to resist the craving.
-
-Severe (20 XP): the addiction is out of control. The addict experiences constant cravings (at least twice a day), suffering a –6 modifier to Willpower and/or Stamina Tests to keep from giving in.
-
-Burnout (25 XP): this is the same as a Severe addiction, except the addict has been in this state for some time and is experiencing the tell-tale signs of habitual use on his body. The character is always under the Exhausted condition. If the character does not kick the habit soon, he will continue to suffer advancing Fatigue at a rate determined by the gamemaster until he dies
-
-#### Allergy
-
-Bonus: Below
-
-| Condition | Value in XP | Description                                                                                                 |
-| --------- | ----------- | ----------------------------------------------------------------------------------------------------------- |
-| Uncommon  | 2           | The substance or condition is rare for the local environment. Example Silver,Gold                           |
-| Common    | 7           | The substance or condition is common for the local environment. Examples Sunlight, plastic.                 |
-| Mild      | 3           | Symptoms are discomforting and distracting.  –2 modifier to all tests made while experiencing the symptoms. |
-| Moderate  | 8           | Contact with the allergen produces intense pain. –4 to all tests made while experiencing the symptoms       |
-| Severe    | 13          | As Moderate but Vulnerable to weapons that do this damage                                                   |
-
-A character with the Allergy flaw is allergic to a substance or condition. The value of this flaw depends on two factors. 
-
-First, determine whether the substance or condition is Uncommon (2 XP) or Common (7 XP). then determine the severity of the symptoms: Mild (3 XP), Moderate (8 XP), or Severe (13 XP). Add the appropriate point values to find the final value. For example, the value of an Uncommon Moderate Allergy is 10 (2 + 8) points. The Allergy Table above gives descriptions of conditions and severity.
-
-#### Astral Beacon
-
-Bonus: 10 XP
-
-The astral signature of a character with the Astral Beacon quality is like, well, a beacon—highly visible on the astral plane. The signature also lasts twice as long as it would without the Astral Beacon quality and others assensing it receive advantage to their Assensing Test for gathering information about it. Only characters with a Magic rating may take this quality.
-
-#### Bad Luck
-
-Bonus: 12 XP
-
-This character is cursed—his own luck often turns against him. Whenever this character uses Edge, roll 1D6. On a result of 1, the Edge is spent, but it has the exact opposite effect intended. For example, if a character hopes to gain a reroll dice to take the higher option, instead he takes the lower option. If a character spends Edge to go first in an Initiative, he ends up going last. If a character spent Edge to negate a glitch, Bad Luck turns it into a critical glitch.
-
-#### BAD REP
-BONUS: 7 KARMA
-A character with a Bad Rep quality has a dark and lasting
-stain on her reputation. She may be a former Knight Errant
-cop known to have been particularly brutal in dealing
-with shadowrunners. Or word on the street might be that
-she once killed a member of her own runner team. If she’s
-Awakened and comes from a polluted region, it may be
-generally accepted that she’s a toxic shaman. Whether
-she is actually guilty of any wrongdoing is not relevant.
-What people believe she has done has permanently
-tainted the way they see her and how they deal with
-her. Whatever the reason, the character starts play with
-3 points of Notoriety (p. 372) that can only be removed
-or decreased by confronting and resolving the source of
-the bad reputation. Only then may the Bad Rep quality be
-bought off with Karma.
-
-#### CODE OF HONOR
-BONUS: 15 KARMA
-The character has a binding Code of Honor when it
-comes to killing members of a specific group; it’s a
-matter of unwavering principle. The character with
-the Code of Honor quality chooses a specific group
-that they will not kill or allow others to kill. Examples
-of this group could include women, children, innocent
-bystanders, or a specific metatype. A character can
-choose to protect specific paracritters, but only if the
-specified paracritter possesses the Sapience power.
-The gamemaster must approve the group that the
-character designates as being “off limits.” If the group
-(such as children) is not regularly encountered in campaigns
-the gamemaster can reject the choice. If the
-player feels strongly about his choice, the gamemaster
-may allow the player to take two groups they will not
-harm, (i.e., women and children), one of which must be
-likely to be encountered in the campaign. A magician
-can legitimately choose to not destroy any type of spirit
-from which their Mentor Spirit bestows a bonus for summoning.
-This Code of Honor respects their Mentor Spirit
-and is worthy of the Karma. Characters can’t pick an obscure
-or non-existent group to acquire this quality—you
-can’t acquire Karma by vowing to never kill sapient hamsters,
-for example.
-Any time anyone attempts to kill a member of the
-character’s protected list, the character must make a
-Charisma + Willpower (4) Test. A failed roll means the
-character must immediately put a stop the violence
-against the member of their protected group. If the
-situation forces the character to take action against
-any of his protected group, he will always choose
-non-lethal methods. Killing a member of the group he
-has sworn to protect is a line he will not cross for any
-reason.
-There are drawbacks to having a Code of Honor. For
-example, it can leave witnesses behind. For each person
-in the protected group the character leaves alive
-and who is in a position to remember them, increase the
-character’s Public Awareness by 1. The character’s job
-options are also limited—he will not take a job if the objective
-is the death of a member of his protected group
-and will have reservations about taking part in a mission
-with a high probability of causing collateral harm to
-members of his protected group.
-There is always a chance things will go wrong whenever
-non-lethal force is used. A person may have a
-life-threatening allergic reaction to a usually harmless
-knockout drug, or a heart condition that makes a taser
-shock deadly. For this reason, each time the character
-takes a violent action or allows others to take violent action
-against a member of his chosen group, the gamemaster
-makes a secret roll of 1D6. On a roll of 1, there is
-an unforeseen complication from the use of non-lethal
-force. With a metahuman it could be a life-threatening
-medical condition; with a spirit, an attempt to banish
-rather than destroy may in fact set the spirit free. When
-a complication arises, the gamemaster makes a secret
-Perception (4) Test for the character to notice if anything
-has gone wrong.
-If a person in the character’s chosen group is killed,
-whether intentionally or inadvertently, the character loses
-a point of Karma for that adventure for each person in
-their “protected group” that is killed.
-The Code of Honor can take other forms as well. For
-example:
-• Assassin’s Creed: A character never kills anyone
-that they are not paid to kill. Being precise as an
-assassin, not leaving collateral damage, and 
-ing invisible are important hallmarks of those
-who believe in the Assassin’s Creed. Characters
-who take this version of Code of Honor lose 1
-point of Karma for every unintentional and/or
-unpaid murder they commit, and their Public
-Awareness goes up by 1 for each such death.
-• Warrior’s Code: The character who follows a
-Warrior’s Code maintains a strict sense of personal
-honor. In 2075, this likely means a character
-will not kill an unarmed person, take lethal action
-against an opponent who is unaware or unprepared
-for an attack (i.e., a guard who doesn’t
-know the runner is there), or knowingly take an
-action that could kill someone who is defenseless
-(i.e., from a stray bullet or allow someone to
-be killed from a sniper shot). The character loses
-1 Karma per unarmed or defenseless person that
-they kill or allow to be killed through their actions.
-
-#### Codeblock
-
-Bonus: 10 XP
-
-The character is hopeless at actions with computers. Anytime they interact with the Net or a computer they get a Disadvantage to their rolls. 
-
-#### Combat paralysis
-
-Bonus: 12 XP
-
-A character with Combat Paralysis freezes in combat situations. On the character’s first Initiative Test in combat, the character
-rolls Initiative with disadvantage. On the second and subsequent Initiative Tests, however, the character rolls his normal Initiative. The character also receives a –3 modifier on Surprise Tests.
-
-#### DEPENDENTS
-BONUS: 3, 6, OR 9 KARMA
-A character with the Dependents quality has one or
-more loved ones who depend on them for emotional
-support and financial aid. Dependents may include
-children, parents, a spouse or lover, a sibling, or an
-old friend. Meeting the needs of a dependent should
-take up a fair amount of the character’s time, as well as
-some of the character’s money. Increase the amount of
-time it takes to learn a new skill or improve an existing
-skill by fifty percent. See the Character Advancement
-section on p. 103 for more information on how long it
-takes to improve skills. Also increase the base time for
-any long-term projects by fifty percent. A dependent
-could also be a hindrance in other ways—getting underfoot,
-sharing living space, involving herself in the
-character’s work, borrowing the car, calling at the most
-inopportune moments, etc.
-For 3 Karma, the dependent is an occasional nuisance:
-dropping in unexpectedly (such as when the
-character must go to a meet), needing emotional support,
-favors, or other confirmations of friendship/commitment,
-and occasionally money. Examples of dependents
-at this level include: slacker sibling, long-term
-boyfriend/girlfriend, or a child not living with the character
-but for whom the character pays child support and
-visits regularly. Raise the character’s lifestyle cost by 10
-percent each month.
-For 6 Karma, the dependent is a regular inconvenience:
-needing attention and commitment on a regular
-basis, getting involved in the character’s affairs, sharing
-living space. Examples of dependents at this level include:
-a live-in lover/wife/husband or family member, a
-child for whom the character shares custody and routinely
-has in his home (every other weekend, etc.), or a
-young child or close sibling for whom the character is
-responsible. Increase the character’s lifestyle cost by 20
-percent each month.
-At the 9 Karma level, the dependent is close family
-or a life partner and lives with the character. The dependent
-is a strain on the character’s time and resources,
-and/or requires special care and attention that limits the
-character’s availability for missions or specific actions.
-Examples of these dependents include large family
-sharing the living space, parents or grandparents with
-medical or physical needs, and full custody of any children.
-Increase the lifestyle cost for the character by 30
-percent each month.
-
-#### DISTINCTIVE STYLE
-BONUS: 5 KARMA
-A character with the Distinctive Style quality has at least
-one aspect of his appearance, mannerism, or personality
-that makes him inconveniently memorable. Choices
-for Distinctive Style include, but are by no means
-limited to: tattoos that cannot be easily concealed, an
-accent or atypical manner of speaking, bizarre fashion
-choices, scars, gang or prison signs, flashy custom augmentations,
-or non-metahuman modifications like a
-tail. Note that what’s distinctive in one culture or location
-may not be in another.
-Whatever Distinctive Style the player selects makes
-her character easy to remember. Anyone who attempts
-to identify, trace, or physically locate this character (or
-gain information about him via legwork) receives a +2
-dice pool modifier for relevant tests. If an NPC makes a
-Memory Test (p. 152) to determine how much they recall
-about the character, reduce the Difficulty Threshold
-by 1, to a minimum of 1.
-
-#### Gremlins
-
-Bonus: 4 XP per rating (max rating 4)
-
-Characters with the Gremlins flaw never seem to get along with technology. Devices malfunction inexplicably in the character’s hands, software constantly crashes whenever he uses it, components become unusually fragile at his touch, and wireless links suffer faltering connections and odd interference.
-
-For every 4 XP gained in this flaw, increase the number of rolled 1s required to get a glitch (normally 3) by 1 whenever the character is attempting to use a moderately sophisticated device (late 20th century technology or later). 
-
-For example, a character with a Gremlins Rating 2 (10 XP) would trigger a glitch if five or more 1s result from a test. The gamemaster may also require the character to make a test for operations that would otherwise succeed automatically, simply to see whether or not a glitch occurs.
-
-When describing the effects of a Gremlin-induced glitch, gamemasters should play up the notion of a particularly weird mechanical or electronic malfunction. For example, if a Gremlin-plagued character glitches while shooting a pistol, the clip might inexplicably fall out of the gun, or the slide might jump off the rails and go flying into the distance. 
-
-Note that Gremlins is a Negative quality—its effects should be hindering to the character (and entertaining to others). Gremlins should not be used as an “offensive ability,” where a character causes his opponent’s high-tech toys to fall apart merely by touching them.
-
-Consider Gremlins to be a curse on the character—if he wants the technology to fail, then it should be more likely not to. this effect only applies to external equipment.
-
-#### Incompetent
-
-Bonus: 5 XP
-
-A character who is Incompetent possesses a total lack of knowledge or ability with a certain Active skill. If this quality is taken, the player must specify an Active skill in which the character is Incompetent. Incompetent may not be applied to Language or Knowledge skills.
-
-The character is treated as having a skill level of “unaware” for that particular skill. In some cases, a Success Test may be required to perform certain tasks that most people take for granted. Characters may not possess that skill, nor may they default on it. Gamemasters are free to reject any choices that would prove irrelevant or exploitative in actual play.
-
-Incompetent may be purchased more than once, choosing a separate skill each time.
-
-#### Loss of Confidence
-
-Bonus: 10 XP
-
-The Loss of Confidence quality means something has caused the character to lose confidence in himself and one of his abilities. Though a skilled hacker, he failed to hack into a Starbucks host, or despite high Agility, he glitched an easy Climbing Test and fell into a dumpster— whatever the reason, he now doubts himself and his abilities. In tests involving the affected skill, the character suffers a –2 modifier. If the character has a specialization with the skill, the character cannot use that specialization while suffering a loss of confidence.
-
-The skill chosen for the character to have a Loss of Confidence must be one that the character prides himself in and has invested in building. Only skills with a rating 4 or higher may suffer the Loss of Confidence quality. Edge may not be used for tests involving this skill when the character is suffering Loss of Confidence.
-
-#### Low Pain Threshold
-
-Bonus: 9 XP
-
-Your Overflow is reduced by 1 (minimum 0).
-
-
-
-#### Uncouth
-
-Bonus: 14 XP
-
-Uncouth characters are antisocial or sociopathic and have a difficult time interacting with others. The cost for learning or improving Social skills is twice normal for Uncouth characters (including at character creation), and they may never take Aptitude in a Social skill.
-
-Additionally, Uncouth characters are treated as “unaware” in any Social skills that they do not possess at Rating 1 or higher. The gamemaster may require the character to make Success Tests for social situations that normal people would have no problems with.
-
-#### Uneducated
-
-Bonus: 8 XP
-
-An Uneducated character has grown up far away from the modern world and is thus
-ignorant of modern society in general, possessing only a rudimentary knowledge of reading,
-writing, and arithmetic. this is quality is fitting for characters who grew up in primitive societies or back-to-the-land anti-technological communes (for example, Amazonian primitives, Luddite collectives). This quality also applies to certain sentient creatures that have developed their own primitive society.
-
-Characters with the Uneducated quality are considered “unaware” in Knowledge skills they do not possess, and they may not default on skill tests for those skills. The gamemaster may also require the character to make Success Tests for ordinary tasks that the typical person takes for granted. Additionally, the Experience cost for learning new skills or improving existing ones in these categories is twice normal (including at character creation), and the character may never take Aptitude in one of these skills.
-
-#### Unsteady Hands
-
-Bonus: 7 XP
-
-A character with Unsteady Hands has mild shakes that affect the dexterity and finesse in his hands. The character suffers a –2 modifier for all Agility-based tests when symptoms manifest themselves. The condition could be physiological (an untreated genetic disorder or damaged nerves, for example), caused by psychological trauma, or even be symptomatic of age. Certain augmentations or medications can mask these symptoms under normal circumstances. Under more stressful situations in the course of the run, there is a chance the Unsteady Hands condition can reappear. The character makes an Agility + Body ({Threshold} 20) Test following a stressful encounter (combat, for example). A successful test means the character does not experience the symptoms of this condition (this time). A failed test causes the difficulties associated with unsteady hands to re-emerge, and they remain with the character for the remainder of the run.
-
-#### Tracked (Layered)
-
-Bonus: 5 or 25 XP
-
-There are four levels of tracking. They have a record of some sort making them easily tracked.
-
-- National: At the 5 XP level, the character has what is called Nationally Tacked. They have done something to get on the National Tracking list. The government of the country tracking you keeps loose tabs on your activities. 
-- Criminal Record: At the 10 XP level the character has a Criminal Record. At some point in his life, the character was arrested and served time for a felony-level offense and was branded a criminal for the rest of his life. He is legally required to alert authorities of his travel and whereabouts at all times; failure to do so is a felony and can lead to re-incarceration. He is shunned by law-abiding society.
-- Corporate Tracked: At the 15 XP level the character works for, worked for, or has had dealings with one of the majoe mega-corporations. This corporation keeps close tabs on you, your travel, transactions etc. Corporations do not have the adhere to privacy laws and can be quite overbearing in their tracking, it will be difficult to ever hide anything from them.
-- Corporate Warrant: At the 25 XP level this character is actively wanted by a Megacorporation. They have few limits, near unlimited resources and never forget anything.
-
-#### Vulnerability
-
-Bonus: 10 XP
-
-This character is Vulnerable to a type of special damage (not impact or ballistic) such as Fire or Cold. 
-
-#### Weak Immune System
-
-Bonus: 5 XP or 10 XP
-
-This character is at Disadvantage on certain tests. For 5 XP they are at disadvantage to Stamina tests versus Disease. For 10 XP they are disadvantage on tests versus Poisons and Toxins as well as other hazards like Radiation. 
-
-
-
-
 ## Chapter 6: Skills
 
 When trying to accomplish something more refined than hefting a load, spotting an
@@ -1532,7 +779,7 @@ rest of the functions covered by the general skill.
 
 ### SKILL RATINGS
 
-Skill ratings are the numerical values assigned to skills or skill groups, either at character creation or when the skill is learned during game play. They represent how good a character is at a task when using that particular skill. Skill ratings are written as the name of the skill, followed by the rating. For example, Sneaking 3 means the character has the Sneaking Skill at a rating of 3. The skill rating is added to the linked attribute to determine the modifier added to 3D6 when that skill is used. For example, if the character with Sneaking 3 also had an Agility 4, she would add 7 to her rolls on a Sneaking Test.
+Skill ratings are the numerical values assigned to skills or skill groups, either at character creation or when the skill is learned during game play. They represent how good a character is at a task when using that particular skill. Skill ratings are written as the name of the skill, followed by the rating. For example, Sneaking 3 means the character has the Sneaking Skill at a rating of 3. The skill rating is added to the linked attribute to determine the modifier added to 3D6 when that skill is used. For example, if the character with Sneaking 3 also had an Quickness 4, she would add 7 to her rolls on a Sneaking Test.
 
 The skill Rating is a numerical value ranging from 1, representing the most rudimentary skill, to 6 (or 7 with the Aptitude quality) representing the height of sentient achievement. 
 
@@ -1595,1081 +842,6 @@ It is impossible to prepare for every scenario and only slightly harder to have 
 Some skills are too technically demanding for you to default. In these cases, you don’t get to even try the test; you just fail. Vehicles or Unarmed Combat, for example, are relatively simple skills that can be attempted without formal training, so you can default if you need to. Mechanics, on the other hand, is too complicated to try without some training (you could say it’s rocket science). Skills that cannot be defaulted are given in italics on the Active Skill List—and it’s also mentioned in the skill description.
 
 ### Skill List
-
-#### Agility Active Skill List
-
-| Agility                         |
-| ------------------------------- |
-| Archery                         |
-| Automatics                      |
-| Blades                          |
-| Clubs                           |
-| Escape Artist                   |
-| Exotic Melee Weapon (Specific)  |
-| Exotic Ranged Weapon (Specific) |
-| Gunnery                         |
-| Gymnastics                      |
-| Heavy Weapons                   |
-| Locksmith                       |
-| Longarms                        |
-| Palming                         |
-| Pistols                         |
-| Sneaking                        |
-| Throwing Weapon                 |
-| Unarmed Combat                  |
-
-#### Body Active Skill List
-
-| Body      |
-| --------- |
-| Diving    |
-| Free-Fall |
-
-#### Reaction Active Skill List
-
-| Reaction                          |
-| --------------------------------- |
-| *Pilot Aerospace*                 |
-| *Pilot Aircraft*                  |
-| *Pilot Walker*                    |
-| *Pilot Ground Craft*              |
-| *Pilot Watercraft*                |
-| *Pilot Exotic Vehicle (Specific)* |
-
-#### Strength Active Skill List
-
-| Strength |
-| -------- |
-| Running  |
-| Swimming |
-
-#### Charisma Active Skill List
-
-| Charisma        |
-| --------------- |
-| Animal Handling |
-| Con             |
-| Etiquette       |
-| Impersonation   |
-| Instruction     |
-| Intimidation    |
-| Leadership      |
-| Negotiation     |
-| Performance     |
-
-#### Intuition Active Skill List
-
-| Intuition           |
-| ------------------- |
-| Artisan             |
-| *Assensing*         |
-| Disguise            |
-| Interests Knowledge |
-| Language            |
-| Navigation          |
-| Perception          |
-| Street Knowledge    |
-| Tracking            |
-
-#### Logic Active Skill List
-
-| Logic                   |
-| ----------------------- |
-| Academic Knowledge      |
-| *Aeronautics Mechanics* |
-| *Arcane*                |
-| Armorer                 |
-| *Automotive Mechanic*   |
-| *Biotechnology*         |
-| *Chemistry*             |
-| Computer                |
-| *Cybertechnology*       |
-| Demolitions             |
-| *Electronic Warfare*    |
-| First Aid               |
-| Forgery                 |
-| Hacking                 |
-| *Hardware*              |
-| *Industrial Mechanics*  |
-| *Medicine*              |
-| *Nautical Mechanics*    |
-| Professional Knowledge  |
-| *Software*              |
-
-#### Willpower Active Skill List
-
-| Willpower       |
-| --------------- |
-| *Astral Combat* |
-| Survival        |
-
-#### Magic Active Skill List
-
-| Magic                 |
-| --------------------- |
-| Alchemy               |
-| *Artificing*          |
-| *Banishing*           |
-| *Binding*             |
-| *Counterspelling*     |
-| *Disenchanting*       |
-| *Ritual Spellcasting* |
-| *Spellcasting*        |
-| *Summoning*           |
-
-
-#### Knowledge Skill Examples 
-
-Knowledge skills are about what the character knows,
-even if you, the player, don’t. Check out the KnowledgeSkill Table for a few guidelines on what a skill reveals.
-Keep in mind that general facts, such as the name of
-the head of a megacorp and such, is info that can be
-quickly found on the Matrix. Knowledge skills are not
-about that basic level of detail, but rather information
-that not everyone knows or can find so easily.
-
-| Character Seeks     | Threshold |
-| ------------------- | --------- |
-| General Knowledge   | 6         |
-| Detailed Knowledge  | 12        |
-| Intricate Knowledge | 18        |
-| Obscure Knowledge   | 24        |
-
-| Skill Example        | Type         | Specilizations                                                                                       |
-| -------------------- | ------------ | ---------------------------------------------------------------------------------------------------- |
-| Seattle Street Gangs | Street       | Halloweeners, Ancients, Brain Eaters, 405 Hellhounds                                                 |
-| UCAS Politics        | Street       | Congressional, Presidential, by state, by lobby group, by political party                            |
-| Ares Macrotechnology | Street       | Damien Knight, AresSpace, Ares Arms, Seattle Operations                                              |
-| Hong Kong Triads     | Street       | Yellow Lotus, Red Dragons, Black Chrysanthemums                                                      |
-| Security Companies   | Street       | Lone Star, Knight Errant, Hard Corps, Seattle Sec Corps                                              |
-| Sprawl Life          | Street       | Soup Kitchens, Scavenging, Street Docs, Squats                                                       |
-| History              | Academic     | By region (American, European, Asian, etc.), by era (Ancient, Medieval, Modern)                      |
-| Literature           | Academic     | Japanese, Early Twentieth Century, Genre (Sci-Fi, Poetry, Fiction, Romance)                          |
-| Economics            | Academic     | Micro-economics, Macro-economics                                                                     |
-| Biology              | Academic     | Anatomy, Microbiology, Parazoology, Physiology                                                       |
-| Chemistry            | Academic     | Industrial Chemicals, Inorganic Chemistry, Organic Chemistry, Pharmaceuticals                        |
-| Architecture         | Professional | Commercial, Residential, by style (Baroque, Brutalist, Art Nouveau)                                  |
-| Business             | Professional | Finance, Distribution, Manufacturing, Megacorp, Digital Accountancy, Small Business                  |
-| Engineering          | Professional | Chemical, Civil, Electrical, Mechanical, Nuclear                                                     |
-| Military             | Professional | Army, Navy, Air Force, Marines, Coast Guard, Special Forces                                          |
-| Police Procedures    | Professional | By company, Government, Military Security Design, Magical, Matrix, Military, Physical, Private, Home |
-| Club Music           | Interest     | Astral Rock, Electron Wave, Goblin Rock, Powernoize, Rockabilly, Sinthcore, WizPunk                  |
-| Matrix Games         | Interest     | Dawn of Atlantis III, Dragon Storm, Grand Larceny, Killing Floor, Shadowrun Online                   |
-| Sports               | Interest     | Basketball, Combat Biking, Court Ball, Football, MMA, Soccer, Stickball,                             |
-| Street Drugs         | Interest     | BTLs, Cram, Deepweed, Novacoke, Spike, Tempo                                                         |
-| Fashion              | Interest     | Harajuku Scene, London Scene, New York Scene, Paris Scene                                            |
-
-
-
-
-#### Combat Active Skills
-
-When the punching and the kicking and the shooting starts, these are the skills you use. All Combat skills are linked to Agility unless otherwise noted. For more on how skills are used in combat, refer to the Combat chapter.
-
-##### ARCHERY
-
-Archery is used to fire string-loaded projectile weapons. An archer is familiar with many different styles of bow and the multitude of arrows that can be used to maximum effect.
-
-
-- Default: Yes
-- Skill Group: No
-- Specializations: Bow, Crossbow, Non-Standard Ammunition, Slingshot
-
-##### AUTOMATICS
-
-The Automatics skill covers a specific subset of firearms larger than handheld pistols but smaller than rifles. This category includes submachine guns and other fully automatic carbines.
-
-
-- Default: Yes
-- Skill Group: Firearms
-- Specializations: Assault Rifles, Cyber-Implant, Machine Pistols, Submachine Guns
-
-##### BLADES
-
-Slice and dice! The Blades skill includes the use of all handheld slashing and stabbing weapons. You can use a range of edged weapons including daggers, swords, and axes.
-
-
-- Default: Yes
-- Skill Group: Close Combat
-- Specializations: Axes, Knives, Swords, Parrying
-
-##### CLUBS
-
-Clubs governs the use of all hand-held bludgeoning instruments.
-With this skill you can turn any blunt item,
-be it a baseball bat, crutch, or mace, into a weapon.
-
-
-- Default: Yes
-- Skill Group: Close Combat
-- Specializations: Batons, Hammers, Saps, Staves, Parrying
-
-##### EXOTIC RANGED WEAPON (SPECIFIC)
-
-
-Sometimes a regular gun or blade won’t do the job and you need something fancier. Or weirder. This skill must be taken once for each unusual ranged weapon you want to use. Some examples include blowguns, gyrojet pistols, flamethrowers, and lasers.
-
-
-- Default: No
-- Skill Group: None
-- Specializations: None
-
-##### HEAVY WEAPONS
-
-The term heavy weapon is designated for all projectile weaponry larger than an assault rifle, such as grenade launchers, machine guns, and assault cannons. This skill is exclusive to handheld and non-vehicle-mounted weaponry—if you’ve got a gun mounted on or in a vehicle, use Gunnery.
-
-
-- Default: Yes
-- Skill Group: None
-- Specializations: Assault Cannons, Grenade Launchers, Guided Missiles, Machine Guns, Rocket Launchers
-
-
-##### LONGARMS
-
-The Longarms skill is for firing extended-barrel weapons such as sporting rifles and sniper rifles. This grouping also includes weapons like shotguns that are designed to be braced against the shoulder.
-
-
-- Default: Yes
-- Skill Group: Firearms
-- Specializations: Extended-Range Shots, Long-Range Shots, Shotguns, Sniper Rifles
-
-##### PISTOLS
-
-This skill category includes all types of handheld pistols,
-including tasers, single-shots, semi-automatics,
-and revolvers.
-
-
-- Default: Yes
-- Skill Group: Firearms
-- Specializations: Holdouts, Revolvers, Semi-Automatics, Tasers
-
-##### THROWING WEAPONS
-
-Throwing Weapons is a broad-based attack skill that can be used for any handheld item that is thrown by the user as a weapon.
-
-
-- Default: Yes
-- Skill Group: None
-- Specializations: Aerodynamic, Blades, Non-Aerodynamic
-
-##### UNARMED COMBAT
-
-Unarmed Combat covers the various self-defense and attack moves that employ the body as a primary weapon. This includes a wide array of martial arts along with the use of cybernetic implant weaponry and the fighting styles that sprung up around those implants.
-
-
-- Default: Yes
-- Skill Group: Close Combat
-- Specializations: Blocking, Cyber Implants, Subduing Combat, or by specific Martial Art
-
-#### Physical Active Skills
-
-These skills are all about actions you take with your body (besides things covered in Combat skills). You’ll find the specific rules for using each skill (or a reference for where you can find the rules) in the skill description.
-
-##### DISGUISE (INTUITION)
-
-Disguise covers non-magical forms of masking your identity, including makeup and enhancement. See Using Disguise and Impersonation
-
-
-- Default: Yes
-- Skill Group: Stealth
-- Specializations: Camouflage, Cosmetic, Theatrical, Trideo & Video
-
-##### DIVING (BODY)
-
-Diving brings together a wide array of actions performed underwater. This skill can be applied when diving, swimming underwater, using complex diving equipment, and holding your breath.
-
-
-- Default: Yes
-- Skill Group: None
-- Specializations: By breathing apparatus (Liquid Breathing Apparatus, Mixed Gas, Oxygen Extraction, SCUBA), by condition (Arctic, Cave, Commercial, Military etc.), Controlled Hyperventilation
-
-##### ESCAPE ARTIST (AGILITY)
-
-Escape Artist measures the character’s ability to escape from bindings by using body contortion and manual dexterity. See Using Escape Artist
-
-
-- Default: Yes
-- Skill Group: None
-- Specializations: By restraint (Cuffs, Ropes, Zip Ties, etc.), Contortionism
-
-**USING ESCAPE ARTIST**
-
-
-In Shadowrun, you might just find yourself caught instead of killed. Escape Artist provides a chance to escape from most forms of confinement, including ropes, handcuffs, and other bindings. To get out of restraints, make an `Escape Artist + Agility [Physical]` Test against a Threshold based on what you’re trying to get out of. If you succeed, you’re free after working on it for one minute (20 Combat Turns), divided by the number of net effect you get on the test. The dice is modified by a variety of factors, such as whether or not you’re being watched (and trying to be subtle) or if you’re carrying a set of lockpicks. These situational modifiers are on the Escape Artist Table. The gamemaster may decide that some restraints are too difficult to escape from without outside help.
-
-**Escape Artist Table**
-
-| **RESTRAINTS**                           | **THRESHOLD**            |
-| ---------------------------------------- | ------------------------ |
-| Rope, plastic cuffs                      | 2                        |
-| Metal handcuffs                          | 3                        |
-| Straitjacket                             | 4                        |
-| Containment manacles                     | 5                        |
-| Reinforced material                      | +1                       |
-| **SITUATION**                            | **MODIFIER**             |
-| Character being watched                  | –2                       |
-| Character physically restrained          | –(Restrainer’s Strength) |
-| Character has picks or cutting implement | +2                       |
-
-
-
-##### FREE-FALL (BODY)
-
-This skill covers any jump from height, including leaps from a third-floor window to jumps from a plane at high altitude. If it involves any kind of attempt to slow or control your fall, this covers it, so it includes skydiving with a parachute, flying a wingsuit, or descending on a line, bungee cord, or zipline.
-
-
-- Default: Yes
-- Skill Group: None
-- Specializations: BASE Jumping, Break-Fall, Bungee, HALO, Low Altitude, Parachute, Static Line, Wingsuit, Zipline
-
-##### GYMNASTICS (AGILITY)
-
-Gymnastics measures your balance, general athleticism, and all-around ability to use your body. For more information on ways Gymnastics may be applied ingame, see Jumping.
-
-
-- Default: Yes
-- Skill Group: Athletics
-- Specializations: Balance, Climbing, Dance, Leaping, Parkour, Rolling
-
-**USING GYMNASTICS**
-
-
-**CLIMBING**
-
-The Gymnastics skill is applied to both assisted and unassisted climbing tasks. Assisted climbing is accomplished with specialized gear such as ropes and harnesses. Assisted climbing is easier and safer, but requires more preparation. Unassisted climbing may be done on the fly, because you climb without any gear. Climbing is a Major Action, and the number of effect you get on your `Gymnastics + Strength [Physical]` Test determines how far you can move vertically or laterally during your climb, as noted on the Climbing Table. The more difficult the climb, the more modifiers you get, which is also noted on the Climbing Table.
-
-**Climbing Table**
-
-| **SITUATION**                                            | **Movement Distance R/up**   |
-| -------------------------------------------------------- | ---------------------------- |
-| Assisted climbing down (rappelling)                      | 20 yards + 1 yard per effect |
-| Assisted climbing upward                                 | 1 yard per effect            |
-| Assisted climbing horizontally                           | 1 yard per 2 effect          |
-| Assisted climbing upside down (on a ceiling or overhang) | 1 yard per 3 effect          |
-| Unassisted climbing upward                               | 1 yard per 2 effect          |
-| Unassisted climbing down                                 | 1 yard per effect            |
-| **SITUATION**                                            | **MODIFIER**                 |
-| Assisted climbing                                        | +2                           |
-| **SURFACE IS**                                           | **MODIFIER**                 |
-| Easily climbable (chain-link fence)                      | +1                           |
-| Broken (tree, loose stone wall)                          | +0                           |
-| Flat (brick wall, side of old building)                  | –3                           |
-| Sheer (metal wall, seamless stone)                       | –5                           |
-| Slippery or wet                                          | –2                           |
-| Greased or gel-treated                                   | –4                           |
-
-
-**RAPPELLING**
-
-Rappelling is a gear-aided descent at near free-fall speed. This technique requires a `Free-Fall + Body [Physical] (3)` Success Test. So long as you have the proper gear and training, you can brake at any point in the descent, slow your speed, and land safely. Rappelling expends a Minor Action, during which you fall at a rate of 20 yards per Combat Turn. Rappelling characters can increase the number of yards descended during that same Combat Turn by 1 for each net effect beyond the threshold on the Free-Fall Test. If you take another Minor Action in the same phase, such as firing a weapon, you get a –2 modifier to both that action and the Free-Fall Test. Stopping requires another Free-Fall Test with the same threshold. On an unsuccessful test, you don’t slow down and may take damage if you hit the ground at speed (Falling Damage).
-
-**CLIMBING FAILURES AND GLITCHES**
-
-A test while climbing or rappelling automatically halts your progress, and you have to make a `Reaction + Strength` Test to hold on. If you fail this second test, you start to fall (about 20 yards per Combat Turn). During your next turn, you may attempt to stop by making a `Reaction + Strength Test` with a –2 modifier. Your gamemaster may allow other climbers to make a `Reaction + Strength` Test to grab you. Characters who are using climbing gear are allowed an additional test if they fall. Have the character who prepared the safety lines make a `Free-Fall + Logic [Mental]` Test against a threshold equal to half the falling character’s Body (round down). The falling character may apply Edge to this test. If successful, the safety gear catches, leaving the character dangling. If it fails, the character falls (see Falling Damage).
-
-**JUMPING**
-
-Jumping is done from a running or standing position. Running leaps get more distance than standing jumps do, if you have enough room to get up to full speed. Make a `Gymnastics + Agility Test`, applying any appropriate modifiers. For every Effect you get on this test, you jump 1 yard on a standing jump or 2 yards for a running leap. No matter how many effect you get, you can’t jump farther than your Agility x 1.5 yards (net effect beyond this mean you did it with style). For a vertical jump, it’s the same test, but you get half a yard of altitude per hit and the maximum you can jump is 1.5 times your height.
-
-
-##### PALMING (AGILITY)
-
-Palming is sleight-of-hand skill that gives a character the ability to snag, hide, and pass off small objects.
-
-
-- Default: No
-- Skill Group: Stealth
-- Specializations: Legerdemain, Pickpocket, Pilfering
-
-##### PERCEPTION (INTUITION)
-
-Perception refers to the ability to spot anomalies in everyday situations, making it one of the key skills a shadowrunner needs. See Using Perception.
-
-
-- Default: Yes
-- Skill Group: None
-- Specializations: Hearing, Scent, Searching, Taste, Touch, Visual
-
-**USING PERCEPTION**
-
-Perception Tests are for any situation involving basic senses (sight, hearing, smell, touch, or taste) where you’re looking for something that isn’t obvious. Your gamemaster might call for you to make one, or you can call for a Perception Test by taking an Use Skill Major Action to get a handle on what’s going down around you. Making the Threshold on a `Perception + Intuition [Mental]` Test indicates that you’ve noticed something subtle or important (or both)—net effect determine how much detail you get. If someone is deliberately trying to hide from you, they’ll oppose your test with their own skill (Using Stealth Skills). Perception Tests involving vision (which is most of them) use the same Visibility and Light modifiers as attacks do in combat (Environmental Modifiers). Other modifiers are listed on the Perception Test Modifiers table. If a bunch of people are making a Perception Test and looking for the same thing, use a Teamwork Test.
-
-**Perception Test Modifiers table**
-
-| **SITUATION**                                       | **MODIFIER**          |
-| --------------------------------------------------- | --------------------- |
-| Perceiver is distracted                             | –2                    |
-| Perceiver is specifically looking/ listening for it | +3                    |
-| Object/sound not in immediate vicinity              | –2                    |
-| Object/sound far away                               | –3                    |
-| Object/sound stands out in some way                 | +2                    |
-| Interfering sight/odor/sound                        | –2                    |
-| Perceiver has active enhancements                   | + (Rating)            |
-| Visibility and Light                                | Environmental Factors |
-
-**Perception Threshold's**
-
-| **ITEM/EVENT IS:**     | **Threshold THRESHOLD** | **EXAMPLES**                                            |
-| ---------------------- | ----------------------- | ------------------------------------------------------- |
-| Obvious/Large/Loud     | 6                       | Neon sign, running crowd, yelling, gunfire              |
-| Normal                 | 12                      | Street sign, pedestrian, conversation, silenced gunfire |
-| Obscured/Small/Muffled | 18                      | Item dropped under table, contact lens, whispering      |
-| Hidden/Micro/Silent    | 24                      | Secret door, needle in haystack, subvocal speech        |
-
-
-
-##### RUNNING (STRENGTH)
-
-Running, as you may guess, is about how much ground you can cover quickly. For more information see Using Running.
-
-
-- Default: Yes
-- Skill Group: Athletics
-- Specializations: Distance, Sprinting, by terrain (Desert, Urban, Wilderness, etc.)
-
-**USING RUNNING**
-
-The Running skill allows you to increase the distance you can cover in a Combat Turn by taking a Dash Action on your turn. You make a `Running + Strength [Physical] Test`. Each effect adds 1 or 2 yards to your distance for that Combat Turn, based on your metatype (see Movement). The gamemaster may apply modifiers for various types of terrain (rocky, slippery, and so on) and other conditions. You can run non-stop for a maximum number of minutes equal to your `(Body + Running) x 10`. Fatigue damage begins to take effect after this point (see Fatigue Damage).
-
-##### SNEAKING (AGILITY)
-
-Need to get where you’re not supposed to be? This skill allows you to remain inconspicuous in various situations. See Using Stealth Skills.
-
-
-- Default: Yes
-- Skill Group: Stealth
-- Specializations: Location type (Jungle, Urban, Desert, etc.)
-
-##### SURVIVAL (WILLPOWER)
-
-In the desert with nothing more than a tin cup, a poncho, and an iron rod? You’ll need this skill to help you get out alive. Survival is the ability to stay alive in extreme environmental conditions for extended periods of time. The skill governs a character’s ability to perform vital outdoor tasks such as start a fire, build a shelter, scrounge for food, etc. in hostile environments. See Using Survival.
-
-
-- Default: Yes
-- Skill Group: Outdoors
-- Specializations: Desert, Forest, Jungle, Mountain, Polar, Urban, or other terrain
-
-**USING SURVIVAL**
-
-Surviving the elements is more dangerous in the Sixth World. Environmental decay has reached unparalleled heights. In Great Britain, for example, a perfect storm of toxic disasters and severe flooding devastated the countryside. Those forced to live on city streets fare no better. The homeless are as likely to be attacked by a swarm of devil rats as they are to be beaten by a ganger looking for a bit of fun.
-
-The Survival skill is used for braving all forms of extreme outdoor conditions—this includes urban survival, where the threats are as likely to come from other people as they are from the elements. It covers the ability to find food, water, and temporary shelter in any environment. If you’re exposed to these conditions for 24 hours or more, you’ll need to start making daily `Survival + Willpower [Mental] Tests`. Modifiers and thresholds for Survival Tests are provided on the Survival Test Table. If you fail the test, you don’t find the food or shelter you need and take Stun damage with a Damage Value equal to twice the threshold step. The Stun damage cannot be healed until you get a good night’s sleep without having to make a Survival Test. If your Stun Condition Monitor overflows and you fall unconscious, you cannot make your Survival Tests, so you just keep taking the damage (now Physical from overflow) until you’re either rescued or dead.
-
-**Survival Test Table**
-
-| **WILDERNESS TERRAIN**              | **THRESHOLD** | **STUN DAMAGE ON FAIL** |
-| ----------------------------------- | ------------- | ----------------------- |
-| Mild (forest, plains, urban)        | 6             | 2                       |
-| Moderate (foothills, jungle, swamp) | 12            | 4                       |
-| Tough (desert, high mountains)      | 18            | 6                       |
-| Extreme (Arctic, Antarctic)         | 30+           | 10+                     |
-| **SITUATION**                       | **MODIFIER**  | -                       |
-| Camping/survival gear on hand       | +2            | -                       |
-| No food or water                    | –2            | -                       |
-| Heat/climate control available      | +1            | -                       |
-| Inappropriate clothing/armor        | –1 to –4      | -                       |
-| Extended travel or exertion         | –1 to –4      | -                       |
-| Toxic terrain                       | –2 to –4      | -                       |
-| Character injured                   | -4            | -                       |
-| **WEATHER**                         | **MODIFIER**  | -                       |
-| Poor                                | –1            | -                       |
-| Terrible                            | –2            | -                       |
-| Extreme                             | –4            | -                       |
-
-
-
-##### SWIMMING (STRENGTH)
-
-This skill determines the character’s ability to swim in various bodies of water. The skill level affects the distance and speed at which a character can swim. See Using Swimming
-
-
-- Default: Yes
-- Skill Group: Athletics
-- Specializations: Dash, Long Distance
-
-**USING SWIMMING**
-
-Swimming is a Major Action. A swimming character can move a number of yards in a Combat Turn equal to the average of their Agility and Strength. You can take a Minor Action to dash with a `Swimming + Strength [Physical] Test`, adding 1 yard per effect, or 2 yards per effect if you’re an elf or a troll. Swimming on the surface of water or under it does not affect this rate of speed. As with the Running skill, swimmers suffer from fatigue after an extended time (Fatigue Damage).
-
-**HOLDING YOUR BREATH**
-
-Sixty seconds (twenty Combat Turns) is the base time a character can hold his breath before any tests are needed. A character needing to hold his breath longer can make a `Swimming + Willpower Test` (with the Controlled Hyperventilation specialization coming into play if you have it). Each net hit extends the clock by 15 seconds (5 Combat Turns).
-
-Once the time expires the character must breathe or take 3 of Stun damage at the end of each Combat Turn until they breathe (this damage cannot be resisted). Once all the stun is gone, the character loses consciousness. At this point the character takes 3 physical damage at the end of each Combat Turn until rescued or dead.
-
-**TREADING WATER**
-
-If you’re just trying to keep afloat, you can tread water. You can tread water for a number of minutes equal to your Strength rating. At the end of this time, make a Simple `Swimming + Strength [Physical] (12) Test`. Success means you can keep treading water (or float, if you’re skilled at Swimming) for the same amount of time before another test; failure means you slip and take 3 Stun damage that you can’t resist. If you have a flotation device, double the time between tests. You can keep treading water as long as you can stay conscious.
-
-##### TRACKING (INTUITION)
-
-This skill confers the ability to detect the passage of metahumans and other game through terrain and use those clues to follow that individual. This skill also allows you to identify unmarked trails and common game paths is various environments. See Using Tracking.
-
-
-- Default: Yes
-- Skill Group: Outdoors
-- Specializations: Desert, Forest, Jungle, Mountain, Polar, Urban, another terrain type
-
-**USING TRACKING**
-
-Tracking a person or critter requires a `Tracking + Intuition [Mental] Test` with a threshold based on the terrain (decided by the gamemaster using the Threshold table). If the target is actively obscuring their trail, tracking is handled as an Opposed Test. The tracker rolls `Tracking + Intuition [Mental]` against the target’s `Sneak + Agility [Physical]`. Any effect on a Tracking Test can be used to gain additional information about the trail, such as the number of people using the trail, type of critters recently using it, and how old the tracks are. In urban tracking, additional effect can be used to identify local crowd movement patterns, relevant cameras, and AR clues that reveal where the target was heading and how long ago it passed by. The gamemaster may choose to apply modifiers for conditions such as weather, age of the tracks, the amount of people who’ve trampled the trail, and so on. Individuals using a tracking dog or other tracking critter may use Animal Handling as a Teamwork Test for their animal’s Tracking Test.
-
-#### Social Active Skills
-
-Dice rarely need to get involved when characters need to solve problems between one another. Dealing with NPCs isn’t always so easy. Social skills give characters the ability to problem-solve without expending bullets or mana. These skills tend to be linked to the Charisma attribute
-
-Social skills are intended to be used to complement good role-playing, not replace it. The Social Test should come either at the end of a well-role-played scene to wrap it up, or in place of a social situation that would be less interesting to actually play through to get through it quickly. The gamemaster can provide modifiers on this test based on how well you make your point, or how much bulldrek you’re able to pile up without flinching.
-
-**Social Modifiers Table**
-
-| **GENERAL MODIFIERS**                                                                     | **MODIFIER**    |
-| ----------------------------------------------------------------------------------------- | --------------- |
-| The NPC’s attitude toward the character is:                                               | =============   |
-| Neutral                                                                                   | +0              |
-| Friendly                                                                                  | +2              |
-| Suspicious                                                                                | –1              |
-| Prejudiced                                                                                | –2              |
-| Hostile                                                                                   | –3              |
-| Enemy                                                                                     | –4              |
-| Character’s desired result is:                                                            | =============   |
-| Advantageous to NPC                                                                       | +1              |
-| Of no value to NPC                                                                        | +0              |
-| Annoying to NPC                                                                           | –1              |
-| Harmful to NPC                                                                            | –3              |
-| Disastrous to NPC                                                                         | –4              |
-| Control Thoughts/Emotions spell cast on                                                   | –1 per effect   |
-| Character has (known) street reputation                                                   | + (Street Cred) |
-| Subject has (known) street reputation                                                     | – (Street Cred) |
-| Subject has “ace in the hole”                                                             | +2              |
-| Subject has romantic attraction to character                                              | +2              |
-| Character is intoxicated                                                                  | -1              |
-| **CON MODIFIERS**                                                                         | **MODIFIER**    |
-| Character has plausible-seeming evidence                                                  | +1 or 2         |
-| Subject is distracted                                                                     | +1              |
-| Subject has time to evaluate situation                                                    | –1              |
-| **ETIQUETTE MODIFIERS**                                                                   | **MODIFIER**    |
-| Character is wearing the wrong attire or doesn’t have the right look                      | -2              |
-| Character is obviously nervous, agitated, or frenzied                                     | -2              |
-| Subject is distracted                                                                     | –1              |
-| **INTIMIDATION MODIFIERS**                                                                | **MODIFIER**    |
-| Character is physically imposing                                                          | +1 to +3        |
-| Subject is physically imposing                                                            | –1 to –3        |
-| Characters outnumber the subject(s)                                                       | +2              |
-| Subjects outnumber the character(s)                                                       | –2              |
-| Character wielding weapon or obvious magic                                                | +2              |
-| Subject wielding weapon or obvious magic                                                  | –2              |
-| Character is causing (or has caused) subject physical pain (torture)                      | +2              |
-| Subject is oblivious to danger or doesn’t think character “would try something so stupid" | +2              |
-| **LEADERSHIP MODIFIERS**                                                                  | **MODIFIER**    |
-| Character has superior rank                                                               | +1 to +3        |
-| Subject has superior rank                                                                 | –1 to –3        |
-| Character is an obvious authority figure                                                  | +1              |
-| Character not part of subject’s social strata                                             | –1 to –3        |
-| Subject is a fan or devoted to character                                                  | +2              |
-| **NEGOTIATION MODIFIERS**                                                                 | **MODIFIER**    |
-| Character lacks background knowledge of situation                                         | -2              |
-| Character has blackmailed material or heavy bargaining chip                               | +2              |
-
-
-
-
-**Social Skill Test Lookup Table**
-
-| **CHARACTER ROLL**                | **TARGET ROLL**                 |
-| --------------------------------- | ------------------------------- |
-| Con + Charisma [Social]           | Con + Charisma [Social]         |
-| Etiquette + Charisma [Social]     | Perception + Charisma [Social]  |
-| Impersonation + Charisma [Social] | Perception + Intuition [Mental] |
-| Intimidation + Charisma [Social]  | Charisma + Willpower            |
-| Leadership + Charisma [Social]    | Leadership + Willpower [Social] |
-| Negotiation + Charisma [Social]   | Negotiation + Charisma [Social] |
-| Performance + Charisma [Social]   | Charisma + Willpower            |
-
-##### CON (CHARISMA)
-
-Con governs the ability to manipulate or fool an NPC during a social encounter. This skill covers a range of confidence games as well as the principles behind those cons.
-
-
-- Default: Yes
-- Skill Group: Acting
-- Specializations: Fast Talking, Seduction
-
-##### ETIQUETTE (CHARISMA)
-
-Etiquette represents the level of understanding and awareness of proper social rituals. The skill works as a sort of social version of Sneak, allowing you to move unimpeded through various social situations. Etiquette also serves as a social safety net in case a player botches a social situation in a way a skilled character would not. See Using Etiquette.
-
-
-- Default: Yes
-- Skill Group: Influence
-- Specializations: By culture or subculture (Corporate, High Society, Media, Mercenary, Street, Yakuza, etc.)
-
-**USING ETIQUETTE**
-
-Etiquette is about blending into the social fabric. Skilled characters can move through a social situation without anyone realizing that they don’t belong. It’s more than knowing the right mores (you could look those up on the Matrix), it’s about trained instinct.
-
-You can use Etiquette to ease suspicions, so that people might trust you more than they would an outsider. Make an `Etiquette + Charisma [Social] Test` against the other person’s `Perception + Charisma [Social] Opposed Test`. If you get you roll higher, they’ll accept you. If you get 3 or more net effect, their attitude toward you will improve, moving up a line on the “NPC’s attitude” section of the Social Modifiers table.
-
-The skill is not meant to replace role-playing, but it can save you from a social blunder that you (the player) make when your character probably wouldn’t have. When this happens, make an Etiquette Test against a threshold equal to the severity of the blunder (set by the gamemaster). A successful test means your character recovers from the misstep.
-
-When making Etiquette tests with a group of NPCs, use the same rules for influencing groups (Using Social Skills).
-
-A glitch on an Etiquette Test is treated the same as a social blunder—the temporary annoyance could give you a –2 modifier on your next social test. Critical glitches result in major social gaffes that have a lasting effect on the relationship your character has with others—the NPC’s stance towards your character could move one step toward Enemy. This is the stuff of which long-time grudges and major feuds are made, the words of disrespect that set street armies into motion.
-
-##### IMPERSONATION (CHARISMA)
-
-Impersonation is the ability to assume the identity of another person, including voice and physical mannerisms. The skill is limited by the physical abilities of the character. A dwarf might be able to impersonate a troll over a commlink, but the illusion shatters when he is face to face with his target.
-
-
-- Default: Yes
-- Skill Group: Acting
-- Specializations: By metahuman type (Dwarf, Elf, Human, Ork, Troll)
-
-##### INSTRUCTION (CHARISMA)
-
-Instruction governs the ability to teach people. The skill level helps determine how comfortable the instructor is delivering new material as well as how complex of a skill may be taught. See Using Instruction.
-
-
-- Default: Yes
-- Skill Group: None
-- Specializations: By Active or Knowledge skill category (Combat, Language, Magical, Academic Knowledge, Street Knowledge, etc.)
-
-**USING INSTRUCTION**
-
-From virtual instructors to how-to vids, there are numerous ways to learn skills. There is no substitute, however, for a flesh-and-blood instructor. In order to teach someone a skill, a character must have the skill at Rating 2 or higher. The teacher can only teach up to their own Instruction Rating. Teaching is an `Instruction + Charisma [Social] Test`. Every effect on the Teaching Test reduces the time for the student to improve their skill by a day (Character Advancement).
-
-Instruction is also used to teach spells, complex forms, rituals, and various other techniques. The rules for using Instruction are a bit different in these cases and are explained in the appropriate sections of this book
-
-
-##### INTIMIDATION (CHARISMA)
-
-Intimidation is about creating the impression that you are more menacing than another person in order to get them to do what you want. The skill may be applied multiple ways, from negotiation to interrogation. Intimidation is an Opposed `Intimidation + Charisma [Social]` Test against the target’s `Charisma + Willpower`, modified by the appropriate entries on the Social Modifiers Table.
-
-
-- Default: Yes
-- Skill Group: None
-- Specializations: Interrogation, Mental, Physical, Torture
-
-##### LEADERSHIP (CHARISMA)
-
-Leadership is the ability to direct and motivate others. It’s like Con, except rather than using deception you’re using a position of authority. This skill is especially helpful in situations where the will of a teammate is shaken or someone is being asked to do something uncomfortable. The Leadership skill is not meant to replace or make up for poor teamwork. When using Leadership make an opposed test `Charisma + Leadership`. See Using Social Influence Skills, for test modifiers.
-
-
-- Default: Yes
-- Skill Group: Influence
-- Specializations: Command, Direct, Inspire, Rally
-
-**USING LEADERSHIP**
-
-The Leadership skill is about coaxing, convincing, threatening, or challenging your subordinates, or getting people to accept you as a superior. If you lead people who accept you as their (lone) superior, even temporarily, you can take a Major Action to make a `Leadership + Charisma [Social] Test`. How this helps depends on what you choose to do.
-
-Command: The target resists with a `Leadership + Willpower [Mental] test` (with Social Modifiers). For every net hit you get, the target accepts you as their leader for 1 Combat Turn. This doesn’t work if you’ve failed on this target before.
-
-Direct: Your effect act as a Teamwork Test for one subordinate’s skill or Composure Test that they perform on or before their next Turn.
-
-Inspire: Your effect act as a Teamwork Test for your subordinates’ Surprise Test for the rest of the Combat Turn.
-
-Rally: Your subordinates add 1 to their Initiative Score for every 2 effect you get.
-
-##### NEGOTIATION (CHARISMA)
-
-Negotiation governs a character’s ability to apply their charisma, tactics, and knowledge of situational psychology in order to create a better position when making deals.
-
-
-- Default: Yes
-- Skill Group: Influence
-- Specializations: Bargaining, Contracts, Diplomacy
-
-##### PERFORMANCE (CHARISMA)
-
-This skill governs the ability to execute a performing art. Performance is to the arts what Artisan is to craft. The performer uses her skill to entertain or even captivate an audience. See Using Performance.
-
-
-- Default: Yes
-- Skill Group: Acting
-- Specializations: By performance art (Presentation, Acting, Comedy, specific Musical Instrument, etc.)
-
-**USING PERFORMANCE**
-
-Performance is a Simple Test with a Social limit—the gamemaster can use your effect to gauge the artistry of your performance. If you’re trying distract a target, or sweep them up in your performance, the generic modifiers on the Social Modifiers Table apply, and your target(s) use their `Charisma + Willpower` to oppose your test.
-
-
-
-
-
-#### Magic Active Skills
-
-##### ALCHEMY (MAGIC)
-
-Alchemy is used to create substances that store spells. Alchemy is most commonly used to brew potions, distill magical reagents, and even create orichalcum.
-
-
-- Default: No
-- Skill Group: Enchanting
-- Specializations: By trigger (Command, Contact, Time), by spell type (Combat Spells, Detection Spells, etc.)
-
-##### ARCANA (LOGIC)
-
-Arcana governs the creation of magical formulae used to create spells, foci, and all other manner of magical manipulations. Arcana is required to understand formulae that may be purchased over the counter or discovered by other means.
-
-
-- Default: No
-- Skill Group: None
-- Specializations: Spell Design, Focus Design, Spirit Formula
-
-##### ARTIFICING (MAGIC)
-
-Artificing is the process of crafting magical foci. The skill may also be used forensically, in order to assense qualities about an existing focus’ creation and purpose. See Artificing.
-
-
-- Default: No
-- Skill Group: Enchanting
-- Specializations: Focus Analysis, Crafting (by focus type)
-
-##### ASSENSING (INTUITION)
-
-Assensing is a magic user’s ability to read and interpret fluctuations in the astral world. This skill allows practitioners to learn information by reading astral auras. Only characters capable of astral perception may take this skill. For more information, see Astral Perception
-
-
-- Default: No
-- Skill Group: None
-- Specializations: Aura Reading, Astral Signatures, by aura type (Metahumans, Spirits, Foci, Wards, etc.)
-
-##### ASTRAL COMBAT (WILLPOWER)
-
-Fighting in Astral Space requires the Astral Combat skill. Combat in the Astral World relies on a very different set of abilities and attributes than physical combatants. See Astral Combat.
-
-
-- Default: No
-- Skill Group: None
-- Specializations: By specific weapon focus type, by opponents (Magicians, Spirits, Mana Barriers, etc.)
-
-##### BANISHING (MAGIC)
-
-Banishing is used to disrupt the link between spirits and the physical world. Banished spirits are forced to return to their native plane and are no longer required to complete unfulfilled services.
-
-
-- Default: No
-- Skill Group: Conjuring
-- Specializations: By spirit type (Spirits of Air, Spirits of Man, etc.)
-
-##### BINDING (MAGIC)
-
-Binding is used to compel a summoned spirit to perform a number of additional services. See Binding.
-
-
-- Default: No
-- Skill Group: Conjuring
-- Specializations: By spirit type (Spirits of Fire, Spirits of Earth, etc.)
-
-##### COUNTERSPELLING (MAGIC)
-
-Counterspelling is a defensive skill used to defend against magical attacks and dispel sustained magical spells. See Counterspelling.
-
-
-- Default: No
-- Skill Group: Sorcery
-- Specializations: By spell type (Combat Spells, Detection Spells, etc.)
-
-##### DISENCHANTING (MAGIC)
-
-This skill governs a character’s ability to remove the enchantment from an item. See Disenchanting.
-
-
-- Default: No
-- Skill Group: Enchanting
-- Specializations: By type (Alchemical Preparations, Power Foci, etc.)
-
-##### RITUAL SPELLCASTING (MAGIC)
-
-Ritual spellcasting is a spellcasting skill used to cast ritual spells. See Ritual Spellcasting.
-
-
-- Default: No
-- Skill Group: Sorcery
-- Specializations: By keyword (Anchored, Spell, etc.)
-
-##### SPELLCASTING (MAGIC)
-
-The Spellcasting skill permits the character to channel mana into effects known as spells. See Spellcasting.
-
-
-- Default: No
-- Skill Group: Sorcery
-- Specializations: By spell type (Combat Spells, Detection Spells, etc.)
-
-##### SUMMONING (MAGIC)
-
-This skill is used to summon spirits. See Summoning.
-
-
-- Default: No
-- Skill Group: Conjuring
-- Specializations: By spirit type (Spirits of Earth, Spirits of Man, etc.)
-
-#### Technical Active Skills
-
-##### AERONAUTICS MECHANIC (LOGIC)
-
-Aeronautics mechanics have the ability to repair a variety of aerospace vehicles, provided the proper tools and parts are available. See Building & Repairing
-
-
-- Default: No
-- Skill Group: Engineering
-- Specializations: Aerospace, Fixed Wing, LTA (blimp), Rotary Wing, Tilt Wing, Vector Thrust
-
-##### ANIMAL HANDLING (CHARISMA)
-
-This skill governs the training, care, riding (if they’re big enough), and control of non-sentient animals. Competent trainers have the ability to handle multiple animals. It is even possible to approach an untrained animal and get it to trust you, or at least not eat you.
-
-- Default: Yes
-- Skill Group: None
-- Specializations: By animal (Cat, Bird, Hell Hound, Horse, Dolphin, etc.), Herding, Riding, Training
-
-##### ARMORER (LOGIC)
-
-Armorer encompasses the broad array of skills required to build and maintain weapons and armor. As with all mechanics-based skills, the proper tools and equipment are required to perform any repair or build operation. For thresholds and information on determining success results, see Building & Repairing
-
-- Default: Yes
-- Skill Group: None
-- Specializations: Armor, Artillery, Explosives, Firearms, Melee Weapons, Heavy Weapons, Weapon Accessories
-
-##### ARTISAN (INTUITION)
-
-This skill includes several different forms of artistic impression as well as the handcrafting of fine objects that would otherwise be produced on an assembly line. The world’s top artists and crafters are considered artisans.
-
-- Default: No
-- Skill Group: None
-- Specializations: By discipline (Cooking, Sculpting, Drawing, Carpentry, etc.)
-
-##### AUTOMOTIVE MECHANIC (LOGIC)
-
-Automotive mechanics are tasked with fixing all types of ground-based vehicles ranging from commercial automobiles to wheeled drones to tanks. Repairs require the proper tools and time. See Building & Repairing
-
-- Default: No
-- Skill Group: Engineering
-- Specializations: Walker, Hover, Tracked, Wheeled
-
-##### BIOTECHNOLOGY (LOGIC)
-
-Biotechnology is a wide-ranging skill primarily used by doctors and scientists to grow organic body parts. This skill is the basis for cloning as well as all forms of bioware. Provided the right equipment is available, biotechnology can be used to repair damaged bioware, clone new tissue, or detect any bioware in a subject’s body. This skill does not allow characters to install or remove bioware.
-
-- Default: No
-- Skill Group: None
-- Specializations: Bioinformatics, Bioware, Cloning, Gene Therapy, Vat Maintenance
-
-##### CHEMISTRY (LOGIC)
-
-Chemistry permits the character to create chemical reactions and develop chemical compounds ranging from drugs, to perfumes, to biopolymers like NuSkin. Chemistry can also be used to analyze chemical compounds to determine what they are.
-
-- Default: No
-- Skill Group: None
-- Specializations: Analytical, Biochemistry, Inorganic, Organic, Physical
-
-##### COMPUTER (LOGIC)
-
-Computer is the base skill for interacting with the Matrix. It represents the ability to use computers and other Matrix- connected devices. The Computer skill focuses on understanding multiple operating systems. It does not allow the character to exploit code (Hacking) or strip down mainframes (Hardware). See Using Computer
-
-- Default: Yes
-- Skill Group: Electronics
-- Specializations: By action (Edit File, Matrix Perception, Matrix Search, etc.)
-
-##### CYBERTECHNOLOGY (LOGIC)
-
-Cybertechnology is the ability to create, maintain, and repair cybernetic parts. A character with the proper tools and parts may repair or even build new cybernetics. Cybertechnology is not a surgical skill. Characters cannot attach or re-attach cybernetics to organic material with this skill. This skill may be used to modify or upgrade cybernetics within cyberlimbs. See Building and Repairing
-
-- Default: No
-- Skill Group: Biotech
-- Specializations: Bodyware, Cyberlimbs, Headware, Repair
-
-##### DEMOLITIONS (LOGIC)
-
-Demolitions is used to prepare, plant, detonate, and often defuse chemical-based explosives. See Explosives
-
-- Default: Yes
-- Skill Group: None
-- Specializations: Commercial Explosives, Defusing, Improvised Explosives, Plastic Explosives
-
-##### ELECTRONIC WARFARE (LOGIC)
-
-Electronic Warfare is the basis of military signals intelligence. It governs the encoding, disruption, spoofing, and decoding of communication systems. Providing the user has the proper equipment, the skill can be used to manipulate or even take over the signal of any item’s communication system. See Using Electronic Warfare
-
-- Default: No
-- Skill Group: Cracking
-- Specializations: Communications, Encryption, Jamming, Sensor Operations
-
-##### FIRST AID (LOGIC)
-
-First Aid is the ability to provide emergency medical assistance similar to that of a paramedic. This skill may be used to stabilize wounds and prevent characters from dying. First Aid cannot be used to perform surgery or repair damaged implants. For more information, see Healing
-
-- Default: Yes
-- Skill Group: Biotech
-- Specializations: By treatment (Gunshot Wounds, Resuscitation, Broken Bones, Burns, etc.)
-
-##### FORGERY (LOGIC)
-
-Forgery is used to produce counterfeit items or alter existing items to a specific purpose. Depending on the type of forgery, the forger may need specific tools or schematics to complete the task. See Using Forgery
-
-- Default: Yes
-- Skill Group: None
-- Specializations: Counterfeiting, Credstick Forgery, False ID, Image Doctoring, Paper Forgery
-
-**USING FORGERY**
-
-Talented forgers can simulate anything from a signature to a credstick to the Mona Lisa. The skill is most often used for doctoring hardcopy IDs, signatures, and official paperwork, but it can be used to fabricate anything you can imagine and your skill level can handle. Creating a forgery is a `Forgery + Logic Test`. The limit for this test is either Physical (for forged art, signatures,and other physical objects) or Mental (for credsticks, documents, and other items that are more data than substance). Your modifier is adjusted by appropriate modifiers (see the Build/Repair Table for suggestions), and given a time requirement by the gamemaster (an interval from the Extended Test Difficulties table is fine).
-
-The quality of the forgery is based on the number of hits scored on the test. This number acts as the threshold for attempts to spot the fake. Anyone examining a forgery makes an Opposed Test using a `Perception + Intuition [Mental]` Test or `Forgery + Intuition [Mental]` Test. If they score as many or more hits than the quality of the forgery, the item is exposed as a fake.
-
-Data-based forgeries, like credsticks, documents, and SINs, don’t really hold up well to scrutiny, what with information being so readily available. They can appear almost identical to the original, but any attempt to get it to act like the original (transfer nuyen, pass a SIN check, etc.) reveals the forgery.
-
-##### HACKING (LOGIC)
-
-Hacking is used to discover and exploit security flaws in computers and other electronics. For more on how Hacking is used, see Using Hacking
-
-- Default: Yes
-- Skill Group: Cracking
-- Specializations: Devices, Files, Hosts, Personas
-
-##### HARDWARE (LOGIC)
-
-Hardware reflects a characters ability to build and repair electronic devices. A workspace, proper materials, and sufficient build time are required to enact a repair or to build a new device. See Building & Repairing, at right.
-
-- Default: No
-- Skill Group: Electronics
-- Specializations: By hardware type (Commlinks, Cyberdecks, Smartguns, etc.)
-
-##### INDUSTRIAL MECHANIC (LOGIC)
-
-An industrial mechanic is tasked with repairing or modifying large-scale machines, such as assembly line equipment, power generators, HVAC units, industrial robots, etc. See Building and Repairing, at right.
-
-- Default: No
-- Skill Group: Engineering
-- Specializations: Electrical Power Systems, Hydraulics, HVAC, Industrial Robotics, Structural, Welding
-
-##### LOCKSMITH (AGILITY)
-
-This skill covers building, repairing, and opening mechanical and electronic locks. While largely banished to antiquity, traditional mechanical locking mechanisms are still in use around the globe, often as throwbacks or backups. Electronic locks are far more common and quite susceptible to your ministrations. See Doors, Windows, & Locks
-
-- Default: No
-- Skill Group: None
-- Specializations: By type (Combination, Keypad, Maglock, Tumbler, Voice Recognition, etc.)
-
-##### MEDICINE (LOGIC)
-
-Medicine is used to perform advanced medical procedures such as surgeries. It includes long-term medical support for disease and illness, and the skill can be used to diagnose a character’s medical condition. This skill is used to implant or remove cybernetics and bioware but cannot be used to repair or maintain implanted devices. For more information,
-see Healing, p. 205.
-
-- Default: No
-- Skill Group: Biotech
-- Specializations: Cosmetic Surgery, Extended Care,Implant Surgery, Magical Health, Organ Culture, Trauma Surgery
-
-##### NAUTICAL MECHANIC (LOGIC)
-
-Nautical Mechanic is concerned with the maintenance and repair of watercraft. This skill is only effective if the necessary equipment and time are available. See Building & Repairing below.
-
-- Default: No
-- Skill Group: Engineering
-- Specializations: Motorboat, Sailboat, Ship, Submarine
-
-##### NAVIGATION (INTUITION)
-
-Navigation governs the use of technology and natural instinct to navigate through territory. This skill enables characters to read maps, use GPS devices, follow AR nav points, or follow a course by landmarks or general direction sense. Navigation applies to both AR and non-AR-enhanced environments.
-
-- Default: Yes
-- Skill Group: Outdoors
-- Specializations: Augmented Reality Markers, Celestial, Compass, Maps, GPS
-
-**USING NAVIGATION**
-
-Since the advent of AR mapping, a walk through the sprawl never requires a test, but getting from A to B can be a lot tougher when the Matrix isn’t pointing the way. Navigation tests are required when you’re traversing unmarked or highly unfamiliar terrain, such as someone new to Seattle attempting to navigate the Ork Underground. It’s a Simple Navigation + Intuition [Mental] Test, with a threshold based on the terrain, taking into account modifiers for environmental factors such as poor visibility, landmarks, existing trails, advice from locals, and so on—your gamemaster will give you a tn
-
-##### SOFTWARE (LOGIC)
-
-Software is the skill used to create and manipulate programming in the Matrix. See Using Software.
-
-- Default: No
-- Skill Group: Electronics
-- Specializations: Data Bombs or by complex form (Editor, Resonance Spike, Tattletale, etc.)
-
-##### BUILDING & REPAIRING
-
-Building or repairing an object is an Extended Test that the gamemaster may decide requires certain tools or facilities. Modifiers from the Build/Repair Table /should be applied to the test. Characters electing to design new items must have the appropriate Knowledge skills to conceptualize and create schematics. The gamemaster assigns a threshold and interval for the Extended Test using the Task Difficulty Table
-
-**Build and Repair Table**
-
-| SITUATION                  | MODIFIER           |
-| -------------------------- | ------------------ |
-| Working Conditions         | ================== |
-| Distracting                | –1                 |
-| Poor                       | –2                 |
-| Bad                        | –3                 |
-| Terrible                   | –4                 |
-| Superior                   | +1                 |
-| Tools and/or Parts Are:    | ================== |
-| Inadequate                 | –2                 |
-| Unavailable                | –4 or not allowed  |
-| Superior                   | +1 or more         |
-| Plans/Reference Materials: | ================== |
-| Available                  | +1                 |
-| Augmented Reality Enhanced | +2                 |
-| Working from Memory        | ================== |
-| Logic 5+                   | +0                 |
-| Logic 1–4                  | –(5 – Logic)       |
-
-#### Vehicle Active Skills
-
-Vehicle skills are used for driving and performing combat maneuvers with vehicles (see Vehicles). Unless otherwise noted, Vehicle skills are linked to Reaction.
-
-##### GUNNERY (AGILITY)
-Gunnery is used when firing any vehicle-mounted weapon, regardless of how or where the weapon is mounted. This skill extends to manual and sensor-enhanced gunnery.
-
-- Default: Yes
-- Skill Group: None
-- Specializations: Artillery, Ballistic, Energy, Guided Missile, Rocket
-
-##### PILOT AEROSPACE
-Aerospace vehicles include all reduced- and zero-gravity aircraft capable of suborbital or extra-orbital flight.
-
-- Default: No
-- Skill Group: None
-- Specializations: Deep Space, Launch Craft, Remote Operation, Semiballistic, Suborbital
-
-##### PILOT AIRCRAFT
-This skill is used to pilot any manned or unmanned aircraft operating solely within planetary atmosphere.
-
-- Default: No
-- Skill Group: None
-- Specializations: Fixed-Wing, Lighter-Than-Air,
-Remote Operation, Rotary Wing, Tilt Wing, Vectored Thrust
-
-##### PILOT WALKER
-Any vehicle that walks on two or more legs is piloted through this skill. Characters may control the walker
-physically or remotely.
-
-- Default: No
-- Skill Group: None
-- Specializations: Biped, Multiped, Quadruped, Remote
-
-##### PILOT EXOTIC VEHICLE (SPECIFIC)
-Characters must take this skill one time for each specific exotic vehicle. Characters may control the vehicle remotely with this skill where possible.
-
-- Default: No
-- skill Group: None
-- specializations: N/A
-
-##### PILOT GROUND CRAFT
-This skill is used to pilot any ground-based vehicle, excluding legged vehicles. This skill applies whether the pilot is in the vehicle or controlling the vehicle via remote access.
-
-- Default: Yes
-- Skill Group: None
-- Specializations: Bike, Hovercraft, Remote Operation, Tracked, Wheeled
-
-##### PILOT WATERCRAFT
-This skill is used to pilot any waterborne vehicle, whether from inside it or by remote control.
-
-- Default: Yes
-- Skill Group: None
-- Specializations: Hydrofoil, Motorboat, Remote Operation, Sail, Ship, Submarine
 
 
 
@@ -2811,7 +983,7 @@ Many items have a bonus applied when they’re kept attached to the Matrix. For 
 
 **Turning It Off**
 
-Separating yourself and your gear from the Matrix is easy. An `Electronics + Logic (6) Test` as a Minor Action is all it takes in combat. The rest of the time, you can just assume you can figure it out as long as you have the Electronics skill.
+Separating yourself and your gear from the Matrix is easy. An `Electronics + Intelligence (6) Test` as a Minor Action is all it takes in combat. The rest of the time, you can just assume you can figure it out as long as you have the Electronics skill.
 
 **Throwbacks**
 
@@ -2977,7 +1149,7 @@ Wireless bonus: The injection can be delayed until a wireless signal is sent. Th
 
 **Throwing Knives/Shuriken**
 
-From stars to spikes and everything in between, these stats cover all the muscle-powered, small throwing weapons on the market. Up to (Agility/2) of these weapons can be readied for throwing with a Ready Weapon action.
+From stars to spikes and everything in between, these stats cover all the muscle-powered, small throwing weapons on the market. Up to (Quickness/2) of these weapons can be readied for throwing with a Ready Weapon action.
 
 Wireless bonus: Successful hits leave wireless weapons in targets that can be used to predict movement patterns and offer an estimated location. A successful hit offers anyone wirelessly linked to the throwing weapon and using a smartlink system a +1 bonus for their attacks.
 
@@ -3268,7 +1440,7 @@ Like futuretech in a hunting-rifle format, this gas-operated favorite sits in th
 
 **Ranger Arms SM-6**
 
-Ranger Arms knows what the SM line has always been about—silently neutralizing targets. This sniper rifle features a silencer, an imaging scope, a smartgun system, and a rigid stock with shock pad. The SM–6 carries on the line’s ability to quickly get into the action and then get out just as fast. It can fit into a standard briefcase; setting it up or breaking it down takes a Firearms + Logic (6, Major Action) Extended test. The SM-6 has dealt with the line’s fragility issues, and once put together it has no problem operating in any capacity.
+Ranger Arms knows what the SM line has always been about—silently neutralizing targets. This sniper rifle features a silencer, an imaging scope, a smartgun system, and a rigid stock with shock pad. The SM–6 carries on the line’s ability to quickly get into the action and then get out just as fast. It can fit into a standard briefcase; setting it up or breaking it down takes a Firearms + Intelligence (6, Major Action) Extended test. The SM-6 has dealt with the line’s fragility issues, and once put together it has no problem operating in any capacity.
 
 **Barret Model 122**
 
@@ -3432,7 +1604,7 @@ A robotic tripod equipped with a mechanized pivot that allows for a 180-degree f
 
 **Smartgun system**
 
-This is the firearm or a projectile-weapon side of the smartlink system. The system includes a small camera and range finder. It keeps track of ammunition and, through DNI, allows switching between gun modes, ejecting a clip, and firing the gun without pulling the trigger. The camera allows you to fire from cover, suffering no Attack test penalties while affected by the Cover Status. If you’re using a smartlink, the smartgun system increases the gun’s Attack Rating by 2 across all available range categories. The smartgun features are accessed either by universal access port cable to an imaging device (like glasses, goggles, or a datajack for someone with cybereyes) or by a wireless connection working in concert with direct neural interface. Internal smartgun systems add 500 nuyen to the weapon price. An external smartgun system can be attached to the top mount or underbarrel mount with an Engineering + Logic (4, 1 hour) Extended Test. The small camera has a capacity of 1 and can be equipped with vision enhancements.
+This is the firearm or a projectile-weapon side of the smartlink system. The system includes a small camera and range finder. It keeps track of ammunition and, through DNI, allows switching between gun modes, ejecting a clip, and firing the gun without pulling the trigger. The camera allows you to fire from cover, suffering no Attack test penalties while affected by the Cover Status. If you’re using a smartlink, the smartgun system increases the gun’s Attack Rating by 2 across all available range categories. The smartgun features are accessed either by universal access port cable to an imaging device (like glasses, goggles, or a datajack for someone with cybereyes) or by a wireless connection working in concert with direct neural interface. Internal smartgun systems add 500 nuyen to the weapon price. An external smartgun system can be attached to the top mount or underbarrel mount with an Engineering + Intelligence (4, 1 hour) Extended Test. The small camera has a capacity of 1 and can be equipped with vision enhancements.
 
 **Spare clip**
 
@@ -3455,7 +1627,7 @@ Ammunition is defined by type (regular, gel, APDS, etc.), class of firearm (ligh
 
 Caseless ammo is rare these days, with the corps wanting to track who’s doing what against them. With no shell casing it’s one less thing to help track down a culprit. They also install a hardened stealth micro-RFID in half of all the cased rounds they produce that activates when fired and alerts local authorities. Most runners have a tech guy who waves his magic wand (tag eraser) over their ammo and fries the tags, but it doesn’t always work, and not everyone owns a tag eraser.
 
-Erasing tags requires a tag eraser. Make an Electronics + Logic (2, 1 minute) for every ten rounds being erased.
+Erasing tags requires a tag eraser. Make an Electronics + Intelligence (2, 1 minute) for every ten rounds being erased.
 
 
 | **AMMO, PER 10 SHOTS** | **DAMAGE MODIFIER** | **AP MODIFIER** | **AVAILABILITY** | **COST** |
@@ -3510,7 +1682,7 @@ The payload of a flechette (fl) round is made up of tiny, tightly packed fin-sta
 
 **Gel**
 
-These gel-ball rounds look like flattened blueberries on impact. Generally used for riot control or non-lethal subdual, they’re great for knocking a target on their hoop, though you shouldn’t expect that to work on trolls. Gel rounds inflict Stun damage. A target struck by a gel round must succeed at an immediate Agility (2) or Body (4) test (player’s choice) or gain the Prone status. Burst Fire and Full Auto increase the threshold to avoid being knocked down by 1.
+These gel-ball rounds look like flattened blueberries on impact. Generally used for riot control or non-lethal subdual, they’re great for knocking a target on their hoop, though you shouldn’t expect that to work on trolls. Gel rounds inflict Stun damage. A target struck by a gel round must succeed at an immediate Quickness (2) or Body (4) test (player’s choice) or gain the Prone status. Burst Fire and Full Auto increase the threshold to avoid being knocked down by 1.
 
 **Stick-n-Shock**
 
@@ -3539,9 +1711,9 @@ Some days, you want to make things blow up real good. Okay, make that most days.
 
 **Grenades**
 
-Grenades are small, self-contained explosive packages. Boom and shrapnel all in one neat and deadly little cluster! Minigrenades are specifically designed for use with grenade launchers, set to arm when they have traveled five yards and explode on impact or with an airburst link. The five-yard safety feature can be disabled with an `Engineering + Logic (4, 5 Minutes) Extended Test`. Minigrenades have the same effects as standard grenades.
+Grenades are small, self-contained explosive packages. Boom and shrapnel all in one neat and deadly little cluster! Minigrenades are specifically designed for use with grenade launchers, set to arm when they have traveled five yards and explode on impact or with an airburst link. The five-yard safety feature can be disabled with an `Engineering + Intelligence (4, 5 Minutes) Extended Test`. Minigrenades have the same effects as standard grenades.
 
-The damage from grenades becomes less the farther away from them you are. The DV entry for grenades lists the initial damage for those closest to the grenade, within a yard, called Ground Zero, then two categories of lesser damage for those in Close and Near Range, with the damage limited to a maximum range of the Blast attribute. Use the `Athletics skill + Agility` when throwing grenades, or `Exotic Weapons (Launcher) + Agility` when launching a grenade from a grenade launcher. Follow the rules for Blast Attacks. Grenades and similar explosives can also be rigged with a tripwire to be set up as a basic booby trap. This requires an `Engineering + Logic (8, 1 Major Action) Extended Test`. All grenades have the following wireless feature: You can use the wireless link trigger for your grenades via an ARO on your commlink even if you don’t have direct neural interface.
+The damage from grenades becomes less the farther away from them you are. The DV entry for grenades lists the initial damage for those closest to the grenade, within a yard, called Ground Zero, then two categories of lesser damage for those in Close and Near Range, with the damage limited to a maximum range of the Blast attribute. Use the `Athletics skill + Quickness` when throwing grenades, or `Exotic Weapons (Launcher) + Quickness` when launching a grenade from a grenade launcher. Follow the rules for Blast Attacks. Grenades and similar explosives can also be rigged with a tripwire to be set up as a basic booby trap. This requires an `Engineering + Intelligence (8, 1 Major Action) Extended Test`. All grenades have the following wireless feature: You can use the wireless link trigger for your grenades via an ARO on your commlink even if you don’t have direct neural interface.
 
 **Stun grenade**
 
@@ -3580,7 +1752,7 @@ Similar to the gas grenade, a smoke grenade releases a cloud of smoke instead of
 | Smoke/Thermal Smoke Rocket | —         | —            | —           | —         | 4(I)      | 1,200¥                           | See rules            |
 | Missile Variant            | as Rocket | as Rocket    | as Rocket   | as Rocket | +1(I)     | As Rocket + Sensor rating x 500¥ | +2 to Attack Rating  |
 
-Rockets are launched projectiles with stabilizing fins, a propulsion system, and a warhead. Missiles are rockets that carry internal guidance systems, with sensor packages adding their rating to the attack roll, since they can adjust their trajectory in flight (also reflected in their Attack Rating). Rockets and missiles are set to arm when they have traveled 10 yards from their point of origin and explode on impact or with an airburst link. This safety feature can be disabled with an `Engineering + Logic (4, 5 Minutes) Extended Test`.
+Rockets are launched projectiles with stabilizing fins, a propulsion system, and a warhead. Missiles are rockets that carry internal guidance systems, with sensor packages adding their rating to the attack roll, since they can adjust their trajectory in flight (also reflected in their Attack Rating). Rockets and missiles are set to arm when they have traveled 10 yards from their point of origin and explode on impact or with an airburst link. This safety feature can be disabled with an `Engineering + Intelligence (4, 5 Minutes) Extended Test`.
 
 As is the case with grenades, damage from rockets and missiles decreases the farther you are from the point of impact. The ranges differ based on the weapon, as listed in the stats for each weapon. All rockets and missiles have the following wireless feature: You can use the wireless link trigger for your rocket or missile, even if you don’t have a direct neural interface.
 
@@ -3840,7 +2012,7 @@ Combat Step By Step
 
 A band of runners sneaks up on a a group of guards. A hell hound sneaks down an officer hallway, unnoticed by the runners until the hell hound engulfs one of them in flame. In these situations, one side of the battle gains surprise over the other.
 
-The GM determines who might be surprised. If neither side tries to be stealthy, they automatically notice each other. Otherwise, the GM compares the Agility  (Sneaking) tests of anyone hiding with the passive Intuition (Perception) [`10 + Intuition`] score of each creature on the opposing side. Any character or critter that doesn’t notice a threat is surprised at the start of the encounter.
+The GM determines who might be surprised. If neither side tries to be stealthy, they automatically notice each other. Otherwise, the GM compares the Quickness  (Sneaking) tests of anyone hiding with the passive Intuition (Perception) [`10 + Intuition`] score of each creature on the opposing side. Any character or critter that doesn’t notice a threat is surprised at the start of the encounter.
 
 If you’re surprised, you can’t move or take an action on your first turn of the combat, and you can’t take a reaction until that turn ends. A member of a group can be surprised even if the other members aren’t.
 
@@ -4088,7 +2260,7 @@ A character may pick up an object within reach or put down one that they were ho
 
 ##### Ready Weapon (I)
 
-A character may ready a weapon by using this action. This includes drawing and readying a firearm; pulling a melee weapon from a sheath or pocket; taking out and readying a grenade or throwing knife; or any other kind of weapon preparation. Almost all weapons require this action before they are ready for use, though many times it occurs before combat even starts. Small weapons such as throwing knives and shuriken can be readied in bunches, with a total number equal to the character’s Agility attribute pulled into the character’s off-hand with a single Ready Weapon action.
+A character may ready a weapon by using this action. This includes drawing and readying a firearm; pulling a melee weapon from a sheath or pocket; taking out and readying a grenade or throwing knife; or any other kind of weapon preparation. Almost all weapons require this action before they are ready for use, though many times it occurs before combat even starts. Small weapons such as throwing knives and shuriken can be readied in bunches, with a total number equal to the character’s Quickness attribute pulled into the character’s off-hand with a single Ready Weapon action.
 
 ##### Reload Weapon (I)
 
@@ -4100,7 +2272,7 @@ A character with a vehicle control rig (VCR) and rigger-adapted vehicle or drone
 
 ##### Sprint (I)
 
-A character may move at a Sprint with this Major Action. Movement starts at 15 yards and is increased by 1 yard per effect on an `Athletics + Agility Test (1)`. Only one Sprint Action is allowed per player turn, and it cannot be performed in the same turn as a Move action or Avoid Incoming action.
+A character may move at a Sprint with this Major Action. Movement starts at 15 yards and is increased by 1 yard per effect on an `Athletics + Quickness Test (1)`. Only one Sprint Action is allowed per player turn, and it cannot be performed in the same turn as a Move action or Avoid Incoming action.
 
 ##### Summon Spirit (I)
 
@@ -4126,9 +2298,9 @@ Characters may never start a player turn with more than 5 Minor Actions. If they
 
 #### Attacks
 
-Ranged Attack Rolls are rolled as: `3d6 + Firearms + Agility + Misc` vs. Targets Defense Roll.
+Ranged Attack Rolls are rolled as: `3d6 + Firearms + Quickness + Misc` vs. Targets Defense Roll.
 
->Oda is firing a pistol using Firearms 5 + Agility 7 + 1 for a wireless active smartlink (he’s not worried about a hacker in this gang), for a modifier of 13. The Eye-Fiver defends with Reaction 4 + Intuition 3, a defense roll of 17.
+>Oda is firing a pistol using Firearms 5 + Quickness 7 + 1 for a wireless active smartlink (he’s not worried about a hacker in this gang), for a modifier of 13. The Eye-Fiver defends with Reaction 4 + Intuition 3, a defense roll of 17.
 >
 > Oda gets 2 Bonus Effect Oda rolls and gets a 24 more than enough to hit the Eye-Fiver. Comparing the Effect Dice for Oda who has a 6 on his Effect Dice and the Eye-Fiver has a 2 on his Effect Dice. Making the Net Effect 4, Oda adds his +2 Effect from his Bonus Effect to have 6 Net Effect.
 
@@ -4162,18 +2334,18 @@ We’ve explained to you how to put the hurt on, so now let’s talk about getti
 The first thing to cover is the order of operations for healing. Do you need to apply first aid before magic or after? Can you magically heal someone who’s already been treated by a medkit? The answer is simple: The order doesn’t matter, except that Overflow damage heals first. Every character gets multiple chances to get patched up before they’re stuck carrying around their injuries for days. The key here is how soon each needs to be applied. Details are under each description below.
 
 #### First Aid
-- Biotech + Logic (5 - Essence)
+- Biotech + Intelligence (5 - Essence)
 
 As implied by the name, this is probably the first aid you should apply because it has the narrowest window. After the end of a combat encounter in which a character was injured, they have 1 minute (20 combat rounds if another fight kicks off) to receive First Aid. To apply First Aid, a character needs the right tools for the job, in this case a first aid kit. Any test made without a kit suffers a -2 modifier, and no Edge can be spent on the test.
 
-Make a `Biotech + Logic test against a threshold equal to 5 – target’s Essence`. If the target is one-hundred-percent natural, the healer actually gets an automatic +1 Effect added to what they roll. This represents the difficulty of repairing someone who has metal parts as well as those with organs not normally found in average people. Effect is used to heal 4 points of Stun Damage (**not including drain**) per effect or 4 points of Physical Damage or 2 points of Overflow per effect. Drain cannot be healed with First Aid. A character can receive First Aid only once for any single set of injuries.
+Make a `Biotech + Intelligence test against a threshold equal to 5 – target’s Essence`. If the target is one-hundred-percent natural, the healer actually gets an automatic +1 Effect added to what they roll. This represents the difficulty of repairing someone who has metal parts as well as those with organs not normally found in average people. Effect is used to heal 4 points of Stun Damage (**not including drain**) per effect or 4 points of Physical Damage or 2 points of Overflow per effect. Drain cannot be healed with First Aid. A character can receive First Aid only once for any single set of injuries.
 
 #### Medkit
-- Biotech + Logic (5 - Essence)
+- Biotech + Intelligence (5 - Essence)
 
 Medkits are more detailed. The patient must be connected to medkit monitors and diagnosed, after which they receive injections and IVs. After the end of a combat encounter in which a character is injured, they have one hour to be connected to a medkit or get medical attention from a trained professional with a medkit. If they wait beyond this period, a medkit will not help them. It takes one minute to hook up the patient, get the medkit to spit out a diagnosis, and begin treatment. The healing process takes one minute per 4 points healed (so, if the process is interrupted, you know how much they were patched up). Each time a medkit is used, it consumes one batch of supplies. Treatment cannot be attempted if no medkit supplies remain.
 
-Make a `Biotech/Medkit Rating + Logic test against a threshold of 5 – target’s Essence`. If the target is one-hundred-percent natural, the healer gets an automatic +1 Effect added to their roll. Like First Aid, this fixes biological material, not machinery. Effect is used to heal 4 points of Stun, Physical, or Overflow Damage per Effect, but not damage from drain.
+Make a `Biotech/Medkit Rating + Intelligence test against a threshold of 5 – target’s Essence`. If the target is one-hundred-percent natural, the healer gets an automatic +1 Effect added to their roll. Like First Aid, this fixes biological material, not machinery. Effect is used to heal 4 points of Stun, Physical, or Overflow Damage per Effect, but not damage from drain.
 
 There is a limit to receiving a medkit treatment. A character can only benefit from a medkit once for any single set of injuries.
 
@@ -4212,7 +2384,7 @@ Whether it’s flashing lights, some specialized chemical, or the pure force of 
 
 The Burning status is the result of being hit with a flame-based attack. Once the initial blow has done its damage, you have to deal with the continuing heat and flames, and the parts of yourself that may be on fire. **Toughness has no effect on this damage.**
 
-The status should be noted with a number that indicates the amount of Physical damage the character must resist each round while the status exists. There are multiple ways to remove this status. You can spend a Major Action and roll an `Agility + Reaction (2) test`; success means the fire is out and the status is removed. You can also jump into water to remove the status without a roll.
+The status should be noted with a number that indicates the amount of Physical damage the character must resist each round while the status exists. There are multiple ways to remove this status. You can spend a Major Action and roll an `Quickness + Reaction (2) test`; success means the fire is out and the status is removed. You can also jump into water to remove the status without a roll.
 
 If you gain the Wet and/or Chilled statuses, the Burning status is canceled. Similarly, gaining the Burning status cancels the Wet or Chilled status.
 
@@ -4477,7 +2649,7 @@ For most magicians (especially mages), the archaic master-apprentice model of le
 
 Certain spells (especially combat spells and mental manipulations) are illegal or controlled in some jurisdictions, so characters must engage caution when pursuing them, or look to black market providers/teachers. In addition, a character must expend 5 permanent Experience points per spell learned. The costs are the same whether the instruction is in person or through the Net.
 
-Once a magician has access to a spell formula or teacher, she makes a Spellcasting + Logic (15,5, 1 day) Extended Test (see Extended Tests). Instructors can provide Help and grnt advantage on the tests. All injury modifiers apply, as do distractions for sustaining spells, poor conditions, and so on.
+Once a magician has access to a spell formula or teacher, she makes a Spellcasting + Intelligence (15,5, 1 day) Extended Test (see Extended Tests). Instructors can provide Help and grnt advantage on the tests. All injury modifiers apply, as do distractions for sustaining spells, poor conditions, and so on.
 
 A character engaged in learning a spell must work on it for consecutive days. Learning a spell does not require all of the character’s
 attention during those days, but the magician must be able to devote 8 hours each day solely to learning the spell until she has it mastered.
@@ -4495,7 +2667,7 @@ Concept: The scientific study of magic as a complex pattern of elemental forces 
 - Illusion: Water Magic
 - Maniuplation: Earth Magic
 
-A hermetic magician’s ability to perform magic comes from the study of a complex set of theories that describe mana, the dimensions of astral space, and how they interact with the physical world. The science of thaumaturgy, as this discipline is called, draws those who rely on logic and reason as their means of evaluating the world. As with any vibrant field, while the basics are largely agreed upon, the theories as to how it all works and what magic can do are as varied as the mages themselves. By seeking understanding, mages can perform magic through ritual and focused power of will.
+A hermetic magician’s ability to perform magic comes from the study of a complex set of theories that describe mana, the dimensions of astral space, and how they interact with the physical world. The science of thaumaturgy, as this discipline is called, draws those who rely on Intelligence and reason as their means of evaluating the world. As with any vibrant field, while the basics are largely agreed upon, the theories as to how it all works and what magic can do are as varied as the mages themselves. By seeking understanding, mages can perform magic through ritual and focused power of will.
 
 Mages are scholars who study and practice magic using tried and established formulas and procedures. Mages continually research the theories and laws of magic, seeking a deeper understanding of the structure of the universe. As their knowledge increases, so does their power.
 
@@ -5414,7 +3586,7 @@ on the spell’s effective Strength.
 - FV: (F ÷ 2) + 3
 
 This spell creates a slippery sheet of ice over the area of effect.
-Characters crossing the ice must make an Agility + Reaction Test with
+Characters crossing the ice must make an Quickness + Reaction Test with
 a Threshold equal to the hits scored to avoid falling prone. Vehicles
 must make a Crash Test. the sheet melts at a rate of 1 square
 yard per minute in normal temperatures.
@@ -5500,9 +3672,9 @@ Spellcasting Test counters a –1 die penalty for visibility.
 
 Magic Fingers creates a psychokinetic effect like “invisible hands” that
 can hold or manipulate items. the hits on the Spellcasting + Magic
-Test become the spell’s effective Strength and Agility. the caster can use
+Test become the spell’s effective Strength and Quickness. the caster can use
 skills remotely with Magic Fingers, but all tests receive a –2 
-modifier due to problems of fine control. Even simple actions like picking up a coin may require an Agility Test, at the gamemaster’s discretion.
+modifier due to problems of fine control. Even simple actions like picking up a coin may require an Quickness Test, at the gamemaster’s discretion.
 the caster can fight, pick a lock, or perform any other action,
 using the magic fingers as if they were real hands. the spell can reach
 any point the caster can see, and Clairvoyance or remote-viewing technology can be used to get a close-up of the scene as long as it is within
@@ -5704,7 +3876,7 @@ A bricked device is one whose formerly complex functioning has been reduced to t
 ### Repairing Matrix Damage
 
 
-What’s broken can often be fixed, with the proper tools, time, and talent. Repairing a damaged device is an `Hardware + Logic (number of boxes, 1 hour Extended test`. 
+What’s broken can often be fixed, with the proper tools, time, and talent. Repairing a damaged device is an `Hardware + Intelligence (number of boxes, 1 hour Extended test`. 
 
 The device cannot be used while it is being repaired, and repairs cannot be performed without a toolkit. A critical glitch on a repair test means you messed up good—the device fails totally and will never work again.
 
@@ -5896,9 +4068,9 @@ Getting access the loud way.
 
 This is an obvious attack and will trigger an alert. Your OS *will* go up using Attacks. This is used to get into a System. Using Brute Force will trigger Any IC if there is any
 
-`Hacking + Logic` vs. `Rating + Firewall` DV = (Attack + Effect) Reduce Damage by Firewall
+`Hacking + Intelligence` vs. `Rating + Firewall` DV = (Attack + Effect) Reduce Damage by Firewall
 
-If attacked by a Host, IC, or Device they roll `Rating + Attack` against your `Hacking + Logic` and you will reduce damage by your Firewall. Damage will be applied to your Cyber Deck
+If attacked by a Host, IC, or Device they roll `Rating + Attack` against your `Hacking + Intelligence` and you will reduce damage by your Firewall. Damage will be applied to your Cyber Deck
 
 #### **Probe**
 
@@ -5906,34 +4078,34 @@ Getting Access the Quiet Way.
 
 Used to sneak into systems and not trigger an alert. As long as you are undetected (see Detection Tests) your OS will not go up. This requires a Detection Test.
 
-`Hacking + Logic` vs. `Rating + Firewall` Sleaze + Effect applies to Detection Test
+`Hacking + Intelligence` vs. `Rating + Firewall` Sleaze + Effect applies to Detection Test
 
 #### **Matrix Search**
 
 Search the publicly accessible grid for information. The number of effect generated gives you more information regarding the subject.
 
-`Hacking + Logic` vs. `Sleaze + Firewall`
+`Hacking + Intelligence` vs. `Sleaze + Firewall`
 
 #### **Encrypt/Decrypt File**
 
 Decrypts a file or Encrypts a file on the Host. Usually used after a Matrix Search. This requires a Detection Test.
 
-`Hacking + Logic vs. Encryption Rating` Effect + Data Processing will weaken Encryption.
+`Hacking + Intelligence vs. Encryption Rating` Effect + Data Processing will weaken Encryption.
 
-`Hacking + Logic` to set Encryption Strength with Effect + Data Processing.
+`Hacking + Intelligence` to set Encryption Strength with Effect + Data Processing.
 
 #### **Snoop**
 
 This action lets you intercept Matrix traffic sent to and from your target for as long as you have access. You can listen to, view, or read this data live, or you can save it for later playback/viewing if you have something to store it on (your deck or commlink will do). This requires a Detection Test.
 
-`Hacking + Logic vs. Rating + Firewall` Effect + Data Processing applies to Detection Roll
+`Hacking + Intelligence vs. Rating + Firewall` Effect + Data Processing applies to Detection Roll
 
 
 #### **Control Device**
 
 You take control of a device (like a camera). You own it as long as you control it. This is an obvious action and will raise your OS in the System. You can control 1 device per Data Processing of your Deck.
 
-`Hacking + Logic vs. Rating + Firewall` Effect + Data Processing for how long you will control the device.
+`Hacking + Intelligence vs. Rating + Firewall` Effect + Data Processing for how long you will control the device.
 
 #### Analyze
 
@@ -5953,7 +4125,7 @@ Does not require a roll will tell you what your Current OS score is. This requir
 
 This works a lot a like resisting, Drain does for an Awakened Character. You need to roll to avoid Detection if you fail your OS goes up. Any action you take (except Attack because it guarantees OS will go up) you roll to avoid Detection.
 
-`Hacking + Logic` vs. `Rating + your current OS` failure means you take the Net Effect to your OS
+`Hacking + Intelligence` vs. `Rating + your current OS` failure means you take the Net Effect to your OS
 
 Once OS reaches 40 they are detected and Dumped out of the Matrix and their Deck is Bricked. 
 
