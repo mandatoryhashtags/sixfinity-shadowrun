@@ -116,9 +116,9 @@ V.08
 
 ## What is SIRE?
 
-SIRE is a 3d6 TTRPG system created by CJ Schrum to be a generic system used to play any kind of TTRPG. It was influenced by his near thirty years of table top games in nearly every ruleset created. 
+SIRE is a Ability Dice Code TTRPG system created by CJ Schrum to be a generic system used to play any kind of TTRPG. It was influenced by his near thirty years of table top games in nearly every ruleset created. 
 
-> I used to play FATE I liked a lot of things about FATE, I hated FATE dice mechanics. I played a lot of Cepheus, Traveller, Decipher Star Trek, ModernAGE, West End Games Star Wars, and Sixfinity so lets say I have a lot of experience with D6 in my hands. So I set out to create a fairly generic style RPG using 3D6 (I like the curve better than the standard distribution of 2D6). Allowing for Advanatage Roll 3D6 twice take highest, and Disadvantage Roll 3D6 twice take the lowest. They also have Edge Points they can spend.
+> I used to play FATE I liked a lot of things about FATE, I hated FATE dice mechanics. I played a lot of Cepheus, Traveller, Decipher Star Trek, ModernAGE, West End Games Star Wars, and Sixfinity so lets say I have a lot of experience with D6 in my hands. So I set out to create a fairly generic style RPG using Ability Dice Code (I like the curve better than the standard distribution of 2D6). Allowing for Advanatage Roll Ability Dice Code twice take highest, and Disadvantage Roll Ability Dice Code twice take the lowest. They also have Edge Points they can spend.
 > Combat is meant to be cinematic in style with a tactical flavor. Characters have Physical Health.
 
 
@@ -252,8 +252,33 @@ SIRE is a 3d6 TTRPG system created by CJ Schrum to be a generic system used to p
 {{Write a Definition}}
 
 ### Attributes
+Each Attribute has a Die code (1D, 1D+1, 4D, 9D+2 or some other number). Reading a die code is simple. Roll the number of six-sided dice before the "D". For example 3D means roll three dice and add them together for the total. The higher the total the more likely you are to succeed. A die code with a "+" means add the number after the plus to the total. Ability Dice Code+2 you would roll three dice, then add two to the total. For example if you rolled a 3, 5, 1 the total would be: 3+5+1+2 for a total of 11. Die codes will have either a simple D (1D, 2D, 3D, etc). Die codes will never have more than a +2 after them, as when a character improves that Die Code it goes to the next whole number of dice. For example if you improve Ability Dice Code+2 it will become 4D6. The only limit to how high a Die code for attributes can go is the Metatype Attribute maximum.
 
-There are eight attributes and two special attributes.
+This sysem is used for skills (see skills) as it will limit your skill rolls to the potential available to your attribute.
+
+| Score | Dice                |
+| ----- | ------------------- |
+| 1     | 1D6                 | 5  | 0  |
+| 2     | 1D6+1               | 5  | 1  |
+| 3     | 1D6+2               | 5  | 2  |
+| 4     | 2D6                 | 10 | 3  |
+| 5     | 2D6+1               | 10 | 4  |
+| 6     | 2D6+2               | 10 | 5  |
+| 7     | Ability Dice Code   | 15 | 6  |
+| 8     | Ability Dice Code+1 | 15 | 7  |
+| 9     | Ability Dice Code+2 | 15 | 8  |
+| 10    | 4D6                 | 20 | 9  |
+| 11    | 4D6+1               | 20 | 10 |
+| 12    | 4D6+2               | 20 | 11 |
+| 13    | 5D6                 | 25 | 12 |
+
+
+18
+
+
+
+
+There are six attributes and four special attributes.
 
 ---
 
@@ -282,9 +307,6 @@ Strength denotes what a character’s muscles can do, including things such as r
 
 Charisma is a nebulous attribute. More than just looks, Charisma rep- resents a character’s personal aura, self-image, ego, willingness to find out what people want and give it to them, and ability to recognize what she can and can’t get out of people. A whiny demeanor, a me-first attitude, or an inability to read body language or subtle hints are just a few traits that can give a character low Charisma. A character with high Charisma might simply enjoy entertaining others, may excel at making friends and/or manipulating people, or may be all flash and fun with whomever it is today. A high-Charisma character might deliver jokes at the right moment, have a sexy way of carrying herself, or com- mand respect because her timing is always impeccable.
 
-**Intuition**
-
-Intuition covers “mental alertness”—the ability to take in and process information, to read a crowd, to assess a situation for danger or opportunity. A character with little Intuition may be unobservant, may rarely think things fully through, or could simply be “slow.” A character with a high Intuition is adept at making the best of a bad situation, knowing when to leave before an encounter escalates, noticing small clues, and working from instinct.
 
 **Intelligence**
 
@@ -314,7 +336,7 @@ This critical statistic measures the undefinable, putting it on tricky ground ri
 
 A character’s Reaction is, quite simply, her physical reflexes—how quickly she can react to a changing situation, and how well she can dodge the physical slings and arrows that shadowrunning brings. A character with a high Reaction is more likely to be on top of a situation and will be in a better position to react to danger, while low-Reaction characters will lag behind.
 
-Reaction = (Quickness + Intelligence) / 2 rounded down
+Reaction = (Quickness + Intelligence)
 
 **Essence**
 
@@ -337,24 +359,24 @@ Regardless of Priority all starting characters get 25 Experience to spend on the
 **Priority System Table**
 
 
-| Priority | Heritage                                 | Attribute Points | Magic                                 | Skills | Resources |
-| -------- | ---------------------------------------- | ---------------- | ------------------------------------- | ------ | --------- |
-| A        | Human(6),Elf(5),Dwarf(4),Orc(4),Troll(3) | 24               | Magic:6, 2 Skills Rating 5, 10 Spells | 38     | 450k      |
-| B        | Human(5),Elf(4),Dwarf(3),Orc(3),Troll(0) | 20               | Magic:4, 2 Skills Rating 4, 7 Spells  | 30     | 275k      |
-| C        | Human(3),Elf(2),Dwarf(1),Orc(0)          | 16               | Magic:3, 5 Spells                     | 24     | 140k      |
-| D        | Human(2),Elf(0)                          | 14               | Magic:2                               | 20     | 50k       |
-| E        | Human(1)                                 | 12               | -                                     | 18     | 6k        |
+| Priority | Heritage | Attribute Points | Magic              | Skills | Resources |
+| -------- | -------- | ---------------- | ------------------ | ------ | --------- |
+| A        | Troll    | 20               | Magic:6, 10 Spells | 38     | 450k      |
+| B        | Orc      | 18               | Magic:4, 7 Spells  | 30     | 275k      |
+| C        | Dwarf    | 16               | Magic:3, 5 Spells  | 24     | 140k      |
+| D        | Elf      | 14               | Magic:2            | 20     | 50k       |
+| E        | Human    | 12               | -                  | 18     | 6k        |
 
-**Metatype Attribute Table**
+**Metatype Attribute Starting and Maximum Values**
 
 
-| Metatype | Body | Agi | Rea | Str  | Wil | Log | Int | Cha | Edg | Special Features                             |
-| -------- | ---- | --- | --- | ---- | --- | --- | --- | --- | --- | -------------------------------------------- |
-| Human    | 1/6  | 1/6 | 1/6 | 1/6  | 1/6 | 1/6 | 1/6 | 1/6 | 2/7 | Extra Edge                                   |
-| Elf      | 1/6  | 2/7 | 1/6 | 1/6  | 1/6 | 1/6 | 1/6 | 3/8 | 1/6 | Low-Light Vision                             |
-| Dwarf    | 3/8  | 1/6 | 1/5 | 3/8  | 2/7 | 1/6 | 1/6 | 1/6 | 1/6 | Thermographic Vision, Resistance:Poison      |
-| Orc      | 4/9  | 1/6 | 1/6 | 3/8  | 1/6 | 1/5 | 1/6 | 1/5 | 1/6 | Low-Light Vision                             |
-| Troll    | 5/10 | 1/5 | 1/6 | 5/10 | 1/6 | 1/5 | 1/5 | 1/4 | 1/6 | Thermographic Vision, +1 Reach, +1 Toughness |
+| Metatype | Body      | Qui       | Str         | Wil       | Int       | Cha         | Rea | Special Features                        |
+| -------- | --------- | --------- | ----------- | --------- | --------- | ----------- | --- | --------------------------------------- |
+| Human    | 1D6/2D6+2 | 1D6/2D6+2 | 1D6/2D6+2   | 1D6/2D6+2 | 1D6/2D6+2 | 1D6/2D6+2   | 0/6 |                                         |
+| Elf      | 1D6/2D6+2 | 1D6+1/3d6 | 1D6/2D6+2   | 1D6/2D6+2 | 1D6/2D6+2 | 1D6+2/3d6+1 | 0/6 | Low-Light Vision                        |
+| Dwarf    | 1D6+1/3d6 | 1D6/2D6+2 | 1D6+2/3d6+1 | 1D6+1/3d6 | 1D6/2D6+2 | 1D6/2D6+2   | 0/5 | Thermographic Vision, Resist:Disease +2 |
+| Orc      | 2D6/3d6+2 | 1D6/2D6+2 | 1D6+2/3d6+1 | 1D6/2D6+2 | 1D6/2D6+1 | 1D6/2D6+1   | 0/5 | Low-Light Vision                        |
+| Troll    | 2D6+2/4D6 | 1D6/2D6+1 | 2D6+1/4D6   | 1D6/2D6+1 | 1D6/2D6   | 1D6/2D6     | 0/4 | Thermographic Vision, +1 Armor          |
 
 
 **Step One**
@@ -363,7 +385,9 @@ Pick a Concept for your character
 
 **Step Two**
 
-Pick Metatype Priority. Spend Special Points on Edge, and Magic. Pick Attribute Priority and Spend the points.
+Pick Metatype Priority. Pick Attribute Priority and Spend the points. Each Dice Code Pip costs 1 point.
+
+For example going from 1D6 to 1D6+1 cost 1. To take a 1D6 to 2D6+2 would cost 5 (1 - 1D6+1, 2 - 1D6+2, 3 - 2D6, 4 - 2D6+1, 5 - 2D6+2)
 
 **Step Three**
 
@@ -394,47 +418,32 @@ Final Touches and Derived Stats.
 #### Defense
 We use Defense Rolls to Defend Attacks. 
 
-Defense = Reaction + Intuition
-
-#### Attack Rating
-
-When a character goes on the offensive, their chosen weapon has a combination of traits that determine it's overall effectiveness. This combination of stopping power, accuracy, and recoil compensation (for firearms) is captured in the Attack Rating. Characters add their Strength to the Attack Rating for melee weapons and the Attack Rating for unarmed combat is Strength + Reaction.
-
-#### Defense Rating
-
-This stat is an important part of combat, representing how well the character and their worn armor resist incoming attacks. It is a combination of Body, worn armor, and other effects, including augmentations and magic. This is used to calculate combat advantage and toughness
-
-Defense Rating = Body + Armor
+Defense = Roll + Reaction
 
 #### Physical Health
 
-Physical Health = ([Body / 2] + 8) x3
+Physical Health = (Body Dice Code x4) x 4.
 
-This is your Physical Health. If it reach zero you are bleeding to death. You will start at 0 and lose 1 point per round you are not stabalized. You can go into the negative equal to your Overflow. 
 
-For Example Jared is hit by a Shotgun for 13. Jared only had 10 Physical left. So Jared drops to 0 and is Incapacitated. The next round Jared drops to -1, Jared has a Body of 5 so he can bleed until he is at -10 once he ticks to -11 he is dead. 
+If you had a Body of 2D6 you you would have 32 Health. You add the Pips after the fact.
 
-> I will send you to a place where no amount of clapping will bring you back
+If yo uhad 2D6 +2 you would have 34 Health.
+
+Once you reach 0 health you are unconcious and begin bleeding to death. You can bleed until you max your Overflow and then you are dead.
 
 #### Stun Health
 
-Stun Health = ([Willpower / 2] + 8) x3
+Stun Health = (Willpower Dice Code x4) x 4
 
-This is where Stun Damage is recorded. If it reaches 0 you start taking Physical Damage and you are at Disadvantage to most Tests until you take a Breather (see Healing). 
+This is where Stun Damage is recorded. If it reaches 0 you fall unconcious and any further damage begins to affect Physical.
 
 #### Overflow
 
 This is how far into the Negatives you can go before you die. 
 
-Overflow = Body X 2
+Overflow = Body Dice Code X 4
 
-#### Toughness
-
-Toughness is a measure of how well prepared you are to take a blow, or to encourage it to miss you. It is used in virtually all combat situations. Some qualities and gear may affect this.
-
-Toughness = [Defense Rating] /4 round up
-
-If you have a Defense Rating of 11 that would be a Toughness of 3.
+If you had a Body of 2D6 you would have an Overflow of 8
 
 #### Movement
 
@@ -442,23 +451,25 @@ Base movement for any character is 10 Yards.
 
 #### Initiative
 
-Initiative is used to determine who goes first in combat. Add your Reaction + Intuition for your base, then write how many Initiative Dice you have. You start with a default of 1; this may be increased by augmentations. It looks like this when written: 9 + 1D6
+Initiative is used to determine who goes first in combat. Add your Reaction for your base, then write how many Initiative Dice you have. You start with a default of 1; this may be increased by augmentations. It looks like this when written: 9 + 1D6
 
-Initiative = Reaction + Intuition + 1D6
+Initiative = Reaction + 1D6
 
-#### Edge Points
+#### Edge Pool
 
-List your Edge Rating after character creation.
+Edge Pool = [((Quickness Dice Code + Intelligence Dice Code + Willpower Dice Code) + Pips) / 2] Round down. 
+
+So if you had a Quickness od 1D6 +2, Intelligence of 2D6, and Willpower of 2D6+2, you would have a Edge Pool of 6 =  (1+2+2) + 3
 
 #### Composure (Willpower + Charisma)
 
 When the stress is running hot, the gamemaster can call for a test to see if you keep your cool. The gamemaster sets the threshold, and the player makes the roll to see if they stay engaged or start freaking out. Note that repeated exposure to certain types of situations reduces the need for Composure tests in those situations
 
-#### Judge Intentions (Willpower + Intuition)
+#### Judge Intentions (Willpower + Willpower)
 
 Sometimes you just need a roll to get a read on someone. The Judge Intentions test is just that. Once you’ve had enough time to get a read on someone (as judged by the gamemaster), you can make a roll to help fill in your basic attitude and feelings toward the target. Just remember that a good part of Mr. Johnson’s training is dedicated to getting you to trust them when you shouldn’t.
 
-#### Memory (Intelligence + Intuition)
+#### Memory (Intelligence + Willpower)
 
 Most of us don’t remember our lives with one hundred percent clarity. We’re influenced by the mood at the time we formed a memory, the current mood, the presence or absence of memorable stimuli, or even slight oddities in the details. Then you have the tricks our mind plays in distorting memories to make us the heroes of our own story, and things get really weird. When it’s time to make a withdrawal from the memory bank, the gamemaster sets a threshold based on the age and complexity of the information, and you can roll to determine whether or not you recall the information you want. It may be about remembering a face, recalling a critical piece of information, pulling up a detail from the past that will help you understand what’s happening in front of you right now, or some other mental feat.
 
@@ -557,14 +568,14 @@ The rules center around rolling three six sided dice. One of those dice **must**
 
 Nearly everything is a TEST or CHECK. 
 
-Result = 3D6 + Ability Modifier + Skill Rank
+Result = Ability Dice Code + Skill Rank
 
 You compare this result to a Threshold (below)
 
 ### Thresholds
 A Threshold is the minimum number needed to succeed at a task. Threshold Step is used very often in these rules. A threshold step is used instead of giving the Threshold Target (or TN in other games) to allow the Gamemaster to alter the Targets as they see fit for their game without needing to alter the writing in the rules to maintein balance.
 
-For example if a character needs a `Biotech + Intelligence (2) test` in Sixfinity Standard rules they need to roll *at least* a 9 on 3D6. If a GM decided they wanted that to be a 10 they do not need to change anything just tell the character they succeeded or failed without having to make any adjustments to the rules. This is the same as using the word Simple but the Step makes it easier to explain to a player. This is inspired by a number of 80's games like Traveller, Gamma World, Shadowrun 1e where the target number on dice could change. This allows for some GM's who want to, to easily swap to a D20 and use 5/10/15/20/25 for their TN's and go looking for Dragons in Dungeons if they want.
+For example if a character needs a `Biotech + Intelligence (2) test` in Sixfinity Standard rules they need to roll *at least* a 9 on Ability Dice Code. If a GM decided they wanted that to be a 10 they do not need to change anything just tell the character they succeeded or failed without having to make any adjustments to the rules. This is the same as using the word Simple but the Step makes it easier to explain to a player. This is inspired by a number of 80's games like Traveller, Gamma World, Shadowrun 1e where the target number on dice could change. This allows for some GM's who want to, to easily swap to a D20 and use 5/10/15/20/25 for their TN's and go looking for Dragons in Dungeons if they want.
 
 If you are assining a test and the only thing that matters is their Effect on the roll feel free to make it a Step 1 test. 
 
@@ -578,18 +589,16 @@ If you are assining a test and the only thing that matters is their Effect on th
 | Extreme    | 7-8  | 30               |
 
 
-> Did I really make Sixfinity Dice Agnostic ... more or less yes as long as you know what you're doing. You could use a D20 (swingy), 3D6, 2d10, 2d12, 4d6, 5d4 even 2D6 or 1d12 if you made sure the curve made sense with the Skill Ratings. 
-
-### Rolling 18
-When you roll a nautral 18, you get a free Edge Dice.
+### Rolling Max Roll
+When you roll a nautral maximum on your dice (6 on 1D6, 12 on 2D6, 18 on 3D6, etc.), you get a free Edge Dice. This means it is harder to push extra effort with more skill.
 
 #### Glitching
 
 Also called a Botch. 
 
-When you roll a natural 1 on the effect dice; this is called a glitch or a botch. As long as you still beat the Threshold provided you are able to get a success. However, something will happen that did not go according to plan this is ruled by the Gamemaster but some suggestions are things like gun jammed requiring a Minor A ction to clear it. We treat this as a "Yes but..." siutation.
+When you roll all 1's on at least half your dive; this is called a glitch or a botch. As long as you still beat the Threshold provided you are able to get a success. However, something will happen that did not go according to plan this is ruled by the Gamemaster but some suggestions are things like gun jammed requiring a Minor A ction to clear it. We treat this as a "Yes but..." siutation.
 
-What if you roll a natural 3? In that case you have a Critical Glitch. Critical Glitches can be quite bad it depends on the GM a common rule during combat is that the gun is so fouled up it takes a Major Action or it may be completely out of commission until you can make a Mechanics check to repair it. This is treated as a "No and..." situation. A roll of 3 always fails.
+What if you roll all 1's? In that case you have a Critical Glitch. Critical Glitches can be quite bad it depends on the GM a common rule during combat is that the gun is so fouled up it takes a Major Action or it may be completely out of commission until you can make a Mechanics check to repair it. This is treated as a "No and..." situation. A roll of 3 always fails.
 
 
 ### Effect
@@ -612,9 +621,11 @@ Disadvantage: You cannot spend Edge on this Test.
 
 
 ### Success Tests
-In a Simple test, you roll `3D6 + Attribute + Skill`, and see if you meet total or beat a Threshold established by the gamemaster. The gamemaster establishes the Threshold based on the Threshold Guidelines and suggestions and guidelines established within the rules. If the the total is equal to or greater than the threshold, the action succeeds; in some occasions, the number of effect (the number on the Effect Dice) comes into play.
+In a Simple test, you roll `Ability Dice Code + Skill`, and see if you meet total or beat a Threshold established by the gamemaster. The gamemaster establishes the Threshold based on the Threshold Guidelines and suggestions and guidelines established within the rules. If the the total is equal to or greater than the threshold, the action succeeds; in some occasions, the number of effect (the number on the Effect Dice) comes into play.
 
 Written as `Attribute + Skill (Threshold Step)`
+
+Such as `Agility + Firearms (2)` If you had a Agility of 2d6 you would roll `2d6 + Firearms skill`
 
 This is a very important thing to understand - these are written as THRESHOLD STEP. This allows the Gamemaster to alter the actual dice Thresholds as they see fit without changing how a test works.
 
@@ -659,7 +670,7 @@ Glitches can have a devastating effect on memory. A glitch means the character m
 **RESIST KNOCKDOWN (STR)**
 
 
-When you take more damage in a single attack than your Physical Limit x 3 you must avoid being knocked prone. Do this with a `3D6 + STR VS Damage Taken or 10 whichever is higher` success means you stay on your feet, failure you are knocked prone. If you take 30 damage in a single attack you are automatically knocked down regardless of the roll. 
+When you take more damage in a single attack than your Physical Limit x 3 you must avoid being knocked prone. Do this with a `Ability Dice Code + STR VS Damage Taken or 10 whichever is higher` success means you stay on your feet, failure you are knocked prone. If you take 30 damage in a single attack you are automatically knocked down regardless of the roll. 
 
 **TOXIN RESISTANCE TEST (BOD + WIL)**
 
@@ -668,16 +679,18 @@ When you take more damage in a single attack than your Physical Limit x 3 you mu
 
 ### Edge
 
-Edge is a character’s luck, the favor of the gods, that unexplainable factor that allows her to beat the odds. A character’s Edge attribute represents the number of Edge points a character has to spend during gameplay. Edge points can be used for a wide range of benfits, each noted below. Edge points come in a pool of Edge Dice. Your Edge Attribute lets you know how many Edge Dice you have to spend. 
+Edge is a character’s luck, the favor of the gods, that unexplainable factor that allows her to beat the odds. The Edge pool is made from combining (Quickness + Intelligence + Willpower) dividing by three and rounding down.
 
-Spending an Edge Point adds a D6 to your dice, you add this dice to your total and your Effect. The most Edge that can be spent on a roll is equal to the Skill Rating in the Test being rolled.
+So with a Quickness 5, Intelligence 3 and Willpower 3 that would be a 5 Edge Pool.
+
+Spending an Edge Point adds an Effect Dice to your rolled dice, you add this dice to your total and your Effect. The most Edge that can be spent on a roll is equal to the Skill Rating in the Test being rolled.
 
 So if you had an Edge of 4, and a Firearms of 3. You could add up to 3 Dice from your Edge Pool on a Firearms Test because thats the Rating of your skill. You can spend Edge **before** you rolle but not after. You can spend Edge on any Test in the game.
 
 #### Refreshing your Edge Pool
 
-- All of your Edge come back after a night of rest (Long Rest)
-- If you take a Short Rest (1 hour) you get Half your Edge back you can do this once her pay.
+- ALl of your Edge refreshes each day after a long Rest
+- During Combat your Edge Refreshes every round.
 
 
 ### Individual Rule Sections
@@ -721,13 +734,13 @@ If the attacker misses their intended landing spot, the gamemaster must determin
 **Scatter Table**
 
 
-| Type                | Scatter              |
-| ------------------- | -------------------- |
-| Standard Grenade    | (1D6 – Effect) yards |
-| Aerodynamic Grenade | (2D6 – Effect) yards |
-| Grenade Launcher    | (3D6 – Effect) yards |
-| Missile Launcher    | (4D6 – Effect) yards |
-| Rocket Launcher     | (5D6 – Effect) yards |
+| Type                | Scatter                            |
+| ------------------- | ---------------------------------- |
+| Standard Grenade    | (1D6 – Effect) yards               |
+| Aerodynamic Grenade | (2D6 – Effect) yards               |
+| Grenade Launcher    | (Ability Dice Code – Effect) yards |
+| Missile Launcher    | (4D6 – Effect) yards               |
+| Rocket Launcher     | (5D6 – Effect) yards               |
 
 #### Grenade Launchers, Rockets, & Missiles
 
@@ -777,39 +790,25 @@ of statistics. If a character uses Concentrations and Specializations, he or she
 increased capability in that specialized area, but at the cost of reduced ability in the
 rest of the functions covered by the general skill.
 
+Skill do not have a linked attribute to them; as far as the rules are concerned Attributes do not aid in the total number for a skill.
+
 ### SKILL RATINGS
 
-Skill ratings are the numerical values assigned to skills or skill groups, either at character creation or when the skill is learned during game play. They represent how good a character is at a task when using that particular skill. Skill ratings are written as the name of the skill, followed by the rating. For example, Sneaking 3 means the character has the Sneaking Skill at a rating of 3. The skill rating is added to the linked attribute to determine the modifier added to 3D6 when that skill is used. For example, if the character with Sneaking 3 also had an Quickness 4, she would add 7 to her rolls on a Sneaking Test.
-
-The skill Rating is a numerical value ranging from 1, representing the most rudimentary skill, to 6 (or 7 with the Aptitude quality) representing the height of sentient achievement. 
-
-The unmodified skill rating assigned at character creation or purchased during game play is considered to be the character’s base skill rating. Some abilities and implants (as noted) may increase this rating, creating a modified skill rating. A modified skill cannot exceed the base skill rating x 1.5. Specializations, spells, and other implants may provide a bonus to a skill, but do not change the base skill rating. These extra modifiers are listed in parentheses after the base skill, as in Sneaking 4 (+2)
-
-| Rating | Definition   |
-| ------ | ------------ |
-| -      | Unaware      |
-| 0      | Untrained    |
-| 1      | Beginner     |
-| 2      | Novice       |
-| 3      | Professional |
-| 4      | Veteran      |
-| 5      | Expert       |
-| 6      | Elite        |
-| 7      | Legendary    |
+Skill ratings begin at a level of 1. There is no maximum rating, but players will
+find it increasingly difficult to raise their character's skill ratings as the character
+improves in a particular skill. Beginning characters may not start with any skill at
+a rating higher than 6. Characters with no rating in a skill are considered untrained,
+but they may still attempt to perform a function covered by a skill by defaulting to an attribute at penalty of rolling 2D6 instead of Ability Dice Code.
 
 
 ### SPECIALIZATIONS SKILLS
 
-If you devote extra time to a subset of a skill, it’s called a specialization. If your character has the Athletics skill but spends a lot of time practicing parkour, you get a character that is good at Athletics but especially good at climbing past obstacles.
-
-A specialization adds +2 modifier to any test made for that skill when the specialization comes into play. You write the specialization in parentheses right after the skill, and then add a “(+2)” after the rating to remind you of the bonus. Characters cannot have multiple specializations within the same skill.
-
-If you want a specialization in a skill, you have to have it first (meaning a Rating of at least 1). 
+Having a Specialization in a skill will allow you to focus on a more narrow form of the skill. For example if you have Firearms 3 you can focus on Pistols. Which would be written as Firearms 3 (+2) to remind you of the Specilization. You can only have 1 Specialization per skill. A specialization allows a +2 on the roll. It does not raise the actual Rating so anything like Edge which is limited to the skill is still limited to the base skill. 
 
 ### Active Skills
 
 
-Active skills are the skills characters use to take action, affect something, or somehow make an impact. These skills are the ones that usually matter the most to characters. Firing a gun, negotiating, driving a car , and so on. For a complete description of base Active skills and specializations see below.
+Active Skills usually apply toward achieving a specific, shortterm result such as hitting a target with a weapon, performing a difficult maneuver in a vehicle, climbing a wall, casting a spell, and so forth. These skills also involve some form of active, physical activity
 
 ### Knowledge Skills
 
@@ -821,27 +820,22 @@ Many Knowledge Skills also provide the character with the theoretical basis of a
 **Languages**
 
 
-Language skills are an exception to the basic skills rule because each specific language Is a Specialization of a family of languages. Thus, a character will have some facility with languages related to his specific language, but will not be fluent In additional languages within that family unless he or she also acquires Specializations in those languages. Different language families are not considered to be related.
 
-When language Specializations are taken as part of character generation, the Specialization Ratings automatically increase by +2. The language family, as the equivalent of the general skill, would have a skill rating of 4 less than the Language Rating itself. Any modifled rating less than 1 is treated as a 1.
-
-
-Players should note that there are no formal troll, dwarf, or ork languages. These characters use the languages of their mothers and fathers, most of whom are human. These groups may often speak a kind of patois, however.
-
-Each language family is listed in bold type, followed by the specific languages
-
-This means if a character takes the language French they will start at French 3, and have Romance Languages at 1. If they later took French again it would be 6 (maxed besides Native) and would have Romance Languages 2. If they later wanted to take Spanish they could spend 1 point and have Spanish at 5 and Romance Languages at 3. They could spend another point to move Spanish to 6 or could take Italian and it would start at 5 giving them Romance Languages at 4. This demonstrated how related languages make others like them easier to learn. That same character if they then took Russian would get Russian at 3 and Slavic at 1 because they are not related in any way to Romance Languages.
-
-Every character gets their native language at N for native but no points in the Family of the language. 
 
 
 ### Defaulting
 
-It is impossible to prepare for every scenario and only slightly harder to have every skill. When you perform an action without actually having the skill for the test, there’s still hope. You can default the skill, making the test using only the attribute to form the modifier. You don’t have any tremendous talent when you default— quite the opposite in fact. Defaulting imposes a –1 modifier in addition to any other modifiers the situation demands. Unless the gamemaster feels that you’re at a complete loss when defaulting, you can use Edge to Push the Limit and better your chances.
+It is impossible to prepare for every scenario and only slightly harder to have every skill. When you perform an action without actually having the skill for the test, there’s still hope. You can default the skill, making the test using only raw talent. You don’t have any tremendous talent when you default— quite the opposite in fact. Defaulting imposes a –1 Dice penalty meaning you only roll 2D6 in addition to any other modifiers the situation demands. Unless the gamemaster feels that you’re at a complete loss when defaulting, you can use Edge and better your chances.
 
-Some skills are too technically demanding for you to default. In these cases, you don’t get to even try the test; you just fail. Vehicles or Unarmed Combat, for example, are relatively simple skills that can be attempted without formal training, so you can default if you need to. Mechanics, on the other hand, is too complicated to try without some training (you could say it’s rocket science). Skills that cannot be defaulted are given in italics on the Active Skill List—and it’s also mentioned in the skill description.
 
-### Skill List
+### Active Skill List
+
+| Skill        | Example Specializations                  |
+| ------------ | ---------------------------------------- |
+| Arhcery      | Bows, Crossbows                          |
+| Armed Combat | Blades, Clubs                            |
+| Firearms     | Automatics, Pistols, Longarms            |
+| Gunnery      | Machine Guns, Launchers, Vehicle Weapons |
 
 
 
@@ -893,7 +887,7 @@ Close 0-3 yds, Near 4-50 yds, Medium 51-250 yds, Far 251-500 yds, Extreme 500 yd
 This is the ammo capacity a firearm has, as well as the type of container—(belt) belt, (c) clip, (cy) cylinder, (m) magazine, (ml) missile, or (z) muzzle loaders.
 
 #### Armor Rating
-This is the boost to a character’s Toughness.
+This is a reduction in damage from incoming attacks land.
 
 #### Blast
 This is the size of a blast of an explosive.
@@ -1143,7 +1137,7 @@ Modern crossbows are designed with autoloading systems, internal magazines that 
 
 **Injection Arrow/Bolt**
 
-The injection arrow or bolt causes its base damage while also delivering a payload of one dose of a drug or toxin. A successful hit must deal at least one damage after the Toughness. Injection arrows and bolts come at a base rating of 8. Higher-rating models are available for heavier bows, but lower-rating models aren’t sturdy enough to deliver this heavier projectile.
+The injection arrow or bolt causes its base damage while also delivering a payload of one dose of a drug or toxin. A successful hit must deal at least one damage after the Defense Roll. Injection arrows and bolts come at a base rating of 8. Higher-rating models are available for heavier bows, but lower-rating models aren’t sturdy enough to deliver this heavier projectile.
 
 Wireless bonus: The injection can be delayed until a wireless signal is sent. The injection also doesn’t need any damage; it just needs at least 1 net effect.
 
@@ -1600,7 +1594,7 @@ Wireless bonus: The silencer features systems and simple software that alerts yo
 
 **Smart firing platform**
 
-A robotic tripod equipped with a mechanized pivot that allows for a 180-degree firing arc and a 60-degree inclination. It can mount one smartgun- equipped weapon to the platform. The weapon will be fired by the platform’s onboard pilot (Device Rating 3), using a pre-programmed Targeting Autosoft (Rating 3). It can be upgraded with additional autosofts, usually a Clearsight program. You need to set the parameters of who exactly the platform should and shouldn’t shoot at, which are followed by the platform’s pilot. The platform negates the Attack Rating adjustments for Semi-Auto and Burst Fire and offers a +3 Attack Rating for Full-Auto. It has an Initiative rank of Pilot x 4, 3D6 Initiative Dice, 4 Minor Actions, and 1 Major Action. Wireless bonus: You can fire the mounted weapon remotely using an implanted smartlink using VR, replacing the system’s dice pools with your own.
+A robotic tripod equipped with a mechanized pivot that allows for a 180-degree firing arc and a 60-degree inclination. It can mount one smartgun- equipped weapon to the platform. The weapon will be fired by the platform’s onboard pilot (Device Rating 3), using a pre-programmed Targeting Autosoft (Rating 3). It can be upgraded with additional autosofts, usually a Clearsight program. You need to set the parameters of who exactly the platform should and shouldn’t shoot at, which are followed by the platform’s pilot. The platform negates the Attack Rating adjustments for Semi-Auto and Burst Fire and offers a +3 Attack Rating for Full-Auto. It has an Initiative rank of Pilot x 4, Ability Dice Code Initiative Dice, 4 Minor Actions, and 1 Major Action. Wireless bonus: You can fire the mounted weapon remotely using an implanted smartlink using VR, replacing the system’s dice pools with your own.
 
 **Smartgun system**
 
@@ -2018,7 +2012,7 @@ If you’re surprised, you can’t move or take an action on your first turn of 
 
 ### Initiative
 
-Initiative determines the order of turns during combat. When com⁠bat starts, every participant makes a Initiative Test `3D6 + (Reaction + Intution) + Initiative Die` for personal combat, other types of combat have different Initiative Tests on the table below, to determine their place in the initiative order. The GM makes one roll for an entire group of identical creatures, so each member of the group acts at the same time.
+Initiative determines the order of turns during combat. When com⁠bat starts, every participant makes a Initiative Test `Ability Dice Code + (Reaction + Intution) + Initiative Die` for personal combat, other types of combat have different Initiative Tests on the table below, to determine their place in the initiative order. The GM makes one roll for an entire group of identical creatures, so each member of the group acts at the same time.
 
 The GM ranks the combatants in order from the one with the highest Dexterity check total to the one with the lowest. This is the order (called the initiative order) in which they act during each round. The initiative order remains the same from round to round.
 
@@ -2298,11 +2292,8 @@ Characters may never start a player turn with more than 5 Minor Actions. If they
 
 #### Attacks
 
-Ranged Attack Rolls are rolled as: `3d6 + Firearms + Quickness + Misc` vs. Targets Defense Roll.
+Ranged Attack Rolls are rolled as: `Ability Dice Code + Firearms + Quickness + Misc` vs. Targets Defense Roll.
 
->Oda is firing a pistol using Firearms 5 + Quickness 7 + 1 for a wireless active smartlink (he’s not worried about a hacker in this gang), for a modifier of 13. The Eye-Fiver defends with Reaction 4 + Intuition 3, a defense roll of 17.
->
-> Oda gets 2 Bonus Effect Oda rolls and gets a 24 more than enough to hit the Eye-Fiver. Comparing the Effect Dice for Oda who has a 6 on his Effect Dice and the Eye-Fiver has a 2 on his Effect Dice. Making the Net Effect 4, Oda adds his +2 Effect from his Bonus Effect to have 6 Net Effect.
 
 
 
@@ -2312,8 +2303,7 @@ Involved as they are in an illegal and often hazardous line of work, runners get
 
 Damage is calculated based on the weapon, spell, effect in Physical or Stun. You deduct that from your Health. 
 
-> Continuing from Above
-> We calculate the incoming damage using the base Damage Value of the Ares Predator VI (3P) and add the net effect (6) to get a modified Damage Value of 8. The Eye-Fiver leader has a Toughness of 1 to soak the Damage, reducing the incoming damage to 8 of Physical Damage. As an NPC the Eye-Fiver only has 10 Health so he has 2 left. 
+
 
 #### Types of Injury
 
@@ -2382,7 +2372,7 @@ Whether it’s flashing lights, some specialized chemical, or the pure force of 
 
 #### Burning #
 
-The Burning status is the result of being hit with a flame-based attack. Once the initial blow has done its damage, you have to deal with the continuing heat and flames, and the parts of yourself that may be on fire. **Toughness has no effect on this damage.**
+The Burning status is the result of being hit with a flame-based attack. Once the initial blow has done its damage, you have to deal with the continuing heat and flames, and the parts of yourself that may be on fire. 
 
 The status should be noted with a number that indicates the amount of Physical damage the character must resist each round while the status exists. There are multiple ways to remove this status. You can spend a Major Action and roll an `Quickness + Reaction (2) test`; success means the fire is out and the status is removed. You can also jump into water to remove the status without a roll.
 
@@ -2402,7 +2392,7 @@ Colors, patterns, and weird ideas swirl around your head, keeping you from being
 
 #### Corrosive #
 
-Acids, bases, and other caustics eat into your flesh and don’t stop. The ongoing damage from these chemicals is noted with the Corrosive status, which comes with a number after it to denote how much damage the ongoing effect inflicts. **Toughness has no effect on this damage.**
+Acids, bases, and other caustics eat into your flesh and don’t stop. The ongoing damage from these chemicals is noted with the Corrosive status, which comes with a number after it to denote how much damage the ongoing effect inflicts. 
 
 This status can be removed with certain gear (like baking soda for acids!) and equipment. The Wet status does not necessarily remove it, as some chemicals continue burning the skin even after contact with water. The gamemaster can determine when enough water has been applied to remove the chemical in question.
 
@@ -2463,7 +2453,7 @@ There is a good reason why you don’t want to be in the wrong end of a basilisk
 
 #### Poisoned #
 
-Something wrong has gotten into the character’s body, and it’s going to mess them up until it works its way through. This status has a damage code after it, with a number and an indication for either Physical or Stun damage. At the end of each combat round when this status exists, the character must take the damage, Toughness does not apply. The damage decreases by 1 each round. Antidotes, both physical and magical, can remove this status.
+Something wrong has gotten into the character’s body, and it’s going to mess them up until it works its way through. This status has a damage code after it, with a number and an indication for either Physical or Stun damage. At the end of each combat round when this status exists, the character must take the damage. The damage decreases by 1 each round. Antidotes, both physical and magical, can remove this status.
 
 #### Prone
 
@@ -2523,1285 +2513,6 @@ Gamemaster note: The damage and duration are subject to your discretion if the t
 
 
 ## Chapter 9: Magic
-
-The world is made up of two parts.
-
-The Sleeping World & The Awakened World.
-
-The Sleeping World is unaware of magic. This Chapter focuses on the Awakened World.
-
-The Awakened world is permeated by mana, the energy of magic. Mana is invisible and intangible. It cannot be detected, measured, or influenced by machines, only by living beings. Mana is sensitive. to emotion and responds to the will of the Awakened. It allows magicians to cast spells. Mana also makes the powers of adepts and various Awakened creatures possible.
-
-**Magic Attribute**
-
-Awakened creatures and magical effects have their magical potency measured by either the Magic or Force attributes. Magic is the attribute possessed by Awakened creatures—including humanoids while Force is the principle attribute for magic items and entities of pure mana—spirits and spells.
-
-Magic is a Special attribute that measures the character’s magical power. Like other attributes, Magic has a starting value of 1. The Magic attribute may be increased in the same way as other attributes, to a maximum of 6. Magical study and insight can raise a magician’s Magic attribute beyond the normal maximum though a process called initiation.
-
-If a character’s Magic is ever reduced to 0, she can no longer perform any kind of magic. The magician has “burned out,” losing all magical ability and becoming a mundane forever. She retains all magical skills and knowledge, but lacks the ability to use them. Active skills become Knowledge skills. 
-
-Spells, spirits, and magic items have an attribute known as Force. This measures the magical power of the object, spell, or being. Force is measured on the same scale as humanoid attributes (natural 1 to 6). For spells and items, this is often their only attribute.
-
-**The Three Realms**
-
-Magicians are aware of three “realms” of existence. The first is the physical realm, our natural physical world, and all of its corresponding physical laws. 
-
-On one “side” of us, we have the astral realm. The astral realm occupies the same “space” as the physical plane, but has different “physical” (“astral?”) laws. It is always there, right next door, just a step sideways. It thrives on life, and so emotion, thought, and spirit are emphasized on the astral. Without life, there is no astral space; and so without a thriving gaiasphere to support it, the astral plane does not extend into space. Using what is often called their "third eye" Magicians can see the Astral realm.
-
-On the other side (and curving around, as it were, to meet the astral plane on its far edge) we have the metaplanar realm. The metaplanes are not one place but many, and their true nature and purpose are beyond the ken of ordinary magicians. (See The Planes)
-
-Each realm is separated by a barrier, a wall of sorts that stops us from randomly wandering from one realm into another. Magicians have learned to extend their senses onto the astral realm, to astrally perceive what goes on there. Full magicians can actually leave their physical bodies and project their spirits onto the astral plane. Psychic travel to the metaplanes is also possible, but is a much more complicated affair.
-
-**Magical Lodges**
-
-In order to progress in her studies, a magician must have a collection of symbols, writings,
-tools, and other material that allows her to record her progress, gives her room to expand her
-knowledge, and assists her in her magical endeavors. Such a collection of items and information is known as a magical lodge. Magicians of the same tradition can share a magical lodge.
-
-A magical lodge is required to improve Magic-linked skills, learn new spells, and perform Ritual Spellcasting. A lodge has a Force rating that is used to measure its power. The Force of a lodge must be at least equal to the skill rating being learned or the force of a spell being cast.
-
-A lodge has a Resource cost of 2 per Force point, and the lodge’s rating can be improved later.
-
-For example if you want to purchase a Force 1 Lodge you need to make a {Threshold} 12 Resource test. A Force 3 Lodge would be a {Threshold} 16. 
-
-The money is spent to buy the supplies used to build the lodge. Once the supplies are gathered, the magician must complete an activation ritual that will “awaken” the lodge and construct its astral presence. The actual process requires 1 day per point of Force desired. An activated lodge acts as an astral barrier. Any magicians involved in the activation of the lodge are unaffected by this barrier, and can allow other astral forms to pass through it at will. A lodge contains the astral signatures of the magicians who activated it (see Astral Signatures), and is magically linked to them. This link can be tracked using astral projection (see Astral Tracking).
-
-To increase the rating of an existing lodge, additional materials must be acquired. An activation ritual must also be performed, taking a number of days equal to the difference between the current Force and the desired Force. The cost of searching and gathering can be simplified to a cost of Resource 2 per Force point as above. Improving a Force 4 lodge to Force 6, for example, would cost Resource {Threshold} 22 (6 * 2 + 10) and take two days of ritual.
-
-### Spellcasting
-
-When a magician casts a spell, the player first chooses the Force of the spell and then rolls her `3D6 + Spellcasting + Magic VS {Threshold}`. Other sources of power (foci, spirit spellcasting aid) and Visibility modifiers may affect the final outcome. The success of a spell is measured by the {Threshold} on the test.
-
-Many times the {Threshold} is the targets Defense for targeted spells. 
-
-Steps for Spellcasting:
-
-- Step 1: Choose a Spell. She can cast any spell she knows. Remember you can only have one Concentration Spell active at a time.
-- Step 2: Choose the Force. The maximum Force a spell can be cast at equals the spellcaster’s Magic rating x 2. 
-- Step 3: Choose the targets. Area spells you choose a location for the center, targeted spells you choose a target withing Line of Sight.
-- Step 4: Make the Spellcasting Test. `3D6 + Spellcasting + Magic` VS {Threshold}. (Unless opposed the {Threshold} is 10 + Force)
-- Step 5: Determine the effect. Some spells only require a success and the Effect determines how effective the spell is. Opposed test against living targets often trigger Willpower or other Reactions. Spells cast on astral objects like mana barriers or active foci are resisted with Force. **The Effect CANNOT exceed the Spells Force**
-- Step 6: Fatigue Test. `3D6 + Willpower VS. 9 + Spells Force` if you succeed you cast it with minimal issues, if you fail you suffer effects (see Spell Fatigue below)
-- Step 7: Concentration. Many spells can be sustained for as long as the magician is willing to concentrate on the spell, as noted in the spell’s Duration. If you take damage while maintaining concentration you must succeed on a `3D6 + Willpower Vs 10 or Half Damage taken rounded down up to 25 whichever is higher`
-
-### Counterspelling
-
-**This is considered a Reaction.**
-
-Counterspelling is used to interrupt other spells, either as they are being cast or while they are sustained. To interrupt a spell as it is being cast a Counterspelling roll `3D6 + Counterspelling + Magic` is rolled versus the opposing Spellcasting roll `3D6 + Spellcasting + Magic`, if the Counterspell is higher the spell is canceled. Force does not come into play here because the Spell has not been completed yet.
-
-For example Paige is fighting another Mage in a bar. The other Mage is preparing to cast Fireball. Paige rolls `3D6 + Counterspelling + Magic` she has a Counterspelling of 4 and a Magic of 5, the rolls a 12 and ends up with a 21. The enemy Mage has a Magic of 4 and a Spellcasting of 4, rolls a 12 on 3D6. Since Paige beat the enemy Mage's roll the spell is Countered and no Fireball is cast. 
-
-When dispelling it is very similar, a Counterspelling + Magic Opposed Test is made against the target spell’s Force + caster’s Magic, if the roll is greater than the {Threshold} of the spell it is dispelled.
-
-For Example if Paige is trying to dispel a sealed door. She rolls `3D6 + Counterspelling + Magic vs {Threshold} from the Gamemaster`. The GM knows that the caster had a Force of 6 for the spell and their magic was 6 so `{Threshold} = 10 + 6 + 6` the {Threshold} is 22.
-
-
-### Force
-
-A spell’s only attribute is its Force—the measure of the spell’s raw power. A spell’s Force helps determine its effectiveness and its Fatigue. Thee Force of a spell is chosen by the caster during spellcasting, typically at a value up to the Magic attribute of the magician who cast it. The maximum Force that a spell can be cast at is equal to twice the character’s Magic.
-
-For simplicity, you may wish to decide that spells are always cast at a Force equal to the character’s Magic attribute unless otherwise noted. This certainly makes tracking Fatigue rolls easier.
-
-A spell’s Force limits the Effect that can be achieved on the Spellcasting Test. So if you cast a Force 3 spell and get 5 Effect, only 3 of those count. In other words, Force has a limiting effect on spells—the more oomph you put into the spell, the better you can succeed with it. 
-
-### Spell Fatigue 
-
-When using a power, the player rolls a fatigue test for the character. This is a test with a target number of `{Threshold} = 9 + Spells Force / 2 rounded down`. Often times spells have a Fatigue Value or FV listed this represents the `Spell Force / 2 Rounded down` math already done.
-
-Fatigue tests are Willpower Reactions. `3D6 + Willpower VS. 9 + Fatigue Value`
-
-If the test succeeds, using the power costs the character only negligible effort. If the fatigue test fails, the character takes the Fatigue Value in Stun Damage (see Stun Damage) if they suffer enough Stun damage to reduce them to zero Physical Health they are Stunned for 1 Minute. After that they are 1 point away from Stunned and Exhausted.
-
-- Exhausted: The character is nearly spent. An exhausted character has a –3 penalty to all tests, moves at half their normal speed, and cannot Run or Charge. 
-
-Additionally, if the character loses more than half their Physical Health while exhausted, they become unconscious for 1d6 hours, or until restored to greater than half their maximum Physical Health. After 6 hours unconscious, they regain 10 + Body in Physical Health and regain consciousness.
-
-
-Characters can recover from fatigue by resting, as follows:
-- Taking a 5-minute breather is enough to recover BOD + STR in Stun Damage. You gain this benefit in addition to the normal amount of Physical Health you recover from a breather.
-- Resting for at least 4 hours, with only light activity (talking, reading, and the like, but not standing or riding) allows you to recover from all Stun Damage, so long as you also eat and drink something during that time.
-- Sleeping for at least 6 hours allows you to recover from being exhausted, as well as all Stun Damage in addition to the Physical Health benefits of such rest.
-
-**Optional Rule**
-
-Simple Fatigue.
-
-Gamemasters and players should keep the following system in mind for making spell Fatigue calculation easier. Rather than choosing the Force and calculating the Fatigue each time a spell is cast, simply assume that spells are always cast at a Force equal to the character’s Magic attribute. In this case, the Fatigue for each spell can be pre-calculated and written on the character sheet, so you do not have to bother calculating it during actual gameplay.
-
-If a character decides at some point to cast a spell at a different Force value, simply modify the Fatigue by +1 or –1 for every 2 points the player increases or decreases the Force, respectively.
-
-For example, a player who has a mage with Magic 5 can assume that she always casts her Acid Stream spell at Force 5, and so she writes the Fatigue down as FV 5 (based on Acid Stream’s Fatigue formula for Force 5). If she decides to cast the spell at Force 3 instead, the Fatigue is modified to FV 4 (base FV 5 minus 1 per 2 points of Force reduction). If she decides to cast it at Force 7, her FV would be 6 (+1 per 2 points)—and the Fatigue if failed would be Physical Damage in lieu of Fatigue (see overcasting below) as the Force exceeds her Magic.
-
-### Overcasting
-
-If a caster wants the Spells Force to exceed their Magic Rating (maximum force is Magic x 2) they will suffer more dangerous outcomes than simple fatigue. If they fail the Fatituge test they will take the Fatigue Value as Damage instead of suffering Exhaustion levels as above. 
-
-For example is Paige has a Magic of 5 and decides to cast Acid Stream at Force 7 the Fatigue Value (based on the spells formula) would be 6. Since The Force 7 exceeds Paige's Magic if she fails her Fatigue check (`3D6 + Willpower VS. {Threshold} 15`) Paige will take 6 points of Physical damage instead of suffering exhaustion. 
-
-While dangerous it represents a magician putting their life into a spell. In some settings, some spells **require** it to be physical.
-
-### Learning New Spells
-
-Before a magician can cast a spell, she must learn it. A magician can learn a spell from either a spell formula or from another magician, but the source has to be of a compatible tradition (gamemaster’s discretion). A magician must have a magical lodge in order to experiment with and master what she has learned, adapting it to her own personal style and understanding of the magical world.
-
-For most magicians (especially mages), the archaic master-apprentice model of learning a spell has largely passed by the wayside. Given the proliferation of magical information on the Net, learning from formulae has become the default method of learning new spells. Finding a spell formula is as easy as checking the Net. 
-
-Certain spells (especially combat spells and mental manipulations) are illegal or controlled in some jurisdictions, so characters must engage caution when pursuing them, or look to black market providers/teachers. In addition, a character must expend 5 permanent Experience points per spell learned. The costs are the same whether the instruction is in person or through the Net.
-
-Once a magician has access to a spell formula or teacher, she makes a Spellcasting + Intelligence (15,5, 1 day) Extended Test (see Extended Tests). Instructors can provide Help and grnt advantage on the tests. All injury modifiers apply, as do distractions for sustaining spells, poor conditions, and so on.
-
-A character engaged in learning a spell must work on it for consecutive days. Learning a spell does not require all of the character’s
-attention during those days, but the magician must be able to devote 8 hours each day solely to learning the spell until she has it mastered.
-Should a day be missed before the test is completed, the character automatically fails the test and does not learn the spell. No Experience is expended in this case, but any money and time spent on instruction is lost. 
-
-### Traditions
-
-#### Hermetic Tradition
-
-Concept: The scientific study of magic as a complex pattern of elemental forces that can be controlled with the right formulae and rituals.
-
-- Combat: Fire Magic
-- Detection: Air Magic
-- Physical Health: Man
-- Illusion: Water Magic
-- Maniuplation: Earth Magic
-
-A hermetic magician’s ability to perform magic comes from the study of a complex set of theories that describe mana, the dimensions of astral space, and how they interact with the physical world. The science of thaumaturgy, as this discipline is called, draws those who rely on Intelligence and reason as their means of evaluating the world. As with any vibrant field, while the basics are largely agreed upon, the theories as to how it all works and what magic can do are as varied as the mages themselves. By seeking understanding, mages can perform magic through ritual and focused power of will.
-
-Mages are scholars who study and practice magic using tried and established formulas and procedures. Mages continually research the theories and laws of magic, seeking a deeper understanding of the structure of the universe. As their knowledge increases, so does their power.
-
-In Veilstriders Hermetic Mages attend school at Arkham in Mass. 
-
-Examples: Harry Dresden
-
-#### Sorcerous Tradition
-
-Concept: The channeling of internal magical power through an object to manifest power
-
-- Combat: Air Magic
-- Detection: Earth Magic
-- Physical Health: Water Magic
-- Illusion: Man
-- Maniuplation: Fire Magic
-
-This tradition is taught to people who are born with magical latent ability. Taught to channel it through an object like a wand.
-
-Examples: Harry Potter
-
-#### Shamanic Tradition
-
-- Combat: Beasts
-- Detection: Water
-- Physical Health: Earth
-- Illusion: Air
-- Manipulation: Man
-
-To a shaman, the world is filled with living spirits, powers the shaman calls on for magical aid. Shamanic magicians summon spirits that are tied to nature: air, earth, water, beasts, and man. To a shaman, these are the spirits of the natural world. They are spirits of skies and storms, of mountains and valleys, of lakes and rivers, of birds and rats, and of the mass of humanity, for even man is a part of nature. Communion and trafficking with such spirits is a venerable and honored tradition among shamans.
-
-Examples: Native American Magic.
-
-### The Astral World
-
-While the physical realm is the world characters know and walk in every day, another realm exists alongside it, invisible and unnoticed by most of the people on the planet. that place is called the astral plane, a sort of photo-negative of the physical world where only living things—things infused with mana—are real.
-
-Mana, the essence of magic, flows from the metaplanes into our physical world and through it to the astral plane, where it pools and infuses the astral plane with its nature.
-
-The astral plane is fueled by the life force that exists in and on our planet, and the general aura of that force illuminates the astral world at all times with an ambient glow. Things that exist only on the physical plane can be seen and heard from the astral, albeit with blurred features and indistinct sound—emotional content registers far more strongly than exact details. 
-
-#### Astral Willpower
-
-Many Awakened characters can perceive the astral plane from the physical world. This ability is called astral perception sometimes called "Third Eye". It is the primary sense used in the astral plane; it shows auras, allowing magicians to examine living creatures in the physical world as well as creatures who live on the astral plane. Astral Willpower is available to characters who take the Magician quality during character generation.
-
-It takes a Minor Action to shift one’s perception from the astral to the physical, and another to shift it back again (it is not possible to see both at the same time, though almost everything in physical space is reflected on the astral, albeit without detail). A character using astral perception is considered dual-natured, active on both the physical and astral planes simultaneously.
-
-While astral perception allows an Awakened character to sense the astral plane, actually interpreting what is sensed takes practice. Interpreting auras to gain information about the person or thing to whom they belong is called Assensing. A magician who wishes to learn more about an aura must make an Assensing test `Magic + Perception Rating` test against the {Threshold} as outlined on the Assensing Table (below). Without attempting to read an aura, a magician can still get an impression of what type of aura it is (spell, spirit, living creature, etc.).
-
-Like physical perception, a character using astral perception should not need to make a test to see things that are immediately obvious (and since astral forms are bright and vibrant, this means that most astral forms are easily noticed). An actual test should only be called for when an astral being is specifically trying to hide, or when a character is trying to astrally observe in detail; in both these situations, an Assensing Test is made.
-
-By assensing something’s aura, a magician can gain information. The auras of living beings show their general health, emotions, and magical nature (if any). Enchanted objects show their magical nature. Non-magical and non-living objects have only gray, lackluster shadows rather than auras, but pick up impressions from being in contact with living auras. Assensing can read any impressions left behind on an object.
-
-Spells cast upon an individual show up as a separate aura surrounding that person for the duration of the spell. Once a spell has been rendered permanent, the aura is no longer present. It is occasionally possible to see the traces that magic spells leave behind in a target’s aura; see Astral Signatures for more information.
-
-Whenever you have to perform a physical, non-magical task (shooting a gun, driving a car, and so forth) while astrally perceiving, you suffer Disadvantage on the roll. While astrally perceiving, a magician can cast mana spells at astral opponents. Other astral forms can engage an astrally perceiving magician in astral combat or cast mana spells at him as well.
-
-Astral perception is a psychic sense that is not linked to the character’s physical sight. A blind magician can still magically perceive the astral plane and the creatures and auras within. Likewise, deaf magicians can “hear” in astral space. 
-
-**Assensing Table**
-| {Threshold} | Information Gained                                                                                                                                |
-| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 5           | None                                                                                                                                              |
-| 10          | The general state of the subject’s health, The subject’s general emotional state or impression, Whether the subject is mundane or Awakened        |
-| 15          | The presence and location of cyberware implants, The class of a magical subject, If you have seen the subject’s aura before, you may recognize it |
-| 20          | Whether the subject’s Force and Magic are higher, lower, or equal to your own,A general diagnosis for any maladies,Any astral signatures present  |
-| 25          | The exact Magic, and Force of the subject. The general cause of any astral signature                                                              |
-| 30          | An accurate diagnosis of any disease or toxins which afflict the subject. Who their first born child is, what they had for breakfast              |
-
-
-#### Astral Signatures
-
-Magical skills and abilities produce an astral signature on anything affected by them, which is detectable using assensing. An astral signature is the magical “fingerprint” of the Awakened creature who created it. A signature lasts for a number of hours equal to a magical effects Force after the effect ends. Foci and other magical items (like magical lodges) always contain the astral signature of their owner (or owners). A character can attempt to read an astral signature with an Assensing Test. A {Threshold} 20+ is required to detect the signature. Once seen, a signature can be recognized if the character sees it again (perhaps requiring a memory test). With a {Threshold} 25, she also gets an impression of what magical effect created the signature (the magical skill used and the general class of spell or spirit).
-
-Magical forensic investigators use astral signatures to gather information about criminal magicians, so characters should be careful about leaving astral signatures where they are likely to be seen by anyone who knows them.
-
-A magician using astral perception may take a number of Complex Actions equal to the Force of an astral signature to erase it completely.
-
-### Initiation
-
-As Awakened characters grow in power, they often find that their initial explorations into magic and the astral plane can only take them so far in understanding and increasing their abilities. In order to increase their powers, magicians will often choose to undergo initiation in the mysteries of magic, the astral world, and the metaplanes in hope of increasing their connection with the Awakened world.
-
-Initiation is measured in grades, beginning with Grade 1 and increasing. At the end of a character’s first initiation, she is a Grade 1 initiate. When she completes her second initiation, she is a Grade 2 initiate, and so on. The numerical system is for tracking initiation levels in game terms: each tradition refers to grades of initiation in their own way. 
-
-The cost to initiate is equal to 10 + (Grade x 3) in Experience points. Characters who wish to initiate must pay that cost in order to achieve their new grade.
- 
-A character’s initiate grade cannot exceed her Magic attribute. If a character’s Magic is reduced below her initiate grade, she loses that level of initiation and the metamagic she gained with it.
-
-#### Initiate Powers
-
-**Increased Magic**
-
-An initiate’s natural maximum for the Magic attribute is 6 + her grade of initiation. She will still have to pay normally to increase her Magic attribute. 
-
-**Metaplanar Access**
-
-Upon a character’s first initiation, a character usually gains access to a special Demiplane for their Initiation. 
-
-**More Powers**
-
-Some settings have more powers for Initiation.
-
-### The Planes
-
-#### Planar Travel
-
-##### Planar Codex
-
-#### Material Planes
-
-#### Inner Planes
-
-#### Outer Planes
-
-#### Other Planes
-
-##### Pocket Planes
-
-##### Demiplanes
-
-### Spells
-
-How to read a spell.
-
-- Category: This describes the manner in which a spell affect its target, as well as what spirits will be associated with that type of spell. The categories are: Combat, Detection, Physical Health, Illusion, and Manipulation.
-- Type: Spell Type is either mana (M) or physical (P). Mana spells affect their targets through the mana that permeates the astral and physical planes affecting the target in a magical and spiritual manner that is only effectively resisted by the Willpower of a living or magical being. Physical spells directly target the body; resistance relies on the target’s Stamina. Only mana spells can affect astral forms. Either type of spell may be used in the physical world, but mana spells cannot affect non-living targets.
-- Range: All spells have a range at which they can be cast. For most spells, the range is line of sight (LOS). If the caster can see the target, regardless of distance, it can be affected. Some spells, particularly health spells, require the caster to touch the intended target in order for the spell to work. Other spells affect all valid targets within an area, defined as a circle with a radius equal to the spell’s Force in yards.
-- Test & {Threshold}: The type of test required if opposed, or the {Threshold} required (usually 10 + Force)
-- Duration: Duration is either Instant, Concentration, or Permanent. Instant spells end the moment they are cast, and their full effects are felt immediately. Concentration spells last for as long as the magician concentrates on them. Permanent spells must be Concentrationated for a short time, after which their effects become “natural” and no longer require magic or concentration to maintain. The time required to make a spell’s effects permanent is equal to twice the Fatgiue Value in Combat Turns.
-- Fatigue Value: This describes the Fatigue Value required for the Fatigue Test. Fatigue is based on the spell’s Force; the more powerful the spell, the more exhausting it is to cast. Fatigue is variable, based on the spell’s Force ÷ 2, rounded down, and modified by Fatigue modifiers appropriate to each spell. Failed Fatigue Tests cause Stun Damage and possibly Exhaustion (see Spell Fatigue above), unless the spell is overcast (cast at a Force higher than the magician’s Magic see above), in which case it causes Fatigue Value in Physical damage. Note that no Fatigue Value can ever be less than 1.
-
-
-### Combat Spells
-
-Combat spells use mana to create damaging effects, either by direct or indirect means. Think of Direct spells as Saving Throw Spells and Indirect Spells as To Hit Spells. Though Indirect Area spells require a Quickness Reaction.
-
-Direct Combat spells channel damaging power directly into the target’s inner being, affecting them from within, and so bypass armor (but not Toughness). 
-
-Indirect Combat spells create an external damaging medium (often elemental in nature) that is used to attack the target. 
-
-**Direct Combat Spells**: Handle these as an Opposed Test. The caster’s `Spellcasting + Magic` is resisted by the target’s Stamina (for physical spells) or Willpower (for mana spells), plus Counterspelling (if available). 
-
-The caster needs beat the opposed roll by at least 1 to take effect. Direct Combat spells affect the target from the inside, so armor does not help with resistance. Toughness does help with the damage though.
-
-> For example Paige casts Manabolt at a Security Guard. She has a 5 Spellcasting and 5 Magic. She rolls `3D6 + 5 + 5` she rolls 17 the Security Guard has a Stamina of 3 and no Counterspell so he rolls `3D6 +3` to resist the spell.
-
-Direct Combat spells cast against nonliving objects are treated as Success Tests; the caster must achieve Effect to beat the item’s Object Resistance. Effect increase damage as normal (the object does not get a resistance test).
-
-Direct Combat spells involve channeling mana directly into a target as destructive and damaging energies rather than generating a damaging effect. Affecting the target on this fundamental level with raw mana requires more focus and more power than producing other spell effects. After the Spellcasting is resisted the caster choses whether or not to apply any Effect to increase the damage value of the spell as normal.
-
-**Indirect Combat Spells**: Indirect Combat spells are treated like ranged combat attacks; the caster makes a `Spellcasting + Magic` Success Test versus the target’s Defense. 
-
-Indirect Combat spells (also commonly called AOE spells) generate a spell construct at the point of origin (the caster) which travels down the mystic link to the chosen target, whereupon it discharges and the effect defined in the spell description manifests. The spell traverses the distance between the caster and the target near instantly, but travels over the physical or astral plane to do so only to take effect when it “hits”. Hence, Indirect Spells are handled as ranged attacks and require a physically solid target or astrally active target to hit. As they travel down the link to the chosen target such effects may be impeded by physical obstacles or mana barriers. They may impact transparent obstacles (such as glass) and do not “bounce” off reflective surfaces used for line of sight. Instead the spell takes effect at the point of contact with an obstructing barrier. In the case of mana barriers, use the standard rules for casting through barriers, but if the spell’s Force is insufficient to beat the mana barrier it “fizzles” at the point of contact with the barrier.
-
-If the spell reaches the chosen target and it fails to dodge with Quickness (+ Counterspelling, if available) ({Threshold} 10 + Spells Force), the target then resists damage with Toughness + armor. Each point reduces the Damage Value. The target takes the damage left over, if any after the Toughness and Armor Protection is deducted. Note that nonliving objects resist damage from an Indirect Combat spell with their Armor rating x 2 (see Barriers). Note that unlike other spells, Indirect Combat spells may affect other targets that the caster cannot see if they are caught within the spell’s area of effect.
-
-**Elemental Effects**: Many Indirect Combat spells utilize damaging elemental energies such as Fire damage, Electrical damage, etc (see Damage Types).
-
-Spells with elemental components also create secondary effects on the environment. For example, a Fireball might start fires, cook off ammo, ignite fuel tanks, and set fire to armor and clothing all over the blast zone. An Acid Stream can melt surrounding material into smoking sludge. These are noted in the special case damage descriptions.
-
-**Damage Value**: The base Damage Value for Combat spells is based on Force in flat damage, which is chosen by the magician at the time of casting. Any Effect scored on the Spellcasting Test increase the Damage Value by 1D6 per Effect. Each spell description notes whether damage is Stun (S) or Physical (P).
-
-| Code              | Meaning                   |
-| ----------------- | ------------------------- |
-| Type: P           | Physical Spell            |
-| Type: M           | Mana Spell                |
-| Range: LOS        | Line of Sight             |
-| Range: T          | Touch                     |
-| Range: V          | Voluntary Targets Only    |
-| Range: A          | Area Spell                |
-| Damage: P         | Physical                  |
-| Damage: S         | Stun                      |
-| Duration: I       | Instant                   |
-| Duration: C       | Concentration             |
-| Duration: P       | Permanent                 |
-| FV: Fatigue Value | Formula for Fatigue Value |
-
-#### Acid Spells
-
-These Spells create a powerful corrosive that sprays the target, causing terrible burns and eating away organic and metallic material—treat it as Acid damage, with appropriate effects on the affected area and any objects therein. The acid quickly evaporates in the turn following the spell’s casting, but the damage done remains. Acid Stream is a single-target spell. While Toxic Wave is an area spell.
-
-##### Acid Stream (Indirect, Elemental)
-- Type: P
-- Range: LOS
-- Damage: P
-- Duration: I
-- FV: (F ÷ 2) + 3
-
-##### Toxic Wave (Indirect, Elemental, Area)
-- Type: P 
-- Range: LOS (A) 
-- Test: Quickness {Threshold} 10 + F
-- Damage: P 
-- Duration: I 
-- FV: (F ÷ 2) + 5
-
-
-
-#### Psychokinetic Spells
-These spells smack the target(s) with invisible psychokinetic force, similar to a bruising punch, that inflicts Stun damage. Clout affects a single target, Blast is an area spell. Punch requires the caster to touch the target.
-
-##### Punch (Indirect, Touch)
-- Type: P 
-- Range: T 
-- Damage: S 
-- Duration: I 
-- FV: (F ÷ 2) – 2
-
-##### Clout (Indirect)
-- Type: P 
-- Range: LOS 
-- Damage: S 
-- Duration: I 
-- FV: (F ÷ 2)
-
-##### Blast (Indirect, Area)
-- Type: P 
-- Range: LOS (A) 
-- Test: Quickness {Threshold} 10 + F
-- Damage: S 
-- Duration: I 
-- FV: (F ÷ 2) + 2
-
-
-
-#### Mana Spells
-
-Death Touch, Manabolt, and Manaball all channel destructive magical power into the target, doing Physical damage. As mana spells, they only affect living and magical targets and are resisted by Willpower. Manabolt affects a single target, Manaball is an area spell. Death Touch requires the caster to touch the target.
-
-##### Death Touch (Direct, Touch)
-- Type: M 
-- Range: T 
-- Damage: P 
-- Duration: I 
-- FV: (F ÷ 2) – 2
-
-##### Manabolt (Direct)
-- Type: M 
-- Range: LOS 
-- Damage: P 
-- Duration: I 
-- FV: (F ÷ 2)
-
-##### Manaball (Direct, Area)
-- Type: M 
-- Range: LOS (A) 
-- Damage: P 
-- Duration: I 
-- FV: (F ÷ 2) + 2
-
-#### Fire Spells
-
-These spells create an explosion of flames that flash into existence and scorch the target(s). These spells deal Fire damage. 
-
-These flames burn out after striking the target, but their secondary effects may ignite flammable materials that will continue to burn after the spell is exhausted.
-
-Flamethrower is a single target spell, while Fireball is an area spell.
-
-##### Flamethrower (Indirect, Elemental)
-- Type: P 
-- Range: LOS 
-- Damage: P 
-- Duration: I 
-- FV: (F ÷ 2) + 3
-
-##### Fireball (Indirect, Elemental, Area)
-- Type: P 
-- Range: LOS (A) 
-- Damage: P 
-- Duration: I 
-- FV: (F ÷ 2) + 5
-
-#### Electrical Spells
-
-These spells create and direct vicious strikes of electricity that cause Electricity damage. Lightning Bolt is a single target spell. Ball Lightning is an area spell.
-
-##### Lightning Bolt (Indirect, Elemental)
-- Type: P 
-- Range: LOS 
-- Damage: P 
-- Duration: I 
-- FV: (F ÷ 2) + 3
-
-##### Ball Lightning (Indirect, Elemental, Area)
-- Type: P 
-- Range: LOS (A) 
-- Damage: P 
-- Duration: I 
-- FV: (F ÷ 2) + 5
-
-#### Explosive Spells
-
-These spells channel destructive magical power into the target, doing Physical damage. They affect both living and non-living targets and are resisted by the target’s Stamina.
-
-Powerbolt affects a single target. Powerball is an area spell. Shatter requires the caster to touch the target
-
-##### Shatter (Direct, Touch)
-- Type: P 
-- Range: T 
-- Damage: P 
-- Duration: I 
-- FV: (F ÷ 2) – 1
-
-##### Powerbolt (Direct)
-- Type: P 
-- Range: LOS 
-- Damage: P 
-- Duration: I 
-- FV: (F ÷ 2) + 1
-
-##### Powerball (Direct, Area)
-- Type: P 
-- Range: LOS (A) 
-- Damage: P 
-- Duration: I 
-- FV: (F ÷ 2) + 3
-
-#### Sleep Spells
-
-These spells channel magical energy directly into the target, causing Stun damage. Stunbolt affects a single target. Stunball is an area spell. Knockout requires the caster to touch the target.
-
-##### Knockout (Direct, Touch)
-- Type: M 
-- Range: T 
-- Damage: S 
-- Duration: I 
-- FV: (F ÷ 2) – 3
-
-##### Stunbolt (Direct)
-- Type: M 
-- Range: LOS 
-- Damage: S 
-- Duration: I 
-- FV: (F ÷ 2) – 1
-
-##### Stunball (Direct, Area)
-- Type: M 
-- Range: LOS (A) 
-- Damage: S 
-- Duration: I 
-- FV: (F ÷ 2) + 1
-
-### Detection Spells
-
-Detection also known as Divination spells give the subject a new sense, beyond the normal five senses, for as long as they are maintained. They are cast upon either the magician or a subject within Touch range. Using the sense may require the subject to take a Minor Action to Perception in Detail. Detection spells are either directional (like normal sight), area effect (work in all directions at once, like hearing), or psychic (providing some other special “sense” such as telepathy or precognition). Additionally the sense is either active or passive (see below).
-
-**Active**: The sense actively analyzes or seeks out certain information when the subject concentrates on it. Active Detection spells are treated as an Opposed Test, pitting the caster’s `Spellcasting + Magic vs. The target’s Willpower (+ Counterspelling, if available)`; magical objects resist with Force. Against objects, handle the spell as a Success Test with a {Threshold} based on the Object Resistance. The Detection Spell Results table provides guidelines for how thoroughly the sense works, based on Effect scored. Note that Counterspelling may be used to defend against active Detection spells, even if the magician is not aware of them (see Counterspelling).
-
-**Passive**: A passive sense is simply “on” and passes along any appropriate sensory input without any sort of interpretation (similar to hearing). The Spellcasting Test serves as a magical Willpower test, against an appropriate {Threshold} determined by the gamemaster. Other effects are noted in the spell descriptions. The Detection Spell Results table provides guidelines for how thoroughly the sense works, based on Effect.
-
-Note that Counterspelling cannot be used to “defend” against the sense provided by passive Detection spells.
-
-**Range**: The standard sensory range for a Detection spell is the spell’s `Force x Magic` in yards. For extended range Detection spells, the effective range of the new sense is `Force x Magic x 10 yards`. Note that any of the standard range spells listed below may be learned with an extended range instead (adding +2 FV).
-
-Note also that a separate test is not needed for each potential target in range of the sense. The character simply makes a single `Spellcasting + Magic Test` and compares the results against each potential target in range, using the Detection Spell Results table to determine the result. If a caster sustains a Detection spell, new targets may be detected as they enter the range of the spell; in this case, the gamemaster simply applies the results of the original `Spellcasting + Magic Test` to see if the new targets are noticed.
-
-**Glitches**: A glitch on a Detection Spellcasting Test may result in false or misleading information. Likewise, a critical glitch may inflict extra (+2 FV) or Physical Drain, may temporarily strip the character of a sense, or may inexplicably apply the sense to others (particularly opponents) in range.
-
-**Detection Results Table**
-| {Threshold} | Results                                                                                                                                     |
-| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| 10          | Only general knowledge, no details. Detect Life Example: A group of humanoids.                                                              |
-| 15          | Major details only, no minor details. Detect Life Example: Three male orcs and a female troll, coming your way.                             |
-| 20          | Major and minor details, with some minor details obscured or missing. Detect Life Example: They are all running/armed. The troll is leading |
-| 25          | Completely detailed information. Detect Life Example: The troll is your contact, Moira she’s wounded and being chased by three orcs         |
-
-
-#### Analyze Device (Active, Directional)
-- Type: P 
-- Range: T 
-- Duration: S 
-- FV: (F ÷ 2)
-
-This spell allows the subject to analyze the purpose and operation of a device or piece of equipment within range of the sense. The caster must gain enough hits on the Spellcasting Test to beat the item’s Object Resistance. Each Effect gives the subject a +1 while operating the device, and allows the subject to ignore any skill defaulting modifiers for using the device while the spell is sustained.
-
-
-#### Analyze Truth (Active, Directional)
-- Type: M 
-- Range: T 
-- Duration: S 
-- FV: (F ÷ 2)
-
-The subject can tell whether a target’s statements are the truth. Halftruths or falsehoods the target believes to be true are not detected by this spell. The spell needs at least 1 Effect to determine validity. The spell does not work on written materials or through any sort of technological medium. The subject must hear a statement in person (with the target within range) to know whether it is true.
-
-#### Clairaudience (Passive, Directional)
-- Type: M 
-- Range: T 
-- Duration: S 
-- FV: (F ÷ 2) –1
-
-The subject can hear distant sounds as if physically present at a chosen point within the sensory range of the spell. The “listening point” may be moved to any other point within range of the spell. While using clairaudience, the subject cannot use her normal hearing. This spell does not translate visual images, only sounds (and only sounds within the subject’s natural range of hearing; augmented hearing does not apply).
-
-#### Clairvoyance (Passive, Directional)
-- Type: M 
-- Range: T 
-- Duration: S 
-- FV: (F ÷ 2) –1
-
-The subject can see distant scenes as if physically present at a chosen point within the sensory range of the spell. The “visual point” may be moved to any other point within range of the spell. The subject cannot use normal vision or astral perception while using it. This spell does not translate sound, only vision. Any augmented vision possessed by the subject does not function through this spell, nor does astral perception. Magicians cannot use clairvoyance to target others with spells.
-
-#### Combat Sense (Active, Psychic)
-- Type: M 
-- Range: T 
-- Duration: S 
-- FV: (F ÷ 2) + 2
-
-The subject can subconsciously analyze combat and other dangerous situations within range, sensing events a split-second before they happen. Every Effect on the Spellcasting Test adds +1 Reaction on Surprise Tests and when defending against ranged and melee attacks for the duration of the spell.
-
-#### Detect Enemies (Active, Area)
-- Type: M 
-- Range: T 
-- Duration: S 
-- FV: (F ÷ 2) + 1
-
-#### Detect Enemies, Extended (Active, Extended Area)
-- Type: M 
-- Range: T 
-- Duration: S 
-- FV: (F ÷ 2) + 3
-
-The subject can detect living targets within range who have hostile intentions toward him. The spell does not detect traps (since they are not alive), nor can it detect someone about to shoot into a crowd at random (the hostility is not directed at the subject of the spell). The spell can detect targets preparing an ambush or other surprise attack.
-
-#### Detect Individual (Active, Area)
-- Type: M 
-- Range: T 
-- Duration: S 
-- FV: (F ÷ 2) – 1
-
-The subject can detect the presence of a particular individual anywhere within range of the sense. The magician names the individual during casting; she must know the target or have met him in the past.
-
-#### Detect Life (Active, Area)
-- Type: M 
-- Range: T 
-- Duration: S 
-- FV: (F ÷ 2)
-
-#### Detect Life, Extended (Active, Extended Area)
-- Type: M 
-- Range: T 
-- Duration: S 
-- FV: (F ÷ 2) +2
-
-The subject detects all living beings (but not spirits) within range of the sense and knows their number and relative location. In a crowded area, the spell is virtually useless, picking up a blurred mass of traces. 
-
-#### Detect [Life Form] (Active, Area)
-- Type: M 
-- Range: T 
-- Duration: S 
-- FV: (F ÷ 2) –1
-
-#### Detect [Life Form], Extended (Active, Extended Area)
-- Type: M 
-- Range: T 
-- Duration: S 
-- FV: (F ÷ 2) +1
-
-The subject detects all of a specified type of life form within the range of the sense and knows their number and relative location. Each different life form requires a separate spell (Detect Orcs, Detect Elves, Detect Dragons, and so forth).
-
-#### Detect Magic (Active, Area)
-- Type: M 
-- Range: T 
-- Duration: S 
-- FV: (F ÷ 2)
-
-#### Detect Magic, Extended (Active, Extended Area)
-- Type: M 
-- Range: T 
-- Duration: S 
-- FV: (F ÷ 2) + 2
-
-The subject can detect the presence of all foci, spells, wards, magical lodges, and spirits within range of the sense. It does not detect Awakened characters or critters, astral signatures, or the effects of permanent spells once they have become permanent.
-
-#### Detect [Object] (Active, Area)
-- Type: P 
-- Range: T 
-- Duration: S 
-- FV: (F ÷ 2) –1
-
-The subject detects all of a specified type of object within range of the sense and knows their number and relative location. Each type of object requires a separate spell (Detect Guns, Detect Computers, Detect Explosives, and so forth).
-
-#### Mindlink (Active, Psychic)
-- Type: M 
-- Range: T 
-- Duration: S 
-- FV: (F ÷ 2) + 1
-
-Mindlink allows the caster and one voluntary subject to communicate mentally, exchanging conversation, emotions, and mental images. One Effect on the Spellcasting Test is enough to establish the link. The subject must remain within range of the spellcaster for the Mindlink to work.
-
-#### Mind Probe (Active, Directional)
-- Type: M 
-- Range: T 
-- Duration: S 
-- FV: (F ÷ 2) + 2
-
-This spell allows the subject to telepathically probe the mind of a specific target within range of the sense (chosen when the spell is cast). The target is aware of the probing, though they may not know the source of the spell. If the caster gains one or more Effect, consult the Mind Probe Results table (below) for the information gained. The subject may probe for one piece of information per Major Action. Additional uses of Mind Probe against the same target within a number of hours equal to the target’s Willpower are at a –2 modifier per previous Spellcasting attempt.
-
-**Mind Probe Results table**
-| {Threshold} | Result                                                                                                     |
-| ----------- | ---------------------------------------------------------------------------------------------------------- |
-| 15          | The subject can read the target’s surface thoughts only.                                                   |
-| 20          | The subject can fi nd out anything the target consciously knows and view the target’s memories.            |
-| 25          | The subject can probe the target’s subconscious, for psychological quirks, deep fears, or hidden memories. |
-
-### Physical Health Spells
-
-Physical Health spells can heal physical injury, cure diseases (or inflict them), detoxify poisons or drugs (or mimic their effects), as well as modify attributes. No techniques currently known to magic can erase Stun damage or cure psychological conditions.
-
-All health spells require the caster to touch the subject of the spell. This “laying on hands” is traditional in magical healing lore the world over. Physical Health spells are handled as Success Tests, with Effect providing specified bonuses.
-
-Negative Physical Health spells: Spells that negatively affect a character require an Opposed Test, pitting `Spellcasting + Magic vs. The target’s appropriate attribute (+ Counterspelling, if available)`.
-
-#### Antidote
-
-- Type: M 
-- Range: T 
-- Duration: P 
-- FV: (Toxin DV) – 2
-
-This spell helps a poisoned subject to overcome a toxin. It must be applied before the toxin does damage (though an Antidote spell applied afterward may alleviate some side effects, if the gamemaster chooses). The poisoned character receives a modifier on her Toxin Resistance Test (Stamina) equal to the Effect. 
-
-#### Cure Disease
-
-- Type: M 
-- Range: T 
-- Duration: P 
-- FV: (Disease DV) – 2
-
-This spell is used at any point after infection to help a patient overcome illness. The infected character receives a number of additional dice on her Disease Resistance Test equal to the spell’s Effect. It does not heal any damage already inflicted by the disease (that takes a separate Healing spell).
-
-#### Decrease [Attribute] (Negative)
-
-- Type: P 
-- Range: T 
-- Duration: S 
-- FV: (F ÷ 2) + 1
-
-This spell weakens the target by decreasing a chosen attribute. A version of this spell exists for each Physical and Mental attribute, but not for Special attributes (Initiative, Edge, Magic). It affects both natural and augmented attributes. The target resists the spell using the attribute affected. If the caster wins, the attribute is reduced by the spell’s Effect. If a Physical attribute is reduced to 0, the victim is incapacitated or paralyzed. If a Mental attribute is reduced to 0, the victim stands about mindlessly confused. Note that decreasing an attribute may affect other derived statistics.
-
-#### Detox
-
-- Type: M 
-- Range: T 
-- Duration: P 
-- FV: (Toxin DV) – 4
-
-Detox relieves the side effects of a drug or poison. The Force of the spell must equal or exceed the toxin’s base DV. A single Effect is sufficient to eliminate all symptoms. Detox does not heal or prevent damage done by toxins, but it eliminates any side effects they may have on the victim (dizziness, hallucinations, nausea, pain, and so forth). Detox is the hangover cure of choice among those who can afford it. 
-
-#### Heal
-
-- Type: M 
-- Range: T 
-- Duration: P 
-- FV: (F ÷ 2) – 2
-
-Heal repairs physical injuries. It heals an amount of Physical damage equal to the spell’s `Force + Effect from the Spellcasting Test`. Effect can also be used to reduce the base time for the spell to become permanent; each Effect spent this way shaves off 1 Combat Turn. A character can only be magically healed once for any single set of injuries. 
-
-#### Hibernate
-
-- Type: M 
-- Range: T 
-- Duration: S 
-- FV: (F ÷ 2) – 3
-
-The caster must touch a voluntary or unconscious subject. The spell puts the subject in a form of suspended animation. The subject’s bodily processes are slowed by a factor equal to the Effect. For example, If the Effect was 4, the subject’s metabolism is slowed by a factor of 4. Such a subject sealed into a chamber with enough air to keep it alive for a day would be able to last four days.
-
-#### Increase [Attribute]
-
-- Type: P 
-- Range: T 
-- Duration: S 
-- FV: (F ÷ 2) – 2
-
-This spell increases an attribute (natural or augmented) on a voluntary subject. A version of this spell exists for each Physical and Mental attribute, but not for Special attributes (Initiative, Edge, Magic). The Force of the spell must equal or exceed the (augmented) value of the attribute being affected. The attribute is increased by an amount equal to the Effect scored. Each attribute can only be affected by a single Increase Attribute spell at a time.
-
-Note that increasing an attribute may affect other derived statistics (Increase Reaction also affects Initiative, for example, while Increase Stamina will add extra boxes to the character’s Physical Condition Monitor for as long as the spell lasts).
-
-#### Increase Reflexes
-
-- Type: P 
-- Range: T 
-- Duration: S 
-- FV: (F ÷ 2) + 2
-
-This spell increases the reflexes (Initiative) of a voluntary subject. Each level of increase adds +1 Initiative. The caster must achieve a certain Effect Threshold for each level:
-
-- Effect 2: +1 Initiative
-- Effect 3: +2 Initiative, +1 Major Action
-- Effect 4 (max.): +3 Initiative, +2 Complex Actions
-
-A character can only be affected by a single Increase Reflexes spell at a time.
-
-#### Oxygenate
-
-- Type: P 
-- Range: T 
-- Duration: S 
-- FV: (F ÷ 2) – 1
-
-This spell oxygenates the blood of a voluntary subject, providing extra Stamina (+1 for every Effect) to resist suffocation, strangulation, the effects of inhaled gas, or any other effect of oxygen deprivation. The spell also allows the subject to breathe underwater.
-
-#### Prophylaxis
-
-- Type: M 
-- Range: T 
-- Duration: S 
-- FV: (F ÷ 2) – 2
-
-This spell provides additional Stamina (+1 per Effect) for a voluntary subject to resist infection, drugs, or toxins. The spell does not discriminate between harmful and beneficial drugs, so the subject also resists medicines and other helpful drugs while under the effects of the spell.  Reduce the effect of a beneficial drug by 1 for every Effect of the spell. Two or more Effect prevent the subject from being affected by alcohol while under the effect of this spell.
-
-#### Resist Pain
-
-- Type: M 
-- Range: T 
-- Duration: P 
-- FV: (F ÷ 2) – 4
-
-This spell allows the caster to have the same affect of the High Pain Threshold Quality for a number of rounds equal to the Force + Effect of the Spellcasting Test. 
-
-
-#### Stabilize
-
-- Type: M 
-- Range: T 
-- Duration: P 
-- FV: (Overflow damage) – 2
-
-When applied to a character who is at Physical Health 0 and dying, this spell stabilizes all vital functions and prevents the character from dying. The spell’s Force must equal or exceed the overflow damage already taken when the spell starts. The full time must be taken for the spell to become Permanent before the character is stabilized; Effect reduce the time it takes by 1 Combat Turn each. If successful, the spell prevents the character from taking further damage from Physical Damage Overflow.
-
-### Illusion Spells
-
-No matter how realistic they are, illusions cannot directly cause permanent harm. They can cause distractions, loss of balance or orientation, and even symptoms like nausea or pain. All such effects vanish as soon as the caster drops the illusion. Illusions can certainly cause harm by manipulating the senses so a victim walks into traffic or off a high building, for example, but they cannot directly cause damage.
-
-Obvious illusions are used solely for entertainment and cannot fool subjects into believing they are real. Realistic illusions seem completely real. Single-sense illusions affect only one sense. Full sensory illusions affect all senses. Though mana-based illusions can be created on the astral plane, their magical auras give them away as illusions to anyone who makes a successful Assensing Test (see Astral Willpower). Illusions cannot fool assensing to disguise or create auras.
-
-Mana Illusions: Mana-based illusion spells affect the mind and are ineffective against technological viewing systems like cameras. Mana illusions are resisted by Willpower + Counterspelling (if any). Some mana illusions affect the target’s senses directly, others affect the senses of anyone perceiving the subject of the spell (though the spellcaster is not affected by her own spell). 
-
-Physical Illusions: Physical illusion spells create actual images or alter physical properties, such as light or sound. Physical illusions are effective against technological systems, assuming the caster achieves enough Effect to meet the Object Resistance Threshold. They are resisted by `Intuition + Counterspelling (if any)`; non-living devices do not get a resistance test. The spellcaster must generate more Effect than the observer for the illusion to be considered real. If the spell is not completely resisted, the character is fully affected by the illusion.
-
-#### Confusion (Realistic, Multi-Sense)
-
-- Type: M 
-- Range: LOS 
-- Duration: S 
-- FV: (F ÷ 2)
-
-
-#### Mass Confusion (Realistic, Multi-Sense, Area)
-
-- Type: M 
-- Range: LOS (A) 
-- Duration: S 
-- FV: (F ÷ 2) + 2
-
-
-#### Chaos (Realistic, Multi-Sense)
-
-- Type: P 
-- Range: LOS 
-- Duration: S 
-- FV: (F ÷ 2) + 1
-
-
-#### Chaotic World (Realistic, Multi-Sense, Area)
-
-- Type: P 
-- Range: LOS (A) 
-- Duration: S 
-- FV: (F ÷ 2) + 3
-
-
-These spells produce a storm of conflicting sensations and images to confuse the senses. For each Effect on the Spellcasting Test, the target suffers a –1 modifier to all tests from the distraction. Confusion affects a single target. Mass Confusion is an area spell. The Chaos spell is a physical version of Confusion (above), so it also affects technological systems and sensing devices. Chaotic World is an area version of Chaos.
-
-#### Entertainment (Obvious, Multi-Sense, Area)
-
-- Type: M 
-- Range: LOS (A) 
-- Duration: S 
-- FV: (F ÷ 2) + 1
-
-
-#### Trid Entertainment (Obvious, Multi-Sense, Area)
-
-- Type: P 
-- Range: LOS (A) 
-- Duration: S 
-- FV: (F ÷ 2) + 2
-
-
-These area spells create obvious, but entertaining, illusions. Effect on the Spellcasting Test measure how creative, interesting, and captivating the audience finds the illusion. The caster can reproduce just about anything from her imagination, or re-create something she has experienced. The gamemaster might require additional hits for exacting detail. 
-
-Entertainment affects the minds of the subjects and cannot be detected by non-living sensors. Trid Entertainment is a physical spell, and can be perceived by both living subjects and non-living sensors. These spells are used for amusement as well as art. The entertainment industry uses illusionists as literal “special effects wizards.” Magical designers and artists work to create new and interesting sensations, including sensations that can’t otherwise be experienced in the real world. Only the wealthy can afford the unique experiences offered by such spellcasters firsthand.
-
-#### Invisibility (Realistic, Single-Sense)
-
-- Type: M 
-- Range: LOS 
-- Duration: S 
-- FV: (F ÷ 2)
-
-
-#### Improved Invisibility (Realistic, Single-Sense)
-
-- Type: P 
-- Range: LOS 
-- Duration: S 
-- FV: (F ÷ 2) + 1
-
-
-This spell makes the subject more difficult to detect by normal visual senses (including low-light, thermographic, and other senses that rely on the visual spectrum). The subject is completely tangible and detectable by the other senses (hearing, smell, touch, etc.). Her aura is still visible to astral perception. 
-
-Anyone who might perceive the subject must first successfully resist the spell. Simply make one Spellcasting Test and use the result scored as the Threshold for anyone that resists at a later point. Even if the spell is resisted, the subject might remain unnoticed if she wins a Sneaking Test. An invisible character may still be detected by non-visual means, such as hearing or smell. Attacks against invisible targets suffer the Target Hidden modifier (disadvantage) if the attacker is unable to see or otherwise sense the subject of the spell. Invisibility affects the minds of viewers. Improved invisibility creates an actual warping of light around the subject that affects technological sensors as well.
-
-
-This spell makes the subject more difficult to detect
-
-by normal visual senses (including low-light, thermo-
-graphic, and other senses that rely on the visual spec-
-trum). The subject is completely tangible and detectable
-
-by the other senses (hearing, smell, touch, and even
-
-taste, if it somehow comes to that). Her aura is still visi-
-ble to astral perception.
-
-Anyone who might be in a position to perceive the
-subject must first successfully resist the spell. Simply
-make one Spellcasting Test and use the hits scored as
-the Threshold for anyone that resists at a later point.
-Even if the spell is resisted, the subject might remain
-undetected if she’s good enough with her Sneaking Test. An invisible character may still be detected by non-visual means, such as hearing or smell. Attacks against invisible targets suffer the Blind Fire modifier if the attacker is unable to see or otherwise sense the subject of the spell.
-
-Invisibility affects the minds of viewers. Improved Invisibility mimics the subject’s surroundings from all angles and affects technological sensors as well.
-
-#### Mask (Realistic, Multi-Sense)
-
-- Type: M 
-- Range: T 
-- Duration: S 
-- FV: (F ÷ 2)
-
-
-#### Physical Mask (Realistic, Multi-Sense)
-
-- Type: P 
-- Range: T 
-- Duration: S 
-- FV: (F ÷ 2) + 1
-
-
-The Mask spell requires the caster to touch the subject. The subject assumes a different physical appearance (of the same basic size and shape) chosen by the caster. This alters the subject’s voice, scent, and other physical characteristics as well. Anyone who might see through the disguise must first successfully resist the spell. Simply make one Spellcasting Test and use the result scored as the {Threshold} for anyone that resists at a later point.
-
-Mask affects the minds of viewers. Physical Mask creates an illusion that affects technological sensors as well.
-
-#### Phantasm (Realistic, Multi-Sense, Area)
-
-- Type: M 
-- Range: LOS (A) 
-- Duration: S 
-- FV: (F ÷ 2) +2
-
-
-#### Trid Phantasm (Realistic, Multi-Sense, Area)
-
-- Type: P 
-- Range: LOS (A) 
-- Duration: S 
-- FV: (F ÷ 2) +3
-
-
-These area spells create convincing illusions of any object, creature, or scene the caster desires. They can create an illusion of anything the caster has seen before, from a flower or a credstick to a dragon breathing fire, as long as the illusion is no larger than the spell’s area. Anyone who might pierce the illusion must successfully resist the spell. Simply make one Spellcasting Test and use the result as the Threshold for anyone that resists at a later point. Phantasm only affects living beings, while Trid Phantasm affects technological sensors as well. 
-
-#### Hush (Realistic, Single-Sense, Area)
-
-- Type: M 
-- Range: LOS (A) 
-- Duration: S 
-- FV: (F ÷ 2) + 2
-
-
-#### Silence (Realistic, Single-Sense, Area)
-
-- Type: P 
-- Range: LOS (A) 
-- Duration: S 
-- FV: (F ÷ 2) + 3
-
-
-These spells create an area that damps sound. Sonic attacks into or out of the field, as well as critter powers using a sonic medium (such as Paralyzing Howl), are reduced by –1 per Effect on the Spellcasting Test. Anyone attempting to hear a sound from within or across the silenced area must successfully resist the spell.
-
-Hush is a mana spell and so only affects living beings and magic sonic attacks. Silence affects technological devices and is useful for jamming alarms, detection devices, sonar, and tactical communications, as well as technological sonic weapons.
-
-#### Sneaking (Realistic, Single-Sense)
-
-- Type: P 
-- Range: LOS 
-- Duration: S 
-- FV: (F ÷ 2) +1
-
-
-Sneaking makes the subject less audible to normal hearing (including augmented hearing). The subject moves in silence, making less or no noise. Things not directly touched by the subject can still make noise, so a character under a Sneaking spell would make no noise knocking on a door, but the door would make noise hitting the floor or wall if it was kicked in.
-
-Anyone who might hear the subject must first successfully resist the spell. Simply make one Spellcasting Test and use the result scored as the Threshold for anyone that resists at a later point. Even if the spell is resisted, the subject might remain unnoticed if she wins a Shadowing or Infiltration Test.
-
-### Manipulation Spells
-
-Manipulation spells control, animate, or transform matter and energy.
-Many Manipulation spells have a Threshold; this is the number of
-Spellcasting + Magic hits required for the spell to function. Mental
-Manipulations affect the mind, Physical Manipulations affect physical
-forms, and Environmental Manipulations affect conditions such as
-light, temperature, gravity, etc. Most Manipulation spells are handled
-as Success Tests, with hits determining the effect.
-
-Mental Manipulations: For Mental Manipulation spells, the caster makes an Opposed Spellcasting + Magic Test against the target’s Willpower (+ Counterspelling, if available). If the caster scores more hits, she controls the target as noted in the spell description. Every (Force) Combat Turns, the victim may spend a Major Action to shake off the mental control. the victim rolls a Willpower (+ Counterspelling) Test; each hit reduces the Effect on the caster’s original Spellcasting Test. If the spellcaster’s Effect are reduced to 0, the spell no longer affects the target.
-
-#### Armor (Physical)
-
-- Type: P 
-- Range: LOS 
-- Duration: S 
-- FV: (F ÷ 2) + 3
-
-this spell creates a glowing field of magical energy around the subject that
-protects against Physical damage. It provides both Ballistic and Impact
-armor (cumulative with worn armor) to the subject equal to the hits scored. 
-
-#### Control Actions (Mental)
-
-- Type: M 
-- Range: LOS 
-- Duration: S 
-- FV: (F ÷ 2)
-
-#### Mob Control (Mental, Area)
-
-- Type: M 
-- Range: LOS (A) 
-- Duration: S 
-- FV: (F ÷ 2) + 2
-
-the caster of this spell controls the physical actions of a target like a puppeteer pulling strings. the victim’s consciousness is unaffected, but the
-caster controls the victim’s body. the target uses any skills or abilities at
-the caster’s orders, but these tests suffer a  modifier equal to the
-target’s Willpower because of the victim’s resistance to the caster’s commands. Controlling a target character requires the caster to spend a Simple
-Action; when not directly controlled, the victim may act as normal.
-Control Actions only affects a single target, Mob Control affects
-any living targets within the area of effect. Victims of a Mob Control
-may be manipulated individually (with separate Minor Actions) or
-issued the same command as a group (with a single Minor Action).
-
-#### Control Emotions (Mental)
-
-- Type: M 
-- Range: LOS 
-- Duration: S 
-- FV: (F ÷ 2)
-
-#### Mob Mood (Mental, Area)
-
-- Type: M 
-- Range: LOS (A) 
-- Duration: S 
-- FV: (F ÷ 2) + 2
-
-the target feels an overwhelming emotion chosen by the spellcaster (such
-as love, hate, fear, joy, sorrow, and so forth). the target believes the emotion
-wholeheartedly, but not mindlessly. A target who acts in accordance with
-the emotion (for example, fighting while filled with anger or hate) suffers
-no penalty. If the target takes action not relevant to the emotion (trying
-to drive while laughing hysterically), she suffers a –2  modifier
-for the distraction. the caster may switch emotions with a Minor Action.
-Control Emotions only affects a single target, Mob Mood affects
-any living targets within the area of effect.
-
-#### Control Thoughts (Mental)
-
-- Type: M 
-- Range: LOS 
-- Duration: S 
-- FV: (F ÷ 2) + 2
-
-#### Mob Mind (Mental, Area)
-
-- Type: M 
-- Range: LOS 
-- Duration: S 
-- FV: (F ÷ 2) + 4
-
-the caster seizes control of the target’s mind, directing everything the
-target does. the caster mentally gives commands with a Minor Action
-and the target is compelled to obey
-
-Control thoughts affects a single target, while Mob Mind affects
-any living targets within the area of effect. Victims of a Mob Mind may
-be manipulated individually (with separate Minor Actions) or issued
-the same command as a group (with a single Minor Action)
-
-#### Fling (Physical)
-
-- Type: P 
-- Range: LOS 
-- Duration: I 
-- FV: (F ÷ 2) + 1
-
-this spell psychokinetically hurls a single object of no more than
-(Force) pounds at a designated target with a Strength equal to onehalf the spellcaster’s Magic. Treat the Spellcasting Test as a normal
-Ranged Combat Test for the purposes of the item hitting the target.
-throwing weapons propelled by this spell use their normal range based
-on the spell’s effective Strength.
-
-#### Ice Sheet (Environmental, Area)
-
-- Type: P 
-- Range: LOS (A) 
-- Duration: I 
-- FV: (F ÷ 2) + 3
-
-This spell creates a slippery sheet of ice over the area of effect.
-Characters crossing the ice must make an Quickness + Reaction Test with
-a Threshold equal to the hits scored to avoid falling prone. Vehicles
-must make a Crash Test. the sheet melts at a rate of 1 square
-yard per minute in normal temperatures.
-
-#### Ignite (Physical)
-
-- Type: P 
-- Range: LOS 
-- Duration: P 
-- FV: (F ÷ 2)
-
-the Ignite spell accelerates molecular motion in the target, causing it
-to catch fire once the spell becomes permanent. the spellcaster must
-achieve enough Effect to beat a Threshold equal to the target’s Object
-Resistance. Once the target ignites, it burns normally until it
-is consumed or extinguished.
-Against living targets, treat Ignite as an Opposed Test pitting
-Spellcasting + Magic vs. Stamina (+ Counterspelling). If successful,
-Ignite wraps a living target in heat and flames once it has been made
-permanent, causing (Force) boxes of Fire damage on the first
-Combat Turn, and increasing by one box of damage each additional
-turn. Resolve the damage at the end of each Combat Turn by making
-a Damage Resistance Test using the victim’s Stamina + half Impact armor.
-Ammo or explosives carried by a victim may go off. the gamemaster
-should reduce the Force of the fire accordingly for extinguishing efforts 
-
-
-
-#### Influence (Mental)
-
-- Type: M 
-- Range: LOS 
-- Duration: P 
-- FV: (F ÷ 2) + 1
-
-this spell implants a single suggestion in the victim’s mind, like a powerful post-hypnotic command. the subject will carry out this suggestion as if it were her own idea and it will then fade. If confronted with
-the wrongness of the suggestion, the subject can make a Willpower
-Test to overcome it as described under Mental Manipulations.
-the caster can also withdraw the suggestion at any time.
-
-#### Levitate (Physical)
-
-- Type: P 
-- Range: LOS 
-- Duration: S 
-- FV: (F ÷ 2) + 1
-
-Levitate allows the caster to telekinetically lift a person or object and
-move it around. the caster must achieve a Threshold on the Spellcasting
-Test equal to 1 per 200 kg of the subject’s mass. the subject of the spell
-can be moved anywhere in the caster’s line of sight at a Movement rate
-equal to the spell’s Force x net Spellcasting hits in yards per turn.
-Objects flung into other things should be handled as a Ranged
-Attack Test (see Fling), inflicting a number of boxes of Stun damage as
-decided by the gamemaster (especially sharp or dangerous objects may
-do Physical damage at the gamemaster’s discretion).
-
-If the caster is attempting to levitate an item held by a living being,
-make an Opposed Test between the spell’s Force x 2 and the holder’s
-Strength + Stamina. the caster must have at least 1 net hit to levitate the
-item away. If the caster is attempting to levitate an unwilling living
-being, the Opposed Test uses the target’s Strength + Stamina. You can use
-this spell to levitate yourself, if desired.
-
-#### Light (Environmental, Area)
-
-- Type: P 
-- Range: LOS (A) 
-- Duration: S 
-- FV: (F ÷ 2) – 1
-
-this spell creates a mobile point of light, illuminating a radius around
-it equal to the spell’s Force in yards. the spell cannot be used to
-blind, but does offset darkness visibility modifiers. Each hit on the
-Spellcasting Test counters a –1 die penalty for visibility.
-
-#### Magic Fingers (Physical)
-
-- Type: P 
-- Range: LOS 
-- Duration: S 
-- FV: (F ÷ 2) + 1
-
-Magic Fingers creates a psychokinetic effect like “invisible hands” that
-can hold or manipulate items. the hits on the Spellcasting + Magic
-Test become the spell’s effective Strength and Quickness. the caster can use
-skills remotely with Magic Fingers, but all tests receive a –2 
-modifier due to problems of fine control. Even simple actions like picking up a coin may require an Quickness Test, at the gamemaster’s discretion.
-the caster can fight, pick a lock, or perform any other action,
-using the magic fingers as if they were real hands. the spell can reach
-any point the caster can see, and Clairvoyance or remote-viewing technology can be used to get a close-up of the scene as long as it is within
-the caster’s normal line of sight. this spell comes in very handy for disarming bombs and handling other hazardous work from a safe distance.
-
-#### Mana Barrier (Environmental, Area)
-
-- Type: M 
-- Range: LOS (A) 
-- Duration: S 
-- FV: (F ÷ 2) + 1
-
-Mana Barrier creates an invisible barrier of magical energy with a Force
-equal to the Effect scored. this barrier does not restrict living beings
-or physical objects, but it does impede spirits, foci, dual beings, and
-spells. If cast on the astral plane, it also impedes astral forms and restricts visibility. Any target of a spell that is on the other side of the
-Mana Barrier receives a bonus to its spell resistance  equal to
-the barrier’s Force. If the target had no resistance , but instead
-has an Object Resistance Threshold, increase the Threshold by 1 for
-every increment of 3 Force in the Mana Barrier (round up). 
-
-#### Petrify (Physical)
-
-- Type: P 
-- Range: LOS 
-- Duration: S 
-- FV: (F ÷ 2) + 2
-
-Petrify transforms living tissue into stone-like calcium carbonate. the
-caster must win an Opposed Test pitting her Spellcasting + Magic
-against the target’s Stamina (+ Counterspelling). Additionally, the spell’s
-Force must equal or exceed the target’s Stamina. Non-living material—
-including clothing, gear, and cyberware—is not affected. the target
-is not conscious while under the effects of this spell, and any damage
-suffered by the stone-like form affects the target normally. While petrified, the subject has a barrier Armor rating equal to Stamina + Effect
-(see Barriers).
-
-#### Physical Barrier (Environmental, Area)
-
-- Type: P 
-- Range: LOS (A) 
-- Duration: S 
-- FV: (F ÷ 2) + 3
-
-Barrier spells create glowing, translucent force-fields with both 1 point
-of Armor and Structure rating per hit (see Barriers). the caster
-can form the barrier as a dome with a radius and height equal to the 
-spell’s normal radius. the caster can also form a wall with a height and
-length equal to the spell’s Force. the caster can adjust size of the barrier
-the same as the radius of an area spell .
-Physical Barrier creates a physical wall. Anything the size of a molecule (or less) can pass through the barrier, including air or other gases.
-Anything bigger treats the barrier as a normal physical wall. Attacks
-directed through a barrier have a –1  visibility penalty. the
-barrier does not impede spells. the barrier can be brought down by
-physical attacks, but as long as it is sustained it regenerates damage
-quickly—any reductions in Structure Rating are restored at the beginning of the next Combat Turn. If the barrier is penetrated, however,
-it collapses and the spell ends. Physical Barrier cannot be used on the
-astral plane.
-
-#### Poltergeist (Environmental, Area)
-
-- Type: P 
-- Range: LOS (A) 
-- Duration: S 
-- FV: (F ÷ 2) + 3
-
-Poltergeist picks up all small objects (up to a kilogram in mass) within
-the spell’s area and whirls them around in random patterns. this imposes a –2  visibility penalty in the area. the spell inflicts
-2 boxes of Stun damage (resisted with Reaction + Impact armor) to
-anyone in the area each Combat Turn, whacking them with flying
-debris. Poltergeist may do more damage in cluttered environments, or
-inflict Physical damage if the gamemaster feels the debris is sufficiently
-dangerous (broken glass and nails, for example).
-
-#### Shadow (Environmental, Area)
-
-- Type: P 
-- Range: LOS (A) 
-- Duration: S 
-- FV: (F ÷ 2) + 1
-
-Shadow creates a globe of darkness with a radius equal to the spell’s
-Force in yards. Every hit imposes a –1 die pool visibility modifier
-against targets within the area (maximum –6).
-
-#### Shapechange (Physical)
-
-- Type: P 
-- Range: LOS 
-- Duration: S 
-- FV: (F ÷ 2) + 2
-
-#### (Critter) Form (Physical)
-
-- Type: P 
-- Range: LOS 
-- Duration: S 
-- FV: (F ÷ 2) + 1
-
-Shapechange transforms a voluntary subject into a normal (non-paranormal) critter, though the subject retains human consciousness. the
-subject can only assume the form of a critter whose base Stamina rating
-is 2 points greater or less than her own. Consult the Critters section, for the subject’s Physical attributes while in critter form. Add 1
-to the critter’s Base attribute Ratings for every hit the caster generates.
-Her Mental attributes remain unchanged.
-this spell does not transform clothing and equipment. Magicians
-in critter form can still cast spells, but cannot perform other tasks requiring speech.
-Critter form works like the Shapechange spell, but only allows the
-subject to change into a specific non-paranormal animal. Each critter
-form is a different spell (Eagle Form, Wolf Form, and so on)
-
-#### Turn to Goo (Physical)
-
-- Type: P 
-- Range: LOS 
-- Duration: S 
-- FV: (F ÷ 2) + 2
-
-Turn to Goo transforms living tissue into a sticky, glue-like substance.
-the caster must win an Opposed Test pitting her Spellcasting + Magic
-against the target’s Stamina (+ Counterspelling). Additionally, the spell’s
-Force must equal or exceed the target’s Stamina. Non-living material—
-including clothing, gear, and cyberware—is not affected. the target
-is not conscious while under the effects of this spell, and any damage
-suffered by the gooey form affects the target normally. the goo has a
-barrier Armor rating equal to Stamina + Effect.
-
-
 
 
 ## The Matrix
@@ -3978,7 +2689,7 @@ Host Attack Rating: Host Rating X 2
 
 Condition Monitor: 
 
-Initiative: (Data Processing x 2) + 3D6
+Initiative: (Data Processing x 2) + Ability Dice Code
 
 - Rating 1: Personal sites, public education.
 - Rating 2–3: Low-end commercial businesses, social media.
@@ -3995,7 +2706,7 @@ Systems are really just a collection of Nodes. There are many different kinds of
 
 ### Types of IC
 
-These are the types of IC a host may throw at unwary intruders. All IC use Host Attack Rating and (Host Rating x 2) for Condition Monitor and most rolls. Their Initiative is (Data Processing x 2) + 3D6. Defensive rolls and effects vary by IC type.
+These are the types of IC a host may throw at unwary intruders. All IC use Host Attack Rating and (Host Rating x 2) for Condition Monitor and most rolls. Their Initiative is (Data Processing x 2) + Ability Dice Code. Defensive rolls and effects vary by IC type.
 
 Trust me, the GM knows exactly what kind of IC you are up against.
 
@@ -4169,7 +2880,7 @@ Causes Physical damage with Matrix attack. This program is linked to the Attack 
 
 #### Biofeedback Filter
 
-Allows Toughness to apply to Matrix Damage
+Allows a Defense Roll for Matrix Damage 
 
 #### Blackout
 
@@ -4215,7 +2926,7 @@ Host Defense: Varies by IC
 
 Player Rolls `Reaction + Intuition + 1D6`
 
-Host Rolls: `(Data Processing x 2) + 3D6`
+Host Rolls: `(Data Processing x 2) + Ability Dice Code`
 
 #### 3. Declare Actions
 
