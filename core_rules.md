@@ -256,27 +256,6 @@ Each Attribute has a Die code (1D, 1D+1, 4D, 9D+2 or some other number). Reading
 
 This sysem is used for skills (see skills) as it will limit your skill rolls to the potential available to your attribute.
 
-| Score | Dice                |
-| ----- | ------------------- |
-| 1     | 1D6                 | 5  | 0  |
-| 2     | 1D6+1               | 5  | 1  |
-| 3     | 1D6+2               | 5  | 2  |
-| 4     | 2D6                 | 10 | 3  |
-| 5     | 2D6+1               | 10 | 4  |
-| 6     | 2D6+2               | 10 | 5  |
-| 7     | Ability Dice Code   | 15 | 6  |
-| 8     | Ability Dice Code+1 | 15 | 7  |
-| 9     | Ability Dice Code+2 | 15 | 8  |
-| 10    | 4D6                 | 20 | 9  |
-| 11    | 4D6+1               | 20 | 10 |
-| 12    | 4D6+2               | 20 | 11 |
-| 13    | 5D6                 | 25 | 12 |
-
-
-18
-
-
-
 
 There are six attributes and four special attributes.
 
@@ -336,7 +315,7 @@ This critical statistic measures the undefinable, putting it on tricky ground ri
 
 A character’s Reaction is, quite simply, her physical reflexes—how quickly she can react to a changing situation, and how well she can dodge the physical slings and arrows that shadowrunning brings. A character with a high Reaction is more likely to be on top of a situation and will be in a better position to react to danger, while low-Reaction characters will lag behind.
 
-Reaction = (Quickness + Intelligence)
+Reaction = (Quickness Dice Code + Intelligence Dice Code)
 
 **Essence**
 
@@ -350,16 +329,13 @@ All characters have this attribute, starting at 6. It is a measure of how many a
 
 In Sixfinity character generation is based on the Priority System. The Priority System is a table with the following columns: Metatype, Attributes, Magic, Skills, and Resources. The rows are divided into Priority Levels ranging from Priority A to Priority E. Players assign a specific Priority Level for each of the columns to their character depending on their preferences. The values assigned must be different for each column (representing each aspect of the character), and there can be no duplications. For example, a character may not have Priority Level B for Magic and Priority B for Resources. The higher the Priority Level (A, B, etc.), the more valuable it is for the character. Characters use Experience later on to customize their characters even further.
 
-The player begins the character-creation process by choosing their character’s metatype, or metatype. There are five distinct races within the core Sixfinity system, gamemasters are welcome to add or replace them: dwarfs, elves, humans, orcs, and fomori. Each metatype receives different racial advantages (and possibly disadvantages). Humans, for example, receive a higher rating in Edge (+1). Formions receive Thermographic Vision, +1 Reach (1 square), and Dermal Armor, but they also have the disadvantage of having their Lifestyle costs doubled to reflect the costs of adapting everything they use—especially their gear, to meet their massive physical requirements. Several metatype also receive physical or mental advantages/disadvantages to their attribute ratings (such as higher or lower natural attribute limits). When determining which metatype best fits the character concept they wish to play, the player should refer to the Metatype Attribute Table (below) and review the specific details for each metatype.
-
-Once the player has selected the metatype they wish to play, they should review the Metatype column to determine which Priority Levels give them the best options for their character based on their preferred metatype and the special attribute points they need. The special attributes are Edge, and Magic; if you want your character to have a high rating in one or more of these areas, make sure you select a row with plenty of special attribute points.
 
 Regardless of Priority all starting characters get 25 Experience to spend on their character to flesh them out, make then unique.
 
 **Priority System Table**
 
 
-| Priority | Heritage | Attribute Points | Magic              | Skills | Resources |
+| Priority | Heritage | Attribute Points | Magic (3D6)        | Skills | Resources |
 | -------- | -------- | ---------------- | ------------------ | ------ | --------- |
 | A        | Troll    | 20               | Magic:6, 10 Spells | 38     | 450k      |
 | B        | Orc      | 18               | Magic:4, 7 Spells  | 30     | 275k      |
@@ -370,13 +346,13 @@ Regardless of Priority all starting characters get 25 Experience to spend on the
 **Metatype Attribute Starting and Maximum Values**
 
 
-| Metatype | Body      | Qui       | Str         | Wil       | Int       | Cha         | Rea | Special Features                        |
-| -------- | --------- | --------- | ----------- | --------- | --------- | ----------- | --- | --------------------------------------- |
-| Human    | 1D6/2D6+2 | 1D6/2D6+2 | 1D6/2D6+2   | 1D6/2D6+2 | 1D6/2D6+2 | 1D6/2D6+2   | 0/6 |                                         |
-| Elf      | 1D6/2D6+2 | 1D6+1/3d6 | 1D6/2D6+2   | 1D6/2D6+2 | 1D6/2D6+2 | 1D6+2/3d6+1 | 0/6 | Low-Light Vision                        |
-| Dwarf    | 1D6+1/3d6 | 1D6/2D6+2 | 1D6+2/3d6+1 | 1D6+1/3d6 | 1D6/2D6+2 | 1D6/2D6+2   | 0/5 | Thermographic Vision, Resist:Disease +2 |
-| Orc      | 2D6/3d6+2 | 1D6/2D6+2 | 1D6+2/3d6+1 | 1D6/2D6+2 | 1D6/2D6+1 | 1D6/2D6+1   | 0/5 | Low-Light Vision                        |
-| Troll    | 2D6+2/4D6 | 1D6/2D6+1 | 2D6+1/4D6   | 1D6/2D6+1 | 1D6/2D6   | 1D6/2D6     | 0/4 | Thermographic Vision, +1 Armor          |
+| METATYPE | BODY      | QUICKNESS | STRENGTH    | WILLPOWER | INTELLIGENCE | CHARISMA    | REACTION | SPECIAL FEATURES                        |
+| -------- | --------- | --------- | ----------- | --------- | ------------ | ----------- | -------- | --------------------------------------- |
+| Human    | 1D6/2D6+2 | 1D6/2D6+2 | 1D6/2D6+2   | 1D6/2D6+2 | 1D6/2D6+2    | 1D6/2D6+2   | 0/6      |                                         |
+| Elf      | 1D6/2D6+2 | 1D6+1/3D6 | 1D6/2D6+2   | 1D6/2D6+2 | 1D6/2D6+2    | 1D6+2/3D6+1 | 0/6      | Low-Light Vision                        |
+| Dwarf    | 1D6+1/3D6 | 1D6/2D6+2 | 1D6+2/3D6+1 | 1D6+1/3D6 | 1D6/2D6+2    | 1D6/2D6+2   | 0/5      | Thermographic Vision, Resist:Disease +2 |
+| Orc      | 2D6/3D6+2 | 1D6/2D6+2 | 1D6+2/3D6+1 | 1D6/2D6+2 | 1D6/2D6+1    | 1D6/2D6+1   | 0/5      | Low-Light Vision                        |
+| Troll    | 2D6+2/4D6 | 1D6/2D6+1 | 2D6+1/4D6   | 1D6/2D6+1 | 1D6/2D6      | 1D6/2D6     | 0/4      | Thermographic Vision, +1 Armor          |
 
 
 **Step One**
@@ -416,32 +392,36 @@ Final Touches and Derived Stats.
 ### Derived Stats
 
 #### Defense
-We use Defense Rolls to Defend Attacks. 
+We use Opposed Tests for Defense. 
 
-Defense = Roll + Reaction
+Attacker: `Attack Attribute dice + Skill`, Effect die drives Net Effect → damage add.
+
+Defender: `Body Dice Code ND6 + Reaction`
+
+Winner by total; ties to attacker.
 
 #### Physical Health
 
-Physical Health = (Body Dice Code x4) x 4.
+Physical Health = ((8 * Body dice) + pips) * 2
 
 
 If you had a Body of 2D6 you you would have 32 Health. You add the Pips after the fact.
 
-If yo uhad 2D6 +2 you would have 34 Health.
+If yo uhad 2D6 +2 you would have 36 Health. (8*2) = (16 + 2) * 2 = 36
 
-Once you reach 0 health you are unconcious and begin bleeding to death. You can bleed until you max your Overflow and then you are dead.
+Once you reach 0 health you are Unconscious and begin bleeding to death. You can bleed until you max your Overflow and then you are dead.
 
 #### Stun Health
 
-Stun Health = (Willpower Dice Code x4) x 4
+Stun Health = ((8 * Willpower dice) + pips) * 2
 
-This is where Stun Damage is recorded. If it reaches 0 you fall unconcious and any further damage begins to affect Physical.
+This is where Stun Damage is recorded. If it reaches 0 you fall Unconscious and any further damage begins to affect Physical.
 
 #### Overflow
 
 This is how far into the Negatives you can go before you die. 
 
-Overflow = Body Dice Code X 4
+Overflow = (4 * Body Dice) + pips
 
 If you had a Body of 2D6 you would have an Overflow of 8
 
@@ -453,7 +433,7 @@ Base movement for any character is 10 Yards.
 
 Initiative is used to determine who goes first in combat. Add your Reaction for your base, then write how many Initiative Dice you have. You start with a default of 1; this may be increased by augmentations. It looks like this when written: 9 + 1D6
 
-Initiative = Reaction + 1D6
+Initiative = Reaction + 1d6 (+Xd6 from gear)
 
 #### Edge Pool
 
@@ -461,21 +441,6 @@ Edge Pool = [((Quickness Dice Code + Intelligence Dice Code + Willpower Dice Cod
 
 So if you had a Quickness od 1D6 +2, Intelligence of 2D6, and Willpower of 2D6+2, you would have a Edge Pool of 6 =  (1+2+2) + 3
 
-#### Composure (Willpower + Charisma)
-
-When the stress is running hot, the gamemaster can call for a test to see if you keep your cool. The gamemaster sets the threshold, and the player makes the roll to see if they stay engaged or start freaking out. Note that repeated exposure to certain types of situations reduces the need for Composure tests in those situations
-
-#### Judge Intentions (Willpower + Willpower)
-
-Sometimes you just need a roll to get a read on someone. The Judge Intentions test is just that. Once you’ve had enough time to get a read on someone (as judged by the gamemaster), you can make a roll to help fill in your basic attitude and feelings toward the target. Just remember that a good part of Mr. Johnson’s training is dedicated to getting you to trust them when you shouldn’t.
-
-#### Memory (Intelligence + Willpower)
-
-Most of us don’t remember our lives with one hundred percent clarity. We’re influenced by the mood at the time we formed a memory, the current mood, the presence or absence of memorable stimuli, or even slight oddities in the details. Then you have the tricks our mind plays in distorting memories to make us the heroes of our own story, and things get really weird. When it’s time to make a withdrawal from the memory bank, the gamemaster sets a threshold based on the age and complexity of the information, and you can roll to determine whether or not you recall the information you want. It may be about remembering a face, recalling a critical piece of information, pulling up a detail from the past that will help you understand what’s happening in front of you right now, or some other mental feat.
-
-#### Lift/Carry (Body + Willpower)
-
-As any professional powerlifter or crossfit champ will tell you, it’s not all in the muscles. You need the will to persevere in order to pull that little extra bit for the big efforts. Whether it’s pulling a comrade out of danger or flipping a car to cover your getaway, this is going to be the roll when there’s a question on whether or not it can be done. Characters can lift `[(Strength x Strength) x 20]` pounds naturally; if they need to raise the weight over their head, the multiplier drops to 10. Making a Lift/Carry test increases your effective Strength by 1 per net hit. It also does 1 Stun damage, resisted by Body. The damage increase by +1 each combat round you continue holding or carrying the weight.
 
 ### Character Advancement
 
@@ -540,7 +505,7 @@ Orks make people nervous, and people don’t like to be nervous. Their tusks, bo
 - Average weight: 300 kg
 - Ears: Slightly pointy, often hidden by horns
 - Known for: Being so big, you guys. Just huge. And horns.
-- Racial qualities: Trolls have thermographic vision, the Built Tough (2) quality, and dermal deposits (which provide +1 to trolls’ Defense Rating).
+- Racial qualities: Trolls have thermographic vision, the Built Tough (2) quality, and dermal deposits (which provide +1 to trolls’ Defense).
 
 It’s not easy to live in a society where you look like the walking embodiment of everyone else’s nightmares. Being two to three times as large as everyone else doesn’t help much, either. It’s not a troll’s world, and most of the other residents of the world aren’t inclined to change that fact. Who wants to make space for imposing monsters? Trolls are going to have to force their way into a place in the world—of course, when they force their way in anywhere, they’re inevitably called vandals and destroyers. A significant number of trolls have looked at the way the deck is stacked against them and decided they don’t need to play the rest of the world’s game anymore. They’ll stand aside and watch the world burn—and maybe throw on an extra match every now and then. The Black Forest Troll Republic is one of the most important troll communities in the world, acting as a beacon and vision for what troll society can be while keeping a certain distance from everyone else. Whether they assimilate or build a higher wall is an open question. Trolls have the most difficult time adapting to other metatypes because their bodies are so different. It’s more than just the size and the horns— they have dermal deposits all over their bodies that make knobs, bumps, and other formations. They scrape up furniture and clothing, and make some people think twice about giving a troll a big bear hug. Especially since there are few people who can wrap their arms around a whole troll.
 
@@ -568,37 +533,32 @@ The rules center around rolling three six sided dice. One of those dice **must**
 
 Nearly everything is a TEST or CHECK. 
 
-Result = Ability Dice Code + Skill Rank
-
-You compare this result to a Threshold (below)
+Roll your Attribute dice code (Nd6) + Skill. Designate one die as the Effect die. Total must meet or beat the Threshold. The Effect die drives degree of success; extra Effect dice may be added by spending Edge.
 
 ### Thresholds
 A Threshold is the minimum number needed to succeed at a task. Threshold Step is used very often in these rules. A threshold step is used instead of giving the Threshold Target (or TN in other games) to allow the Gamemaster to alter the Targets as they see fit for their game without needing to alter the writing in the rules to maintein balance.
 
-For example if a character needs a `Biotech + Intelligence (2) test` in Sixfinity Standard rules they need to roll *at least* a 9 on Ability Dice Code. If a GM decided they wanted that to be a 10 they do not need to change anything just tell the character they succeeded or failed without having to make any adjustments to the rules. This is the same as using the word Simple but the Step makes it easier to explain to a player. This is inspired by a number of 80's games like Traveller, Gamma World, Shadowrun 1e where the target number on dice could change. This allows for some GM's who want to, to easily swap to a D20 and use 5/10/15/20/25 for their TN's and go looking for Dragons in Dungeons if they want.
+For example if a character needs a `Biotech + Intelligence (2) test` in Sixfinity Standard rules they need to roll *at least* a 9 on ND6. If a GM decided they wanted that to be a 10 they do not need to change anything just tell the character they succeeded or failed without having to make any adjustments to the rules. This is the same as using the word Simple but the Step makes it easier to explain to a player. This is inspired by a number of 80's games like Traveller, Gamma World, Shadowrun 1e where the target number on dice could change. This allows for some GM's who want to, to easily swap to a D20 and use 5/10/15/20/25 for their TN's and go looking for Dragons in Dungeons if they want.
 
 If you are assining a test and the only thing that matters is their Effect on the roll feel free to make it a Step 1 test. 
 
-| Difficulty | Step | Threshold Target |
-| ---------- | ---- | ---------------- |
-| Easy       | 1    | 6                |
-| Simple     | 2    | 9                |
-| Average    | 3    | 12               |
-| Hard       | 4    | 18               |
-| Very Hard  | 5-6  | 24               |
-| Extreme    | 7-8  | 30               |
-
-
-### Rolling Max Roll
-When you roll a nautral maximum on your dice (6 on 1D6, 12 on 2D6, 18 on 3D6, etc.), you get a free Edge Dice. This means it is harder to push extra effort with more skill.
+| Difficulty        | Step | Threshold Target |
+| ----------------- | ---- | ---------------- |
+| Easy              | 1    | 3                |
+| Simple            | 2    | 6                |
+| Rotuine           | 3    | 9                |
+| Average           | 4    | 12               |
+| Challenging       | 5    | 15               |
+| Difficult         | 6-7  | 18               |
+| Hard              | 8    | 24               |
+| Very Hard         | 9    | 27               |
+| Nearly Impossible | 10+  | 30+              |
 
 #### Glitching
 
 Also called a Botch. 
 
-When you roll all 1's on at least half your dive; this is called a glitch or a botch. As long as you still beat the Threshold provided you are able to get a success. However, something will happen that did not go according to plan this is ruled by the Gamemaster but some suggestions are things like gun jammed requiring a Minor A ction to clear it. We treat this as a "Yes but..." siutation.
-
-What if you roll all 1's? In that case you have a Critical Glitch. Critical Glitches can be quite bad it depends on the GM a common rule during combat is that the gun is so fouled up it takes a Major Action or it may be completely out of commission until you can make a Mechanics check to repair it. This is treated as a "No and..." situation. A roll of 3 always fails.
+A Glitch occurs if ≥ half the dice (rounded up) show 1s, and you still succeed; GM adds a complication (Yes, but…). A Critical Glitch is when all dice are 1s or you fail with ≥ half 1s (No, and…).
 
 
 ### Effect
@@ -621,11 +581,11 @@ Disadvantage: You cannot spend Edge on this Test.
 
 
 ### Success Tests
-In a Simple test, you roll `Ability Dice Code + Skill`, and see if you meet total or beat a Threshold established by the gamemaster. The gamemaster establishes the Threshold based on the Threshold Guidelines and suggestions and guidelines established within the rules. If the the total is equal to or greater than the threshold, the action succeeds; in some occasions, the number of effect (the number on the Effect Dice) comes into play.
+In a Simple test, you roll `Attribute Dice Code ND6 + Skill`, and see if you meet total or beat a Threshold established by the gamemaster. The gamemaster establishes the Threshold based on the Threshold Guidelines and suggestions and guidelines established within the rules. If the the total is equal to or greater than the threshold, the action succeeds; in some occasions, the number of effect (the number on the Effect Dice) comes into play.
 
-Written as `Attribute + Skill (Threshold Step)`
+Written as `Attribute Dice Code ND6 + Skill (Threshold Step)`
 
-Such as `Agility + Firearms (2)` If you had a Agility of 2d6 you would roll `2d6 + Firearms skill`
+Such as `Quickness + Firearms (2)` If you had a Quickness of 2d6 you would roll `2d6 + Firearms skill`
 
 This is a very important thing to understand - these are written as THRESHOLD STEP. This allows the Gamemaster to alter the actual dice Thresholds as they see fit without changing how a test works.
 
@@ -633,7 +593,7 @@ This is a very important thing to understand - these are written as THRESHOLD ST
 
 In an Opposed test, another character, object, device, or entity is actively (or passively) resisting your efforts, so you must exceed their effort to succeed. In an Opposed test, two parties roll their dice and compare the number to the totals. The one with the highest total wins. Ties typically go to the aggressor, though this may change if net effect are required to make a given effect. The difference between the higher number of effect and the lower number of effect are the net effect in these tests, and they are often applied to the action in some way— for example, in combat, net effect from the attacker are added to the Damage Value of their attack.
 
-Written as `Attribute + Skill vs. Opposed Attribute + Skill` These are rolled for higher roll. Then calculate Net Effect which will go to the winner.
+Written as `Attribute Dice Code ND6 + Skill vs. Opposed Attribute Dice Code ND6 + Skill` These are rolled for higher roll. Then calculate Net Effect which will go to the winner.
 
 ### Extended Tests
 
@@ -645,52 +605,23 @@ Written as: Extended `Engineering + Intelligence (9, 1 hour) test`
 
 The gamemaster decides when an attribute-only test is called for and what attributes to apply. Attribute-only tests pair two attributes together to form a modifier, although there may be some situations where only one attribute applies. Here are a few attribute-only pairings built to suit situations where no skill suffices.
 
-**COMPOSURE (CHA + WIL)**
 
-
-Some situations are tough to deal with, even for hardened runners. When a character is faced with an emotionally overwhelming situation there are only two choices. Stay and fight or turn into a quivering lump of goo. To find out which one happens, make a `Willpower + Charisma` Test. Take note that repeating similar situations over and again eventually eliminates the need to perform this test. Staring down a group of well-armed foes will be scary at first, but after a character does it a few times the fear gives way to instinct.
-
-**JUDGE INTENTIONS (CHA + INT)**
-
-
-Reading another person is also a matter of instinct. A character can use their instincts to guess at the intentions of another person or to gauge how much they can trust someone. Make an Opposed `Intuition + Charisma` Test against the target’s `Willpower + Charisma`. This is not an exact science. A successful test doesn’t mean the target will never betray you (intentions have been known to change), and deceptive characters can gain another’s confidence easily. This primarily serves as a benchmark or gut instinct about how much you can trust the person you are dealing with.
-
-**LIFTING/CARRYING (BOD + STR)**
-
-
-The baseline for lifting weight is 30 pounds per point of Strength. Anything more than that requires a `Strength + Body Test`. Each Effect increases the max weight lifted by 30 pounds. Lifting weight above your head, as with a clean & jerk, is more difficult. The baseline for lifting weight above the head is 10 pounds per point Strength. Each Effect on the Lifting Test increases the maximum weight you can lift by 10 pounds. Carrying weight is significantly different than lifting weight. Characters can carry Strength x 20 pounds in gear without effort. Additional weight requires a Lifting Test. Each Effect increases the maximum by 20 pounds. For more details on carrying gear, see Carrying Gear.
-
-**MEMORY (LOG + WIL)**
-
-
-While there are numerous mnemonic devices designed for remembering information, memory is not a skill. If a character needs to recall information make a `Intelligence + Willpower` Test.
-
-Glitches can have a devastating effect on memory. A glitch means the character misremembers some portion of the information, such as order of numbers in a passcode. A critical glitch means the character has completely fooled himself into believing and thus remembering something that never actually happened.
-
-**RESIST KNOCKDOWN (STR)**
-
-
-When you take more damage in a single attack than your Physical Limit x 3 you must avoid being knocked prone. Do this with a `Ability Dice Code + STR VS Damage Taken or 10 whichever is higher` success means you stay on your feet, failure you are knocked prone. If you take 30 damage in a single attack you are automatically knocked down regardless of the roll. 
-
-**TOXIN RESISTANCE TEST (BOD + WIL)**
-
-
-`Body + Willpower + the rating of any protective gear/systems`; each Effect reduces the toxin’s Power by 1 point. If the Power is reduced to zero, the toxic substance takes no effect; otherwise, apply the effect depending on the remaining Power level.
 
 ### Edge
 
-Edge is a character’s luck, the favor of the gods, that unexplainable factor that allows her to beat the odds. The Edge pool is made from combining (Quickness + Intelligence + Willpower) dividing by three and rounding down.
+Edge is a character’s luck, the favor of the gods, that unexplainable factor that allows her to beat the odds.
+
+Edge Pool = [((Quickness Dice Code + Intelligence Dice Code + Willpower Dice Code) + Pips) / 2] Round down.
+
+Spend (before roll): +1 Effect die per Edge spent (max = Skill rating).
+
+Refresh: Full on Long Rest; +1 when Effect die = 6 (1/roll), or GM award.
 
 So with a Quickness 5, Intelligence 3 and Willpower 3 that would be a 5 Edge Pool.
 
 Spending an Edge Point adds an Effect Dice to your rolled dice, you add this dice to your total and your Effect. The most Edge that can be spent on a roll is equal to the Skill Rating in the Test being rolled.
 
 So if you had an Edge of 4, and a Firearms of 3. You could add up to 3 Dice from your Edge Pool on a Firearms Test because thats the Rating of your skill. You can spend Edge **before** you rolle but not after. You can spend Edge on any Test in the game.
-
-#### Refreshing your Edge Pool
-
-- ALl of your Edge refreshes each day after a long Rest
-- During Combat your Edge Refreshes every round.
 
 
 ### Individual Rule Sections
@@ -703,54 +634,7 @@ A direct neural interface, or DNI, connects your brain to electronic devices. Di
 
 #### Grenades
 
-When throwing a grenade, choose a location as a target. Use a Throw Weapon Minor Action and make a Throwing Weapons + Quickness [Physical] (Threshold 18) Test modified for range and all the usual conditions. Success means the grenade lands right where you wanted. If you don’t meet the Threshold, the grenade scatters. The gamemaster determines scatter by consulting the Scatter Table (Determine Scatter). Hitting the Threshold on the test means no scatter, but it is still possible to hit the target if the scatter roll is low and the thrower got some Effect (see Determine Scatter). This all goes back to the old saying: “Close only counts in horseshoes and hand grenades.”
 
-Grenades are small, self-contained explosive or gasdelivery packages. They may come with a built-in timer to detonate after a pre-set amount of time (usually three seconds), a motion-sensor set to detonate on impact, or a wireless link set to detonate upon remote command. The type of detonation device determines the special rules and timing of grenade explosions.
-
-Built-in Timer: This detonation method uses the attacker’s Initiative Score as the determining factor for detonation. The grenade is thrown during the character’s Action Phase and detonates in the next Combat Turn on the Initiative Score in which it was thrown minus 10, regardless of any additional changes to the thrower’s Initiative Score.
-
-Motion Sensor: Grenades using a motion sensor are extremely dangerous. Once armed (about a second after the sensor is activated) the grenade explodes after any sudden stop or change in direction, meaning hitting the wall, floor, or target. This method uses the standard Ranged Attack rules but adds an extra step if it misses the target (no net Effect on the attack roll). After a failed attack roll, the thrower must roll for scatter and the grenade scatters the full amount before exploding immediately. A glitch on the attack roll means the grenade does not detonate on initial impact but instead doubles the scatter distance and explodes. A Critical Glitch means the thrower waited too long, and the throw sets off the grenade. The grenade detonates immediately, affecting the attacker and those around him. (Warned you it was dangerous.)
-
-Wireless Link: This is the safest way to throw a grenade in some aspects, but it also comes with some risk and effort. The thrower (or anyone else who has a mark on the grenade) can detonate it by a wireless link. This requires the attacker to have a direct neural interface to the linked device and use the Change Wireless Device Mode Free Action. This method also reduces scatter. Without a DNI the attacker must use the Change Linked Device Mode Minor Action in their next or any of their subsequent Action Phases to detonate the grenade and scatter is not reduced.
-
-##### Determine Scatter
-
-If the attacker misses their intended landing spot, the gamemaster must determine the projectile’s scatter. The gamemaster determines the direction of the scatter by rolling 2D6 and consulting the Scatter Diagram. The 7 arrow indicates the direction of the launch, so a result of 7 means the projectile continued on past the target, while a result of 12 or 2 means the projectile scatters back in the direction of the attacker. Having determined the direction of the scatter, the gamemaster calculates the distance. The Scatter Table indicates a number of dice rolled based on the projectile, which is reduced by the number of Effect the attacker rolled. This is used to determine the final scatter distance. If the scatter distance is reduced to 0 or less, the projectile hits the target exactly. (Note that additional Effect do not add to Damage Values).
-
-| Roll | Direction from Target |
-| ---- | --------------------- |
-| 2,12 | 6 oclock, south       |
-| 3    | 8 oclock, SW          |
-| 4    | 9 oclock, W           |
-| 5    | 10 oclock,            |
-| 6    | 11 oclock, NW         |
-| 7    | 12 oclock, N          |
-| 8    | 1 oclock, NE          |
-| 9    | 2 oclock              |
-| 10   | 3 oclock, E           |
-| 11   | 5 oclock, SE          |
-
-
-**Scatter Table**
-
-
-| Type                | Scatter                            |
-| ------------------- | ---------------------------------- |
-| Standard Grenade    | (1D6 – Effect) yards               |
-| Aerodynamic Grenade | (2D6 – Effect) yards               |
-| Grenade Launcher    | (Ability Dice Code – Effect) yards |
-| Missile Launcher    | (4D6 – Effect) yards               |
-| Rocket Launcher     | (5D6 – Effect) yards               |
-
-#### Grenade Launchers, Rockets, & Missiles
-
-Occasionally, characters get their hands on military- grade hardware, like grenade launchers, missiles, and rocket launchers. Resolving a launched grenade, rocket, or missile attack is a two-step process. The first step determines where the projectile ends up in relation to the target (see Determine Scatter). The second step resolves the effect of the projectile’s explosion.
-
-When you fire a grenade, rocket, or missile you use a Attack Major Action and roll a Heavy Weapons + Quickness [Accuracy] (Threshold 18) Test modified for range and all the usual conditions. Success means the launched weapon hits right where you wanted. If you don’t meet the Threshold, the projectile scatters. The gamemaster determines scatter by consulting the Scatter Table.
-
-#### Blast Effects
-
-Grenades, rockets, and missiles are area-effect weapons, meaning that their blast affects a given area and any targets within it. The farther away the target is from the explosive’s final location—the blast point—the less damage it takes, because distance reduces the effect of an explosive’s blast. Different grenade, rocket, and missile types lose blast effect at different rates. Consult the Grenades/ Rockets/Missiles Table to find the projectile’s Damage Code and Damage Value reduction rate.
 
 #### TOXINS, DRUGS, AND BTLS
 
@@ -758,47 +642,24 @@ The Sixth World is a vicious place; it seems like something is always trying to 
 
 ##### TOXINS
 
-Knockout drugs. Truth serum. Nerve gas. All of these are examples of toxins, a catch-all term for a substance that’s mostly meant for use as a weapon, as opposed to recreation. Each substance has several attribute ratings.
-
-**Vector**
-
-
-This shows how the toxin is delivered to the target.
-
-Contact toxins can be solid, liquid, or gaseous. They attack the victim through the skin. These toxins, if in liquid form, can be coated on a weapon. In this case, they can be applied with a successful Melee Attack, whether the attack causes damage or not. A chemical seal offers complete protection from this vector, unless it’s breached. Chemical protection gives a modifier equal to its rating to the target’s Toxin Resistance Test.
-
-Ingestion toxins must be eaten by the victim. They can be solids or liquids. Since they must be eaten, they generally take longer to have an effect. Toxin extractor bioware provides a modifier equal to the rating of the augmentation to resist ingested and other toxins.
-
-Inhalation toxins are applied as an aerosol spray or gas, and they must be breathed in by the target. Gas masks, chemical seals, and active internal air tanks provide immunity to inhalation toxins. Chemical protection gives bonus modifier to the Toxin Resistance Test equal to its rating.
-
-Injection toxins must get into the target’s bloodstream, whether through a dart, hypodermic needle, or a cut. These can also be used to coat an edged melee weapon. They are applied to the target with a successful melee attack that causes damage.
-
-**Speed**
-
-
-This determines how quickly the victim suffers the toxin’s Effect. These effects are always applied at the end of a Combat Turn.
 
 
 
 ## Chapter 6: Skills
 
-When trying to accomplish something more refined than hefting a load, spotting an
-ambush, or running for cover, a character will normally use a skill. Shadowrun skills
-are groups of closely related techniques and knowledge, not narrow, limiting areas
-of function. The game takes this approach in an attempt to keep down the number
-of statistics. If a character uses Concentrations and Specializations, he or she has
-increased capability in that specialized area, but at the cost of reduced ability in the
-rest of the functions covered by the general skill.
+When trying to accomplish something more refined than hefting a load, spotting an ambush, or running for cover, a character will normally use a skill. Shadowrun skills are groups of closely related techniques and knowledge, not narrow, limiting areas of function. The game takes this approach in an attempt to keep down the number of statistics. 
 
-Skill do not have a linked attribute to them; as far as the rules are concerned Attributes do not aid in the total number for a skill.
+Skill have a linked attribute to them but it does not add to the skill per se; as far as the rules are concerned Attributes demonstrate the overall potential for a skill to succeed.
+
+For example if you have Quickness of 1D6 +2 and Firearms of 11. You have well beyond the average persons skills in Firearms but you your Quickness limits your potential. You would still roll `1D6+2 + 11` for a minimum of 14 and a maximum of 19. 
+
+If instead you had an Quickness of 2D6+2 with Firearms 3, you have great Quickness but you are limited by your skill with Firearms. Your range is a minimum of 7 and a Maximum of 17. 
+
+If you are lucky enough to have the 2D6+2 Quickness and the Firearms 11 there is little holding you back. You would have a range of 15 a minimum and a Maximum of 25.
 
 ### SKILL RATINGS
 
-Skill ratings begin at a level of 1. There is no maximum rating, but players will
-find it increasingly difficult to raise their character's skill ratings as the character
-improves in a particular skill. Beginning characters may not start with any skill at
-a rating higher than 6. Characters with no rating in a skill are considered untrained,
-but they may still attempt to perform a function covered by a skill by defaulting to an attribute at penalty of rolling 2D6 instead of Ability Dice Code.
+Skill ratings begin at a level of 1. There is no maximum rating, but players will find it increasingly difficult to raise their character's skill ratings as the character improves in a particular skill. Beginning characters may not start with any skill at a rating higher than 6. Characters with no rating in a skill are considered untrained, but they may still attempt to perform a function covered by a skill by defaulting to an attribute by only using the Attribute Dice Code, some skills are inherently so complex you cannot use them without training.
 
 
 ### SPECIALIZATIONS SKILLS
@@ -825,19 +686,48 @@ Many Knowledge Skills also provide the character with the theoretical basis of a
 
 ### Defaulting
 
-It is impossible to prepare for every scenario and only slightly harder to have every skill. When you perform an action without actually having the skill for the test, there’s still hope. You can default the skill, making the test using only raw talent. You don’t have any tremendous talent when you default— quite the opposite in fact. Defaulting imposes a –1 Dice penalty meaning you only roll 2D6 in addition to any other modifiers the situation demands. Unless the gamemaster feels that you’re at a complete loss when defaulting, you can use Edge and better your chances.
+It is impossible to prepare for every scenario and only slightly harder to have every skill. When you perform an action without actually having the skill for the test, there’s still hope. You can default the skill, making the test using only raw talent. You don’t have any tremendous talent when you default— quite the opposite in fact. Characters with no rating in a skill are considered untrained, but they may still attempt to perform a function covered by a skill by defaulting to an attribute by only using the Attribute Dice Code, some skills are inherently so complex you cannot use them without training. Unless the gamemaster feels that you’re at a complete loss when defaulting, you can use Edge and better your chances.
 
 
 ### Active Skill List
 
-| Skill        | Example Specializations                  |
-| ------------ | ---------------------------------------- |
-| Arhcery      | Bows, Crossbows                          |
-| Armed Combat | Blades, Clubs                            |
-| Firearms     | Automatics, Pistols, Longarms            |
-| Gunnery      | Machine Guns, Launchers, Vehicle Weapons |
+| Skill            | Attribute Linked | Example Specializations                                    |
+| ---------------- | ---------------- | ---------------------------------------------------------- |
+| Archery          | Quickness        | Bows, Crossbows                                            |
+| Armed Combat     | Quickness        | Blades, Clubs                                              |
+| Athletics        | Strength         | Climbing, Jumping, Lifting, Running, Swimming              |
+| Biotech          | Intelligence     | Extended Care, First Aid, Organ Culture                    |
+| Computer         | Intelligence     | Hardware, Decking, Programming, Research                   |
+| Conjuring        | Magic*           | Elemental, Nature Spirit                                   |
+| Demolitions      | Intelligence     | Commercial Explosives, Plastic Explosives                  |
+| Drive            | Quickness        | Bike, Car, Motorboat                                       |
+| Electronics      | Intelligence     | Control Systems, Diagnostics, Electronic Warfare, Maglocks |
+| Etiquette        | Charisma         | Corporate, Matrix, Media, Street, Tribal                   |
+| Firearms         | Quickness        | Automatics, Pistols, Longarms                              |
+| Gunnery          | Quickness        | Machine Guns, Launchers, Vehicle Weapons                   |
+| Interrogation    | Charisma         | Verbal, Interviewing, Machine-Aided                        |
+| Throwing Weapons | Quickness        | Aerodynamic, Non-Aerodynamic, Shafted                      |
+| Leadership       | Charisma         | Commercial,Military,Political                              |
+| Negotiation      | Charisma         | Bargaining, Bribe, Fast Talk                               |
+| Pilot            | Quickness        | Rotor Craft, Vectored Thrust, Winged Planes                |
+| Sorcery          | Magic*           | Ritual Sorcery, Spellcastlng                               |
+| Stealth          | Quickness        | Hiding, Move Silently, Shadowing                           |
 
 
+
+### Knowledge Skill List
+
+
+| Skill             | Attribute Linked | Example Specializations                               |
+| ----------------- | ---------------- | ----------------------------------------------------- |
+| Biology           | Intelligence     | Botany, Medicine, Parabotany, Parazoology, Zoology    |
+| Computer Theory   | Intelligence     | Hardware, Software                                    |
+| Cybertechnology   | Intelligence     | Bodyware, Hardware                                    |
+| Magical Theory    | Intelligence     | Design, History                                       |
+| Military Theory   | Intelligence     | Military History, Tactics                             |
+| Physical Sciences | Intelligence     | Chemistry, Engineering, Geology, Physics              |
+| Psychology        | Intelligence     | Deviant Behavior, Group Behavior, Individual Behavior |
+| Sociology         | Intelligence     | Anthropology, Archaeology, History                    |
 
 ## Chapter 7: Equipment
 
@@ -877,8 +767,9 @@ Some items are listed with an (I) or (L) as part of their Availability rating. T
 
 This shows how many programs an electronic device can have running at a single time.
 
-#### Attack Rating
+#### Ranges
 
+> This has not really been implemented yet
 
 Close 0-3 yds, Near 4-50 yds, Medium 51-250 yds, Far 251-500 yds, Extreme 500 yds
 
@@ -893,29 +784,16 @@ This is a reduction in damage from incoming attacks land.
 This is the size of a blast of an explosive.
 
 #### Capacity
-Some items can hold modifications and other
-adaptations, and they have a Capacity rating to indicate
-how much they can hold. Other items take
-up this space—those items have a Capacity rating
-listed in brackets [].
+Some items can hold modifications and other adaptations, and they have a Capacity rating to indicate how much they can hold. Other items take up this space—those items have a Capacity rating listed in brackets [].
 
 #### Damage Value (DV)
-This is used for weapons and is the base damage
-the weapon inflicts if it hits. It may have a letter
-indicating its elemental damage, such as (e) for
-electricity or (f) for fire. For explosives, this is listed
-at different ranges, including ground zero (GZ),
-Close, and Near ranges.
+This is used for weapons and is the base damage the weapon inflicts if it hits. It may have a letter indicating its elemental damage, such as (e) for electricity or (f) for fire. For explosives, this is listed at different ranges, including ground zero (GZ), Close, and Near ranges.
 
 #### Device Rating
-Used for electronic devices, this is a kind of
-all-purpose stat that reflects the devices overall
-power and systems integrity.
+Used for electronic devices, this is a kind of all-purpose stat that reflects the devices overall power and systems integrity.
 
 #### Essence
-Used for cyberware and bioware, this shows the
-Essence reduction you experience when installing
-this item.
+Used for cyberware and bioware, this shows the Essence reduction you experience when installing this item.
 
 #### Modes
 These are the firing modes firearms use.
@@ -940,7 +818,7 @@ Runners use the funds they get at character creation to buy their initial gear. 
 
 #### Fencing Gear
 
-Let’s make this simple. In order to fence the valuables you come across, you need a contact who’s in the right field (your bartender contact isn’t going to be the most useful helping you unload that cyberdeck prototype you lifted from Mitsuhama). If you have the right contact, you can get back ten percent of the base value on the item, plus one percent for every Effect on an `Influence + Charisma test (Avail)`. If the item is particularly hot or desired (according to the gamemaster’s discretion) the whole selling process could be more adventurous and offer a bigger payday, but that’s up to the individual running the show.
+Let’s make this simple. In order to fence the valuables you come across, you need a contact who’s in the right field (your bartender contact isn’t going to be the most useful helping you unload that cyberdeck prototype you lifted from Mitsuhama). If you have the right contact, you can get back ten percent of the base value on the item, plus one percent for every Effect on an `Negotiate + Charisma test (Avail)`. If the item is particularly hot or desired (according to the gamemaster’s discretion) the whole selling process could be more adventurous and offer a bigger payday, but that’s up to the individual running the show.
 
 #### Concealing Gear
 
@@ -969,9 +847,9 @@ Sometimes a dwarf or a troll has to use someone else’s stuff or make do with w
 
 #### Wireless Functionality
 
-Nearly every device is wireless. The wireless revolution started for tracking purposes, though most of the tracking was about observing consumer behavior. The corps also found it useful for inventory tracking and seeing how people used their goods. The only trick was finding a way to make sure consumers had a reason to keep the wireless functionality on at all times. That led to … the wireless bonus!
+Nearly every device is wireless. The wireless revolution started for tracking purposes, though most of the tracking was about observing consumer behavior. The corps also found it useful for inventory tracking and seeing how people used their goods. The only trick was finding a way to make sure consumers had a reason to {REMOVE ME} - keep the wireless functionality on at all times. That led to … the wireless bonus!
 
-**Wireless Bonus**
+{REMOVE ME} - **Wireless Bonus**
 
 Many items have a bonus applied when they’re kept attached to the Matrix. For the bulk of the population, this is just a little convenient aid in their normal life, but for runners it is often a door- die decision, because leaving your Smartgun XI linked to the Matrix could be the little edge you need, or it could be your doom as you get hacked and the fancy electronics-laden SMG becomes a paperweight. Items with a bonus are listed, and some have it listed for the entire category as well.
 
@@ -987,32 +865,30 @@ These devices are older tech. Whether it’s because they’re incompatible with
 
 ### Melee Weapons
 
-| **BLADES**            | **DV** | **ATTACK RATINGS** | **AVAILABILITY** | **COST** |
-| --------------------- | ------ | ------------------ | ---------------- | -------- |
-| Combat Axe            | 5P     | 9/—/—/—/—          | 4                | 4,000¥   |
-| Combat/Survival Knife | 3P     | 8/2*/—/—/—         | 2                | 300¥     |
-| Forearm snap-blades   | 3P     | 6/—/—/—/—          | 3                | 200¥     |
-| Katana                | 4P     | 6/1*/—/—/—         | 1                | 1,000¥   |
-| Knife                 | 2P     | 10/—/—/—/—         | 3                | 10¥      |
-| Pole arm              | 4P     | 8/—/—/—/—          | 2                | 1,000¥   |
-| Sword                 | 3P     | 9/—/—/—/—          | 3                | 500¥     |
-| **CLUBS**             | **DV** | **ATTACK RATING**  | **AVAILABILITY** | **Cost** |
-| Club                  | 3S     | 6/—/—/—/—          | 1                | 30¥      |
-| Extendable baton      | 2S     | 5/—/—/—/—          | 2                | 100¥     |
-| Sap                   | 2S     | 6/—/—/—/—          | 1                | 30¥      |
-| Staff                 | 4S     | 8/—/—/—/—          | 1                | 100¥     |
-| Stun baton            | 5S(e)  | 6/—/—/—/—          | 2                | 750¥     |
-| Telescoping staff     | 4S     | 8/—/—/—/—          | 2                | 350¥     |
+| **BLADES**            | **DV** | **AVAILABILITY** | **COST** |
+| --------------------- | ------ | ---------------- | -------- |
+| Combat Axe            | 5P     | 4                | 4,000¥   |
+| Combat/Survival Knife | 3P     | 2                | 300¥     |
+| Forearm snap-blades   | 3P     | 3                | 200¥     |
+| Katana                | 4P     | 1                | 1,000¥   |
+| Knife                 | 2P     | 3                | 10¥      |
+| Pole arm              | 4P     | 2                | 1,000¥   |
+| Sword                 | 3P     | 3                | 500¥     |
+| **CLUBS**             | **DV** | **AVAILABILITY** | **Cost** |
+| Club                  | 3S     | 1                | 30¥      |
+| Extendable baton      | 2S     | 2                | 100¥     |
+| Sap                   | 2S     | 1                | 30¥      |
+| Staff                 | 4S     | 1                | 100¥     |
+| Stun baton            | 5S(e)  | 2                | 750¥     |
+| Telescoping staff     | 4S     | 2                | 350¥     |
 
-| **EXOTIC**         | **TYPE** | **DV** | **ATTACK RATING** | **AVAILABILITY** | **Cost** |
-| ------------------ | -------- | ------ | ----------------- | ---------------- | -------- |
-| Bike chain         | Unarmed  | 2S     | 5/—/—/—/—         | 1                | 15¥      |
-| Bullwhip*          | Exotic   | 1P     | 6/—/—/—/—         | 4                | 255¥     |
-| Knucks             | Unarmed  | 3P     | 6/—/—/—/—         | 1                | 100¥     |
-| Shock Gloves       | Unarmed  | 4S(e)  | 5/—/—/—/—         | 4                | 790¥     |
-| Monofilament whip* | Exotic   | 6P     | 14/—/—/—/—        | 6(I)             | 1,300¥   |
+| **EXOTIC**         | **TYPE** | **DV** | **AVAILABILITY** | **Cost** |
+| ------------------ | -------- | ------ | ---------------- | -------- |
+| Bike chain         | Unarmed  | 2S     | 1                | 15¥      |
+| Knucks             | Unarmed  | 3P     | 1                | 100¥     |
+| Shock Gloves       | Unarmed  | 4S(e)  | 4                | 790¥     |
+| Monofilament whip* | Exotic   | 6P     | 6(I)             | 1,300¥   |
 
-* *Whips add the attackers Reaction instead of Strength to the Attack Rating
 
 #### Melee Weapon Descriptions
 
@@ -1033,7 +909,7 @@ A simple, elegant, efficient killing device with a chisel point to make light wo
 
 Don’t like getting implants but still want three razor sharp blades to pop out of your forearm? This is the weapon for you. The blades extend and retract through either a forearm muscle command or a wireless signal. Either way, it takes a Minor Action. 
 
-Wireless bonus: The blades grant an extra Minor Action on the turn when they are extended or retracted.
+{REMOVE ME} - Wireless bonus: The blades grant an extra Minor Action on the turn when they are extended or retracted.
 
 **Katana**
 
@@ -1051,7 +927,7 @@ Take a long stick, add any of a dozen varieties of blades to the head, and you�
 
 Specifically designed with a cutting edge on one side and a serrated sawing edge on the other, the true “survival” piece of this knife is in the handle and its collection of accessories. In the handle you’ll find a GPS monitor, mini-multitool, and micro- lighter. The blade is coated with a photovoltaic skin that blacks out the blade to prevent unwanted reflection; when charged, the skin can be activated to provide two hours of light. Combat stats are the same as the combat knife.
 
-Wireless bonus: The knife displays an ARO of local maps and your GPS position, along with providing basic biomonitor data when in your hand.
+{REMOVE ME} - Wireless bonus: The knife displays an ARO of local maps and your GPS position, along with providing basic biomonitor data when in your hand.
 
 **Sword**
 
@@ -1065,7 +941,7 @@ The stats listed can be used for a range of objects, including an axe handle, ba
 
 **Extendable baton**
 
-This telescoping club can be extended with a wrist flick or a wireless signal. In its retracted form, it’s easier to conceal (Concealability threshold 4 when retracted, 2 when extended). Retracting or extending it is a Minor Action. Wireless bonus: You gain a bonus Minor Action on a turn when you retract or extend the baton.
+This telescoping club can be extended with a wrist flick or a wireless signal. In its retracted form, it’s easier to conceal (Concealability threshold 4 when {REMOVE ME} - retracted, 2 when extended). Retracting or extending it is a Minor Action. Wireless bonus: You gain a bonus Minor Action on a turn when you retract or extend the baton.
 
 **Sap**
 
@@ -1078,13 +954,13 @@ Speak softly and carry a big stick. This is that big stick. Available in composi
 **Stun baton**
 A riot-control staple and viewed as a symbol of corporate-government oppression, this handy electrical prod is still useful for everyone in the shadows. The stun baton holds ten charges and regains one charge per ten seconds when plugged in. 
 
-Wireless bonus: The stun baton recharges without being plugged in, regaining one charge per half hour of wireless-enabled time.
+{REMOVE ME} - Wireless bonus: The stun baton recharges without being plugged in, regaining one charge per half hour of wireless-enabled time.
 
 **Telescoping staff**
 
 A big stick that starts out as a small stick. This metal and composite staff can telescope down to the size of a stun baton or a sword. It can be extended and locked in place by spinning or snapping it out in each direction and giving the handle a twist to lock it. Or it can use a wireless signal to activate the telescoping effect. Extending or retracting it takes a Minor Action.
 
-Wireless bonus: You gain a bonus Minor Action on a turn when you retract or extend the baton.
+{REMOVE ME} - Wireless bonus: You gain a bonus Minor Action on a turn when you retract or extend the baton.
 
 **EXOTIC**
 
@@ -1100,7 +976,7 @@ Everything from a roll of quarters in the palm (though who has that lying around
 
 Striking fear in the hearts of those who have warily watched its serpentine glow since the 2050s. In the hands of a trained user, this terrifying weapon can cut through armor, flesh, and bone as easy as butter with every millimeter of its two yards of monofilament line. In the wrong hands, or even with a bad twist of a skilled wrist, that line can send you to the street doc looking for a new limb. The whip is stored in the specially designed compartment in the handle with a small weight that detaches when the weapon is activated. Glitches are handled as usual, but a critical glitch always requires the wielder to resist the base damage of the weapon.
 
-Wireless bonus: The whip uses your visuals on the target to make small adjustments in targeting, and the whip adjusts its trajectory. This increases the Attack Rating by 2. Also, the whip’s built-in safety system retracts automatically instead of hitting you on a critical glitch.
+{REMOVE ME} - Wireless bonus: The whip uses your visuals on the target to make small adjustments in targeting, and the whip adjusts its trajectory. This increases the Attack Rolls by 2. Also, the whip’s built-in safety system retracts automatically instead of hitting you on a critical glitch.
 
 
 
@@ -1108,20 +984,20 @@ Wireless bonus: The whip uses your visuals on the target to make small adjustmen
 
 Attacks using weapons in this category are made using the Athletics skill.
 
-| **Archery**          | **DV**        | **ATTACK RATINGS**   | **AVAILABILITY** | **COST**      |
-| -------------------- | ------------- | -------------------- | ---------------- | ------------- |
-| Bow                  | (Rating + 2)P | (Rating/2)/(Rating)/ | Rating/3 L       | Rating x 10¥  |
-| Arrow                | -             | (Rating/4)/—/—       | Rating/3         | Rating X 2¥   |
-| Injection Arrow      | -             | -                    | 4                | Rating x 20 ¥ |
-| **Crossbows**        | **Damage**    | **ATTACK RATINGS**   | **Avail**        | **Cost**      |
-| Light                | 2P            | 6/8/2/—/—            | 3                | 150¥          |
-| Medium               | 3P            | 2/10/4/2/—           | 3L               | 290¥          |
-| Heavy                | 4P            | 2/8/6/4/—            | 4L               | 425¥          |
-| Bolt                 | -             | -                    | 2                | 5¥            |
-| Injection Bolt       | -             | -                    | 4                | 50¥           |
-| **Throwing Weapons** | **Damage**    | **ATTACK RATINGS**   | **Avail**        | **Cost**      |
-| Throwing knives      | 2P            | 10/9/3/—/—           | 2                | 155¥          |
-| Throwing stars       | 2P            | 9/11/5/—/—           | 2                | 160¥          |
+| **Archery**          | **DV**        | **AVAILABILITY** | **COST**      |
+| -------------------- | ------------- | ---------------- | ------------- |
+| Bow                  | (Rating + 2)P | Rating/3 L       | Rating x 10¥  |
+| Arrow                | -             | Rating/3         | Rating X 2¥   |
+| Injection Arrow      | -             | 4                | Rating x 20 ¥ |
+| **Crossbows**        | **Damage**    | **Avail**        | **Cost**      |
+| Light                | 2P            | 3                | 150¥          |
+| Medium               | 3P            | 3L               | 290¥          |
+| Heavy                | 4P            | 4L               | 425¥          |
+| Bolt                 | -             | 2                | 5¥            |
+| Injection Bolt       | -             | 4                | 50¥           |
+| **Throwing Weapons** | **Damage**    | **Avail**        | **Cost**      |
+| Throwing knives      | 2P            | 2                | 155¥          |
+| Throwing stars       | 2P            | 2                | 160¥          |
 
 #### Projectile Weapon Descriptions
 
@@ -1139,13 +1015,13 @@ Modern crossbows are designed with autoloading systems, internal magazines that 
 
 The injection arrow or bolt causes its base damage while also delivering a payload of one dose of a drug or toxin. A successful hit must deal at least one damage after the Defense Roll. Injection arrows and bolts come at a base rating of 8. Higher-rating models are available for heavier bows, but lower-rating models aren’t sturdy enough to deliver this heavier projectile.
 
-Wireless bonus: The injection can be delayed until a wireless signal is sent. The injection also doesn’t need any damage; it just needs at least 1 net effect.
+{REMOVE ME} - Wireless bonus: The injection can be delayed until a wireless signal is sent. The injection also doesn’t need any damage; it just needs at least 1 net effect.
 
 **Throwing Knives/Shuriken**
 
 From stars to spikes and everything in between, these stats cover all the muscle-powered, small throwing weapons on the market. Up to (Quickness/2) of these weapons can be readied for throwing with a Ready Weapon action.
 
-Wireless bonus: Successful hits leave wireless weapons in targets that can be used to predict movement patterns and offer an estimated location. A successful hit offers anyone wirelessly linked to the throwing weapon and using a smartlink system a +1 bonus for their attacks.
+{REMOVE ME} - Wireless bonus: Successful hits leave wireless weapons in targets that can be used to predict movement patterns and offer an estimated location. A successful hit offers anyone wirelessly linked to the throwing weapon and using a smartlink system a +1 bonus for their attacks.
 
 
 
@@ -1154,79 +1030,79 @@ Wireless bonus: Successful hits leave wireless weapons in targets that can be us
 
 Leadslingers abound on the streets of 2080 (the name remains, even though lead rounds aren’t the norm anymore). For years, the streets managed to snag and use caseless rounds in order to stay clear of the law tracking them, but recent events have led arms manufacturers (a.k.a. the megacorps) to desire a tighter leash on their shadow assets, and cased ammo is becoming the norm once again, with each casing containing a microRFID to identify the weapon and location where it was fired. The glory of watching spent shells spinning through the air is back, and so are the back-alley reloads and scrubbed slugs to keep those of us in the shadows off the radar. Weapons are chambered for cased or caseless, with caseless ammo being marginally harder to track but tougher to find on the streets. 
 
-Wireless bonus: All modern firearms are considered to be wireless-equipped and come with a digital ammunition counter and an ARO that tells you the ammo type loaded. If equipped with DNI, you gain a bonus Minor Action any turn when you eject a clip (for weapons that have them) or change fire modes (on models that have more than one).
+{REMOVE ME} - Wireless bonus: All modern firearms are considered to be wireless-equipped and come with a digital ammunition counter and an ARO that tells you the ammo type loaded. If equipped with DNI, you gain a bonus Minor Action any turn when you eject a clip (for weapons that have them) or change fire modes (on models that have more than one).
 
-| **TASERS**                     | **DV**       | **MODES**    | **ATTACK RATINGS** | **AMMO**           | **AVAILABILITY** | **COST**  |
-| ------------------------------ | ------------ | ------------ | ------------------ | ------------------ | ---------------- | --------- |
-| Defiance Super Shocker         | 6S(e)        | SS           | 10/6*/—/—/—        | 4 (m)              | 1                | 240¥      |
-| Yamaha Pulsar I/II             | 4S(e)        | SA           | 9/9†/—/—/—         | 4 (m)              | 1                | 325¥/350¥ |
-| **Hold-Outs**                  | **DV**       | **MODES**    | **ATTACK RATINGS** | **AMMO**           | **AVAILABILITY** | **COST**  |
-| Fichetti Tiffani Needler       | 3P           | SA           | 10/6/2/—/—         | 4 (c)              | 2                | 435¥      |
-| Streetline Special             | 2P           | SS           | 8/8/—/—/—          | 6(c)               | 2                | 200¥      |
-| Walther Palm Pistol            | 2P           | SS/BF        | 12/7/—/—/—         | 6(b)               | 2                | 345¥      |
-| **Light Pistols**              | **DV**       | **MODES**    | **ATTACK RATINGS** | **AMMO**           | **AVAILABILITY** | **COST**  |
-| Ares Light Fire 70             | 2P           | SA           | 10/7/6/—/—         | 16(c)              | 3(L)             | 350¥      |
-| Ares Light Fire 75             | 2P           | SA           | 10/7/6/—/—         | 16(c)              | 3(L)             | 400¥      |
-| Beretta 101T                   | 2P           | SA           | 9/8/6/—/—          | 21(c)              | 2(L)             | 260¥      |
-| Beretta 201T                   | 2P           | SA/FA        | 9/8/6—/—           | 21(c)              | 3(L)             | 460¥      |
-| /Colt America L36              | 2P           | SA           | 8/8/6/—/—          | 11(c)              | 2(L)             | 230¥      |
-| Fichetti Security 600          | 2P           | SA           | 10/9/6/—/—         | 30(c)              | 3(L)             | 390¥      |
-| Ruger Redhawk                  | 3P           | SA/BF        | 7/10/7/—/—         | 8(cy)              | 2(L)             | 250¥      |
-| **Heavy Pistols**              | **DV**       | **MODES**    | **ATTACK RATINGS** | **AMMO**           | **AVAILABILITY** | **COST**  |
-| Ares Predator VI               | 3P           | SA/BF        | 10/10/8/—/—        | 15(c)              | 2(L)             | 750¥      |
-| Ares Viper Slivergun           | 4P(fl)       | SA/BF        | 12/8/6/—/—         | 30(c)              | 4(L)             | 610¥      |
-| Browning Ultra Power           | 3P           | SA           | 10/9/6/—/—         | 10(c)              | 2(L)             | 315¥      |
-| Colt Government 2076/Manhunter | 3P           | SA           | 10/8/6/—/—         | 14(c)              | 3(L)             | 275¥/500¥ |
-| Ruger Super Warhawk            | 4P           | SA           | 8/11/8/—/—         | 6(cy)              | 3(L)             | 400¥      |
-| **Machine Pistols**            | **DV**       | **MODES**    | **ATTACK RATINGS** | **AMMO**           | **AVAILABILITY** | **COST**  |
-| Ares Crusader II               | 2P           | SA/BF        | 9/9/7/—/—          | 40(c)              | 4(L)             | 520¥      |
-| Ceska Black Scorpion           | 2P           | SA/BF        | 10/9/8/—/—         | 35(c)              | 3(L)             | 510¥      |
-| Steyr TMP                      | 2P           | SA/FA        | 8/8/6/—/—          | 30(c)              | 3(L)             | 690¥      |
-| **Submachine Guns**            | **DV**       | **MODES**    | **ATTACK RATINGS** | **AMMO**           | **AVAILABILITY** | **COST**  |
-| Colt Cobra TZ-100              | 3P           | SA/BF        | 9/9/6/—/—          | 32(c)              | 2(L)             | 730¥      |
-| Colt Cobra TZ-110              | 3P           | SA/BF        | 10/10/7/—/—        | 32(c)              | 2(L)             | 785¥      |
-| Colt Cobra TZ-120              | 3P           | SA/BF        | 10/11/8/—/—        | 32(c)              | 3(L)             | 840¥      |
-| FN P93 Praetor                 | 4P           | SA/BF/FA     | 9/12/7/—/—         | 50(c)              | 4(L)             | 925¥      |
-| HK-227                         | 3P           | SA/BF        | 10/11/8/—/—        | 28(c)              | 3(L)             | 825¥      |
-| Ingram Smartgun XI             | 3P           | SA/BF        | 11/9/6/—/—         | 32(c)              | 3(L)             | 750¥      |
-| SCK Model 100                  | 3P           | SA/BF        | 10/10/7/—/—        | 30(c)              | 3(L)             | 725¥      |
-| Uzi V                          | 3P           | SA/BF/FA     | 8/8/7/—/—          | 24(c)              | 2(L)             | 455¥      |
-| **Assault Rifles**             | **DV**       | **MODES**    | **ATTACK RATINGS** | **AMMO**           | **AVAILABILITY** | **COST**  |
-| AK-97                          | 5P           | SA/BF/FA     | 4/11/9/7/1         | 38(c)              | 2(L)             | 2,100¥    |
-| Ares Alpha                     | 4P           | SA/BF/FA     | 4/10/9/7/2         | 42(c)              | 5(L)             | 3,400¥    |
-| - Grenade Launcher             | As grenade   | SS           | 4/10/6/2/—         | 6(c)               | —                | —         |
-| Colt M23                       | 4P           | SA/BF/FA     | 5/8/8/8/1          | 40(c)              | 2(L)             | 2,100¥    |
-| FN-HAR                         | 5P           | SA/BF/FA     | 3/11/10/6/1        | 35(c)              | 3(L)             | 2,100¥    |
-| Yamaha Raiden                  | 4P           | SA/BF/FA     | 4/11/10/7/2        | 60(c)              | 5(L)             | 3,200¥    |
-| - Grenade Launcher             | As grenade   | SS           | 4/11/7/1/—         | 4(c)               | —                | —         |
-| - Shotgun                      | 4P           | SS/SA        | 7/9/8/—/—          | 2(b)               | —                | —         |
-| **Longarm Rifles**             | **DV**       | **MODES**    | **ATTACK RATINGS** | **AMMO**           | **AVAILABILITY** | **COST**  |
-| Ares Desert Strike             | 5P           | SA           | 3/10/10/10/10      | 14(c)              | 4(I)             | 11,000¥   |
-| Cavalier Arms Crockett EBR     | 5P           | SA/BF        | 3/8/11/8/8         | 20(c)              | 5(I)             | 9,050¥    |
-| Ranger Arms SM-5               | 5P           | SA           | 3/6/9/11/12        | 15(c)              | 5(I)             | 13,200¥   |
-| Remington 900                  | 5P           | SS           | 2/7/10/12/11       | 5(m)               | 3(L)             | 12,000¥   |
-| Ruger 101                      | 5P           | SA           | 2/6/10/12/11       | 8(m)               | 2(L)             | 11,100¥   |
-| Barret Model 122               | 6P           | SA           | 1/8/11/16/14       | 10(c)              | 6(I)             | 15,200¥   |
-| **Shotguns**                   | **DV**       | **MODES**    | **ATTACK RATINGS** | **AMMO**           | **AVAILABILITY** | **COST**  |
-| Defiance T-250                 | 4P           | SS/SA        | 7/10/6/—/—         | 5(m)               | 2(L)             | 330¥      |
-| Mossberg CMDT                  | 4P           | SA/BF        | 4/11/7/—/—         | 10(c)              | 4(L)             | 700¥      |
-| PJSS Model 55                  | 4P           | SA/BF(short) | 3/12/8/—/—         | 2(b)               | 5(L)             | 325¥      |
-| Remington Roomsweeper          | 5P           | SA           | 9/8/4/—/—          | 8(m)               | 2(L)             | 325¥      |
-| **Machine Guns**               | **DV**       | **MODES**    | **ATTACK RATINGS** | **AMMO**           | **AVAILABILITY** | **COST**  |
-| Ingram Valiant                 | 4P           | SA/BF/FA     | 2/11/12/7/3        | 50(c) or 100(belt) | 4(L)             | 4,175¥    |
-| Stoner-Ares M202               | 5P           | SA/BF/FA     | 1/10/11/7/6        | 50(c) or 100(belt) | 4(L)             | 6,900¥    |
-| RPK HMG                        | 6P           | SA/BF/FA     | 1/10/12/8/7        | 50(c) or 100(belt) | 5(L)             | 8,000¥    |
-| Panther XXL                    | 7P           | SA           | 1/9/12/8/6         | 15(c)              | 6(I)             | 10,000¥   |
-| **Special**                    | **DV**       | **MODES**    | **ATTACK RATINGS** | **AMMO**           | **AVAILABILITY** | **COST**  |
-| Ares Super Squirt              | Special      | SS           | 8/12/9/—/—         | 20(c)              | 3(L)             | 560¥      |
-| Parashield DART Pistol         | 1P + special | SS           | 9/10/8/—/—         | 5(c)               | 2                | 510¥      |
-| Parashield DART Rifle          | 1P + special | SS           | 5/8/11/3/—         | 6(m)               | 3                | 710¥      |
-| **Launchers**                  | **DV**       | **MODES**    | **ATTACK RATINGS** | **AMMO**           | **AVAILABILITY** | **COST**  |
-| Ares Antioch II                | Grenade      | SS           | —/6/8/6/5          | 8(m)               | 3(I)             | 5,900¥    |
-| ArmTech MGL-6                  | Grenade      | SA           | —/8/8/3/—          | 6(c)               | 4(I)             | 1,800¥    |
-| ArmTech MGL-12                 | Grenade      | SA           | —/8/9/6/2          | 12(c)              | 4(I)             | 5,000¥    |
-| Aztechnology Striker           | Missile      | SS           | —/4/10/9/6         | 1(ml)              | 5(I)             | 7,000¥    |
-| Onotari Interceptor            | Missile      | SS           | —/5/9/10/8         | 2(ml)              | 5(I)             | 9,000¥    |
+| **TASERS**                     | **DV**       | **MODES**    | **AMMO**           | **AVAILABILITY** | **COST**  |
+| ------------------------------ | ------------ | ------------ | ------------------ | ---------------- | --------- |
+| Defiance Super Shocker         | 6S(e)        | SS           | 4 (m)              | 1                | 240¥      |
+| Yamaha Pulsar I/II             | 4S(e)        | SA           | 4 (m)              | 1                | 325¥/350¥ |
+| **Hold-Outs**                  | **DV**       | **MODES**    | **AMMO**           | **AVAILABILITY** | **COST**  |
+| Fichetti Tiffani Needler       | 3P           | SA           | 4 (c)              | 2                | 435¥      |
+| Streetline Special             | 2P           | SS           | 6(c)               | 2                | 200¥      |
+| Walther Palm Pistol            | 2P           | SS/BF        | 6(b)               | 2                | 345¥      |
+| **Light Pistols**              | **DV**       | **MODES**    | **AMMO**           | **AVAILABILITY** | **COST**  |
+| Ares Light Fire 70             | 2P           | SA           | 16(c)              | 3(L)             | 350¥      |
+| Ares Light Fire 75             | 2P           | SA           | 16(c)              | 3(L)             | 400¥      |
+| Beretta 101T                   | 2P           | SA           | 21(c)              | 2(L)             | 260¥      |
+| Beretta 201T                   | 2P           | SA/FA        | 21(c)              | 3(L)             | 460¥      |
+| /Colt America L36              | 2P           | SA           | 11(c)              | 2(L)             | 230¥      |
+| Fichetti Security 600          | 2P           | SA           | 30(c)              | 3(L)             | 390¥      |
+| Ruger Redhawk                  | 3P           | SA/BF        | 8(cy)              | 2(L)             | 250¥      |
+| **Heavy Pistols**              | **DV**       | **MODES**    | **AMMO**           | **AVAILABILITY** | **COST**  |
+| Ares Predator VI               | 3P           | SA/BF        | 15(c)              | 2(L)             | 750¥      |
+| Ares Viper Slivergun           | 4P(fl)       | SA/BF        | 30(c)              | 4(L)             | 610¥      |
+| Browning Ultra Power           | 3P           | SA           | 10(c)              | 2(L)             | 315¥      |
+| Colt Government 2076/Manhunter | 3P           | SA           | 14(c)              | 3(L)             | 275¥/500¥ |
+| Ruger Super Warhawk            | 4P           | SA           | 6(cy)              | 3(L)             | 400¥      |
+| **Machine Pistols**            | **DV**       | **MODES**    | **AMMO**           | **AVAILABILITY** | **COST**  |
+| Ares Crusader II               | 2P           | SA/BF        | 40(c)              | 4(L)             | 520¥      |
+| Ceska Black Scorpion           | 2P           | SA/BF        | 35(c)              | 3(L)             | 510¥      |
+| Steyr TMP                      | 2P           | SA/FA        | 30(c)              | 3(L)             | 690¥      |
+| **Submachine Guns**            | **DV**       | **MODES**    | **AMMO**           | **AVAILABILITY** | **COST**  |
+| Colt Cobra TZ-100              | 3P           | SA/BF        | 32(c)              | 2(L)             | 730¥      |
+| Colt Cobra TZ-110              | 3P           | SA/BF        | 32(c)              | 2(L)             | 785¥      |
+| Colt Cobra TZ-120              | 3P           | SA/BF        | 32(c)              | 3(L)             | 840¥      |
+| FN P93 Praetor                 | 4P           | SA/BF/FA     | 50(c)              | 4(L)             | 925¥      |
+| HK-227                         | 3P           | SA/BF        | 28(c)              | 3(L)             | 825¥      |
+| Ingram Smartgun XI             | 3P           | SA/BF        | 32(c)              | 3(L)             | 750¥      |
+| SCK Model 100                  | 3P           | SA/BF        | 30(c)              | 3(L)             | 725¥      |
+| Uzi V                          | 3P           | SA/BF/FA     | 24(c)              | 2(L)             | 455¥      |
+| **Assault Rifles**             | **DV**       | **MODES**    | **AMMO**           | **AVAILABILITY** | **COST**  |
+| AK-97                          | 5P           | SA/BF/FA     | 38(c)              | 2(L)             | 2,100¥    |
+| Ares Alpha                     | 4P           | SA/BF/FA     | 42(c)              | 5(L)             | 3,400¥    |
+| - Grenade Launcher             | As grenade   | SS           | 6(c)               | —                | —         |
+| Colt M23                       | 4P           | SA/BF/FA     | 40(c)              | 2(L)             | 2,100¥    |
+| FN-HAR                         | 5P           | SA/BF/FA     | 35(c)              | 3(L)             | 2,100¥    |
+| Yamaha Raiden                  | 4P           | SA/BF/FA     | 60(c)              | 5(L)             | 3,200¥    |
+| - Grenade Launcher             | As grenade   | SS           | 4(c)               | —                | —         |
+| - Shotgun                      | 4P           | SS/SA        | 2(b)               | —                | —         |
+| **Longarm Rifles**             | **DV**       | **MODES**    | **AMMO**           | **AVAILABILITY** | **COST**  |
+| Ares Desert Strike             | 5P           | SA           | 14(c)              | 4(I)             | 11,000¥   |
+| Cavalier Arms Crockett EBR     | 5P           | SA/BF        | 20(c)              | 5(I)             | 9,050¥    |
+| Ranger Arms SM-5               | 5P           | SA           | 15(c)              | 5(I)             | 13,200¥   |
+| Remington 900                  | 5P           | SS           | 5(m)               | 3(L)             | 12,000¥   |
+| Ruger 101                      | 5P           | SA           | 8(m)               | 2(L)             | 11,100¥   |
+| Barret Model 122               | 6P           | SA           | 10(c)              | 6(I)             | 15,200¥   |
+| **Shotguns**                   | **DV**       | **MODES**    | **AMMO**           | **AVAILABILITY** | **COST**  |
+| Defiance T-250                 | 4P           | SS/SA        | 5(m)               | 2(L)             | 330¥      |
+| Mossberg CMDT                  | 4P           | SA/BF        | 10(c)              | 4(L)             | 700¥      |
+| PJSS Model 55                  | 4P           | SA/BF(short) | 2(b)               | 5(L)             | 325¥      |
+| Remington Roomsweeper          | 5P           | SA           | 8(m)               | 2(L)             | 325¥      |
+| **Machine Guns**               | **DV**       | **MODES**    | **AMMO**           | **AVAILABILITY** | **COST**  |
+| Ingram Valiant                 | 4P           | SA/BF/FA     | 50(c) or 100(belt) | 4(L)             | 4,175¥    |
+| Stoner-Ares M202               | 5P           | SA/BF/FA     | 50(c) or 100(belt) | 4(L)             | 6,900¥    |
+| RPK HMG                        | 6P           | SA/BF/FA     | 50(c) or 100(belt) | 5(L)             | 8,000¥    |
+| Panther XXL                    | 7P           | SA           | 15(c)              | 6(I)             | 10,000¥   |
+| **Special**                    | **DV**       | **MODES**    | **AMMO**           | **AVAILABILITY** | **COST**  |
+| Ares Super Squirt              | Special      | SS           | 20(c)              | 3(L)             | 560¥      |
+| Parashield DART Pistol         | 1P + special | SS           | 5(c)               | 2                | 510¥      |
+| Parashield DART Rifle          | 1P + special | SS           | 6(m)               | 3                | 710¥      |
+| **Launchers**                  | **DV**       | **MODES**    | **AMMO**           | **AVAILABILITY** | **COST**  |
+| Ares Antioch II                | Grenade      | SS           | 8(m)               | 3(I)             | 5,900¥    |
+| ArmTech MGL-6                  | Grenade      | SA           | 6(c)               | 4(I)             | 1,800¥    |
+| ArmTech MGL-12                 | Grenade      | SA           | 12(c)              | 4(I)             | 5,000¥    |
+| Aztechnology Striker           | Missile      | SS           | 1(ml)              | 5(I)             | 7,000¥    |
+| Onotari Interceptor            | Missile      | SS           | 2(ml)              | 5(I)             | 9,000¥    |
 
 #### Firearm Descriptions
 
@@ -1239,13 +1115,13 @@ Tasers accept top-mounted accessories.
 
 This heavy-duty taser can fire up to four darts with twenty-yard-long wires. The wired connection to the battery allows for a more powerful shock but limits range. It can also be used point pointblank in Close Combat for the same damage. After a successful hit, if the target does not knock the lines free, the attacker may use a Major Action to inflict the base damage of the weapon again by opening another set of capacitors. 
 
-Wireless bonus: A successful hit informs you of the status of the target’s basic health in terms of Condition Monitors (general statements, rather than exact number of boxes left).
+{REMOVE ME} - Wireless bonus: A successful hit informs you of the status of the target’s basic health in terms of Condition Monitors (general statements, rather than exact number of boxes left).
 
 **Yamaha Pulsar I/II**
 
 The Pulsar uses wireless capacitors, meaning that the Pulsar has increased range compared to other wired tasers. As a trade-off, it packs a little less punch than wired models, but it fires faster and delivers repeated hits. The Pulsar I has no melee contacts, but the Pulsar II includes a pair of contacts on the base of the grip to use in melee (treat these as a Close Combat attack as a Club).
 
-Wireless bonus: A successful hit informs you of the status of the target’s basic health and Condition Monitors (general statements, rather than exact number of boxes left).
+{REMOVE ME} - Wireless bonus: A successful hit informs you of the status of the target’s basic health and Condition Monitors (general statements, rather than exact number of boxes left).
 
 **HOLD-OUTS**
 Pistols
@@ -1256,7 +1132,7 @@ Hold-outs can’t take accessories or modifications.
 
 Pretty and deadly are not mutually exclusive. Fichetti gunsmithing combined with Tiffani style makes the Needler the single most popular designer handgun in the world. The base model is matte grey, but its special color-changing coating can be manipulated via wireless signal with an infinite number of patterns and designs. The coating allows your gun to match your shoes, your handbag, or the camo pattern of your fatigues. The Needler only chambers caseless flechette rounds, which are already factored into its damage code.
 
-Wireless bonus: You can change the color of the Fichetti Tiffani Needler with a Minor Action. Applying a camouflage pattern to the Needler increases the concealability threshold by 1 for visual Perception tests.
+{REMOVE ME} - Wireless bonus: You can change the color of the Fichetti Tiffani Needler with a Minor Action. Applying a camouflage pattern to the Needler increases the concealability threshold by 1 for visual Perception tests.
 
 **Streetline Special**
 
@@ -1284,7 +1160,7 @@ The preferred sidearm of many security forces around the world, the T-series is 
 
 A tribute to Colt’s world-class reputation, the L36 is cheap, easily concealed, and abundant on the streets. In order to be easily transferred between corporate security rookies, the weapon feafeatures an ownership swap feature that has been abused by cops and crooks alike. A perfect throwaway weapon.
 
-Wireless Bonus: The user can alter ownership data with a Minor Action.
+{REMOVE ME} - Wireless Bonus: The user can alter ownership data with a Minor Action.
 
 **Fichetti Security 600**
 
@@ -1294,7 +1170,7 @@ Designed as a light sidearm for security forces, the thirty-round magazine allow
 
 This rugged revolver is the kid brother of the legendary Super Warhawk. Designed with precision and fun shooting in mind, the Redhawk has a revolutionary single/double firing selector. Classic double action allows a shot with each trigger pull (Semi-Auto Fire), while the single setting lets you play old-west gunslinger and “fan” the hammer (Burst Fire).
 
-Wireless Bonus: You get an extra Minor Action in a turn where you change the action selection.
+{REMOVE ME} - Wireless Bonus: You get an extra Minor Action in a turn where you change the action selection.
 
 **Machine Pistols**
 Automatics
@@ -1475,7 +1351,7 @@ That name is terrible. Everyone thinks the Super Squirt is some kind of water gu
 
 Bringing down trolls with a little plastic, steel, and chemical cocktail for decades, Parashield sets the industry standard for dart weapons. The pistol model can accept top-mounted accessories only. The rifle includes a top-mounted imaging scope and can mount top and underbarrel accessories.
 
-Wireless bonus: The dart reports whether or not it has struck home and successfully injected along with the effect based on heart rate and pulse levels, although its medical sensors are not very sophisticated (Device Rating of 1 for the dart).
+{REMOVE ME} - Wireless bonus: The dart reports whether or not it has struck home and successfully injected along with the effect based on heart rate and pulse levels, although its medical sensors are not very sophisticated (Device Rating of 1 for the dart).
 
 **Launchers**
 
@@ -1483,23 +1359,23 @@ The Exotic Weapons skill is used to fire launchers, and they can take top and un
 
 **Ares Antioch II**
 
-The Antioch II is the fanciest tube with a trigger around, complete with an integral smartgun system. A secondary trigger setting allows for wireless activation of launched projectiles. Wireless bonus: You can use the wireless link trigger for your grenades, even if you don’t have DNI.
+The Antioch II is the fanciest tube with a trigger around, complete with an integral smartgun system. A secondary trigger setting allows for wireless activation {REMOVE ME} - of launched projectiles. Wireless bonus: You can use the wireless link trigger for your grenades, even if you don’t have DNI.
 
 **ArmTech MGL-6/MGL-12**
 
 Semi-auto grenade launchers in a bullpup pistol and rifle style that can send a whole lot of bad news downrange real fast. 
 
-Wireless bonus: When active the launcher will not detonate any ordnance loaded into the weapon within five yards of the weapon, even if a spoofed command tells it to do otherwise.
+{REMOVE ME} - Wireless bonus: When active the launcher will not detonate any ordnance loaded into the weapon within five yards of the weapon, even if a spoofed command tells it to do otherwise.
 
 **Aztechnology Striker**
 
-Deadly and disposable, the Striker is a great analogy for runners. The launch tube can be reused, which is nice considering recent price increases. Wireless bonus: Connecting this launcher to the local Matrix provides a +1 modifier bonus as long as no other bonus-applying systems are in use.
+Deadly and disposable, the Striker is a great analogy for runners. The launch tube can be reused, which is nice considering recent price increases. Wireless {REMOVE ME} - bonus: Connecting this launcher to the local Matrix provides a +1 modifier bonus as long as no other bonus-applying systems are in use.
 
 **Onotari Interceptor**
 
 Saeder-Krupp developed this multipurpose missile launcher for military use. It has two separate barrels that can load two missiles at once, which don’t need to be the same type. Both barrels cannot be fired simultaneously, though this safety feature has been known to be removed, much to the dismay of the target—and the firer, as it turns out. It features an internal smartgun system that controls the fire-safety system. Firing both barrels launches both weapons. Split the attack modifier and resolve each projectile independently. The firer must resist 6P Fire damage when launching both tubes.
 
-Wireless bonus: The safety system cannot be disengaged, but the firer gains the smartlink wireless bonus.
+{REMOVE ME} - Wireless bonus: The safety system cannot be disengaged, but the firer gains the smartlink wireless bonus.
 
 
 
@@ -1532,51 +1408,51 @@ Most firearm accessories must be attached to a particular mount—top, barrel, u
 
 A smartgun accessory for grenade and rocket launchers uses a rangefinder to air-burst the explosive projectile in close proximity to the target. An airburst link reduces the scatter distance for a launched weapon by two yards per net hit instead of one yard per hit (Blast Attacks and Scatter) when you use the wireless link trigger. The airburst link also prevents the defender from using the Hit the Dirt Action to reduce damage, as the Prone status offers no benefit against the airburst. 
 
-Wireless bonus: An airburst link requires wireless functionality to function at all. Both the grenades and the launcher must have wireless mode turned on for the system to function.
+{REMOVE ME} - Wireless bonus: An airburst link requires wireless functionality to function at all. Both the grenades and the launcher must have wireless mode turned on for the system to function.
 
 **Bipod**
 
-A two-legged brace extends down from the weapon, allowing it to be fired low to the ground with the user in a prone or sitting position. A bipod can be attached to the underbarrel mount of a weapon and provides a +2 to the Attack Rating when properly deployed. Attaching a bipod takes a Major Action. Folding up or deploying a bipod is a Minor Action.
+A two-legged brace extends down from the weapon, allowing it to be fired low to the ground with the user in a prone or sitting position. A bipod can be attached to the underbarrel mount of a weapon and provides a +2 to the Attack Rolls when properly deployed. Attaching a bipod takes a Major Action. Folding up or deploying a bipod is a Minor Action.
 
-Wireless bonus: The Attack Rating bonus increases to +3 if used when prone or sitting.
+{REMOVE ME} - Wireless bonus: The Attack Rolls bonus increases to +3 if used when prone or sitting.
 
 **Concealable holster**
 
 A small holster worn just about anywhere on the body it can’t be seen, attached with a smart adhesive. It increases the Concealability threshold of the weapon inside by 1. Only pistols (including machine pistols) and tasers fit in a concealable holster.
 
-Wireless bonus: Sensors, smart-fabric, and active adhesive allow the holster to alter color and move small amounts in real time, increasing the Concealability threshold by an additional 1.
+{REMOVE ME} - Wireless bonus: Sensors, smart-fabric, and active adhesive allow the holster to alter color and move small amounts in real time, increasing the Concealability threshold by an additional 1.
 
 **Gas-vent system**
 
-Gas-vent recoil compensation systems are barrel-mounted accessories that vent a weapon’s barrel gases at a specific vector to counter muzzle climb. Once installed, a gas-vent cannot be removed. Gas-vent systems remove the Attack Rating penalty for Semi-Automatic fire and reduce it to 2 for Burst Fire.
+Gas-vent recoil compensation systems are barrel-mounted accessories that vent a weapon’s barrel gases at a specific vector to counter muzzle climb. Once installed, a gas-vent cannot be removed. Gas-vent systems remove the Attack Rolls penalty for Semi-Automatic fire and reduce it to 2 for Burst Fire.
 
 **Gyro mount**
 
-This heavy harness features an articulated and motorized gyro-stabilized arm. The mount can hold a rifle or machine gun. The system negates the Attack Rating adjustment for Semi-Auto and Burst Fire and provides a +3 Attack Rating for Full-Auto. This system also shifts the Strength requirements for medium and heavy machine guns to 2+ and 4+ respectively. Attaching or removing a weapon from the mount takes a Minor Action. Putting on a gyro-mount harness takes about a minute, while the quick-release allows you to get out of it with a Major Action. 
+This heavy harness features an articulated and motorized gyro-stabilized arm. The mount can hold a rifle or machine gun. The system negates the Attack Rolls adjustment for Semi-Auto and Burst Fire and provides a +3 Attack Rolls for Full-Auto. This system also shifts the Strength requirements for medium and heavy machine guns to 2+ and 4+ respectively. Attaching or removing a weapon from the mount takes a Minor Action. Putting on a gyro-mount harness takes about a minute, while the quick-release allows you to get out of it with a Major Action. 
 
-Wireless bonus: Activating the harness’s quick-release with a wireless signal to exit the harness is a Minor Action.
+{REMOVE ME} - Wireless bonus: Activating the harness’s quick-release with a wireless signal to exit the harness is a Minor Action.
 
 **Hidden arm slide**
 
 Attached to the forearm and worn under clothing, this slide can fit a Hold-out, Light Pistol, or Taser. With a Minor Action and a specific movement, the slide moves the weapon into your hand. The use of a hidden arm slide provides a Bonus Effect when first used. It also increases the Concealability threshold by 1.
 
-Wireless bonus: You get a bonus Minor Action on any turn when you activate the slide.
+{REMOVE ME} - Wireless bonus: You get a bonus Minor Action on any turn when you activate the slide.
 
 **Imaging scope**
 
-The classic top-mounted scope that includes a micro camera and vision magnification, along with a Capacity of 3 for additional vision enhancements. Attachment or removal takes only a Minor Action. The Take Aim Minor Action must be used in order to gain the benefits of an imaging scope, though the modifier bonus from that action is not gained for the first action of use. When you are using an imaging scope, your target cannot gain Bonus Effect by having a higher Defense Rating. Wireless bonus: The scope’s “line of sight” can be shared, allowing you to share what your scope sees with your team (and yourself if you’re using it to look around a corner).
+The classic top-mounted scope that includes a micro camera and vision magnification, along with a Capacity of 3 for additional vision enhancements. Attachment or removal takes only a Minor Action. The Take Aim Minor Action must be used in order to gain the benefits of an imaging scope, though the modifier bonus from that action is not gained for the first action of use. When you are using an imaging scope, your target cannot gain Bonus Effect by having a higher Defense. Wireless {REMOVE ME} - bonus: The scope’s “line of sight” can be shared, allowing you to share what your scope sees with your team (and yourself if you’re using it to look around a corner).
 
 **Laser sight**
 
-This device uses a laser beam to project a visible dot (normal, low-light, or thermographic) on the target. This increases the weapon’s Attack Rating by 1, not cumulative with smartlink modifiers. The laser sight can be mounted as either an underbarrel mount or top mount. Activating or deactivating a laser sight is a Minor Action.
+This device uses a laser beam to project a visible dot (normal, low-light, or thermographic) on the target. This increases the weapon’s Attack Rolls by 1, not cumulative with smartlink modifiers. The laser sight can be mounted as either an underbarrel mount or top mount. Activating or deactivating a laser sight is a Minor Action.
 
-Note that in weapons with a laser sight included as standard equipment, this bonus is already calculated into the Attack Rating.
+Note that in weapons with a laser sight included as standard equipment, this bonus is already calculated into the Attack Rolls.
 
-Wireless bonus: The bonus to the Attack Rating increases to 2. You gain a bonus Minor Action on a turn when you activate or deactivate the laser sight.
+{REMOVE ME} - Wireless bonus: The bonus to the Attack Rolls increases to 2. You gain a bonus Minor Action on a turn when you activate or deactivate the laser sight.
 
 **Periscope**
 
-This adjustable viewer attaches to a top mount and allows the user to target a weapon around corcorners, reducing the Cover IV modifier penalty to –1 when using the Take Cover Action. A periscope can be upgraded with any of the vision enhancements noted on. Capacity 3. Wireless bonus: The modifier penalty noted above is reduced to 0.
+This adjustable viewer attaches to a top mount and allows the user to target a weapon around corcorners, reducing the Cover IV modifier penalty to –1 when using {REMOVE ME} - the Take Cover Action. A periscope can be upgraded with any of the vision enhancements noted on. Capacity 3. Wireless bonus: The modifier penalty noted above is reduced to 0.
 
 **Quick-draw holster**
 
@@ -1584,25 +1460,25 @@ An easy access holster designed to hold pistols and tasers. Use of the Quick-Dra
 
 **Shock pads**
 
-A shock-absorbing pad situated on the rigid stock of a rifle, shotgun, or heavy weapon. It decreases the Semi-Auto and Burst Fire Attack Rating modifiers by 1.
+A shock-absorbing pad situated on the rigid stock of a rifle, shotgun, or heavy weapon. It decreases the Semi-Auto and Burst Fire Attack Rolls modifiers by 1.
 
 **Silencer**
 
 A barrel-mounted accessory for reducing the sound and flash of firing a weapon; not compatible with revolvers or shotguns. It increases the threshold on Perception tests by 2 to notice the weapon’s use or locate the weapon’s firer. Attaching or removing a silencer takes a Major Action.
 
-Wireless bonus: The silencer features systems and simple software that alerts you via AR if someone nearby moves quickly in response to the sound of the silenced weapon.
+{REMOVE ME} - Wireless bonus: The silencer features systems and simple software that alerts you via AR if someone nearby moves quickly in response to the sound of the silenced weapon.
 
 **Smart firing platform**
 
-A robotic tripod equipped with a mechanized pivot that allows for a 180-degree firing arc and a 60-degree inclination. It can mount one smartgun- equipped weapon to the platform. The weapon will be fired by the platform’s onboard pilot (Device Rating 3), using a pre-programmed Targeting Autosoft (Rating 3). It can be upgraded with additional autosofts, usually a Clearsight program. You need to set the parameters of who exactly the platform should and shouldn’t shoot at, which are followed by the platform’s pilot. The platform negates the Attack Rating adjustments for Semi-Auto and Burst Fire and offers a +3 Attack Rating for Full-Auto. It has an Initiative rank of Pilot x 4, Ability Dice Code Initiative Dice, 4 Minor Actions, and 1 Major Action. Wireless bonus: You can fire the mounted weapon remotely using an implanted smartlink using VR, replacing the system’s dice pools with your own.
+A robotic tripod equipped with a mechanized pivot that allows for a 180-degree firing arc and a 60-degree inclination. It can mount one smartgun- equipped weapon to the platform. The weapon will be fired by the platform’s onboard pilot (Device Rating 3), using a pre-programmed Targeting Autosoft (Rating 3). It can be upgraded with additional autosofts, usually a Clearsight program. You need to set the parameters of who exactly the platform should and shouldn’t shoot at, which are followed by the platform’s pilot. The platform negates the Attack Rolls adjustments for Semi-Auto and Burst Fire and offers a +3 Attack Rolls for Full-Auto. {REMOVE ME} - It has an Initiative rank of Pilot x 4, Ability Dice Code Initiative Dice, 4 Minor Actions, and 1 Major Action. Wireless bonus: You can fire the mounted weapon remotely using an implanted smartlink using VR, replacing the system’s dice pools with your own.
 
 **Smartgun system**
 
-This is the firearm or a projectile-weapon side of the smartlink system. The system includes a small camera and range finder. It keeps track of ammunition and, through DNI, allows switching between gun modes, ejecting a clip, and firing the gun without pulling the trigger. The camera allows you to fire from cover, suffering no Attack test penalties while affected by the Cover Status. If you’re using a smartlink, the smartgun system increases the gun’s Attack Rating by 2 across all available range categories. The smartgun features are accessed either by universal access port cable to an imaging device (like glasses, goggles, or a datajack for someone with cybereyes) or by a wireless connection working in concert with direct neural interface. Internal smartgun systems add 500 nuyen to the weapon price. An external smartgun system can be attached to the top mount or underbarrel mount with an Engineering + Intelligence (4, 1 hour) Extended Test. The small camera has a capacity of 1 and can be equipped with vision enhancements.
+This is the firearm or a projectile-weapon side of the smartlink system. The system includes a small camera and range finder. It keeps track of ammunition and, through DNI, allows switching between gun modes, ejecting a clip, and firing the gun without pulling the trigger. The camera allows you to fire from cover, suffering no Attack test penalties while affected by the Cover Status. If you’re using a smartlink, the smartgun system increases the gun’s Attack Rolls by 2 across all available range categories. The smartgun features are accessed either by universal access port cable to an imaging device (like glasses, goggles, or a datajack for someone with cybereyes) or by a wireless connection working in concert with direct neural interface. Internal smartgun systems add 500 nuyen to the weapon price. An external smartgun system can be attached to the top mount or underbarrel mount with an Engineering + Intelligence (4, 1 hour) Extended Test. The small camera has a capacity of 1 and can be equipped with vision enhancements.
 
 **Spare clip**
 
-This is an unloaded standard magazine for a specific selected weapon. Wireless bonus: The clip provides a current ammo count even without a smartgun system.
+{REMOVE ME} - This is an unloaded standard magazine for a specific selected weapon. Wireless bonus: The clip provides a current ammo count even without a smartgun system.
 
 **Speed loader**
 
@@ -1610,12 +1486,12 @@ The speed loader holds a ring of bullets for reloading a revolver’s cylinder. 
 
 **Tripod**
 
-The tripod provides a stable base to fire a weapon low to the ground with the user kneeling or sitting. A tripod can be attached to the underbarrel mount. It negates the Attack Rating adjustments for Semi-Auto and Burst Fire and offers a +3 Attack Rating for Full-Auto when properly deployed. Attaching a tripod takes a Major Action. Folding up or deploying the bipod is a Minor Action. Wireless bonus: The player gains a free Minor Action on a turn when they fold up, deploy, or remove the tripod.
+The tripod provides a stable base to fire a weapon low to the ground with the user kneeling or sitting. A tripod can be attached to the underbarrel mount. It negates the Attack Rolls adjustments for Semi-Auto and Burst Fire and offers a +3 Attack Rolls for Full-Auto when properly deployed. Attaching a tripod takes a {REMOVE ME} - Major Action. Folding up or deploying the bipod is a Minor Action. Wireless bonus: The player gains a free Minor Action on a turn when they fold up, deploy, or remove the tripod.
 
 
 ### Ammunition
 
-Ammunition is defined by type (regular, gel, APDS, etc.), class of firearm (light pistol, heavy pistol, assault rifle, etc.) and is considered cased unless the caseless option is purchased. Unless indicated otherwise in its description, a gun can fire cased or caseless ammo, but not both. Each class of gun can trade ammo with another of its class. For example, all Heavy Pistols and SMGs can share ammo. An ammunition type’s Attack Rating Modifier and Damage Value Modifier are added to the weapon’s ratings. For example, an Ares Predator VI (DV 3P, Attack Ratings Close 9, Near 9, Medium 7, Far —, Extreme —) loaded with explosive rounds (AR —, DV +1) has a DV of 4P with no change to the Attack Ratings.
+Ammunition is defined by type (regular, gel, APDS, etc.), class of firearm (light pistol, heavy pistol, assault rifle, etc.) and is considered cased unless the caseless option is purchased. Unless indicated otherwise in its description, a gun can fire cased or caseless ammo, but not both. Each class of gun can trade ammo with another of its class. For example, all Heavy Pistols and SMGs can share ammo. An ammunition type’s Attack Rolls Modifier and Damage Value Modifier are added to the weapon’s ratings. For example, an Ares Predator VI (DV 3P, Attack Ratings Close 9, Near 9, Medium 7, Far —, Extreme —) loaded with explosive rounds (AR —, DV +1) has a DV of 4P with no change to the Attack Ratings.
 
 **Caseless vs. Cased**
 
@@ -1717,7 +1593,7 @@ Often called flash-bangs, these grenades explode to create a bright, loud, shock
 
 This is an electronic box, ten centimeters by ten centimeters on its face and two centimeters thick, containing a set of micro-flashes on each side designed to fire in random strobing sequence to confuse opponents. Anyone in the range of a flash-pak and using standard vision receives the Blinded status (p. 51) indicated in the DV chart on all tests that include vision due to the strobe effect. Using low-light causes the status to shift up one level. Flare compensation drops the status down one level. The flash-pak has ten charges and uses one charge per combat round. Plugged in, it recharges one charge every ten seconds. 
 
-Wireless bonus: The strobe sequence can avoid directing strong flashes at the subscribed character preventing any Status Effect for them. The device can recharge by induction, regaining one charge per hour
+{REMOVE ME} - Wireless bonus: The strobe sequence can avoid directing strong flashes at the subscribed character preventing any Status Effect for them. The device can recharge by induction, regaining one charge per hour
 
 **Fragmentation**
 
@@ -1744,15 +1620,15 @@ Similar to the gas grenade, a smoke grenade releases a cloud of smoke instead of
 | High Explosive Rocket      | 16P       | 10P          | 4P          | 20m       | 5(I)      | 2,100¥                           | -                    |
 | Gas Rocket                 | —         | —            | —           | —         | 4(I)      | 750¥ + 100 dose payload          | Use Gas Attack rules |
 | Smoke/Thermal Smoke Rocket | —         | —            | —           | —         | 4(I)      | 1,200¥                           | See rules            |
-| Missile Variant            | as Rocket | as Rocket    | as Rocket   | as Rocket | +1(I)     | As Rocket + Sensor rating x 500¥ | +2 to Attack Rating  |
+| Missile Variant            | as Rocket | as Rocket    | as Rocket   | as Rocket | +1(I)     | As Rocket + Sensor rating x 500¥ | +2 to Attack Rolls   |
 
-Rockets are launched projectiles with stabilizing fins, a propulsion system, and a warhead. Missiles are rockets that carry internal guidance systems, with sensor packages adding their rating to the attack roll, since they can adjust their trajectory in flight (also reflected in their Attack Rating). Rockets and missiles are set to arm when they have traveled 10 yards from their point of origin and explode on impact or with an airburst link. This safety feature can be disabled with an `Engineering + Intelligence (4, 5 Minutes) Extended Test`.
+Rockets are launched projectiles with stabilizing fins, a propulsion system, and a warhead. Missiles are rockets that carry internal guidance systems, with sensor packages adding their rating to the attack roll, since they can adjust their trajectory in flight (also reflected in their Attack Rolls). Rockets and missiles are set to arm when they have traveled 10 yards from their point of origin and explode on impact or with an airburst link. This safety feature can be disabled with an `Engineering + Intelligence (4, 5 Minutes) Extended Test`.
 
 As is the case with grenades, damage from rockets and missiles decreases the farther you are from the point of impact. The ranges differ based on the weapon, as listed in the stats for each weapon. All rockets and missiles have the following wireless feature: You can use the wireless link trigger for your rocket or missile, even if you don’t have a direct neural interface.
 
 **Anti-vehicle**
 
-AV rockets/missiles contain a shaped-charge warhead designed to burn or punch its way through a vehicle or barrier. Though the impact causes a blast, it is limited compared to that of a High-Explosive projectile. +2 Attack Rating against vehicles.
+AV rockets/missiles contain a shaped-charge warhead designed to burn or punch its way through a vehicle or barrier. Though the impact causes a blast, it is limited compared to that of a High-Explosive projectile. +2 Attack Rolls against vehicles.
 
 **Fragmentation** 
 
@@ -1794,7 +1670,7 @@ Plastic explosives with the consistency of shaving cream, stored in an aerosol c
 
 **Detonator cap**
 
-This detonator is inserted into a mass of explosives and set off either by a programmable timer or radio signal. Setting the timer takes a Major Action. Wireless bonus: You can set the detonator’s timer with a Minor Action. You gain a Minor Action Command DNI-linked device Action to detonate the explosive.
+This detonator is inserted into a mass of explosives and set off either by a programmable timer or radio signal. Setting the timer takes a Major Action. Wireless {REMOVE ME} - bonus: You can set the detonator’s timer with a Minor Action. You gain a Minor Action Command DNI-linked device Action to detonate the explosive.
 
 ### Clothing and Armor
 
@@ -1811,22 +1687,22 @@ Clothing in 2080 has some serious functionality options: commlinks, music player
 | Feedback clothing           | 1         | +150¥       |
 
 
-| **ARMOR**                  | **DEFENSE RATING** | **CAPACITY** | **AVAIL** | **COST** |
-| -------------------------- | ------------------ | ------------ | --------- | -------- |
-| Synthleather jacket        | +1                 | 3            | 1         | 300¥     |
-| Actioneer Business Clothes | +2                 | 6            | 2         | 1,500¥   |
-| Armor clothing             | +2                 | 4            | 2         | 400¥     |
-| Armor jacket               | +4                 | 8            | 2         | 1,000¥   |
-| Armor vest                 | +3                 | 6            | 2         | 750¥     |
-| Chameleon suit             | +2                 | 4            | 4(I)      | 2000¥    |
-| Full body armor            | +5                 | 10           | 4(L)      | 2,000¥   |
-| Full helmet                | +2                 | 6            | -         | 500¥     |
-| Lined coat                 | +3                 | 7            | 2         | 900¥     |
-| Urban Explorer Jumpsuit    | +3                 | 6            | 2         | 800¥     |
-| **HELMETS/SHIELDS**        | **DEFENSE RATING** | **CAPACITY** | **AVAIL** | **COST** |
-| Helmet                     | +1                 |              | 2         | 100¥     |
-| Ballistic shield           | +6                 |              | 12R       | 1,200¥   |
-| Riot shield                | +2                 |              | 10R       | 1,500¥   |
+| **ARMOR**                  | **Defense** | **CAPACITY** | **AVAIL** | **COST** |
+| -------------------------- | ----------- | ------------ | --------- | -------- |
+| Synthleather jacket        | +1          | 3            | 1         | 300¥     |
+| Actioneer Business Clothes | +2          | 6            | 2         | 1,500¥   |
+| Armor clothing             | +2          | 4            | 2         | 400¥     |
+| Armor jacket               | +4          | 8            | 2         | 1,000¥   |
+| Armor vest                 | +3          | 6            | 2         | 750¥     |
+| Chameleon suit             | +2          | 4            | 4(I)      | 2000¥    |
+| Full body armor            | +5          | 10           | 4(L)      | 2,000¥   |
+| Full helmet                | +2          | 6            | -         | 500¥     |
+| Lined coat                 | +3          | 7            | 2         | 900¥     |
+| Urban Explorer Jumpsuit    | +3          | 6            | 2         | 800¥     |
+| **HELMETS/SHIELDS**        | **Defense** | **CAPACITY** | **AVAIL** | **COST** |
+| Helmet                     | +1          |              | 2         | 100¥     |
+| Ballistic shield           | +6          |              | 12R       | 1,200¥   |
+| Riot shield                | +2          |              | 10R       | 1,500¥   |
 
 
 | **MODIFICATION**    | **CAPACITY** | **AVAIL** | **COST**      |
@@ -1846,7 +1722,7 @@ Clothing in 2080 has some serious functionality options: commlinks, music player
 
 Electrochromic threads can change color with voltage, letting you alter the color of your clothing or display text, images, or patterns. This is good for fashion, but great for vanishing into a crowd if you need a quick costume change. You can even get armored clothing in electrochromic styles. It takes a Minor Action to change the settings on your electrochromic clothes, but two combat rounds to complete the change.
 
-Wireless bonus: You gain a free Minor Action during any turn when you change your clothes’ settings, and your clothing can display images, text files, or video from your commlink.
+{REMOVE ME} - Wireless bonus: You gain a free Minor Action during any turn when you change your clothes’ settings, and your clothing can display images, text files, or video from your commlink.
 
 **Feedback feature**
 
@@ -1854,7 +1730,7 @@ This haptic clothing allows for a tactile component to an augmented reality expe
 
 #### Armor Descriptions
 
-Due to materials advances modern armor can be lightweight, flexible, and concealable. Armor adds to Defense Rating, and multiple items do not stack unless noted.
+Due to materials advances modern armor can be lightweight, flexible, and concealable. Armor adds to Defense, and multiple items do not stack unless noted.
 
 **Leather jacket/duster**
 
@@ -1880,7 +1756,7 @@ A flexible-wrap vest designed to be worn under regular clothing without displayi
 
 A head-to-toe suit with a ruthenium polymer coating supported by a sensor suite, allowing it to scan its surroundings and replicate the images at the proper perspectives. You gain a bonus Edge when performing Stealth tests to hide while wearing an active suit.
 
-Wireless bonus: The suit also raises your Defense Rating by 2 thanks to improved hiding ability.
+{REMOVE ME} - Wireless bonus: The suit also raises your Defense by 2 thanks to improved hiding ability.
 
 **Full body armor**
 
@@ -1905,7 +1781,7 @@ This modification protects the wearer against Contact-vector chemical attacks (T
 
 **Chemical Seal**
 
-Available only with full body armor, the chemical seal is an airtight environmental control that takes a Major Action to activate. It prevents the effects of all statuses connected to Contact- and Inhalation- vector chemicals but can only be used for a total of an hour at a time due to the air supply. It also neutralizes the Corrosive status six times before it’s built in chemical protection is worn away and the armor no longer has chemical seal protection. Wireless bonus: Activating the chemical seal is a Minor Action.
+Available only with full body armor, the chemical seal is an airtight environmental control that takes a Major Action to activate. It prevents the effects of all statuses connected to Contact- and Inhalation- vector chemicals but can only be used for a total of an hour at a time due to the air supply. It also neutralizes {REMOVE ME} - the Corrosive status six times before it’s built in chemical protection is worn away and the armor no longer has chemical seal protection. Wireless bonus: Activating the chemical seal is a Minor Action.
 
 **Cold Resistance**
 
@@ -1933,13 +1809,13 @@ The impressive black shield used by SWAT teams and in urban combat. It features 
 
 The clear plasteel cousin of the ballistic shield, this one adds an electricity attack option. Use the Close Combat skill for the attack and attack characteristics of a Stun Baton. The taser shield holds 10 charges; when attached to a power point, it regains one charge per 10 seconds.
 
-Wireless bonus: The riot shield recharges by induction, recharging one charge per hour.
+{REMOVE ME} - Wireless bonus: The riot shield recharges by induction, recharging one charge per hour.
 
-| ITEM             | DEFENSE RATING | CAPACITY | AVAIL | COST   |
-| ---------------- | -------------- | -------- | ----- | ------ |
-| Helmet           | +1             | 4        | 1     | 200¥   |
-| Ballistic shield | +2             | 2        | 4     | 900¥   |
-| Riot shield      | +2             | 2        | 4     | 1,200¥ |
+| ITEM             | Defense | CAPACITY | AVAIL | COST   |
+| ---------------- | ------- | -------- | ----- | ------ |
+| Helmet           | +1      | 4        | 1     | 200¥   |
+| Ballistic shield | +2      | 2        | 4     | 900¥   |
+| Riot shield      | +2      | 2        | 4     | 1,200¥ |
 
 | WEAPON           | TYPE         | DV    | ATTACK RATINGS |
 | ---------------- | ------------ | ----- | -------------- |
@@ -1996,23 +1872,14 @@ They represent the Data Processing and Firewall attributes
 
 Combat Step By Step
 
-1. Determine Surprise
-2. Establish Positions
-3. Determine Initiative
-4. Take Turns
-5. Move to next Round
-
-### Surprise
-
-A band of runners sneaks up on a a group of guards. A hell hound sneaks down an officer hallway, unnoticed by the runners until the hell hound engulfs one of them in flame. In these situations, one side of the battle gains surprise over the other.
-
-The GM determines who might be surprised. If neither side tries to be stealthy, they automatically notice each other. Otherwise, the GM compares the Quickness  (Sneaking) tests of anyone hiding with the passive Intuition (Perception) [`10 + Intuition`] score of each creature on the opposing side. Any character or critter that doesn’t notice a threat is surprised at the start of the encounter.
-
-If you’re surprised, you can’t move or take an action on your first turn of the combat, and you can’t take a reaction until that turn ends. A member of a group can be surprised even if the other members aren’t.
+1. Establish Positions
+2. Determine Initiative
+3. Take Turns
+4. Move to next Round
 
 ### Initiative
 
-Initiative determines the order of turns during combat. When com⁠bat starts, every participant makes a Initiative Test `Ability Dice Code + (Reaction + Intution) + Initiative Die` for personal combat, other types of combat have different Initiative Tests on the table below, to determine their place in the initiative order. The GM makes one roll for an entire group of identical creatures, so each member of the group acts at the same time.
+Initiative determines the order of turns during combat. When com⁠bat starts, every participant makes a Initiative Test `Reaction + 1d6 (+Xd6 from gear)` for personal combat, other types of combat have different Initiative Tests on the table below, to determine their place in the initiative order. The GM makes one roll for an entire group of identical creatures, so each member of the group acts at the same time.
 
 The GM ranks the combatants in order from the one with the highest Dexterity check total to the one with the lowest. This is the order (called the initiative order) in which they act during each round. The initiative order remains the same from round to round.
 
@@ -2020,28 +1887,24 @@ If a tie occurs, the DM decides the order among tied DM-controlled creatures, an
 
 **Initiative Table**
 
-| Initiative Type | Initiative Test                         |
-| --------------- | --------------------------------------- |
-| Personal Combat | (Reaction + Intuition) + Initiative Die |
-| Astral Combat   | Inuition x 2 + Initiative Die           |
-
+| Initiative Type | Initiative Test                 |
+| --------------- | ------------------------------- |
+| Personal Combat | Reaction + 1d6 (+Xd6 from gear) |
 
 
 #### Timed Items & Initiative
 
-Unless the item allows a timer to be set, in which case the player can determine when, these items go off at the end of the players turn.
+Unless the item lets you set a timer (in which case the player chooses when), these items go off at the end of the player’s turn. If armed and thrown/placed this turn, resolve at end of this turn; otherwise at the owner’s next end of turn.
 
 ### Movement and Position
 
-In combat, characters and NPC's are in constant motion, often using movement and position to gain the upper hand.
-
-On your turn if you use a Dash you can use as much or as little of your speed as you like on your turn, following the rules here.
+In combat, characters and NPCs are in constant motion, often using movement and position to gain the upper hand.
 
 Your movement can include jumping, climbing, and swimming. These different modes of movement can be combined with walking, or they can constitute your entire move. However you're moving, you deduct the distance of each part of your move from your speed until it is used up or until you are done moving.
 
 #### Breaking Up Your Move
 
-You can break up your movement on your turn, using some of your speed before and after your another action. For example, if you have a speed of 10 yards, you can move 2 yards, take your action, and then move 8 yards.
+You can break up your movement on your turn, using some of your speed before and after another action. For example, if you have a speed of 10 yards, you can move 2 yards, take your action, and then move 8 yards.
 
 #### Difficult Terrain
 
@@ -2072,7 +1935,7 @@ If you leave a hostile creature's reach during your move, you provoke an opportu
 
 ### Action In Combat
 
-The Action economy of Sixfinity is mare structured than the economy in Shadowrun. 
+The Action economy of Sixfinity is more structured than the economy in Shadowrun. 
 
 When the action picks up and the game moves into taking turns in initiative order, it’s good to know how much time is passing and what you can do in that time.
 
@@ -2083,204 +1946,145 @@ Each combat round, you gain an action allotment that you use on your player turn
 Along with these actions, enough words can be spoken or conversation can be shared to fill three seconds; if there is any doubt about the amount of words that can be said, time it!
 
 Every **combat round** a character gets:
-- 1 Major Action and 1 Minor Actions
+- 1 Major Action and 1 Minor Action
 
 
 
 #### Minor Actions
 These actions usually take only a small amount of focus or a quick and simple thought or movement. A key point among Minor Actions is that they generally do not require a test of any kind. That doesn’t mean in truly dire situations where the pressure is on that the gamemaster can’t ask for a test to be made—it just means that usually, as long as you have the action available, you can perform the task by simply declaring the use of it.
 
-| Minor Actions                 |
-| ----------------------------- |
-| Activate/Deactivate Focus (I) |
-| Attack of Opportunity (A)     |
-| Block (A)                     |
-| Change Device Mode (A)        |
-| Command Drone (I)             |
-| Command Spirit (I)            |
-| Dismiss Spirit (A)            |
-| Dodge (A)                     |
-| Drop Object (A)               |
-| Drop Prone  (I)               |
-| Move (I)                      |
-| Multiple Attacks (I)          |
-| Quick Draw (I)                |
-| Reload Smartgun (I)           |
-| Shift Perception (I)          |
-| Stand Up (I)                  |
-| Take Cover  (I)               |
-| Trip (I)                      |
-
-##### Activate (Deactivate) Focus (I)
-
-A character can activate or deactivate a bonded focus that they are carrying on their person with a Minor Action.
-
-##### Attack of Opportunity (A)
-
-When an enemy leaves your threatened area you may make an immediate melee attack on them as long as you have a Minor Action available to you.
-
-##### Block (A)
-
-A character can add their Close Combat skill to their Defense versus Melee Attacks. This lasts until they are attacked or their next turn
-
-##### Change Device Mode (A)
-
-A character may use a Minor Action to activate, deactivate, or switch the mode on any device that they are linked to by a direct neural interface, be it a wired or wireless link. This includes activating or deactivating cyberware, changing a smartgun’s firing settings, switching a commlink to hidden mode, turning a device’s wireless functionality off, and so on
-
-##### Command Drone (I)
-
-A character may issue a command to a drone they control. If multiple drones are controlled through a rigger command console (RCC), the same command can be issued to every drone. If a different command is desired for each drone, it requires multiple Minor Actions.
-
-##### Command Spirit (I)
-
-A character may issue a service command to a single spirit or group of spirits under their control, or dismiss them. The service must be the same. If multiple services are desired, multiple Minor Actions must be used.
-
-##### Dismiss Spirit (A)
-
-A character may dismiss their spirit at any time with a Minor Action.
-
-##### Dodge (A)
-
-A character can add their Athletics skill to their Defense versus Ranged Attacks. This lasts until they are attacked or their next turn.
-
-##### Drop Object (A)
-
-A character may drop an object they are holding in their hand or hands as a single Minor Action. The objects fall to the ground and may suffer damage or ill effects if the gamemaster so chooses, depending on the distance of the fall and the landing spot.
-
-##### Drop Prone (I)
-
-A character may choose to drop themselves to the ground as a Minor Action. They gain the Prone status until they choose to use the Stand Up Action.
+- Move (I) – Move up to 10y. (1 per turn.)
+- Take Cover (I) – Gain Cover I–IV if terrain allows. +2 to the Defense roll per Cover level
+- Take Aim (I) – +1 Bonus Effect (bankable; max = Willpower; once per round).
+- Ready/Draw/Sheathe (I) – Ready or stow a weapon.
+- Reload (I) – Reload weapon. (Smartlink reduces friction; same action.)
+- Operate Device (A) – Toggle/switch a device via DNI or manual.
+- Command Minion (I) – Command one spirit/drone; RCC can broadcast a shared command to many.
+- Defensive Reaction (A) – Choose Block (melee: add Armed/Unarmed) or Dodge (ranged: add Athletics) to one Defense roll.
+  - Applies to a single incoming attack; expires afterward.
+- Opportunity Attack (A) – Melee OA when a hostile leaves your reach.
+- Stand/Prone (I) – Drop prone or stand up.
 
 ##### Move (I)
 
-A character can use this Minor Action for 10 yards of movement. Only one Move Action is allowed per player turn.
-
-##### Multiple Attacks (I)
-
-A character can attack more than one opponent, assuming ammunition, reach, and enemy placement allow it. Split your modifier evenly among all targets rounded down. This action must be used in conjunction with an Attack Major Action.
-
-##### Quick Draw (I)
-A character may quick draw a pistol, pistol- sized weapon, or small throwing weapon and immediately attack with this Minor Action. The Attack action must be used in conjunction with this action. They must have the appropriate gear, augmentation, or quality to be allowed this action— if they don’t have something that allows this action, they can’t take it.
-
-##### Reload Smartgun (I)
-
-A character linked to a ready smartgun may use a mental command to eject the weapon’s clip while sliding a new one in with one deft motion, assuming that the new ammo is readily available.
-
-##### Shift Perception (I)
-
-A character capable of Astral Perception may shift perception to or from astral space as a Minor Action
-
-##### Stand Up (I)
-
-Whether they chose to be prone or they got knocked down, a character uses this action to get back to their feet and remove the Prone status
-
-##### Take Aim (I)
-
-A character gains a +1 bonus edge bonus with the use of this action. The action can only be taken once per combat round, but if the bonus is not used, it carries over to the next combat round, allowing it to be combined with actions taken over the course of several combat rounds. If the character takes a player turn without taking the Take Aim or Attack actions, any carryover bonuses from previous rounds are lost. The maximum bonus edge from the use of this action is equal to the character’s Willpower. A character may take aim with a ready firearm, bow, or exotic ranged weapon.
-
-If the character is using vision magnification or a targeting scope, the Take Aim action must be used to line up the shot in order to receive any bonus from the item. In this case, the first action of Take Aim does not provide any additional bonus beyond enabling the function of the modification.
+**Effect:** Move up to **10 yards**.
+**Limits:** You can take **only one Move** per turn. You may break up movement before/after other actions. Difficult terrain costs +1 yard per yard. Moving through a hostile’s space requires the size exception and counts as difficult terrain.
+**Triggers:** Leaving a hostile creature’s reach **provokes an Opportunity Attack**.
 
 ##### Take Cover (I)
 
-The character uses something in their area to provide protection, but they also must operate from the constraints created by the cover. Taking cover gives the player the Cover I, II, III, or IV status
+**Effect:** If suitable terrain exists, gain **Cover I–IV** (GM sets level based on how much of you is obscured: ¼, ½, ¾, full). Each level grants **+2 Defense**.
+**Constraints:** Attacking from **Cover IV** imposes **–2** to your attack. While attacking from any Cover, you **can’t gain Bonus Effect from your attack** (you can still gain it while defending). Peeking/shooting from heavy cover may require this action again if you change positions.
+
+##### Take Aim (I)
+
+**Effect:** Gain **+1 Bonus Effect** on your **next** attack. You can **bank** this; it persists round to round until used or lost.
+**Limits:** Maximum banked Aim bonus = your **Willpower**. You can Take Aim **once per round**. If you take a turn without **Take Aim** or **Attack**, you lose all banked Aim. You can’t bank Aim while Prone behind Cover IV.
+**Scopes/Vision:** If using a scope or vision magnification, the **first Take Aim** enables the device (no extra bonus), subsequent Aims stack as normal.
+
+##### Ready / Draw / Sheathe (I)
+
+**Effect:** Ready or stow a weapon or handheld item.
+**Notes:** If you have **Quick Draw** (gear/aug/quality), you may Ready a pistol-sized or small thrown weapon as part of this action and **immediately Attack** this turn. Very small items can be Readied in bunches (up to **Quickness** to off-hand) at GM discretion.
+
+##### Reload (I)
+
+**Effect:** Reload a weapon to full capacity if you have ammo available.
+**Smartlink:** Smartlinked weapons reload with the same action (no extra step); narrative flavor shifts to a mental command + practiced motion.
+
+##### Operate Device (A)
+
+**Effect:** **Toggle/switch** a simple function on a device you can physically access or that’s connected via **DNI** (e.g., change smartgun fire mode, engage safety, open/close a maglock, switch commlink mode, turn cyberware on/off).
+**Notes:** Complex multi-step interactions use **Operate Complex Device (Major)**.
+
+##### Command Minion (I)
+
+**Effect:** Issue **one clear command** to **one** spirit or drone under your control.
+**RCC Broadcast:** With an RCC, you may issue the **same command** to **all linked drones** with a single Command Minion. Different commands require additional uses.
+**Dismiss:** Dismissing a spirit is also done with this action.
+
+##### Defensive Reaction (A)
+
+**Trigger:** When you are targeted by an attack, **before** the Defense roll is made.
+**Effect (choose one):**
+
+* **Block (melee):** Add your **Armed or Unarmed Combat** skill to this **one** Defense test.
+* **Dodge (ranged):** Add your **Athletics** skill to this **one** Defense test.
+* **Duration:** Applies to a **single** incoming attack; expires afterward.
+* **Stacking:** Can be used while under **Full Defense**; bonuses add.
+
+##### Opportunity Attack (A)
+
+**Trigger:** A hostile creature **leaves your reach** by moving away (teleports and forced movement do not trigger unless stated).
+**Effect:** Make **one melee Attack** against the triggering target.
+**Limits:** You can make one Opportunity Attack per round; it costs no action.
+
+##### Stand / Prone (I)
+
+**Effect:** **Drop Prone** or **stand up**.
+**Movement:** Standing costs **one third** of your speed (round up); if you lack enough movement remaining this turn, you can’t stand. Prone movement is crawling (each yard costs +1 yard; stacks with difficult terrain).
+**Status:** Applies/removes the **Prone** status.
 
 #### Major Actions
 
 These actions take a bit more concentration or time to complete. Several involve a test of some kind, but some simply occur as long as you have the Action available. Just like Minor Actions, if there is no test involved but the gamemaster feels the pressure is on and one should be required, they have final say in the matter.
 
-| Major Actions               |
-| --------------------------- |
-| Assist (A)                  |
-| Astral Projection (I)       |
-| Attack (I)                  |
-| Banish Spirit (I)           |
-| Cast Spell (I)              |
-| Cleanse (I)                 |
-| Counterspell (I)            |
-| Full Defense (I)            |
-| Manifest (I)                |
-| Observe in Detail (I)       |
-| Pick Up/Put Down Object (I) |
-| Ready Weapon (I)            |
-| Reload Weapon (I)           |
-| Rigger Jump In (I)          |
-| Sprint (I)                  |
-| Summon Spirit (I)           |
-| Use Simple Device (I)       |
-| Use Skill (I)               |
-
-##### Assist (A)
-You make the same test they are making; your Effect becomes Bonus Effect for them to use up to 7 points total from your roll.
-
-##### Astral Projection (I)
-
-A character capable of Astral Projection (full magician or aspected magician) may shift their consciousness to or from the astral plane as a Major Action. The process is complete the moment the action is declared and therefore places them on the astral plane immediately, including for the remainder of the current combat round.
+- Attack (I) – Melee or Ranged. (Rider: Multiple Attacks by splitting penalties across targets.)
+- Use Skill (I) – Any non-attack skill use (includes quick search/assess).
+- Cast Spell (I) – Cast (healing/damage/utility). Counterspell timing lives in Magic.
+- Summon/Banish (I) – Summon a spirit or banish one.
+- Full Defense (A) – Add Willpower to all Defense tests until your next turn.
+- Operate Complex Device (I) – Multi-step interaction with non-trivial gear/rigging; includes Rigger Jump-In.
+- Interact (I) – Safely pick up/put down/manipulate objects not covered by Ready.
 
 ##### Attack (I)
 
-A character may perform one of a variety of forms of attack with this Major Action. See the below for more details.
+**Effect:** Make a **melee or ranged** attack.
+**Roll:**
 
-##### Banish Spirit (I)
-
-Any character may attempt a Banishing on a spirit as a Major Action
-
-##### Cast Spell (I)
-
-A character may cast a spell as a Major Action. For details on how, see Spells
-
-##### Cleanse (I)
-
-Awakened characters use this action to erase traces of their magic activity
-
-##### Counterspell (A)
-
-Perform Counterspell (see Magic)
-
-##### Full Defense (A)
-
-A character can add their Willpower to all Defense tests until their next turn. It persists through attacks until their next turn.
-
-##### Manifest (I)
-
-Characters who are astrally projecting use this action to appear as a ghostly form
-
-##### Observe in Detail (I)
-
-A character may make a detailed observation by taking a Major Action. This action allows a Perception test or Assensing test. This action is intended for determining details that may be obscured due to the pace and rigors of combat. It is assumed that everyone engaged in a combat is aware of the presence of everyone else, barring the use of Stealth or obscuring magic, but not necessarily details of their gear or equipment, and in some particularly hectic or rushed circumstances, the identity of individuals. In the midst of a hectic gunfight/ brawl in the dark, the winner of the brawl, who is now sprinting toward your character, may not be identifiable without an Observe in Detail action. (Deprecated)
-
-##### Pick Up/Put Down Object (I)
-
-A character may pick up an object within reach or put down one that they were holding as a Major Action. This action means care is taken to put the object down or pick it up. If the picked-up object is a weapon, this counts as readying the weapon.
-
-##### Ready Weapon (I)
-
-A character may ready a weapon by using this action. This includes drawing and readying a firearm; pulling a melee weapon from a sheath or pocket; taking out and readying a grenade or throwing knife; or any other kind of weapon preparation. Almost all weapons require this action before they are ready for use, though many times it occurs before combat even starts. Small weapons such as throwing knives and shuriken can be readied in bunches, with a total number equal to the character’s Quickness attribute pulled into the character’s off-hand with a single Ready Weapon action.
-
-##### Reload Weapon (I)
-
-Weapons without a smartlink, or weapons where the smartlink is currently disengaged, require a Major Action to reload. Reloading a weapon refills the weapon to its maximum capacity as long as the character has sufficient ammunition to do so.
-
-##### Rigger Jump In (I)
-
-A character with a vehicle control rig (VCR) and rigger-adapted vehicle or drone or a rigger command console (RCC) may jump in to control the vehicle or operate the RCC with a Major Action.
-
-##### Sprint (I)
-
-A character may move at a Sprint with this Major Action. Movement starts at 15 yards and is increased by 1 yard per effect on an `Athletics + Quickness Test (1)`. Only one Sprint Action is allowed per player turn, and it cannot be performed in the same turn as a Move action or Avoid Incoming action.
-
-##### Summon Spirit (I)
-
-A character capable of summoning may use a Major Action to summon a spirit to assist them. A spirit that is already summoned is controlled using the Command Spirit Minor Action.
-
-##### Use Simple Device (I)
-
-A character can use any simple device with a Major Action. Simple devices are those that are activated with a simple movement like a thumb trigger, pressing a single key, or tapping a single icon. It takes longer to interact with more complex devices, with required time being up to the gamemaster or listed with the description of specific gear. Remember, a device connected via a DNI-enabled system uses the Minor Action.
+* **Ranged:** `Attribute Dice + (Firearms/Archery/Throwing Weapons/Gunnery) + misc` vs target’s Defense.
+* **Melee:** `Attribute Dice + (Armed Combat/Unarmed Combat) + misc` vs target’s Defense.
+  **Hit:** Deal **Damage Value = Weapon Damage + Net Effect**; apply any damage-type riders (e.g., Burning).
+  **Rider – Multiple Attacks:** You may attack **multiple targets** you can legally threaten (ammo/reach/arc permitting). Divide your attack penalty **evenly** among targets (round down); resolve each attack separately. Net Effect is calculated per target.
 
 ##### Use Skill (I)
 
-A character may use an appropriate skill by using a Major Action
+**Effect:** Attempt a **non-attack** task that requires a skill test during combat (e.g., hack a door panel, stabilize a teammate, force a door, shove/grapple per table’s combat maneuvers, scan a room).
+**Roll:** `Linked Attribute Dice + Skill (+ misc)` vs GM-set Threshold Step or opposed roll.
+**Notes:** This is your catch-all “do a thing” action in combat time. Tasks that are just a toggle use **Operate Device (Minor)**.
 
+##### Cast Spell (I)
 
+**Effect:** Cast a spell (damage, heal, utility).
+**Roll:** As defined in **Magic** (typically `Sorcery + Magic Dice`). Apply drain, effects, and riders per spell.
+**Counterspell:** Reactions to spells (Counterspell) are handled in the **Magic** chapter and may be Anytime where appropriate.
+
+##### Summon / Banish (I)
+
+**Effect:**
+
+* **Summon:** Call a spirit to your side (consumes services as defined in Magic).
+* **Banish:** Attempt to dismiss or disrupt a spirit.
+  **Roll:** As defined in **Magic** (opposed by spirit as appropriate).
+  **Control:** Issuing orders after summoning uses **Command Minion (Minor)**.
+
+##### Full Defense (A)
+
+**Timing:** Declare **anytime**; takes effect immediately.
+**Effect:** Add your **Willpower** to **all** Defense tests **until your next turn**.
+**Limits:** You can only use Full Defense **once per round**. Stacks with **Defensive Reaction**, which still affects a single attack.
+
+##### Operate Complex Device (I)
+
+**Effect:** Perform a **multi-step** or **precision** interaction with complex gear/vehicles/systems that goes beyond a simple toggle (e.g., **Rigger Jump-In** to a drone/vehicle, configure fire-control groups, perform a short hacking sequence on a door while under fire, calibrate a medkit to a patient).
+**Roll:** Usually `Intelligence + relevant skill` vs Threshold Step or opposed; see specific subsystem (Matrix/Rigging/Medtech).
+**Notes:** Once jumped-in, continued piloting/commanding typically uses **Command Minion (Minor)** or further **Operate Complex Device** at GM discretion.
+
+##### Interact (I)
+
+**Effect:** Safely **pick up**, **put down**, **stow**, **retrieve**, or otherwise manipulate objects not covered by **Ready/Draw/Sheathe** (e.g., holster one weapon while picking up a dropped one, carefully place a grenade, sling a body over your shoulder, open/close a heavy door, apply a stim patch).
+**Roll:** Usually none; the GM may call for a test if time pressure, risk, or precision matters.
+**Notes:** Use this when the fiction calls for handling objects with care or when multiple items are involved.
 
 ### Combat Round
 
@@ -2292,10 +2096,13 @@ Characters may never start a player turn with more than 5 Minor Actions. If they
 
 #### Attacks
 
-Ranged Attack Rolls are rolled as: `Ability Dice Code + Firearms + Quickness + Misc` vs. Targets Defense Roll.
+Ranged Attack: `Attribute Dice Code + (Firearms/Archery/Throwing Weapons/Gunnery) + misc` vs target’s Defense roll.
 
+Melee Attack: `Attribute Dice Code + (Armed Combat/Unarmed Combat) + misc` vs target’s Defense roll.
 
+Defense roll: `Body + Reaction + modifiers`.
 
+Note on Defense Rolls: Use Body unless a rule specifies another attribute (e.g., some spells or grapples call for Quickness or Willpower).
 
 ### Damage
 
@@ -2303,7 +2110,9 @@ Involved as they are in an illegal and often hazardous line of work, runners get
 
 Damage is calculated based on the weapon, spell, effect in Physical or Stun. You deduct that from your Health. 
 
+Damage Value (DV) = Weapon Damage + Net Effect
 
+Apply damage type riders (e.g., Burning, Zapped) after DV is applied.
 
 #### Types of Injury
 
@@ -2328,25 +2137,25 @@ The first thing to cover is the order of operations for healing. Do you need to 
 
 As implied by the name, this is probably the first aid you should apply because it has the narrowest window. After the end of a combat encounter in which a character was injured, they have 1 minute (20 combat rounds if another fight kicks off) to receive First Aid. To apply First Aid, a character needs the right tools for the job, in this case a first aid kit. Any test made without a kit suffers a -2 modifier, and no Edge can be spent on the test.
 
-Make a `Biotech + Intelligence test against a threshold equal to 5 – target’s Essence`. If the target is one-hundred-percent natural, the healer actually gets an automatic +1 Effect added to what they roll. This represents the difficulty of repairing someone who has metal parts as well as those with organs not normally found in average people. Effect is used to heal 4 points of Stun Damage (**not including drain**) per effect or 4 points of Physical Damage or 2 points of Overflow per effect. Drain cannot be healed with First Aid. A character can receive First Aid only once for any single set of injuries.
+Make a `Biotech + Intelligence test against a threshold equal to 5 – target’s Essence`. If the target is one-hundred-percent natural, the healer actually gets an automatic +1 Effect added to what they roll. This represents the difficulty of repairing someone who has metal parts as well as those with organs not normally found in average people. Effect is used to heal 3 points ofStun Damage (**not including drain**) per effect or 3 points ofPhysical Damage or 2 points of Overflow per effect. Drain cannot be healed with First Aid. A character can receive First Aid only once for any single set of injuries.
 
 #### Medkit
 - Biotech + Intelligence (5 - Essence)
 
 Medkits are more detailed. The patient must be connected to medkit monitors and diagnosed, after which they receive injections and IVs. After the end of a combat encounter in which a character is injured, they have one hour to be connected to a medkit or get medical attention from a trained professional with a medkit. If they wait beyond this period, a medkit will not help them. It takes one minute to hook up the patient, get the medkit to spit out a diagnosis, and begin treatment. The healing process takes one minute per 4 points healed (so, if the process is interrupted, you know how much they were patched up). Each time a medkit is used, it consumes one batch of supplies. Treatment cannot be attempted if no medkit supplies remain.
 
-Make a `Biotech/Medkit Rating + Intelligence test against a threshold of 5 – target’s Essence`. If the target is one-hundred-percent natural, the healer gets an automatic +1 Effect added to their roll. Like First Aid, this fixes biological material, not machinery. Effect is used to heal 4 points of Stun, Physical, or Overflow Damage per Effect, but not damage from drain.
+Make a `Biotech/Medkit Rating + Intelligence test against a threshold of 5 – target’s Essence`. If the target is one-hundred-percent natural, the healer gets an automatic +1 Effect added to their roll. Like First Aid, this fixes biological material, not machinery. Effect is used to heal 3 points ofStun, Physical, or Overflow Damage per Effect, but not damage from drain.
 
 There is a limit to receiving a medkit treatment. A character can only benefit from a medkit once for any single set of injuries.
 
 #### Magic
-- Sorcery + Magic (using Healing or similar spell)
+- Sorcery + Magic 3D6 (using Healing or similar spell)
 
 The wonders of magic are many and great. Healing spells are some of the most commonly studied magics for those working on the streets. Some use their skills to earn a little extra cash patching up gangers; others serve on a runner team, keeping their partners fighting when the bullets start finding their targets. Those with hearts of gold work as regular street healers to give the denizens of the barrens a chance at a healthy life.
 
 The good news about magical healing is it works at the speed of a spell—once the spell is cast, the effect takes hold.
 
-Healing magic can mend both Physical and Stun injuries, but not those caused by Drain. The leftover taint of wearisome mana prevents the healing magics from connecting to that damaged tissue to heal it. As with medkits, net effect can be used to heal 4 points of Stun, Physical, or Overflow Damage per Effect. For more information on casting healing spells, see Magic.
+Healing magic can mend both Physical and Stun injuries, but not those caused by Drain. The leftover taint of wearisome mana prevents the healing magics from connecting to that damaged tissue to heal it. As with medkits, net effect can be used to heal 3 points ofStun, Physical, or Overflow Damage per Effect. For more information on casting healing spells, see Magic.
 
 A character can be healed by Magic only once for any single set of injuries.
 
@@ -2354,9 +2163,9 @@ A character can be healed by Magic only once for any single set of injuries.
 
 After all other options have been used, if injury remains, it’s all about rest and possibly some help from a trained medical professional (or just your team medic). Rest is simply defined as not engaging in any strenuous physical or mental activity—essentially, anything that involves a dice roll would break your rest. Medical attention offers a bonus to the recovery roll. If any person trained in Biotech is watching over the character for at least half of their rest period, the wounded individual gains a +2 Effect to the healing tests defined below.
 
-To heal Physical Damage, roll `Body + Body (1)` once per day. Each Effect heals 4 points of Physical Damage after that day of rest.
+To heal Physical Damage, roll `Body + Body (1)` once per day. Each Effect heals 3 points ofPhysical Damage after that day of rest.
 
-To heal Stun Damage, roll `Body + Willpower (1)` once per hour. Each hit heals 4 points of Stun Damage after that hour of rest. A full 8 hour (Long Reat) rest will recover all lost Stun Health.
+To heal Stun Damage, roll `Body + Willpower (1)` once per hour. Each hit heals 3 points ofStun Damage after that hour of rest. A full 8 hour (Long Rest) rest will recover all lost Stun Health.
 
 #### Overflow & Dying
 
@@ -2398,7 +2207,7 @@ This status can be removed with certain gear (like baking soda for acids!) and e
 
 #### Cover I, II, III, IV
 
-Whether you hide behind a wall, a dumpster, or a body, Cover is protection from hostile fire. It comes at four levels, indicating how much of a character’s body is protected (one-quarter, onehalf, three quarters, or all). A character in Cover gets a +2 bonus per Cover level to their Defense Rating. Attacking from Cover requires an extra Minor Action in order to get clear enough to take a shot, imposes a –2 penalty to your attack at Cover IV, and you cannot gain Bonus Effect while attacking from Cover (you can gain it from defending).
+Whether you hide behind a wall, a dumpster, or a body, Cover is protection from hostile fire. It comes at four levels, indicating how much of a character’s body is protected (one-quarter, onehalf, three quarters, or all). A character in Cover gets a +2 to the Defense roll per Cover level. Attacking from Cover requires an extra Minor Action in order to get clear enough to take a shot, imposes a –2 penalty to your attack at Cover IV, and you cannot gain Bonus Effect while attacking from Cover (you can gain it from defending).
 
 #### Dazed
 
@@ -2422,11 +2231,11 @@ Something has messed up your connection to the astral world, leaving that realm 
 
 #### Hobbled
 
-Any movement on foot, whether by the Move, Sprint, or Avoid Incoming action, is halved (round up). Said another way it cost twice movement to move.
+Any movement on foot—Move or Stand/Prone—costs double distance (round up).
 
 #### Immobilized
 
-Just what it sounds like! Characters with this status cannot move, though they can take any actions that will function with their feet stuck to the ground. Their Attack Rating is reduced by 3, and they take a –3 penalty on all attacks. They cannot use Reaction on their Defense tests.
+Just what it sounds like! Characters with this status cannot move, though they can take any actions that will function with their feet stuck to the ground. They take a –3 penalty on all attack rolls and cannot add Reaction to Defense rolls. They cannot use Reaction on their Defense tests.
 
 #### Incapacitated
 - An incapacitated creature can’t take actions or reactions.
@@ -2457,7 +2266,7 @@ Something wrong has gotten into the character’s body, and it’s going to mess
 
 #### Prone
 
-One of the classics—you drop to the ground to get a stable shot and make yourself tougher to shoot. The character’s movement rate is reduced to two yards, and they cannot Sprint. They get a +3 bonus on Defense Tests against ranged attacks from Medium range or farther, but –3 on attacks from Close or Near ranges due to their immobility. They also get a –4 penalty to melee attacks or bow attacks. They increase the Attack Rating of any firearm or projectile weapon (besides bows) by 2.
+One of the classics—you drop to the ground to get a stable shot and make yourself tougher to shoot. The character’s movement rate is reduced to 2 yards and they cannot Move more than once per turn while Prone. They get +3 Defense vs. ranged at Medium or farther; –3 vs. Close/Near; –4 to melee or bow attacks. Increase attack rolls with firearms and projectile weapons (not bows) by +1.
 
 #### Silent #
 
@@ -2468,25 +2277,24 @@ The same as Silent, except microphones and other forms of technology are also af
 
 #### Stilled
 
-There’s bad news and good news! The bad news is you can’t move. Your feet are absolutely stuck in place. You get a –10 penalty on your Defense Rating against incoming attacks (minimum 0), and you can’t take any actions beyond Perception and mental communication, should you be able to do that. You also cannot roll tests. The good news is, being Stilled halts any ongoing damage or other effects on the character. New damage may be inflicted, but any ongoing effects from it will also be canceled by this status.
+There’s bad news and good news! The bad news is you can’t move. Your feet are absolutely stuck in place. –10 to your Defense roll (minimum 0), and you can’t take any actions beyond Perception and mental communication, should you be able to do that. You also cannot roll tests. The good news is, being Stilled halts any ongoing damage or other effects on the character. New damage may be inflicted, but any ongoing effects from it will also be canceled by this status.
 
 #### Stunned
 - A stunned creature is incapacitated (see the condition), can’t move, and can speak only falteringly.
-- The creature automatically fails reactions
-- Defense Score is at a -3 penalty.
+- The creature automatically –3 to the Defense roll
 
-#### Unconcious
+#### Unconscious
 - An Unconscious character is Incapacitated, can’t move or speak, and is unaware of their surroundings.
 - The character drops whatever they’re holding and falls Prone.
 - Any attack that hits the character is a critical hit if the attacker is within 5 feet.
 
 #### Wet
 
-Whether it’s a pouring rain, a sudden wave, or the efforts of a rampaging water spirit, you are soaked from head to toe. You take double damagefrom cold and electricity damage. Cancels the Burning status, is canceled by the Burning status, and may affect the Corrosive status.
+Whether it’s a pouring rain, a sudden wave, or the efforts of a rampaging water spirit, you are soaked from head to toe. You take double damage from cold and electricity damage. Cancels the Burning status, is canceled by the Burning status, and may affect the Corrosive status.
 
 #### Zapped
 
-A jolt of electrical power has hit you, leaving you fried and scattered. Your muscles aren’t working quite right, either. The character suffers a –2 to their Initiative Score, the inability to take the Sprint Action, and a penalty of –1 on all actions.
+A jolt of electrical power has hit you, leaving you fried and scattered. Your muscles aren’t working quite right, either. Suffer –2 Initiative, cannot Take Aim this round., and –1 to all actions for 2 rounds.
 
 ### Damage Types
 
@@ -2494,7 +2302,7 @@ Certain weapons and attacks deliver damage besides simple kinetic energy transfe
 
 #### Electricity
 
-Getting zapped not only hurts, but it also seizes muscles and leaves a victim shaky from muscle tremors. If a character shakes off the damage, they’re all good, but if they suffer even a single box, the character gets the Zapped status for 2 combat rounds.
+Getting zapped not only hurts, but it also seizes muscles and leaves a victim shaky from muscle tremors. If a character shakes off the damage, they’re all good, but if any damage gets through (≥1), apply Zapped for 2 rounds.
 
 #### Chemical (acids, bases, caustics, etc.) 
 
@@ -2685,7 +2493,7 @@ A Device is a physical electronic or mechanical object with a function or purpos
 #### Hosts
 Hosts have a general rating, which translates into their Matrix attributes. These general ratings are between 1 and 12. The ratings of these attributes are usually (host rating), (host rating + 1), (host rating + 2), and (host rating + 3), in any order. For example, a rating 4 host might have Attack 5, Sleaze 4, Data Processing 7, Firewall 6. A host’s attributes are shared by itself and its IC programs.
 
-Host Attack Rating: Host Rating X 2
+Host Attack Rolls: Host Rating X 2
 
 Condition Monitor: 
 
@@ -2706,7 +2514,7 @@ Systems are really just a collection of Nodes. There are many different kinds of
 
 ### Types of IC
 
-These are the types of IC a host may throw at unwary intruders. All IC use Host Attack Rating and (Host Rating x 2) for Condition Monitor and most rolls. Their Initiative is (Data Processing x 2) + Ability Dice Code. Defensive rolls and effects vary by IC type.
+These are the types of IC a host may throw at unwary intruders. All IC use Host Attack Rolls and (Host Rating x 2) for Condition Monitor and most rolls. Their Initiative is (Data Processing x 2) + Ability Dice Code. Defensive rolls and effects vary by IC type.
 
 Trust me, the GM knows exactly what kind of IC you are up against.
 
@@ -2738,7 +2546,7 @@ Crash delivers a sweeping blow intended to take weapons out of your hand. When i
 #### Jammer
 - Defense: Firewall + Attack
 
-Jammer IC is an expert fencer who toys with you rather than killing you outright. In cybercombat, when Jammer IC hits, the target’s Attack attribute is reduced by 1 per net effect. No actions using the Attack rating can be performed when the Attack rating is 0. Lost points are restored after leaving the host, at a rate of 1 point per minute.
+Jammer IC is an expert fencer who toys with you rather than killing you outright. In cybercombat, when Jammer IC hits, the target’s Attack attribute is reduced by 1 per net effect. No actions using the Attack Rolls can be performed when the Attack Rolls is 0. Lost points are restored after leaving the host, at a rate of 1 point per minute.
 
 #### Killer
 - Defense: Host Rating + Firewall
@@ -2852,11 +2660,11 @@ Reduce noise level by 2.
 
 #### Exploit
 
-Reduce Defense Rating of hacking target by 2.
+Reduce Defense of hacking target by 2.
 
 #### Armor
 
-+2 to Defense Rating
++2 to Defense
 
 #### Baby Monitor
 
