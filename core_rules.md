@@ -801,10 +801,23 @@ These are the firing modes firearms use.
 #### Mount
 This describes where an accessory is placed
 
-#### Rating
-If an item has a range of ratings in which it is available, it is listed in this column or next to the item’s name.
-
 > Why isn't range listed? Because its a dumb concept in a TTRPG. I can hit a target with an AR-15 at almost a mile out. Basically if I can see it, its in range. Thats why. I love Gygax as much as the next guy but a Longbow fired by a professional can hit a target at a 100 yards easily which is also within site.
+
+### Fire Modes 
+Fire mode dictates the reload speed. Its based on the highest mode available. So a weapon that has SA/BF reloads as a Burst Fire. If it has SA/BF/FA it reloads as a Fully Autiomatic. 
+
+#### Single Shot (SS)
+Single shot weapons can only fire once per combat round unless a minor action (free action with a smartlink) is spent to reload them.
+
+#### Semi-Automatic (SA)
+Semi-Automatic weapons can fire at multiple targets per round at -2 (stacking) per target. Reloads on a Minor Action (free action with a Smart Link)
+
+#### Burst Fire (BF)
+Burst Fire Weapons can fire at multiple targets per round at -3 (stacking) per target. Against a single target the Burst Fire gets an additional point of Net Effect on a hit. Reloads on a Minor Action (free Action with Smart link)
+
+#### Full Automatic (FA)
+Fully Automatic weapons can fire at multiple targets per round at -4 stacking per target. Automatic weapons get 2 additional points of Net Effect on a hit. Reloads on a Major Action (Minor Action with a Smartlink)
+
 
 ### Moving Gear
 
@@ -845,21 +858,8 @@ Most gear is built to be used by humans, or at least human-sized creatures. Elve
 
 Sometimes a dwarf or a troll has to use someone else’s stuff or make do with what’s handy. Any time a dwarf or troll uses gear that is not adapted for them, they suffer a –2 penalty on all actions involving that gear. This means armor doesn’t close right, guns don’t fit right, commlinks aren’t easy to use, etc
 
-#### Wireless Functionality
-
-Nearly every device is wireless. The wireless revolution started for tracking purposes, though most of the tracking was about observing consumer behavior. The corps also found it useful for inventory tracking and seeing how people used their goods. The only trick was finding a way to make sure consumers had a reason to {REMOVE ME} - keep the wireless functionality on at all times. That led to … the wireless bonus!
-
-{REMOVE ME} - **Wireless Bonus**
-
 Many items have a bonus applied when they’re kept attached to the Matrix. For the bulk of the population, this is just a little convenient aid in their normal life, but for runners it is often a door- die decision, because leaving your Smartgun XI linked to the Matrix could be the little edge you need, or it could be your doom as you get hacked and the fancy electronics-laden SMG becomes a paperweight. Items with a bonus are listed, and some have it listed for the entire category as well.
 
-**Turning It Off**
-
-Separating yourself and your gear from the Matrix is easy. An `Electronics + Intelligence (6) Test` as a Minor Action is all it takes in combat. The rest of the time, you can just assume you can figure it out as long as you have the Electronics skill.
-
-**Throwbacks**
-
-These devices are older tech. Whether it’s because they’re incompatible with the current Matrix or devoid of a way to interface with it, they don’t have a way to connect and gain any bonus from the wireless world. They also can’t be hacked in any way shape or form other than the other use of the word, like when a troll swings his axe and hacks your antique rifle in half.
 
 
 
@@ -869,10 +869,9 @@ These devices are older tech. Whether it’s because they’re incompatible with
 | --------------------- | ------ | ---------------- | -------- |
 | Combat Axe            | 5P     | 4                | 4,000¥   |
 | Combat/Survival Knife | 3P     | 2                | 300¥     |
-| Forearm snap-blades   | 3P     | 3                | 200¥     |
-| Katana                | 4P     | 1                | 1,000¥   |
-| Knife                 | 2P     | 3                | 10¥      |
-| Pole arm              | 4P     | 2                | 1,000¥   |
+| Forearm snap-blades   | 3P     | 4                | 1,000¥   |
+| Katana                | 4P     | 3                | 1,000¥   |
+| Knife                 | 2P     | 2                | 10¥      |
 | Sword                 | 3P     | 3                | 500¥     |
 | **CLUBS**             | **DV** | **AVAILABILITY** | **Cost** |
 | Club                  | 3S     | 1                | 30¥      |
@@ -882,12 +881,11 @@ These devices are older tech. Whether it’s because they’re incompatible with
 | Stun baton            | 5S(e)  | 2                | 750¥     |
 | Telescoping staff     | 4S     | 2                | 350¥     |
 
-| **EXOTIC**         | **TYPE** | **DV** | **AVAILABILITY** | **Cost** |
-| ------------------ | -------- | ------ | ---------------- | -------- |
-| Bike chain         | Unarmed  | 2S     | 1                | 15¥      |
-| Knucks             | Unarmed  | 3P     | 1                | 100¥     |
-| Shock Gloves       | Unarmed  | 4S(e)  | 4                | 790¥     |
-| Monofilament whip* | Exotic   | 6P     | 6(I)             | 1,300¥   |
+| **EXOTIC**   | **TYPE** | **DV** | **AVAILABILITY** | **Cost** |
+| ------------ | -------- | ------ | ---------------- | -------- |
+| Bike chain   | Unarmed  | 2S     | 1                | 15¥      |
+| Knucks       | Unarmed  | 3P     | 1                | 100¥     |
+| Shock Gloves | Unarmed  | 4S(e)  | 4                | 790¥     |
 
 
 #### Melee Weapon Descriptions
@@ -907,9 +905,7 @@ A simple, elegant, efficient killing device with a chisel point to make light wo
 
 **Forearm snap blades**
 
-Don’t like getting implants but still want three razor sharp blades to pop out of your forearm? This is the weapon for you. The blades extend and retract through either a forearm muscle command or a wireless signal. Either way, it takes a Minor Action. 
-
-{REMOVE ME} - Wireless bonus: The blades grant an extra Minor Action on the turn when they are extended or retracted.
+Don’t like getting implants but still want three razor sharp blades to pop out of your forearm? This is the weapon for you. The blades extend and retract through either a forearm muscle command. Either way, it takes a Minor Action. 
 
 **Katana**
 
@@ -919,21 +915,16 @@ The iconic two-handed sword of the samurai is standard issue for trid-series sha
 
 A catchall term for a variety of different deadly fighting blades. The style is up to you, but the stats are all the same.
 
-**Polearm**
-
-Take a long stick, add any of a dozen varieties of blades to the head, and you’ve got a polearm. Designed to keep distance between attacker and defender or strike at a mounted target, they’re not common street weapons. They’re nearly impossible to conceal, even for a troll, but they’re great at keeping problems at a safe distance.
-
 **Survival knife**
 
 Specifically designed with a cutting edge on one side and a serrated sawing edge on the other, the true “survival” piece of this knife is in the handle and its collection of accessories. In the handle you’ll find a GPS monitor, mini-multitool, and micro- lighter. The blade is coated with a photovoltaic skin that blacks out the blade to prevent unwanted reflection; when charged, the skin can be activated to provide two hours of light. Combat stats are the same as the combat knife.
-
-{REMOVE ME} - Wireless bonus: The knife displays an ARO of local maps and your GPS position, along with providing basic biomonitor data when in your hand.
 
 **Sword**
 
 A heavy blade on a one-handed grip that comes in a variety of styles. The world’s dominant combat weapon for thousands of years until the firearm came along.
 
 **CLUBS**
+These do stun damage, except metal does Physical damage.
 
 **Club**
 
@@ -941,7 +932,7 @@ The stats listed can be used for a range of objects, including an axe handle, ba
 
 **Extendable baton**
 
-This telescoping club can be extended with a wrist flick or a wireless signal. In its retracted form, it’s easier to conceal (Concealability threshold 4 when {REMOVE ME} - retracted, 2 when extended). Retracting or extending it is a Minor Action. Wireless bonus: You gain a bonus Minor Action on a turn when you retract or extend the baton.
+This telescoping club can be extended with a wrist flick. In its retracted form, it’s easier to conceal (Concealability threshold 4 when retracted, 2 when extended). Retracting or extending it is a Minor Action. 
 
 **Sap**
 
@@ -954,13 +945,9 @@ Speak softly and carry a big stick. This is that big stick. Available in composi
 **Stun baton**
 A riot-control staple and viewed as a symbol of corporate-government oppression, this handy electrical prod is still useful for everyone in the shadows. The stun baton holds ten charges and regains one charge per ten seconds when plugged in. 
 
-{REMOVE ME} - Wireless bonus: The stun baton recharges without being plugged in, regaining one charge per half hour of wireless-enabled time.
-
 **Telescoping staff**
 
-A big stick that starts out as a small stick. This metal and composite staff can telescope down to the size of a stun baton or a sword. It can be extended and locked in place by spinning or snapping it out in each direction and giving the handle a twist to lock it. Or it can use a wireless signal to activate the telescoping effect. Extending or retracting it takes a Minor Action.
-
-{REMOVE ME} - Wireless bonus: You gain a bonus Minor Action on a turn when you retract or extend the baton.
+A big stick that starts out as a small stick. This metal and composite staff can telescope down to the size of a stun baton or a sword. It can be extended and locked in place by spinning or snapping it out in each direction and giving the handle a twist to lock it.
 
 **EXOTIC**
 
@@ -972,11 +959,11 @@ Go-gangs love to pull the old equipment off their scrap bikes and smack other pe
 
 Everything from a roll of quarters in the palm (though who has that lying around?) to brass knuckles to Ares Hardliner Gloves, these weapons move a fist from potentially deadly to a probably deadly by augmenting the structure of the hand with metals or composites.
 
-**Monofilament Whip**
+**Shock Gloves**
 
-Striking fear in the hearts of those who have warily watched its serpentine glow since the 2050s. In the hands of a trained user, this terrifying weapon can cut through armor, flesh, and bone as easy as butter with every millimeter of its two yards of monofilament line. In the wrong hands, or even with a bad twist of a skilled wrist, that line can send you to the street doc looking for a new limb. The whip is stored in the specially designed compartment in the handle with a small weight that detaches when the weapon is activated. Glitches are handled as usual, but a critical glitch always requires the wielder to resist the base damage of the weapon.
+These apply a +2 Concealability Bonus
 
-{REMOVE ME} - Wireless bonus: The whip uses your visuals on the target to make small adjustments in targeting, and the whip adjusts its trajectory. This increases the Attack Rolls by 2. Also, the whip’s built-in safety system retracts automatically instead of hitting you on a critical glitch.
+
 
 
 
@@ -984,20 +971,20 @@ Striking fear in the hearts of those who have warily watched its serpentine glow
 
 Attacks using weapons in this category are made using the Athletics skill.
 
-| **Archery**          | **DV**        | **AVAILABILITY** | **COST**      |
-| -------------------- | ------------- | ---------------- | ------------- |
-| Bow                  | (Rating + 2)P | Rating/3 L       | Rating x 10¥  |
-| Arrow                | -             | Rating/3         | Rating X 2¥   |
-| Injection Arrow      | -             | 4                | Rating x 20 ¥ |
-| **Crossbows**        | **Damage**    | **Avail**        | **Cost**      |
-| Light                | 2P            | 3                | 150¥          |
-| Medium               | 3P            | 3L               | 290¥          |
-| Heavy                | 4P            | 4L               | 425¥          |
-| Bolt                 | -             | 2                | 5¥            |
-| Injection Bolt       | -             | 4                | 50¥           |
-| **Throwing Weapons** | **Damage**    | **Avail**        | **Cost**      |
-| Throwing knives      | 2P            | 2                | 155¥          |
-| Throwing stars       | 2P            | 2                | 160¥          |
+| **Archery**             | **DV**        | **AVAILABILITY** | **COST**      |
+| ----------------------- | ------------- | ---------------- | ------------- |
+| Bow                     | (Rating + 2)P | Rating/3 L       | Rating x 10¥  |
+| Arrow                   | -             | Rating/3 L       | Rating X 2¥   |
+| Injection Arrow         | -             | 4                | Rating x 20 ¥ |
+| **Crossbows**           | **Damage**    | **Avail**        | **Cost**      |
+| Light                   | 2P            | 3                | 250¥          |
+| Medium                  | 3P            | 3L               | 350¥          |
+| Heavy                   | 4P            | 4L               | 650¥          |
+| Bolt                    | -             | 2                | 5¥            |
+| Injection Bolt          | -             | 4                | 50¥           |
+| **Throwing Weapons**    | **Damage**    | **Avail**        | **Cost**      |
+| Throwing knives (qty 5) | 2P            | 2                | 155¥          |
+| Throwing stars  (qty 5) | 2P            | 2                | 160¥          |
 
 #### Projectile Weapon Descriptions
 
@@ -1005,7 +992,7 @@ Attacks using weapons in this category are made using the Athletics skill.
 
 **Bow**
 
-Everything from the traditional longbow of fiberglass or wood to the modern compound bow. These archaic weapons aren’t common on the streets of 2080. They have the advantage of being hacker-proof as long as you leave off the fancy add-ons. Nocking an arrow takes a Minor Action (Ready Weapon). Bows have a rating that indicates the minimum Strength you need to use the weapon. The weapon’s rating is also used to determine damage (maximum rating is 14). Arrows also have ratings, and they must equal or exceed that of the bow.
+Everything from the traditional longbow of fiberglass or wood to the modern compound bow. These archaic weapons aren’t common on the streets of {{YEAR OF GAME}}. They have the advantage of being hacker-proof as long as you leave off the fancy add-ons. Nocking an arrow takes a Minor Action (Ready Weapon). Bows have a rating that indicates the minimum Strength you need to use the weapon. The weapon’s rating is also used to determine damage (maximum rating is 14). Arrows also have ratings, and they must equal or exceed that of the bow.
 
 **Crossbow**
 
@@ -1015,124 +1002,96 @@ Modern crossbows are designed with autoloading systems, internal magazines that 
 
 The injection arrow or bolt causes its base damage while also delivering a payload of one dose of a drug or toxin. A successful hit must deal at least one damage after the Defense Roll. Injection arrows and bolts come at a base rating of 8. Higher-rating models are available for heavier bows, but lower-rating models aren’t sturdy enough to deliver this heavier projectile.
 
-{REMOVE ME} - Wireless bonus: The injection can be delayed until a wireless signal is sent. The injection also doesn’t need any damage; it just needs at least 1 net effect.
 
 **Throwing Knives/Shuriken**
 
-From stars to spikes and everything in between, these stats cover all the muscle-powered, small throwing weapons on the market. Up to (Quickness/2) of these weapons can be readied for throwing with a Ready Weapon action.
+From stars to spikes and everything in between, these stats cover all the muscle-powered, small throwing weapons on the market. Up to (Quickness/2) of these weapons can be readied for throwing with a Ready Weapon action. Shuriken's provide a +1 Concealability bonus
 
-{REMOVE ME} - Wireless bonus: Successful hits leave wireless weapons in targets that can be used to predict movement patterns and offer an estimated location. A successful hit offers anyone wirelessly linked to the throwing weapon and using a smartlink system a +1 bonus for their attacks.
 
 
 
 
 ### Firearms
 
-Leadslingers abound on the streets of 2080 (the name remains, even though lead rounds aren’t the norm anymore). For years, the streets managed to snag and use caseless rounds in order to stay clear of the law tracking them, but recent events have led arms manufacturers (a.k.a. the megacorps) to desire a tighter leash on their shadow assets, and cased ammo is becoming the norm once again, with each casing containing a microRFID to identify the weapon and location where it was fired. The glory of watching spent shells spinning through the air is back, and so are the back-alley reloads and scrubbed slugs to keep those of us in the shadows off the radar. Weapons are chambered for cased or caseless, with caseless ammo being marginally harder to track but tougher to find on the streets. 
+Leadslingers abound on the streets of {{YEAR OF GAME}} (the name remains, even though lead rounds aren’t the norm anymore). For years, the streets managed to snag and use caseless rounds in order to stay clear of the law tracking them, but recent events have led arms manufacturers (a.k.a. the megacorps) to desire a tighter leash on their shadow assets, and cased ammo is becoming the norm once again, with each casing containing a microRFID to identify the weapon and location where it was fired. The glory of watching spent shells spinning through the air is back, and so are the back-alley reloads and scrubbed slugs to keep those of us in the shadows off the radar. Weapons are chambered for cased or caseless, with caseless ammo being marginally harder to track but tougher to find on the streets. 
 
-{REMOVE ME} - Wireless bonus: All modern firearms are considered to be wireless-equipped and come with a digital ammunition counter and an ARO that tells you the ammo type loaded. If equipped with DNI, you gain a bonus Minor Action any turn when you eject a clip (for weapons that have them) or change fire modes (on models that have more than one).
 
-| **TASERS**                     | **DV**       | **MODES**    | **AMMO**           | **AVAILABILITY** | **COST**  |
-| ------------------------------ | ------------ | ------------ | ------------------ | ---------------- | --------- |
-| Defiance Super Shocker         | 6S(e)        | SS           | 4 (m)              | 1                | 240¥      |
-| Yamaha Pulsar I/II             | 4S(e)        | SA           | 4 (m)              | 1                | 325¥/350¥ |
-| **Hold-Outs**                  | **DV**       | **MODES**    | **AMMO**           | **AVAILABILITY** | **COST**  |
-| Fichetti Tiffani Needler       | 3P           | SA           | 4 (c)              | 2                | 435¥      |
-| Streetline Special             | 2P           | SS           | 6(c)               | 2                | 200¥      |
-| Walther Palm Pistol            | 2P           | SS/BF        | 6(b)               | 2                | 345¥      |
-| **Light Pistols**              | **DV**       | **MODES**    | **AMMO**           | **AVAILABILITY** | **COST**  |
-| Ares Light Fire 70             | 2P           | SA           | 16(c)              | 3(L)             | 350¥      |
-| Ares Light Fire 75             | 2P           | SA           | 16(c)              | 3(L)             | 400¥      |
-| Beretta 101T                   | 2P           | SA           | 21(c)              | 2(L)             | 260¥      |
-| Beretta 201T                   | 2P           | SA/FA        | 21(c)              | 3(L)             | 460¥      |
-| /Colt America L36              | 2P           | SA           | 11(c)              | 2(L)             | 230¥      |
-| Fichetti Security 600          | 2P           | SA           | 30(c)              | 3(L)             | 390¥      |
-| Ruger Redhawk                  | 3P           | SA/BF        | 8(cy)              | 2(L)             | 250¥      |
-| **Heavy Pistols**              | **DV**       | **MODES**    | **AMMO**           | **AVAILABILITY** | **COST**  |
-| Ares Predator VI               | 3P           | SA/BF        | 15(c)              | 2(L)             | 750¥      |
-| Ares Viper Slivergun           | 4P(fl)       | SA/BF        | 30(c)              | 4(L)             | 610¥      |
-| Browning Ultra Power           | 3P           | SA           | 10(c)              | 2(L)             | 315¥      |
-| Colt Government 2076/Manhunter | 3P           | SA           | 14(c)              | 3(L)             | 275¥/500¥ |
-| Ruger Super Warhawk            | 4P           | SA           | 6(cy)              | 3(L)             | 400¥      |
-| **Machine Pistols**            | **DV**       | **MODES**    | **AMMO**           | **AVAILABILITY** | **COST**  |
-| Ares Crusader II               | 2P           | SA/BF        | 40(c)              | 4(L)             | 520¥      |
-| Ceska Black Scorpion           | 2P           | SA/BF        | 35(c)              | 3(L)             | 510¥      |
-| Steyr TMP                      | 2P           | SA/FA        | 30(c)              | 3(L)             | 690¥      |
-| **Submachine Guns**            | **DV**       | **MODES**    | **AMMO**           | **AVAILABILITY** | **COST**  |
-| Colt Cobra TZ-100              | 3P           | SA/BF        | 32(c)              | 2(L)             | 730¥      |
-| Colt Cobra TZ-110              | 3P           | SA/BF        | 32(c)              | 2(L)             | 785¥      |
-| Colt Cobra TZ-120              | 3P           | SA/BF        | 32(c)              | 3(L)             | 840¥      |
-| FN P93 Praetor                 | 4P           | SA/BF/FA     | 50(c)              | 4(L)             | 925¥      |
-| HK-227                         | 3P           | SA/BF        | 28(c)              | 3(L)             | 825¥      |
-| Ingram Smartgun XI             | 3P           | SA/BF        | 32(c)              | 3(L)             | 750¥      |
-| SCK Model 100                  | 3P           | SA/BF        | 30(c)              | 3(L)             | 725¥      |
-| Uzi V                          | 3P           | SA/BF/FA     | 24(c)              | 2(L)             | 455¥      |
-| **Assault Rifles**             | **DV**       | **MODES**    | **AMMO**           | **AVAILABILITY** | **COST**  |
-| AK-97                          | 5P           | SA/BF/FA     | 38(c)              | 2(L)             | 2,100¥    |
-| Ares Alpha                     | 4P           | SA/BF/FA     | 42(c)              | 5(L)             | 3,400¥    |
-| - Grenade Launcher             | As grenade   | SS           | 6(c)               | —                | —         |
-| Colt M23                       | 4P           | SA/BF/FA     | 40(c)              | 2(L)             | 2,100¥    |
-| FN-HAR                         | 5P           | SA/BF/FA     | 35(c)              | 3(L)             | 2,100¥    |
-| Yamaha Raiden                  | 4P           | SA/BF/FA     | 60(c)              | 5(L)             | 3,200¥    |
-| - Grenade Launcher             | As grenade   | SS           | 4(c)               | —                | —         |
-| - Shotgun                      | 4P           | SS/SA        | 2(b)               | —                | —         |
-| **Longarm Rifles**             | **DV**       | **MODES**    | **AMMO**           | **AVAILABILITY** | **COST**  |
-| Ares Desert Strike             | 5P           | SA           | 14(c)              | 4(I)             | 11,000¥   |
-| Cavalier Arms Crockett EBR     | 5P           | SA/BF        | 20(c)              | 5(I)             | 9,050¥    |
-| Ranger Arms SM-5               | 5P           | SA           | 15(c)              | 5(I)             | 13,200¥   |
-| Remington 900                  | 5P           | SS           | 5(m)               | 3(L)             | 12,000¥   |
-| Ruger 101                      | 5P           | SA           | 8(m)               | 2(L)             | 11,100¥   |
-| Barret Model 122               | 6P           | SA           | 10(c)              | 6(I)             | 15,200¥   |
-| **Shotguns**                   | **DV**       | **MODES**    | **AMMO**           | **AVAILABILITY** | **COST**  |
-| Defiance T-250                 | 4P           | SS/SA        | 5(m)               | 2(L)             | 330¥      |
-| Mossberg CMDT                  | 4P           | SA/BF        | 10(c)              | 4(L)             | 700¥      |
-| PJSS Model 55                  | 4P           | SA/BF(short) | 2(b)               | 5(L)             | 325¥      |
-| Remington Roomsweeper          | 5P           | SA           | 8(m)               | 2(L)             | 325¥      |
-| **Machine Guns**               | **DV**       | **MODES**    | **AMMO**           | **AVAILABILITY** | **COST**  |
-| Ingram Valiant                 | 4P           | SA/BF/FA     | 50(c) or 100(belt) | 4(L)             | 4,175¥    |
-| Stoner-Ares M202               | 5P           | SA/BF/FA     | 50(c) or 100(belt) | 4(L)             | 6,900¥    |
-| RPK HMG                        | 6P           | SA/BF/FA     | 50(c) or 100(belt) | 5(L)             | 8,000¥    |
-| Panther XXL                    | 7P           | SA           | 15(c)              | 6(I)             | 10,000¥   |
-| **Special**                    | **DV**       | **MODES**    | **AMMO**           | **AVAILABILITY** | **COST**  |
-| Ares Super Squirt              | Special      | SS           | 20(c)              | 3(L)             | 560¥      |
-| Parashield DART Pistol         | 1P + special | SS           | 5(c)               | 2                | 510¥      |
-| Parashield DART Rifle          | 1P + special | SS           | 6(m)               | 3                | 710¥      |
-| **Launchers**                  | **DV**       | **MODES**    | **AMMO**           | **AVAILABILITY** | **COST**  |
-| Ares Antioch II                | Grenade      | SS           | 8(m)               | 3(I)             | 5,900¥    |
-| ArmTech MGL-6                  | Grenade      | SA           | 6(c)               | 4(I)             | 1,800¥    |
-| ArmTech MGL-12                 | Grenade      | SA           | 12(c)              | 4(I)             | 5,000¥    |
-| Aztechnology Striker           | Missile      | SS           | 1(ml)              | 5(I)             | 7,000¥    |
-| Onotari Interceptor            | Missile      | SS           | 2(ml)              | 5(I)             | 9,000¥    |
+| **TASERS**                 | **DV**       | **MODES**    | **AMMO**           | **AVAILABILITY** | **COST** |
+| -------------------------- | ------------ | ------------ | ------------------ | ---------------- | -------- |
+| Defiance Super Shocker     | 5S(e)        | SS           | 4 (m)              | 1                | 240¥     |
+| **Hold-Outs**              | **DV**       | **MODES**    | **AMMO**           | **AVAILABILITY** | **COST** |
+| Streetline Special         | 2P           | SS           | 6(c)               | 2                | 200¥     |
+| Walther Palm Pistol        | 2P           | SS/BF        | 6(b)               | 2                | 345¥     |
+| **Light Pistols**          | **DV**       | **MODES**    | **AMMO**           | **AVAILABILITY** | **COST** |
+| Ares Light Fire 70         | 2P           | SA           | 16(c)              | 3(L)             | 350¥     |
+| Ares Light Fire 75         | 2P           | SA           | 16(c)              | 3(L)             | 400¥     |
+| Beretta 101T               | 2P           | SA           | 21(c)              | 2(L)             | 260¥     |
+| Beretta 201T               | 2P           | SA/FA        | 21(c)              | 3(L)             | 460¥     |
+| Colt America L36           | 2P           | SA           | 11(c)              | 2(L)             | 230¥     |
+| Fichetti Security 600      | 2P           | SA           | 30(c)              | 3(L)             | 390¥     |
+| Ruger Redhawk              | 3P           | SA/BF        | 8(cy)              | 2(L)             | 250¥     |
+| **Heavy Pistols**          | **DV**       | **MODES**    | **AMMO**           | **AVAILABILITY** | **COST** |
+| Ares Predator VI           | 3P           | SA/BF        | 15(c)              | 2(L)             | 750¥     |
+| Ares Viper Slivergun       | 4P(fl)       | SA/BF        | 30(c)              | 4(L)             | 610¥     |
+| Browning Ultra Power       | 3P           | SA           | 10(c)              | 2(L)             | 315¥     |
+| Ruger Super Warhawk        | 4P           | SA           | 6(cy)              | 3(L)             | 400¥     |
+| **Machine Pistols**        | **DV**       | **MODES**    | **AMMO**           | **AVAILABILITY** | **COST** |
+| Ares Crusader II           | 2P           | SA/BF        | 40(c)              | 4(L)             | 520¥     |
+| Ceska Black Scorpion       | 2P           | SA/BF        | 35(c)              | 3(L)             | 510¥     |
+| Steyr TMP                  | 2P           | SA/FA        | 30(c)              | 3(L)             | 690¥     |
+| **Submachine Guns**        | **DV**       | **MODES**    | **AMMO**           | **AVAILABILITY** | **COST** |
+| Colt Cobra TZ-120          | 3P           | SA/BF        | 32(c)              | 3(L)             | 840¥     |
+| FN P93 Praetor             | 4P           | SA/BF/FA     | 50(c)              | 4(L)             | 925¥     |
+| HK-227                     | 3P           | SA/BF        | 28(c)              | 3(L)             | 825¥     |
+| Uzi V                      | 3P           | SA/BF/FA     | 24(c)              | 2(L)             | 455¥     |
+| **Assault Rifles**         | **DV**       | **MODES**    | **AMMO**           | **AVAILABILITY** | **COST** |
+| AK-97                      | 5P           | SA/BF/FA     | 38(c)              | 2(L)             | 2,100¥   |
+| Colt M23                   | 4P           | SA/BF/FA     | 40(c)              | 2(L)             | 2,100¥   |
+| FN-HAR                     | 5P           | SA/BF/FA     | 35(c)              | 3(L)             | 2,100¥   |
+| **Longarm Rifles**         | **DV**       | **MODES**    | **AMMO**           | **AVAILABILITY** | **COST** |
+| Ares Desert Strike         | 5P           | SA           | 14(c)              | 4(I)             | 11,000¥  |
+| Cavalier Arms Crockett EBR | 5P           | SA/BF        | 20(c)              | 5(I)             | 9,050¥   |
+| Ranger Arms SM-5           | 5P           | SA           | 15(c)              | 5(I)             | 13,200¥  |
+| Remington 900              | 5P           | SS           | 5(m)               | 3(L)             | 12,000¥  |
+| Ruger 101                  | 5P           | SA           | 8(m)               | 2(L)             | 11,100¥  |
+| Barret Model 122           | 6P           | SA           | 10(c)              | 6(I)             | 15,200¥  |
+| **Shotguns**               | **DV**       | **MODES**    | **AMMO**           | **AVAILABILITY** | **COST** |
+| Defiance T-250             | 4P           | SS/SA        | 5(m)               | 2(L)             | 330¥     |
+| Mossberg CMDT              | 4P           | SA/BF        | 10(c)              | 4(L)             | 700¥     |
+| PJSS Model 55              | 4P           | SA/BF(short) | 2(b)               | 5(L)             | 325¥     |
+| Remington Roomsweeper      | 5P           | SA           | 8(m)               | 2(L)             | 325¥     |
+| **Machine Guns**           | **DV**       | **MODES**    | **AMMO**           | **AVAILABILITY** | **COST** |
+| Ingram Valiant             | 4P           | SA/BF/FA     | 50(c) or 100(belt) | 4(L)             | 4,175¥   |
+| Stoner-Ares M202           | 5P           | SA/BF/FA     | 50(c) or 100(belt) | 4(L)             | 6,900¥   |
+| RPK HMG                    | 6P           | SA/BF/FA     | 50(c) or 100(belt) | 5(L)             | 8,000¥   |
+| Panther XXL                | 7P           | SA           | 15(c)              | 6(I)             | 10,000¥  |
+| **Special**                | **DV**       | **MODES**    | **AMMO**           | **AVAILABILITY** | **COST** |
+| Ares Super Squirt          | Special      | SS           | 20(c)              | 3(L)             | 560¥     |
+| Parashield DART Pistol     | 1P + special | SS           | 5(c)               | 2                | 510¥     |
+| Parashield DART Rifle      | 1P + special | SS           | 6(m)               | 3                | 710¥     |
+| **Launchers**              | **DV**       | **MODES**    | **AMMO**           | **AVAILABILITY** | **COST** |
+| Ares Antioch II            | Grenade      | SS           | 8(m)               | 3(I)             | 5,900¥   |
+| ArmTech MGL-6              | Grenade      | SA           | 6(c)               | 4(I)             | 1,800¥   |
+| ArmTech MGL-12             | Grenade      | SA           | 12(c)              | 4(I)             | 5,000¥   |
+| Aztechnology Striker       | Missile      | SS           | 1(ml)              | 5(I)             | 7,000¥   |
+| Onotari Interceptor        | Missile      | SS           | 2(ml)              | 5(I)             | 9,000¥   |
 
 #### Firearm Descriptions
 
-**TASERS**
+##### **TASERS**
 Pistols
 
 Tasers accept top-mounted accessories.
 
 **Defiance Super Shock**
 
-This heavy-duty taser can fire up to four darts with twenty-yard-long wires. The wired connection to the battery allows for a more powerful shock but limits range. It can also be used point pointblank in Close Combat for the same damage. After a successful hit, if the target does not knock the lines free, the attacker may use a Major Action to inflict the base damage of the weapon again by opening another set of capacitors. 
+This heavy-duty taser can fire up to four darts with twenty-yard-long wires. The wired connection to the battery allows for a more powerful shock but limits range. It can also be used point pointblank in Close Combat for the same damage. After a successful hit, if the target does not knock the lines free, the attacker may use a Major Action to inflict the base damage of the weapon again by opening another set of capacitors.
 
-{REMOVE ME} - Wireless bonus: A successful hit informs you of the status of the target’s basic health in terms of Condition Monitors (general statements, rather than exact number of boxes left).
 
-**Yamaha Pulsar I/II**
-
-The Pulsar uses wireless capacitors, meaning that the Pulsar has increased range compared to other wired tasers. As a trade-off, it packs a little less punch than wired models, but it fires faster and delivers repeated hits. The Pulsar I has no melee contacts, but the Pulsar II includes a pair of contacts on the base of the grip to use in melee (treat these as a Close Combat attack as a Club).
-
-{REMOVE ME} - Wireless bonus: A successful hit informs you of the status of the target’s basic health and Condition Monitors (general statements, rather than exact number of boxes left).
-
-**HOLD-OUTS**
+##### **HOLD-OUTS**
 Pistols
 
 Hold-outs can’t take accessories or modifications.
-
-**Fichetti Tiffani Needler**
-
-Pretty and deadly are not mutually exclusive. Fichetti gunsmithing combined with Tiffani style makes the Needler the single most popular designer handgun in the world. The base model is matte grey, but its special color-changing coating can be manipulated via wireless signal with an infinite number of patterns and designs. The coating allows your gun to match your shoes, your handbag, or the camo pattern of your fatigues. The Needler only chambers caseless flechette rounds, which are already factored into its damage code.
-
-{REMOVE ME} - Wireless bonus: You can change the color of the Fichetti Tiffani Needler with a Minor Action. Applying a camouflage pattern to the Needler increases the concealability threshold by 1 for visual Perception tests.
 
 **Streetline Special**
 
@@ -1142,7 +1101,7 @@ Designed for cheap 3D nanoprinting, the Streetline Special is made of composite 
 
 Walther keeps the double-barreled derringer with the classic over-under design alive in the latter half of the twenty-first century with the Palm Pistol. Capable of Burst Fire by firing from both barrels at once, the limited ammo supply only offers a six-shot capacity—so tread carefully how often you go with a burst.
 
-**LIGHT PISTOLS**
+##### **LIGHT PISTOLS**
 
 Light pistols can take top- and barrel-mounted accessories.
 
@@ -1160,8 +1119,6 @@ The preferred sidearm of many security forces around the world, the T-series is 
 
 A tribute to Colt’s world-class reputation, the L36 is cheap, easily concealed, and abundant on the streets. In order to be easily transferred between corporate security rookies, the weapon feafeatures an ownership swap feature that has been abused by cops and crooks alike. A perfect throwaway weapon.
 
-{REMOVE ME} - Wireless Bonus: The user can alter ownership data with a Minor Action.
-
 **Fichetti Security 600**
 
 Designed as a light sidearm for security forces, the thirty-round magazine allows them to miss a ton and not worry about running out of ammo. This also makes it great for deckers. The Security 600 comes with a detachable folding stock and laser sight.
@@ -1170,26 +1127,7 @@ Designed as a light sidearm for security forces, the thirty-round magazine allow
 
 This rugged revolver is the kid brother of the legendary Super Warhawk. Designed with precision and fun shooting in mind, the Redhawk has a revolutionary single/double firing selector. Classic double action allows a shot with each trigger pull (Semi-Auto Fire), while the single setting lets you play old-west gunslinger and “fan” the hammer (Burst Fire).
 
-{REMOVE ME} - Wireless Bonus: You get an extra Minor Action in a turn where you change the action selection.
-
-**Machine Pistols**
-Automatics
-
-Machine pistols can take top- and barrel-mounted accessories.
-
-**Ares Crusader II**
-
-High capacity and comfortable styling make the Ares Crusader II a standout in its class. The Ares brand is synonymous with functionality, and the Crusader II integrates a gas-vent recoil compensation system and comes standard with smartgun systems and software preloaded.
-
-**Ceska Black Scorpion**
-
-Small and lethal, but not designed for beauty. Burst Fire capable from the get-go, it also comes equipped with an integral folding stock.
-
-**Steyr TMP**
-
-A lightweight polymer-frame and full autofire capability are not an ideal design combo, but spraying enough lead to make everyone duck for cover is the goal with the TMP. A top-mounted laser sight comes standard to make users think they’ll be aiming.
-
-**HEAVY PISTOLS**
+##### **HEAVY PISTOLS**
 Pistols
 
 Heavy pistols can take top- and barrel- mounted accessories.
@@ -1206,22 +1144,35 @@ The unique Slivergun hangs out in the Heavy Pistol class, but it’s a creature 
 
 Once the Predator’s primary competition as the world’s best heavy pistol, the Ultra Power has ceded its claim to the title since it has not kept pace with the tech advances in the Pred-VI. The Browning is cheaper, though, and offers a built-in top-mounted laser sight.
 
-**Colt Government 2076/Manhunter**
-
-Governments need new weapons contracts for bribe purposes, so having a new standard issue after only ten years seems about par for the course. The years of technomancer and hacker fear since the ’60s have left the electronic firing 2066 in a lot of storage cabinets for fear of hacking. The 2076 takes a jump back to the style of the classic Manhunter (in fact, the model with an integrated smartgun system has that denotation) and comes with an integral laser sight.
-
 **Ruger Super Warhawk**
 
 Boom and glitz! That’s the standard street tag for the Super Warhawk. This revolver is shiny and chrome and makes holes the size of a troll’s fist straight out of the box. Upgrade the ammo or the features and those holes get real precise.
 
-**SUBMACHINE GUNS**
+##### **Machine Pistols**
+Automatics
+
+Machine pistols can take top- and barrel-mounted accessories.
+
+**Ares Crusader II**
+
+High capacity and comfortable styling make the Ares Crusader II a standout in its class. The Ares brand is synonymous with functionality, and the Crusader II integrates a gas-vent recoil compensation system and comes standard with smartgun systems and software preloaded.
+
+**Ceska Black Scorpion**
+
+Small and lethal, but not designed for beauty. Burst Fire capable from the get-go, it also comes equipped with an integral folding stock.
+
+**Steyr TMP**
+
+A lightweight polymer-frame and full autofire capability are not an ideal design combo, but spraying enough lead to make everyone duck for cover is the goal with the TMP. A top-mounted laser sight comes standard to make users think they’ll be aiming.
+
+##### **SUBMACHINE GUNS**
 Automatics 
 
 SMGs can take top- and barrel-mounted accessories.
 
-**Colt Cobra TZ Series**
+**Colt Cobra TZ 120**
 
-Colt loves variety, and the Cobra TZ series highlights the options they offer with this line. The 100 is the base model with an integral folding stock, the 110 adds a top-mounted laser sight, the 120 features the folding stock, top-mounted laser sight, and a barrel-mounted gas-vent system, making it a hit with security forces all over the world and with trid shows that love all the fancy features.
+The Cobra TZ 120 features the folding stock, top-mounted laser sight, and a barrel-mounted gas-vent system, making it a hit with security forces all over the world and with trid shows that love all the fancy features.
 
 **FN P93 Praetor**
 
@@ -1231,40 +1182,11 @@ An unmistakable bullpup design offers a builtin fear response from anyone who se
 
 Heckler & Koch know how to design an SMG, since the 227 has been built off the same frame (the venerable MP5) for over a century. A top choice for corporate and military security forces, the HK–227 offers a retractable stock, integrated smartgun system, and an integral barrel- mounted silencer.
 
-**Ingram Smartgun XI**
-
-Street samurai create legendary reputations that they don’t always deserve, but the Smartgun has maintained its street rep as a grade-A bang bang for decades. Famous as the weapon of choice for many legendary street samurai since the 2050s, the Ingram Smartgun comes tricked out with a gasvent system, a smartgun system, and an integral silencer.
-
-**SCK Model 100**
-
-Shin Chou Kyogo has made the Model 100 the corp-suit equivalent of the Smartgun with the help of the elite Red Samurai. Across the Japanacorps, their security forces are issued the SCK 100. The Model 100 features an internal smartgun system and a folding stock.
-
 **Uzi V**
 
 A new design for a new world. The latest model Uzi is a big market entry for Spinrad Global. The V model features an integral folding stock and builtin top-mounted laser sight.
 
-**Shotguns**
-Longarm
-
-The stats for these shotguns are for normal slug rounds. Shotguns can take top, barrel, and underbarrel accessories.
-
-**Defiance T-250**
-
-A solid street howitzer, this semi-automatic shotgun is available in either a normal-length or short-barreled version. It is gas operated and features a secondary pump action for situations where preventing jams is more important than quickly firing a second shot (clear glitch jams with a Minor Action). The short-barreled version has a Concealability threshold of 3, DV 3, Attack Ratings 8/8/4/—/—.
-
-**Mossberg CMDT**
-
-This assault shotgun provides classic bang for the buck. It can either be loaded with ten-round ammo clips or a big boy twenty-four-round drum. The best features are burst fire mode and a top-mounted laser sight.
-
-**PJSS Model 55**
-
-Rich people own shotguns too. Small production runs, usually purchased by rich European hunters and trap shooters, make this a status symbol made for killing. The Model 55 comes with a rigid stock equipped with an integrated shock pad. Both barrels can be shot at once as a short burst (see Not Enough Rounds).
-
-**Remington Roomsweeper**
-
-Double-barreled and pistol gripped makes this little beast bad news when it slips out of a pocket. If you’re not a fan of flechette shooters, load some Heavy Pistol rounds into a Roomsweeper and she shoots like a really inaccurate hand cannon.
-
-**ASSAULT RIFLES**
+##### **ASSAULT RIFLES**
 Automatics 
 
 Rifles can take top, barrel-, and underbarrel-mounted accessories.
@@ -1272,10 +1194,6 @@ Rifles can take top, barrel-, and underbarrel-mounted accessories.
 **AK-97**
 
 The AK-97 will never go out of style, especially since it still looks like its mid-twentieth-century predecessor. Built for reliability and endurance, it’s not the prettiest girl at the dance, but it can sure shake a tailfeather.
-
-**Ares Alpha**
-
-Made famous in the hands of Ares Firewatch teams, the Alpha quickly became a worldwide success with UCAS and CAS special operators along with a myriad of Desert Wars teams. The integrated underbarrel grenade launcher, smartgun system, and an innovative design for superior handling make it special.
 
 **Colt M23**
 
@@ -1285,11 +1203,7 @@ Cheap, mass-produced, and infinitely adaptable, the M23 finds its ways to the ha
 
 Fabrique Nationale is the name to fear when facing private security forces and corporate highthreat- response teams around the world. They made this weapon, which features a laser sight and a gas-vent system.
 
-**Yamaha Raiden**
-
-While Ares made the Alpha, the Japanacorps, through Yamaha, developed the Raiden. Electronic firing and exceptional accuracy are integral to the design. Japanacorp security forces and the Japanese Imperial Marines now swear by the Raiden. It features an integral silencer, smartgun system, and underbarrel shotgun/grenade launcher.
-
-**Longarm Rifles**
+##### **Longarm Rifles**
 Longarms
 
 **Ares Desert Strike**
@@ -1316,9 +1230,30 @@ Ranger Arms knows what the SM line has always been about—silently neutralizing
 
 Sometimes you need to shoot an enemy; sometimes you need to shoot an enemy through the side of an APC. The Barret Model 122 excels at tearing through metal and getting to the things it attempts to protect, ripping apart machines and vehicles with horrible tearing sounds that are music to the ears of the shooter. It has a silencer, smartgun system, and folding bipod.
 
+##### **Shotguns**
+Longarm
 
-**Machine Guns/Assault Cannons**
-Heavy Weapons
+The stats for these shotguns are for normal slug rounds. Shotguns can take top, barrel, and underbarrel accessories.
+
+**Defiance T-250**
+
+A solid street howitzer, this semi-automatic shotgun is available in either a normal-length or short-barreled version. It is gas operated and features a secondary pump action for situations where preventing jams is more important than quickly firing a second shot (clear glitch jams with a Minor Action). The short-barreled version has a Concealability threshold of 3, DV 3.
+
+**Mossberg CMDT**
+
+This assault shotgun provides classic bang for the buck. It can either be loaded with ten-round ammo clips or a big boy twenty-four-round drum. The best features are burst fire mode and a top-mounted laser sight.
+
+**PJSS Model 55**
+
+Rich people own shotguns too. Small production runs, usually purchased by rich European hunters and trap shooters, make this a status symbol made for killing. The Model 55 comes with a rigid stock equipped with an integrated shock pad. Both barrels can be shot at once as a short burst (see Not Enough Rounds).
+
+**Remington Roomsweeper**
+
+Double-barreled and pistol gripped makes this little beast bad news when it slips out of a pocket. If you’re not a fan of flechette shooters, load some Heavy Pistol rounds into a Roomsweeper and she shoots like a really inaccurate hand cannon.
+
+
+##### **Machine Guns/Assault Cannons**
+Gunnery
 
 Machine guns come in three categories—light, medium, and heavy—that determine their Attack Ratings. All, even the “light” ones, are bulky and unwieldy. A light machine gun is bigger and heavier than most rifles, while medium machine guns and heavy machine guns can only be carried by someone with Strength of 3+ and 5+, respectively, since they are designed as vehicle- mounted weapons. Machine guns can take top, barrel, and underbarrel accessories.
 
@@ -1351,7 +1286,6 @@ That name is terrible. Everyone thinks the Super Squirt is some kind of water gu
 
 Bringing down trolls with a little plastic, steel, and chemical cocktail for decades, Parashield sets the industry standard for dart weapons. The pistol model can accept top-mounted accessories only. The rifle includes a top-mounted imaging scope and can mount top and underbarrel accessories.
 
-{REMOVE ME} - Wireless bonus: The dart reports whether or not it has struck home and successfully injected along with the effect based on heart rate and pulse levels, although its medical sensors are not very sophisticated (Device Rating of 1 for the dart).
 
 **Launchers**
 
@@ -1359,24 +1293,20 @@ The Exotic Weapons skill is used to fire launchers, and they can take top and un
 
 **Ares Antioch II**
 
-The Antioch II is the fanciest tube with a trigger around, complete with an integral smartgun system. A secondary trigger setting allows for wireless activation {REMOVE ME} - of launched projectiles. Wireless bonus: You can use the wireless link trigger for your grenades, even if you don’t have DNI.
+The Antioch II is the fanciest tube with a trigger around, complete with an integral smartgun system. 
 
 **ArmTech MGL-6/MGL-12**
 
 Semi-auto grenade launchers in a bullpup pistol and rifle style that can send a whole lot of bad news downrange real fast. 
 
-{REMOVE ME} - Wireless bonus: When active the launcher will not detonate any ordnance loaded into the weapon within five yards of the weapon, even if a spoofed command tells it to do otherwise.
 
 **Aztechnology Striker**
 
-Deadly and disposable, the Striker is a great analogy for runners. The launch tube can be reused, which is nice considering recent price increases. Wireless {REMOVE ME} - bonus: Connecting this launcher to the local Matrix provides a +1 modifier bonus as long as no other bonus-applying systems are in use.
+Deadly and disposable, the Striker is a great analogy for runners. The launch tube can be reused, which is nice considering recent price increases. 
 
 **Onotari Interceptor**
 
 Saeder-Krupp developed this multipurpose missile launcher for military use. It has two separate barrels that can load two missiles at once, which don’t need to be the same type. Both barrels cannot be fired simultaneously, though this safety feature has been known to be removed, much to the dismay of the target—and the firer, as it turns out. It features an internal smartgun system that controls the fire-safety system. Firing both barrels launches both weapons. Split the attack modifier and resolve each projectile independently. The firer must resist 6P Fire damage when launching both tubes.
-
-{REMOVE ME} - Wireless bonus: The safety system cannot be disengaged, but the firer gains the smartlink wireless bonus.
-
 
 
 ### Firearm Accessesories
@@ -1385,7 +1315,6 @@ Most firearm accessories must be attached to a particular mount—top, barrel, u
 
 | **ACCESSORY**                | **MOUNT**    | **AVAILABILITY** | **COST**           |
 | ---------------------------- | ------------ | ---------------- | ------------------ |
-| Airburst link                | —            | 6R               | 600¥               |
 | Bipod                        | Under        | 2                | 200¥               |
 | Concealable holster          | —            | 2                | 150¥               |
 | Gas-vent system (Rating 1-3) | Barrel       | (Rating x 3)R    | Rating x 200¥      |
@@ -1393,7 +1322,6 @@ Most firearm accessories must be attached to a particular mount—top, barrel, u
 | Hidden arm slide             | —            | 4R               | 350¥               |
 | Imaging scope                | Top          | 2                | 300¥               |
 | Laser sight                  | Top or Under | 2                | 125¥               |
-| Periscope                    | Top          | 3                | 70¥                |
 | Quick-draw holster           | —            | 4                | 175¥               |
 | Shock pad                    | —            | 2                | 50¥                |
 | Silencer/suppressor          | Barrel       | 9F               | 500¥               |
@@ -1404,23 +1332,14 @@ Most firearm accessories must be attached to a particular mount—top, barrel, u
 | Speed loader                 | —            | 2                | 25¥                |
 | Tripod                       | Under        | 4                | 500¥               |
 
-**Airburst link**
-
-A smartgun accessory for grenade and rocket launchers uses a rangefinder to air-burst the explosive projectile in close proximity to the target. An airburst link reduces the scatter distance for a launched weapon by two yards per net hit instead of one yard per hit (Blast Attacks and Scatter) when you use the wireless link trigger. The airburst link also prevents the defender from using the Hit the Dirt Action to reduce damage, as the Prone status offers no benefit against the airburst. 
-
-{REMOVE ME} - Wireless bonus: An airburst link requires wireless functionality to function at all. Both the grenades and the launcher must have wireless mode turned on for the system to function.
 
 **Bipod**
 
 A two-legged brace extends down from the weapon, allowing it to be fired low to the ground with the user in a prone or sitting position. A bipod can be attached to the underbarrel mount of a weapon and provides a +2 to the Attack Rolls when properly deployed. Attaching a bipod takes a Major Action. Folding up or deploying a bipod is a Minor Action.
 
-{REMOVE ME} - Wireless bonus: The Attack Rolls bonus increases to +3 if used when prone or sitting.
-
 **Concealable holster**
 
 A small holster worn just about anywhere on the body it can’t be seen, attached with a smart adhesive. It increases the Concealability threshold of the weapon inside by 1. Only pistols (including machine pistols) and tasers fit in a concealable holster.
-
-{REMOVE ME} - Wireless bonus: Sensors, smart-fabric, and active adhesive allow the holster to alter color and move small amounts in real time, increasing the Concealability threshold by an additional 1.
 
 **Gas-vent system**
 
@@ -1430,29 +1349,19 @@ Gas-vent recoil compensation systems are barrel-mounted accessories that vent a 
 
 This heavy harness features an articulated and motorized gyro-stabilized arm. The mount can hold a rifle or machine gun. The system negates the Attack Rolls adjustment for Semi-Auto and Burst Fire and provides a +3 Attack Rolls for Full-Auto. This system also shifts the Strength requirements for medium and heavy machine guns to 2+ and 4+ respectively. Attaching or removing a weapon from the mount takes a Minor Action. Putting on a gyro-mount harness takes about a minute, while the quick-release allows you to get out of it with a Major Action. 
 
-{REMOVE ME} - Wireless bonus: Activating the harness’s quick-release with a wireless signal to exit the harness is a Minor Action.
-
 **Hidden arm slide**
 
 Attached to the forearm and worn under clothing, this slide can fit a Hold-out, Light Pistol, or Taser. With a Minor Action and a specific movement, the slide moves the weapon into your hand. The use of a hidden arm slide provides a Bonus Effect when first used. It also increases the Concealability threshold by 1.
 
-{REMOVE ME} - Wireless bonus: You get a bonus Minor Action on any turn when you activate the slide.
-
 **Imaging scope**
 
-The classic top-mounted scope that includes a micro camera and vision magnification, along with a Capacity of 3 for additional vision enhancements. Attachment or removal takes only a Minor Action. The Take Aim Minor Action must be used in order to gain the benefits of an imaging scope, though the modifier bonus from that action is not gained for the first action of use. When you are using an imaging scope, your target cannot gain Bonus Effect by having a higher Defense. Wireless {REMOVE ME} - bonus: The scope’s “line of sight” can be shared, allowing you to share what your scope sees with your team (and yourself if you’re using it to look around a corner).
+The classic top-mounted scope that includes a micro camera and vision magnification, along with a Capacity of 3 for additional vision enhancements. Attachment or removal takes only a Minor Action. The Take Aim Minor Action must be used in order to gain the benefits of an imaging scope, though the modifier bonus from that action is not gained for the first action of use. When you are using an imaging scope, your target cannot gain Bonus Effect by having a higher Defense.
 
 **Laser sight**
 
 This device uses a laser beam to project a visible dot (normal, low-light, or thermographic) on the target. This increases the weapon’s Attack Rolls by 1, not cumulative with smartlink modifiers. The laser sight can be mounted as either an underbarrel mount or top mount. Activating or deactivating a laser sight is a Minor Action.
 
 Note that in weapons with a laser sight included as standard equipment, this bonus is already calculated into the Attack Rolls.
-
-{REMOVE ME} - Wireless bonus: The bonus to the Attack Rolls increases to 2. You gain a bonus Minor Action on a turn when you activate or deactivate the laser sight.
-
-**Periscope**
-
-This adjustable viewer attaches to a top mount and allows the user to target a weapon around corcorners, reducing the Cover IV modifier penalty to –1 when using {REMOVE ME} - the Take Cover Action. A periscope can be upgraded with any of the vision enhancements noted on. Capacity 3. Wireless bonus: The modifier penalty noted above is reduced to 0.
 
 **Quick-draw holster**
 
@@ -1466,19 +1375,17 @@ A shock-absorbing pad situated on the rigid stock of a rifle, shotgun, or heavy 
 
 A barrel-mounted accessory for reducing the sound and flash of firing a weapon; not compatible with revolvers or shotguns. It increases the threshold on Perception tests by 2 to notice the weapon’s use or locate the weapon’s firer. Attaching or removing a silencer takes a Major Action.
 
-{REMOVE ME} - Wireless bonus: The silencer features systems and simple software that alerts you via AR if someone nearby moves quickly in response to the sound of the silenced weapon.
-
 **Smart firing platform**
 
-A robotic tripod equipped with a mechanized pivot that allows for a 180-degree firing arc and a 60-degree inclination. It can mount one smartgun- equipped weapon to the platform. The weapon will be fired by the platform’s onboard pilot (Device Rating 3), using a pre-programmed Targeting Autosoft (Rating 3). It can be upgraded with additional autosofts, usually a Clearsight program. You need to set the parameters of who exactly the platform should and shouldn’t shoot at, which are followed by the platform’s pilot. The platform negates the Attack Rolls adjustments for Semi-Auto and Burst Fire and offers a +3 Attack Rolls for Full-Auto. {REMOVE ME} - It has an Initiative rank of Pilot x 4, Ability Dice Code Initiative Dice, 4 Minor Actions, and 1 Major Action. Wireless bonus: You can fire the mounted weapon remotely using an implanted smartlink using VR, replacing the system’s dice pools with your own.
+A robotic tripod equipped with a mechanized pivot that allows for a 180-degree firing arc and a 60-degree inclination. It can mount one smartgun- equipped weapon to the platform. The weapon will be fired by the platform’s onboard pilot (Device Rating 3), using a pre-programmed Targeting Autosoft (Rating 3). It can be upgraded with additional autosofts, usually a Clearsight program. You need to set the parameters of who exactly the platform should and shouldn’t shoot at, which are followed by the platform’s pilot. The platform negates the Attack Rolls adjustments for Semi-Auto and Burst Fire and offers a +3 Attack Rolls for Full-Auto. It has an Initiative rank of Pilot x 4, Ability Dice Code Initiative Dice, 4 Minor Actions, and 1 Major Action.
 
 **Smartgun system**
 
-This is the firearm or a projectile-weapon side of the smartlink system. The system includes a small camera and range finder. It keeps track of ammunition and, through DNI, allows switching between gun modes, ejecting a clip, and firing the gun without pulling the trigger. The camera allows you to fire from cover, suffering no Attack test penalties while affected by the Cover Status. If you’re using a smartlink, the smartgun system increases the gun’s Attack Rolls by 2 across all available range categories. The smartgun features are accessed either by universal access port cable to an imaging device (like glasses, goggles, or a datajack for someone with cybereyes) or by a wireless connection working in concert with direct neural interface. Internal smartgun systems add 500 nuyen to the weapon price. An external smartgun system can be attached to the top mount or underbarrel mount with an Engineering + Intelligence (4, 1 hour) Extended Test. The small camera has a capacity of 1 and can be equipped with vision enhancements.
+This is the firearm or a projectile-weapon side of the smartlink system. The system includes a small camera and range finder. It keeps track of ammunition and, through DNI, allows switching between gun modes, ejecting a clip, and firing the gun without pulling the trigger. The camera allows you to fire from cover, suffering no Attack test penalties while affected by the Cover Status. If you’re using a smartlink, the smartgun system increases the gun’s Attack Rolls by 2 across all available range categories. The smartgun features are accessed either by universal access port cable to an imaging device (like glasses, goggles, or a datajack for someone with cybereyes). Internal smartgun systems add 500 nuyen to the weapon price. An external smartgun system can be attached to the top mount or underbarrel mount with an Engineering + Intelligence (4, 1 hour) Extended Test. The small camera has a capacity of 1 and can be equipped with vision enhancements.
 
 **Spare clip**
 
-{REMOVE ME} - This is an unloaded standard magazine for a specific selected weapon. Wireless bonus: The clip provides a current ammo count even without a smartgun system.
+This is an unloaded standard magazine for a specific selected weapon. 
 
 **Speed loader**
 
@@ -1486,7 +1393,7 @@ The speed loader holds a ring of bullets for reloading a revolver’s cylinder. 
 
 **Tripod**
 
-The tripod provides a stable base to fire a weapon low to the ground with the user kneeling or sitting. A tripod can be attached to the underbarrel mount. It negates the Attack Rolls adjustments for Semi-Auto and Burst Fire and offers a +3 Attack Rolls for Full-Auto when properly deployed. Attaching a tripod takes a {REMOVE ME} - Major Action. Folding up or deploying the bipod is a Minor Action. Wireless bonus: The player gains a free Minor Action on a turn when they fold up, deploy, or remove the tripod.
+The tripod provides a stable base to fire a weapon low to the ground with the user kneeling or sitting. A tripod can be attached to the underbarrel mount. It negates the Attack Rolls adjustments for Semi-Auto and Burst Fire and offers a +3 Attack Rolls for Full-Auto when properly deployed. Attaching a tripod takes a Major Action. Folding up or deploying the bipod is a Minor Action. 
 
 
 ### Ammunition
@@ -1500,19 +1407,19 @@ Caseless ammo is rare these days, with the corps wanting to track who’s doing 
 Erasing tags requires a tag eraser. Make an Electronics + Intelligence (2, 1 minute) for every ten rounds being erased.
 
 
-| **AMMO, PER 10 SHOTS** | **DAMAGE MODIFIER** | **AP MODIFIER** | **AVAILABILITY** | **COST** |
-| ---------------------- | ------------------- | --------------- | ---------------- | -------- |
-| APDS                   | —                   | –4              | 12F              | 120¥     |
-| Assault cannon         | —                   | —               | 12F              | 400¥     |
-| Explosive rounds       | +1                  | –1              | 9F               | 80¥      |
-| Flechette rounds       | +2                  | +5              | 6R               | 65¥      |
-| Gel rounds             | +0S                 | +1              | 2R               | 25¥      |
-| Hollow points          | +1                  | +2              | 4F               | 70¥      |
-| Injection darts        | —                   | —               | 4R               | 75¥      |
-| Regular ammo           | —                   | —               | 2R               | 20¥      |
-| Stick-n-Shock          | –2S (e)             | –5              | 6R               | 80¥      |
-| Tracer                 | —                   | —               | 6R               | 60¥      |
-| Taser dart             | —                   | —               | 3                | 50¥      |
+| **AMMO, PER 10 SHOTS** | **DAMAGE MODIFIER** | **AVAILABILITY** | **COST** |
+| ---------------------- | ------------------- | ---------------- | -------- |
+| APDS                   | +2                  | 12F              | 120¥     |
+| Assault cannon         | —                   | 12F              | 400¥     |
+| Explosive rounds       | +1                  | 9F               | 80¥      |
+| Flechette rounds       | +2                  | 6R               | 65¥      |
+| Gel rounds             | +0S                 | 2R               | 25¥      |
+| Hollow points          | +1                  | 4F               | 70¥      |
+| Injection darts        | —                   | 4R               | 75¥      |
+| Regular ammo           | —                   | 2R               | 20¥      |
+| Stick-n-Shock          | –2S (e)             | 6R               | 80¥      |
+| Tracer                 | —                   | 6R               | 60¥      |
+| Taser dart             | —                   | 3                | 50¥      |
 
 | **AMMO BY TYPE**                    | **AVAIL** | **COST (PER 10 ROUNDS)** |
 | ----------------------------------- | --------- | ------------------------ |
@@ -1583,8 +1490,7 @@ Some days, you want to make things blow up real good. Okay, make that most days.
 
 Grenades are small, self-contained explosive packages. Boom and shrapnel all in one neat and deadly little cluster! Minigrenades are specifically designed for use with grenade launchers, set to arm when they have traveled five yards and explode on impact or with an airburst link. The five-yard safety feature can be disabled with an `Engineering + Intelligence (4, 5 Minutes) Extended Test`. Minigrenades have the same effects as standard grenades.
 
-The damage from grenades becomes less the farther away from them you are. The DV entry for grenades lists the initial damage for those closest to the grenade, within a yard, called Ground Zero, then two categories of lesser damage for those in Close and Near Range, with the damage limited to a maximum range of the Blast attribute. Use the `Athletics skill + Quickness` when throwing grenades, or `Exotic Weapons (Launcher) + Quickness` when launching a grenade from a grenade launcher. Follow the rules for Blast Attacks. Grenades and similar explosives can also be rigged with a tripwire to be set up as a basic booby trap. This requires an `Engineering + Intelligence (8, 1 Major Action) Extended Test`. All grenades have the following wireless feature: You can use the wireless link trigger for your grenades via an ARO on your commlink even if you don’t have direct neural interface.
-
+The damage from grenades becomes less the farther away from them you are. The DV entry for grenades lists the initial damage for those closest to the grenade, within a yard, called Ground Zero, then two categories of lesser damage for those in Close and Near Range, with the damage limited to a maximum range of the Blast attribute. Use the `Athletics skill + Quickness` when throwing grenades, or `Exotic Weapons (Launcher) + Quickness` when launching a grenade from a grenade launcher. Follow the rules for Blast Attacks. Grenades and similar explosives can also be rigged with a tripwire to be set up as a basic booby trap. This requires an `Engineering + Intelligence (8, 1 Major Action) Extended Test`. 
 **Stun grenade**
 
 Often called flash-bangs, these grenades explode to create a bright, loud, shocking blast that stuns and staggers anyone in their range. Along with the damage, those in the Blast of a Stun grenade suffer the Blinded I, Deafened I, and Dazed Status Effect.
@@ -1592,8 +1498,6 @@ Often called flash-bangs, these grenades explode to create a bright, loud, shock
 **Flash-pak**
 
 This is an electronic box, ten centimeters by ten centimeters on its face and two centimeters thick, containing a set of micro-flashes on each side designed to fire in random strobing sequence to confuse opponents. Anyone in the range of a flash-pak and using standard vision receives the Blinded status (p. 51) indicated in the DV chart on all tests that include vision due to the strobe effect. Using low-light causes the status to shift up one level. Flare compensation drops the status down one level. The flash-pak has ten charges and uses one charge per combat round. Plugged in, it recharges one charge every ten seconds. 
-
-{REMOVE ME} - Wireless bonus: The strobe sequence can avoid directing strong flashes at the subscribed character preventing any Status Effect for them. The device can recharge by induction, regaining one charge per hour
 
 **Fragmentation**
 
@@ -1624,7 +1528,7 @@ Similar to the gas grenade, a smoke grenade releases a cloud of smoke instead of
 
 Rockets are launched projectiles with stabilizing fins, a propulsion system, and a warhead. Missiles are rockets that carry internal guidance systems, with sensor packages adding their rating to the attack roll, since they can adjust their trajectory in flight (also reflected in their Attack Rolls). Rockets and missiles are set to arm when they have traveled 10 yards from their point of origin and explode on impact or with an airburst link. This safety feature can be disabled with an `Engineering + Intelligence (4, 5 Minutes) Extended Test`.
 
-As is the case with grenades, damage from rockets and missiles decreases the farther you are from the point of impact. The ranges differ based on the weapon, as listed in the stats for each weapon. All rockets and missiles have the following wireless feature: You can use the wireless link trigger for your rocket or missile, even if you don’t have a direct neural interface.
+As is the case with grenades, damage from rockets and missiles decreases the farther you are from the point of impact. The ranges differ based on the weapon, as listed in the stats for each weapon. 
 
 **Anti-vehicle**
 
@@ -1636,9 +1540,7 @@ Used principally against people, the warhead discharges high-speed fragments des
 
 **High explosive** 
 
-HE rockets/missiles are designed to do heavy
-damage to a small area. Their blast pattern is similar
-to that of a grenade, but slightly larger.
+HE rockets/missiles are designed to do heavy damage to a small area. Their blast pattern is similar to that of a grenade, but slightly larger.
 
 
 **Conventional Explosives**
@@ -1670,15 +1572,15 @@ Plastic explosives with the consistency of shaving cream, stored in an aerosol c
 
 **Detonator cap**
 
-This detonator is inserted into a mass of explosives and set off either by a programmable timer or radio signal. Setting the timer takes a Major Action. Wireless {REMOVE ME} - bonus: You can set the detonator’s timer with a Minor Action. You gain a Minor Action Command DNI-linked device Action to detonate the explosive.
+This detonator is inserted into a mass of explosives and set off either by a programmable timer or radio signal. Setting the timer takes a Major Action. 
 
 ### Clothing and Armor
 
-The streets of 2080 are mean, but so is the air, the rain, the paracritters, and a plethora of other things that can kill you just for walking out your front door. What’s the solution? Armor! Get yours here, and maybe you’ll survive a few days in the sprawl.
+The streets of {{YEAR OF GAME}} are mean, but so is the air, the rain, the paracritters, and a plethora of other things that can kill you just for walking out your front door. What’s the solution? Armor! Get yours here, and maybe you’ll survive a few days in the sprawl.
 
 **Clothing**
 
-Clothing in 2080 has some serious functionality options: commlinks, music players, and other electronic devices can be woven right in, powered by interwoven batteries or special energy-gathering fabrics. On the other side of the economy, cheap soybased “flats” can be had for ten nuyen a set from vending machines around whatever sprawl you find yourself in. Spend more money, look more chic—simple as that.
+Clothing in {{YEAR OF GAME}} has some serious functionality options: commlinks, music players, and other electronic devices can be woven right in, powered by interwoven batteries or special energy-gathering fabrics. On the other side of the economy, cheap soybased “flats” can be had for ten nuyen a set from vending machines around whatever sprawl you find yourself in. Spend more money, look more chic—simple as that.
 
 | **CLOTHING**                | **AVAIL** | **COST**    |
 | --------------------------- | --------- | ----------- |
@@ -1722,7 +1624,6 @@ Clothing in 2080 has some serious functionality options: commlinks, music player
 
 Electrochromic threads can change color with voltage, letting you alter the color of your clothing or display text, images, or patterns. This is good for fashion, but great for vanishing into a crowd if you need a quick costume change. You can even get armored clothing in electrochromic styles. It takes a Minor Action to change the settings on your electrochromic clothes, but two combat rounds to complete the change.
 
-{REMOVE ME} - Wireless bonus: You gain a free Minor Action during any turn when you change your clothes’ settings, and your clothing can display images, text files, or video from your commlink.
 
 **Feedback feature**
 
@@ -1756,8 +1657,6 @@ A flexible-wrap vest designed to be worn under regular clothing without displayi
 
 A head-to-toe suit with a ruthenium polymer coating supported by a sensor suite, allowing it to scan its surroundings and replicate the images at the proper perspectives. You gain a bonus Edge when performing Stealth tests to hide while wearing an active suit.
 
-{REMOVE ME} - Wireless bonus: The suit also raises your Defense by 2 thanks to improved hiding ability.
-
 **Full body armor**
 
 This armor is worn by military and security personnel around the world for heavy-duty jobs. It is styled for intimidation but includes an array of tactical holsters, pouches, and webbing for deadly efficiency. It’s going to draw attention, just so you know. The suit can be modified for environmental adaptation (hot or cold environments) or chemically sealed to completely protect the wearer from toxic environments and attacks. The suit comes with a helmet with a Capacity of 6 for vision or audio enhancements.
@@ -1781,7 +1680,7 @@ This modification protects the wearer against Contact-vector chemical attacks (T
 
 **Chemical Seal**
 
-Available only with full body armor, the chemical seal is an airtight environmental control that takes a Major Action to activate. It prevents the effects of all statuses connected to Contact- and Inhalation- vector chemicals but can only be used for a total of an hour at a time due to the air supply. It also neutralizes {REMOVE ME} - the Corrosive status six times before it’s built in chemical protection is worn away and the armor no longer has chemical seal protection. Wireless bonus: Activating the chemical seal is a Minor Action.
+Available only with full body armor, the chemical seal is an airtight environmental control that takes a Major Action to activate. It prevents the effects of all statuses connected to Contact- and Inhalation- vector chemicals but can only be used for a total of an hour at a time due to the air supply. It also neutralizes the Corrosive status six times before it’s built in chemical protection is worn away and the armor no longer has chemical seal protection.
 
 **Cold Resistance**
 
@@ -1808,8 +1707,6 @@ The impressive black shield used by SWAT teams and in urban combat. It features 
 **Riot shield**
 
 The clear plasteel cousin of the ballistic shield, this one adds an electricity attack option. Use the Close Combat skill for the attack and attack characteristics of a Stun Baton. The taser shield holds 10 charges; when attached to a power point, it regains one charge per 10 seconds.
-
-{REMOVE ME} - Wireless bonus: The riot shield recharges by induction, recharging one charge per hour.
 
 | ITEM             | Defense | CAPACITY | AVAIL | COST   |
 | ---------------- | ------- | -------- | ----- | ------ |
@@ -1842,7 +1739,7 @@ Commlinks are universal communication devices used by virtually everyone all the
 
 ### Cyberdecks
 
-When the corps cracked down on the Matrix, working hard to prevent illicit use of their pretty new system, the cyberdeck re-emerged as the tool for messing with innards of the Matrix. They are powerful devices in the hands of a skilled decker. The newest models look something like medieval bracers, only less bulky. They’re worn on the wrist and can project keyboards (or whatever interface the user prefers) onto the user’s arm, a nearby surface, or just the air around them. Some models have screens; most don’t. They tend to look like a block with a series of ports, though many deckers connect to their deck wirelessly. For more information about them, see Devices. All cyberdecks include hot-sim modules.
+When the corps cracked down on the Matrix, working hard to prevent illicit use of their pretty new system, the cyberdeck re-emerged as the tool for messing with innards of the Matrix. They are powerful devices in the hands of a skilled decker. The newest models look something like medieval bracers, only less bulky. They’re worn on the wrist and can project keyboards (or whatever interface the user prefers) onto the user’s arm, a nearby surface, or just the air around them. Some models have screens; most don’t. They tend to look like a block with a series of ports For more information about them, see Devices. 
 
 | ITEM                | DEVICE RATING | ATTRIBUTES (A/S) | ACTIVE PROGRAM SLOT | AVAIL | COST     |
 | ------------------- | ------------- | ---------------- | ------------------- | ----- | -------- |
@@ -1867,6 +1764,51 @@ They represent the Data Processing and Firewall attributes
 | Rating 6  | 9/8              | +2                        | 6(L)  | 3   | 210,000¥ |
 
 ### Accessories
+
+### Cyberwear
+
+#### Headwear
+
+| **DEVICE**                    | **ESSENCE COST** | **AVAILABILITY** | **COST** |
+| ----------------------------- | ---------------- | ---------------- | -------- |
+| **COMMUNICATIONS**            | -                | -                | -        |
+| Chipjack                      | .2               | 9                | 1,000¥   |
+| Datajack                      | .2               | 0                | 1,000¥   |
+| Radio                         | .75              | 9                | 4,000¥   |
+| Radio Receiver                | .4               | 9                | 2,000¥   |
+| Telephone                     | .5               | 9                | 3,700¥   |
+| **EARS**                      | -                | -                | -        |
+| Cyber Replacement             | .3               | 9                | 4,000¥   |
+| Modification                  | .1               | 9                | 2,000¥   |
+| Cosmetic Modification         | -                | 9                | 1,000¥   |
+| Damper                        | .1               | 9                | 3,500¥   |
+| High Frequency                | .2               | 9                | 3,000¥   |
+| Low Frequency                 | .2               | 9                | 3,000¥   |
+| Recorder                      | .3               | 9                | 7,000¥   |
+| **EYES**                      | -                | -                | -        |
+| Cyber Replacement             | .2               | 9                | 5,000¥   |
+| Camera                        | .4               | 9                | 5,000¥   |
+| Cosmetic Modification         | -                | 9                | 1,000¥   |
+| Flare Compensation            | .1               | 9                | 2,000¥   |
+| Low-Light                     | .2               | 9                | 3,000¥   |
+| Retinal Duplication (illegal) | .1               | 9                | 50,000¥+ |
+| Thermographic                 | .2               | 9                | 3,000¥   |
+
+#### Internals
+
+| **DEVICE**            | **ESSENCE COST** | **AVAILABILITY** | **COST** |
+| --------------------- | ---------------- | ---------------- | -------- |
+| Cortex Bomb (illegal) | -                | 9                | 500,000¥ |
+| Data FIiter           | .3               | 9                | 5,000¥   |
+| Data Lock             | .2               | 9                | 1,000¥   |
+| Datasoft Link         | .1               | 9                | 1,000¥   |
+| Display Link          | .1               | 9                | 1,000¥   |
+
+
+#### Bodywear
+
+
+
 
 ## Chapter 8: Combat
 
@@ -2323,423 +2265,301 @@ Gamemaster note: The damage and duration are subject to your discretion if the t
 ## Chapter 9: Magic
 
 
-## The Matrix
+## Chapter 10: The Matrix (Slimline)
 
-In the Sixth World, information is power. Nowhere is this more true than on the Matrix. It is ubiquitous, connecting everything from office workstations to home-automation systems. From bleeding-edge advanced prototypes to ten-year-old burner commlinks, the Matrix is everywhere. Technically speaking, the Matrix is the interconnection of all worldwide devices, wireless or otherwise, that use the same protocols and methods for communication. In a more abstract sense, the Matrix is a vast shared virtual space, home to the entirety of metahuman knowledge, with a fair bit of imagination and outright lies mixed in. Everyday users access the Matrix for many tasks in the course of their day, searching for trideos of cats, answering phone calls, remotely turning on their car, controlling a logging drone, or monitoring cameras, among other things.
 
-Hackers (Deckers), on the other hand, make the Matrix do what they want, legally or otherwise. Some, called deckers after the equipment they use, do it with high-tech devices called cyberdecks.
+### The Elevator Pitch
 
-Matrix-based devices and defenses are so common that a character competent in using or bypassing such things is integral to any runner team. Hackers earn their pay disabling alarms and auto-defenses, scrambling enemy communications, and destroying anything that connects to the Matrix. They act as the team’s communications hub, safeguarding them from virtual attack. They’re also the go-to specialists when it comes to digging out information, either in a general search or a quest for specific piece of data they can fence or ransom for cash.
+The Matrix is everywhere—cameras, doors, drones, host systems. As a decker (or a teammate with the right gear), you interact with it using the **same round structure and actions** as physical combat:
 
-### Matrix History
+* **Action economy:** 1 **Major** + 1 **Minor** per round (plus extra Minors from initiative dice, as usual).
+* **Initiative:** `Reaction + 1d6 (+Xd6 from gear)` in VR or AR—same cadence as meatspace.
+* **Tests:** You roll **Skill + Attribute** vs the target’s **Defense**. Success gives you what you want. Failing Detection pushes up your **Overwatch Score (OS)** until **Convergence** ends the party.
 
-The Matrix, as we know it in the Sixth World, is the third iteration of what used to be called the in ternet or World Wide Web. Around the turn of the millennium, it took off and grew incredibly fast, adding new technologies for enhanced stability and speed at an almost daily rate.
+This chapter tells you **what to roll**, **what you can do**, **what pushes OS**, and **how IC fights back**—all with the same mechanics you already know from combat and magic.
 
-Then, in 2029, things took a turn for the worse. A fast-moving and destructive virus unlike anything the world had seen began taking down large swaths of network infrastructure, destroying software and hardware alike. The United States organized an elite squad of hackers, technicians, and network wizards and equipped them with newly developed techniques for direct neural interface, then sent them against the virus. Echo Mirage, as the “cyber-commandos” were known, took heavy casualties as lethal biofeedback from the Crash Virus shocked and cooked their brains. Undeterred, they pressed on, and eventually scrubbed the Virus from the network—but the damage had been done.
+---
 
-The demise of the old internet and the Crash of ’29 gave rise to the Matrix, an advanced network designed to run with the human-computer interfaces used exclusively by crack teams like Echo Mirage in the past. The direct neural links that at one point required psychoactive drugs, massive amounts of cable, and a sensory-deprivation tank to use now only took a much-smaller computer and a small piece of cyberware called a datajack. The datajack was implanted directly into a user’s head, acting as a port for a cable that would connect a computer to the metahuman brain.
+### What You Need (Players)
 
-As time went on, virtual space grew more and more complex, and it became commonplace for workers to spend their entire day “jacked in.” Not every technological leap forward was a boon, though. Pushing the envelope on advanced, semi-autonomous programs, Renraku stumbled into creating the first artificial intelligence. Later, born from the dissection of Renraku’s creation, another AI—one hostile to metahumanity—came into being. The shockwaves caused by this AI, in addition to a perfect storm of other factors, turned out to be too much for the Matrix. The network collapsed completely in 2064, an event now known as the Second Crash (or Crash 2.0).
+* **Access mode**
 
-Out of the ashes of the old Matrix came the Matrix as we know it today. It is primarily a wireless network, and corporations have taken extensive steps to stop would-be hackers through the implementation of the Grid Overwatch Division. Yet, despite the chokehold corporations hold over the Matrix, its mysteries run deep. Some infrastructure is decades old, and unknown to even the savviest virtual crusaders. Even more strangely, some metahumans are able to access the Matrix without using any sort of equipment at all. In the corporations’ eyes, these technomancers are both a security threat and a valuable commodity as a new evolution of metahumanity.
+  * **AR:** You see icons overlaid on reality; you act at normal initiative. Good while moving with the team.
+  * **VR (cold/hot sim):** You dive in. Your cyberjack may grant extra **initiative dice**. You are prone to **dumpshock** if disconnected.
+* **Tools**
 
-### The Matrix in Daily Life
+  * **Cyberjack:** Grants **Data Processing** and **Firewall** and VR initiative dice (see Equipment chapter).
+  * **Cyberdeck:** Grants **Attack** and **Sleaze** and **Program Slots** (see Equipment chapter).
+  * **Cable (direct)** or **wireless** link to target. (Direct cable ignores Noise.)
+* **Core skill:** **Hacking** (plus **Electronics** for recon/diagnostics).
+* **Mental stats:** You primarily roll **Intelligence** (with Hacking) and **Intelligence** (with Electronics).
 
-Using the Matrix is an everyday task for most of the Sixth World, though some immerse themselves in it, allowing their perceptions to be overridden by simsense. Either way, to make the Matrix do what you want, you must first understand what you’re looking at. If you’re interacting with the Matrix through the screen of a commlink held in your hand, what you see will look vastly different than if you were using augmented reality (AR) or virtual reality (VR). This is the most rudimentary use of the Matrix, allowing for things such as commcalls, messaging, and use of basic media, including music and games. When using a commlink, various programs can help you navigate from place to place through voice or touch commands. Through these, you can access various hosts and interface with augmented-reality objects (AROs) nearby, allowing them to appear as a sort of pop-up window on the commlink screen.
+> **ASDF at a glance**
+>
+> * **Attack:** how hard your Matrix attacks hit (damage floor).
+> * **Sleaze:** how well you hide and blend in.
+> * **Data Processing:** raw computing; affects speed and some durations.
+> * **Firewall:** your Matrix “armor;” reduces damage and sets defense on many tests.
 
-When you enter augmented reality, whether you use an implanted image link, AR-capable glasses, a datajack, or a technomancer’s innate perception, your perspective on the world around you will change dramatically. The “real world” still exists, but virtual icons interact and overlap with it. A mechanic might use an AR display to provide a digital outline and manual for an engine to assist them with repairs. Entering a posh new restaurant, you may be greeted with a wine list and a menu, along with the day’s specials, hovering alongside you as you walk. An old warehouse can be turned into a vibrant dance club with bright icons and swirling glitter that have no physical substance.
+---
 
-Using AR is essentially dipping a toe into the greater virtual reality of the Matrix. You can see the Matrix sprawling out around you, but real-life rules still apply. Your speed in AR is limited by how fast your body can move, and you can only see as far as you normally could, making the abstract infinity of the Matrix seem impossibly far away at times. Even so, this small dip into the Matrix can greatly alter the world around you, as advertisements, virtual overlays, and the myriad of wireless devices provide stark contrast with reality’s frequent dullness.
+### Targets (GMs)
 
-To take things a step further, you’ll have to immerse yourself in full virtual reality. In VR, the perceptions of the real world fall away; your consciousness is subsumed into the Matrix, and your senses are overridden by the ASIST (Artificial Sensory Induction Systems Technology) interface, more commonly known as simsense. Before you stretches an infinite black horizon, dotted with brightly colored images. 
-
-These icons represent anything that can be interacted with in the Matrix. In their default mode, an icon appears as a featureless white sphere—but seeing such an icon is a rarity, thanks to the amount of customization available. Icons for parked cars look like virtual representations of what they are, and icons for individual personal area networks (PANs) are often represented by animated characters, or hyper-realistic versions of their owner’s subjective view of perfection. Ultimately, an icon can appear in whatever way the owner chooses, with the higher-end icons being incredibly detailed and sculpted. Beyond individual PANs, huge icons loom over the virtual horizon, representing those with the most power over the Matrix, the corporations that make it run. These monumental icons are the public gateways to the individual hosts of those corporations, replete with propaganda extolling the virtues of the company in glowing corporate-speak—and sometimes, coupons!
-
-Icons whose hosts are closest to your meat body appear closer, with physically far-away hosts seeming out of sight of your virtual perceptions. Of course, physics is just a suggestion within the Matrix, and traveling these distances in the blink of an eye is as simple as willing yourself to your destination. Still other icons and access points exist, so that people across the globe can log on whever they want.
-
-For all of the official control, though, there are corners of the Matrix that are still unknown. Whether these are the result of older corporate networks hanging on as part of the new Matrix, the expansion of artificial intelligence, or the manifestation of the mysterious source of power that technomancers call the Resonance is yet to be revealed.
-
-### Matrix Security: Grid Overwatch Division
-
-In the wake of the Second Crash in 2064, the new Matrix that was born from the ashes of the old one gave rise to widespread wireless technology. No longer did users have to use a cable to jack into the Matrix—now, they could wirelessly connect from anywhere they could receive a signal. The network had become such a reliable mesh that roaming between grids became the norm. A hacker could conceivably never leave their home and still interact with (and break into) any number of devices and hosts around the world, using only their commlink.
-
-That all changed in the mid-2070s, when the Corporate Court Matrix Authority created the Grid Overwatch Division, or GOD. Initially, this organization comprised representatives of the Big Ten megacorporations who propped up the Matrix after the Crash, and it was tasked with keeping an eye on the emergence of artificial intelligences. Their authority was soon expanded to make them a watchdog group responsible for tracking down illegal use of the Matrix—and to help define what was and was not legal. This practice was adopted individually by other corporations, who formed their own internal groups, colloquially known as demi-GODs.
-
-With the increase in GOD’s power, the Wild West era of the new Matrix was all but over. Still, there are those who know how to fly under the radar, at least for little while, before they are caught.
-
-
-### Personas and Attributes
-
-Personas are the “people” of the Matrix. They’re primarily metahumans, but personas can also be programs, agents, intrusion countermeasures (IC or “ice”), and (rarely) artificial intelligences. Just like living beings in the meat world, personas have attributes and skills that determine how well they function. The skills you have in the meat world carry over to the Matrix, though they are not always useful (your persona may look like it’s firing a gun, but the Firearms skill is of little use in the Matrix— what looks like an attack is an action covered by another skill; see Matrix Actions).
-
-Attributes are somewhat different. Your Mental attributes carry over into the Matrix, but your Physical attributes are replaced by four Matrix attributes: Attack, Sleaze, Data Processing, and Firewall (ASDF).
-
-Attack represents the offensive power of the device in cybercombat and how much damage it can do when attacking.
-
-- Sleaze is the stealth attribute of the persona and represents how easy it is to hide and blend in with its surroundings, appearing as a normal icon among others, essentially disappearing.
-
-- Data Processing is the raw computing power of a device. Data Processing governs how quickly a device can operate and contributes to running programs concurrently. 
-
-- Firewall is a persona’s primary defensive attribute. It represents how well-defended the persona is against attempts to take unauthorized actions.
-
-If you’re a decker, your Matrix attributes are determined by the device you’re using to access the Matrix. If the device doesn’t possess one or more of the Matrix attributes, then the applicable attribute is treated as if it were 0. You can rotate any non-zero attributes through your persona, even if they originated from different devices. 
-
-Devices also have a Matrix Condition Monitor, which is equal to `(Device Rating / 2, rounded up) + 8`. 
-
-All tests using a damaged device have a –1 modifier for every three full boxes of Matrix damage, until the device is repaired. If a device’s Matrix Condition Monitor is filled up, it is bricked (see Bricked Devices, below).
-
-### Bricked Devices
-
-A bricked device is one whose formerly complex functioning has been reduced to that of a slab of nonfunctional material. That is to say, it doesn’t work, plain and simple, since its Condition Monitor has been filled. For the most part, meat-world observers of a bricked device can tell when something goes wrong—sparks, popping noises, and smoke are clear indicators of a problem. Users of a bricked device are abruptly ejected from the Matrix, and VR users have to deal with dumpshock. The device will not work again until it is repaired.
-
-### Repairing Matrix Damage
-
-
-What’s broken can often be fixed, with the proper tools, time, and talent. Repairing a damaged device is an `Hardware + Intelligence (number of boxes, 1 hour Extended test`. 
-
-The device cannot be used while it is being repaired, and repairs cannot be performed without a toolkit. A critical glitch on a repair test means you messed up good—the device fails totally and will never work again.
-
-### Overwatch Score and Convergence
-
-When hacking, note the number of Effect scored by the defender. This is not net effect, but all effect scored in the test. This total becomes the Overwatch Score (OS). When the OS reaches 40, Convergence occurs.
-
-Convergence is GOD zeroing in on your location. When this occurs, the device used to perform the last hacking test is bricked (its Condition Monitor is filled), and the user is dumped from the Matrix, with associated dumpshock. Additionally, the user’s physical location is reported to the authorities so they might send people to track you down.
-
-Things that increase the Overwatch Score are as follows:
-
-- Using hacking programs: OS increases by 1 for each Matrix action modified by a hacking program. Simply having the program loaded without actively using it doesn’t increase your OS.)
-
-- Performing hacking actions (as noted above): +1 OS per effect on the opposing roll, whether the defense was successful or not.
-
-- Every round you are connected to a Device or Sytem you are not supposed to the OS will go up 1 unless you make your Detection Test
-
-- During Cybercombat your OS goes up 1 automatically every round without a Detection Test allowed.
-
-
-### Dumpshock and Link-Locking
-
-When you’re disconnected from the Matrix while in VR without gracefully switching to AR first, you suffer a nasty shock as your sim module kicks out. This happens to hackers so often that it has its own name: dumpshock. The Damage Value for dumpshock is 3S if you’re in cold-sim and 3P if you’re in hot-sim. Dumpshock is biofeedback damage, so you resist it with Willpower. As if that weren’t enough, you’re also disoriented and so cannot gain Bonus Effect or use Edge on actions for (10 – Willpower) minutes, even if you manage to soak all the damage.
-
-Another danger in the Matrix is having your connection link-locked. This is when another persona or device sends keep-alive signals to your deck (or other device) that force it to cancel any attempt to leave the Matrix. If you’re link-locked, you can’t use the Enter/Exit Host, Reboot Device, or Switch Interface Mode actions on the device your persona is using (probably your deck). You can escape with a successful Jack Out action. Successfully jacking out usually means suffering dumpshock, but at least you’re free. Any persona, be they agent, technomancer, or sprite, can be link-locked.
-
-Usually, if you fall unconscious in VR, your commlink or deck automatically switches you to AR. If you’re link-locked, you remain online and in VR, which can be quite dangerous. IC may attack an unconscious decker, and security spiders, being a bit smarter than IC and no less ruthless, have a lot of options to punish someone who is helpless and stuck in the Matrix. Either way, it’s nasty, since you can’t defend against actions when you’re unconscious.
-
-### Noise
-
-Noise represents any interference between a user and their target. Noise can be created by sheer distance or other factors, such as jamming or obstructions. Each point of noise incurs a –1 penalty to any test taken in the Matrix. If noise is greater than the device rating, the device cannot access the Matrix or provide wireless bonuses.
-
-
-| PHYSICAL DISTANCE TO TARGET/OBSTACLES        | NOISE LEVEL                         |
-| -------------------------------------------- | ----------------------------------- |
-| Directly connected (any distance)            | 0                                   |
-| Up to 100 yards                              | 0                                   |
-| 100–1,000 yards                              | 1                                   |
-| 1,001–10,000 yards (10k yds )                | 3                                   |
-| 10,001 yards to 100k yds                     | 5                                   |
-| Greater than 100k yds                        | 8                                   |
-| Dense foliage                                | 1 per 5 yards                       |
-| Faraday cage                                 | no signal, action blocked           |
-| Fresh water                                  | 1 per 6 inches                      |
-| Jamming                                      | 1 per Effect on Jam Signals actions |
-| Metal-laced earth or wall                    | 1 per 5 yards                       |
-| Salt water                                   | 1 per 6 inches                      |
-| Spam zone or static zone                     | Rating                              |
-| Wireless negation (e.g., wallpaper or paint) | Rating                              |
-
-### Cyberjacks
-
-Cyberjacks are a fairly invasive piece of gear, implanted deep into the brain, and meant to interface more smoothly with a cyberdeck. While they can act as a simple datajack, they also perform the function of integrating the ASIST interface more directly, thus providing superior speed and response times.
-
-They represent the Data Processing and Firewall attributes
-
-| CYBERJACK | ATTRIBUTES (D/F) | VR MATRIX INIT DICE BONUS | AVAIL | ESS | COST     |
-| --------- | ---------------- | ------------------------- | ----- | --- | -------- |
-| Rating 1  | 4/3              | +1                        | 3(L)  | 1   | 45,000¥  |
-| Rating 2  | 5/4              | +1                        | 3(L)  | 1.5 | 65,000¥  |
-| Rating 3  | 6/5              | +1                        | 3(L)  | 2   | 80,000¥  |
-| Rating 4  | 7/6              | +2                        | 4(L)  | 2.3 | 95,000¥  |
-| Rating 5  | 8/7              | +2                        | 5(L)  | 2.6 | 140,000¥ |
-| Rating 6  | 9/8              | +2                        | 6(L)  | 3   | 210,000¥ |
-
-### Cyberdecks
-
-These represetn the Attack and Sleaze Attributes.
-
-| ITEM                | DEVICE RATING | ATTRIBUTES (A/S) | ACTIVE PROGRAM SLOT | AVAIL | COST     |
-| ------------------- | ------------- | ---------------- | ------------------- | ----- | -------- |
-| Erika MCD-6         | 1             | 4/3              | 2                   | 3(I)  | 24,750¥  |
-| Spinrad Falcon      | 2             | 5/4              | 4                   | 3(I)  | 61,500¥  |
-| MCT 360             | 3             | 6/5              | 6                   | 3(I)  | 95,000¥  |
-| Renraku Kitsune     | 4             | 7/6              | 8                   | 4(I)  | 107,000¥ |
-| Shiawase Cyber-6    | 5             | 8/7              | 10                  | 5(I)  | 172,500¥ |
-| Fairlight Excalibur | 6             | 9/8              | 12                  | 6(I)  | 410,600¥ |
-
-### Hacking the Matrix
-
-To Hack into the Matrix first you need to gain access to a Device or System. You have two options (technically three) to do this.
-
-1. The best and easiest way in, is a Hardline access through the building. You need a user and credentials otherwise you still need options 2 or 3
-2. Probe your way in using Sleaze. You try to work your way in through gaps in the security you make Detection Tests each round. 
-3. Brute Force your way in. This is the noisy way in. You attack the Device/Network/System Node directly. This will trigger any IC that Device has
-
-### Systems and Devices
-
-Whats the difference?
+Everything you hack is either a **Device** or a **Host**.
 
 #### Devices
 
-A Device is a physical electronic or mechanical object with a function or purpose, such as a commlink, smartgun, sensor, or even an appliance. Devices have an associated Device Rating, can be integrated into a mesh network, and can be wirelessly accessed or controlled through the Matrix. Hacking a device is generally done against the Device Rating (where Hosts use their Host Rating)
+* **Device Rating (R):** 1–6 (consumer to mil-spec).
+* **Defense (most actions):** `R + Firewall`.
+* **Matrix Condition Monitor (CM):** `ceil(R/2) + 8`.
+* **Initiative (if it acts):** `Data Processing + 1d6` (often passive unless patrolled by IC).
 
 #### Hosts
-Hosts have a general rating, which translates into their Matrix attributes. These general ratings are between 1 and 12. The ratings of these attributes are usually (host rating), (host rating + 1), (host rating + 2), and (host rating + 3), in any order. For example, a rating 4 host might have Attack 5, Sleaze 4, Data Processing 7, Firewall 6. A host’s attributes are shared by itself and its IC programs.
 
-Host Attack Rolls: Host Rating X 2
+* **Host Rating (R):** 1–12.
+* **Assign ASDF:** distribute `R, R+1, R+2, R+3` across **Attack/Sleaze/Data Processing/Firewall**.
+* **Defense (most actions):** `R + Firewall`.
+* **Attack (when the host/IC strikes):** `R + Attack`.
+* **Matrix CM:** `R + 8`.
+* **Initiative:** `Data Processing + 1d6`.
+* **IC:** the host’s defenders. Deploy as OS rises (see **IC & Alerts**).
 
-Condition Monitor: 
+---
 
-Initiative: (Data Processing x 2) + Ability Dice Code
+### Core Loop (Players & GMs)
 
-- Rating 1: Personal sites, public education.
-- Rating 2–3: Low-end commercial businesses, social media.
-- Rating 4–5: Local and regional corporate sites, major governments.
-- Rating 6+: Megacorporate headquarters, military command
+#### 1) Roll Initiative
 
-Systems are really just a collection of Nodes. There are many different kinds of Nodes but the ones you care about are:
+In AR or VR, use your normal formula: `Reaction + 1d6 (+Xd6 from gear)`. Hosts/IC roll `Data Processing + 1d6`.
 
-- Central Processing Unit (CPU)Each system has one, and only one, CPU. It's the brain of the system, so it's naturally the most heavily guarded
-  - Allows you to Crash the System if you get access, you can completely take over the System and all Devices attach to it. Raises OS 5 a round.
-- Datastores (DS) where information is stored its Rating is also the Encryption Rating (usually)
-- Input Output Port (IOP) these are hardline points inside a building or system. Devices like Cameras are attached to IOP's so is every terminal.
-- System Access Node (SAN) these are generally public access points with lower security, a typical access point for a Decker
+#### 2) Take Actions
 
-### Types of IC
+You get **1 Major** and **1 Minor** each round (plus extra Minors from initiative dice, as usual). Your actions are below. Hosts/IC act on their turn using the same structure.
 
-These are the types of IC a host may throw at unwary intruders. All IC use Host Attack Rolls and (Host Rating x 2) for Condition Monitor and most rolls. Their Initiative is (Data Processing x 2) + Ability Dice Code. Defensive rolls and effects vary by IC type.
+#### 3) Handle Detection & OS
 
-Trust me, the GM knows exactly what kind of IC you are up against.
+Quiet actions require a **Detection Test** (below). Loud actions always push **OS**. If OS hits **40**, **Convergence** bricks your deck, dumps you, and pings your location.
 
-#### Acid
-- Defense: Host Rating + Firewall
+---
 
-Acid IC is about wearing down the defenses of intruders so that the other IC can finish it off. When Acid IC hits in cybercombat, the target’s Firewall attribute is reduced by 1 per net hit, reducing the effective defenses. Lost points are restored after leaving the host, at a rate of 1 point per minute.
+### Detection (your “Drain”)
 
-#### Binder
-- Defense: Firewall + Data Processing
+After any **quiet** Matrix action (Probe, Snoop, Decrypt, Analyze, Spoof, etc.), make:
 
-Where Acid IC wants to reduce your defenses, Binder IC wants to slow down all of your functionality— and keep you from running as many programs as you would like. When Binder IC hits in cybercombat, the target’s Data Processing attribute is reduced by 1 per net Effect. When Data Processing hits 0, no Matrix actions can be performed until it hits 1 or higher. Lost points are restored after leaving the host, at a rate of 1 point per minute.
+**Detection Test:** `Hacking + Intelligence` **vs** `Target Rating + your current OS`.
 
-#### Black IC
-- Defense: Host Rating + Firewall
+* **On a success:** you stay hidden; no passive OS gain this round.
+* **On a failure:** increase your **OS** by **Net Effect**.
 
-Black IC means business. When a host tosses this out, it wants your brain fried, plain and simple. If you see this coming at you, no one would blame you for running. In cybercombat, Black IC does (host rating + net effect) in both Matrix damage and biofeedback damage.
+> **Loud actions** (Brute Force, Matrix Attack, obvious Control) **skip** Detection and **still** add OS (see below).
 
-#### Blaster
-- Defense: Host Rating + Firewall
+---
 
-Blaster IC isn’t fun, but at least it’s not as focused on killing you as Black IC is. Yeah, it might want to subject you to all sorts of unpleasant Matrix- based torture, but you have to be alive to experience pain, so that’s something, right? In cybercombat, this does (Rating) Matrix damage while also link-locking the target.
+### Overwatch Score (OS) & Convergence
 
-#### Crash
-- Defense: Host Rating + Firewall
+Track a single number per intruding persona: **OS**.
 
-Crash delivers a sweeping blow intended to take weapons out of your hand. When it hits in cybercombat, this IC does no Matrix damage; instead, it crashes one random program. Crashed programs can’t be run again until the device is rebooted.
+**OS goes up when:**
 
-#### Jammer
-- Defense: Firewall + Attack
+* You **Brute Force** or **Matrix Attack:** +1 OS per **Effect** rolled by the **defender** (not net).
+* You end a round **connected where you shouldn’t be:** +1 OS **unless** you passed a Detection Test that round.
+* You’re in **cybercombat:** +1 OS each round (no test).
+* You use a **program** that says it increases OS: +1 per action affected.
 
-Jammer IC is an expert fencer who toys with you rather than killing you outright. In cybercombat, when Jammer IC hits, the target’s Attack attribute is reduced by 1 per net effect. No actions using the Attack Rolls can be performed when the Attack Rolls is 0. Lost points are restored after leaving the host, at a rate of 1 point per minute.
+**OS 40 – Convergence:** your last-used hacking device is **bricked**, you suffer **dumpshock**, and your **physical location** is flagged for response.
 
-#### Killer
-- Defense: Host Rating + Firewall
+> **Check OS (Minor):** If you have **Baby Monitor**, you always know OS. Without it, you can ask the system as a Minor, but that requires a **Detection Test**.
 
-Killer IC is the choice of hosts where they don’t want to go for a bunch of fancy tactics and prefer to just leap for the jugular. When Killer IC hits in cybercombat, it does (net hits + host rating) Matrix damage to the target.
+---
 
-#### Marker
-- Defense: Firewall + Sleaze
+### Major Actions (Matrix)
 
-Marker IC is a response to too many backdoors— if hackers are going to start preferring Sleaze options to make and secure backdoors into hosts, then hosts are going to keep hackers from having high Sleaze ratings. In cybercombat, when Marker IC hits, the target’s Sleaze attribute is reduced by 1 per net hit. No actions using the Sleaze rating can be performed when the Sleaze rating is 0. Lost points are restored after leaving the host, at a rate of 1 point/minute.
+> These mirror your combat Major Actions—declare, roll, resolve.
 
-#### Scramble
-- Defense: Host Rating + Firewall
+#### Brute Force (loud login)
 
-Scramble IC doesn’t care how hurt or damaged you are; it just wants you gone. If Scramble IC hits in cybercombat, it forces the target to reboot on the target’s next turn, unless the target is linklocked.
+Kick the door in to gain **User Access**.
 
-#### Sparky
-- Defense: Host Rating + Firewall
+* **Test:** `Hacking + Intelligence` **vs** `Rating + Firewall`.
+* **On hit:** You gain **User** access (read/watch/basic control).
+* **OS:** +1 per **defender’s Effect** (no Detection Test). Triggers IC if present.
 
-Sparky is aggressive IC that wants to bring the damage right to the user, bypassing hardware entirely. If Sparky IC hits in cybercombat, it does (host rating + net hits) in biofeedback damage.
+> **Escalate to Admin:** After gaining User, make another Major test vs `Rating + Firewall + 2`. On hit: **Admin Access** (configure, lock out, purge logs, spawn/kill processes).
 
-#### Tar Baby
-- Defense: Host Rating + Firewall
+#### Probe (quiet login)
 
-Tar Baby is about slowing you down so you can be caught by other IC or you abandon the host in frustration. If Tar Baby hits in cybercombat, it forces link-lock.
+Slip in unnoticed to gain **User Access**.
 
-#### Track
-- Defense: Firewall + Sleaze
+* **Test:** `Hacking + Intelligence` **vs** `Rating + Firewall`.
+* **On hit:** Gain **User** access.
+* **Then:** **Detection Test.** On success, you avoid passive OS this round.
 
-Track IC doesn’t do harm directly—it’s about gathering information in case harm needs to be done later. If it hits in cybercombat, Track IC discovers the target’s physical location.
+> **Escalate to Admin:** As above, but this second test is also **quiet** and requires a **Detection Test**.
 
-### Regular Matrix Actions
-These are used outside Cybercombat. You take 1 action a round.
+#### Matrix Attack (Data Spike / Program Attack)
 
-#### **Brute Force**
+Deal Matrix damage (and maybe biofeedback).
 
-Getting access the loud way.
+* **Attack Test:** `Hacking + Intelligence` **vs** `Rating + Firewall` (or IC’s listed defense).
+* **On hit:** **Matrix DV** = `Attack + Net Effect`. Target reduces DV by **Firewall**; remaining boxes mark **Matrix CM**.
+* **Biofeedback:** If using a program (Blackout/Biofeedback), target also takes **Stun (Blackout)** or **Physical (Biofeedback)** equal to the same DV, resisted by **Willpower**.
+* **OS:** +1 per **defender’s Effect** (no Detection Test).
 
-This is an obvious attack and will trigger an alert. Your OS *will* go up using Attacks. This is used to get into a System. Using Brute Force will trigger Any IC if there is any
+#### Control Device (obvious seize)
 
-`Hacking + Intelligence` vs. `Rating + Firewall` DV = (Attack + Effect) Reduce Damage by Firewall
+Take over a camera, turret, maglock, or drone for a short window.
 
-If attacked by a Host, IC, or Device they roll `Rating + Attack` against your `Hacking + Intelligence` and you will reduce damage by your Firewall. Damage will be applied to your Cyber Deck
+* **Test:** `Hacking + Intelligence` **vs** `Rating + Firewall`.
+* **On hit:** You control it for **Effect + Data Processing** rounds (or until contested). You can issue normal commands.
+* **OS:** +1 per **defender’s Effect** (no Detection Test).
+* **Limits:** You can control up to **Data Processing** devices at once.
 
-#### **Probe**
+#### Snoop (quiet tap)
 
-Getting Access the Quiet Way.
+Read/record a device or node’s traffic.
 
-Used to sneak into systems and not trigger an alert. As long as you are undetected (see Detection Tests) your OS will not go up. This requires a Detection Test.
+* **Test:** `Hacking + Intelligence` **vs** `Rating + Firewall`.
+* **On hit:** You can view/record its traffic while connected.
+* **Then:** **Detection Test.**
 
-`Hacking + Intelligence` vs. `Rating + Firewall` Sleaze + Effect applies to Detection Test
+#### Encrypt / Decrypt File (quiet)
 
-#### **Matrix Search**
+* **Decrypt Test:** `Hacking + Intelligence` **vs** `Encryption Rating`. On hit, you read or remove protection. Then **Detection Test**.
+* **Encrypt Test:** `Hacking + Intelligence` sets **Encryption Rating = Effect + Data Processing\`** on the file.
 
-Search the publicly accessible grid for information. The number of effect generated gives you more information regarding the subject.
+#### Analyze (quiet recon)
 
-`Hacking + Intelligence` vs. `Sleaze + Firewall`
+Learn what you’re poking.
 
-#### **Encrypt/Decrypt File**
+* **Test:** `Electronics + Intelligence` **vs** `Sleaze + Firewall` (device/host).
+* **On hit:** Learn 1 fact per **Net Effect** (Rating, IC present/type, node roles, alarms, etc.).
+* **Then:** **Detection Test.**
 
-Decrypts a file or Encrypts a file on the Host. Usually used after a Matrix Search. This requires a Detection Test.
+#### Spoof Command (quiet one-off)
 
-`Hacking + Intelligence vs. Encryption Rating` Effect + Data Processing will weaken Encryption.
+Impersonate an authorized controller for one command.
 
-`Hacking + Intelligence` to set Encryption Strength with Effect + Data Processing.
+* **Test:** `Hacking + Intelligence` **vs** `Rating + Firewall`.
+* **On hit:** The command executes once.
+* **Then:** **Detection Test.**
 
-#### **Snoop**
+#### Full Defense (Matrix)
 
-This action lets you intercept Matrix traffic sent to and from your target for as long as you have access. You can listen to, view, or read this data live, or you can save it for later playback/viewing if you have something to store it on (your deck or commlink will do). This requires a Detection Test.
+* **Effect:** Until your next turn, add **Willpower** to all **Matrix Defense** tests.
 
-`Hacking + Intelligence vs. Rating + Firewall` Effect + Data Processing applies to Detection Roll
+---
 
+### Minor Actions (Matrix)
 
-#### **Control Device**
+* **Operate Device (Matrix):** Toggle/peek a simple control you already own.
+* **Jack Out:** Log off cleanly (AR), or drop out of VR. If **link-locked**, you can’t Jack Out.
+* **Swap Program:** Load/unload 1 program slot.
+* **Check OS:** As noted above.
 
-You take control of a device (like a camera). You own it as long as you control it. This is an obvious action and will raise your OS in the System. You can control 1 device per Data Processing of your Deck.
+> **Link-Lock:** If you’re link-locked, you cannot **Jack Out** until you break the lock (see IC) or win **Major: Attack (Break Lock)** vs `Rating + Firewall`. Breaking out from VR causes **dumpshock** (below).
 
-`Hacking + Intelligence vs. Rating + Firewall` Effect + Data Processing for how long you will control the device.
+---
 
-#### Analyze
+### Dumpshock
 
-This allows you to Analyze a Node or Device you are wanting information about. Analyze will tell you on a success the Rating, if it has IC. Each Net Effect can tell you a piece of information. This requires a Detection Test.
+If you leave VR without a graceful switch to AR (forced disconnect, Convergence, or Jack Out while link-locked), you take **dumpshock**:
 
-`Electronics + Intuition vs Device Sleaze + Firewall` Sleaze + Effect will tell you a piece of Information.
+* **DV:** 3S (cold-sim) or 3P (hot-sim); resist with **Willpower**.
+* **Aftershock:** You cannot gain **Bonus Effect** or use **Edge** for `(10 – Willpower)` minutes.
 
-#### **Jack Out**
+---
 
-This logs you out and resets your Deck immediately. You will have Dumpshock if you do this during Cybercombat.
+### IC & Alerts (GMs)
 
-#### Check OS Score
+Use **four** simple IC templates. Skin them however you like.
 
-Does not require a roll will tell you what your Current OS score is. This requires a Detection Test.
+All IC use **Host stats** and act as independent combatants. Unless stated, they defend with `R + Firewall` and attack with `R + Attack`.
 
-### Detection Rolls
+* **Striker (Killer/Blaster blend):**
+  On hit: deal `R + Net Effect` **Matrix** damage.
 
-This works a lot a like resisting, Drain does for an Awakened Character. You need to roll to avoid Detection if you fail your OS goes up. Any action you take (except Attack because it guarantees OS will go up) you roll to avoid Detection.
+* **Debuffer (Acid/Binder/Marker):**
+  On hit: choose **Firewall, Data Processing, or Sleaze**; reduce that stat by **Net Effect** (to minimum 0) until the intruder leaves the host (recovers at **1 per minute**).
 
-`Hacking + Intelligence` vs. `Rating + your current OS` failure means you take the Net Effect to your OS
+* **Control (Tar/Scramble):**
+  On hit: apply **Link-Lock**. If the same target is hit again while link-locked, they must **Reboot** on their next turn unless they break the lock.
 
-Once OS reaches 40 they are detected and Dumped out of the Matrix and their Deck is Bricked. 
+* **Black:**
+  On hit: deal `R + Net Effect` **Biofeedback (Physical)** **and** `R` **Matrix** damage.
 
-### Programs
-Your Cyberdeck can hold a number of programs up to its Capacity. 
+**Alert ladder (when to deploy IC)**
 
-#### Encryption Suite
-+2 when doing Encrypt/Decrypt File action.
+* **OS ≥ 10 (Alert):** Spawn **1 IC** (GM choice) on the intruder’s node.
+* **OS ≥ 20 (Alarm):** Spawn **+1 IC**; **Control** attempts Link-Lock priority targets.
+* **OS ≥ 30 (Lockdown):** Spawn **+1 IC**; **Black** may deploy.
+* **OS ≥ 40 (Convergence):** As written—brick, dump, ping location.
 
-#### Signal Scrubber
+> **Simple pacing alternative:** If you don’t want to track OS for a quick scene, spawn 1 IC the first time the decker uses **Brute Force** or **Matrix Attack**, 1 more if they do it again, and a **Black** IC if they keep pushing.
 
-Reduce noise level by 2.
+---
 
-#### Exploit
+### Noise (Interference)
 
-Reduce Defense of hacking target by 2.
+Apply **–1** per point of **Noise** to all Matrix tests. If Noise exceeds the device’s Rating, it cannot connect wirelessly. **Direct cable** = Noise 0.
 
-#### Armor
+Common sources: distance, dense walls/earth, water, jammers, spam zones. (Use the table from Equipment as-is.)
 
-+2 to Defense
+---
 
-#### Baby Monitor
+### Programs (quick list)
 
-Tells you your current Overwatch Score without needing an action.
+Your deck can run up to its **Active Program Slots**. Unless noted, effects are passive.
 
-#### Browse
+* **Stealth:** +2 on **Detection Tests**.
+* **Exploit:** –2 to target’s **Defense** vs **your next** hacking action (declare first).
+* **Armor:** +2 to your **Matrix Defense**.
+* **Browse:** On **Matrix Search**, gain **+1 Bonus Effect** (use now or lose).
+* **Signal Scrubber:** –2 **Noise** (min 0).
+* **Toolbox:** +1 **Data Processing**.
+* **Virtual Machine:** +2 program slots; when you take Matrix damage, add **+1 unresisted**.
+* **Blackout:** Your Matrix Attacks also deal **Stun** (biofeedback).
+* **Biofeedback:** Your Matrix Attacks also deal **Physical** (biofeedback).
+* **Overclock (Action):** Spend a slot to add **+2 Bonus Effect** to **one** Matrix action (declare first).
+* **Baby Monitor:** Always know your **OS** (no action).
+* **Rabbit:** Once per reboot, **reduce OS by 5** (Minor to trigger).
 
-When doing Matrix searches, gain 1 Bonus Effect that is either spent immediately on that action or disappears.
+---
 
-#### Toolbox
+### Access Levels (what you get)
 
-+1 to Data Processing.
+* **User:** read files, watch feeds, operate standard controls (open/close).
+* **Admin:** reconfigure systems, lock out users, purge logs, spawn/kill processes, retask devices.
 
-#### Virtual Machine
+> **GM tip:** If stakes are high, require a second Major test (User → Admin) at `Rating + Firewall + 2`. Otherwise, grant Admin when fiction warrants (stolen creds, inside line, or great setup).
 
-2 extra program slots; take 1 extra box of unresisted Matrix damage when attacked.
+---
 
-#### Biofeedback
+### Example: “Open the Door and Kill the Cameras”
 
-Causes Physical damage with Matrix attack. This program is linked to the Attack attribute.
+**Scene:** The team is sprinting down a corridor. The decker is in **AR**.
 
-#### Biofeedback Filter
+1. **Probe (quiet)** the security host: `Hacking + Intelligence` vs `R + Firewall` → **hit** (User).
+   **Detection Test** succeeds → **no OS** this round.
 
-Allows a Defense Roll for Matrix Damage 
+2. **Analyze (quiet)** the node: `Electronics + Intelligence` vs `Sleaze + Firewall` → **2 Net Effect**.
+   Learns: “2 IC loaded, cameras on node CAM-3.” **Detection Test** fails by 1 → **OS +1**.
 
-#### Blackout
+3. **Control Device (obvious)** on CAM-3 to **loop feed**: `Hacking + Intelligence` vs `R + Firewall` → **hit**, loop for `Effect + DP` rounds.
+   Defender rolled **3 Effect** → **OS +3** (total **4**). GM spawns **1 IC (Striker)** at OS 10 later if they keep pushing.
 
-Like Biofeedback, but Stun damage only. This program is linked to the Attack attribute.
+4. **Spoof Command (quiet)** to **unlock door**, pretending to be the front desk: test hits.
+   **Detection Test** succeeds → **no OS** this round.
 
-#### Overclock (Action)
+The door opens, cameras loop, IC hasn’t arrived yet, and the team keeps moving. No subgame. One page of rolls.
 
-Add two Bonus Effect to a Matrix action, need a program for each Action affected.
+---
 
-#### Stealth 
+### GM Guidance
 
-+2 On Detection Tests
+* **Say yes when fiction is enough.** If players have good credentials or perfect setup, grant **User/Admin** without a test—or roll once and keep moving.
+* **Use OS as pacing, not punishment.** Every “push” (loud action, lingering, cybercombat) moves the scene toward a climax (IC, then Black, then Convergence).
+* **IC as monsters.** Pick 1–2 IC types that fit the scene’s vibe. Call their riders simply: **hit = damage**, **hit = debuff**, **hit = lock**, **hit = pain**.
+* **One number per intruder.** Track **OS** and nothing else. That’s your clock.
+* **Mirror meatspace.** When the team is stealthy, let the decker be stealthy. When it’s loud, let the Matrix get loud too—and end decisively.
 
-#### Rabbit
-
-Lowers OS by 5 can only be used once and then it has to be reloaded after a Restart. 
-
-### Cybercombat
-
-What happens when you are dected? Maybe you did a Brute Force and smacked into an IC, maybe you failed a Detection Roll and the defensive systems decided to come find you. You move to Cybercombat.
-
-#### Cybercombat Actions
-
-Player Attack:
-
-Player Defense:
-
-Host Attack: 
-
-Host Defense: Varies by IC
-
-#### Major Actions
-
-##### Attack
-
-#### Minor Actions
-
-##### Jack Out!
-
-#### 1. Grab your dice
-
-#### 2. Roll Initiative
-
-Player Rolls `Reaction + Intuition + 1D6`
-
-Host Rolls: `(Data Processing x 2) + Ability Dice Code`
-
-#### 3. Declare Actions
-
-You get 1 Major Action and 1 Minor Action per D6 on the initiative
-
-#### 4. Distribute Bonus Effect
-
-#### 5. 
+## Chapter 11: Rigging
