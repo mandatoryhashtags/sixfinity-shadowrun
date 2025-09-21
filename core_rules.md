@@ -1,20 +1,20 @@
-# The Sixfinity Integrated Roleplaying Engine
+# The Twelvefold Integrated Roleplaying Engine
 
 SIRE. 
 
-Sixfinity has multiple settings created for it, you can create any world you can imagine with this system. 
+Twelvefold has multiple settings created for it, you can create any world you can imagine with this system. 
 
-- Sixfinity: Starstriders - An Intergalactic Setting in the far future
-- Sixfinity: Chromestriders - A Cyberpunk Setting
-- Sixfinity: Veilstriders - An Urban Fantasy Setting
-- Sixfinity: Dungeonstriders - A fantasy setting
+- Twelvefold: Starstriders - An Intergalactic Setting in the far future
+- Twelvefold: Chromestriders - A Cyberpunk Setting
+- Twelvefold: Veilstriders - An Urban Fantasy Setting
+- Twelvefold: Dungeonstriders - A fantasy setting
 
-> I was handed a challenge with the Sixfinity System. *Convert Shadowrun to Sixfinity* This text represents that attempt. 
+> I was handed a challenge with the Twelvefold System. *Convert Shadowrun to Twelvefold* This text represents that attempt. 
 
 Final Order of Chapters
 
     Introduction
-    What is Sixfinity
+    What is Twelvefold
     Shadowrun Setting
 
 Ch1. Step by Step Characters
@@ -27,7 +27,7 @@ Ch4. Equipment
 
 Ch5. Skills
 
-Ch6. Sixfinity Rules
+Ch6. Twelvefold Rules
 
 Ch7. Combat
 
@@ -42,9 +42,12 @@ Ch11. Seattle 2075
 
 ## Version
 
-V.08
+V.09
 
 ### Changelog
+
+#### V0.9
+- Switched to 1D12 and renamed to Twelvefold
 
 #### V0.8
 - Began using 2nd Edition Shadowrun for Conversion.
@@ -66,7 +69,7 @@ V.08
 - Threshold Steps
 
 #### V0.6
-- Began converting Shadowrun to Sixfinity
+- Began converting Shadowrun to Twelvefold
 - Thanks to Elsie (my wife) we instituted the Effect Dice.
 - Porting Shadowrun Equipment
 - Ported Partial COmbat over
@@ -118,7 +121,7 @@ V.08
 
 SIRE is a Ability Dice Code TTRPG system created by CJ Schrum to be a generic system used to play any kind of TTRPG. It was influenced by his near thirty years of table top games in nearly every ruleset created. 
 
-> I used to play FATE I liked a lot of things about FATE, I hated FATE dice mechanics. I played a lot of Cepheus, Traveller, Decipher Star Trek, ModernAGE, West End Games Star Wars, and Sixfinity so lets say I have a lot of experience with D6 in my hands. So I set out to create a fairly generic style RPG using Ability Dice Code (I like the curve better than the standard distribution of 2D6). Allowing for Advanatage Roll Ability Dice Code twice take highest, and Disadvantage Roll Ability Dice Code twice take the lowest. They also have Edge Points they can spend.
+> I used to play FATE I liked a lot of things about FATE, I hated FATE dice mechanics. I played a lot of Cepheus, Traveller, Decipher Star Trek, ModernAGE, West End Games Star Wars, and Twelvefold so lets say I have a lot of experience with D6 in my hands. So I set out to create a fairly generic style RPG using Ability Dice Code (I like the curve better than the standard distribution of 2D6). Allowing for Advanatage Roll Ability Dice Code twice take highest, and Disadvantage Roll Ability Dice Code twice take the lowest. They also have Edge Points they can spend.
 > Combat is meant to be cinematic in style with a tactical flavor. Characters have Physical Health.
 
 
@@ -252,9 +255,7 @@ SIRE is a Ability Dice Code TTRPG system created by CJ Schrum to be a generic sy
 {{Write a Definition}}
 
 ### Attributes
-Each Attribute has a Die code (1D, 1D+1, 4D, 9D+2 or some other number). Reading a die code is simple. Roll the number of six-sided dice before the "D". For example 3D means roll three dice and add them together for the total. The higher the total the more likely you are to succeed. A die code with a "+" means add the number after the plus to the total. Ability Dice Code+2 you would roll three dice, then add two to the total. For example if you rolled a 3, 5, 1 the total would be: 3+5+1+2 for a total of 11. Die codes will have either a simple D (1D, 2D, 3D, etc). Die codes will never have more than a +2 after them, as when a character improves that Die Code it goes to the next whole number of dice. For example if you improve Ability Dice Code+2 it will become 4D6. The only limit to how high a Die code for attributes can go is the Metatype Attribute maximum.
-
-This sysem is used for skills (see skills) as it will limit your skill rolls to the potential available to your attribute.
+Each attribute ranges 1-6 (for Humans) but can go higher for other Metatypes. You get a modifier to your dice rolls equal to half, rounded down, of your attribute. 
 
 
 There are six attributes and four special attributes.
@@ -272,7 +273,7 @@ This represents the general sturdiness, integrity, and health of the individual.
 
 **Quickness**
 
-Quickness represents fine motor control—manual dexterity, flexibility, balance, and coordination. A character with a low Quickness may be someone with an inner-ear problem, one leg that is shorter than the other, or a simple klutz. Higher Quickness ratings may belong to charac- ters that are “natural” athletes.
+Quickness represents fine motor control—manual Quickness, flexibility, balance, and coordination. A character with a low Quickness may be someone with an inner-ear problem, one leg that is shorter than the other, or a simple klutz. Higher Quickness ratings may belong to charac- ters that are “natural” athletes.
 
 **Strength**
 
@@ -301,21 +302,17 @@ pressure is on.
 
 **Special Attributes**
 
-Please note Resonance is not used in Sixfinity if it is referenced ignore it.
+Please note Resonance is not used in Twelvefold if it is referenced ignore it.
 
 **Magic**
 
 Not all characters have this attribute; it is only for magic-using characters, who are generally referred to as Awakened characters. It measures their strength in channeling mana into spectacular effects.
 
-**Edge**
-
-This critical statistic measures the undefinable, putting it on tricky ground right at the outset. It is that combination of guts, risk, and heedless ignorance of danger and good sense that lets shadowrunners survive where others do not. Edge is detailed and important enough to have its own section
-
 **Reaction**
 
-A character’s Reaction is, quite simply, her physical reflexes—how quickly she can react to a changing situation, and how well she can dodge the physical slings and arrows that shadowrunning brings. A character with a high Reaction is more likely to be on top of a situation and will be in a better position to react to danger, while low-Reaction characters will lag behind.
+A character’s Reaction is, quite simply, her physical reflexes—how quickly she can react to a changing situation, and how well she can dodge the physical slings and arrows that shadowrunning brings. A character with a high Reaction is more likely to be on top of a situation and will be in a better position to react to danger, while low-Reaction characters will lag behind. 
 
-Reaction = (Quickness Dice Code + Intelligence Dice Code)
+Reaction = (Quickness + Intelligence) /2 Rounded down. E.g., Quickness 6 and Intelligence 2 → Reaction 4.
 
 **Essence**
 
@@ -327,7 +324,7 @@ All characters have this attribute, starting at 6. It is a measure of how many a
 
 ### Priority System
 
-In Sixfinity character generation is based on the Priority System. The Priority System is a table with the following columns: Metatype, Attributes, Magic, Skills, and Resources. The rows are divided into Priority Levels ranging from Priority A to Priority E. Players assign a specific Priority Level for each of the columns to their character depending on their preferences. The values assigned must be different for each column (representing each aspect of the character), and there can be no duplications. For example, a character may not have Priority Level B for Magic and Priority B for Resources. The higher the Priority Level (A, B, etc.), the more valuable it is for the character. Characters use Experience later on to customize their characters even further.
+In Twelvefold character generation is based on the Priority System. The Priority System is a table with the following columns: Metatype, Attributes, Magic, Skills, and Resources. The rows are divided into Priority Levels ranging from Priority A to Priority E. Players assign a specific Priority Level for each of the columns to their character depending on their preferences. The values assigned must be different for each column (representing each aspect of the character), and there can be no duplications. For example, a character may not have Priority Level B for Magic and Priority B for Resources. The higher the Priority Level (A, B, etc.), the more valuable it is for the character. Characters use Experience later on to customize their characters even further.
 
 
 Regardless of Priority all starting characters get 25 Experience to spend on their character to flesh them out, make then unique.
@@ -335,24 +332,24 @@ Regardless of Priority all starting characters get 25 Experience to spend on the
 **Priority System Table**
 
 
-| Priority | Heritage | Attribute Points | Magic (3D6)        | Skills | Resources |
-| -------- | -------- | ---------------- | ------------------ | ------ | --------- |
-| A        | Troll    | 20               | Magic:6, 10 Spells | 38     | 450k      |
-| B        | Orc      | 18               | Magic:4, 7 Spells  | 30     | 275k      |
-| C        | Dwarf    | 16               | Magic:3, 5 Spells  | 24     | 140k      |
-| D        | Elf      | 14               | Magic:2            | 20     | 50k       |
-| E        | Human    | 12               | -                  | 18     | 6k        |
+| Priority | Metatype  | Attribute Points | Magic: starting rating & spells | Skills | Resources |
+| -------- | --------- | ---------------- | ------------------------------- | ------ | --------- |
+| A        | Metahuman | 27               | Magic:6, 10 Spells              | 40     | 450k      |
+| B        | Human 3   | 24               | Magic:4, 7 Spells               | 30     | 275k      |
+| C        | Human 2   | 20               | Magic:3, 5 Spells               | 24     | 140k      |
+| D        | Human 1   | 17               | Magic:2                         | 20     | 50k       |
+| E        | Human 0   | 15               | -                               | 17     | 6k        |
 
 **Metatype Attribute Starting and Maximum Values**
+B, C, E, A, D
 
-
-| METATYPE | BODY      | QUICKNESS | STRENGTH    | WILLPOWER | INTELLIGENCE | CHARISMA    | REACTION | SPECIAL FEATURES                        |
-| -------- | --------- | --------- | ----------- | --------- | ------------ | ----------- | -------- | --------------------------------------- |
-| Human    | 1D6/2D6+2 | 1D6/2D6+2 | 1D6/2D6+2   | 1D6/2D6+2 | 1D6/2D6+2    | 1D6/2D6+2   | 0/6      |                                         |
-| Elf      | 1D6/2D6+2 | 1D6+1/3D6 | 1D6/2D6+2   | 1D6/2D6+2 | 1D6/2D6+2    | 1D6+2/3D6+1 | 0/6      | Low-Light Vision                        |
-| Dwarf    | 1D6+1/3D6 | 1D6/2D6+2 | 1D6+2/3D6+1 | 1D6+1/3D6 | 1D6/2D6+2    | 1D6/2D6+2   | 0/5      | Thermographic Vision, Resist:Disease +2 |
-| Orc      | 2D6/3D6+2 | 1D6/2D6+2 | 1D6+2/3D6+1 | 1D6/2D6+2 | 1D6/2D6+1    | 1D6/2D6+1   | 0/5      | Low-Light Vision                        |
-| Troll    | 2D6+2/4D6 | 1D6/2D6+1 | 2D6+1/4D6   | 1D6/2D6+1 | 1D6/2D6      | 1D6/2D6     | 0/4      | Thermographic Vision, +1 Armor          |
+| METATYPE | BODY | QUICKNESS | STRENGTH | WILLPOWER | INTELLIGENCE | CHARISMA | REACTION | SPECIAL FEATURES                        |
+| -------- | ---- | --------- | -------- | --------- | ------------ | -------- | -------- | --------------------------------------- |
+| Human    | 1/6  | 1/6       | 1/6      | 1/6       | 1/6          | 1/6      | 0/6      |                                         |
+| Elf      | 1/6  | 2/7       | 1/6      | 1/6       | 1/6          | 3/8      | 0/6      | Low-Light Vision                        |
+| Dwarf    | 2/7  | 1/6       | 3/8      | 2/7       | 1/6          | 1/6      | 0/5      | Thermographic Vision, Resist:Disease +2 |
+| Orc      | 5/9  | 1/6       | 3/8      | 1/6       | 1/5          | 1/5      | 0/5      | Low-Light Vision                        |
+| Troll    | 5/10 | 1/5       | 5/10     | 1/5       | 1/4          | 1/4      | 0/4      | Thermographic Vision, +1 Armor          |
 
 
 **Step One**
@@ -361,9 +358,9 @@ Pick a Concept for your character
 
 **Step Two**
 
-Pick Metatype Priority. Pick Attribute Priority and Spend the points. Each Dice Code Pip costs 1 point.
+The four levels of Human. Human 0 gets no benefit, Human 1, 2, 3 all get the number as additional Attribute points to spend. So a Human 3 (Priority B) who chose Priority A for their Attributes would have 30 Attribute points to Spend. 
 
-For example going from 1D6 to 1D6+1 cost 1. To take a 1D6 to 2D6+2 would cost 5 (1 - 1D6+1, 2 - 1D6+2, 3 - 2D6, 4 - 2D6+1, 5 - 2D6+2)
+Pick Metatype Priority. Pick Attribute Priority and Spend the points. 1 point cost 1 point. Record your Score and the modifier. Your modifier is equal to half your Attribute rounded down.
 
 **Step Three**
 
@@ -371,21 +368,17 @@ Choose Magic.
 
 **Step Four**
 
-Buy Edges and Flaws. Limit 25 XP worth of Edges and 25 Bonus XP worth of Flaws
+Pick Skills Priority and spend Skill Points the maximum starting skill for any Skill is 6.
 
 **Step Five**
 
-Pick Skills Priority and spend Skill Points
+Pick Resources Priority and purchase starting gear
 
 **Step Six**
 
-Pick Resources Priority and purchase starting gear
-
-**Step Seven**
-
 Spend leftover Experience
 
-**Step Nine**
+**Step Seven**
 
 Final Touches and Derived Stats.
 
@@ -394,26 +387,24 @@ Final Touches and Derived Stats.
 #### Defense
 We use Opposed Tests for Defense. 
 
-Attacker: `Attack Attribute dice + Skill`, Effect die drives Net Effect → damage add.
+Dodge Attack: `1D12 + Reaction`
 
-Defender: `Body Dice Code ND6 + Reaction`
-
-Winner by total; ties to attacker.
+If you beat the target's Step Difficulty they miss.
 
 #### Physical Health
 
-Physical Health = ((8 * Body dice) + pips) * 2
+Physical Health = 8 + Body
 
 
-If you had a Body of 2D6 you you would have 32 Health. You add the Pips after the fact.
+If you had a Body of 4 you you would have 12 Health.
 
-If yo uhad 2D6 +2 you would have 36 Health. (8*2) = (16 + 2) * 2 = 36
+If you had Body 6 you would have 14 Health.
 
 Once you reach 0 health you are Unconscious and begin bleeding to death. You can bleed until you max your Overflow and then you are dead.
 
 #### Stun Health
 
-Stun Health = ((8 * Willpower dice) + pips) * 2
+Stun Health = 8 + Willpower
 
 This is where Stun Damage is recorded. If it reaches 0 you fall Unconscious and any further damage begins to affect Physical.
 
@@ -421,9 +412,9 @@ This is where Stun Damage is recorded. If it reaches 0 you fall Unconscious and 
 
 This is how far into the Negatives you can go before you die. 
 
-Overflow = (4 * Body Dice) + pips
+Overflow = (2 × Body dice)
 
-If you had a Body of 2D6 you would have an Overflow of 8
+If you had a Body of 5 you would have an Overflow of 10
 
 #### Movement
 
@@ -431,15 +422,15 @@ Base movement for any character is 10 Yards.
 
 #### Initiative
 
-Initiative is used to determine who goes first in combat. Add your Reaction for your base, then write how many Initiative Dice you have. You start with a default of 1; this may be increased by augmentations. It looks like this when written: 9 + 1D6
+Initiative is used to determine who goes first in combat. Add your Reaction for your base, then write how many Initiative Dice you have. You start with a default of 1; this may be increased by augmentations. It looks like this when written: 9 + 1D12
 
-Initiative = Reaction + 1d6 (+Xd6 from gear)
+Initiative = Reaction + 1D12 (+XD12 from gear)
 
 #### Edge Pool
 
-Edge Pool = [((Quickness Dice Code + Intelligence Dice Code + Willpower Dice Code) + Pips) / 2] Round down. 
+Edge Pool = [((Quickness + Intelligence + Willpower)) / 2] Round down. 
 
-So if you had a Quickness od 1D6 +2, Intelligence of 2D6, and Willpower of 2D6+2, you would have a Edge Pool of 6 =  (1+2+2) + 3
+So if you had a Quickness of 3, Intelligence of 5, and Willpower of 6, you would have a Edge Pool of 7
 
 
 ### Character Advancement
@@ -448,18 +439,61 @@ In this game you spend your experience you gain at the end of the sessions to in
 
 Raising attributes is based on what the modifier not the base score. So to increase your Strength that is +3 to +4
 
-| Desired Effect                               | XP Cost         |
-| -------------------------------------------- | --------------- |
-| Raise a Physical/Mental/Magic/Edge attribute | Next rating X 5 |
-| Raise an active skill                        | New Rating X 2  |
-| Raise a Knowledge/Language Skill             | New Rating      |
-| New Knowledge/Language Skill                 | 2               |
-| New Specialization                           | 2               |
-| New Active Skill                             | 4               |
-| Buy or Remove and Quality                    | XP Cost X 2     |
-| New Spell                                    | 5               |
+| Desired Effect                   | XP Cost         |
+| -------------------------------- | --------------- |
+| Raise a Physical/Mental/Magic    | Next rating X 5 |
+| Raise an active skill            | New Rating X 2  |
+| Raise a Knowledge/Language Skill | New Rating      |
+| New Knowledge/Language Skill     | 2               |
+| New Active Skill                 | 4               |
+| Buy or Remove and Quality        | XP Cost X 2     |
+| New Spell                        | 5               |
 
+### Example Character
 
+Titus The Bodyguard
+
+Attributes:
+- Body: 6 +3 (8 +4)
+- Quickness: 6 +3
+- Strength: 5 +2
+- Charisma: 3 +1
+- Intelligence: 5 +2
+- Willpower: 5 +2
+- Essence: 1
+- Reaction: 5 (9 +4 Wired Reflexes)
+- Initiative: 9 + 1D12
+- Physical Health: 16
+- Stun Health: 13 
+- Overflow: 16
+- Edge Pool: 8
+- Defense: 8
+
+Skills:
+- Drive 6
+- Firearms 6
+- Negotiation 4
+- Stealth 2
+- Unarmed Combat 6
+
+Cyberware:
+- Air Filtration: 5
+- Dermal Plating: 3 (+3 Defense)
+- Smartlink
+- Wired Reflexes 2
+- Bone Lacing (Aluminium) (+2 Body, +1 Defense)
+
+Gear:
+- (3) Spare Clips
+- Ares Predator VI with Smartlink 50 rounds of exploding ammo DV: 4P
+- Concealed Holster
+- DocWagon Contract (Gold)
+- High Lifestyle (2 months)
+- Lined Cost (4 Defense)
+- Pocket Secretary
+- Portable Phone
+- Tres Chic Clothing
+- Cash: 11,474¥
 
 ## Chapter 2: Metatype
 
@@ -527,32 +561,54 @@ can be reached out to in times of need.
 
 ## Chapter 4: Rules
 
-The rules center around rolling three six sided dice. One of those dice **must** be of a different color this dice is called the "The Effect Dice" this dice will add drama, excitement, and moments of unpredictability in the game. 
+The rules center around rolling a series of six sided dice which are determined by the attribute associated with the test you will be doing. One of those dice **must** be of a different color this dice is called the "The Effect Dice" this dice will add drama, excitement, and moments of unpredictability in the game. 
 
 ### How does it work?
 
 Nearly everything is a TEST or CHECK. 
 
-Roll your Attribute dice code (Nd6) + Skill. Designate one die as the Effect die. Total must meet or beat the Threshold. The Effect die drives degree of success; extra Effect dice may be added by spending Edge.
+Roll 1d12 + Attribute Modifier + Skill. Total must meet or beat the Threshold.
+
+#### This is how you play Twelvefold
+
+ Please note in standard Twelvefold the rules are somewhat different, this adaptation of Shadowrun has a few unusual rules written just for the system but the basic ideas are all the same. 
+
+1. The character tells the GM what they want to do. This is a character action.
+2. The GM determines if that action is routine, and therefore works without needing a roll, or if there's a chance of failure.
+3. If there's a chance of failure, the GM determines which attribute the task uses and the task's difficulty. How hard it will be on a scale of 1, really easy, to 10, basically impossible.
+4. The player and the GM determine the skill applicable to the test, as well as any special features, qualifications, circumstances that might change the step of the test.
+5. Finally, the player decides if they wish to spend any edge to change the test Step.
+6. If the action still isn't routine, the GM uses the difficulty to determine the target number, the threshold, which is how high the player must roll to succeed at the action. The GM doesn't have to tell the player what the threshold is, but they can give the player a hint, especially if the character would reasonably know if the action was easy, average, difficult, or impossible.
+7. The player rolls the 1D12 add their skill and attribute modifier. If they roll equal to or higher than the threshold, the character succeeds.
+8. If they succeeded, the dice will determine how much effect they had.
+
+That's it. That's how to do anything, whether it's identifying an unknown device, calming a raging drunk, climbing a treacherous cliff, or battling a beast. Even if you ignored all the other rules, you could still play the Twelvefold engine with just this information. The key features here are character actions, determining a task difficulty, and determining modifications.
+
+One key component of Twelvefold is that the player rolls all the dice. In the Twelvefold engine, players always drive the action. This means they make all the die rolls. If a PC leaps out of a moving vehicle, the player rolls to see if they succeed. If a PC searches for a hidden panel, the player rolls to determine whether or not they find it. If a rock slide falls on a PC, the player rolls to try to get out of the way. If a PC and an NPC arm wrestle, the player rolls and the NPC's difficulty determines the target number or the threshold. If a PC attacks a foe, the player rolls to see if they hit. If the foe attacks the PC, the player rolls to see if they dodge the blow.
 
 ### Thresholds
-A Threshold is the minimum number needed to succeed at a task. Threshold Step is used very often in these rules. A threshold step is used instead of giving the Threshold Target (or TN in other games) to allow the Gamemaster to alter the Targets as they see fit for their game without needing to alter the writing in the rules to maintein balance.
+Everything in Twelvefold revolves around tests. Tests revolve around Steps and Steps have Thresholds. A Threshold is minimum number that must be rolled on 1D12 in order to reach that step. 
 
-For example if a character needs a `Biotech + Intelligence (2) test` in Sixfinity Standard rules they need to roll *at least* a 9 on ND6. If a GM decided they wanted that to be a 10 they do not need to change anything just tell the character they succeeded or failed without having to make any adjustments to the rules. This is the same as using the word Simple but the Step makes it easier to explain to a player. This is inspired by a number of 80's games like Traveller, Gamma World, Shadowrun 1e where the target number on dice could change. This allows for some GM's who want to, to easily swap to a D20 and use 5/10/15/20/25 for their TN's and go looking for Dragons in Dungeons if they want.
+The goal of every player should be to reduce the Steps by as much as possible. If something says it gives a +2 or a -2 in the game it means to the Step. Skills are added to the roll in order to see if you succeed. But rahter than have the players fiddle around with adding a lot of extra stuff in the game to their rolls they only ever need to care about the total they rolled, the number on their effect dice. The Gamemaster (GM) will reduce or increase the Step of a test based on a lot of exterior factors. 
 
-If you are assining a test and the only thing that matters is their Effect on the roll feel free to make it a Step 1 test. 
+Trying to convince someon that you are supposed to be in that Megacorporation hallway, and you have on the right ID badges that would reduce the Step by 1 (commonly called an Advantage) are you carrying a Rocket launcher with you well that would increase the Step by 1 (commonly called a Disadvantage).
 
-| Difficulty        | Step | Threshold Target |
-| ----------------- | ---- | ---------------- |
-| Easy              | 1    | 3                |
-| Simple            | 2    | 6                |
-| Rotuine           | 3    | 9                |
-| Average           | 4    | 12               |
-| Challenging       | 5    | 15               |
-| Difficult         | 6-7  | 18               |
-| Hard              | 8    | 24               |
-| Very Hard         | 9    | 27               |
-| Nearly Impossible | 10+  | 30+              |
+
+| Step | Difficulty   | Threshold | Guidance                                                                             |
+| ---- | ------------ | --------- | ------------------------------------------------------------------------------------ |
+| 0    | Routine      | 0         | Anyone can do this basically every time. Roll for Effect.                            |
+| 1    | Simple       | 3         | Most people can do this most of the time                                             |
+| 2    | Standard     | 6         | Typical task requiring focus but most people can usually do this                     |
+| 3    | Demanding    | 9         | Requires full attention; most people have a 50/50 chance to succeed                  |
+| 4    | Difficult    | 12        | Trained People have a 50/50 chance to succeed                                        |
+| 5    | Challenging  | 15        | Even trained people often fail                                                       |
+| 6    | Intimidating | 18        | Normal people almost never succeed                                                   |
+| 7    | Formidable   | 21        | Impossible without skills or great effort                                            |
+| 8    | Heroic       | 24        | A task worthy of tales told for years afterward                                      |
+| 9    | Immortal     | 27        | A task worthy of legends that last lifetimes                                         |
+| 10   | Impossible   | 30        | A task a even a metahuman couldn't consider but it doesn't break the laws of physics |
+
+Unless a rule explicitly says otherwise, situational modifiers change the Step (±1 per grade).
 
 #### Glitching
 
@@ -562,38 +618,40 @@ A Glitch occurs if ≥ half the dice (rounded up) show 1s, and you still succeed
 
 
 ### Effect
-Effect is the most important part of the Sixfinity Engine. Effect determines how well things went or not. It is used throughout the rules and makes a lot of mechanics function. Additionally, it makes the Gamemasters life a lot easier as they can evaluate Effect in many cases.
+Effect is the most important part of the Twelvefold Engine. Effect determines how well things went or not. It is used throughout the rules and makes a lot of mechanics function. Additionally, it makes the Gamemasters life a lot easier as they can evaluate Effect in many cases.
 
 #### Net Effect
 
 Net Effect is calculated after a roll. It will always be the difference in two effect totals.
 
-If it is needed in a Success Test the GM rolls and Effect Dice. You compare your Effect Dice (total if you got more than one) with the Effect Dice of the GM. Subtract the lesser from the greater and the net result is the Net Effect. Minimum 1.
+The GM knows the Effect (Step Difficulty / 2 rounded up) You compare your Effect Dice with the Effect of the GM. Subtract the lesser from the greater and the net result is the Net Effect. Minimum 1. The winner gets Net Effect.
 
-In an opposed test you compare the Effect Dice of both sides. Subtract the lesser dice number from the greater dice(s) number and the net result is the Net Effect which goes to whoever won. Minimum 1.
+#### Bonus Effect
+
+Bonus Effect adds directly to your Effect total on a success; it is not an extra die.
+
+#### Roll For Effect
+
+When the GM says: "Roll For Effect" those are usually the best words to hear in the game. It means you have pushed the Step down to Step 0 meaning you succeed automatically you just need to know how much Effect you had. A great number of things in the game require no roll at all, and most of the time you do not need to know what your Effect is but sometimes you do. In those cases get your favorite six sided dice, and Roll for Effect.
 
 ### Advantage and Disadvantage
 If used in text or a GM can use as shorthand.
 
-Advantage: You get a free Edge Dice for this test.
+Advantage: Decrease the Step by 1.
 
-Disadvantage: You cannot spend Edge on this Test.
+Disadvantage: Increase the Step by 1.
 
 
 ### Success Tests
-In a Simple test, you roll `Attribute Dice Code ND6 + Skill`, and see if you meet total or beat a Threshold established by the gamemaster. The gamemaster establishes the Threshold based on the Threshold Guidelines and suggestions and guidelines established within the rules. If the the total is equal to or greater than the threshold, the action succeeds; in some occasions, the number of effect (the number on the Effect Dice) comes into play.
+In a Simple test, you roll `1d12 + Attribute Modifier + Skill`, and see if you meet total or beat a Threshold established by the gamemaster. The gamemaster establishes the Threshold based on the Threshold Guidelines and suggestions and guidelines established within the rules. If the the total is equal to or greater than the threshold, the action succeeds; in some occasions, the number of effect (the number on the Effect Dice) comes into play.
 
-Written as `Attribute Dice Code ND6 + Skill (Threshold Step)`
+Written as `1d12 + Attribute Modifier + Skill (Threshold Step)`
 
 Such as `Quickness + Firearms (2)` If you had a Quickness of 2d6 you would roll `2d6 + Firearms skill`
 
 This is a very important thing to understand - these are written as THRESHOLD STEP. This allows the Gamemaster to alter the actual dice Thresholds as they see fit without changing how a test works.
 
-### Opposed Tests
-
-In an Opposed test, another character, object, device, or entity is actively (or passively) resisting your efforts, so you must exceed their effort to succeed. In an Opposed test, two parties roll their dice and compare the number to the totals. The one with the highest total wins. Ties typically go to the aggressor, though this may change if net effect are required to make a given effect. The difference between the higher number of effect and the lower number of effect are the net effect in these tests, and they are often applied to the action in some way— for example, in combat, net effect from the attacker are added to the Damage Value of their attack.
-
-Written as `Attribute Dice Code ND6 + Skill vs. Opposed Attribute Dice Code ND6 + Skill` These are rolled for higher roll. Then calculate Net Effect which will go to the winner.
+NPCs and hazards are rated; players always roll vs. a Step (GM sets Step by Rating + situation). Net Effect comes from comparing your Effect to the GM Effect = ceil(Step/2).
 
 ### Extended Tests
 
@@ -609,19 +667,19 @@ The gamemaster decides when an attribute-only test is called for and what attrib
 
 ### Edge
 
-Edge is a character’s luck, the favor of the gods, that unexplainable factor that allows her to beat the odds.
+Edge is a character’s luck, the favor of the gods, that unexplainable factor that allows her to beat the odds. Spending Edge reduces the Step of a test making it easier to accomplish. 
 
 Edge Pool = [((Quickness Dice Code + Intelligence Dice Code + Willpower Dice Code) + Pips) / 2] Round down.
 
-Spend (before roll): +1 Effect die per Edge spent (max = Skill rating).
+Spend (before roll): Reduce the Step by 1 per point spent (max = Skill rating).
 
 Refresh: Full on Long Rest; +1 when Effect die = 6 (1/roll), or GM award.
 
 So with a Quickness 5, Intelligence 3 and Willpower 3 that would be a 5 Edge Pool.
 
-Spending an Edge Point adds an Effect Dice to your rolled dice, you add this dice to your total and your Effect. The most Edge that can be spent on a roll is equal to the Skill Rating in the Test being rolled.
+Spending an Edge Point reduces the Step of a test by 1. The most Edge that can be spent on a roll is equal to the Skill Rating in the Test being rolled.
 
-So if you had an Edge of 4, and a Firearms of 3. You could add up to 3 Dice from your Edge Pool on a Firearms Test because thats the Rating of your skill. You can spend Edge **before** you rolle but not after. You can spend Edge on any Test in the game.
+So if you had an Edge of 4, and a Firearms of 3. You reduce the Step of the test by up to 3. You can spend Edge **before** you rolle but not after. You can spend Edge on any Test in the game.
 
 
 ### Individual Rule Sections
@@ -643,6 +701,21 @@ The Sixth World is a vicious place; it seems like something is always trying to 
 ##### TOXINS
 
 
+### If Players roll everything ... how does Effect work?
+
+All enemies Players face have a Rating. That Rating determines their Step Difficulty, Effect, even their Health. 
+
+So a Rating 3 Enemy has a 3 Step Difficulty. Their Effect is static it is always the Rating divided by two rounded up. So they would have a 2 Effect. Their Health is always Rating * 3. So they would have 9 Health. Their equipment and Armor are somewhat case by case but a fair way to do it on the fly is pick a weapon suitable and for Armor you can pick some or assume its the same as their Rating. 
+
+For example a Lonestar Patrolman is Rating 3.
+
+- Step Difficulty: 3
+- Dodge Difficulty: 3
+- Threshold to hit: 3
+- Health: 9
+- Effect: 2
+- Armor: +4 (Armor Jacket)
+- Weapon: Heavy Pistol 4P DV.
 
 
 ## Chapter 6: Skills
@@ -651,20 +724,15 @@ When trying to accomplish something more refined than hefting a load, spotting a
 
 Skill have a linked attribute to them but it does not add to the skill per se; as far as the rules are concerned Attributes demonstrate the overall potential for a skill to succeed.
 
-For example if you have Quickness of 1D6 +2 and Firearms of 11. You have well beyond the average persons skills in Firearms but you your Quickness limits your potential. You would still roll `1D6+2 + 11` for a minimum of 14 and a maximum of 19. 
+For example if you have Quickness of 1D12 +2 and Firearms of 6. You have well beyond the average persons skills in Firearms but you your Quickness limits your potential. You would still roll `1D12+2 + 6` for a minimum of 9 and a maximum of 14. 
 
-If instead you had an Quickness of 2D6+2 with Firearms 3, you have great Quickness but you are limited by your skill with Firearms. Your range is a minimum of 7 and a Maximum of 17. 
+If instead you had an Quickness of 6 with Firearms 3, you have great Quickness but you are limited by your skill with Firearms. Your range is a minimum of 7 and a Maximum of 17. 
 
-If you are lucky enough to have the 2D6+2 Quickness and the Firearms 11 there is little holding you back. You would have a range of 15 a minimum and a Maximum of 25.
+If you are lucky enough to have the 6 Quickness and the Firearms 6 there is little holding you back. You would have a range of 10 at minimum and a Maximum of 20.
 
 ### SKILL RATINGS
 
-Skill ratings begin at a level of 1. There is no maximum rating, but players will find it increasingly difficult to raise their character's skill ratings as the character improves in a particular skill. Beginning characters may not start with any skill at a rating higher than 6. Characters with no rating in a skill are considered untrained, but they may still attempt to perform a function covered by a skill by defaulting to an attribute by only using the Attribute Dice Code, some skills are inherently so complex you cannot use them without training.
-
-
-### SPECIALIZATIONS SKILLS
-
-Having a Specialization in a skill will allow you to focus on a more narrow form of the skill. For example if you have Firearms 3 you can focus on Pistols. Which would be written as Firearms 3 (+2) to remind you of the Specilization. You can only have 1 Specialization per skill. A specialization allows a +2 on the roll. It does not raise the actual Rating so anything like Edge which is limited to the skill is still limited to the base skill. 
+Skill ratings begin at a level of 1. The maximum rating for a Skill is 6. Beginning characters may not start with any skill at a rating higher than 6. Characters with no rating in a skill are considered untrained, but they may still attempt to perform a function covered by a skill by defaulting to an attribute by only using the 1d12 + Attribute Modifier, some skills are inherently so complex you cannot use them without training.
 
 ### Active Skills
 
@@ -676,7 +744,7 @@ Active Skills usually apply toward achieving a specific, shortterm result such a
 
 Knowledge Skills give a character access to specific Information. This is especially useful when the character is an expert In a fleld in which the player Is Ignorant. 
 
-Many Knowledge Skills also provide the character with the theoretical basis of actions related to the fleld of study and the basis for new designs In an area.
+Many Knowledge Skills also provide the character with the theoretical basis of actions related to the fleld of study and the basis for new designs In an area. Characters have their Intelligence Dice Code * 3 in free Knowledge Skills.
 
 **Languages**
 
@@ -686,48 +754,48 @@ Many Knowledge Skills also provide the character with the theoretical basis of a
 
 ### Defaulting
 
-It is impossible to prepare for every scenario and only slightly harder to have every skill. When you perform an action without actually having the skill for the test, there’s still hope. You can default the skill, making the test using only raw talent. You don’t have any tremendous talent when you default— quite the opposite in fact. Characters with no rating in a skill are considered untrained, but they may still attempt to perform a function covered by a skill by defaulting to an attribute by only using the Attribute Dice Code, some skills are inherently so complex you cannot use them without training. Unless the gamemaster feels that you’re at a complete loss when defaulting, you can use Edge and better your chances.
+It is impossible to prepare for every scenario and only slightly harder to have every skill. When you perform an action without actually having the skill for the test, there’s still hope. You can default the skill, making the test using only raw talent. You don’t have any tremendous talent when you default— quite the opposite in fact. Characters with no rating in a skill are considered untrained, but they may still attempt to perform a function covered by a skill by defaulting to an attribute by only using the 1d12 + Attribute Modifier, some skills are inherently so complex you cannot use them without training. Unless the gamemaster feels that you’re at a complete loss when defaulting, you can use Edge and better your chances.
 
 
 ### Active Skill List
 
-| Skill            | Attribute Linked | Example Specializations                                    |
-| ---------------- | ---------------- | ---------------------------------------------------------- |
-| Archery          | Quickness        | Bows, Crossbows                                            |
-| Armed Combat     | Quickness        | Blades, Clubs                                              |
-| Athletics        | Strength         | Climbing, Jumping, Lifting, Running, Swimming              |
-| Biotech          | Intelligence     | Extended Care, First Aid, Organ Culture                    |
-| Computer         | Intelligence     | Hardware, Decking, Programming, Research                   |
-| Conjuring        | Magic*           | Elemental, Nature Spirit                                   |
-| Demolitions      | Intelligence     | Commercial Explosives, Plastic Explosives                  |
-| Drive            | Quickness        | Bike, Car, Motorboat                                       |
-| Electronics      | Intelligence     | Control Systems, Diagnostics, Electronic Warfare, Maglocks |
-| Etiquette        | Charisma         | Corporate, Matrix, Media, Street, Tribal                   |
-| Firearms         | Quickness        | Automatics, Pistols, Longarms                              |
-| Gunnery          | Quickness        | Machine Guns, Launchers, Vehicle Weapons                   |
-| Interrogation    | Charisma         | Verbal, Interviewing, Machine-Aided                        |
-| Throwing Weapons | Quickness        | Aerodynamic, Non-Aerodynamic, Shafted                      |
-| Leadership       | Charisma         | Commercial,Military,Political                              |
-| Negotiation      | Charisma         | Bargaining, Bribe, Fast Talk                               |
-| Pilot            | Quickness        | Rotor Craft, Vectored Thrust, Winged Planes                |
-| Sorcery          | Magic*           | Ritual Sorcery, Spellcastlng                               |
-| Stealth          | Quickness        | Hiding, Move Silently, Shadowing                           |
+| Skill            | Attribute Linked |
+| ---------------- | ---------------- |
+| Archery          | Quickness        |
+| Armed Combat     | Quickness        |
+| Athletics        | Strength         |
+| Biotech          | Intelligence     |
+| Computer         | Intelligence     |
+| Conjuring        | Magic*           |
+| Demolitions      | Intelligence     |
+| Drive            | Quickness        |
+| Electronics      | Intelligence     |
+| Etiquette        | Charisma         |
+| Firearms         | Quickness        |
+| Gunnery          | Quickness        |
+| Interrogation    | Charisma         |
+| Throwing Weapons | Quickness        |
+| Leadership       | Charisma         |
+| Negotiation      | Charisma         |
+| Pilot            | Quickness        |
+| Sorcery          | Magic*           |
+| Stealth          | Quickness        |
 
 
 
 ### Knowledge Skill List
 
 
-| Skill             | Attribute Linked | Example Specializations                               |
-| ----------------- | ---------------- | ----------------------------------------------------- |
-| Biology           | Intelligence     | Botany, Medicine, Parabotany, Parazoology, Zoology    |
-| Computer Theory   | Intelligence     | Hardware, Software                                    |
-| Cybertechnology   | Intelligence     | Bodyware, Hardware                                    |
-| Magical Theory    | Intelligence     | Design, History                                       |
-| Military Theory   | Intelligence     | Military History, Tactics                             |
-| Physical Sciences | Intelligence     | Chemistry, Engineering, Geology, Physics              |
-| Psychology        | Intelligence     | Deviant Behavior, Group Behavior, Individual Behavior |
-| Sociology         | Intelligence     | Anthropology, Archaeology, History                    |
+| Skill             | Attribute Linked |
+| ----------------- | ---------------- |
+| Biology           | Intelligence     |
+| Computer Theory   | Intelligence     |
+| Cybertechnology   | Intelligence     |
+| Magical Theory    | Intelligence     |
+| Military Theory   | Intelligence     |
+| Physical Sciences | Intelligence     |
+| Psychology        | Intelligence     |
+| Sociology         | Intelligence     |
 
 ## Chapter 7: Equipment
 
@@ -1064,7 +1132,7 @@ Leadslingers abound on the streets of {{YEAR OF GAME}} (the name remains, even t
 | Ingram Valiant             | 4P           | SA/BF/FA     | 50(c) or 100(belt) | 4(L)             | 4,175¥   |
 | Stoner-Ares M202           | 5P           | SA/BF/FA     | 50(c) or 100(belt) | 4(L)             | 6,900¥   |
 | RPK HMG                    | 6P           | SA/BF/FA     | 50(c) or 100(belt) | 5(L)             | 8,000¥   |
-| Panther XXL                | 7P           | SA           | 15(c)              | 6(I)             | 10,000¥  |
+| Panther XXL                | 6P           | SA           | 15(c)              | 6(I)             | 10,000¥  |
 | **Special**                | **DV**       | **MODES**    | **AMMO**           | **AVAILABILITY** | **COST** |
 | Ares Super Squirt          | Special      | SS           | 20(c)              | 3(L)             | 560¥     |
 | Parashield DART Pistol     | 1P + special | SS           | 5(c)               | 2                | 510¥     |
@@ -1409,7 +1477,7 @@ Erasing tags requires a tag eraser. Make an Electronics + Intelligence (2, 1 min
 
 | **AMMO, PER 10 SHOTS** | **DAMAGE MODIFIER** | **AVAILABILITY** | **COST** |
 | ---------------------- | ------------------- | ---------------- | -------- |
-| APDS                   | +2                  | 12F              | 120¥     |
+| APDS                   | Ignore Armor        | 12F              | 120¥     |
 | Assault cannon         | —                   | 12F              | 400¥     |
 | Explosive rounds       | +1                  | 9F               | 80¥      |
 | Flechette rounds       | +2                  | 6R               | 65¥      |
@@ -1437,16 +1505,16 @@ Erasing tags requires a tag eraser. Make an Electronics + Intelligence (2, 1 min
 | **GRENADES**        | **DV GZ** | **DV CLOSE** | **DV NEAR** | **BLAST** | **AVAIL** | **COST**                |
 | ------------------- | --------- | ------------ | ----------- | --------- | --------- | ----------------------- |
 | Stun                | 10S       | 8S           | 6S          | 15y       | 4(L)      | 100¥                    |
-| Fragmentation       | 16P       | 12P          | 8P          | 20y       | 4(I)      | 150¥                    |
-| High explosive      | 16P       | 10P          | 4P          | 15y       | 4(I)      | 150¥                    |
+| Fragmentation       | 10P       | 8P           | 6P          | 20y       | 4(I)      | 150¥                    |
+| High explosive      | 12P       | 6P           | 3P          | 15y       | 4(I)      | 150¥                    |
 | Gas                 | —         | —            | —           | —         | 4(I)      | 50¥ + 20 doses chemical |
 | Smoke/thermal smoke | —         | —            | —           | —         | 4(I)      | 50¥                     |
-| Flash-pak*          | BIII      | BII          | BI          | 10y       | 4(L)      | 125¥                    |
+| Flash-pak*          | Blind III | Blind II     | Blind I     | 10y       | 4(L)      | 125¥                    |
 
 
 **APDS**
 
-Armor-piercing discarding sabot is a mouthful, which is why the APDS acronym is used so frequently. The sabot allows for high muzzle velocities pushing an ultra-hard penetrator designed to punch through armor. APDS is rarely made caseless because the sabot shells are left lying around anyway.
+Armor-piercing discarding sabot is a mouthful, which is why the APDS acronym is used so frequently. The sabot allows for high muzzle velocities pushing an ultra-hard penetrator designed to punch through armor. APDS is rarely made caseless because the sabot shells are left lying around anyway. These rounds ignore Armor.
 
 **Explosive**
 
@@ -1520,8 +1588,8 @@ Similar to the gas grenade, a smoke grenade releases a cloud of smoke instead of
 | **ROCKERS/MISSILES**       | **DV GZ** | **DV CLOSE** | **DV NEAR** | **BLAST** | **AVAIL** | **COST**                         | **NOTES**            |
 | -------------------------- | --------- | ------------ | ----------- | --------- | --------- | -------------------------------- | -------------------- |
 | Anti-vehicle Rocket        | 12P       | 8P           | 4P          | 10m       | 5(I)      | 2,800¥                           | -                    |
-| Fragmentation Rocket       | 16P       | 12P          | 8P          | 30m       | 5(I)      | 2,000¥                           | -                    |
-| High Explosive Rocket      | 16P       | 10P          | 4P          | 20m       | 5(I)      | 2,100¥                           | -                    |
+| Fragmentation Rocket       | 14P       | 10P          | 6P          | 30m       | 5(I)      | 2,000¥                           | -                    |
+| High Explosive Rocket      | 14P       | 7P           | 4P          | 20m       | 5(I)      | 2,100¥                           | -                    |
 | Gas Rocket                 | —         | —            | —           | —         | 4(I)      | 750¥ + 100 dose payload          | Use Gas Attack rules |
 | Smoke/Thermal Smoke Rocket | —         | —            | —           | —         | 4(I)      | 1,200¥                           | See rules            |
 | Missile Variant            | as Rocket | as Rocket    | as Rocket   | as Rocket | +1(I)     | As Rocket + Sensor rating x 500¥ | +2 to Attack Rolls   |
@@ -1772,43 +1840,69 @@ They represent the Data Processing and Firewall attributes
 | **DEVICE**                    | **ESSENCE COST** | **AVAILABILITY** | **COST** |
 | ----------------------------- | ---------------- | ---------------- | -------- |
 | **COMMUNICATIONS**            | -                | -                | -        |
-| Chipjack                      | .2               | 9                | 1,000¥   |
+| Chipjack                      | .2               | 2                | 1,000¥   |
 | Datajack                      | .2               | 0                | 1,000¥   |
-| Radio                         | .75              | 9                | 4,000¥   |
-| Radio Receiver                | .4               | 9                | 2,000¥   |
-| Telephone                     | .5               | 9                | 3,700¥   |
-| **EARS**                      | -                | -                | -        |
-| Cyber Replacement             | .3               | 9                | 4,000¥   |
-| Modification                  | .1               | 9                | 2,000¥   |
-| Cosmetic Modification         | -                | 9                | 1,000¥   |
-| Damper                        | .1               | 9                | 3,500¥   |
-| High Frequency                | .2               | 9                | 3,000¥   |
-| Low Frequency                 | .2               | 9                | 3,000¥   |
-| Recorder                      | .3               | 9                | 7,000¥   |
-| **EYES**                      | -                | -                | -        |
-| Cyber Replacement             | .2               | 9                | 5,000¥   |
-| Camera                        | .4               | 9                | 5,000¥   |
-| Cosmetic Modification         | -                | 9                | 1,000¥   |
-| Flare Compensation            | .1               | 9                | 2,000¥   |
-| Low-Light                     | .2               | 9                | 3,000¥   |
-| Retinal Duplication (illegal) | .1               | 9                | 50,000¥+ |
-| Thermographic                 | .2               | 9                | 3,000¥   |
+| Radio                         | .75              | 2                | 4,000¥   |
+| Radio Receiver                | .4               | 2                | 2,000¥   |
+| **EARS**                      | **ESSENCE COST** | **AVAILABILITY** | **COST** |
+| Cyber Replacement             | .3               | 2                | 4,000¥   |
+| Cosmetic Modification         | -                | 0                | 1,000¥   |
+| Damper                        | .1               | 2                | 3,500¥   |
+| High Frequency                | .2               | 2                | 3,000¥   |
+| Low Frequency                 | .2               | 2                | 3,000¥   |
+| Recorder                      | .3               | 3                | 7,000¥   |
+| **EYES**                      | **ESSENCE COST** | **AVAILABILITY** | **COST** |
+| Cyber Replacement             | .2               | 2                | 5,000¥   |
+| Camera                        | .4               | 2                | 5,000¥   |
+| Cosmetic Modification         | -                | 0                | 1,000¥   |
+| Flare Compensation            | .1               | 2                | 2,000¥   |
+| Low-Light                     | .2               | 2                | 3,000¥   |
+| Retinal Duplication (illegal) | .1               | 5(L)             | 50,000¥+ |
+| Thermographic                 | .2               | 2                | 3,000¥   |
 
 #### Internals
 
 | **DEVICE**            | **ESSENCE COST** | **AVAILABILITY** | **COST** |
 | --------------------- | ---------------- | ---------------- | -------- |
-| Cortex Bomb (illegal) | -                | 9                | 500,000¥ |
-| Data FIiter           | .3               | 9                | 5,000¥   |
-| Data Lock             | .2               | 9                | 1,000¥   |
-| Datasoft Link         | .1               | 9                | 1,000¥   |
-| Display Link          | .1               | 9                | 1,000¥   |
+| Cortex Bomb (illegal) | -                | 6(L)             | 500,000¥ |
+| Data Lock             | .2               | 4                | 1,000¥   |
+
 
 
 #### Bodywear
 
+| **DEVICE** | **ESSENCE COST** | **AVAILABILITY** | **COST** |
+| ---------- | ---------------- | ---------------- | -------- |
 
+Fingertip Compartment .1 3/24 hrs 3,000¥
+Hand Razors .1 3/72 hrs 4,500¥
 
+| **BONE LACING**         | **ESSENCE** | **BODY** | **DEFENSE** | **UNARMED DV** | **AVAILABILITY** | **COST** |
+| ----------------------- | ----------- | -------- | ----------- | -------------- | ---------------- | -------- |
+| Plastic                 | 0.5         | +1       | +1          | 3P             | 3(L)             | 8,000¥   |
+| Aluminum                | 1           | +2       | +1          | 4P             | 4(L)             | 18,000¥  |
+| Titanium                | 1.5         | +2       | +2          | 4P             | 6(L)             | 30,000¥  |
+| **DERMAL PLATING**      | **ESSENCE** | **BODY** | **DEFENSE** | **UNARMED DV** | **AVAILABILITY** | **COST** |
+| ---------------         | ----------- | -------- | ----------- | -------------- | ---------------- | -------- |
+| Dermal Plating Rating 1 | .5          | -        | 1           | -              | 4(L)             | 6,000¥   |
+| Dermal Plating Rating 2 | 1           | -        | 2           | -              | 4(L)             | 15,000¥  |
+| Dermal Plating Rating 3 | 1.5         | -        | 3           | -              | 4(L)             | 45,000¥  |
+| **GENERAL BODYWEAR**    | **ESSENCE** | **BODY** | **DEFENSE** | **UNARMED DV** | **AVAILABILITY** | **COST** |
+| Fingertip Compartment   | .1          | -        | -           | -              | 2                | 3,000¥   |
+| Hand razors             | 0.15        | -        | -           | -              | 3(I)             | 4,500¥   |
+| Retractable Razors      | .2          | -        | -           | -              | 3(I)             | 9,000¥   |
+| Retractable Spur        | .3          | -        | -           | -              | 4(I)             | 11,500¥  |
+| Smartllnk               | .5          | -        | -           | -              | 3(L)             | 2,500¥   |
+| Spur                    | .1          | -        | -           | -              | 4(I)             | 7,000¥   |
+| **Vehlde Control Rig**  | **ESSENCE** | **BODY** | **DEFENSE** | **UNARMED DV** | **AVAILABILITY** | **COST** |
+| Level 1                 | 2           | -        | -           | -              | 4 (L)            | 12,000¥  |
+| Level 2                 | 3           | -        | -           | -              | 4 (L)            | 60,000¥  |
+| Level 3                 | 5           | -        | -           | -              | 5 (L)            | 300,000¥ |
+| **Wired Reflexes**      | **ESSENCE** | **BODY** | **DEFENSE** | **UNARMED DV** | **AVAILABILITY** | **COST** |
+| Wired Reflexes Rating 1 | 1           | -        | -           | -              | 3(L)             | 40,000¥  |
+| Wired Reflexes Rating 2 | 2           | -        | -           | -              | 3(L)             | 150,000¥ |
+| Wired Reflexes Rating 3 | 3           | -        | -           | -              | 4(I)             | 250,000¥ |
+| Wired Reflexes Rating 4 | 4           | -        | -           | -              | 6(I)             | 400,000¥ |
 
 ## Chapter 8: Combat
 
@@ -1821,17 +1915,13 @@ Combat Step By Step
 
 ### Initiative
 
-Initiative determines the order of turns during combat. When com⁠bat starts, every participant makes a Initiative Test `Reaction + 1d6 (+Xd6 from gear)` for personal combat, other types of combat have different Initiative Tests on the table below, to determine their place in the initiative order. The GM makes one roll for an entire group of identical creatures, so each member of the group acts at the same time.
-
-The GM ranks the combatants in order from the one with the highest Dexterity check total to the one with the lowest. This is the order (called the initiative order) in which they act during each round. The initiative order remains the same from round to round.
-
-If a tie occurs, the DM decides the order among tied DM-controlled creatures, and the players decide the order among their tied characters. The GM can decide the order if the tie is between a monster and a player character. Optionally, the GM can have the tied characters and monsters each roll a d20 to determine the order, highest roll going first; or have them go simultaneously.
+Initiative = Reaction + 1D (+ extra +XD from augmentations). Order = highest to lowest Initiative total.
 
 **Initiative Table**
 
-| Initiative Type | Initiative Test                 |
-| --------------- | ------------------------------- |
-| Personal Combat | Reaction + 1d6 (+Xd6 from gear) |
+| Initiative Type | Initiative Test                   |
+| --------------- | --------------------------------- |
+| Personal Combat | Reaction + 1D12 (+XD12 from gear) |
 
 
 #### Timed Items & Initiative
@@ -1877,7 +1967,7 @@ If you leave a hostile creature's reach during your move, you provoke an opportu
 
 ### Action In Combat
 
-The Action economy of Sixfinity is more structured than the economy in Shadowrun. 
+The Action economy of Twelvefold is more structured than the economy in Shadowrun. 
 
 When the action picks up and the game moves into taking turns in initiative order, it’s good to know how much time is passing and what you can do in that time.
 
@@ -1896,8 +1986,8 @@ Every **combat round** a character gets:
 These actions usually take only a small amount of focus or a quick and simple thought or movement. A key point among Minor Actions is that they generally do not require a test of any kind. That doesn’t mean in truly dire situations where the pressure is on that the gamemaster can’t ask for a test to be made—it just means that usually, as long as you have the action available, you can perform the task by simply declaring the use of it.
 
 - Move (I) – Move up to 10y. (1 per turn.)
-- Take Cover (I) – Gain Cover I–IV if terrain allows. +2 to the Defense roll per Cover level
-- Take Aim (I) – +1 Bonus Effect (bankable; max = Willpower; once per round).
+- Take Cover (I) – Gain Cover I–IV if terrain allows. Increases step to be hit by 1 per Cover Rating
+- Take Aim (I) – +1 Bonus Effect (bankable; max = Willpower; once per round). 
 - Ready/Draw/Sheathe (I) – Ready or stow a weapon.
 - Reload (I) – Reload weapon. (Smartlink reduces friction; same action.)
 - Operate Device (A) – Toggle/switch a device via DNI or manual.
@@ -1915,8 +2005,8 @@ These actions usually take only a small amount of focus or a quick and simple th
 
 ##### Take Cover (I)
 
-**Effect:** If suitable terrain exists, gain **Cover I–IV** (GM sets level based on how much of you is obscured: ¼, ½, ¾, full). Each level grants **+2 Defense**.
-**Constraints:** Attacking from **Cover IV** imposes **–2** to your attack. While attacking from any Cover, you **can’t gain Bonus Effect from your attack** (you can still gain it while defending). Peeking/shooting from heavy cover may require this action again if you change positions.
+**Effect:** If suitable terrain exists, gain **Cover I–IV** (GM sets level based on how much of you is obscured: ¼, ½, ¾, full). Each level grants **A step up in difficulty to be hit**.
+**Constraints:** Attacking from **Cover IV** imposes **Disadvantage** to your attack. While attacking from any Cover.
 
 ##### Take Aim (I)
 
@@ -1932,7 +2022,8 @@ These actions usually take only a small amount of focus or a quick and simple th
 ##### Reload (I)
 
 **Effect:** Reload a weapon to full capacity if you have ammo available.
-**Smartlink:** Smartlinked weapons reload with the same action (no extra step); narrative flavor shifts to a mental command + practiced motion.
+
+Refer to the Fire Modes section in Equipment if you need to know what kind of Action your weapon reloads.
 
 ##### Operate Device (A)
 
@@ -1953,7 +2044,6 @@ These actions usually take only a small amount of focus or a quick and simple th
 * **Block (melee):** Add your **Armed or Unarmed Combat** skill to this **one** Defense test.
 * **Dodge (ranged):** Add your **Athletics** skill to this **one** Defense test.
 * **Duration:** Applies to a **single** incoming attack; expires afterward.
-* **Stacking:** Can be used while under **Full Defense**; bonuses add.
 
 ##### Opportunity Attack (A)
 
@@ -1984,10 +2074,10 @@ These actions take a bit more concentration or time to complete. Several involve
 **Effect:** Make a **melee or ranged** attack.
 **Roll:**
 
-* **Ranged:** `Attribute Dice + (Firearms/Archery/Throwing Weapons/Gunnery) + misc` vs target’s Defense.
-* **Melee:** `Attribute Dice + (Armed Combat/Unarmed Combat) + misc` vs target’s Defense.
+* **Ranged:** `Attribute Dice + (Firearms/Archery/Throwing Weapons/Gunnery) + misc` vs target’s Step Difficulty.
+* **Melee:** `Attribute Dice + (Armed Combat/Unarmed Combat) + misc` vs target’s Step Difficulty.
   **Hit:** Deal **Damage Value = Weapon Damage + Net Effect**; apply any damage-type riders (e.g., Burning).
-  **Rider – Multiple Attacks:** You may attack **multiple targets** you can legally threaten (ammo/reach/arc permitting). Divide your attack penalty **evenly** among targets (round down); resolve each attack separately. Net Effect is calculated per target.
+  **Rider – Multiple Attacks:** You may attack **multiple targets** you can legally threaten (ammo/reach/arc permitting). Each additional attack raises the Step by 1 per attack. Resolve each attack separately. Net Effect is calculated per target.
 
 ##### Use Skill (I)
 
@@ -1998,7 +2088,7 @@ These actions take a bit more concentration or time to complete. Several involve
 ##### Cast Spell (I)
 
 **Effect:** Cast a spell (damage, heal, utility).
-**Roll:** As defined in **Magic** (typically `Sorcery + Magic Dice`). Apply drain, effects, and riders per spell.
+**Roll:** As defined in **Magic** (typically `Sorcery + 1D12`). Apply drain, effects, and riders per spell.
 **Counterspell:** Reactions to spells (Counterspell) are handled in the **Magic** chapter and may be Anytime where appropriate.
 
 ##### Summon / Banish (I)
@@ -2013,8 +2103,8 @@ These actions take a bit more concentration or time to complete. Several involve
 ##### Full Defense (A)
 
 **Timing:** Declare **anytime**; takes effect immediately.
-**Effect:** Add your **Willpower** to **all** Defense tests **until your next turn**.
-**Limits:** You can only use Full Defense **once per round**. Stacks with **Defensive Reaction**, which still affects a single attack.
+**Effect:** Same as Minor **Defensive Action** but lasts **until your next turn**.
+**Limits:** You can only use Full Defense **once per round**. Does not stack with **Defensive Action**
 
 ##### Operate Complex Device (I)
 
@@ -2038,13 +2128,17 @@ Characters may never start a player turn with more than 5 Minor Actions. If they
 
 #### Attacks
 
-Ranged Attack: `Attribute Dice Code + (Firearms/Archery/Throwing Weapons/Gunnery) + misc` vs target’s Defense roll.
+Players roll all the dice in Twelvefold. 
 
-Melee Attack: `Attribute Dice Code + (Armed Combat/Unarmed Combat) + misc` vs target’s Defense roll.
+Ranged Attack: `1d12 + Attribute Modifier + (Firearms/Archery/Throwing Weapons/Gunnery) + misc` vs target’s Step Difficulty.
 
-Defense roll: `Body + Reaction + modifiers`.
+Melee Attack: `1d12 + Attribute Modifier + (Armed Combat/Unarmed Combat) + misc` vs target’s Step Difficulty.
 
-Note on Defense Rolls: Use Body unless a rule specifies another attribute (e.g., some spells or grapples call for Quickness or Willpower).
+When attacked by an enemy: `1D12 + Reaction` vs attacker's Step Difficulty.
+
+> Sarah finds herself locked in a firefight with a Lone Star Patrolman on the streets of Seattle. It is her initiative count, she fires her gun. It does 4P if it hits. She has an Quickness modifier of 1 and a Firearms of 3. The Lone Star Patrolman has a Step Difficulty of 3. So she needs a 6. She rolls a `5+1 (Quickness) + 3 (Firearms)` for a total of 9. She Hits! The Lonestar Patrolman has a Static Effect of 3 so she applies 3 Net Effect to her Damage Value for a total of 7P.
+
+> The Lonestar Patrolman takes his initiative and fires his heavy pistol at Sarah it does 4P. So Sarah rolls to Dodge rolling `1D12 + Reaction` knowing she needs to roll a 6 or better she spends 1 of her Edge to Step the difficulty down 1 she now needs a 4. She rolls `(3) + 4 for a total 7` with a 3 Effect. Sarah has Dermal Plating at Rating 2, and 3 points of Armor from her clothes. The Lonestar Pistol as a Rating 3 enemy gets 3 Effect. Sarah subtracts her 2 Effect from his 2 Effect for a Net Effect of 0. So she takes no damage as her total Defense is 5 reducing the 4P damage to 0. It hits her but does not get through her Dermal Armor. 
 
 ### Damage
 
@@ -2056,9 +2150,11 @@ Damage Value (DV) = Weapon Damage + Net Effect
 
 Apply damage type riders (e.g., Burning, Zapped) after DV is applied.
 
+> Continuing from above. The Lonestar Patrolman has an Armored Jacket with a Defense of +4. So his Jacket absorbs 4 points of Sarah's incoming damage, and he marks down 2 damage to his Physical Health. 
+
 #### Types of Injury
 
-Damage in Sixfinity is defined as Physical or Stun. Each type of damage is tracked on a separate Condition Monitor.
+Damage in Twelvefold is defined as Physical or Stun. Each type of damage is tracked on a separate Condition Monitor.
 
 ##### Physical Damage
 
@@ -2091,7 +2187,7 @@ Make a `Biotech/Medkit Rating + Intelligence test against a threshold of 5 – t
 There is a limit to receiving a medkit treatment. A character can only benefit from a medkit once for any single set of injuries.
 
 #### Magic
-- Sorcery + Magic 3D6 (using Healing or similar spell)
+- Sorcery + Magic 1D12 (using Healing or similar spell)
 
 The wonders of magic are many and great. Healing spells are some of the most commonly studied magics for those working on the streets. Some use their skills to earn a little extra cash patching up gangers; others serve on a runner team, keeping their partners fighting when the bullets start finding their targets. Those with hearts of gold work as regular street healers to give the denizens of the barrens a chance at a healthy life.
 
@@ -2105,13 +2201,13 @@ A character can be healed by Magic only once for any single set of injuries.
 
 After all other options have been used, if injury remains, it’s all about rest and possibly some help from a trained medical professional (or just your team medic). Rest is simply defined as not engaging in any strenuous physical or mental activity—essentially, anything that involves a dice roll would break your rest. Medical attention offers a bonus to the recovery roll. If any person trained in Biotech is watching over the character for at least half of their rest period, the wounded individual gains a +2 Effect to the healing tests defined below.
 
-To heal Physical Damage, roll `Body + Body (1)` once per day. Each Effect heals 3 points ofPhysical Damage after that day of rest.
+To heal Physical Damage, roll `Body (1)` once per day. Each Effect heals 3 points of Physical Damage after that day of rest.
 
-To heal Stun Damage, roll `Body + Willpower (1)` once per hour. Each hit heals 3 points ofStun Damage after that hour of rest. A full 8 hour (Long Rest) rest will recover all lost Stun Health.
+To heal Stun Damage, roll `Willpower (1)` once per hour. Each hit heals 3 points of Stun Damage after that hour of rest. A full 8 hour (Long Rest) rest will recover all lost Stun Health.
 
 #### Overflow & Dying
 
-Sometimes a hit brings you closer to death than you ever really want to be, and you’ve got some Damage Overflow to recover. These points are healed just like Physical Damage and need to be healed before the character can return to the land of the conscious. Note that if a character receives (Body x 2) points of Overflow damage, they are dead and gone, beyond the reach of any kind of healing.
+Sometimes a hit brings you closer to death than you ever really want to be, and you’ve got some Damage Overflow to recover. These points are healed just like Physical Damage and need to be healed before the character can return to the land of the conscious. Note that if a character receives exceeeds their Overflow damage, they are dead and gone, beyond the reach of any kind of healing.
 
 ### Status List
 The different statuses used in Shadowrun, Sixth World are described below.
@@ -2119,7 +2215,7 @@ The different statuses used in Shadowrun, Sixth World are described below.
 
 #### Blinded I, II, III
 
-Whether it’s flashing lights, some specialized chemical, or the pure force of magic, there are plenty of ways to make it impossible for shadowrunners to see. For the first two levels of this status, characters take a –3 penalty per level to all tests involving visibility. At the third level, characters automatically fail any tests involving visibility.
+Whether it’s flashing lights, some specialized chemical, or the pure force of magic, there are plenty of ways to make it impossible for shadowrunners to see. For the first two levels of this status, characters take a Disadvantage per level to all tests involving visibility. At the third level, characters automatically fail any tests involving visibility.
 
 #### Burning #
 
@@ -2131,15 +2227,15 @@ If you gain the Wet and/or Chilled statuses, the Burning status is canceled. Sim
 
 #### Charmed
 - A charmed creature can’t attack the charmer or target the charmer with harmful abilities or magical effects.
-- The charmer has +3 on any test to interact socially with the creature.
+- The charmer has Advantage on any test to interact socially with the creature.
 
 #### Chilled
 
-When you are truly, damagingly cold, it seeps into your bones and won’t let go, and you can’t move as smoothly and nimbly as you would like. When you are Chilled, you get –4 to your Initiative Score and –1 to all tests. This status cancels and is canceled by the Burning status.
+When you are truly, damagingly cold, it seeps into your bones and won’t let go, and you can’t move as smoothly and nimbly as you would like. When you are Chilled, you get –4 to your Initiative Score and Disadvantage to all tests. This status cancels and is canceled by the Burning status.
 
 #### Confused #
 
-Colors, patterns, and weird ideas swirl around your head, keeping you from being able to focus, which makes your actions uncoordinated and awkward. The number after the status acts as a penalty on any test you take.
+Colors, patterns, and weird ideas swirl around your head, keeping you from being able to focus, which makes your actions uncoordinated and awkward. The number after the status acts as a step penalty on any test you take.
 
 #### Corrosive #
 
@@ -2149,23 +2245,23 @@ This status can be removed with certain gear (like baking soda for acids!) and e
 
 #### Cover I, II, III, IV
 
-Whether you hide behind a wall, a dumpster, or a body, Cover is protection from hostile fire. It comes at four levels, indicating how much of a character’s body is protected (one-quarter, onehalf, three quarters, or all). A character in Cover gets a +2 to the Defense roll per Cover level. Attacking from Cover requires an extra Minor Action in order to get clear enough to take a shot, imposes a –2 penalty to your attack at Cover IV, and you cannot gain Bonus Effect while attacking from Cover (you can gain it from defending).
+Whether you hide behind a wall, a dumpster, or a body, Cover is protection from hostile fire. It comes at four levels, indicating how much of a character’s body is protected (one-quarter, onehalf, three quarters, or all). A character in Cover gets a an Advantage to their to hit Step per level. Attacking from Cover requires an extra Minor Action in order to get clear enough to take a shot, imposes a Disadvantage penalty to your attack at Cover IV.
 
 #### Dazed
 
-One too many thumps to the head, or maybe the solar plexus, leaves the character woozy and unable to act with their normal alacrity. The character reduces their Initiative Score by –4, and they cannot gain or spend Edge (but they can burn Edge) as long as they have this Status.
+One too many thumps to the head, or maybe the solar plexus, leaves the character woozy and unable to act with their normal alacrity. The character reduces their Initiative Score by –4, and they cannot gain or spend Edge as long as they have this Status.
 
 #### Deafened I, II, III
 
-Whether you heard a sudden, hugely loud clap, or someone stuffed your ears full of cotton-like mana, sound waves are not getting through so that your brain can tell you what they mean. For the first two levels of this status, characters take a –3 penalty per level to all tests involving hearing. At the third level, characters automatically fail any tests involving hearing.
+Whether you heard a sudden, hugely loud clap, or someone stuffed your ears full of cotton-like mana, sound waves are not getting through so that your brain can tell you what they mean. For the first two levels of this status, characters take a Disadvantage penalty per level to all tests involving hearing. At the third level, characters automatically fail any tests involving hearing.
 
 #### Fatigued I, II, III
 
-At its top level, this status is that dreamlike weariness, where your legs are lead and just will. Not. Move. Characters with this status take a –2 penalty per level to all tests. Characters move at 5 yards per turn instead of 10 for walking, and 10 instead of 15 for sprinting.
+At its top level, this status is that dreamlike weariness, where your legs are lead and just will. Not. Move. Characters with this status take a Disadvantage per level to all tests. Characters move at 5 yards per turn instead of 10 for walking, and 10 instead of 15 for sprinting.
 
 #### Frightened
 
-Something has hit your lizard brain, and rational thought flees. All you have left is fear. Characters take a –4 penalty to any tests directed to or defending against the source of the effect. They also cannot move toward the source of their fear. 
+Something has hit your lizard brain, and rational thought flees. All you have left is fear. Characters take a two step penalty to any tests directed to or defending against the source of the effect. They also cannot move toward the source of their fear. 
 
 #### Hazed
 
@@ -2177,7 +2273,7 @@ Any movement on foot—Move or Stand/Prone—costs double distance (round up).
 
 #### Immobilized
 
-Just what it sounds like! Characters with this status cannot move, though they can take any actions that will function with their feet stuck to the ground. They take a –3 penalty on all attack rolls and cannot add Reaction to Defense rolls. They cannot use Reaction on their Defense tests.
+Just what it sounds like! Characters with this status cannot move, though they can take any actions that will function with their feet stuck to the ground. They take a Disadvantage on all attack rolls and cannot add Reaction to Defense rolls.
 
 #### Incapacitated
 - An incapacitated creature can’t take actions or reactions.
@@ -2192,7 +2288,7 @@ The same as Invisibility, but it also affects camera and other technological way
 
 #### Nauseated
 
-Your stomach heaves, your head spins, and you have trouble thinking about anything other than not throwing up. Characters must pass a `Body + Willpower (2)` test at the start of a combat round. If they fail, they cannot take an action that round. If they succeed, they can act, but they lose a Minor Action.
+Your stomach heaves, your head spins, and you have trouble thinking about anything other than not throwing up. Characters must pass a `Body (2)` test at the start of a combat round. If they fail, they cannot take an action that round. If they succeed, they can act, but they lose a Minor Action.
 
 #### Panicked
 
@@ -2200,7 +2296,7 @@ The drek has hit the fan, and it has splattered everywhere, and you have lost th
 
 #### Petrified
 
-There is a good reason why you don’t want to be in the wrong end of a basilisk stare, and this is it. The character is essentially turned into solid material. They cannot take any actions, and they get a +10 Armor Rating. This cancels any other damaging statuses the character may have been experiencing.
+There is a good reason why you don’t want to be in the wrong end of a basilisk stare, and this is it. The character is essentially turned into solid material. They cannot take any actions, and they get a +10 Defense Rating (reducing their damage by 10). This cancels any other damaging statuses the character may have been experiencing.
 
 #### Poisoned #
 
@@ -2208,7 +2304,7 @@ Something wrong has gotten into the character’s body, and it’s going to mess
 
 #### Prone
 
-One of the classics—you drop to the ground to get a stable shot and make yourself tougher to shoot. The character’s movement rate is reduced to 2 yards and they cannot Move more than once per turn while Prone. They get +3 Defense vs. ranged at Medium or farther; –3 vs. Close/Near; –4 to melee or bow attacks. Increase attack rolls with firearms and projectile weapons (not bows) by +1.
+One of the classics—you drop to the ground to get a stable shot and make yourself tougher to shoot. The character’s movement rate is reduced to 2 yards and they cannot Move more than once per turn while Prone. They get Advantage Defense vs. ranged and Disadvantage Defense to melee. Advantage attack rolls with firearms and projectile weapons (not bows)..
 
 #### Silent #
 
@@ -2217,13 +2313,9 @@ Your ability to make noise is greatly hindered. The number after the status indi
 #### Silent (Improved) #
 The same as Silent, except microphones and other forms of technology are also affected.
 
-#### Stilled
-
-There’s bad news and good news! The bad news is you can’t move. Your feet are absolutely stuck in place. –10 to your Defense roll (minimum 0), and you can’t take any actions beyond Perception and mental communication, should you be able to do that. You also cannot roll tests. The good news is, being Stilled halts any ongoing damage or other effects on the character. New damage may be inflicted, but any ongoing effects from it will also be canceled by this status.
-
 #### Stunned
 - A stunned creature is incapacitated (see the condition), can’t move, and can speak only falteringly.
-- The creature automatically –3 to the Defense roll
+- The creature automatically Disadvantage to the Defense roll
 
 #### Unconscious
 - An Unconscious character is Incapacitated, can’t move or speak, and is unaware of their surroundings.
@@ -2236,7 +2328,7 @@ Whether it’s a pouring rain, a sudden wave, or the efforts of a rampaging wate
 
 #### Zapped
 
-A jolt of electrical power has hit you, leaving you fried and scattered. Your muscles aren’t working quite right, either. Suffer –2 Initiative, cannot Take Aim this round., and –1 to all actions for 2 rounds.
+A jolt of electrical power has hit you, leaving you fried and scattered. Your muscles aren’t working quite right, either. Suffer –2 Initiative, cannot Take Aim this round., and Disadvantage to all actions for 2 rounds.
 
 ### Damage Types
 
@@ -2273,7 +2365,7 @@ Gamemaster note: The damage and duration are subject to your discretion if the t
 The Matrix is everywhere—cameras, doors, drones, host systems. As a decker (or a teammate with the right gear), you interact with it using the **same round structure and actions** as physical combat:
 
 * **Action economy:** 1 **Major** + 1 **Minor** per round (plus extra Minors from initiative dice, as usual).
-* **Initiative:** `Reaction + 1d6 (+Xd6 from gear)` in VR or AR—same cadence as meatspace.
+* **Initiative:** `Reaction + 1D12 (+XD12 from gear)` in VR or AR—same cadence as meatspace.
 * **Tests:** You roll **Skill + Attribute** vs the target’s **Defense**. Success gives you what you want. Failing Detection pushes up your **Overwatch Score (OS)** until **Convergence** ends the party.
 
 This chapter tells you **what to roll**, **what you can do**, **what pushes OS**, and **how IC fights back**—all with the same mechanics you already know from combat and magic.
@@ -2312,7 +2404,7 @@ Everything you hack is either a **Device** or a **Host**.
 * **Device Rating (R):** 1–6 (consumer to mil-spec).
 * **Defense (most actions):** `R + Firewall`.
 * **Matrix Condition Monitor (CM):** `ceil(R/2) + 8`.
-* **Initiative (if it acts):** `Data Processing + 1d6` (often passive unless patrolled by IC).
+* **Initiative (if it acts):** `Data Processing + 1D12` (often passive unless patrolled by IC).
 
 #### Hosts
 
@@ -2321,7 +2413,7 @@ Everything you hack is either a **Device** or a **Host**.
 * **Defense (most actions):** `R + Firewall`.
 * **Attack (when the host/IC strikes):** `R + Attack`.
 * **Matrix CM:** `R + 8`.
-* **Initiative:** `Data Processing + 1d6`.
+* **Initiative:** `Data Processing + 1D12`.
 * **IC:** the host’s defenders. Deploy as OS rises (see **IC & Alerts**).
 
 ---
@@ -2330,7 +2422,7 @@ Everything you hack is either a **Device** or a **Host**.
 
 #### 1) Roll Initiative
 
-In AR or VR, use your normal formula: `Reaction + 1d6 (+Xd6 from gear)`. Hosts/IC roll `Data Processing + 1d6`.
+In AR or VR, use your normal formula: `Reaction + 1D12 (+XD12 from gear)`. Hosts/IC roll `Data Processing + 1D12`.
 
 #### 2) Take Actions
 
