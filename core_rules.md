@@ -57,12 +57,12 @@ V.09
 #### V0.7
 - Reworked skills to line up with Shadowrun Sixth
 - Lowered skill cap to fit new Threshold
-- Bonus Effect
+- Bonus EFFECT
 - Threshold Rating
 
 #### V0.6
 - Began converting Shadowrun to Sixfinity
-- Thanks to Elsie (my wife) we instituted the Effect Result.
+- Thanks to Elsie (my wife) we instituted the EFFECT Result.
 - Porting Shadowrun Equipment
 - Ported Partial COmbat over
 
@@ -89,7 +89,7 @@ V.09
 - Added new skills
 - Reworked skills
 - Changed Autofire to a Agility to avoid
-- Changed Burst Fire to use Net Effect
+- Changed Burst Fire to use NET EFFECT
 - Extensive rework of Magic System - pretty much a complete gut job
 - Removed professions
 - Removed backgrounds
@@ -116,7 +116,7 @@ SIRE is a (Potential XD6) TTRPG system created by CJ Schrum to be a generic syst
 
 ## Shadowrun Setting
 
-What better challenge for a generic TTRPG system than to convert one of the more crunchy games that was ever created? Effect was added to the game specifically to accomplish the Shadowrun feel. It is not in the core Sixfinity experience. 
+What better challenge for a generic TTRPG system than to convert one of the more crunchy games that was ever created? EFFECT was added to the game specifically to accomplish the Shadowrun feel. It is not in the core Sixfinity experience. 
  
 #### Shadowrun Lingo and Slang
 
@@ -393,7 +393,7 @@ Defense represents an extra level of protection that makes your character harder
 
 Besides using certain types of gear, there is no easy way for your character to have a starting melee or ranged defense higher than 0. So, if your character doesn’t have any defense, don’t worry! You didn’t do anything wrong. Your character has another type of protection, called soak.
 
-Defense gives the attacker Disadvantage per point (up to the maximum of 4) to hit you.
+Defense gives the attacker DISADVANTAGE per point (up to the maximum of 4) to hit you.
 
 ##### Soak Value 
 Soak value determines how much incoming damage a character can shrug off before being seriously wounded. A character's soak value is subtracted from any incoming damage. Any remaining damage after subtracting soak becomes wounds, and is applied towards the character's wound threshold. A character's default soak value is equal to his Stamina rating. After determining this initial value, increases to a character's Stamina rating increase his soak value. Additional soak value is most often gained by wearing armor. Later increases to Stamina rating also increase soak. 
@@ -416,14 +416,6 @@ Your character’s strain threshold determines how much strain—psychological a
 
 Strain = 10 + Tenacity Score
 
-##### Overflow
-> Added for Shadowrun
-This is how far into the Negatives you can go before you die. When you fall to 0 in your Wounds you begin to bleed to death. Every round you take a point of Overflow damage. When you run out of Overflow, you're dead. To stop the bleeding you need only have First Aid care. Healing Overflow is the same as healing a Critical Injury the number of Overflow you lost is the Severity rating.
-
-Overflow = (2 × Stamina)
-
-If you had a Stamina of 3 you would have an Overflow of 6 
-
 ##### Edge Pool
 Edge is covered in greater detail in the Rules Chapter but it is your characters luck, a small currency you can use to add a D6 to your rolls when needed. 
 
@@ -436,7 +428,7 @@ So if you had a Agility of 3, Talent of 2, and Tenacity of 3, you would have a E
 
 In this game you spend your experience you gain at the end of the sessions to increase your charatcer during downtimes. 
 
-| Desired Effect              | XP Cost                                         |
+| Desired EFFECT              | XP Cost                                         |
 | --------------------------- | ----------------------------------------------- |
 | Raise a STATIS              | Next rating X 10 only during Character Creation |
 | Raise an Archtype skill     | New Rating X 5                                  |
@@ -464,7 +456,7 @@ As the majority of the sentient beings of the world, humans create existing defi
 - Starting Strain Threshold: 11 + Tenacity
 - Starting Experience: 95
 - Starting Skills: Start with one rank in Etiquette and Coordination.
-- Low-light Vision: Remove 2 Disadvantage from any check incurred by dim light.
+- Low-light Vision: Remove 2 DISADVANTAGE from any check incurred by dim light.
 
 Perhaps the most infuriating thing about elves to the other metatypes is that you can resent them like hell, and they just won’t care. They have two prosperous nations—Tír na nÓg (formerly known as Ireland) and Tír Tairngire (in the western part of North America)—they have people in some of the most powerful positions in the world, and celebrities whose MeFeed hits are in the billions. They are envied, not looked down on. But plenty of elves know that this envy does not extend to every elf. If you’re an elf who is not rich, elegant, or graceful, you’re often viewed as a failure, someone who had all the gifts of life handed to them and somehow screwed them up. And it’s not just nonelves who hold this view. Never mind that you might have grown up poor, never mind what obstacles you had to face—people think you automatically had it easy because you’re an elf. But elf society is not easy to survive. The upper crust can be absolutely ruthless about enforcing their status quo, labeling those who don’t fit as malcontents and finding ways to cast them aside. The barrens of the major sprawls of the world have plenty of elves who were thrown out because they wouldn’t cave to what society wanted them to be. Their anger could burn the whole earth.
 
@@ -474,7 +466,7 @@ Perhaps the most infuriating thing about elves to the other metatypes is that yo
 - Starting Strain Threshold: 10 + Tenacity
 - Starting Experience: 100
 - Starting Skills: Start with one rank in Resilience.
-- Thermographic Vision: Remove 2 Disadvantage from any check incurred by dim or no light.
+- Thermographic Vision: Remove 2 DISADVANTAGE from any check incurred by dim or no light.
 - Sturdy: Add +1 Proficiency to any Resilience check involving resisting a poison or toxin.
 
 Sixth World dwarfs are often accepted into mainstream society without being fully valued. The taller metatypes seem to be happiest when dwarfs fit the roles they have preconceived for them— sidekicks, drivers, mechanics, that sort of thing. It doesn’t help that their size helps them squeeze into vehicles that orks, humans, and elves might have difficulty with, ones that trolls couldn’t even consider using. Still, they get work and little direct hate. They’re treated nicely, but they can’t help but feel that they’re being, well, overlooked. Dwarfs across the globe are dedicated to showing that they cannot be ignored. Dwarf deckers, street samurai, covert ops specialists, faces, and more are popping up in the international shadows, and others underestimate them at their peril. The lack of heightened antipathy against dwarfs helped them assimilate in human communities better than other metatypes. This means that they do not have as many of their own enclaves as some of the other metatypes (it also doesn’t help that they don’t have access to whatever stream of revenue the elves tap into build their kingdoms). With the founding of the dwarf-centric Biloxi Technical Institute, southern Mississippi in the CAS is becoming a dwarf haven. What that will grow into and how that will shape the world is anyone’s guess.
@@ -486,7 +478,7 @@ Sixth World dwarfs are often accepted into mainstream society without being full
 - Starting Strain Threshold: 9 + Tenacity
 - Starting Experience: 100
 - Starting Skills: Start with one rank in Streetwise.
-- Low-light Vision: Remove 2 Disadvantage from any check incurred by dim light.
+- Low-light Vision: Remove 2 DISADVANTAGE from any check incurred by dim light.
 - Tough as Nails: Once per session, change the result of the dice rolled for a Critical Injury on you to 01.
 
 Orks make people nervous, and people don’t like to be nervous. Their tusks, bone structure, and pointed ears mark them as something altogether else, and their Stamina and size clearly show the damage they could do. As humans have done for centuries, they address the thing they fear by pushing them aside, keeping orks from building collective Stamina, and crushing them with the sheer force of numbers. That approach works as long as you can keep fear stoked and have it immobilize the masses. Because if people can move past the fear and start to understand the deliberate injustice that has been forced on some groups, they separate themselves from society’s machine, and the number of people used to enforce oppression gets smaller. Oppressors aren’t especially good at developing new solutions to such problems— they usually just resort to oppressing harder. So while realization of the injustices they deal with is spreading, orks across the Sixth World are preparing for things to get worse so that they can survive and set about the work of making things better. They already have some enclaves carved out for themselves— Seattle’s Underground, Atlanta’s Sweetwater Creek, Dharavi in the Indian Union—and they hope those locales will be the starting points for societies that include orks instead of fearing them.
@@ -498,7 +490,7 @@ Orks make people nervous, and people don’t like to be nervous. Their tusks, bo
 - Starting Strain Threshold: 8 + Tenacity
 - Starting Experience: 75
 - Starting Skills: Start with one rank in Athletics.
-- Thermographic Vision: Remove 2 Disadvantage from any check incurred by dim or no light.
+- Thermographic Vision: Remove 2 DISADVANTAGE from any check incurred by dim or no light.
 - Dermal Deposits: Increase Soak value by 1.
 
 It’s not easy to live in a society where you look like the walking embodiment of everyone else’s nightmares. Being two to three times as large as everyone else doesn’t help much, either. It’s not a troll’s world, and most of the other residents of the world aren’t inclined to change that fact. Who wants to make space for imposing monsters? Trolls are going to have to force their way into a place in the world—of course, when they force their way in anywhere, they’re inevitably called vandals and destroyers. A significant number of trolls have looked at the way the deck is stacked against them and decided they don’t need to play the rest of the world’s game anymore. They’ll stand aside and watch the world burn—and maybe throw on an extra match every now and then. The Black Forest Troll Republic is one of the most important troll communities in the world, acting as a beacon and vision for what troll society can be while keeping a certain distance from everyone else. Whether they assimilate or build a higher wall is an open question. Trolls have the most difficult time adapting to other metatypes because their bodies are so different. It’s more than just the size and the horns— they have dermal deposits all over their bodies that make knobs, bumps, and other formations. They scrape up furniture and clothing, and make some people think twice about giving a troll a big bear hug. Especially since there are few people who can wrap their arms around a whole troll.
@@ -597,7 +589,7 @@ The following is a breakdown of each talent. Each part of a tlaent conveys speci
 
 - Name: Every talent has a name, making it easy for you to refer to the talent.
 - Tier: Each talent belongs in one of five tiers, as we described previously in this section. The higher the tier, the more XP it costs for your character to purchase the talent.
-- Activation: Some talents, once chosen, constantly apply to your character; these are passive talents. Toughened, which increases your character’s wound threshold, is one such talent. Once you buy it, your character always has a higher wound threshold. Other talents are active, which means you choose when your character uses the talent. Natural, for example, lets you reroll one check in a game session, and you choose when your character uses it. If a tal- ent is active, it has additional details in parentheses describing how much time and effort it takes for your character to use the talent (see page 97 for more on actions, maneuvers, and incidentals). Finally, you can use most talents only on your character’s turn, but some talents can be used during another character’s turn. These talents have the “out of turn” descriptor.
+- Activation: Some talents, once chosen, constantly apply to your character; these are passive talents. Toughened, which increases your character’s wound threshold, is one such talent. Once you buy it, your character always has a higher wound threshold. Other talents are active, which means you choose when your character uses the talent. Natural, for example, lets you reroll one check in a game session, and you choose when your character uses it. If a tal- ent is active, it has additional details in parentheses describing how much time and effort it takes for your character to use the talent ([Rules](#chapter-4-rules)). Finally, you can use most talents only on your character’s turn, but some talents can be used during another character’s turn. These talents have the “out of turn” descriptor.
 - Ranked: Some talents are ranked, which means your character can take them more than once. We described ranked talents in more detail earlier.
 - Rules: These are the rules that describe what the talent does.
 
@@ -615,7 +607,7 @@ When making any knowledge skill check, your character can instead use this talen
 - Activation: Active (Incidental, Out of Turn)
 - Ranked: No
 
-Once per encounter, your character may use this talent to add automatic 2 Effect to another character’s social skill check.
+Once per encounter, your character may use this talent to add automatic 2 EFFECT to another character’s social skill check.
 
 ## Chapter 4: Rules
 
@@ -627,9 +619,9 @@ Potential = The higher of your STATIS or your SKILL.
 
 Proficiency = The lesser of your STATUS or your SKILL.
 
-If you have Intuition 2 and Perception 3. Your Potential is 3 and your Proficiency is 2. You would roll 3D6 + 2. You would pick one of your rolled D6 as the Effect die before rolling; its face = Effect.
+If you have Intuition 2 and Perception 3. Your Potential is 3 and your Proficiency is 2. You would roll 3D6 + 2. You would pick one of your rolled D6 as the EFFECT die before rolling; its face = EFFECT.
 
-Roll `Potential XD6 + Proficiency`. Total must meet or beat the Threshold. One of those D6 must be a different color as it is the Effect Dice (see below).
+Roll `Potential XD6 + Proficiency`. Total must meet or beat the Threshold. One of those D6 must be a different color as it is the EFFECT Dice (see below).
 
 #### Maximum Dice
 
@@ -640,15 +632,15 @@ Roll `Potential XD6 + Proficiency`. Total must meet or beat the Threshold. One o
 Everything in Sixfinity revolves around tests. Tests revolve around Rating and Rating have Thresholds. A Threshold is minimum number that must be rolled on (Potential XD6) in order to reach that rating. A lot of games also call the Threshold the Target Number or TN.
 
 
-| Rating (Effect) | Difficulty           | Threshold | Guidance                                                  |
-| --------------- | -------------------- | :-------: | --------------------------------------------------------- |
-| 0               | Routine              |     0     | Anyone can do this basically every time. Roll for Effect. |
-| 1               | Simple               |     5     | Most people can do this most of the time                  |
-| 2               | Average              |    10     | 50/50 Chance                                              |
-| 3               | Hard                 |    15     | Even trained people often fail                            |
-| 4               | Intimidating         |    20     | Normal people almost never succeed                        |
-| 5               | Formidable           |    25     | Truly a monumental task that should not be attempted      |
-| 6               | Basically Impossible |    30     | Without Edge and a lot of luck this is unobtainable       |
+| Rating (EFFECT) | Difficulty        | Threshold | Guidance                                                  |
+| --------------- | ----------------- | :-------: | --------------------------------------------------------- |
+| 0               | Routine           |     0     | Anyone can do this basically every time. Roll for EFFECT. |
+| 1               | Easy              |     5     | Most people can do this most of the time                  |
+| 2               | Average           |    10     | 50/50 Chance                                              |
+| 3               | Hard              |    15     | Even trained people often fail                            |
+| 4               | Daunting          |    20     | Normal people almost never succeed                        |
+| 5               | Formidable        |    25     | Truly a monumental task that should not be attempted      |
+| 6               | Nearly Impossible |    30     | Without Edge and a lot of luck this is unobtainable       |
 
 ### Critical Failure: Glitching
 
@@ -661,15 +653,15 @@ When you roll a 1 on the **Majority** of your dice. If you succeed at your task 
 When you roll a 6 on the Majority of your dice (Potential XD6), you get an immediate Edge dice to roll and add to your roll for free. You cannot bank this Edge you must spend it immediately.
 
 
-### Effect
+### EFFECT
 
-Effect tells you how well something went, or at times how poorly it went. Effect is also a currency that can be used in some situations (like combat to trigger Auto-Fire).
+EFFECT tells you how well something went, or at times how poorly it went. EFFECT is also a currency that can be used in some situations (like combat to trigger Auto-Fire).
 
-The number shown on the Effect Dice is the amount of Effect. If you succeed or fail, that is still the amount of Effect.
+The number shown on the EFFECT Dice is the amount of EFFECT. If you succeed or fail, that is still the amount of EFFECT.
 
-#### Net Effect
+#### NET EFFECT
 
-In some cases (mostly opposed rolls) you and the opposition will both be rolling. Whoever wins you take the higher Effect dice and subtract the Lower effect dice the difference is the Net Effect. In the event of a Zero then there was no Net Effect.
+In some cases (mostly opposed rolls) you and the opposition will both be rolling. Whoever wins you take the higher EFFECT dice and subtract the Lower effect dice the difference is the NET EFFECT. In the event of a Zero then there was no NET EFFECT.
 
 ### Edge
 
@@ -681,7 +673,7 @@ Spending Edge:
 
 - Before rolling, you can spend 1 Edge. The most you can ever spend on a Test is 1 Edge.
 - For each Edge spent, roll 1d6 and add the result to your test total.
-- These d6s also increase your Effect if they push you over higher Ratings.
+- These d6s also increase your EFFECT if they push you over higher Ratings.
 
 Refreshing Edge:
 
@@ -698,18 +690,29 @@ Example: Shooting a Guard
 - Your total is now 17 thats enough to hit the Guard and do your damage.
 
 
-### Advantage and Disadvantage
-Advantage and Disadvantage is purely adding beneficial circumstances, and adding hindrances to a players tests. This is done much the same way Edge works.
+### ADVANTAGE and DISADVANTAGE
+ADVANTAGE and DISADVANTAGE is purely adding beneficial circumstances, and adding hindrances to a players tests. This is done much the same way Edge works.
 
-Advantage: Add 1D6 to your roll. The most advantage you can have is 4D6 even with Edge.
+ADVANTAGE: Add 1D6 to your roll. The most advantage you can have is 4D6 even with Edge.
 
-Disadvantage: The GM rolls 1D6 per Disadvantage ad adds it to the Threshold. Defense is a great example of Disadvantage, for each point of Defense you have the enemy rolls 1D6 and adds it to the Threshold for them to be hit (which is based on range). Up to 4D6.
+DISADVANTAGE: The GM rolls 1D6 per DISADVANTAGE ad adds it to the Threshold. Defense is a great example of DISADVANTAGE, for each point of Defense you have the enemy rolls 1D6 and adds it to the Threshold for them to be hit (which is based on range). Up to 4D6.
 
 Multiple advantages and disadvantages stack. **The most D6 from any sources including Edge, Defense or otherwise to a single Test is 4.**
 
+### Bane and Boon
+
+Sometimes a Gamemaster wants to add a little something or take a little something off to demonstrate a minor benefit or detriment to a situation. Elevated position, superior optics etc. 
+
+This is where Bane and Boon come from. They have no effect on your odds of success. They affect the outcome aftweards, they add or take away from EFFECT.
+
+Boon = +1 EFFECT
+
+Bane = -1 EFFECT
+
+This is calculated after NET EFFECT is determined. So if you have a NET EFFECT of 3 and a Bane of 1 then your final NET EFFECT is 2. 
 
 ### Success Tests
-In a Simple test, you roll `Potential XD6 + Proficiency`, and see if you meet total or beat a Threshold established by the gamemaster. The gamemaster establishes the Threshold based on the Threshold Guidelines and suggestions and guidelines established within the rules. If the the total is equal to or greater than the threshold, the action succeeds; in some occasions, the number of effect matters see Effect.
+In a Simple test, you roll `Potential XD6 + Proficiency`, and see if you meet total or beat a Threshold established by the gamemaster. The gamemaster establishes the Threshold based on the Threshold Guidelines and suggestions and guidelines established within the rules. If the the total is equal to or greater than the threshold, the action succeeds; in some occasions, the number of effect matters see EFFECT.
 
 Written as `Potential XD6 + Proficiency (Threshold Rating)`
 
@@ -727,19 +730,66 @@ Opposed tests happen whenever a character has to pit her skills against another 
 
 Note that Opposed tests do not list a threshold. That’s because in an Opposed test, you are trying to roll higher than an opponent. Sometimes the opponent is rolling the same skill + attribute combination, sometimes a different one.
 
-In an opposed test the Net Effect goes to the Victor. Be careful with Edge or taking on challenges where the Disadvantages are stacked against you ... you could find the Net Effect to be quite punishing. No risk, no reward.
+In an opposed test the NET EFFECT goes to the Victor. Be careful with Edge or taking on challenges where the Disadvantages are stacked against you ... you could find the NET EFFECT to be quite punishing. No risk, no reward.
 
 ### Extended Tests
 
-Extended tests are Effect Tests. You are rolling for Effect in these cases. They have a Skill, a Stat, and a required Effect. You need not meet the total Effect in one roll. Each roll takes as much time as the test text indicates.
+Extended tests are EFFECT Tests. You are rolling for EFFECT in these cases. They have a Skill, a Stat, and a required EFFECT. You need not meet the total EFFECT in one roll. Each roll takes as much time as the test text indicates.
 
 Written as: Extended `Mechanics + Talent (9, 1 hour) test`
 
-The above means make multiple `Mechanics + Talent` tests. When your total Effect is 9 you are done. Each roll takes 1 hour.
+The above means make multiple `Mechanics + Talent` tests. When your total EFFECT is 9 you are done. Each roll takes 1 hour.
 
 ### Individual Rule Sections
 
 These sections are referenced in other locations in the book for how something works. This is the central repository for this information instead of scattering it all over the book in Combat, Equipment, etc.
+
+#### Critical Injury
+
+A particularly dangerous type of harm is a Critical Injury. A Critical Injury is often the result of an attack during combat, but characters can also suffer one from exceeding their wound threshold or through other means. Each time a character suffers a Critical Injury, the player rolls d100 on Table Critical Injury Result, below, to determine the injury’s severity rating and effects. These effects are cumulative.
+
+The short-term effects of some injuries are temporary, and may only disorient or afflict the character for a brief amount of time. Other injuries are more serious and represent some sort of long-term debilitation or impairment. These injuries continue to affect the character until they receive the proper medical treatment to recover from the injury.
+
+Regardless, a Critical Injury remains with the character until properly healed; even if the short-term effect of the Critical Injury has passed, the status of having a Critical Injury remains. Each Critical Injury a character suffers from adds +10 to any subsequent Critical Injury roll. Essentially, Critical Injury is cumulative, and left untreated, even a number of relatively minor Critical Injuries can lead to devastating results.
+
+**Critical Injury Result Table**
+
+| D100    | Severity | Result                      |
+| ------- | -------- | --------------------------- |
+| 01-05   | 1        | -1 Proficiency to All Tests |
+| 06-10   | 1        | -1 Proficiency to All Tests |
+| 11-15   | 1        | -1 Proficiency to All Tests |
+| 16-20   | 1        | -1 Proficiency to All Tests |
+| 21-25   | 1        | -1 Proficiency to All Tests |
+| 26-30   | 1        | -1 Proficiency to All Tests |
+| 31-35   | 1        | -1 Proficiency to All Tests |
+| 36-40   | 1        | -1 Proficiency to All Tests |
+| 41-45   | 2        | -2 Proficiency to All Tests |
+| 46-50   | 2        | -2 Proficiency to All Tests |
+| 51-55   | 2        | -2 Proficiency to All Tests |
+| 56-60   | 2        | -2 Proficiency to All Tests |
+| 61-65   | 2        | -2 Proficiency to All Tests |
+| 66-70   | 2        | -2 Proficiency to All Tests |
+| 71-75   | 2        | -2 Proficiency to All Tests |
+| 76-80   | 2        | -2 Proficiency to All Tests |
+| 81-85   | 2        | -2 Proficiency to All Tests |
+| 86-90   | 2        | -2 Proficiency to All Tests |
+| 91-95   | 3        | 1 DISADVANTAGE to All Tests |
+| 96-100  | 3        | 1 DISADVANTAGE to All Tests |
+| 101-105 | 3        | 1 DISADVANTAGE to All Tests |
+| 106-110 | 3        | 1 DISADVANTAGE to All Tests |
+| 111-115 | 3        | 1 DISADVANTAGE to All Tests |
+| 116-120 | 3        | 1 DISADVANTAGE to All Tests |
+| 121-125 | 3        | 1 DISADVANTAGE to All Tests |
+| 126-130 | 4        | Incapacitated               |
+| 131-140 | 4        | Incapacitated               |
+| 141-150 | 4        | Incapacitated               |
+| 151+    | 5        | Dead                        |
+
+
+##### Strain Damage and Critical Injuries
+
+Although not always likely, some attacks that deal strain damage (notably weapons with the Stun Damage quality) can also trigger Critical Injuries. Although this may seem odd, it actually makes sense. When a player character inflicts a Critical Injury on an adversary that can be incapacitated by a single Critical Injury (such as a minion), then the adversary is simply incapacitated by being rendered unconscious. If a PC or nemesis NPC suffers a Critical Injury from a weapon dealing strain damage, the outcome can be anything from adverse long-term effects from the weapon, to tangential injuries from being stunned (for example, the character could be knocked off balance and take a nasty crack on the skull when they hit the ground). Of course, since these Critical Injuries would have to be triggered by the players or GM, both parties can always decide that a Critical Injury would not make sense in that narrative, and choose not to trigger them.
 
 #### Concept
 
@@ -763,10 +813,10 @@ The GM can introduce a Compel.
 - Minor Compel: You still succeed, but something annoying happens (your pistol jams, your lockpick breaks, your code tripwires a trace).
 - Major Compel: You fail and something worse happens (your gun’s safety locks, the door alarms, your deck reboots).
 
-Whenever the GM delivers a Major Compel — or at any moment he wants to add a complication — you gain 2 XP or 2 Edge back.
+Whenever the GM delivers a Major Compel — or at any moment he wants to add a complication — you gain 5 XP.
 
-- You may refuse a Compel by paying 1 Edge, but then you don’t earn the 2 XP or 2 Edge.
-- If you have no XP or Edge (whatever is offered), you must accept the Compel.
+- You may refuse a Compel by paying 1 Edge, but then you don’t earn the 5 XP.
+- If you have Edge, you must accept the Compel.
 
 As a guideline, the GM should use Compels once or twice per session per character — enough to make things interesting, not overwhelming.
 
@@ -798,7 +848,7 @@ Medium range can be up to several dozen yards away. More reliable pistols can re
 **Long Range**
 - Threshold: 15
 
-Long range is farther than a few dozen yards. Rifles, mounted weapons, and weapons that use the Gunnery skill can reliably reach this far without too much trouble. Two people within long range of each other need to yell loudly to hear each other. Moving from medium range to long range requires two maneuvers, as it involves a greater distance and takes more time than moving between medium range and short range. This means that in most cases, a character cannot close the distance between short and long range in a single round, as it would take three maneuvers (one for short to medium, plus two for medium to long).
+Long range is farther than a few dozen yards. Rifles, mounted weapons, and weapons that use the Gunnery skill can reliably reach this far without too much trouble. Two people within long range of each other need to yell loudly to hear each other. Moving from medium range to long range requires two actions, as it involves a greater distance and takes more time than moving between medium range and short range. This means that in most cases, a character cannot close the distance between short and long range in a single round, as it would take three actions (one for short to medium, plus two for medium to long).
 
 **Extrem Range**
 - Threshold: 20
@@ -813,19 +863,19 @@ Extreme range is the farthest range at which two targets can interact. High-tech
 
 **Action, Minor:** Character actions like moving, taking cover, avoiding incoming attacks, taking attacks of opportunity, reloading weapons, etc. 
 
-**Advantage:** Adds 1D6 to the person rolling.
+**ADVANTAGE:** Adds 1D6 to the person rolling.
 
 **Character:** Any creature in the game capable of acting whether it is a player character, PC, run by a player or a non-player character, NPC, run by the Game Master, GM. In the Sixfinity system, even bizarre creatures, sentient machines, and living energy beings can be characters.
 
 **Difficulty:** Synonymous with rating. Ranges 0-5.
 
-**Disadvantage:** Adds 1D6 to pposed roll or to the Threshold of a test.
+**DISADVANTAGE:** Adds 1D6 to pposed roll or to the Threshold of a test.
 
-**Edge:** Edge is a character’s luck, instincts, and ability to turn the odds in their favor. Comes in a pool that allows 1D6 to be added to a test. Purchasable Advantage
+**Edge:** Edge is a character’s luck, instincts, and ability to turn the odds in their favor. Comes in a pool that allows 1D6 to be added to a test. Purchasable ADVANTAGE
 
-**Effect:** The total on the Effect Dice.
+**EFFECT:** The total on the EFFECT Dice.
 
-**Effect, Net:** The amount of effect left over after the reduction of the effect of an opponent or an obstacle.
+**EFFECT, Net:** The amount of effect left over after the reduction of the effect of an opponent or an obstacle.
 
 **Roll:** A D6 roll made by a PC to determine whether an action is successful. Although the game occasionally uses other dice, when the text simply refers to "a roll", it always means a D6 roll.
 
@@ -1263,23 +1313,49 @@ This skill represents the character’s understanding of topics normally taught 
 More ranks may represent the equivalent of a college education. Five ranks would be a master in their field.
 
 Your character should use this skill if...
-• Your character tries to do something academic, such as calculate a theorem, conduct an experiment, or write a history thesis.
-• Your character tries to research a certain topic through academic means.
-• Your character performs critical thinking or tries to figure out a logic puzzle.
-• Your character tries to find out if they know an important fact about the world around them that they may have learned in school.
-• Your character tries to find out information about people or organizations tied to an Academic background.
+- Your character tries to do something academic, such as calculate a theorem, conduct an experiment, or write a history thesis.
+- Your character tries to research a certain topic through academic means.
+- Your character performs critical thinking or tries to figure out a logic puzzle.
+- Your character tries to find out if they know an important fact about the world around them that they may have learned in school.
+- Your character tries to find out information about people or organizations tied to an Academic background.
 
 #### Interests
 
 Runners aren’t all shooting people and getting shot at. Some have hobbies outside of death and destruction. This skill represents things you know because of what you do for fun.
 
-One rank may represent someone knowing the names of all the Urban Brawl teams. Two ranks may represent knowing players and coaches. More ranks may represent in-depth knowledge that only true fans would know. Five ranks is reaching true geek levels. These are the ones who start massive flame wars online in Matrix hosts ded- icated to the topic.
+One rank may represent someone knowing the names of all the Urban Brawl teams. Two ranks may represent knowing players and coaches. More ranks may represent in-depth knowledge that only true fans would know. Five ranks is reaching true geek levels. These are the ones who start massive flame wars online in Matrix hosts dedicated to the topic.
 
 
 Your character should use this skill if...
-• Your character tries to recall a fact about pop culture, leisure activity, pastime, sports team, etc.
-• Your character tries to research information related to a hobby or pop culture.
-• Your character tries to find out information about people or organizations tied to pop culture, sports, or other hobby.
+- Your character tries to recall a fact about pop culture, leisure activity, pastime, sports team, etc.
+- Your character tries to research information related to a hobby or pop culture.
+- Your character tries to find out information about people or organizations tied to pop culture, sports, or other hobby.
+
+#### Magic
+
+True magic came back to the world during the Awakening several decades ago, but there is a rich history of it from previous ages of the world. Studying ancient tomes can yield powerful magical effects and abilities. Mages and Shamans can extend their power by learning these ancient secrets.
+
+Your character should use this skill if...
+- Your character is casting a spell that increases affects by the character’s knowledge. Use this knowledge skill’s ranks for that number.
+- Your character tries to research information related to magical artifacts, magical theory, spirits, or other mystical elements.
+- Your character tries to find out if they know an important fact about magical creatures, spells, spirits, foci, or other magical things.
+
+#### Professional
+
+Corporations tend to hate other corporations and hire you to hurt said corporations. As dull as it may sound, knowing information about normal trades, professions, and occupations can pan out useful information on a run.
+
+Your character should use this skill if...
+- Your character is trying to find out information about people that work for corporations or the cor- porations themselves.
+- Your character tries to find out procedures that security companies usually follow.
+- Your character tries to find out where to purchase legal goods not available at your local Stuffer Shack.
+
+#### Street
+Knowing how things get done in the shadows and the people to watch out for or that may be able to help you in a bind can save your life out on the streets. Ranks in this skill represent your knowledge of the neighborhoods, gang territories, organized crime members, and the peo- ple in the know.
+
+Your character should use this skill if...
+- Your character tries to find out which Yakuza gumi controls an area.
+- Your character tries to recognize which gang colors a particular thug is wearing.
+- Your character tries to research safehouses in the area.
 
 ### MAGIC SKILLS
 
@@ -1306,52 +1382,36 @@ Your character should use this skill if…
 
 ## Chapter 7: Equipment
 
-You’re only as good as your gear. It’s a common saying, but it’s true, especially on the mean streets of the Sixth World. Having the wrong gear at the right time or the right gear at the wrong time are both potentially fatal flaws. Either way you’re probably going to end up in a world of hurt, or worse.
 
-One of the largest problems that the Shadowrun game has is an equipment bloat, particularly in the area of firearms. While it may seem fun to have a different name for every single pistol and every single rifle with multiple options, at the end of the day all of them do relatively the same type of damage and hold different sizes of magazines or clips or belt fed or what have you. Traditional Sixfinity and its derivatives tend to treat weapons as melee, which come in light, medium and heavy varieties, projectile, which come in light, medium and heavy varieties, in this case firearms, which come in light, medium and heavy varieties, as well as what would be considered heavier weapons which use gunry as a skill to fire. Those typically do not come in light, medium and heavy. These are types of tactical weapons that generally only do a very large amount of damage, but they can't fire very often and the ammunition is very expensive.
-
-Speaking of ammunition, it is not typically tracked in a regular game of Sixfinity. Ammunition is treated as one of those things where if you roll a 1 on your dice, one of the things that may happen is that you need to be forced to do a reload in order to clear the glitch or botch. The reason for this is characters are treated as professionals in their field and are expected to carry enough ammunition with them to get the job done. Obviously there are exceptions, those being special types of ammunition like explosive rounds or armor piercing, sable rounds, that sort of thing. As well as ammunition for grenade launchers, rocket launchers, and the sort. Those types of ammunition are always tracked.
-
-**Light Weapons:** Light weapons are always one-handed. They tend to do two to three points of damage, either physical or stun. Light weapons have Advantage I on attacks because they are small, lightweight, and easy to attack with. 
-
-**Medium Weapons:** Medium weapons are heavier than light weapons. They can be used one-handed or two-handed. And they do four points of damage, typically four to five, physical or stun. These would be things like medium pistols like a Ares Predator pistol, Submachine guns etc.
-
-**Heavy Weapons:** Heavy weapons are always two-handed weapons and they tend to do about six to seven points of physical or stun damage. Think of shotguns, long arm rifles, assault rifles, as well as Heavy Pistols such a .357 Revolver, that sort of thing.
-
-**Very Heavy Weapons:** Very heavy weapons are difficult to wield, Machine Guns, Launchers, etc. They typically do eight to nine points of damage.
-
-### Gear Details
-
-The key functions of any piece of gear in Shadowrun are expressed in its game STATIS. The exact categories of STATIS depend on the item’s type. Cost is a universal stat—everything costs money—and all items also have Availability. We’ll cover that and some of the more specialized STATIS.
 
 #### Item Qualities
 
 Some equipment features special qualities that add variety and depth to the weapons, armor, and items your character may encounter. In our game, item quali- ties are special rules that can change how the item acts. They let us add more variety to an item than we could by only manipulating its raw STATIS. They also make the items more interesting for you, since many qualities may require you to think about your character using that item differently.
 
-Special qualities are generally either passive or active. Passive qualities are always “on” and require no activation on the part of the user. Active qualities must be triggered by the user, often by spending one or more Effect to activate the effect.
+Special qualities are generally either passive or active. Passive qualities are always “on” and require no activation on the part of the user. Active qualities must be triggered by the user, often by spending one or more EFFECT to activate the quality.
 
 Item qualities usually have a number associated with them. This is their rating. Ratings affect qualities in different ways, depending on the quality in question.
 
-Active qualities require 2 Effect to activate unless otherwise stated in their description. Active item qualities on weapons can only trigger on a successful attack, unless specified otherwise.
+Active qualities require 2 EFFECT to activate unless otherwise stated in their description. Active item qualities on weapons can only trigger on a successful attack, unless specified otherwise.
 
 
 **Accurate (Passive)**
 
-Accurate weapons are easier to aim or wield, whether through design or technology. For each level of this quality, the attacker adds 1 Proficiency to their combat checks while using this weapon.
+Accurate weapons are easier to aim or wield, whether through design or technology. For each level of this quality, the attacker adds 1 BOON to their combat checks while using this weapon.
 
 **Auto-Fire (Active)**
 
-A weapon with Auto-fire can be set to shoot in rapid succession and potentially spray an area with bolts, flechettes, slugs, or other types of projectiles. The advantage in using Auto-fire is that it has the chance to hit multiple targets or to hit a single target multiple times. As attacking with a weapon on Auto-fire is generally less accurate, the attacker suffers 1 Disadvantage to hit. The user may choose not to use the Auto-fire quality on a weapon; in this case, they cannot trigger the quality but also do not suffer the aforementioned penalty.
+A weapon with Auto-fire can be set to shoot in rapid succession and potentially spray an area with bolts, flechettes, slugs, or other types of projectiles. The advantage in using Auto-fire is that it has the chance to hit multiple targets or to hit a single target multiple times. As attacking with a weapon on Auto-fire is generally less accurate, the attacker suffers 1 DISADVANTAGE to hit. The user may choose not to use the Auto-fire quality on a weapon; in this case, they cannot trigger the quality but also do not suffer the aforementioned penalty.
 
-If the attack hits. For every 2 Effect of the roll it deals an additional hit to the target. Each of these counts as an additional hit from that weapon, and each hit deals base damage plus net Effect from the test.
+If the attack hits. For every 2 EFFECT of the roll it deals an additional hit to the target. Each of these counts as an additional hit from that weapon, and each hit deals base damage plus NET EFFECT from the test.
 
-These additional hits can be allocated to the original target, or to other targets within range of the weapon. If the attacker wishes to hit multiple targets, they must decide to do so before making the test. Furthermore, if they wish to hit multiple targets, their initial target must always be the target with the highest difficulty and high- est defense (if this is two separate targets, the GM chooses which is the initial target). The initial hit must always be against the initial target. Subsequent hits generated can be allocated to any of the other designated targets.
+These additional hits can be allocated to the original target, or to other targets within range of the weapon. If the attacker wishes to hit multiple targets, they must decide to do so before making the test. Furthermore, if they wish to hit multiple targets, their initial target must always be the target with the highest difficulty and highest defense (if this is two separate targets, the GM chooses which is the initial target). The initial hit must always be against the initial target. Subsequent hits generated can be allocated to any of the other designated targets.
 
 **Blast (Active)**
 
-The weapon has a large spread, an explosive blast, or a similar area of effect, like a detonated grenade or a warhead fired from a missile launcher. If the attack is successful and Blast activates, each character (friend or foe) engaged with the original target suffers a hit dealing damage equal to the Blast quality’s rating, plus damage equal to the total net effect scored on the test. In a relatively small and enclosed area, the Game Master might decide that everyone in the room suffers damage. If the Blast quality doesn’t activate, the ordnance still detonates, but bad luck or poor aim on the part of the firer (or quick reactions on the part of the targets) means the explosion may not catch anyone else in its radius. 
+The weapon has a large spread, an explosive blast, or a similar area of effect, like a detonated grenade or a warhead fired from a missile launcher. If the attack is successful and Blast activates, each character (friend or foe) engaged with the original target suffers a hit dealing damage equal to the Blast quality’s rating, plus damage equal to the total NET EFFECT scored on the test. In a relatively small and enclosed area, the Game Master might decide that everyone in the room suffers damage. If the Blast quality doesn’t activate, the ordnance still detonates, but bad luck or poor aim on the part of the firer (or quick reactions on the part of the targets) means the explosion may not catch anyone else in its radius. 
 
-However, the user may also trigger Blast if the attack misses by spending 3 Effect. In this case, the original target and every target engaged with the original target suffers a hit dealing damage equal to the Blast rating of the weapon.
+However, the user may also trigger Blast if the attack misses by spending 3 EFFECT. In this case, the original target and every target engaged with the original target suffers a hit dealing damage equal to the Blast rating of the weapon.
 
 **Breach (Passive)**
 
@@ -1359,7 +1419,9 @@ Weapons with Breach burn through the toughest armor; they are often heavy weapon
 
 **Burn (Active)** 
 
-Weapons with Burn inflict damage over time. If the attack is successful, the target continues to suffer the weapon's base damage for a number of rounds equal to the weapon's Burn rating. Damage is applied at the start of each of the target's actions. 
+Weapons with Burn inflict damage over time. When Burn is triggered, one target hit by the attack continues to suffer the weapon’s base damage each round for a number of rounds equal to the weapon’s Burn rating. Apply damage at the start of each of the target’s turns. If multiple targets suffer hits from a weapon with Burn, the quality may be triggered multiple times, affecting a different target each time.
+
+A victim might be able to stop the damage by performing an action to roll around and make a Coordination check. The difficulty is Average on hard surfaces such as the floor of a building, or an Easy on grass or soft ground. Jumping into a body of water stops the damage immediately. Both situations assume the flame is from actual combustion rather than a chemical reaction. With the latter, there is usually little the victim can do.
 
 **Concussive (Active)**
 
@@ -1367,7 +1429,7 @@ The weapon’s attack can leave the target shell-shocked from mighty blows or pu
 
 **Cumbersome (Passive)**
 
-A Cumbersome weapon is large, unwieldy, awkward, or heavy. To wield a Cumbersome weapon properly, the character needs a Stamina characteristic equal to or greater than the weapon’s Cumbersome rating. For each point of Stamina by which the character is deficient, they must take Disadvantage by 1 per deficiency.
+A Cumbersome weapon is large, unwieldy, awkward, or heavy. To wield a Cumbersome weapon properly, the character needs a Stamina characteristic equal to or greater than the weapon’s Cumbersome rating. For each point of Stamina by which the character is deficient, they must take DISADVANTAGE by 1 per deficiency.
 
 **Defensive (Passive)**
 
@@ -1379,7 +1441,7 @@ An item with the Deflection quality increases the user’s ranged defense by its
 
 **Disorient (Active)**
 
-A weapon with Disorient can daze an opponent. When Disorient is triggered, one target hit by the attack is disoriented for a number of rounds equal to the weapon’s Disorient rating. A disoriented target adds 1 Disadvantage to all skill checks they perform. If multiple targets suffer hits from a weapon with Disorient, the quality may be triggered multiple times, affecting a different target each time.
+A weapon with Disorient can daze an opponent. When Disorient is triggered, one target hit by the attack is disoriented for a number of rounds equal to the weapon’s Disorient rating. A disoriented target adds 1 BANE to all skill checks they perform. If multiple targets suffer hits from a weapon with Disorient, the quality may be triggered multiple times, affecting a different target each time.
 
 **Ensnare (Active)**
 
@@ -1391,53 +1453,86 @@ An Ensnared target may perform an action to attempt a Hard Athletics check on th
 
 A weapon with the Guided quality can track opponents. The Guided quality can only be triggered if an attack misses. If Guided is triggered, the controlling character may make a combat check at the end of the round as an out-of-turn incidental. The difficulty of this combat check is Average; instead of building the ability of the pool normally, add Proficiency equal to the weapon’s Guided rating. If the check is successful, the weapon strikes the target, and the attack is resolved normally.
 
-Guided requires 3 Effect to activate, unless otherwise specified in the weapon’s description. The Guided quality can activate on any subsequent combat check it makes, representing the projectile continuing to track the target.
+Guided requires 3 EFFECT to activate, unless otherwise specified in the weapon’s description. The Guided quality can activate on any subsequent combat check it makes, representing the projectile continuing to track the target.
 
 **Inaccurate (Passive)**
 
-Inaccurate weapons are less likely to be accurate or precise. When making an attack with an Inaccurate weapon, subtract 1 Proficiency to the check equal to the Inaccurate rating.
+Inaccurate weapons are less likely to be accurate or precise. When making an attack with an Inaccurate weapon, add 1 BANE to the check equal to the Inaccurate rating.
 
 **Inferior (Passive)**
 
-An Inferior item is a lackluster example of its kind, representing shoddy and poor craftsmanship. An Inferior item generates automatic Disadvantage on all checks related to its use.
+An Inferior item is a lackluster example of its kind, representing shoddy and poor craftsmanship. An Inferior item generates 1 BANE on all checks related to its use.
 
 **Knockdown (Active)**
 
-When Knockdown is triggered, one target hit by the attack is knocked prone. If multiple targets suffer hits from a weapon with Knockdown, the quality may be triggered multiple times, affecting a different target each time. Unless specified otherwise, Knockdown requires 2 Effect to trigger, plus one additional 1 Effect per silhouette of the target beyond 1.
+When Knockdown is triggered, one target hit by the attack is knocked prone. If multiple targets suffer hits from a weapon with Knockdown, the quality may be triggered multiple times, affecting a different target each time. Unless specified otherwise, Knockdown requires 2 EFFECT to trigger, plus one additional 1 EFFECT per silhouette of the target beyond 1.
 
 **Limited Ammo (Passive)**
 
 Some weapons fire particularly large or complex projectiles that cost lots of money. Other weapons are expendable weapons like grenades that, once used, are destroyed. A weapon with the Limited Ammo quality may be used to make a number of attacks equal to its Limited Ammo rating before it must be reloaded with an action. In addition, each shot expends one of a limited number of rounds of ammo; more ammo must be purchased or obtained before anyone fires the weapon again. This also applies to grenades and other “one-use” weapons that have the Limited Ammo 1 quality (here, your character is not “reloading” the grenade, but drawing another to use—mechanically, they are equivalent).
 
 **Linked (Active)**
-> Shadowrun Smartlink
 
-Some weapons are designed to fire together at the same target (turrets housing multiple guns are a good exam- ple of this). When a character fires a linked weapon, on a successful attack, the weapon deals one hit. The wielder may spend 󲊴 󲊴 to gain an additional hit, and may do so a number of times equal to the weapon’s Linked rating. Additional hits from the Linked weapon may only be applied against the original target. Each hit deals the weapon’s base damage plus damage equal to the 󲊳 scored on the check.
+Some weapons are designed to fire together at the same target (turrets housing multiple guns are a good example of this). When a character fires a linked weapon, on a successful attack, the weapon deals one hit. The wielder may spend 2 EFFECT to gain an additional hit, and may do so a number of times equal to the weapon’s Linked rating. Additional hits from the Linked weapon may only be applied against the original target. Each hit deals the weapon’s base damage plus damage equal to the NET EFFECT scored on the check.
 
+**Pierce (Passive)**
+
+Any hits from this weapon ignore a number of points point of soak equal to the weapon’s Pierce rating. If the weapon has more ranks of Pierce than the target’s total soak, it completely ignores the target’s soak. For example, Pierce 3 against a soak of 2 ignores two points of soak, but the extra point of Pierce has no further effect.
+
+**Prepare (Passive)**
+
+Items with this quality require time to set up before being used. The user must perform a number of preparation actions equal to the item’s Prepare rating before using the item (if the item is a weapon, “using” it would be making attacks with the weapon). At your GM’s discretion, moving with the item, being knocked prone with the item, or other disruptions may require the user to perform the preparation actions again before using the item.
+
+**Reinforced (Passive)**
+
+Weapons or items with the Reinforced quality are immune to the Sunder quality. Armor with the Reinforced quality make the wearer’s soak immune to the Pierce and Breach qualities.
+
+**Slow-Firing (Passive)**
+
+Slow-Firing weapons tend to deal incredible damage, but need time to recharge or cool down between shots. A weapon’s Slow-Firing rating dictates the number of rounds that must pass before the weapon can be fired again after attacking. For example, a heavy 60mm cannon with Slow-Firing 2 must wait two rounds after being fired before it can be fired again.
+
+**Stun (Active)**
+
+A weapon with Stun can deal strain to the target. When the Stun quality is activated, it inflicts strain equal to the weapon’s Stun rating. Since this is strain, and not wound damage, it is not reduced by the target’s soak.
+
+**Stun Damage (Passive)**
+
+A weapon with this quality can only deal strain damage (damage applied to the target’s strain threshold). Because this is strain damage, not strain, it is still reduced by a target’s soak.
+
+**Sunder (Active)**
+
+When activating Sunder, the attacker chooses one item openly wielded by the target (such as a weapon, shield, or item on a belt). That item is damaged one step: to minor if undamaged, from minor to moderate, or from moderate to major. If an item already suffering major damage is the target of a successful Sunder, it is destroyed. Sunder requires 1 EFFECT to activate, and may be activated even if the attack is unsuccessful. Sunder may be activated multiple times in the same attack, but each activation must be applied to the same item, potentially taking it from undamaged to destroyed in a single attack.
+
+**Superior (Passive)**
+
+A Superior item is a sterling example of its kind, representing masterful craftsmanship. A Superior item generates automatic 1 EFFECT on all checks related to its use.
+
+**Unwieldy (Passive)**
+
+An Unwieldy weapon is a weapon that can be particularly awkward to use for those without impressive dexterity and hand-eye coordination. To wield an Unwieldy weapon properly, the character needs an Agility characteristic equal to or greater than the weapon’s Unwieldy rating. For each point of Agility by which the character is deficient, they must they suffer 1 DISADVANTAGE per point of difficiency.
+
+**Vicious (Passive)**
+
+When an attack with this weapon results in a Critical Injury or Hit, the character adds ten times the Vicious rating to the Critical roll. With Vicious 3, for example, you would add +30 to the resulting Critical Injury or Hit result.
 
 
 
 #### Availability
 
-Availability expresses how easy it is to find a piece of gear. The higher the number, the more scarce the item is. Availabilities typically range from 1 to 6, but circumstances can push them up to 9.
+Some items are naturally more difficult to purchase than others, depending on where your characters find themselves at any given time. Of course, some items are rare no matter where one goes, and likewise, some items are always common and inexpensive.
 
-Note that the top levels of Availability are primarily reserved for alphaware, betaware, and deltaware versions of augmentations.
-
-Availability ratings give a general sense to the gamemaster of whether player characters can find a given item, but they also can be used in mechanics in two ways. First, the Availability rating can be used as a threshold in Matrix Search tests to find someone who carries the item—though the gamemaster should note that just because the players find a seller doesn’t mean that seller will be easily accessible. Second, players may ask a contact to locate an item. 
-
-Generally speaking, contacts can find goods whose Availability is less than (not equal to) their Connection rating. Whether they connect the player characters to the gear is a question of Loyalty and role-playing.
+Availability in Sixfinity measures how difficult an item can be to find on a scale of 0–10, with 0 being the easiest to track down and 10 being the hardest. However, whether or not an item is available for purchase should never be solely a matter of rolling dice. Instead, your Game Master always has at least partial say as to whether an item is available in a certain location. Nevertheless, for simple items, rarity provides a simple way for your GM to determine whether something is available and to let you easily track items down. We suggest that you make a successful Negotiation, Streetwise, or Knowledge skill check to determine where your character can find an item.
 
 **Availability**
 
-- 1 These items can be found just about anywhere. If you’re in a relatively civilized area, just walk a few blocks, and you’ll find a place that sells this.
-- 2 These items are a bit more specialized, but that mainly means you’ll have to seek out a store that focuses on this type of merchandise, rather than finding it in your local Stuffer Shack or whatever.
-- 3 These are starting to be boutique items, the type of things aficionados seek out, or things that are made in relatively small batches. They’re not the rarest items, but they’re also not sitting in a ton of stores across the sprawl.
-- 4 Now we’re getting into specialty markets. These are things not intended for mass markets, and their specialized function isn’t for everyone. Few people in any given sprawl carry them, and their supplies are limited.
-- 5 True specialty items. These may be collector’s items or things deliberately made for a niche audience, but they are not at all easy to find.
-- 6 These are quite rare, often hand-crafted items. Small workshops and specialty manufacturers make them, and you’ll never find them at a major retailer. Work hard, and you might track a by-appointment seller who will sell you one.
-- 7 These items are not available off-the-rack. They are specially ordered and custom-made.
-- 8 Same as 7, but you have to make an appointment to order one, and you may be subjected to a background test based on whatever obscure criteria the manufacturer has decided to assemble.
-- 9 The most rare items money can buy—you just have to find the person who will take your cash. Owning one of these marks you as a member of the elite, and selling one of them brings in extra cash due to their scarcity.
+| Availability | Threshold |
+| ------------ | --------- |
+| 0-1          | -         |
+| 2-3          | 5         |
+| 4-5          | 10        |
+| 6-7          | 15        |
+| 8-9          | 20        |
+| 10           | 25        |
 
 #### Legality
 
@@ -1445,20 +1540,122 @@ Some items are listed with an (I) or (L) as part of their Availability rating. T
 
 
 #### Size Cost Adjustments
+
 Most gear is built to be used by humans, or at least human-sized creatures. Elves and orks are close enough to human sizes that they can generally make this gear work for them, but it’s not as easy for dwarfs and trolls. They usually need to shop at special stores or order their gear with certain customizations made to it. To account for this, dwarfs pay a ten percent markup on all the fitted gear they purchase. This applies to items like armor and clothes Size Cost Adjustments Most gear is built to be used by humans, or at least human-sized creatures. Elves and orks are close enough to human sizes that they can generally make this gear work for them, but it’s not as easy for dwarfs and trolls. They usually need to shop at special stores or order their gear with certain customizations made to it. To account for this, dwarfs pay a ten percent markup on all the fitted gear they purchase. This applies to items like armor and clothes
 
 **Using Unadapted Gear**
 
-Sometimes a dwarf or a troll has to use someone else’s stuff or make do with what’s handy. Any time a dwarf or troll uses gear that is not adapted for them, they suffer a Disadvantage on all actions involving that gear. This means armor doesn’t close right, guns don’t fit right, commlinks aren’t easy to use, etc
-
-Many items have a bonus applied when they’re kept attached to the Matrix. For the bulk of the population, this is just a little convenient aid in their normal life, but for runners it is often a door- die decision, because leaving your Smartgun XI linked to the Matrix could be the little edge you need, or it could be your doom as you get hacked and the fancy electronics-laden SMG becomes a paperweight. Items with a bonus are listed, and some have it listed for the entire category as well.
+Sometimes a dwarf or a troll has to use someone else’s stuff or make do with what’s handy. Any time a dwarf or troll uses gear that is not adapted for them, they suffer a DISADVANTAGE on all actions involving that gear. This means armor doesn’t close right, guns don’t fit right, commlinks aren’t easy to use, etc.
 
 ### Encumberance
 
-Weights of objects are not listed because the game rules assume that how much a character carries is not tracked. If the GM determines that a character is carrying too much equipment though, he should either A) assign a difficulty and ask for a Stamina test, or B) assign the weight, speed, and Stamina cost to be deducted from the appropriate STATIS. Method A is useful when a character wants to carry a single heavy object for a limited time, for example moving a hefty iron safe out of a bank and loading it into a pickup truck bed. Method B works well for long term encumbrance such as when a character dons a backpack full of survival gear, it sets off across the tundra.
+Sixfinity emphasizes sweeping stories, epic tales, and fast action. Keeping track of the weight of every piece of loose change isn’t fun, but knowing that your character has to carry a child out of a burning building is an important story element; so is having some idea of how many days’ worth of rations your character can carry while journeying in the wilderness.
+
+In general, you and your Game Master won’t need to track your character’s encumbrance (how much they’re carrying on their person). Occasionally, however, it may play an important part in the story, and you need to know if the weight, mass, and collective bulk of the items your character is wearing inhibit their actions.
+
+Every item of gear listed has an encumbrance value. Most items that can commonly be carried have a value between 0 and 5—from relatively light objects (such as wallets or light clothing) to heavier items (like hunting rifles or tool kits). We discuss the encumbrance value of armor in more detail later, but the one difference is that when your character is wearing armor, its encumbrance goes down. Just imagine wearing a chain-mail shirt. It’s pretty heavy, but now imagine carrying it in your hands. That’s going to be a lot more cumbersome since you can’t distribute the weight across your torso and shoulders, and you don’t have your hands free.
+
+Encumbrance doesn’t strictly represent weight: it also represents mass, bulk, and how easy items are to carry. A well-fitting suit of plate mail adds very little encumbrance, while an armful of logs has a high encumbrance. The plate mail may weigh more, but it’s designed to be worn and fitted to a person, while a stack of unbound logs is both heavy and awkward to carry.
+
+Small items, such as candles, most pistols, and knives, have an encumbrance value of 1 or 2. Medium items, such as rifles, a satchel of grenades, or a grappling hook and cord, have an encumbrance value of 3 or 4. Large or heavy items, such as cargo crates, light machine guns, or a heavy toolbox, are valued at 5 or 6.
+
+If it becomes critical to the story to have more detail, ten loosely carried incidental items have an encumbrance value of 1. If they are stored in an effective manner—such as keys in a pocket or crystals in a pouch—then twenty incidental items have an encumbrance value of 1. If, for some reason, your character is unable to manage their gear in such a way, the GM may increase the items’ overall encumbrance value by several points to reflect the difficulty of managing and carrying items by less efficient means.
+
+When carried, a living being generally has an encumbrance value of 5 plus Stamina. A typical human has a Stamina of 2, and therefore a total encumbrance value of 7.
+
+#### Encumbrance Threshold
+
+All characters have an encumbrance threshold of 5 plus their Stamina rating, which limits how much they can carry under normal conditions without penalty. A total encumbrance value over the threshold means the character is “encumbered,” and suffers BANE to all Agility and Stamina-based checks for every point of encumbrance over the limit. And of course, this is cumulative with any other BANE the character may be suffering.
+
+Further, if a character is encumbered by an amount equal to or greater than their Stamina rating, they no longer earn a free maneuver each turn. The character can still perform up to two maneuvers, but each maneuver costs 2 strain. With a Stamina of 2, for example, a character would not get a free maneuver each turn if they’re carrying nine or more points of encumbrance.
+
+#### Lifting and Carrying Excessive Encumbrance
+
+Characters shouldn’t typically carry more than their encumbrance threshold. When necessity demands, however, they can do so for a short time (suffering the effects described above).
+
+If your character needs to lift an object with an encumbrance value greater than their encumbrance threshold, such as an ally who has fallen off a gantry or ledge, they must make an Athletics check. The difficulty is Easy if the object’s encumbrance value is one more than your character’s encumbrance threshold. You should increase the difficulty by one for every additional point over, up to a maximum additional encumbrance of 4 and difficulty of Daunting. A character with a Stamina of 2 and a threshold of 7, for example, tries to lift a rock with an encumbrance value of 10. That’s 3 over, so the difficulty is Hard.
+
+> EXAMPLE: LIFTING EXCESSIVE ENCUMBRANCE 
+> Sara and Thrace are trying to steal a box of mining explosives as part of the plan for an upcoming heist. Thrace, who is trying to run with the box in her arms, has an encumbrance threshold of 7 (5 plus her Stamina of 2). The box’s encumbrance value is 5. Thrace is also trying to carry a shovel (3 encumbrance value) and her pistol (2 encumbrance value), so Thrace is carrying 3 over her threshold. She loses her free maneuver and adds 3 BANE to all Agility and Stamina-based checks she makes. Finally, she needs to make a Hard Athletics check just to move the crate, and since Athletics is Stamina-based, she’s going to be adding those three BANE to the check.
+
+Additional characters may help, adding their raw Stamina to the encumbrance threshold of the character trying to lift or carry the object or objects. In the example, a person with a Stamina of 2 adds +2 to the encumbrance threshold for that specific task.
+
+> EXAMPLE: HELPING CARRY 
+> Sara, seeing that her friend Grace can’t carry a box of explosives, a shovel, and her handgun, decides to help. She grabs one end of the box, so that now the two of them are carrying it together. Sara has a Stamina of 3, so she adds 3 to Grace’s encumbrance threshold.
+
+### Concealing Gear
+We assume that your character is going to want to hide items on their person at some point. Maybe they’re concealing a weapon, or maybe they want to sneak a valuable item out of a restricted area. In any case, we do have some simple rules for hiding stuff.
+
+Items with an encumbrance value of 1 or less can be hidden on a person easily. You don’t need to make a check for your character to hide the item. Instead, if another character tries to search your character, the searcher makes an opposed Perception check vs. your character’s Stealth. Add a BOON to the searcher’s check for every encumbrance value over 1 that is due to the hidden item. If there are multiple items, use the item with the highest encumbrance value to determine how many BOON to add.
+
+In some cases, your character’s opponents may not specifically be checking your character for hidden items, but may just be keeping an eye out for anything odd in general (such opponents could include a sentry at a city gate, or a police officer walking the beat). In these cases, the searcher would make an opposed Vigilance check vs. Stealth instead of a Perception check.
+
+The same rules can apply to similar situations—such as hiding a rifle (encumbrance value 4) in a dumpster full of trash. In this case, your Game Master should decide what encumbrance value of object can be hidden without being noticed, and add a BOON for every point over that.
+
+### Item Maintenance
+
+Invariably, items start to wear down. Rolling a Glitch may indicate a item has malfunctioned, misfired, jammed, broken down, or otherwise been rendered inoperable or impaired until it can be repaired.
+
+All items, from low-tech weapons to more sophisticated devices, can be repaired with the Mechanics skill.
+
+Item damage are generally classified as minor, moderate, or major. The magnitude of the required repairs indicates two things: the severity of any penalties applied to the user when trying to operate the defective item, and the difficulty rating of the necessary repairs. Repairing an item requires adequate time and tools, generally one to two hours per difficulty level. If a character attempts repairs in less time, the difficulty increases by one. Likewise, if the character lacks the proper tools, the difficulty increases by one. These factors are cumulative, so if your character tries to repair a pistol without the proper tools and in half the time it would normally take, you should increase the difficulty of the check by two.
+
+The cost of repairs is equal to a percentage of the item’s base cost: 25% if it’s a minor repair, 50% if it’s a moderate repair, and 100% if it requires major work. Reduce the total by 10% for each Effect received on the repair check if your character is doing the work themself.
+
+| Repair Required | Difficulty   | Penalty for Use |
+| --------------- | ------------ | --------------- |
+| Minor           | Easy (5)     | Add BANE        |
+| Moderate        | Average (10) | DISADVANTAGE    |
+| Major           | Hard (15)    | Unusable        |
+
+### Tracking Ammo
+> I hate tracking ammo unless it matters - the Creator
+
+Combat in our game tends to be fast-paced and narrative based, with rounds lasting an unspecified amount of “game-world” time and combat encounters usually wrapping up in a few total rounds. That narrative-driven approach also means that when your character attacks with a ranged weapon, one attack could represent a single, carefully lined up shot, or a few shots snapped off with a pistol.
+
+All this means that we really encourage you and your GM not to worry too much about ammunition. Carefully tallying how many bullets your character has in the clip goes against the Sixfinity game experience (and the longstanding traditions of most action movies).
+
+A better way to approach the issue of ammo is to use a Glitch generated on a combat check to make the character’s ammo run out. It’s more cinematically exciting, and certainly feels like something that would come from rolling a Glitch!
+
+The only exception is when a weapon has the Limited Ammo quality. We reserve that quality for weapons like rocket launchers, grenades, or other weapons that very obviously can only fire once before reloading.
 
 
-### Melee Weapons
+
+### Weapons
+
+In our game, weapons have a number of distinct characteristics, which is how we define them in the game and delineate their capabilities. All weapons share the characteristic categories that we cover here.
+
+#### Characteristics
+
+The following are a weapon’s characteristics
+
+**Name:** What we call the weapon
+
+**Skill Used (Skill):** All weapons require a combat skill to operate, and this entry defines which skill the weapon requires.
+
+Skills also can determine whether a weapon requires one or two hands to wield. The “Heavy” version of the skill means the weapon takes two hands to use, and the “Light” version of the skill means it can be used with one hand. Gunnery weapons always require two hands to use
+
+**Base Damage (Dam):** The base damage the weapon inflicts. This is the minimum damage inflicted if the attack with this weapon hits. Each NET EFFECT the combat check generates adds one point of damage to this base damage rating.
+
+Some weapons (including most Melee and Brawl weapons) have a “+” in front of their base damage. This means you add your character’s Stamina rating to this value.
+
+**Critical Rating (Crit):** Indicates the number of 󲊴 required to trigger Critical Injuries using this weapon. If the weapon’s Critical rating triggers, the character rolls percentile dice on the Critical Injury table in the [Rules Section](#critical-injury). to determine the effect on the target. A Critical Injury can only be triggered on a successful hit that inflicts wounds on the target.
+
+Some weapons and talents modify this Critical roll, potentially making a Critical Injury more or less effective. In addition, a character can only generate one Critical injury per hit on a target. However, if the check generates enough EFFECT to trigger the Critical rating of the weapon multiple times, the character can choose to add +10 to the Critical roll for each trigger after the first. More on Critical Injuries can be found on in the [Rules Section](#critical-injury).
+
+**Range:** The range of the weapon. Range is measured in several broad range bands. Melee weapons usually require the attacker to be engaged with the target. Ranged weapons have ranges listed as short, medium, long, or extreme. See [Rules Section](#range) for more information.
+
+**Encumbrance (Encum):** Encumbrance is an abstract measurement of how heavy and awkward something is to carry and transport. The higher the encumbrance, the more difficult the item is to carry. More details on encumbrance can be found in [Encumberance](#encumberance).
+
+**Price:** The price of the weapon on the open market.
+
+**Availability:** The Availability of the item, before modifiers. [Availability](#availability).
+
+**Special:** These are the qualities or other special rules each weapon possesses. More in-depth descriptions of these qualities can be found in [Item Qualities](#item-qualities), while rules specific to a certain type of weapon are detailed in the weapon’s individual description.
+
+
+
+
 
 | **BLADES**          | **DV** | **AVAILABILITY** | **COST** | **TYPE**   | **NOTES**             |
 | ------------------- | ------ | ---------------- | -------- | ---------- | --------------------- |
@@ -1803,7 +2000,7 @@ Most firearm accessories must be attached to a particular mount—top, barrel, u
 
 #### **Bipod/Tripod**
 
-A two-legged brace extends down from the weapon, allowing it to be fired low to the ground with the user in a prone or sitting position. A bipod can be attached to the underbarrel mount of a weapon and provides an equipment Advantage to the Attack Rolls when properly deployed. Attaching a bipod takes a Major Action. Folding up or deploying a bipod is a Minor Action.
+A two-legged brace extends down from the weapon, allowing it to be fired low to the ground with the user in a prone or sitting position. A bipod can be attached to the underbarrel mount of a weapon and provides an equipment ADVANTAGE to the Attack Rolls when properly deployed. Attaching a bipod takes a Major Action. Folding up or deploying a bipod is a Minor Action.
 
 #### **Concealable holster**
 
@@ -1811,7 +2008,7 @@ A small holster worn just about anywhere on the Stamina it can’t be seen, atta
 
 #### **Gas-vent system**
 
-Gas-vent recoil compensation systems are barrel-mounted accessories that vent a weapon’s barrel gases at a specific vector to counter muzzle climb. Once installed, a gas-vent cannot be removed. Gas-vent systems remove the Disadvantage from Burst Fire.
+Gas-vent recoil compensation systems are barrel-mounted accessories that vent a weapon’s barrel gases at a specific vector to counter muzzle climb. Once installed, a gas-vent cannot be removed. Gas-vent systems remove the DISADVANTAGE from Burst Fire.
 
 #### **Hidden arm slide**
 
@@ -1823,7 +2020,7 @@ The classic top-mounted scope that includes a micro camera and vision magnificat
 
 #### **Laser sight**
 
-This device uses a laser beam to project a visible dot (normal, low-light, or thermographic) on the target. This gives Attack Rolls Advantage 1, not cumulative with smartlink modifiers. The laser sight can be mounted as either an underbarrel mount or top mount. Activating or deactivating a laser sight is a Minor Action.
+This device uses a laser beam to project a visible dot (normal, low-light, or thermographic) on the target. This gives Attack Rolls ADVANTAGE 1, not cumulative with smartlink modifiers. The laser sight can be mounted as either an underbarrel mount or top mount. Activating or deactivating a laser sight is a Minor Action.
 
 #### **Quick-draw holster**
 
@@ -1841,7 +2038,7 @@ A barrel-mounted accessory for reducing the sound and flash of firing a weapon; 
 
 This is the firearm or a projectile-weapon side of the smartlink system. The system includes a small camera and range finder. It keeps track of ammunition and, through DNI, allows switching between gun modes, ejecting a clip, and firing the gun without pulling the trigger. The camera allows you to fire from cover, suffering no Attack test penalties while affected by the Cover Status. 
 
-If you’re using a smartlink, the smartgun system gives Advantage 1 on attack rolls across all available range categories. Additionally it makes reloading 1 Action type cheaper (Major -> Minor -> Free). 
+If you’re using a smartlink, the smartgun system gives ADVANTAGE 1 on attack rolls across all available range categories. Additionally it makes reloading 1 Action type cheaper (Major -> Minor -> Free). 
 
 The smartgun features are accessed either by universal access port cable to an imaging device (like glasses, goggles, or a datajack for someone with cybereyes). Internal smartgun systems add 500 nuyen to the weapon price. 
 
@@ -1887,7 +2084,7 @@ Grenades are small, self-contained explosive packages. Boom and shrapnel all in 
 The damage from grenades becomes less the farther away from them you are. The DV entry for grenades lists the initial damage for those closest to the grenade, within a yard, called Ground Zero, then two categories of lesser damage for those in Close and Near Range, with the damage limited to a maximum range of the Blast STATIS. Use the `Athletics skill + Agility` when throwing grenades, or `Exotic Weapons (Launcher) + Agility` when launching a grenade from a grenade launcher. Follow the rules for Blast Attacks. Grenades and similar explosives can also be rigged with a tripwire to be set up as a basic booby trap. This requires an `Mechanics + Talent (8, 1 Major Action) Extended Test`. 
 **Stun grenade**
 
-Often called flash-bangs, these grenades explode to create a bright, loud, shocking blast that stuns and staggers anyone in their range. Along with the damage, those in the Blast of a Stun grenade suffer the Blinded I, Deafened I, and Dazed Status Effect.
+Often called flash-bangs, these grenades explode to create a bright, loud, shocking blast that stuns and staggers anyone in their range. Along with the damage, those in the Blast of a Stun grenade suffer the Blinded I, Deafened I, and Dazed Status EFFECT.
 
 **Flash-pak**
 
@@ -1918,7 +2115,7 @@ Similar to the gas grenade, a smoke grenade releases a cloud of smoke instead of
 | High Explosive Rocket      | 14P       | 7P           | 4P          | 20m       | 5(I)      | 2,100¥                           | -                         |
 | Gas Rocket                 | —         | —            | —           | —         | 4(I)      | 750¥ + 100 dose payload          | Use Gas Attack rules      |
 | Smoke/Thermal Smoke Rocket | —         | —            | —           | —         | 4(I)      | 1,200¥                           | See rules                 |
-| Missile Variant            | as Rocket | as Rocket    | as Rocket   | as Rocket | +1(I)     | As Rocket + Sensor rating x 500¥ | Advantage to Attack Rolls |
+| Missile Variant            | as Rocket | as Rocket    | as Rocket   | as Rocket | +1(I)     | As Rocket + Sensor rating x 500¥ | ADVANTAGE to Attack Rolls |
 
 Rockets are launched projectiles with stabilizing fins, a propulsion system, and a warhead. Missiles are rockets that carry internal guidance systems, with sensor packages adding their rating to the attack roll, since they can adjust their trajectory in flight (also reflected in their Attack Rolls). Rockets and missiles are set to arm when they have traveled 10 yards from their point of origin and explode on impact or with an airburst link. This safety feature can be disabled with an `Mechanics + Talent (4, 5 Minutes) Extended Test`.
 
@@ -1926,7 +2123,7 @@ As is the case with grenades, damage from rockets and missiles decreases the far
 
 **Anti-vehicle**
 
-AV rockets/missiles contain a shaped-charge warhead designed to burn or punch its way through a vehicle or barrier. Though the impact causes a blast, it is limited compared to that of a High-Explosive projectile. Advantage Attack Rolls against vehicles.
+AV rockets/missiles contain a shaped-charge warhead designed to burn or punch its way through a vehicle or barrier. Though the impact causes a blast, it is limited compared to that of a High-Explosive projectile. ADVANTAGE Attack Rolls against vehicles.
 
 **Fragmentation** 
 
@@ -2243,7 +2440,7 @@ These actions usually take only a small amount of focus or a quick and simple th
 
 - Move (I) – Move up to 10y. (1 per turn.)
 - Take Cover (I) – Gain Cover I–IV if terrain allows. Increases rating to be hit by 1 per Cover Rating
-- Take Aim (I) – +1 Bonus Effect (bankable; max = Tenacity; once per round). 
+- Take Aim (I) – +1 Bonus EFFECT (bankable; max = Tenacity; once per round). 
 - Ready/Draw/Sheathe (I) – Ready or stow a weapon.
 - Reload (I) – Reload weapon. (Smartlink reduces friction; same action.)
 - Operate Device (A) – Toggle/switch a device via DNI or manual.
@@ -2255,47 +2452,47 @@ These actions usually take only a small amount of focus or a quick and simple th
 
 ##### Move (I)
 
-**Effect:** Move up to **10 yards**.
+**EFFECT:** Move up to **10 yards**.
 **Limits:** You can take **only one Move** per turn. You may break up movement before/after other actions. Difficult terrain costs +1 yard per yard. Moving through a hostile’s space requires the size exception and counts as difficult terrain.
 **Triggers:** Leaving a hostile creature’s reach **provokes an Opportunity Attack**.
 
 ##### Take Cover (I)
 
-**Effect:** If suitable terrain exists, gain **Cover I–IV** (GM sets level based on how much of you is obscured: ¼, ½, ¾, full). Each level grants **A rating up in difficulty to be hit**.
-**Constraints:** Attacking from **Cover IV** imposes **Disadvantage** to your attack. While attacking from any Cover.
+**EFFECT:** If suitable terrain exists, gain **Cover I–IV** (GM sets level based on how much of you is obscured: ¼, ½, ¾, full). Each level grants **A rating up in difficulty to be hit**.
+**Constraints:** Attacking from **Cover IV** imposes **DISADVANTAGE** to your attack. While attacking from any Cover.
 
 ##### Take Aim (I)
 
-**Effect:** Gain **+1 Bonus Effect** on your **next** attack. You can **bank** this; it persists round to round until used or lost.
+**EFFECT:** Gain **+1 Bonus EFFECT** on your **next** attack. You can **bank** this; it persists round to round until used or lost.
 **Limits:** Maximum banked Aim bonus = your **Tenacity**. You can Take Aim **once per round**. If you take a turn without **Take Aim** or **Attack**, you lose all banked Aim. You can’t bank Aim while Prone behind Cover IV.
 **Scopes/Vision:** If using a scope or vision magnification, the **first Take Aim** enables the device (no extra bonus), subsequent Aims stack as normal.
 
 ##### Ready / Draw / Sheathe (I)
 
-**Effect:** Ready or stow a weapon or handheld item.
+**EFFECT:** Ready or stow a weapon or handheld item.
 **Notes:** If you have **Quick Draw** (gear/aug/quality), you may Ready a pistol-sized or small thrown weapon as part of this action and **immediately Attack** this turn. Very small items can be Readied in bunches (up to **Agility** to off-hand) at GM discretion.
 
 ##### Reload (I)
 
-**Effect:** Reload a weapon to full capacity if you have ammo available.
+**EFFECT:** Reload a weapon to full capacity if you have ammo available.
 
 Refer to the Fire Modes section in Equipment if you need to know what kind of Action your weapon reloads.
 
 ##### Operate Device (A)
 
-**Effect:** **Toggle/switch** a simple function on a device you can physically access or that’s connected via **DNI** (e.g., change smartgun fire mode, engage safety, open/close a maglock, switch commlink mode, turn cyberware on/off).
+**EFFECT:** **Toggle/switch** a simple function on a device you can physically access or that’s connected via **DNI** (e.g., change smartgun fire mode, engage safety, open/close a maglock, switch commlink mode, turn cyberware on/off).
 **Notes:** Complex multi-step interactions use **Operate Complex Device (Major)**.
 
 ##### Command Minion (I)
 
-**Effect:** Issue **one clear command** to **one** spirit or drone under your control.
+**EFFECT:** Issue **one clear command** to **one** spirit or drone under your control.
 **RCC Broadcast:** With an RCC, you may issue the **same command** to **all linked drones** with a single Command Minion. Different commands require additional uses.
 **Dismiss:** Dismissing a spirit is also done with this action.
 
 ##### Defensive Agility (A)
 
 **Trigger:** When you are targeted by an attack, **before** the Defense roll is made.
-**Effect (choose one):**
+**EFFECT (choose one):**
 
 * **Block (melee):** Add your **Armed or Unarmed Combat** skill to this **one** Defense test.
 * **Dodge (ranged):** Add your **Athletics** skill to this **one** Defense test.
@@ -2304,12 +2501,12 @@ Refer to the Fire Modes section in Equipment if you need to know what kind of Ac
 ##### Opportunity Attack (A)
 
 **Trigger:** A hostile creature **leaves your reach** by moving away (teleports and forced movement do not trigger unless stated).
-**Effect:** Make **one melee Attack** against the triggering target.
+**EFFECT:** Make **one melee Attack** against the triggering target.
 **Limits:** You can make one Opportunity Attack per round; it costs no action.
 
 ##### Stand / Prone (I)
 
-**Effect:** **Drop Prone** or **stand up**.
+**EFFECT:** **Drop Prone** or **stand up**.
 **Movement:** Standing costs **one third** of your speed (round up); if you lack enough movement remaining this turn, you can’t stand. Prone movement is crawling (each yard costs +1 yard; stacks with difficult terrain).
 **Status:** Applies/removes the **Prone** status.
 
@@ -2327,29 +2524,29 @@ These actions take a bit more concentration or time to complete. Several involve
 
 ##### Attack (I)
 
-**Effect:** Make a **melee or ranged** attack.
+**EFFECT:** Make a **melee or ranged** attack.
 **Roll:**
 
 * **Ranged:** `STATIS Dice + (Firearms/Archery/Throwing Weapons/Gunnery) + misc` vs target’s Rating Difficulty.
 * **Melee:** `STATIS Dice + (Armed Combat/Unarmed Combat) + misc` vs target’s Rating Difficulty.
-  **Hit:** Deal **Damage Value = Weapon Damage + Net Effect**; apply any damage-type riders (e.g., Burning).
-  **Rider – Multiple Attacks:** You may attack **multiple targets** you can legally threaten (ammo/reach/arc permitting). Each additional attack raises the Rating by 1 per attack. Resolve each attack separately. Net Effect is calculated per target.
+  **Hit:** Deal **Damage Value = Weapon Damage + NET EFFECT**; apply any damage-type riders (e.g., Burning).
+  **Rider – Multiple Attacks:** You may attack **multiple targets** you can legally threaten (ammo/reach/arc permitting). Each additional attack raises the Rating by 1 per attack. Resolve each attack separately. NET EFFECT is calculated per target.
 
 ##### Use Skill (I)
 
-**Effect:** Attempt a **non-attack** task that requires a skill test during combat (e.g., hack a door panel, stabilize a teammate, force a door, shove/grapple per table’s combat maneuvers, scan a room).
+**EFFECT:** Attempt a **non-attack** task that requires a skill test during combat (e.g., hack a door panel, stabilize a teammate, force a door, shove/grapple per table’s combat actions, scan a room).
 **Roll:** `Linked STATIS Dice + Skill (+ misc)` vs GM-set Threshold Rating or opposed roll.
 **Notes:** This is your catch-all “do a thing” action in combat time. Tasks that are just a toggle use **Operate Device (Minor)**.
 
 ##### Cast Spell (I)
 
-**Effect:** Cast a spell (damage, heal, utility).
+**EFFECT:** Cast a spell (damage, heal, utility).
 **Roll:** As defined in **Magic** (typically `Sorcery + (Potential XD6)`). Apply drain, effects, and riders per spell.
 **Counterspell:** Reactions to spells (Counterspell) are handled in the **Magic** chapter and may be Anytime where appropriate.
 
 ##### Summon / Banish (I)
 
-**Effect:**
+**EFFECT:**
 
 * **Summon:** Call a spirit to your side (consumes services as defined in Magic).
 * **Banish:** Attempt to dismiss or disrupt a spirit.
@@ -2359,18 +2556,18 @@ These actions take a bit more concentration or time to complete. Several involve
 ##### Full Defense (A)
 
 **Timing:** Declare **anytime**; takes effect immediately.
-**Effect:** Same as Minor **Defensive Action** but lasts **until your next turn**.
+**EFFECT:** Same as Minor **Defensive Action** but lasts **until your next turn**.
 **Limits:** You can only use Full Defense **once per round**. Does not stack with **Defensive Action**
 
 ##### Operate Complex Device (I)
 
-**Effect:** Perform a **multi-step** or **precision** interaction with complex gear/vehicles/systems that goes beyond a simple toggle (e.g., **Rigger Jump-In** to a drone/vehicle, configure fire-control groups, perform a short hacking sequence on a door while under fire, calibrate a medkit to a patient).
+**EFFECT:** Perform a **multi-step** or **precision** interaction with complex gear/vehicles/systems that goes beyond a simple toggle (e.g., **Rigger Jump-In** to a drone/vehicle, configure fire-control groups, perform a short hacking sequence on a door while under fire, calibrate a medkit to a patient).
 **Roll:** Usually `Talent + relevant skill` vs Threshold Rating or opposed; see specific subsystem (Matrix/Rigging/Medtech).
 **Notes:** Once jumped-in, continued piloting/commanding typically uses **Command Minion (Minor)** or further **Operate Complex Device** at GM discretion.
 
 ##### Interact (I)
 
-**Effect:** Safely **pick up**, **put down**, **stow**, **retrieve**, or otherwise manipulate objects not covered by **Ready/Draw/Sheathe** (e.g., holster one weapon while picking up a dropped one, carefully place a grenade, sling a Stamina over your shoulder, open/close a heavy door, apply a stim patch).
+**EFFECT:** Safely **pick up**, **put down**, **stow**, **retrieve**, or otherwise manipulate objects not covered by **Ready/Draw/Sheathe** (e.g., holster one weapon while picking up a dropped one, carefully place a grenade, sling a Stamina over your shoulder, open/close a heavy door, apply a stim patch).
 **Roll:** Usually none; the GM may call for a test if time pressure, risk, or precision matters.
 **Notes:** Use this when the fiction calls for handling objects with care or when multiple items are involved.
 
@@ -2398,7 +2595,7 @@ Involved as they are in an illegal and often hazardous line of work, runners get
 
 Damage is calculated based on the weapon, spell, effect in Physical or Stun. You deduct that from your Health. 
 
-Damage Value (DV) = Weapon Damage + Net Effect
+Damage Value (DV) = Weapon Damage + NET EFFECT
 
 Apply damage type riders (e.g., Burning, Zapped) after DV is applied.
 
@@ -2423,16 +2620,16 @@ The first thing to cover is the order of operations for healing. Do you need to 
 #### First Aid
 - Medicine + Talent (5 - Essence)
 
-As implied by the name, this is probably the first aid you should apply because it has the narrowest window. After the end of a combat encounter in which a character was injured, they have 1 minute (20 combat rounds if another fight kicks off) to receive First Aid. To apply First Aid, a character needs the right tools for the job, in this case a first aid kit. Any test made without a kit suffers a Disadvantage, and no Edge can be spent on the test.
+As implied by the name, this is probably the first aid you should apply because it has the narrowest window. After the end of a combat encounter in which a character was injured, they have 1 minute (20 combat rounds if another fight kicks off) to receive First Aid. To apply First Aid, a character needs the right tools for the job, in this case a first aid kit. Any test made without a kit suffers a DISADVANTAGE, and no Edge can be spent on the test.
 
-Make a `Medicine + Talent test against a threshold equal to 5 – target’s Essence`. If the target is one-hundred-percent natural, the healer actually gets an automatic +1 Effect added to what they roll. This represents the difficulty of repairing someone who has metal parts as well as those with organs not normally found in average people. Effect is used to heal 3 points ofStun Damage (**not including drain**) per effect or 3 points ofPhysical Damage or 2 points of Overflow per effect. Drain cannot be healed with First Aid. A character can receive First Aid only once for any single set of injuries.
+Make a `Medicine + Talent test against a threshold equal to 5 – target’s Essence`. If the target is one-hundred-percent natural, the healer actually gets an automatic +1 EFFECT added to what they roll. This represents the difficulty of repairing someone who has metal parts as well as those with organs not normally found in average people. EFFECT is used to heal 3 points ofStun Damage (**not including drain**) per effect or 3 points ofPhysical Damage or 2 points of Overflow per effect. Drain cannot be healed with First Aid. A character can receive First Aid only once for any single set of injuries.
 
 #### Medkit
 - Medicine + Talent (5 - Essence)
 
 Medkits are more detailed. The patient must be connected to medkit monitors and diagnosed, after which they receive injections and IVs. After the end of a combat encounter in which a character is injured, they have one hour to be connected to a medkit or get medical attention from a trained professional with a medkit. If they wait beyond this period, a medkit will not help them. It takes one minute to hook up the patient, get the medkit to spit out a diagnosis, and begin treatment. The healing process takes one minute per 4 points healed (so, if the process is interrupted, you know how much they were patched up). Each time a medkit is used, it consumes one batch of supplies. Treatment cannot be attempted if no medkit supplies remain.
 
-Make a `Medicine/Medkit Rating + Talent test against a threshold of 5 – target’s Essence`. If the target is one-hundred-percent natural, the healer gets an automatic +1 Effect added to their roll. Like First Aid, this fixes biological material, not machinery. Effect is used to heal 3 points ofStun, Physical, or Overflow Damage per Effect, but not damage from drain.
+Make a `Medicine/Medkit Rating + Talent test against a threshold of 5 – target’s Essence`. If the target is one-hundred-percent natural, the healer gets an automatic +1 EFFECT added to their roll. Like First Aid, this fixes biological material, not machinery. EFFECT is used to heal 3 points ofStun, Physical, or Overflow Damage per EFFECT, but not damage from drain.
 
 There is a limit to receiving a medkit treatment. A character can only benefit from a medkit once for any single set of injuries.
 
@@ -2443,15 +2640,15 @@ The wonders of magic are many and great. Healing spells are some of the most com
 
 The good news about magical healing is it works at the speed of a spell—once the spell is cast, the effect takes hold.
 
-Healing magic can mend both Physical and Stun injuries, but not those caused by Drain. The leftover taint of wearisome mana prevents the healing magics from connecting to that damaged tissue to heal it. As with medkits, net effect can be used to heal 3 points ofStun, Physical, or Overflow Damage per Effect. For more information on casting healing spells, see Magic.
+Healing magic can mend both Physical and Stun injuries, but not those caused by Drain. The leftover taint of wearisome mana prevents the healing magics from connecting to that damaged tissue to heal it. As with medkits, NET EFFECT can be used to heal 3 points ofStun, Physical, or Overflow Damage per EFFECT. For more information on casting healing spells, see Magic.
 
 A character can be healed by Magic only once for any single set of injuries.
 
 #### Natural Recovery/Medical Assistance (Varies by damage type)
 
-After all other options have been used, if injury remains, it’s all about rest and possibly some help from a trained medical professional (or just your team medic). Rest is simply defined as not engaging in any strenuous physical or mental activity—essentially, anything that involves a dice roll would break your rest. Medical attention offers a bonus to the recovery roll. If any person trained in Medicine is watching over the character for at least half of their rest period, the wounded individual gains 2 Bonus Effect to the healing tests defined below.
+After all other options have been used, if injury remains, it’s all about rest and possibly some help from a trained medical professional (or just your team medic). Rest is simply defined as not engaging in any strenuous physical or mental activity—essentially, anything that involves a dice roll would break your rest. Medical attention offers a bonus to the recovery roll. If any person trained in Medicine is watching over the character for at least half of their rest period, the wounded individual gains 2 Bonus EFFECT to the healing tests defined below.
 
-To heal Physical Damage, roll `Stamina (1)` once per day. Each Effect heals 3 points of Physical Damage after that day of rest.
+To heal Physical Damage, roll `Stamina (1)` once per day. Each EFFECT heals 3 points of Physical Damage after that day of rest.
 
 To heal Stun Damage, roll `Tenacity (1)` once per hour. Each hit heals 3 points of Stun Damage after that hour of rest. A full 8 hour (Long Rest) rest will recover all lost Stun Health.
 
@@ -2465,7 +2662,7 @@ The different statuses used in Shadowrun, Sixth World are described below.
 
 #### Blinded I, II, III
 
-Whether it’s flashing lights, some specialized chemical, or the pure force of magic, there are plenty of ways to make it impossible for shadowrunners to see. For the first two levels of this status, characters take a Disadvantage per level to all tests involving visibility. At the third level, characters automatically fail any tests involving visibility.
+Whether it’s flashing lights, some specialized chemical, or the pure force of magic, there are plenty of ways to make it impossible for shadowrunners to see. For the first two levels of this status, characters take a DISADVANTAGE per level to all tests involving visibility. At the third level, characters automatically fail any tests involving visibility.
 
 #### Burning #
 
@@ -2477,11 +2674,11 @@ If you gain the Wet and/or Chilled statuses, the Burning status is canceled. Sim
 
 #### Charmed
 - A charmed creature can’t attack the charmer or target the charmer with harmful abilities or magical effects.
-- The charmer has Advantage on any test to interact socially with the creature.
+- The charmer has ADVANTAGE on any test to interact socially with the creature.
 
 #### Chilled
 
-When you are truly, damagingly cold, it seeps into your bones and won’t let go, and you can’t move as smoothly and nimbly as you would like. When you are Chilled, you get –4 to your Initiative Score and Disadvantage to all tests. This status cancels and is canceled by the Burning status.
+When you are truly, damagingly cold, it seeps into your bones and won’t let go, and you can’t move as smoothly and nimbly as you would like. When you are Chilled, you get –4 to your Initiative Score and DISADVANTAGE to all tests. This status cancels and is canceled by the Burning status.
 
 #### Confused #
 
@@ -2495,7 +2692,7 @@ This status can be removed with certain gear (like baking soda for acids!) and e
 
 #### Cover I, II, III, IV
 
-Whether you hide behind a wall, a dumpster, or a Stamina, Cover is protection from hostile fire. It comes at four levels, indicating how much of a character’s Stamina is protected (one-quarter, onehalf, three quarters, or all). A character in Cover gets a an Advantage to their to hit Rating per level. Attacking from Cover requires an extra Minor Action in order to get clear enough to take a shot, imposes a Disadvantage penalty to your attack at Cover IV.
+Whether you hide behind a wall, a dumpster, or a Stamina, Cover is protection from hostile fire. It comes at four levels, indicating how much of a character’s Stamina is protected (one-quarter, onehalf, three quarters, or all). A character in Cover gets a an ADVANTAGE to their to hit Rating per level. Attacking from Cover requires an extra Minor Action in order to get clear enough to take a shot, imposes a DISADVANTAGE penalty to your attack at Cover IV.
 
 #### Dazed
 
@@ -2503,11 +2700,11 @@ One too many thumps to the head, or maybe the solar plexus, leaves the character
 
 #### Deafened I, II, III
 
-Whether you heard a sudden, hugely loud clap, or someone stuffed your ears full of cotton-like mana, sound waves are not getting through so that your brain can tell you what they mean. For the first two levels of this status, characters take a Disadvantage penalty per level to all tests involving hearing. At the third level, characters automatically fail any tests involving hearing.
+Whether you heard a sudden, hugely loud clap, or someone stuffed your ears full of cotton-like mana, sound waves are not getting through so that your brain can tell you what they mean. For the first two levels of this status, characters take a DISADVANTAGE penalty per level to all tests involving hearing. At the third level, characters automatically fail any tests involving hearing.
 
 #### Fatigued I, II, III
 
-At its top level, this status is that dreamlike weariness, where your legs are lead and just will. Not. Move. Characters with this status take a Disadvantage per level to all tests. Characters move at 5 yards per turn instead of 10 for walking, and 10 instead of 15 for sprinting.
+At its top level, this status is that dreamlike weariness, where your legs are lead and just will. Not. Move. Characters with this status take a DISADVANTAGE per level to all tests. Characters move at 5 yards per turn instead of 10 for walking, and 10 instead of 15 for sprinting.
 
 #### Frightened
 
@@ -2523,7 +2720,7 @@ Any movement on foot—Move or Stand/Prone—costs double distance (round up).
 
 #### Immobilized
 
-Just what it sounds like! Characters with this status cannot move, though they can take any actions that will function with their feet stuck to the ground. They take a Disadvantage on all attack rolls and cannot add Agility to Defense rolls.
+Just what it sounds like! Characters with this status cannot move, though they can take any actions that will function with their feet stuck to the ground. They take a DISADVANTAGE on all attack rolls and cannot add Agility to Defense rolls.
 
 #### Incapacitated
 - An incapacitated creature can’t take actions or reactions.
@@ -2554,7 +2751,7 @@ Something wrong has gotten into the character’s Stamina, and it’s going to m
 
 #### Prone
 
-One of the classics—you drop to the ground to get a stable shot and make yourself tougher to shoot. The character’s movement rate is reduced to 2 yards and they cannot Move more than once per turn while Prone. They get Advantage Defense vs. ranged and Disadvantage Defense to melee. Advantage attack rolls with firearms and projectile weapons (not bows)..
+One of the classics—you drop to the ground to get a stable shot and make yourself tougher to shoot. The character’s movement rate is reduced to 2 yards and they cannot Move more than once per turn while Prone. They get ADVANTAGE Defense vs. ranged and DISADVANTAGE Defense to melee. ADVANTAGE attack rolls with firearms and projectile weapons (not bows)..
 
 #### Silent #
 
@@ -2565,7 +2762,7 @@ The same as Silent, except microphones and other forms of technology are also af
 
 #### Stunned
 - A stunned creature is incapacitated (see the condition), can’t move, and can speak only falteringly.
-- The creature automatically Disadvantage to the Defense roll
+- The creature automatically DISADVANTAGE to the Defense roll
 
 #### Unconscious
 - An Unconscious character is Incapacitated, can’t move or speak, and is unaware of their surroundings.
@@ -2578,7 +2775,7 @@ Whether it’s a pouring rain, a sudden wave, or the efforts of a rampaging wate
 
 #### Zapped
 
-A jolt of electrical power has hit you, leaving you fried and scattered. Your muscles aren’t working quite right, either. Suffer –2 Initiative, cannot Take Aim this round., and Disadvantage to all actions for 2 rounds.
+A jolt of electrical power has hit you, leaving you fried and scattered. Your muscles aren’t working quite right, either. Suffer –2 Initiative, cannot Take Aim this round., and DISADVANTAGE to all actions for 2 rounds.
 
 ### Damage Types
 
@@ -2645,7 +2842,7 @@ For example to cast Acid Stream. You have a Magic 6. Sorcery 6. You are going to
 
 You roll `Potential XD6 + Proficiency 6 + 6` the enemy you are fighting is a Rating 6 enemy so you need an 18.
 
-You absolutely need to get this so you spend an Edge. You roll a 4 on your D6 and a 5 on your Edge dice. So your total is a 21. You met a Rating 7, so you have a Net Effect of 1. You will do 5 Damage. And applies Corrosive 5 for 5 rounds decreasing 1 point per round. 
+You absolutely need to get this so you spend an Edge. You roll a 4 on your D6 and a 5 on your Edge dice. So your total is a 21. You met a Rating 7, so you have a NET EFFECT of 1. You will do 5 Damage. And applies Corrosive 5 for 5 rounds decreasing 1 point per round. 
 
 #### Deal with drain
 
@@ -2656,7 +2853,7 @@ Using the above example.
 The Drain Value of Acid Stream is 5.
 Since you used Amp Up it will add 4 to the Drain Value making it 9.
 
-Your Drain Value is 5 + 4 for a total of 9. You have a Tenacity of 5 and a Talent of 5. So you roll `Potential XD6 + Proficiency 5 + 5` and need a Rating of 9 with a Threshold of 27. You roll a 6 for a total of 16. That gives you an Effect of 5 so you will take 4 Stun Damage for casting this spell. You would not be able to do this forever but you can dish it out when you need to.
+Your Drain Value is 5 + 4 for a total of 9. You have a Tenacity of 5 and a Talent of 5. So you roll `Potential XD6 + Proficiency 5 + 5` and need a Rating of 9 with a Threshold of 27. You roll a 6 for a total of 16. That gives you an EFFECT of 5 so you will take 4 Stun Damage for casting this spell. You would not be able to do this forever but you can dish it out when you need to.
 
 #### Spell Descriptions
 
@@ -2676,7 +2873,7 @@ These are STATIS of every spell; each category may add other STATIS, which are d
 
 ### Sustained Costs
 
-Magic is wearying and requires concentration, so if you are trying to keep a spell running while doing other things, there will be a price to pay due to the concentration and energy spent maintaining the spell. Whenever a spellcaster is sustaining a spell, they take a 1 Disadvantage to any action test for each spell they sustain.
+Magic is wearying and requires concentration, so if you are trying to keep a spell running while doing other things, there will be a price to pay due to the concentration and energy spent maintaining the spell. Whenever a spellcaster is sustaining a spell, they take a 1 DISADVANTAGE to any action test for each spell they sustain.
 
 ### Combat Spells
 
@@ -2688,7 +2885,7 @@ There are two essential kinds of Combat spells: Direct and Indirect.
 Direct Combat spells are when you shape mana in a way that it directly pummels the opposition—the magic is the damage. When you cast a Direct Combat spell, roll `Sorcery + Magic` opposed by the Rating of the target. Net Effct become damage and are added to any Amp Up damage the character chose. Damage from Direct Combat spells is not resisted.
 
 #### Indirect Combat Spells
-Rather than having the magic do the pummeling, Indirect Combat spells create an effect that causes the damage—igniting a fireball, say, or sparking a lightning bolt. To cast an Indirect Combat spell, roll `Sorcery + Magic vs. Rating`. Damage is caster’s `Magic divided by two (rounded up) + net effect + Amp Up damage`. Armor applies as usual for damage, as it would in physical combat. Indirect Combat spells frequently come with elemental effects.
+Rather than having the magic do the pummeling, Indirect Combat spells create an effect that causes the damage—igniting a fireball, say, or sparking a lightning bolt. To cast an Indirect Combat spell, roll `Sorcery + Magic vs. Rating`. Damage is caster’s `Magic divided by two (rounded up) + NET EFFECT + Amp Up damage`. Armor applies as usual for damage, as it would in physical combat. Indirect Combat spells frequently come with elemental effects.
 
 In addition to normal spell STATIS, Combat spells list the type of damage done, whether it is Stun (S) or Physical (P).
 
@@ -2704,7 +2901,7 @@ In addition to normal spell STATIS, Combat spells list the type of damage done, 
 | ------- | ---- | -------- | --- | ---------- |
 | LOS (A) | P    | I        | 6   | P, Special |
 
-These spells shoot acid at targets, doing immediate damage while also doing Chemical damage and giving hit targets the Corroded status with a rating equal to net effect on the Spellcasting test. Acid Stream is a single-target spell, Toxic Wave is area effect.
+These spells shoot acid at targets, doing immediate damage while also doing Chemical damage and giving hit targets the Corroded status with a rating equal to NET EFFECT on the Spellcasting test. Acid Stream is a single-target spell, Toxic Wave is area effect.
 
 #### Clout
 (Indirect Combat)
@@ -2733,7 +2930,7 @@ A tricky little spell—the magic doesn’t hit the target, but it shapes the ai
 | ------- | ---- | -------- | --- | ---------- |
 | LOS (A) | P    | I        | 6   | P, Special |
 
-A classic. When you think of hurting people with magic, the first thing that comes to mind is making fire explode in their faces. These are the spells that’ll get that done. Flamestrike hits individuals, Fireball is area effect. Both spells do Fire elemental damage and impose the Burning status with a rating equal to net effect on the Spellcasting test.
+A classic. When you think of hurting people with magic, the first thing that comes to mind is making fire explode in their faces. These are the spells that’ll get that done. Flamestrike hits individuals, Fireball is area effect. Both spells do Fire elemental damage and impose the Burning status with a rating equal to NET EFFECT on the Spellcasting test.
 
 #### Ice Spear
 (Indirect Combat)
@@ -2747,7 +2944,7 @@ A classic. When you think of hurting people with magic, the first thing that com
 | ------- | ---- | -------- | --- | ---------- |
 | LOS (A) | P    | I        | 6   | P, Special |
 
-When every corp security goon you run into starts wearing flame-retardant underwear, it’s time to throw a changeup at them and hit them with the other temperature extreme. These spells blast targets with freezing cold, doing Cold elemental damage along with the normal damage and imposing the Chilled status for a number of combat rounds equal to net effect on the Spellcasting test. Ice Spear targets individuals, while Ice Storm is an area spell.
+When every corp security goon you run into starts wearing flame-retardant underwear, it’s time to throw a changeup at them and hit them with the other temperature extreme. These spells blast targets with freezing cold, doing Cold elemental damage along with the normal damage and imposing the Chilled status for a number of combat rounds equal to NET EFFECT on the Spellcasting test. Ice Spear targets individuals, while Ice Storm is an area spell.
 
 #### Lightning Bolt
 (Indirect Combat)
@@ -2761,7 +2958,7 @@ When every corp security goon you run into starts wearing flame-retardant underw
 | ------- | ---- | -------- | --- | ---------- |
 | LOS (A) | P    | I        | 6   | P, Special |
 
-It’s what deities from Zeus to Thor use to smite those who have it coming, which means it should be good enough for you, too. Lightning Bolt hits a single target with electricity, while Lightning Ball is area effect. Both spells do Electricity elemental damage, imposing the Zapped status for a number of turns equal to net effect.
+It’s what deities from Zeus to Thor use to smite those who have it coming, which means it should be good enough for you, too. Lightning Bolt hits a single target with electricity, while Lightning Ball is area effect. Both spells do Electricity elemental damage, imposing the Zapped status for a number of turns equal to NET EFFECT.
 
 #### Manabolt
 (Direct Combat)
@@ -2886,7 +3083,7 @@ After any **quiet** Matrix action (Probe, Snoop, Decrypt, Analyze, Spoof, etc.),
 
 **Detection Test:** `Computers + Talent` **vs** `Base Rating= Target Rating Threshold + your current OS` to determine Rating.
 * **On a success:** you stay hidden; no passive OS gain this round.
-* **On a failure:** increase your **OS** by **Net Effect**.
+* **On a failure:** increase your **OS** by **NET EFFECT**.
 > **Loud actions** (Brute Force, Matrix Attack, obvious Control) **skip** Detection and **still** add OS (see below).
 
 ---
@@ -2897,7 +3094,7 @@ Track a single number per intruding persona: **OS**.
 
 **OS goes up when:**
 
-* You **Brute Force** or **Matrix Attack:** +1 OS per **Effect** rolled by the **defender** (not net).
+* You **Brute Force** or **Matrix Attack:** +1 OS per **EFFECT** rolled by the **defender** (not net).
 * You end a round **connected where you shouldn’t be:** +1 OS **unless** you passed a Detection Test that round.
 * You’re in **cybercombat:** +1 OS each round (no test).
 * You use a **program** that says it increases OS: +1 per action affected.
@@ -2918,7 +3115,7 @@ Kick the door in to gain **User Access**.
 
 * **Test:** `Attack + Computers` **vs** `Rating`.
 * **On hit:** You gain **User** access (read/watch/basic control).
-* **OS:** +1 per **defender’s Effect** (no Detection Test). Triggers IC if present.
+* **OS:** +1 per **defender’s EFFECT** (no Detection Test). Triggers IC if present.
 
 > **Escalate to Admin:** After gaining User, make another Major test vs `Rating + 2`. On hit: **Admin Access** (configure, lock out, purge logs, spawn/kill processes).
 
@@ -2937,17 +3134,17 @@ Slip in unnoticed to gain **User Access**.
 Deal Matrix damage (and maybe biofeedback).
 
 * **Attack Test:** `Attack + Computers` **vs** `Rating` (or IC’s listed defense).
-* **On hit:** **Matrix DV** = `Attack + Net Effect`. Target reduces DV by **Firewall**; remaining boxes mark **Matrix CM**.
+* **On hit:** **Matrix DV** = `Attack + NET EFFECT`. Target reduces DV by **Firewall**; remaining boxes mark **Matrix CM**.
 * **Biofeedback:** If using a program (Blackout/Biofeedback), target also takes **Stun (Blackout)** or **Physical (Biofeedback)** equal to the same DV.
-* **OS:** +1 per **defender’s Effect** (no Detection Test).
+* **OS:** +1 per **defender’s EFFECT** (no Detection Test).
 
 #### Control Device (obvious seize)
 
 Take over a camera, turret, maglock, or drone for a short window.
 
 * **Test:** `Data Processing + Computers` **vs** `Rating `.
-* **On hit:** You control it for **Effect + Data Processing** rounds (or until contested). You can issue normal commands.
-* **OS:** +1 per **defender’s Effect** (no Detection Test).
+* **On hit:** You control it for **EFFECT + Data Processing** rounds (or until contested). You can issue normal commands.
+* **OS:** +1 per **defender’s EFFECT** (no Detection Test).
 * **Limits:** You can control up to **Data Processing** devices at once.
 
 #### Snoop (quiet tap)
@@ -2961,7 +3158,7 @@ Read/record a device or node’s traffic.
 #### Encrypt / Decrypt File (quiet)
 
 * **Decrypt Test:** `Data Processing + Computers` **vs** `Encryption Rating`. On hit, you read or remove protection. Then **Detection Test**.
-* **Encrypt Test:** `Data Processing + Computers` sets **Encryption Rating = Effect + Data Processing\`** on the file.
+* **Encrypt Test:** `Data Processing + Computers` sets **Encryption Rating = EFFECT + Data Processing\`** on the file.
 
 #### Spoof Command (quiet one-off)
 
@@ -2989,7 +3186,7 @@ Impersonate an authorized controller for one command.
 If you leave VR without a graceful switch to AR (forced disconnect, Convergence, or Jack Out while link-locked), you take **dumpshock**:
 
 * **DV:** 3S (wireless) or 3P (wired).
-* **Aftershock:** You cannot gain **Bonus Effect** or use **Edge** for `(10 – Tenacity)` minutes.
+* **Aftershock:** You cannot gain **Bonus EFFECT** or use **Edge** for `(10 – Tenacity)` minutes.
 
 ---
 
@@ -3000,16 +3197,16 @@ Use **four** simple IC templates. Skin them however you like.
 All IC use **Host STATIS** and act as independent combatants. Unless stated, they defend with `R + Firewall` and attack with `R + Attack`.
 
 * **Striker (Killer/Blaster blend):**
-  On hit: deal `R + Net Effect` **Matrix** damage.
+  On hit: deal `R + NET EFFECT` **Matrix** damage.
 
 * **Debuffer (Acid/Binder/Marker):**
-  On hit: choose **Firewall, Data Processing, or Sleaze**; reduce that stat by **Net Effect** (to minimum 0) until the intruder leaves the host (recovers at **1 per minute**).
+  On hit: choose **Firewall, Data Processing, or Sleaze**; reduce that stat by **NET EFFECT** (to minimum 0) until the intruder leaves the host (recovers at **1 per minute**).
 
 * **Control (Tar/Scramble):**
   On hit: apply **Link-Lock**. If the same target is hit again while link-locked, they must **Reboot** on their next turn unless they break the lock.
 
 * **Black:**
-  On hit: deal `R + Net Effect` **Biofeedback (Physical)** **and** `R` **Matrix** damage.
+  On hit: deal `R + NET EFFECT` **Biofeedback (Physical)** **and** `R` **Matrix** damage.
 
 **Alert ladder (when to deploy IC)**
 
@@ -3034,16 +3231,16 @@ Common sources: distance, dense walls/earth, water, jammers, spam zones. (Use th
 
 Your deck can run up to its **Active Program Slots**. Unless noted, effects are passive.
 
-* **Stealth:** Advantage on **Detection Tests**.
-* **Exploit:** Advantage on **your next** hacking action (declare first).
+* **Stealth:** ADVANTAGE on **Detection Tests**.
+* **Exploit:** ADVANTAGE on **your next** hacking action (declare first).
 * **Armor:** +2 to your Firewall.
-* **Browse:** On **Matrix Search**, gain **+1 Bonus Effect** (use now or lose).
+* **Browse:** On **Matrix Search**, gain **+1 Bonus EFFECT** (use now or lose).
 * **Signal Scrubber:** –2 **Noise** (min 0).
 * **Toolbox:** +1 **Data Processing**.
 * **Virtual Machine:** +2 program slots; when you take Matrix damage, add **+1 unresisted** so no Firewall.
 * **Blackout:** Your Matrix Attacks also deal **Stun** (biofeedback).
 * **Biofeedback:** Your Matrix Attacks also deal **Physical** (biofeedback).
-* **Overclock (Action):** Spend a slot to add **+2 Bonus Effect** to **one** Matrix action (declare first).
+* **Overclock (Action):** Spend a slot to add **+2 Bonus EFFECT** to **one** Matrix action (declare first).
 * **Baby Monitor:** Always know your **OS** (no action).
 * **Rabbit:** Once per reboot, **reduce OS by 5** (Minor to trigger).
 
